@@ -20,5 +20,5 @@ jobs:
           token: ${{ secrets.ACCESSCODE }}
       - run: ls -l 
       - run: /usr/lib/qt5/bin/lupdate vpn/src/src.pro -ts
-      - run: for f in vpn/translations/; do /usr/lib/qt5/bin/lconvert -i $f -o translationFiles/a.xlf; done;
+      - run: for filename in vpn/translations/*; do /usr/lib/qt5/bin/lconvert -i filename -o translationFiles/${filename%%.*}.xlf; done;
       - run: ls -l /translationFiles/
