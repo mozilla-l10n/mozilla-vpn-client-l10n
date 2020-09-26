@@ -5,6 +5,7 @@ on: workflow_dispatch
 #        - cron:  '*/15 * * * *'
 jobs:
   fetch:
+    runs-on: ubuntu-latest
     container:
         image: alpine
     steps:
