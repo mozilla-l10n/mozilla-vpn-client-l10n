@@ -7,9 +7,9 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     container:
-        image: alpine
+        image: debian
     steps:
-      - run: apk update && apk add qt5-qttools-dev git bash g++ make qt5-qtdeclarative-dev qt5-qtbase-dev
+      - run: apt update && apt install qttools5-dev-tools qt5-default g++ make -y
       - uses: actions/checkout@v2
         with:
           path: "translationFiles"
