@@ -19,5 +19,5 @@ jobs:
           path: "vpn"
           token: ${{ secrets.ACCESSCODE }}
       - run: ls -l 
-      - run: chmod +x translationFiles/import.sh && bash translationFiles/import.sh
+      - run: chmod +x translationFiles/.github/import.sh && bash translationFiles/.github/import.sh
       - run: ls -l translationFiles/
