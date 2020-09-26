@@ -21,6 +21,7 @@ jobs:
       - run: ls -l 
       - run: chmod +x translationFiles/.github/import.sh && bash translationFiles/.github/import.sh
       - run: ls -l translationFiles/
+      - run : git config user.email 'strseb@users.noreply.github.com'
       - uses: peter-evans/create-pull-request@v3
         with: 
           path: "translationFiles"
