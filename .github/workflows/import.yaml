@@ -19,6 +19,6 @@ jobs:
           path: "vpn"
           token: ${{ secrets.ACCESSCODE }}
       - run: ls -l 
-      - run: /usr/lib/qt5/bin/lupdate vpn/src/stc.pro -ts /vpn/translations
+      - run: /usr/lib/qt5/bin/lupdate vpn/src/src.pro -ts /vpn/translations
       - run: for f in /vpn/translations; do /usr/lib/qt5/bin/lconvert -i $f -o translationFiles/a.xlf; done;
       - run: ls -l /translationFiles/
