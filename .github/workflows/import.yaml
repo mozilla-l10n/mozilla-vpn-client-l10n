@@ -1,4 +1,4 @@
-name: importNewStrings 
+name: ImportLanguages
 on: workflow_dispatch 
 jobs:
   fetch:
@@ -22,6 +22,6 @@ jobs:
       - uses: peter-evans/create-pull-request@v3
         with: 
           path: "translationFiles"
-          commit-message: "Auto Commit new Language Strings"
+          commit-message: "Auto Commit new Language Files"
           branch-suffix: "timestamp"
           title: "Import new Language Files"

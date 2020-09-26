@@ -1,4 +1,4 @@
-name: importNewStrings 
+name: UpdateStrings 
 on: workflow_dispatch 
 # We can switch to scheudle later
 #    schedule:
@@ -25,6 +25,6 @@ jobs:
       - uses: peter-evans/create-pull-request@v3
         with: 
           path: "translationFiles"
-          commit-message: "Auto Commit new Language Strings"
+          commit-message: "Auto Commit new Strings"
           branch-suffix: "timestamp"
-          title: "Import new Language Files"
+          title: "Import new Strings"
