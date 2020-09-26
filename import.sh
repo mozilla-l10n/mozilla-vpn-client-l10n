@@ -1,8 +1,8 @@
-#!bin/bash
+#!/usr/bin/bash
 /usr/lib/qt5/bin/lupdate vpn/src/src.pro -ts
 
-for filename in vpn/translations/* do 
+for FILE in vpn/translations/*; do 
 
-/usr/lib/qt5/bin/lconvert -i filename -o translationFiles/${basename filename}.xlf; 
+/usr/lib/qt5/bin/lconvert -i "$FILE" -o translationFiles/"$(basename "$FILE")".xlf
 
 done

@@ -9,7 +9,7 @@ jobs:
     container:
         image: alpine
     steps:
-      - run: apk update && apk add qt5-qttools-dev git bash
+      - run: apk update && apk add qt5-qttools-dev git bash g++ make
       - uses: actions/checkout@v2
         with:
           path: "translationFiles"

@@ -7,4 +7,4 @@
 # To fully customize the contents of this image, use the following Dockerfile instead:
 # https://github.com/microsoft/vscode-dev-containers/tree/v0.128.0/containers/alpine/.devcontainer/base.Dockerfile
 FROM alpine
-RUN apk update && apk add qt5-qttools-dev git
+RUN apk update && apk add qt5-qttools-dev git g++ make
