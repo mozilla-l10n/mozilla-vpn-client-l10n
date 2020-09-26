@@ -1,5 +1,5 @@
 name: importNewStrings 
-on: workflow_dispatch 
+on: push 
 # We can switch to scheudle later
 #    schedule:
 #        - cron:  '*/15 * * * *'
@@ -19,5 +19,5 @@ jobs:
           path: "vpn"
           token: ${{ secrets.ACCESSCODE }}
       - run: ls -l 
-      - run: ./translationFiles/.github/import.sh
+      - run: chmod +x && ./translationFiles/.github/import.sh
       - run: ls -l /translationFiles/
