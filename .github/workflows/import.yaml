@@ -11,5 +11,11 @@ jobs:
     steps:
       - run: apk update && apk add qt5-qttools-dev git
       - uses: actions/checkout@v2
-      - run: npm install -g bats
-      - run: bats -v
+        with:
+          path: "translationFiles"
+      - uses: actions/checkout@v2
+        with:
+          repository: "bakulf/mv"
+          path: "vpn"
+          token: ${{ secrets.ACCESSCODE }}
+      - run: ls -l 
