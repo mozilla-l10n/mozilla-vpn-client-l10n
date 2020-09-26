@@ -21,3 +21,9 @@ jobs:
       - run: ls -l 
       - run: chmod +x translationFiles/.github/import.sh && bash translationFiles/.github/import.sh
       - run: ls -l translationFiles/
+      - uses: peter-evans/create-pull-request@v3
+        with: 
+          path: "translationFiles"
+          commit-message: "Auto Commit new Language Strings"
+          branch-suffix: "timestamp"
+          title: "Import new Language Files"
