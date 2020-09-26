@@ -9,7 +9,9 @@
 /usr/lib/qt5/bin/lupdate vpn/src/src.pro -ts
 
 for FILE in $1/translations/*; do 
-
-/usr/lib/qt5/bin/lconvert -i "$FILE" -o $2/"$(basename "$FILE")".xlf
+if [ -f "$FILE" ]; then
+else 
+    /usr/lib/qt5/bin/lconvert -i "$FILE" -o $2/"$(basename "$FILE")".xlf
+fi
 
 done
