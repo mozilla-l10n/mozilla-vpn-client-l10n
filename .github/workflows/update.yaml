@@ -1,5 +1,8 @@
 name: importNewStrings 
 on: workflow_dispatch 
+# We can switch to scheudle later
+#    schedule:
+#        - cron:  '*/15 * * * *'
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -16,7 +19,7 @@ jobs:
           path: "vpn"
           token: ${{ secrets.ACCESSCODE }}
       - run: ls -l 
-      - run: chmod +x translationFiles/.github/import.sh && bash translationFiles/.github/import.sh vpn/ translationFiles/
+      - run: chmod +x translationFiles/.github/update.sh && bash translationFiles/.github/update.sh vpn/ translationFiles/
       - run: ls -l translationFiles/
       - run : git config --global user.email 'strseb@users.noreply.github.com'
       - uses: peter-evans/create-pull-request@v3
