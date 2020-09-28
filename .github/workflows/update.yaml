@@ -2,6 +2,7 @@ name: UpdateStrings
 on: 
   schedule:
     - cron: '0 12 * * 1-5' #  At 12:00 on day-of-week
+  workflow_dispatch:
 jobs:
   fetch:
     runs-on: ubuntu-latest
