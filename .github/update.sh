@@ -9,10 +9,12 @@
 /usr/lib/qt5/bin/lupdate vpn/src/src.pro -ts
 
 for FILE in $1/translations/*; do 
-if [ -f "$2/$(basename '$FILE').xlf" ]; then
-    echo "$2/$(basename '$FILE').xlf Already Exists, wont import"
+if [ -f "$2/$(basename '$FILE' .ts).xlf" ]; then
+    echo "Updateing $2/$(basename '$FILE' .ts).xlf"
+    /usr/lib/qt5/bin/lconvert -i "$FILE" -i $2/"$(basename "$FILE" .ts)".xlf -o $2/"$(basename "$FILE" .ts)".xlf
 else 
-    /usr/lib/qt5/bin/lconvert -i "$FILE" -i $2/"$(basename "$FILE")".xlf -o $2/"$(basename "$FILE")".xlf
+    echo "Importing $2/$(basename '$FILE' .ts).xlf"
+    /usr/lib/qt5/bin/lconvert -i "$FILE" -o $2/"$(basename "$FILE" .ts)".xlf
 fi
 
 done
