@@ -1,8 +1,7 @@
 name: UpdateStrings 
-on: workflow_dispatch 
-# We can switch to scheudle later
-#    schedule:
-#        - cron:  '*/15 * * * *'
+on: 
+  schedule:
+    - cron: '0 12 * * 1-5' #  At 12:00 on day-of-week
 jobs:
   fetch:
     runs-on: ubuntu-latest
