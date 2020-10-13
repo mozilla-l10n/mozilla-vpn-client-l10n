@@ -15,7 +15,7 @@ jobs:
           path: "translationFiles"
       - uses: actions/checkout@v2
         with:
-          repository: "bakulf/mv"
+          repository: "mozilla-mobile/mozilla-vpn-client"
           path: "vpn"
           token: ${{ secrets.ACCESSCODE }}
       - run: ls -l 
