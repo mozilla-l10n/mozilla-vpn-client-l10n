@@ -51,11 +51,11 @@ for fileName in os.listdir(os.path.join(VPN_PROJECT_DIR, 'translations')):
     if not os.path.exists(outFile):
         # If the file doesn't exist
         print(f'Creating {outFile}')
-        os.system(f'{LCONVERT} -i {filePath} -o {outFile}')
+        os.system(f'{LCONVERT} -i {filePath} -of xlf -o {outFile}')
     else:
         # Keep current translations
         print(f'Updating {outFile}')
-        os.system(f'{LCONVERT} -i {filePath} -i {outFile} -o {outFile}')
+        os.system(f'{LCONVERT} -if ts -i {filePath} -if xlf -i {outFile} -of xlf -o {outFile}')
 
     # Now clean up the new xliff file
     tree = ET.parse(outFile)
