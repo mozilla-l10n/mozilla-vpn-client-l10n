@@ -26,7 +26,7 @@ for folder in os.listdir(OUT_PROJECT_DIR):
         continue
     if not len(folder.split("-")[0]) == 2:
         continue
-    qtTranslationProject.write(f"../mozillavpn_{folder}.ts  \ \n")
+    qtTranslationProject.write(f"../translations/mozillavpn_{folder}.ts  \ \n")
 
 qtTranslationProject.write("\n \n ##End")
 qtTranslationProject.close()
@@ -44,7 +44,6 @@ for fileName in os.listdir(os.path.join(VPN_PROJECT_DIR, 'translations')):
     outPath = os.path.join(OUT_PROJECT_DIR, locale)
     # Create folder for each locale and convert
     # ts file to /{locale}/mozillavpn.xliff
-    print(f'Checking {locale}')
     if not os.path.exists(outPath):
         os.mkdir(outPath)
 
