@@ -1,0 +1,553 @@
+<TS language="de_DE" version="2.1">
+<context>
+    <name />
+    <message id="vpn.turnOffAlert.enabling">
+        <location filename="../src/components/VPNCheckBoxAlert.qml" line="32" />
+        <source>VPN must be off before enabling</source>
+        <extracomment>This is a Setting which requires the VPN to be disconnected to change state</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="vpn.turnOffAlert.disabling">
+        <location filename="../src/components/VPNCheckBoxAlert.qml" line="35" />
+        <source>VPN must be off before disabling</source>
+        <extracomment>This is a Setting which requires the VPN to be disconnected to change state</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="ip">
+        <location filename="../src/components/VPNConnectionInfo.qml" line="113" />
+        <source>IP: %1</source>
+        <extracomment>The Current Ip adress</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="download">
+        <location filename="../src/components/VPNConnectionInfo.qml" line="125" />
+        <source>download</source>
+        <extracomment>the current download speed. The speed is shown at the next line.</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="upload">
+        <location filename="../src/components/VPNConnectionInfo.qml" line="133" />
+        <source>upload</source>
+        <extracomment>the current upload speed</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="close">
+        <location filename="../src/components/VPNConnectionInfo.qml" line="149" />
+        <source>Close</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="checkConnection">
+        <location filename="../src/components/VPNConnectionStability.qml" line="54" />
+        <source>Check Connection</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="myDevices">
+        <location filename="../src/components/VPNControllerDevice.qml" line="22" />
+        <location filename="../src/views/ViewDevices.qml" line="44" />
+        <source>My devices</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="activeVsMaxDeviceCount">
+        <location filename="../src/components/VPNControllerDevice.qml" line="45" />
+        <location filename="../src/components/VPNControllerDevice.qml" line="53" />
+        <source>%1 of %2</source>
+        <extracomment>Context: You have "x of y" (y is max) devices in your account.</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="selectLocation">
+        <location filename="../src/components/VPNControllerServer.qml" line="25" />
+        <location filename="../src/views/ViewServers.qml" line="17" />
+        <source>Select location</source>
+        <extracomment>Select the Location of the VPN server</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="vpn.deactivated">
+        <location filename="../src/components/VPNControllerView.qml" line="42" />
+        <location filename="../src/components/VPNControllerView.qml" line="80" />
+        <location filename="../src/components/VPNControllerView.qml" line="284" />
+        <source>VPN is off</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="vpn.activationSloagan">
+        <location filename="../src/components/VPNControllerView.qml" line="48" />
+        <location filename="../src/components/VPNControllerView.qml" line="85" />
+        <location filename="../src/components/VPNControllerView.qml" line="290" />
+        <source>Turn on to protect your privacy</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="connecting">
+        <location filename="../src/components/VPNControllerView.qml" line="119" />
+        <source>Connecting&#8230;</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="vpn.activating">
+        <location filename="../src/components/VPNControllerView.qml" line="125" />
+        <source>Masking connection and location</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="vpn.activated">
+        <location filename="../src/components/VPNControllerView.qml" line="163" />
+        <source>VPN is on</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="vpn.active">
+        <location filename="../src/components/VPNControllerView.qml" line="169" />
+        <source>Secure and private  &#8226;  </source>
+        <translation type="unfinished" />
+    </message>
+    <message id="vpn.disconnecting">
+        <location filename="../src/components/VPNControllerView.qml" line="202" />
+        <source>Disconnecting&#8230;</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="vpn.deactivating">
+        <location filename="../src/components/VPNControllerView.qml" line="208" />
+        <source>Unmasking connection and location</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="vpn.switching">
+        <location filename="../src/components/VPNControllerView.qml" line="242" />
+        <source>Switching&#8230;</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="vpn.switchingDetail">
+        <location filename="../src/components/VPNControllerView.qml" line="249" />
+        <source>From %1 to %2</source>
+        <extracomment>Switches from location 1 to location 2</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="vpn.info">
+        <location filename="../src/components/VPNControllerView.qml" line="398" />
+        <source>Connection Information</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="settings">
+        <location filename="../src/components/VPNControllerView.qml" line="418" />
+        <source>Settings</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="doDeviceRemoval">
+        <location filename="../src/components/VPNDevicesListHeader.qml" line="33" />
+        <source>Remove a device</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="maxDevicesReached">
+        <location filename="../src/components/VPNDevicesListHeader.qml" line="40" />
+        <source>You've reached your limit. To install the VPN on this device, you'll need to remove one.</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="getHelp">
+        <location filename="../src/components/VPNGetHelp.qml" line="19" />
+        <location filename="../src/settings/ViewSettingsMenu.qml" line="45" />
+        <source>Get Help</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="contactUs">
+        <location filename="../src/components/VPNGetHelp.qml" line="35" />
+        <source>Contact us</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="helpAndSupport">
+        <location filename="../src/components/VPNGetHelp.qml" line="40" />
+        <source>Help &amp; Support</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="viewLog">
+        <location filename="../src/components/VPNGetHelp.qml" line="45" />
+        <source>View log</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="kbps">
+        <location filename="../src/components/VPNGraphLegendMarker.qml" line="20" />
+        <source>Kbps</source>
+        <extracomment>Kilobits per Secound</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="mbps">
+        <location filename="../src/components/VPNGraphLegendMarker.qml" line="26" />
+        <source>Mbps</source>
+        <extracomment>Megabits per Second</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="gbps">
+        <location filename="../src/components/VPNGraphLegendMarker.qml" line="30" />
+        <source>Gbps</source>
+        <extracomment>Gigabits per Second</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="back">
+        <location filename="../src/components/VPNMenu.qml" line="28" />
+        <location filename="../src/settings/ViewSettingsMenu.qml" line="73" />
+        <source>Back</source>
+        <extracomment>Go back</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="signOut">
+        <location filename="../src/components/VPNSignOut.qml" line="7" />
+        <source>Sign Out</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="unstable">
+        <location filename="../src/components/VPNStabilityLabelActions.qml" line="21" />
+        <source>Unstable</source>
+        <extracomment>Unstable Connection</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="noSignal">
+        <location filename="../src/components/VPNStabilityLabelActions.qml" line="23" />
+        <source>No Signal</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="authenticationError">
+        <location filename="../src/components/VPNSystemAlert.qml" line="37" />
+        <source>Authentication error</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="tryAgain">
+        <location filename="../src/components/VPNSystemAlert.qml" line="39" />
+        <location filename="../src/components/VPNSystemAlert.qml" line="51" />
+        <location filename="../src/components/VPNSystemAlert.qml" line="64" />
+        <source>Try again</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="unableToConnect">
+        <location filename="../src/components/VPNSystemAlert.qml" line="50" />
+        <source>Unable to connect</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="noInternet">
+        <location filename="../src/components/VPNSystemAlert.qml" line="63" />
+        <source>No internet connection</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="backgroundServiceError">
+        <location filename="../src/components/VPNSystemAlert.qml" line="75" />
+        <source>Background service error</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="restore">
+        <location filename="../src/components/VPNSystemAlert.qml" line="78" />
+        <source>Restore</source>
+        <extracomment>Restore a service in case of an Error</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="deviceRemovedAndLogout">
+        <location filename="../src/components/VPNSystemAlert.qml" line="88" />
+        <source>Signed out and device removed</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="action.VPN.on">
+        <location filename="../src/components/VPNToggle.qml" line="38" />
+        <source>Turn VPN on</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="vpnIsOff">
+        <location filename="../src/components/VPNToggle.qml" line="40" />
+        <source>VPN is off</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="action.VPN.off">
+        <location filename="../src/components/VPNToggle.qml" line="57" />
+        <source>Turn VPN off</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="vpnIsOn">
+        <location filename="../src/components/VPNToggle.qml" line="59" />
+        <source>VPN is on</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="productName">
+        <location filename="../src/main.qml" line="26" />
+        <location filename="../src/settings/ViewAboutUs.qml" line="52" />
+        <location filename="../src/views/ViewInitialize.qml" line="30" />
+        <source>Mozilla VPN</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="tos">
+        <location filename="../src/settings/ViewAboutUs.qml" line="21" />
+        <source>Terms of Service</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="privacyPolicy">
+        <location filename="../src/settings/ViewAboutUs.qml" line="26" />
+        <source>Privacy Policy</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="aboutUs">
+        <location filename="../src/settings/ViewAboutUs.qml" line="34" />
+        <location filename="../src/settings/ViewSettingsMenu.qml" line="39" />
+        <source>About us</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="productDescription">
+        <location filename="../src/settings/ViewAboutUs.qml" line="57" />
+        <location filename="../src/views/ViewInitialize.qml" line="32" />
+        <location filename="../src/main.cpp" line="43" />
+        <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="releaseVersion">
+        <location filename="../src/settings/ViewAboutUs.qml" line="65" />
+        <source>Release Version</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="language">
+        <location filename="../src/settings/ViewLanguage.qml" line="18" />
+        <location filename="../src/settings/ViewSettingsMenu.qml" line="33" />
+        <source>Language</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="system">
+        <location filename="../src/settings/ViewLanguage.qml" line="50" />
+        <source>System</source>
+        <extracomment>The system language</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="additional">
+        <location filename="../src/settings/ViewLanguage.qml" line="79" />
+        <source>Additional</source>
+        <extracomment>List of the additional languages</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="networkSettings">
+        <location filename="../src/settings/ViewNetworkSettings.qml" line="19" />
+        <location filename="../src/settings/ViewSettingsMenu.qml" line="27" />
+        <source>Network settings</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="ipv6">
+        <location filename="../src/settings/ViewNetworkSettings.qml" line="31" />
+        <source>IPv6</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="ipv6.description">
+        <location filename="../src/settings/ViewNetworkSettings.qml" line="33" />
+        <source>Push the internet forward with the latest version of the Internet Protocol</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="lanAccess">
+        <location filename="../src/settings/ViewNetworkSettings.qml" line="45" />
+        <source>Local network access</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="lanAccess.description">
+        <location filename="../src/settings/ViewNetworkSettings.qml" line="47" />
+        <source>Access printers, streaming sticks and all other devices on your local network</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="notifications">
+        <location filename="../src/settings/ViewNotifications.qml" line="17" />
+        <location filename="../src/settings/ViewSettingsMenu.qml" line="21" />
+        <source>Notifications</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="guestWifiAlert">
+        <location filename="../src/settings/ViewNotifications.qml" line="43" />
+        <source>Guest Wi-Fi portal alert</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="guestWifiAlert.description">
+        <location filename="../src/settings/ViewNotifications.qml" line="45" />
+        <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="giveFeedback">
+        <location filename="../src/settings/ViewSettingsMenu.qml" line="52" />
+        <source>Give feedback</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="vpnUser">
+        <location filename="../src/settings/ViewSettingsMenu.qml" line="112" />
+        <source>VPN User</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="manageAccount">
+        <location filename="../src/settings/ViewSettingsMenu.qml" line="126" />
+        <location filename="../src/views/ViewUpdate.qml" line="196" />
+        <source>Manage account</source>
+        <extracomment>"Manage account"</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="runOnBoot">
+        <location filename="../src/settings/ViewSettingsMenu.qml" line="136" />
+        <source>Launch VPN app on Startup</source>
+        <extracomment>The back of the object, not the front</extracomment>
+        <translation type="unfinished" />
+    </message>
+    <message id="waitForSignIn">
+        <location filename="../src/states/StateAuthenticating.qml" line="15" />
+        <source>Waiting for sign in and subscription confirmation&#8230;</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="cancelAndRetry">
+        <location filename="../src/states/StateAuthenticating.qml" line="43" />
+        <source>Cancel and try again</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="quickAccess">
+        <location filename="../src/states/StatePostAuthentication.qml" line="18" />
+        <source>Quick access</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="statusBarIntro">
+        <location filename="../src/states/StatePostAuthentication.qml" line="26" />
+        <source>You can quickly access Mozilla VPN from your status bar.</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="wip">
+        <location filename="../src/states/StatePostAuthentication.qml" line="59" />
+        <source>WIP</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="continue">
+        <location filename="../src/states/StatePostAuthentication.qml" line="92" />
+        <source>Continue</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="subscriptionNeeded">
+        <location filename="../src/states/StateSubscriptionNeeded.qml" line="17" />
+        <source>Subscription needed</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="subscribeNow">
+        <location filename="../src/states/StateSubscriptionNeeded.qml" line="23" />
+        <source>Subscribe now</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="currentDevice">
+        <location filename="../src/views/ViewDevices.qml" line="112" />
+        <source>Current Device</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="addedltHour">
+        <location filename="../src/views/ViewDevices.qml" line="120" />
+        <source>Added less than an hour ago</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="addedXhoursAgo">
+        <location filename="../src/views/ViewDevices.qml" line="125" />
+        <source>Added %1 hours ago</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="addedXdaysAgo">
+        <location filename="../src/views/ViewDevices.qml" line="129" />
+        <source>Added %1 days ago</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="remove">
+        <location filename="../src/views/ViewDevices.qml" line="160" />
+        <location filename="../src/views/ViewDevices.qml" line="354" />
+        <source>Remove</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="removeDeviceQuestion">
+        <location filename="../src/views/ViewDevices.qml" line="317" />
+        <source>Remove device?</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="deviceRemovalConfirm">
+        <location filename="../src/views/ViewDevices.qml" line="326" />
+        <source>Please confirm you would like to remove\n%1.</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="cancel">
+        <location filename="../src/views/ViewDevices.qml" line="346" />
+        <source>Cancel</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="getStarted">
+        <location filename="../src/views/ViewInitialize.qml" line="41" />
+        <source>Get started</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="learnMore">
+        <location filename="../src/views/ViewInitialize.qml" line="54" />
+        <source>Learn more</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="newVersionAvailable">
+        <location filename="../src/views/ViewMain.qml" line="28" />
+        <source>New version is available.</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="updateNow">
+        <location filename="../src/views/ViewMain.qml" line="30" />
+        <location filename="../src/views/ViewUpdate.qml" line="180" />
+        <source>Update now</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="updateRecomended">
+        <location filename="../src/views/ViewUpdate.qml" line="24" />
+        <source>Update recommended</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="updateRecomended.description">
+        <location filename="../src/views/ViewUpdate.qml" line="26" />
+        <source>Please update the app before you\ncontinue to use the VPN</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="updateRequired">
+        <location filename="../src/views/ViewUpdate.qml" line="58" />
+        <source>Update Required</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="updateRequire.reason">
+        <location filename="../src/views/ViewUpdate.qml" line="60" />
+        <source>We detected and fixed a serious bug.\nYou must update your app.</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="updateConnectionInsecureWarning">
+        <location filename="../src/views/ViewUpdate.qml" line="172" />
+        <source>Your connection will not be secure while you update.</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="notNow">
+        <location filename="../src/views/ViewUpdate.qml" line="194" />
+        <source>Not now</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="unknown">
+        <location filename="../src/connectiondataholder.cpp" line="24" />
+        <source>Unknown</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="startMinimized">
+        <location filename="../src/main.cpp" line="50" />
+        <source>Start minimized</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="startOnBoot">
+        <location filename="../src/main.cpp" line="56" />
+        <source>Start at boot (if configured)</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="systrayQuit">
+        <location filename="../src/systemtrayhandler.cpp" line="14" />
+        <source>Quit</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="systrayStatusConnected">
+        <location filename="../src/systemtrayhandler.cpp" line="29" />
+        <source>Mozilla VPN connected</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="TODO">
+        <location filename="../src/systemtrayhandler.cpp" line="29" />
+        <location filename="../src/systemtrayhandler.cpp" line="34" />
+        <location filename="../src/systemtrayhandler.cpp" line="40" />
+        <source />
+        <translation type="unfinished" />
+    </message>
+    <message id="systrayStatusDisconnected">
+        <location filename="../src/systemtrayhandler.cpp" line="34" />
+        <source>Mozilla VPN disconnected</source>
+        <translation type="unfinished" />
+    </message>
+    <message id="systrayStatusSwitch">
+        <location filename="../src/systemtrayhandler.cpp" line="40" />
+        <source>Mozilla VPN switching</source>
+        <extracomment>This message is shown when the VPN is switching to a different server in a different location.</extracomment>
+        <translation type="unfinished" />
+    </message>
+</context>
+</TS>
