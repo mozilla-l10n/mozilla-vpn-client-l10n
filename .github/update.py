@@ -35,6 +35,7 @@ srcFile = os.path.join(VPN_PROJECT_DIR, 'src', 'src.pro')
 os.system(f'lupdate {srcFile} -ts')
 
 for fileName in os.listdir(os.path.join(VPN_PROJECT_DIR, 'translations')):
+    print(f'Reading {fileName}')
     if (not fileName.endswith('.ts')):
         continue
     filePath = os.path.join(VPN_PROJECT_DIR, 'translations', fileName)
@@ -45,6 +46,7 @@ for fileName in os.listdir(os.path.join(VPN_PROJECT_DIR, 'translations')):
     # Create folder for each locale and convert
     # ts file to /{locale}/mozillavpn.xliff
     if not os.path.exists(outPath):
+        print(f'Create Folder for {locale}')
         os.mkdir(outPath)
 
     outFile = os.path.join(outPath, f'{baseName}.xliff')
