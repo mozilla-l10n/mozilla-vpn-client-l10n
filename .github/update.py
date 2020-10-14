@@ -26,7 +26,7 @@ for folder in os.listdir(OUT_PROJECT_DIR):
         continue
     if not len(folder.split("-")[0]) == 2:
         continue
-    qtTranslationProject.write(f"../mozillavpn_{folder}.ts  \ \n")
+    qtTranslationProject.write(f"../translations/mozillavpn_{folder}.ts  \ \n")
 
 qtTranslationProject.write("\n \n ##End")
 qtTranslationProject.close()
