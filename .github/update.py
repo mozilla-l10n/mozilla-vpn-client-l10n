@@ -18,6 +18,19 @@ OUT_PROJECT_DIR = 'translationFiles'
 LCONVERT = 'lconvert'
 
 # Make sure the Target ts files are up to date
+# Generate a translations.pri containing all languages in this repo
+qtTranslationProject = open(os.path.join(VPN_PROJECT_DIR,"translations","translations.pri"), "w")
+qtTranslationProject.write("TRANSLATIONS += \ \n")
+for folder in os.listdir(OUT_PROJECT_DIR):
+    if not os.path.isdir(os.path.join(OUT_PROJECT_DIR, folder)):
+        continue
+    if not len(folder.split("-")[0]) == 2:
+        continue
+    qtTranslationProject.write(f"../mozillavpn_{folder}.ts  \ \n")
+
+qtTranslationProject.write("\n \n ##End")
+qtTranslationProject.close()
+
 srcFile = os.path.join(VPN_PROJECT_DIR, 'src', 'src.pro')
 os.system(f'lupdate {srcFile} -ts')
 
