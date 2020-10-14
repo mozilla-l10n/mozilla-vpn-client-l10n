@@ -1,5 +1,5 @@
-name: UpdateStrings 
-on: 
+name: UpdateStrings
+on:
   schedule:
     - cron: '0 12 * * 1' #  At 12:00 on every Monday
   workflow_dispatch:
@@ -18,12 +18,12 @@ jobs:
           repository: "mozilla-mobile/mozilla-vpn-client"
           path: "vpn"
           token: ${{ secrets.ACCESSCODE }}
-      - run: ls -l 
-      - run: chmod +x translationFiles/.github/update.sh && python3 translationFiles/.github/update.py
+      - run: ls -l
+      - run: python3 translationFiles/.github/update.py
       - run: ls -l translationFiles/
       - run : git config --global user.email 'strseb@users.noreply.github.com'
       - uses: peter-evans/create-pull-request@v3
-        with: 
+        with:
           path: "translationFiles"
           commit-message: "Auto Commit new Strings"
           branch-suffix: "timestamp"
