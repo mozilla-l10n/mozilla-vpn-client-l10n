@@ -8,15 +8,15 @@
 LUPDATE=$(which lupdate)
 LCONVERT=$(which lconvert)
 
-LUPDATE vpn/src/src.pro -ts
+$LUPDATE "$1/src/src.pro" -ts
 
 for FILE in $1/translations/*; do
-    OUT_FILE="$2/$(basename '$FILE' .ts).xliff"
+    OUT_FILE="$2/$(basename $FILE .ts).xliff"
     if [ -f $OUT_FILE ]; then
         echo "Updating $OUT_FILE"
-        LCONVERT -i "$FILE" -i $OUT_FILE -o $OUT_FILE
+        $LCONVERT -if xlf -i "$FILE" -i $OUT_FILE -of xlf -o $OUT_FILE
     else
         echo "Importing $OUT_FILE"
-        LCONVERT -i "$FILE" -o $OUT_FILE
+        $LCONVERT -if xlf -i "$FILE" -of xlf -o $OUT_FILE
     fi
 done
