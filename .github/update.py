@@ -30,12 +30,12 @@ for fileName in os.listdir(os.path.join(VPN_PROJECT_DIR, 'translations')):
     baseName = fileName.split('_')[0] # mozillavpn
     outPath = os.path.join(OUT_PROJECT_DIR, locale)
     # Create folder for each locale and convert
-    # ts file to /{locale}/mozillavpn.xlf
+    # ts file to /{locale}/mozillavpn.xliff
     print(f'Checking {locale}')
     if not os.path.exists(outPath):
         os.mkdir(outPath)
 
-    outFile = os.path.join(outPath, f'{baseName}.xlf')
+    outFile = os.path.join(outPath, f'{baseName}.xliff')
     if not os.path.exists(outFile):
         # If the file doesn't exist
         print(f'Creating {outFile}')

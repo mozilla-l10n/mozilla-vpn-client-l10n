@@ -11,12 +11,12 @@ LCONVERT=$(which lconvert)
 LUPDATE vpn/src/src.pro -ts
 
 for FILE in $1/translations/*; do
-if [ -f "$2/$(basename '$FILE' .ts).xlf" ]; then
-    echo "Updating $2/$(basename '$FILE' .ts).xlf"
-    LCONVERT -i "$FILE" -i $2/"$(basename "$FILE" .ts)".xlf -o $2/"$(basename "$FILE" .ts)".xlf
+if [ -f "$2/$(basename '$FILE' .ts).xliff" ]; then
+    echo "Updating $2/$(basename '$FILE' .ts).xliff"
+    LCONVERT -i "$FILE" -i $2/"$(basename "$FILE" .ts)".xliff -o $2/"$(basename "$FILE" .ts)".xliff
 else
-    echo "Importing $2/$(basename '$FILE' .ts).xlf"
-    LCONVERT -i "$FILE" -o $2/"$(basename "$FILE" .ts)".xlf
+    echo "Importing $2/$(basename '$FILE' .ts).xliff"
+    LCONVERT -i "$FILE" -o $2/"$(basename "$FILE" .ts)".xliff
 fi
 
 done
