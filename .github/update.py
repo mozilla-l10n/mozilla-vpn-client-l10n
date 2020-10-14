@@ -4,9 +4,6 @@
 
 import xml.etree.ElementTree as ET
 import os
-import shutil
-import html
-from xml.sax import saxutils as su
 
 ET.register_namespace('', 'urn:oasis:names:tc:xliff:document:1.2')
 ET.register_namespace('qt', 'urn:trolltech:names:ts:document:1.0')
@@ -14,22 +11,20 @@ ET.register_namespace('qt', 'urn:trolltech:names:ts:document:1.0')
 VPN_PROJECT_DIR = 'vpn'
 OUT_PROJECT_DIR = 'translationFiles'
 
-#LCONVERT = '/usr/lib/qt5/bin/lconvert'
-LCONVERT = 'lconvert'
+IGNORED_FOLDERS = ['.github', '.git']
 
 # Make sure the Target ts files are up to date
 # Generate a translations.pri containing all languages in this repo
-qtTranslationProject = open(os.path.join(VPN_PROJECT_DIR,"translations","translations.pri"), "w")
-qtTranslationProject.write("TRANSLATIONS += \ \n")
-for folder in os.listdir(OUT_PROJECT_DIR):
-    if not os.path.isdir(os.path.join(OUT_PROJECT_DIR, folder)):
-        continue
-    if not len(folder.split("-")[0]) == 2:
-        continue
-    qtTranslationProject.write(f"../translations/mozillavpn_{folder}.ts  \ \n")
 
-qtTranslationProject.write("\n \n ##End")
-qtTranslationProject.close()
+with open(os.path.join(VPN_PROJECT_DIR, 'translations', 'translations.pri'), 'w') as qtTranslationProject:
+    qtTranslationProject.write('TRANSLATIONS += \\ \n')
+    for folder in os.listdir(OUT_PROJECT_DIR):
+        if not os.path.isdir(os.path.join(OUT_PROJECT_DIR, folder)):
+            continue
+        if folder in IGNORED_FOLDERS:
+            continue
+        qtTranslationProject.write(f'../translations/mozillavpn_{folder}.ts  \\ \n')
+    qtTranslationProject.write('\n \n ##End')
 
 srcFile = os.path.join(VPN_PROJECT_DIR, 'src', 'src.pro')
 os.system(f'lupdate {srcFile} -ts')
@@ -39,8 +34,8 @@ for fileName in os.listdir(os.path.join(VPN_PROJECT_DIR, 'translations')):
         continue
     filePath = os.path.join(VPN_PROJECT_DIR, 'translations', fileName)
     # Usual filename: mozillavpn_zh-cn.ts
-    locale = fileName.split('_')[1].split('.')[0] # de, zh-cn, etc.
-    baseName = fileName.split('_')[0] # mozillavpn
+    locale = fileName.split('_')[1].split('.')[0]  # de, zh-cn, etc.
+    baseName = fileName.split('_')[0]  # mozillavpn
     outPath = os.path.join(OUT_PROJECT_DIR, locale)
     # Create folder for each locale and convert
     # ts file to /{locale}/mozillavpn.xliff
@@ -51,11 +46,11 @@ for fileName in os.listdir(os.path.join(VPN_PROJECT_DIR, 'translations')):
     if not os.path.exists(outFile):
         # If the file doesn't exist
         print(f'Creating {outFile}')
-        os.system(f'{LCONVERT} -i {filePath} -of xlf -o {outFile}')
+        os.system(f'lconvert -i {filePath} -of xlf -o {outFile}')
     else:
         # Keep current translations
         print(f'Updating {outFile}')
-        os.system(f'{LCONVERT} -if ts -i {filePath} -if xlf -i {outFile} -of xlf -o {outFile}')
+        os.system(f'lconvert -if ts -i {filePath} -if xlf -i {outFile} -of xlf -o {outFile}')
 
     # Now clean up the new xliff file
     tree = ET.parse(outFile)
