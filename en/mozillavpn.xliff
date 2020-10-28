@@ -15,17 +15,17 @@
     <trans-unit id="vpn.connectionInfo.ip">
       <source xml:space="preserve">IP: %1</source>
       <context-group purpose="location"><context context-type="linenumber">118</context></context-group>
-      <note annotates="source" from="developer">The Current Ip adress</note>
+      <note annotates="source" from="developer">The current IP address</note>
     </trans-unit>
     <trans-unit id="vpn.connectionInfo.download">
       <source xml:space="preserve">Download</source>
       <context-group purpose="location"><context context-type="linenumber">130</context></context-group>
-      <note annotates="source" from="developer">the current download speed. The speed is shown at the next line.</note>
+      <note annotates="source" from="developer">The current download speed. The speed is shown on the next line.</note>
     </trans-unit>
     <trans-unit id="vpn.connectionInfo.upload">
       <source xml:space="preserve">Upload</source>
       <context-group purpose="location"><context context-type="linenumber">138</context></context-group>
-      <note annotates="source" from="developer">the current upload speed</note>
+      <note annotates="source" from="developer">The current upload speed. The speed is shown on the next line.</note>
     </trans-unit>
     <trans-unit id="vpn.connectionInfo.close">
       <source xml:space="preserve">Close</source>
@@ -50,7 +50,7 @@
       <context-group purpose="location"><context context-type="linenumber">46</context></context-group>
       <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewDevices.qml</context><context context-type="linenumber">23</context></context-group>
       <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewDevices.qml</context><context context-type="linenumber">32</context></context-group>
-      <note annotates="source" from="developer">Context: You have "x of y" (y is max) devices in your account.</note>
+      <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.</note>
     </trans-unit>
   </body></file>
   <file datatype="plaintext" original="../src/ui/components/VPNControllerServer.qml" source-language="en" target-language="en-US"><body>
@@ -71,15 +71,15 @@
       <source xml:space="preserve">VPN is off</source>
       <context-group purpose="location"><context context-type="linenumber">50</context></context-group>
       <context-group purpose="location"><context context-type="linenumber">97</context></context-group>
-      <context-group purpose="location"><context context-type="linenumber">346</context></context-group>
-      <context-group purpose="location"><context context-type="linenumber">394</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">347</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">395</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.controller.activationSloagan">
       <source xml:space="preserve">Turn on to protect your privacy</source>
       <context-group purpose="location"><context context-type="linenumber">57</context></context-group>
       <context-group purpose="location"><context context-type="linenumber">103</context></context-group>
-      <context-group purpose="location"><context context-type="linenumber">353</context></context-group>
-      <context-group purpose="location"><context context-type="linenumber">401</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">354</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">402</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.controller.connecting">
       <source xml:space="preserve">Connecting</source>
@@ -95,32 +95,33 @@
     </trans-unit>
     <trans-unit id="vpn.controller.active">
       <source xml:space="preserve">Secure and private</source>
-      <context-group purpose="location"><context context-type="linenumber">206</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">207</context></context-group>
+      <note annotates="source" from="developer">Refers to the state of the users current internet connection</note>
     </trans-unit>
     <trans-unit id="vpn.controller.disconnecting">
       <source xml:space="preserve">Disconnecting&#8230;</source>
-      <context-group purpose="location"><context context-type="linenumber">246</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">247</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.controller.deactivating">
       <source xml:space="preserve">Unmasking connection and location</source>
-      <context-group purpose="location"><context context-type="linenumber">253</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">254</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.controller.switching">
       <source xml:space="preserve">Switching&#8230;</source>
-      <context-group purpose="location"><context context-type="linenumber">295</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">296</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.controller.switchingDetail">
       <source xml:space="preserve">From %1 to %2</source>
-      <context-group purpose="location"><context context-type="linenumber">303</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">304</context></context-group>
       <note annotates="source" from="developer">Switches from location 1 to location 2</note>
     </trans-unit>
     <trans-unit id="vpn.controller.info">
       <source xml:space="preserve">Connection Information</source>
-      <context-group purpose="location"><context context-type="linenumber">506</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">507</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.main.settings">
       <source xml:space="preserve">Settings</source>
-      <context-group purpose="location"><context context-type="linenumber">536</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">537</context></context-group>
       <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewSettingsMenu.qml</context><context context-type="linenumber">182</context></context-group>
     </trans-unit>
   </body></file>
@@ -157,12 +158,12 @@
   <file datatype="plaintext" original="../src/ui/components/VPNGraphLegendMarker.qml" source-language="en" target-language="en-US"><body>
     <trans-unit id="vpn.connectionInfo.kbps">
       <source xml:space="preserve">Kbps</source>
-      <context-group purpose="location"><context context-type="linenumber">19</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">17</context></context-group>
       <note annotates="source" from="developer">Kilobits per Secound</note>
     </trans-unit>
     <trans-unit id="vpn.connectioInfo.mbps">
       <source xml:space="preserve">Mbps</source>
-      <context-group purpose="location"><context context-type="linenumber">24</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">23</context></context-group>
       <note annotates="source" from="developer">Megabits per Second</note>
     </trans-unit>
     <trans-unit id="vpn.connectionInfo.gbps">
@@ -277,7 +278,8 @@
     </trans-unit>
     <trans-unit id="vpn.aboutUs.releaseVersion">
       <source xml:space="preserve">Release Version</source>
-      <context-group purpose="location"><context context-type="linenumber">71</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">72</context></context-group>
+      <note annotates="source" from="developer">Refers to the installed version; Example - "Release Version: 1.23"</note>
     </trans-unit>
   </body></file>
   <file datatype="plaintext" original="../src/ui/settings/ViewLanguage.qml" source-language="en" target-language="en-US"><body>
@@ -402,44 +404,46 @@
   <file datatype="plaintext" original="../src/ui/views/ViewDevices.qml" source-language="en" target-language="en-US"><body>
     <trans-unit id="vpn.devices.deviceAccessibleName">
       <source xml:space="preserve">%1 %2</source>
-      <context-group purpose="location"><context context-type="linenumber">71</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">72</context></context-group>
+      <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
     </trans-unit>
     <trans-unit id="vpn.devices.currentDevice">
       <source xml:space="preserve">Current Device</source>
-      <context-group purpose="location"><context context-type="linenumber">129</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">130</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.devices.addedltHour">
       <source xml:space="preserve">Added less than an hour ago</source>
-      <context-group purpose="location"><context context-type="linenumber">134</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">135</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.devices.addedXhoursAgo">
       <source xml:space="preserve">Added a few hours ago (%1)</source>
-      <context-group purpose="location"><context context-type="linenumber">138</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">139</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.devices.addedXdaysAgo">
       <source xml:space="preserve">Added %1 days ago</source>
-      <context-group purpose="location"><context context-type="linenumber">141</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">142</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.devices.removeA11Y">
       <source xml:space="preserve">Remove %1</source>
-      <context-group purpose="location"><context context-type="linenumber">172</context></context-group>
-      <note annotates="source" from="developer">"This is a label to make the icon button accessible</note>
+      <context-group purpose="location"><context context-type="linenumber">173</context></context-group>
+      <note annotates="source" from="developer">Label used for accessibility on the button to remove a device</note>
     </trans-unit>
     <trans-unit id="vpn.devices.removeDeviceQuestion">
       <source xml:space="preserve">Remove device?</source>
-      <context-group purpose="location"><context context-type="linenumber">389</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">390</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.devices.deviceRemovalConfirm">
       <source xml:space="preserve">Please confirm you would like to remove\n%1.</source>
-      <context-group purpose="location"><context context-type="linenumber">398</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">400</context></context-group>
+      <note annotates="source" from="developer">%1 is the name of the device being removed. "\n" is used to display it on a new line, please keep it in the translation.</note>
     </trans-unit>
     <trans-unit id="vpn.devices.cancelDeviceRemoval">
       <source xml:space="preserve">Cancel</source>
-      <context-group purpose="location"><context context-type="linenumber">417</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">419</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.devices.removeDeviceButton">
       <source xml:space="preserve">Remove</source>
-      <context-group purpose="location"><context context-type="linenumber">428</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">430</context></context-group>
       <note annotates="source" from="developer">"This is the 'remove' device button.</note>
     </trans-unit>
   </body></file>
@@ -447,7 +451,7 @@
     <trans-unit id="vpn.main.getStarted">
       <source xml:space="preserve">Get started</source>
       <context-group purpose="location"><context context-type="linenumber">43</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewOnboarding.qml</context><context context-type="linenumber">57</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewOnboarding.qml</context><context context-type="linenumber">69</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.main.learnMore">
       <source xml:space="preserve">Learn more</source>
@@ -468,11 +472,11 @@
   <file datatype="plaintext" original="../src/ui/views/ViewOnboarding.qml" source-language="en" target-language="en-US"><body>
     <trans-unit id="vpn.onboarding.skip">
       <source xml:space="preserve">Skip</source>
-      <context-group purpose="location"><context context-type="linenumber">26</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">58</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.onboarding.next">
       <source xml:space="preserve">Next</source>
-      <context-group purpose="location"><context context-type="linenumber">54</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">66</context></context-group>
     </trans-unit>
   </body></file>
   <file datatype="plaintext" original="../src/ui/views/ViewUpdate.qml" source-language="en" target-language="en-US"><body>
@@ -504,8 +508,8 @@
   <file datatype="cpp" original="../src/connectiondataholder.cpp" source-language="en" target-language="en-US"><body>
     <trans-unit id="vpn.connectionInfo.unknown">
       <source xml:space="preserve">Unknown</source>
-      <context-group purpose="location"><context context-type="linenumber">29</context></context-group>
-      <note annotates="source" from="developer">Context - "The current ip-address is: unknown"</note>
+      <context-group purpose="location"><context context-type="linenumber">23</context></context-group>
+      <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Unknown".</note>
     </trans-unit>
   </body></file>
   <file datatype="cpp" original="../src/main.cpp" source-language="en" target-language="en-US"><body>
@@ -521,30 +525,31 @@
   <file datatype="cpp" original="../src/systemtrayhandler.cpp" source-language="en" target-language="en-US"><body>
     <trans-unit id="systray.quit">
       <source xml:space="preserve">Quit</source>
-      <context-group purpose="location"><context context-type="linenumber">18</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">26</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.systray.statusConnected">
       <source xml:space="preserve">Mozilla VPN connected</source>
-      <context-group purpose="location"><context context-type="linenumber">33</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">50</context></context-group>
     </trans-unit>
     <trans-unit id="TODO">
       <source xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">33</context></context-group>
-      <context-group purpose="location"><context context-type="linenumber">38</context></context-group>
-      <context-group purpose="location"><context context-type="linenumber">44</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">50</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">56</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">63</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">82</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.systray.statusDisconnected">
       <source xml:space="preserve">Mozilla VPN disconnected</source>
-      <context-group purpose="location"><context context-type="linenumber">38</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">56</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.systray.statusSwitch">
       <source xml:space="preserve">Mozilla VPN switching</source>
-      <context-group purpose="location"><context context-type="linenumber">44</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">63</context></context-group>
       <note annotates="source" from="developer">This message is shown when the VPN is switching to a different server in a different location.</note>
     </trans-unit>
     <trans-unit id="vpn.systray.captivePortalAlert">
       <source xml:space="preserve">Captive portal detected</source>
-      <context-group purpose="location"><context context-type="linenumber">57</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">82</context></context-group>
     </trans-unit>
     <group resname="SystemTrayHandler" restype="x-trolltech-linguist-context">
       <trans-unit id="_msg1">
@@ -552,5 +557,12 @@
         <context-group purpose="location"><context context-type="linenumber">57</context></context-group>
       </trans-unit>
     </group>
+  </body></file>
+  <file datatype="plaintext" original="../src/ui/components/VPNServerCountry.qml" source-language="en" target-language="en-US"><body>
+    <trans-unit id="cities">
+      <source xml:space="preserve">Cities</source>
+      <context-group purpose="location"><context context-type="linenumber">162</context></context-group>
+      <note annotates="source" from="developer">The title of the cities list.</note>
+    </trans-unit>
   </body></file>
 </xliff>
