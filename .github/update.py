@@ -14,19 +14,12 @@ OUT_PROJECT_DIR = 'translationFiles'
 srcFile = os.path.join(VPN_PROJECT_DIR, 'src', 'src.pro')
 os.system(f'lupdate {srcFile} -ts')
 
-fileName = "mozillavpn_en.ts"
-filePath = os.path.join(VPN_PROJECT_DIR, 'translations', fileName)
-# Usual filename: mozillavpn_zh-cn.ts
-locale = fileName.split('_')[1].split('.')[0]  # de, zh-cn, etc.
-baseName = fileName.split('_')[0]  # mozillavpn
-outPath = os.path.join(OUT_PROJECT_DIR, locale)
-outFile = os.path.join(outPath, f'{baseName}.xliff')
-# Create folder for each locale and convert
-# ts file to /{locale}/mozillavpn.xliff
+filePath = os.path.join(VPN_PROJECT_DIR, 'translations', 'mozillavpn_en.ts')
+outFile = os.path.join(OUT_PROJECT_DIR, 'en', 'mozillavpn.xliff')
 
 # Keep current translations
 print(f'Updating {outFile}')
-os.system(f'lconvert -if xlf -i {outFile} -if ts -i {filePath}  -of xlf -o {outFile}')
+os.system(f'lconvert -if ts -i {filePath} -of xlf -o {outFile}')
 
 # Now clean up the new xliff file
 tree = ET.parse(outFile)
