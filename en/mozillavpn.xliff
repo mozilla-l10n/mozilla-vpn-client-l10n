@@ -180,6 +180,13 @@
       <note annotates="source" from="developer">Go back</note>
     </trans-unit>
   </body></file>
+  <file datatype="plaintext" original="../src/ui/components/VPNServerCountry.qml" source-language="en" target-language="en-US"><body>
+    <trans-unit id="cities">
+      <source xml:space="preserve">Cities</source>
+      <context-group purpose="location"><context context-type="linenumber">162</context></context-group>
+      <note annotates="source" from="developer">The title of the cities list.</note>
+    </trans-unit>
+  </body></file>
   <file datatype="plaintext" original="../src/ui/components/VPNSignOut.qml" source-language="en" target-language="en-US"><body>
     <trans-unit id="vpn.main.signOut">
       <source xml:space="preserve">Sign Out</source>
@@ -459,6 +466,10 @@
     </trans-unit>
   </body></file>
   <file datatype="plaintext" original="../src/ui/views/ViewMain.qml" source-language="en" target-language="en-US"><body>
+    <trans-unit id="MozillaVPN">
+      <source xml:space="preserve">Mozilla VPN</source>
+      <context-group purpose="location"><context context-type="linenumber">92</context></context-group>
+    </trans-unit>
     <trans-unit id="vpn.updates.newVersionAvailable">
       <source xml:space="preserve">New version is available.</source>
       <context-group purpose="location"><context context-type="linenumber">27</context></context-group>
@@ -527,6 +538,10 @@
       <source xml:space="preserve">Quit</source>
       <context-group purpose="location"><context context-type="linenumber">26</context></context-group>
     </trans-unit>
+    <trans-unit id="vpn.systray.statusConnected.title">
+      <source xml:space="preserve">VPN Connected</source>
+      <context-group purpose="location"><context context-type="linenumber">48</context></context-group>
+    </trans-unit>
     <trans-unit id="vpn.systray.statusConnected">
       <source xml:space="preserve">Mozilla VPN connected</source>
       <context-group purpose="location"><context context-type="linenumber">50</context></context-group>
@@ -538,18 +553,50 @@
       <context-group purpose="location"><context context-type="linenumber">63</context></context-group>
       <context-group purpose="location"><context context-type="linenumber">82</context></context-group>
     </trans-unit>
+    <trans-unit id="vpn.systray.statusConnected.message">
+      <source xml:space="preserve">Connected to %1, %2</source>
+      <context-group purpose="location"><context context-type="linenumber">51</context></context-group>
+      <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
+    </trans-unit>
     <trans-unit id="vpn.systray.statusDisconnected">
       <source xml:space="preserve">Mozilla VPN disconnected</source>
       <context-group purpose="location"><context context-type="linenumber">56</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.systray.statusDisconnected.title">
+      <source xml:space="preserve">VPN Disconnected</source>
+      <context-group purpose="location"><context context-type="linenumber">58</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.systray.statusDisconnected.message">
+      <source xml:space="preserve">Disconnected from to %1, %2</source>
+      <context-group purpose="location"><context context-type="linenumber">61</context></context-group>
+      <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
     </trans-unit>
     <trans-unit id="vpn.systray.statusSwitch">
       <source xml:space="preserve">Mozilla VPN switching</source>
       <context-group purpose="location"><context context-type="linenumber">63</context></context-group>
       <note annotates="source" from="developer">This message is shown when the VPN is switching to a different server in a different location.</note>
     </trans-unit>
+    <trans-unit id="vpn.systray.statusSwitch.title">
+      <source xml:space="preserve">VPN Switched Servers</source>
+      <context-group purpose="location"><context context-type="linenumber">68</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.systray.statusSwtich.message">
+      <source xml:space="preserve">Switched from %1, %2 to %3, %4</source>
+      <context-group purpose="location"><context context-type="linenumber">71</context></context-group>
+      <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
+    </trans-unit>
     <trans-unit id="vpn.systray.captivePortalAlert">
       <source xml:space="preserve">Captive portal detected</source>
       <context-group purpose="location"><context context-type="linenumber">82</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.systray.captivePortalAlert.title">
+      <source xml:space="preserve">Captive portal detected</source>
+      <context-group purpose="location"><context context-type="linenumber">93</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.systray.captivePortalAlert.message">
+      <source xml:space="preserve">VPN will automatically reconnect when ready
+</source>
+      <context-group purpose="location"><context context-type="linenumber">95</context></context-group>
     </trans-unit>
     <group resname="SystemTrayHandler" restype="x-trolltech-linguist-context">
       <trans-unit id="_msg1">
@@ -557,12 +604,5 @@
         <context-group purpose="location"><context context-type="linenumber">57</context></context-group>
       </trans-unit>
     </group>
-  </body></file>
-  <file datatype="plaintext" original="../src/ui/components/VPNServerCountry.qml" source-language="en" target-language="en-US"><body>
-    <trans-unit id="cities">
-      <source xml:space="preserve">Cities</source>
-      <context-group purpose="location"><context context-type="linenumber">162</context></context-group>
-      <note annotates="source" from="developer">The title of the cities list.</note>
-    </trans-unit>
   </body></file>
 </xliff>
