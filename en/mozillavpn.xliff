@@ -1,4 +1,42 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="../src/ui/components/VPNAboutUs.qml" source-language="en" target-language="en-US"><body>
+    <trans-unit id="vpn.aboutUs.tos">
+      <source xml:space="preserve">Terms of Service</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">21</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.aboutUs.privacyPolicy">
+      <source xml:space="preserve">Privacy Policy</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">27</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.settings.aboutUs">
+      <source xml:space="preserve">About us</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">37</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewSettingsMenu.qml</context><context context-type="linenumber">41</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.main.productName">
+      <source xml:space="preserve">Mozilla VPN</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">57</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/main.qml</context><context context-type="linenumber">28</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewInitialize.qml</context><context context-type="linenumber">31</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.main.productDescription">
+      <source xml:space="preserve">A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">63</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewInitialize.qml</context><context context-type="linenumber">33</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/main.cpp</context><context context-type="linenumber">72</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.aboutUs.releaseVersion">
+      <source xml:space="preserve">Release Version</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">73</context></context-group>
+      <note annotates="source" from="developer">Refers to the installed version; Example - "Release Version: 1.23"</note>
+    </trans-unit>
+  </body></file>
   <file datatype="plaintext" original="../src/ui/components/VPNCheckBoxAlert.qml" source-language="en" target-language="en-US"><body>
     <trans-unit id="vpn.turnOffAlert.enabling">
       <source xml:space="preserve">VPN must be off before enabling</source>
@@ -42,7 +80,7 @@
     <trans-unit id="vpn.connectionStability.checkConnection">
       <source xml:space="preserve">Check Connection</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">138</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">139</context></context-group>
     </trans-unit>
   </body></file>
   <file datatype="plaintext" original="../src/ui/components/VPNControllerDevice.qml" source-language="en" target-language="en-US"><body>
@@ -50,15 +88,15 @@
       <source xml:space="preserve">My devices</source>
       <target xml:space="preserve" />
       <context-group purpose="location"><context context-type="linenumber">14</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewDevices.qml</context><context context-type="linenumber">42</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewDevices.qml</context><context context-type="linenumber">23</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.devices.activeVsMaxDeviceCount">
       <source xml:space="preserve">%1 of %2</source>
       <target xml:space="preserve" />
       <context-group purpose="location"><context context-type="linenumber">37</context></context-group>
       <context-group purpose="location"><context context-type="linenumber">46</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewDevices.qml</context><context context-type="linenumber">23</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewDevices.qml</context><context context-type="linenumber">32</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewDevices.qml</context><context context-type="linenumber">42</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewDevices.qml</context><context context-type="linenumber">50</context></context-group>
       <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.</note>
     </trans-unit>
   </body></file>
@@ -84,7 +122,6 @@
       <context-group purpose="location"><context context-type="linenumber">50</context></context-group>
       <context-group purpose="location"><context context-type="linenumber">97</context></context-group>
       <context-group purpose="location"><context context-type="linenumber">347</context></context-group>
-      <context-group purpose="location"><context context-type="linenumber">395</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.controller.activationSloagan">
       <source xml:space="preserve">Turn on to protect your privacy</source>
@@ -92,7 +129,6 @@
       <context-group purpose="location"><context context-type="linenumber">57</context></context-group>
       <context-group purpose="location"><context context-type="linenumber">103</context></context-group>
       <context-group purpose="location"><context context-type="linenumber">354</context></context-group>
-      <context-group purpose="location"><context context-type="linenumber">402</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.controller.connecting">
       <source xml:space="preserve">Connecting</source>
@@ -139,25 +175,25 @@
     <trans-unit id="vpn.controller.info">
       <source xml:space="preserve">Connection Information</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">507</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">458</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.main.settings">
       <source xml:space="preserve">Settings</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">537</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewSettingsMenu.qml</context><context context-type="linenumber">174</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">488</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewSettingsMenu.qml</context><context context-type="linenumber">153</context></context-group>
     </trans-unit>
   </body></file>
   <file datatype="plaintext" original="../src/ui/components/VPNDevicesListHeader.qml" source-language="en" target-language="en-US"><body>
     <trans-unit id="vpn.devices.doDeviceRemoval">
       <source xml:space="preserve">Remove a device</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">84</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">78</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.devices.maxDevicesReached">
       <source xml:space="preserve">You&#8217;ve reached your limit. To install the VPN on this device, you&#8217;ll need to remove one.</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">91</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">80</context></context-group>
     </trans-unit>
   </body></file>
   <file datatype="plaintext" original="../src/ui/components/VPNGetHelp.qml" source-language="en" target-language="en-US"><body>
@@ -165,23 +201,8 @@
       <source xml:space="preserve">Get Help</source>
       <target xml:space="preserve" />
       <context-group purpose="location"><context context-type="linenumber">19</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewSettingsMenu.qml</context><context context-type="linenumber">49</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewSettingsMenu.qml</context><context context-type="linenumber">48</context></context-group>
       <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewInitialize.qml</context><context context-type="linenumber">16</context></context-group>
-    </trans-unit>
-    <trans-unit id="vpn.help.contactUs">
-      <source xml:space="preserve">Contact us</source>
-      <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">35</context></context-group>
-    </trans-unit>
-    <trans-unit id="vpn.help.helpAndSupport">
-      <source xml:space="preserve">Help &amp; Support</source>
-      <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">41</context></context-group>
-    </trans-unit>
-    <trans-unit id="vpn.help.viewLog">
-      <source xml:space="preserve">View log</source>
-      <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">47</context></context-group>
     </trans-unit>
   </body></file>
   <file datatype="plaintext" original="../src/ui/components/VPNGraphLegendMarker.qml" source-language="en" target-language="en-US"><body>
@@ -208,9 +229,36 @@
     <trans-unit id="vpn.main.back">
       <source xml:space="preserve">Back</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">39</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewSettingsMenu.qml</context><context context-type="linenumber">73</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">40</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewSettingsMenu.qml</context><context context-type="linenumber">72</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewSubscriptionNeeded.qml</context><context context-type="linenumber">46</context></context-group>
       <note annotates="source" from="developer">Go back</note>
+    </trans-unit>
+  </body></file>
+  <file datatype="plaintext" original="../src/ui/components/VPNRemoveDevicePopup.qml" source-language="en" target-language="en-US"><body>
+    <trans-unit id="vpn.devices.removeDeviceQuestion">
+      <source xml:space="preserve">Remove device?</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">81</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.devices.deviceRemovalConfirm">
+      <source xml:space="preserve">Please confirm you would like to remove\n%1.</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">92</context></context-group>
+      <note annotates="source" from="developer">%1 is the name of the device being removed. "\n" is used to display it on a new line, please keep it in the translation.</note>
+    </trans-unit>
+    <trans-unit id="vpn.devices.cancelDeviceRemoval">
+      <source xml:space="preserve">Cancel</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">101</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">113</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.devices.removeDeviceButton">
+      <source xml:space="preserve">Remove</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">102</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">127</context></context-group>
+      <note annotates="source" from="developer">"This is the 'remove' device button.</note>
     </trans-unit>
   </body></file>
   <file datatype="plaintext" original="../src/ui/components/VPNServerCountry.qml" source-language="en" target-language="en-US"><body>
@@ -303,52 +351,12 @@
       <context-group purpose="location"><context context-type="linenumber">86</context></context-group>
     </trans-unit>
   </body></file>
-  <file datatype="plaintext" original="../src/ui/main.qml" source-language="en" target-language="en-US"><body>
-    <trans-unit id="vpn.main.productName">
-      <source xml:space="preserve">Mozilla VPN</source>
-      <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">28</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewAboutUs.qml</context><context context-type="linenumber">56</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewInitialize.qml</context><context context-type="linenumber">31</context></context-group>
-    </trans-unit>
-  </body></file>
-  <file datatype="plaintext" original="../src/ui/settings/ViewAboutUs.qml" source-language="en" target-language="en-US"><body>
-    <trans-unit id="vpn.aboutUs.tos">
-      <source xml:space="preserve">Terms of Service</source>
-      <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">20</context></context-group>
-    </trans-unit>
-    <trans-unit id="vpn.aboutUs.privacyPolicy">
-      <source xml:space="preserve">Privacy Policy</source>
-      <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">26</context></context-group>
-    </trans-unit>
-    <trans-unit id="vpn.settings.aboutUs">
-      <source xml:space="preserve">About us</source>
-      <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">36</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewSettingsMenu.qml</context><context context-type="linenumber">42</context></context-group>
-    </trans-unit>
-    <trans-unit id="vpn.main.productDescription">
-      <source xml:space="preserve">A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
-      <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">62</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewInitialize.qml</context><context context-type="linenumber">33</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/main.cpp</context><context context-type="linenumber">64</context></context-group>
-    </trans-unit>
-    <trans-unit id="vpn.aboutUs.releaseVersion">
-      <source xml:space="preserve">Release Version</source>
-      <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">72</context></context-group>
-      <note annotates="source" from="developer">Refers to the installed version; Example - "Release Version: 1.23"</note>
-    </trans-unit>
-  </body></file>
   <file datatype="plaintext" original="../src/ui/settings/ViewLanguage.qml" source-language="en" target-language="en-US"><body>
     <trans-unit id="vpn.settings.language">
       <source xml:space="preserve">Language</source>
       <target xml:space="preserve" />
       <context-group purpose="location"><context context-type="linenumber">20</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewSettingsMenu.qml</context><context context-type="linenumber">35</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewSettingsMenu.qml</context><context context-type="linenumber">34</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.settings.system">
       <source xml:space="preserve">System</source>
@@ -374,7 +382,7 @@
       <source xml:space="preserve">Network settings</source>
       <target xml:space="preserve" />
       <context-group purpose="location"><context context-type="linenumber">22</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewSettingsMenu.qml</context><context context-type="linenumber">28</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewSettingsMenu.qml</context><context context-type="linenumber">27</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.settings.ipv6">
       <source xml:space="preserve">IPv6</source>
@@ -402,7 +410,7 @@
       <source xml:space="preserve">Notifications</source>
       <target xml:space="preserve" />
       <context-group purpose="location"><context context-type="linenumber">19</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewSettingsMenu.qml</context><context context-type="linenumber">21</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/settings/ViewSettingsMenu.qml</context><context context-type="linenumber">20</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.settings.guestWifiAlert">
       <source xml:space="preserve">Guest Wi-Fi portal alert</source>
@@ -419,25 +427,24 @@
     <trans-unit id="vpn.settings.giveFeedback">
       <source xml:space="preserve">Give feedback</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">57</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">56</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.settings.user">
       <source xml:space="preserve">VPN User</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">116</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">92</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.main.manageAccount">
       <source xml:space="preserve">Manage account</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">133</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/states/StateSubscriptionNeeded.qml</context><context context-type="linenumber">23</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewUpdate.qml</context><context context-type="linenumber">213</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">104</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewUpdate.qml</context><context context-type="linenumber">184</context></context-group>
       <note annotates="source" from="developer">"Manage account"</note>
     </trans-unit>
     <trans-unit id="vpn.settings.runOnBoot">
       <source xml:space="preserve">Launch VPN app on Startup</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">144</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">116</context></context-group>
       <note annotates="source" from="developer">The back of the object, not the front</note>
     </trans-unit>
   </body></file>
@@ -445,102 +452,68 @@
     <trans-unit id="vpn.authenticating.waitForSignIn">
       <source xml:space="preserve">Waiting for sign in and subscription confirmation&#8230;</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">18</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">25</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.authenticating.cancelAndRetry">
       <source xml:space="preserve">Cancel and try again</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">69</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">77</context></context-group>
     </trans-unit>
   </body></file>
   <file datatype="plaintext" original="../src/ui/states/StatePostAuthentication.qml" source-language="en" target-language="en-US"><body>
     <trans-unit id="vpn.postAuthentication..quickAccess">
       <source xml:space="preserve">Quick access</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">21</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">22</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.postAuthentication.statusBarIntro">
       <source xml:space="preserve">You can quickly access Mozilla VPN from your status bar.</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">28</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">29</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.postAuthentication.wip">
       <source xml:space="preserve">WIP</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">53</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">52</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.postAuthentication.continue">
       <source xml:space="preserve">Continue</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">94</context></context-group>
-    </trans-unit>
-  </body></file>
-  <file datatype="plaintext" original="../src/ui/states/StateSubscriptionNeeded.qml" source-language="en" target-language="en-US"><body>
-    <trans-unit id="vpn.iap.subscriptionNeeded">
-      <source xml:space="preserve">Subscription needed</source>
-      <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">17</context></context-group>
-    </trans-unit>
-    <trans-unit id="vpn.iap.subscribeNow">
-      <source xml:space="preserve">Subscribe now</source>
-      <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">33</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">93</context></context-group>
     </trans-unit>
   </body></file>
   <file datatype="plaintext" original="../src/ui/views/ViewDevices.qml" source-language="en" target-language="en-US"><body>
     <trans-unit id="vpn.devices.deviceAccessibleName">
       <source xml:space="preserve">%1 %2</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">72</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">107</context></context-group>
       <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
     </trans-unit>
     <trans-unit id="vpn.devices.currentDevice">
       <source xml:space="preserve">Current Device</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">138</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">173</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.devices.addedltHour">
       <source xml:space="preserve">Added less than an hour ago</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">143</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">178</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.devices.addedXhoursAgo">
       <source xml:space="preserve">Added a few hours ago (%1)</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">147</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">182</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.devices.addedXdaysAgo">
       <source xml:space="preserve">Added %1 days ago</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">150</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">185</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.devices.removeA11Y">
       <source xml:space="preserve">Remove %1</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">178</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">212</context></context-group>
       <note annotates="source" from="developer">Label used for accessibility on the button to remove a device</note>
-    </trans-unit>
-    <trans-unit id="vpn.devices.removeDeviceQuestion">
-      <source xml:space="preserve">Remove device?</source>
-      <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">395</context></context-group>
-    </trans-unit>
-    <trans-unit id="vpn.devices.deviceRemovalConfirm">
-      <source xml:space="preserve">Please confirm you would like to remove\n%1.</source>
-      <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">405</context></context-group>
-      <note annotates="source" from="developer">%1 is the name of the device being removed. "\n" is used to display it on a new line, please keep it in the translation.</note>
-    </trans-unit>
-    <trans-unit id="vpn.devices.cancelDeviceRemoval">
-      <source xml:space="preserve">Cancel</source>
-      <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">424</context></context-group>
-    </trans-unit>
-    <trans-unit id="vpn.devices.removeDeviceButton">
-      <source xml:space="preserve">Remove</source>
-      <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">435</context></context-group>
-      <note annotates="source" from="developer">"This is the 'remove' device button.</note>
     </trans-unit>
   </body></file>
   <file datatype="plaintext" original="../src/ui/views/ViewInitialize.qml" source-language="en" target-language="en-US"><body>
@@ -548,7 +521,7 @@
       <source xml:space="preserve">Get started</source>
       <target xml:space="preserve" />
       <context-group purpose="location"><context context-type="linenumber">44</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewOnboarding.qml</context><context context-type="linenumber">74</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewOnboarding.qml</context><context context-type="linenumber">77</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.main.learnMore">
       <source xml:space="preserve">Learn more</source>
@@ -556,66 +529,135 @@
       <context-group purpose="location"><context context-type="linenumber">58</context></context-group>
     </trans-unit>
   </body></file>
+  <file datatype="plaintext" original="../src/ui/views/ViewLogs.qml" source-language="en" target-language="en-US"><body>
+    <trans-unit id="vpn.viewlogs.title">
+      <source xml:space="preserve">View Logs</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">24</context></context-group>
+    </trans-unit>
+  </body></file>
   <file datatype="plaintext" original="../src/ui/views/ViewMain.qml" source-language="en" target-language="en-US"><body>
     <trans-unit id="MozillaVPN">
       <source xml:space="preserve">Mozilla VPN</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">92</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">90</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.updates.newVersionAvailable">
       <source xml:space="preserve">New version is available.</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">120</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">107</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.updates.updateNow">
       <source xml:space="preserve">Update now</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">122</context></context-group>
-      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewUpdate.qml</context><context context-type="linenumber">199</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">109</context></context-group>
+      <context-group purpose="location"><context context-type="sourcefile">../src/ui/views/ViewUpdate.qml</context><context context-type="linenumber">173</context></context-group>
     </trans-unit>
   </body></file>
   <file datatype="plaintext" original="../src/ui/views/ViewOnboarding.qml" source-language="en" target-language="en-US"><body>
     <trans-unit id="vpn.onboarding.skip">
       <source xml:space="preserve">Skip</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">63</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">66</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.onboarding.next">
       <source xml:space="preserve">Next</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">72</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">75</context></context-group>
+    </trans-unit>
+  </body></file>
+  <file datatype="plaintext" original="../src/ui/views/ViewSubscriptionNeeded.qml" source-language="en" target-language="en-US"><body>
+    <trans-unit id="vpn.subscription.title">
+      <source xml:space="preserve">Subscribe for %1/mo</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">71</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.subscription.moneyBackGuarantee">
+      <source xml:space="preserve">30-day money-back guarantee</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">73</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.subscription.featureTitle1">
+      <source xml:space="preserve">No activity logs</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">107</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.subscription.featureSubtitle1">
+      <source xml:space="preserve">We're Mozilla. We're on your side.</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">109</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.subscription.featureTitle2">
+      <source xml:space="preserve">No one can track you</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">115</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.subscription.featureSubtitle2">
+      <source xml:space="preserve">We encrypt your entire device.</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">117</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.subscription.featureTitle3">
+      <source xml:space="preserve">%1+ servers in %2+ countries</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">123</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.subscription.featureSubtitle3">
+      <source xml:space="preserve">Protect your access to the web.</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">125</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.subscription.featureTitle4">
+      <source xml:space="preserve">Connect up to %1 devices</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">131</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.subscription.featureSubtitle4">
+      <source xml:space="preserve">We won't restrict your bandwidth.</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">133</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.updates.subscribeNow">
+      <source xml:space="preserve">Subscribe now</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">157</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.main.restorePurchases">
+      <source xml:space="preserve">Restore purchases</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">163</context></context-group>
     </trans-unit>
   </body></file>
   <file datatype="plaintext" original="../src/ui/views/ViewUpdate.qml" source-language="en" target-language="en-US"><body>
     <trans-unit id="vpn.updates.updateRecomended">
       <source xml:space="preserve">Update recommended</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">25</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">24</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.updates.updateRecomended.description">
       <source xml:space="preserve">Please update the app before you continue to use the VPN</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">27</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">26</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.updates.updateRequired">
       <source xml:space="preserve">Update required</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">64</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">52</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.updates.updateRequire.reason">
       <source xml:space="preserve">We detected and fixed a serious bug. You must update your app.</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">66</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">54</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
       <source xml:space="preserve">Your connection will not be secure while you update.</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">189</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">149</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.updates.notNow">
       <source xml:space="preserve">Not now</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">211</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">182</context></context-group>
     </trans-unit>
   </body></file>
   <file datatype="cpp" original="../src/connectiondataholder.cpp" source-language="en" target-language="en-US"><body>
@@ -630,63 +672,142 @@
     <trans-unit id="vpn.main.startMinimized">
       <source xml:space="preserve">Start minimized</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">71</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">79</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.main.startOnBoot">
       <source xml:space="preserve">Start at boot (if configured)</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">77</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">85</context></context-group>
+    </trans-unit>
+  </body></file>
+  <file datatype="cpp" original="../src/models/helpmodel.cpp" source-language="en" target-language="en-US"><body>
+    <trans-unit id="help.viewLog">
+      <source xml:space="preserve">View log</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">33</context></context-group>
+    </trans-unit>
+    <trans-unit id="help.supportWebsite">
+      <source xml:space="preserve">Support Website</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">37</context></context-group>
+    </trans-unit>
+    <trans-unit id="help.contactUs">
+      <source xml:space="preserve">Contact us</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">40</context></context-group>
+    </trans-unit>
+  </body></file>
+  <file datatype="cpp" original="../src/platforms/macos/macosmenubar.cpp" source-language="en" target-language="en-US"><body>
+    <trans-unit id="menubar.file.title">
+      <source xml:space="preserve">File</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">25</context></context-group>
+    </trans-unit>
+    <trans-unit id="menubar.file.close">
+      <source xml:space="preserve">Close</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">42</context></context-group>
+    </trans-unit>
+    <trans-unit id="menubar.help.title">
+      <source xml:space="preserve">Help</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">48</context></context-group>
     </trans-unit>
   </body></file>
   <file datatype="cpp" original="../src/systemtrayhandler.cpp" source-language="en" target-language="en-US"><body>
-    <trans-unit id="systray.quit">
-      <source xml:space="preserve">Quit</source>
+    <trans-unit id="systray.disconnect">
+      <source xml:space="preserve">Disconnect</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">21</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">32</context></context-group>
+    </trans-unit>
+    <trans-unit id="systray.show">
+      <source xml:space="preserve">Show Mozilla VPN</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">39</context></context-group>
+    </trans-unit>
+    <trans-unit id="systray.help">
+      <source xml:space="preserve">Help</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">46</context></context-group>
+    </trans-unit>
+    <trans-unit id="systray.preferences">
+      <source xml:space="preserve">Preferences&#8230;</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">52</context></context-group>
+    </trans-unit>
+    <trans-unit id="systray.quit">
+      <source xml:space="preserve">Quit Mozilla VPN</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">59</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.systray.status.connectedTo">
+      <source xml:space="preserve">Connected to:</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">93</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.systray.status.connectTo">
+      <source xml:space="preserve">Connect to the last location:</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">98</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.systray.status.connectingTo">
+      <source xml:space="preserve">Connecting to:</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">105</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.systray.status.disconnectingFrom">
+      <source xml:space="preserve">Disconnecting from:</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">110</context></context-group>
+    </trans-unit>
+    <trans-unit id="vpn.systray.location">
+      <source xml:space="preserve">%1, %2</source>
+      <target xml:space="preserve" />
+      <context-group purpose="location"><context context-type="linenumber">133</context></context-group>
+      <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
     </trans-unit>
     <trans-unit id="vpn.systray.statusConnected.title">
       <source xml:space="preserve">VPN Connected</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">48</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">158</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.systray.statusConnected.message">
       <source xml:space="preserve">Connected to %1, %2</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">51</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">161</context></context-group>
       <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
     </trans-unit>
     <trans-unit id="vpn.systray.statusDisconnected.title">
       <source xml:space="preserve">VPN Disconnected</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">58</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">168</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.systray.statusDisconnected.message">
       <source xml:space="preserve">Disconnected from to %1, %2</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">61</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">171</context></context-group>
       <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
     </trans-unit>
     <trans-unit id="vpn.systray.statusSwitch.title">
       <source xml:space="preserve">VPN Switched Servers</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">68</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">178</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.systray.statusSwtich.message">
       <source xml:space="preserve">Switched from %1, %2 to %3, %4</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">71</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">181</context></context-group>
       <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
     </trans-unit>
     <trans-unit id="vpn.systray.captivePortalAlert.title">
       <source xml:space="preserve">Captive portal detected</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">93</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">204</context></context-group>
     </trans-unit>
     <trans-unit id="vpn.systray.captivePortalAlert.message">
-      <source xml:space="preserve">VPN will automatically reconnect when ready
-</source>
+      <source xml:space="preserve">VPN will automatically reconnect when ready</source>
       <target xml:space="preserve" />
-      <context-group purpose="location"><context context-type="linenumber">95</context></context-group>
+      <context-group purpose="location"><context context-type="linenumber">206</context></context-group>
     </trans-unit>
   </body></file>
 </xliff>
