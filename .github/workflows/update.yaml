@@ -30,6 +30,7 @@ jobs:
           pip install -r translationFiles/.github/requirements.txt
       - name: Extract new strings
         run: |
+          qmake -v
           python translationFiles/.github/extract_source_strings.py
           python translationFiles/.github/update_other_locales.py --reference en --xliff mozillavpn.xliff --path translationFiles/
       - run : git config --global user.email 'strseb@users.noreply.github.com'
