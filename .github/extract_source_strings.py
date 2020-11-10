@@ -2,7 +2,7 @@
 # Note: this wont work on python 2.7
 # This script must be executed at the root of the repository.
 
-from lxml import etree
+from lxml import etree, objectify
 from translate.misc.xml_helpers import reindent
 import os
 
@@ -23,6 +23,7 @@ os.system(f'lconvert -if ts -i {filePath} -of xlf -o {outFile}')
 NS = {'x': 'urn:oasis:names:tc:xliff:document:1.2'}
 tree = etree.parse(outFile)
 root = tree.getroot()
+objectify.deannotate(root, cleanup_namespaces=True)
 
 # Remove empty targets
 for target in root.xpath('//x:target', namespaces=NS):
