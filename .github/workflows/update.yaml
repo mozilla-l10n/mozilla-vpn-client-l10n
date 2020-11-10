@@ -19,12 +19,12 @@ jobs:
           path: "vpn"
           token: ${{ secrets.ACCESSCODE }}
       - run: ls -l
-      - run: python3 translationFiles/.github/update.py
+      - run: python3 translationFiles/.github/extract_source_strings.py
       - run: ls -l translationFiles/
       - run : git config --global user.email 'strseb@users.noreply.github.com'
       - uses: peter-evans/create-pull-request@v3
         with:
           path: "translationFiles"
-          commit-message: "Auto Commit new Strings"
+          commit-message: "Extract new strings and update all locales"
           branch-suffix: "timestamp"
-          title: "Import new Strings"
+          title: "Extract new strings"
