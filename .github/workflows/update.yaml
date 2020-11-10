@@ -21,6 +21,7 @@ jobs:
       - run: ls -l
       - run: python3 translationFiles/.github/update.py
       - run: ls -l translationFiles/
+      - run: qmake -v
       - run : git config --global user.email 'strseb@users.noreply.github.com'
       - uses: peter-evans/create-pull-request@v3
         with:
