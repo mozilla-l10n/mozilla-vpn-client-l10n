@@ -6,23 +6,32 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    container:
-        image: debian
     steps:
-      - run: apt update && apt install python3 qttools5-dev-tools qt5-default g++ make git -y
-      - uses: actions/checkout@v2
+      - name: Install Linux packages
+        run: |
+          sudo apt update
+          sudo apt install qttools5-dev-tools qt5-default g++ make git -y
+      - name: Clone l10n repository
+        uses: actions/checkout@v2
         with:
           path: "translationFiles"
-      - uses: actions/checkout@v2
+      - name: Clone main code repository
+        uses: actions/checkout@v2
         with:
           repository: "mozilla-mobile/mozilla-vpn-client"
           path: "vpn"
           token: ${{ secrets.ACCESSCODE }}
-      - run: ls -l
-      - run: pip install -r translationFiles/.github/requirements.txt
-      - run: python3 translationFiles/.github/extract_source_strings.py
-      - run: python3 translationFiles/.github/update_other_locales.py --reference en --xliff mozillavpn.xliff --path translationFiles/
-      - run: ls -l translationFiles/
+      - name: Set up Python 3
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Install Python dependencies
+        run: |
+          pip install -r translationFiles/.github/requirements.txt
+      - name: Extract new strings
+        run: |
+          python translationFiles/.github/extract_source_strings.py
+          python translationFiles/.github/update_other_locales.py --reference en --xliff mozillavpn.xliff --path translationFiles/
       - run : git config --global user.email 'strseb@users.noreply.github.com'
       - uses: peter-evans/create-pull-request@v3
         with:
