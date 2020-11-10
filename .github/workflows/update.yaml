@@ -19,6 +19,7 @@ jobs:
           path: "vpn"
           token: ${{ secrets.ACCESSCODE }}
       - run: ls -l
+      - run: pip install -r translationFiles/.github/requirements.txt
       - run: python3 translationFiles/.github/extract_source_strings.py
       - run: ls -l translationFiles/
       - run : git config --global user.email 'strseb@users.noreply.github.com'
