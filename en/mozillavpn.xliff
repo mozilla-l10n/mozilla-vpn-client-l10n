@@ -1,5 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="../src/platforms/android/androidauthenticationview.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.main.back">
+        <source xml:space="preserve">Back</source>
+        <note annotates="source" from="developer">Go back</note>
+      </trans-unit>
+      <trans-unit id="vpn.android.authentication">
+        <source xml:space="preserve">Authentication</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
       <trans-unit id="vpn.aboutUs.tos">
@@ -159,14 +170,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNMenu.qml" datatype="plaintext" source-language="en" target-language="en-US">
-    <body>
-      <trans-unit id="vpn.main.back">
-        <source xml:space="preserve">Back</source>
-        <note annotates="source" from="developer">Go back</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
       <trans-unit id="vpn.devices.removeDeviceQuestion">
@@ -243,14 +246,8 @@
       <trans-unit id="vpn.toggle.on">
         <source xml:space="preserve">Turn VPN on</source>
       </trans-unit>
-      <trans-unit id="vpn.toggle.isOff">
-        <source xml:space="preserve">VPN is off</source>
-      </trans-unit>
       <trans-unit id="vpn.toggle.off">
         <source xml:space="preserve">Turn VPN off</source>
-      </trans-unit>
-      <trans-unit id="vpn.toggle.isOn">
-        <source xml:space="preserve">VPN is on</source>
       </trans-unit>
     </body>
   </file>
@@ -382,6 +379,10 @@
     <body>
       <trans-unit id="vpn.viewlogs.title">
         <source xml:space="preserve">View Logs</source>
+      </trans-unit>
+      <trans-unit id="vpn.viewLogs.copy">
+        <source xml:space="preserve">Copy</source>
+        <note annotates="source" from="developer">Copy into the OS clipboard</note>
       </trans-unit>
     </body>
   </file>

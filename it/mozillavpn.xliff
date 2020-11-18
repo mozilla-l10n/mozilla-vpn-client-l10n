@@ -1,5 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="../src/platforms/android/androidauthenticationview.qml" datatype="plaintext" source-language="en" target-language="it">
+    <body>
+      <trans-unit id="vpn.main.back">
+        <source xml:space="preserve">Back</source>
+        <note annotates="source" from="developer">Go back</note>
+      </trans-unit>
+      <trans-unit id="vpn.android.authentication">
+        <source xml:space="preserve">Authentication</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="it">
     <body>
       <trans-unit id="vpn.aboutUs.tos">
@@ -194,15 +205,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNMenu.qml" datatype="plaintext" source-language="en" target-language="it">
-    <body>
-      <trans-unit id="vpn.main.back">
-        <source xml:space="preserve">Back</source>
-        <target xml:space="preserve">Indietro</target>
-        <note annotates="source" from="developer">Go back</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="it">
     <body>
       <trans-unit id="vpn.devices.removeDeviceQuestion">
@@ -295,17 +297,9 @@
         <source xml:space="preserve">Turn VPN on</source>
         <target xml:space="preserve">Attiva VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.toggle.isOff">
-        <source xml:space="preserve">VPN is off</source>
-        <target xml:space="preserve">La VPN è disattivata</target>
-      </trans-unit>
       <trans-unit id="vpn.toggle.off">
         <source xml:space="preserve">Turn VPN off</source>
         <target xml:space="preserve">Disattiva VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.toggle.isOn">
-        <source xml:space="preserve">VPN is on</source>
-        <target xml:space="preserve">La VPN è attiva</target>
       </trans-unit>
     </body>
   </file>
@@ -468,6 +462,10 @@
         <source xml:space="preserve">View Logs</source>
         <target xml:space="preserve">Visualizza log</target>
       </trans-unit>
+      <trans-unit id="vpn.viewLogs.copy">
+        <source xml:space="preserve">Copy</source>
+        <note annotates="source" from="developer">Copy into the OS clipboard</note>
+      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewMain.qml" datatype="plaintext" source-language="en" target-language="it">
@@ -597,7 +595,7 @@
       </trans-unit>
       <trans-unit id="help.helpCenter">
         <source xml:space="preserve">Help Center</source>
-        <target>Centro assistenza</target>
+        <target xml:space="preserve">Centro assistenza</target>
       </trans-unit>
       <trans-unit id="help.contactUs">
         <source xml:space="preserve">Contact us</source>
