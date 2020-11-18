@@ -1,7 +1,7 @@
 name: UpdateStrings
 on:
   schedule:
-    - cron: '0 12 * * 1' #  At 12:00 on every Monday
+    - cron: '0 9 * * 1,4' #  Run at 9 AM on Monday and Thursday
   workflow_dispatch:
 jobs:
   fetch:
