@@ -22,7 +22,6 @@ jobs:
         with:
           repository: "mozilla-mobile/mozilla-vpn-client"
           path: "vpn"
-          token: ${{ secrets.ACCESSCODE }}
       - name: Set up Python 3
         uses: actions/setup-python@v2
         with:

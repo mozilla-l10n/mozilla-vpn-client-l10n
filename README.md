@@ -1,6 +1,6 @@
 # Mozilla VPN localization
 
-Localization for the Mozilla VPN project.
+Localization for the [Mozilla VPN project](https://github.com/mozilla-mobile/mozilla-vpn-client).
 
 ## License
 
