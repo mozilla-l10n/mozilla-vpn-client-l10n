@@ -168,6 +168,10 @@
         <source xml:space="preserve">Gbps</source>
         <note annotates="source" from="developer">Gigabits per Second</note>
       </trans-unit>
+      <trans-unit id="vpn.connectionInfo.accessibleName">
+        <source xml:space="preserve">%1: %2 %3</source>
+        <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="en-US">
@@ -567,9 +571,6 @@
       <trans-unit id="systray.disconnect">
         <source xml:space="preserve">Disconnect</source>
       </trans-unit>
-      <trans-unit id="systray.show">
-        <source xml:space="preserve">Show Mozilla VPN</source>
-      </trans-unit>
       <trans-unit id="systray.help">
         <source xml:space="preserve">Help</source>
       </trans-unit>
@@ -594,6 +595,12 @@
       <trans-unit id="vpn.systray.location">
         <source xml:space="preserve">%1, %2</source>
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
+      </trans-unit>
+      <trans-unit id="systray.hide">
+        <source xml:space="preserve">Hide Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="systray.show">
+        <source xml:space="preserve">Show Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.systray.captivePortalAlert.title">
         <source xml:space="preserve">Captive portal detected</source>
