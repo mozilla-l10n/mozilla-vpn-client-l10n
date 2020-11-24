@@ -36,10 +36,11 @@ jobs:
           lupdate -version
           python translationFiles/.github/extract_source_strings.py
           python translationFiles/.github/update_other_locales.py --reference en --xliff mozillavpn.xliff --path translationFiles/
-      - run : git config --global user.email 'strseb@users.noreply.github.com'
+      - run : git config --global user.email 'flodolo@users.noreply.github.com'
       - uses: peter-evans/create-pull-request@v3
         with:
           path: "translationFiles"
           commit-message: "Extract new strings and update all locales"
-          branch-suffix: "timestamp"
+          branch: l10n_automation
+          delete-branch: true
           title: "Extract new strings"
