@@ -212,6 +212,13 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/components/VPNLoader.qml" datatype="plaintext" source-language="en" target-language="it">
+    <body>
+      <trans-unit id="vpn.authenticating.cancelAndRetry">
+        <source xml:space="preserve">Cancel and try again</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="it">
     <body>
       <trans-unit id="vpn.devices.removeDeviceQuestion">
@@ -402,10 +409,6 @@
         <source xml:space="preserve">Waiting for sign in and subscription confirmation…</source>
         <target xml:space="preserve">In attesa dell’accesso e della conferma dell’abbonamento…</target>
       </trans-unit>
-      <trans-unit id="vpn.authenticating.cancelAndRetry">
-        <source xml:space="preserve">Cancel and try again</source>
-        <target xml:space="preserve">Annulla e riprova</target>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/states/StatePostAuthentication.qml" datatype="plaintext" source-language="en" target-language="it">
@@ -421,6 +424,13 @@
       <trans-unit id="vpn.postAuthentication.continue">
         <source xml:space="preserve">Continue</source>
         <target xml:space="preserve">Continua</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/states/StateSubscriptionValidation.qml" datatype="plaintext" source-language="en" target-language="it">
+    <body>
+      <trans-unit id="vpn.subscription.waitForValidation">
+        <source xml:space="preserve">Confirming subscription…</source>
       </trans-unit>
     </body>
   </file>
