@@ -276,6 +276,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.languageAccessibleName">
         <source xml:space="preserve">%1 %2</source>
+        <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.additional">
         <source xml:space="preserve">Additional</source>
@@ -376,6 +377,7 @@
       </trans-unit>
       <trans-unit id="vpn.devices.addedXdaysAgo">
         <source xml:space="preserve">Added %1 days ago</source>
+        <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
       </trans-unit>
       <trans-unit id="vpn.devices.removeA11Y">
         <source xml:space="preserve">Remove %1</source>
@@ -487,6 +489,7 @@
       </trans-unit>
       <trans-unit id="vpn.subscription.featureTitle4">
         <source xml:space="preserve">Connect up to %1 devices</source>
+        <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
       </trans-unit>
       <trans-unit id="vpn.subscription.featureSubtitle4">
         <source xml:space="preserve">We won’t restrict your bandwidth.</source>
@@ -567,6 +570,14 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/platforms/android/androidcontroller.cpp" datatype="cpp" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.android.notification.isRunning">
+        <source xml:space="preserve">Is running in the Background</source>
+        <note annotates="source" from="developer">Refers to the app - which is in the Background</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
       <trans-unit id="menubar.file.title">
@@ -582,18 +593,6 @@
   </file>
   <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="systray.disconnect">
-        <source xml:space="preserve">Disconnect</source>
-      </trans-unit>
-      <trans-unit id="systray.help">
-        <source xml:space="preserve">Help</source>
-      </trans-unit>
-      <trans-unit id="systray.preferences">
-        <source xml:space="preserve">Preferences…</source>
-      </trans-unit>
-      <trans-unit id="systray.quit">
-        <source xml:space="preserve">Quit Mozilla VPN</source>
-      </trans-unit>
       <trans-unit id="vpn.systray.status.connectedTo">
         <source xml:space="preserve">Connected to:</source>
       </trans-unit>
@@ -621,6 +620,18 @@
       </trans-unit>
       <trans-unit id="vpn.systray.captivePortalAlert.message">
         <source xml:space="preserve">VPN will automatically reconnect when ready</source>
+      </trans-unit>
+      <trans-unit id="systray.disconnect">
+        <source xml:space="preserve">Disconnect</source>
+      </trans-unit>
+      <trans-unit id="systray.help">
+        <source xml:space="preserve">Help</source>
+      </trans-unit>
+      <trans-unit id="systray.preferences">
+        <source xml:space="preserve">Preferences…</source>
+      </trans-unit>
+      <trans-unit id="systray.quit">
+        <source xml:space="preserve">Quit Mozilla VPN</source>
       </trans-unit>
     </body>
   </file>
