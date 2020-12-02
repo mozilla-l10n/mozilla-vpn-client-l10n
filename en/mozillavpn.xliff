@@ -36,13 +36,9 @@
   </file>
   <file original="../src/ui/components/VPNCheckBoxAlert.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.turnOffAlert.enabling">
-        <source xml:space="preserve">VPN must be off before enabling</source>
-        <note annotates="source" from="developer">Associated to a setting that requires the VPN to be disconnected to change state</note>
-      </trans-unit>
-      <trans-unit id="vpn.turnOffAlert.disabling">
-        <source xml:space="preserve">VPN must be off before disabling</source>
-        <note annotates="source" from="developer">Associated to a setting that requires the VPN to be disconnected to change state</note>
+      <trans-unit id="vpn.turnOffAlert.vpnMustBeOff">
+        <source xml:space="preserve">VPN must be off to edit network settings</source>
+        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
     </body>
   </file>
@@ -176,8 +172,8 @@
   </file>
   <file original="../src/ui/components/VPNLoader.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.authenticating.cancelAndRetry">
-        <source xml:space="preserve">Cancel and try again</source>
+      <trans-unit id="vpn.authenticating.cancel">
+        <source xml:space="preserve">Cancel</source>
       </trans-unit>
     </body>
   </file>
