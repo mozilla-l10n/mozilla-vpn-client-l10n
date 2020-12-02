@@ -9,14 +9,14 @@ from lxml import etree, objectify
 from translate.misc.xml_helpers import reindent
 import os
 
-VPN_PROJECT_DIR = "vpn"
-OUT_PROJECT_DIR = "translationFiles"
+vpn_project_folder = "vpn"
+output_folder = "translationFiles"
 
-srcFile = os.path.join(VPN_PROJECT_DIR, "src", "src.pro")
+srcFile = os.path.join(vpn_project_folder, "src", "src.pro")
 os.system(f"lupdate {srcFile} -ts")
 
-filePath = os.path.join(VPN_PROJECT_DIR, "translations", "mozillavpn_en.ts")
-outFile = os.path.join(OUT_PROJECT_DIR, "en", "mozillavpn.xliff")
+filePath = os.path.join(vpn_project_folder, "translations", "mozillavpn_en.ts")
+outFile = os.path.join(output_folder, "en", "mozillavpn.xliff")
 
 # Update English XLIFF file
 print(f"Updating {outFile}")
@@ -28,10 +28,17 @@ tree = etree.parse(outFile)
 root = tree.getroot()
 objectify.deannotate(root, cleanup_namespaces=True)
 
-# Remove empty targets
+# Remove targets (i.e. translations) if present, since this is the reference
+# locale
 for target in root.xpath("//x:target", namespaces=NS):
     if target is not None:
         target.getparent().remove(target)
+
+# Remove the xml:space attribute in the <source>, since it's not used when
+# exporting back to .ts
+for source in root.xpath("//x:source", namespaces=NS):
+    attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
+    source.attrib.pop(attrib_name)
 
 # Change QT <extracomment> elements into <notes>
 for extracomment in root.xpath("//x:extracomment", namespaces=NS):
