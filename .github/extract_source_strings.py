@@ -28,10 +28,19 @@ tree = etree.parse(outFile)
 root = tree.getroot()
 objectify.deannotate(root, cleanup_namespaces=True)
 
-# Remove empty targets
+# Remove targets (i.e. translations) if present, since this is the reference
+# locale
 for target in root.xpath("//x:target", namespaces=NS):
     if target is not None:
         target.getparent().remove(target)
+
+# If defined in the <target>, move the xml:space attribute to the
+# parent <trans-unit> element
+for source in root.xpath("//x:target", namespaces=NS):
+    attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
+    xml_space = source.get(attrib_name)
+    if xml_space is not None:
+        source.getParent().set(attrib_name, xml_space)
 
 # Change QT <extracomment> elements into <notes>
 for extracomment in root.xpath("//x:extracomment", namespaces=NS):

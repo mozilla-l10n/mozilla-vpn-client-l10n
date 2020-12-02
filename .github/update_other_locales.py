@@ -157,16 +157,6 @@ def main():
                 # Create a target node and insert it after source.
                 child = etree.Element("target")
                 child.text = translations[string_id]
-
-                # If the source target has a preserve attribute, add it to the
-                # target as well.
-                attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
-                xml_space = trans_node.xpath("./x:source", namespaces=NS)[0].get(
-                    attrib_name
-                )
-                if xml_space is not None:
-                    child.set(attrib_name, xml_space)
-
                 trans_node.insert(1, child)
 
         # Update target-language where defined
