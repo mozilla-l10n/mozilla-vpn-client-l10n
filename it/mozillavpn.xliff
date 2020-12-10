@@ -317,6 +317,23 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="it">
+    <body>
+      <trans-unit id="vpn.settings.appPermissions">
+        <source>App Permissions</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.protectSelectedApps">
+        <source>Protect specific apps</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.protectSelectedApps.description">
+        <source>Choose which apps should use the VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.installedApps">
+        <source>Installed Applications</source>
+        <note annotates="source" from="developer">Header for the installed Applications</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="it">
     <body>
       <trans-unit id="vpn.settings.language">
@@ -421,6 +438,22 @@
       <trans-unit id="vpn.postAuthentication.continue">
         <source>Continue</source>
         <target>Continua</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="it">
+    <body>
+      <trans-unit id="vpn.subscriptionBlocked.title">
+        <source>Error confirming subscription…</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed">
+        <source>Another Firefox Account has already subscribed using this Apple ID.</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter">
+        <source>Visit our help center to learn more about managing your subscriptions.</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionBlocked.getHelp">
+        <source>Get Help</source>
       </trans-unit>
     </body>
   </file>
