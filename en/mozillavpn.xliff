@@ -34,14 +34,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNCheckBoxAlert.qml" datatype="plaintext" source-language="en" target-language="en-US">
-    <body>
-      <trans-unit id="vpn.turnOffAlert.vpnMustBeOff">
-        <source>VPN must be off to edit network settings</source>
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/components/VPNConnectionInfo.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
       <trans-unit id="vpn.connectionInfo.ip">
@@ -280,9 +272,30 @@
       <trans-unit id="vpn.settings.protectSelectedApps.description">
         <source>Choose which apps should use the VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.installedApps">
-        <source>Installed Applications</source>
-        <note annotates="source" from="developer">Header for the installed Applications</note>
+      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff">
+        <source>VPN must be off to edit App Permissions</source>
+        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected">
+        <source>VPN protects all apps by default</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unprotected">
+        <source>Unprotected</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unprotected.description">
+        <source>These apps will not use the VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.protectall">
+        <source>Protect All</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.protected">
+        <source>Protected</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.protected.description">
+        <source>These apps will use the VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unprotectall">
+        <source>Unprotect All</source>
       </trans-unit>
     </body>
   </file>
@@ -313,6 +326,10 @@
       </trans-unit>
       <trans-unit id="vpn.settings.lanAccess.description">
         <source>Access printers, streaming sticks and all other devices on your local network</source>
+      </trans-unit>
+      <trans-unit id="vpn.turnOffAlert.vpnMustBeOff">
+        <source>VPN must be off to edit network settings</source>
+        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
     </body>
   </file>
