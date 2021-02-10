@@ -146,16 +146,20 @@
       </trans-unit>
       <trans-unit id="vpn.controller.switching">
         <source>Switching…</source>
+        <target>Mudando…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switchingDetail">
         <source>From %1 to %2</source>
+        <target>De %1 para %2</target>
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
       </trans-unit>
       <trans-unit id="vpn.controller.info">
         <source>Connection Information</source>
+        <target>Informações sobre a conexão</target>
       </trans-unit>
       <trans-unit id="vpn.main.settings">
         <source>Settings</source>
+        <target>Configurações</target>
       </trans-unit>
     </body>
   </file>
@@ -163,9 +167,11 @@
     <body>
       <trans-unit id="vpn.devices.doDeviceRemoval">
         <source>Remove a device</source>
+        <target>Remover um dispositivo</target>
       </trans-unit>
       <trans-unit id="vpn.devices.maxDevicesReached">
         <source>You’ve reached your limit. To install the VPN on this device, you’ll need to remove one.</source>
+        <target>Você atingiu seu limite. Para instalar a VPN neste dispositivo, precisa remover de outro.</target>
       </trans-unit>
     </body>
   </file>
@@ -173,6 +179,7 @@
     <body>
       <trans-unit id="vpn.main.getHelp">
         <source>Get Help</source>
+        <target>Pedir ajuda</target>
       </trans-unit>
     </body>
   </file>
@@ -180,26 +187,32 @@
     <body>
       <trans-unit id="vpn.connectionInfo.Bps">
         <source>B/s</source>
+        <target>B/s</target>
         <note annotates="source" from="developer">Bytes per second</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.kBps">
         <source>kB/s</source>
+        <target>KB/s</target>
         <note annotates="source" from="developer">Kilobytes per second</note>
       </trans-unit>
       <trans-unit id="vpn.connectioInfo.mBps">
         <source>MB/s</source>
+        <target>MB/s</target>
         <note annotates="source" from="developer">Megabytes per second</note>
       </trans-unit>
       <trans-unit id="vpn.connectioInfo.gBps">
         <source>GB/s</source>
+        <target>GB/s</target>
         <note annotates="source" from="developer">Gigabytes per second</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.tBps">
         <source>TB/s</source>
+        <target>TB/s</target>
         <note annotates="source" from="developer">Terabytes per second</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.accessibleName">
         <source>%1: %2 %3</source>
+        <target>%1: %2 %3</target>
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
       </trans-unit>
     </body>
@@ -208,6 +221,7 @@
     <body>
       <trans-unit id="vpn.authenticating.cancel">
         <source>Cancel</source>
+        <target>Cancelar</target>
       </trans-unit>
     </body>
   </file>
@@ -215,17 +229,21 @@
     <body>
       <trans-unit id="vpn.devices.removeDeviceQuestion">
         <source>Remove device?</source>
+        <target>Remover dispositivo?</target>
       </trans-unit>
       <trans-unit id="vpn.devices.deviceRemovalConfirm">
         <source>Please confirm you would like to remove
 %1.</source>
+        <target>Confirme que você quer remover %1.</target>
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
       </trans-unit>
       <trans-unit id="vpn.devices.cancelDeviceRemoval">
         <source>Cancel</source>
+        <target>Cancelar</target>
       </trans-unit>
       <trans-unit id="vpn.devices.removeDeviceButton">
         <source>Remove</source>
+        <target>Remover</target>
         <note annotates="source" from="developer">This is the “remove” device button.</note>
       </trans-unit>
     </body>
@@ -234,6 +252,7 @@
     <body>
       <trans-unit id="cities">
         <source>Cities</source>
+        <target>Cidades</target>
         <note annotates="source" from="developer">The title for the list of cities.</note>
       </trans-unit>
     </body>
@@ -242,6 +261,7 @@
     <body>
       <trans-unit id="vpn.main.signOut">
         <source>Sign Out</source>
+        <target>Sair</target>
       </trans-unit>
     </body>
   </file>
@@ -249,10 +269,12 @@
     <body>
       <trans-unit id="vpn.connectionStability.unstable">
         <source>Unstable</source>
+        <target>Instável</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.noSignal">
         <source>No Signal</source>
+        <target>Sem sinal</target>
       </trans-unit>
     </body>
   </file>
@@ -260,21 +282,27 @@
     <body>
       <trans-unit id="vpn.alert.authenticationError">
         <source>Authentication error</source>
+        <target>Erro de autenticação</target>
       </trans-unit>
       <trans-unit id="vpn.alert.tryAgain">
         <source>Try again</source>
+        <target>Tente novamente</target>
       </trans-unit>
       <trans-unit id="vpn.alert.unableToConnect">
         <source>Unable to connect</source>
+        <target>Não foi possível conectar</target>
       </trans-unit>
       <trans-unit id="vpn.alert.noInternet">
         <source>No internet connection</source>
+        <target>Sem conexão com a internet</target>
       </trans-unit>
       <trans-unit id="vpn.alert.backgroundServiceError">
         <source>Background service error</source>
+        <target>Erro de serviço em segundo plano</target>
       </trans-unit>
       <trans-unit id="vpn.alert.restore">
         <source>Restore</source>
+        <target>Restaurar</target>
         <note annotates="source" from="developer">Restore a service in case of error.</note>
       </trans-unit>
       <trans-unit id="vpn.alert.subscriptionFailureError">
@@ -282,6 +310,7 @@
       </trans-unit>
       <trans-unit id="vpn.alert.getIPRestrictionError">
         <source>Operation not allowed from current location</source>
+        <target>Operação não permitida na localização atual</target>
       </trans-unit>
       <trans-unit id="vpn.alert.deviceRemovedAndLogout">
         <source>Signed out and device removed</source>
@@ -292,9 +321,11 @@
     <body>
       <trans-unit id="vpn.toggle.on">
         <source>Turn VPN on</source>
+        <target>Ligar VPN</target>
       </trans-unit>
       <trans-unit id="vpn.toggle.off">
         <source>Turn VPN off</source>
+        <target>Desligar VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -302,12 +333,15 @@
     <body>
       <trans-unit id="vpn.settings.appPermissions">
         <source>App Permissions</source>
+        <target>Permissões do aplicativo</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps">
         <source>Protect specific apps</source>
+        <target>Proteger aplicativos específicos</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.description">
         <source>Choose which apps should use the VPN</source>
+        <target>Escolha quais aplicativos devem usar a VPN</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff">
         <source>VPN must be off to edit App Permissions</source>
@@ -315,25 +349,31 @@
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected">
         <source>VPN protects all apps by default</source>
+        <target>A VPN protege por padrão todos os aplicativos</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotected">
         <source>Unprotected</source>
+        <target>Desprotegido</target>
         <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotected.description">
         <source>These apps will not use the VPN</source>
+        <target>Estes aplicativos não usam a VPN</target>
         <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protectall">
         <source>Protect All</source>
+        <target>Proteger tudo</target>
         <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected">
         <source>Protected</source>
+        <target>Protegido</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected.description">
         <source>These apps will use the VPN</source>
+        <target>Estes aplicativos usam a VPN</target>
         <note annotates="source" from="developer">Description for the list of apps protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotectall">
