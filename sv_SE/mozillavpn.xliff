@@ -113,7 +113,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.activationSloagan">
         <source>Turn on to protect your privacy</source>
-        <target>Slå på för att skydda din integritet</target>
+        <target>Aktivera för att skydda din integritet</target>
       </trans-unit>
       <trans-unit id="vpn.controller.connecting">
         <source>Connecting</source>
@@ -252,6 +252,7 @@
     <body>
       <trans-unit id="cities">
         <source>Cities</source>
+        <target>Städer</target>
         <note annotates="source" from="developer">The title for the list of cities.</note>
       </trans-unit>
     </body>
@@ -268,6 +269,7 @@
     <body>
       <trans-unit id="vpn.connectionStability.unstable">
         <source>Unstable</source>
+        <target>Instabil</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.noSignal">
@@ -280,6 +282,7 @@
     <body>
       <trans-unit id="vpn.alert.authenticationError">
         <source>Authentication error</source>
+        <target>Autentiseringsfel</target>
       </trans-unit>
       <trans-unit id="vpn.alert.tryAgain">
         <source>Try again</source>
@@ -287,25 +290,32 @@
       </trans-unit>
       <trans-unit id="vpn.alert.unableToConnect">
         <source>Unable to connect</source>
+        <target>Kan inte ansluta</target>
       </trans-unit>
       <trans-unit id="vpn.alert.noInternet">
         <source>No internet connection</source>
+        <target>Ingen internetanslutning</target>
       </trans-unit>
       <trans-unit id="vpn.alert.backgroundServiceError">
         <source>Background service error</source>
+        <target>Fel i bakgrundstjänsten</target>
       </trans-unit>
       <trans-unit id="vpn.alert.restore">
         <source>Restore</source>
+        <target>Återställ</target>
         <note annotates="source" from="developer">Restore a service in case of error.</note>
       </trans-unit>
       <trans-unit id="vpn.alert.subscriptionFailureError">
         <source>Subscription failed</source>
+        <target>Prenumerationen misslyckades</target>
       </trans-unit>
       <trans-unit id="vpn.alert.getIPRestrictionError">
         <source>Operation not allowed from current location</source>
+        <target>Drift är inte tillåten från nuvarande plats</target>
       </trans-unit>
       <trans-unit id="vpn.alert.deviceRemovedAndLogout">
         <source>Signed out and device removed</source>
+        <target>Utloggad och enheten har tagits bort</target>
       </trans-unit>
     </body>
   </file>
@@ -313,9 +323,11 @@
     <body>
       <trans-unit id="vpn.toggle.on">
         <source>Turn VPN on</source>
+        <target>Aktivera VPN</target>
       </trans-unit>
       <trans-unit id="vpn.toggle.off">
         <source>Turn VPN off</source>
+        <target>Inaktivera VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -323,42 +335,53 @@
     <body>
       <trans-unit id="vpn.settings.appPermissions">
         <source>App Permissions</source>
+        <target>Behörigheter för app</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps">
         <source>Protect specific apps</source>
+        <target>Skydda specifika appar</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.description">
         <source>Choose which apps should use the VPN</source>
+        <target>Välj vilka appar som ska använda VPN</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff">
         <source>VPN must be off to edit App Permissions</source>
+        <target>VPN måste vara avstängt för att redigera appbehörigheter</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected">
         <source>VPN protects all apps by default</source>
+        <target>VPN skyddar alla appar som standard</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotected">
         <source>Unprotected</source>
+        <target>Oskyddad</target>
         <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotected.description">
         <source>These apps will not use the VPN</source>
+        <target>Dessa appar använder inte VPN</target>
         <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protectall">
         <source>Protect All</source>
+        <target>Skydda alla</target>
         <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected">
         <source>Protected</source>
+        <target>Skyddad</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected.description">
         <source>These apps will use the VPN</source>
+        <target>Dessa appar använder VPN</target>
         <note annotates="source" from="developer">Description for the list of apps protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotectall">
         <source>Unprotect All</source>
+        <target>Avskydda alla</target>
         <note annotates="source" from="developer">Label for the button to remove protection from all apps currently protected.</note>
       </trans-unit>
     </body>
@@ -380,6 +403,7 @@
     <body>
       <trans-unit id="vpn.settings.networking">
         <source>Network settings</source>
+        <target>Nätverksinställningar</target>
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6">
         <source>IPv6</source>
@@ -387,15 +411,19 @@
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6.description">
         <source>Push the internet forward with the latest version of the Internet Protocol</source>
+        <target>Förbättra internet med den senaste versionen av internetprotokollet</target>
       </trans-unit>
       <trans-unit id="vpn.settings.lanAccess">
         <source>Local network access</source>
+        <target>Lokal nätverksåtkomst</target>
       </trans-unit>
       <trans-unit id="vpn.settings.lanAccess.description">
         <source>Access printers, streaming sticks and all other devices on your local network</source>
+        <target>Få tillgång till skrivare, streaming-stickor och alla andra enheter i ditt lokala nätverk</target>
       </trans-unit>
       <trans-unit id="vpn.turnOffAlert.vpnMustBeOff">
         <source>VPN must be off to edit network settings</source>
+        <target>VPN måste vara avstängt för att redigera nätverksinställningar</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
     </body>
@@ -411,6 +439,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert.description">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
+        <target>Bli meddelad om en gäst-Wi-Fi-portal är blockerad på grund av VPN-anslutning</target>
       </trans-unit>
     </body>
   </file>
@@ -418,15 +447,19 @@
     <body>
       <trans-unit id="vpn.settings.user">
         <source>VPN User</source>
+        <target>VPN-användare</target>
       </trans-unit>
       <trans-unit id="vpn.main.manageAccount">
         <source>Manage account</source>
+        <target>Hantera konto</target>
       </trans-unit>
       <trans-unit id="vpn.settings.runOnBoot">
         <source>Launch VPN app on Startup</source>
+        <target>Starta VPN-appen vid start</target>
       </trans-unit>
       <trans-unit id="vpn.settings.giveFeedback">
         <source>Give feedback</source>
+        <target>Ge synpunkter</target>
       </trans-unit>
     </body>
   </file>
@@ -434,6 +467,7 @@
     <body>
       <trans-unit id="vpn.authenticating.waitForSignIn">
         <source>Waiting for sign in and subscription confirmation…</source>
+        <target>Väntar på inloggning och prenumerationsbekräftelse…</target>
       </trans-unit>
     </body>
   </file>
@@ -441,6 +475,7 @@
     <body>
       <trans-unit id="vpn.postAuthentication..quickAccess">
         <source>Quick access</source>
+        <target>Snabbåtkomst</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.statusBarIntro">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
