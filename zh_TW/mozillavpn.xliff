@@ -135,7 +135,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.disconnecting">
         <source>Disconnecting…</source>
-        <target>離線中…</target>
+        <target>斷線中…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.deactivating">
         <source>Unmasking connection and location</source>
@@ -306,6 +306,7 @@
       </trans-unit>
       <trans-unit id="vpn.alert.getIPRestrictionError">
         <source>Operation not allowed from current location</source>
+        <target>不允許從目前位置進行操作</target>
       </trans-unit>
       <trans-unit id="vpn.alert.deviceRemovedAndLogout">
         <source>Signed out and device removed</source>
@@ -405,15 +406,19 @@
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6.description">
         <source>Push the internet forward with the latest version of the Internet Protocol</source>
+        <target>使用最新版的網際網路通訊協定，讓網路發展更進步</target>
       </trans-unit>
       <trans-unit id="vpn.settings.lanAccess">
         <source>Local network access</source>
+        <target>存取區域網路</target>
       </trans-unit>
       <trans-unit id="vpn.settings.lanAccess.description">
         <source>Access printers, streaming sticks and all other devices on your local network</source>
+        <target>存取您所在區網當中的印表機、電視棒等等各種裝置</target>
       </trans-unit>
       <trans-unit id="vpn.turnOffAlert.vpnMustBeOff">
         <source>VPN must be off to edit network settings</source>
+        <target>必須先中斷 VPN 才能編輯網路設定</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
     </body>
@@ -426,9 +431,11 @@
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert">
         <source>Guest Wi-Fi portal alert</source>
+        <target>Wi-Fi 登入頁面提示</target>
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert.description">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
+        <target>當 Wi-Fi 登入頁面被 VPN 連線影響封鎖時，收到提示</target>
       </trans-unit>
     </body>
   </file>
@@ -447,6 +454,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.giveFeedback">
         <source>Give feedback</source>
+        <target>提供意見回饋</target>
       </trans-unit>
     </body>
   </file>
@@ -461,9 +469,11 @@
     <body>
       <trans-unit id="vpn.postAuthentication..quickAccess">
         <source>Quick access</source>
+        <target>快速存取</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.statusBarIntro">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
+        <target>您可以從狀態列快速存取 Mozilla VPN。</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.continue">
         <source>Continue</source>
@@ -599,12 +609,15 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.3">
         <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
+        <target>不限流、沒有每月流量額度，讓您影音串流、下載檔案、玩遊戲不設限。</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.4">
         <source>No online activity logs</source>
+        <target>不保留您的上網紀錄</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.4">
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
+        <target>我們承諾不會監控或記錄您的上網行為。</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.skip">
         <source>Skip</source>
@@ -629,6 +642,7 @@
       </trans-unit>
       <trans-unit id="vpn.subscription.featureSubtitle2">
         <source>We encrypt your entire device.</source>
+        <target>完整保護裝置的所有連線。</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.featureSubtitle3">
         <source>Protect your access to the web.</source>
@@ -727,6 +741,7 @@
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnected.title">
         <source>VPN Connected</source>
+        <target>已連線至 VPN</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnected.message">
         <source>Connected to %1, %2</source>
@@ -735,9 +750,11 @@
       </trans-unit>
       <trans-unit id="vpn.systray.statusDisconnected.title">
         <source>VPN Disconnected</source>
+        <target>VPN 已中斷</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusDisconnected.message">
         <source>Disconnected from %1, %2</source>
+        <target>已中斷與 %1, %2 的連線</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
     </body>
@@ -785,7 +802,7 @@
       </trans-unit>
       <trans-unit id="vpn.systray.status.disconnectingFrom">
         <source>Disconnecting from:</source>
-        <target>正在從下列位置離線:</target>
+        <target>正在中斷與下列位置間的連線:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.location">
         <source>%1, %2</source>
@@ -800,7 +817,7 @@
       </trans-unit>
       <trans-unit id="systray.disconnect">
         <source>Disconnect</source>
-        <target>取消連線</target>
+        <target>斷線</target>
       </trans-unit>
       <trans-unit id="systray.help">
         <source>Help</source>
