@@ -41,6 +41,7 @@
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion">
         <source>Release Version</source>
+        <target>Version</target>
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
       </trans-unit>
     </body>
@@ -54,10 +55,12 @@
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.download">
         <source>Download</source>
+        <target>Nedladdning</target>
         <note annotates="source" from="developer">The current download speed. The speed is shown on the next line.</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.upload">
         <source>Upload</source>
+        <target>Uppladdning</target>
         <note annotates="source" from="developer">The current upload speed. The speed is shown on the next line.</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.close">
@@ -97,6 +100,7 @@
       </trans-unit>
       <trans-unit id="vpn.servers.currentLocation">
         <source>current location - %1</source>
+        <target>aktuell plats - %1</target>
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
       </trans-unit>
     </body>
@@ -105,44 +109,57 @@
     <body>
       <trans-unit id="vpn.controller.deactivated">
         <source>VPN is off</source>
+        <target>VPN är avstängt</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activationSloagan">
         <source>Turn on to protect your privacy</source>
+        <target>Slå på för att skydda din integritet</target>
       </trans-unit>
       <trans-unit id="vpn.controller.connecting">
         <source>Connecting</source>
+        <target>Ansluter</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activating">
         <source>Masking connection and location</source>
+        <target>Maskera anslutning och plats</target>
       </trans-unit>
       <trans-unit id="vpn.controller.attemptingToConfirm">
         <source>Attempting to confirm connection</source>
+        <target>Försöker bekräfta anslutning</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activated">
         <source>VPN is on</source>
+        <target>VPN är på</target>
       </trans-unit>
       <trans-unit id="vpn.controller.active">
         <source>Secure and private</source>
+        <target>Säker och privat</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
       </trans-unit>
       <trans-unit id="vpn.controller.disconnecting">
         <source>Disconnecting…</source>
+        <target>Kopplar från…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.deactivating">
         <source>Unmasking connection and location</source>
+        <target>Avmaskerar anslutning och plats</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switching">
         <source>Switching…</source>
+        <target>Växlar…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switchingDetail">
         <source>From %1 to %2</source>
+        <target>Från %1 till %2</target>
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
       </trans-unit>
       <trans-unit id="vpn.controller.info">
         <source>Connection Information</source>
+        <target>Anslutningsinformation</target>
       </trans-unit>
       <trans-unit id="vpn.main.settings">
         <source>Settings</source>
+        <target>Inställningar</target>
       </trans-unit>
     </body>
   </file>
@@ -150,9 +167,11 @@
     <body>
       <trans-unit id="vpn.devices.doDeviceRemoval">
         <source>Remove a device</source>
+        <target>Ta bort en enhet</target>
       </trans-unit>
       <trans-unit id="vpn.devices.maxDevicesReached">
         <source>You’ve reached your limit. To install the VPN on this device, you’ll need to remove one.</source>
+        <target>Du har nått din gräns. För att installera VPN på den här enheten måste du ta bort en.</target>
       </trans-unit>
     </body>
   </file>
@@ -160,6 +179,7 @@
     <body>
       <trans-unit id="vpn.main.getHelp">
         <source>Get Help</source>
+        <target>Få hjälp</target>
       </trans-unit>
     </body>
   </file>
@@ -167,26 +187,32 @@
     <body>
       <trans-unit id="vpn.connectionInfo.Bps">
         <source>B/s</source>
+        <target>B/s</target>
         <note annotates="source" from="developer">Bytes per second</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.kBps">
         <source>kB/s</source>
+        <target>kB/s</target>
         <note annotates="source" from="developer">Kilobytes per second</note>
       </trans-unit>
       <trans-unit id="vpn.connectioInfo.mBps">
         <source>MB/s</source>
+        <target>MB/s</target>
         <note annotates="source" from="developer">Megabytes per second</note>
       </trans-unit>
       <trans-unit id="vpn.connectioInfo.gBps">
         <source>GB/s</source>
+        <target>GB/s</target>
         <note annotates="source" from="developer">Gigabytes per second</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.tBps">
         <source>TB/s</source>
+        <target>TB/s</target>
         <note annotates="source" from="developer">Terabytes per second</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.accessibleName">
         <source>%1: %2 %3</source>
+        <target>%1: %2 %3</target>
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
       </trans-unit>
     </body>
@@ -195,6 +221,7 @@
     <body>
       <trans-unit id="vpn.authenticating.cancel">
         <source>Cancel</source>
+        <target>Avbryt</target>
       </trans-unit>
     </body>
   </file>
@@ -202,17 +229,21 @@
     <body>
       <trans-unit id="vpn.devices.removeDeviceQuestion">
         <source>Remove device?</source>
+        <target>Ta bort enhet?</target>
       </trans-unit>
       <trans-unit id="vpn.devices.deviceRemovalConfirm">
         <source>Please confirm you would like to remove
 %1.</source>
+        <target>Bekräfta att du vill ta bort %1.</target>
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
       </trans-unit>
       <trans-unit id="vpn.devices.cancelDeviceRemoval">
         <source>Cancel</source>
+        <target>Avbryt</target>
       </trans-unit>
       <trans-unit id="vpn.devices.removeDeviceButton">
         <source>Remove</source>
+        <target>Ta bort</target>
         <note annotates="source" from="developer">This is the “remove” device button.</note>
       </trans-unit>
     </body>
@@ -229,6 +260,7 @@
     <body>
       <trans-unit id="vpn.main.signOut">
         <source>Sign Out</source>
+        <target>Logga ut</target>
       </trans-unit>
     </body>
   </file>
@@ -240,6 +272,7 @@
       </trans-unit>
       <trans-unit id="vpn.connectionStability.noSignal">
         <source>No Signal</source>
+        <target>Ingen signal</target>
       </trans-unit>
     </body>
   </file>
@@ -250,6 +283,7 @@
       </trans-unit>
       <trans-unit id="vpn.alert.tryAgain">
         <source>Try again</source>
+        <target>Försök igen</target>
       </trans-unit>
       <trans-unit id="vpn.alert.unableToConnect">
         <source>Unable to connect</source>
@@ -333,9 +367,11 @@
     <body>
       <trans-unit id="vpn.settings.language">
         <source>Language</source>
+        <target>Språk</target>
       </trans-unit>
       <trans-unit id="vpn.settings.languageAccessibleName">
         <source>%1 %2</source>
+        <target>%1 %2</target>
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
       </trans-unit>
     </body>
@@ -347,6 +383,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6">
         <source>IPv6</source>
+        <target>IPv6</target>
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6.description">
         <source>Push the internet forward with the latest version of the Internet Protocol</source>
@@ -367,6 +404,7 @@
     <body>
       <trans-unit id="vpn.settings.notifications">
         <source>Notifications</source>
+        <target>Aviseringar</target>
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert">
         <source>Guest Wi-Fi portal alert</source>
@@ -409,6 +447,7 @@
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.continue">
         <source>Continue</source>
+        <target>Fortsätt</target>
       </trans-unit>
     </body>
   </file>
@@ -439,6 +478,7 @@
     <body>
       <trans-unit id="vpn.devices.deviceAccessibleName">
         <source>%1 %2</source>
+        <target>%1 %2</target>
         <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
       </trans-unit>
       <trans-unit id="vpn.devices.currentDevice">
@@ -484,6 +524,7 @@
       </trans-unit>
       <trans-unit id="vpn.logs.clear">
         <source>Clear</source>
+        <target>Rensa</target>
       </trans-unit>
     </body>
   </file>
@@ -491,12 +532,15 @@
     <body>
       <trans-unit id="MozillaVPN">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.updates.newVersionAvailable">
         <source>New version is available.</source>
+        <target>Ny version finns tillgänglig.</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateNow">
         <source>Update now</source>
+        <target>Uppdatera nu</target>
       </trans-unit>
     </body>
   </file>
@@ -504,34 +548,44 @@
     <body>
       <trans-unit id="vpn.onboarding.headline.1">
         <source>Device-level encryption</source>
+        <target>Kryptering på enhetsnivå</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.1">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
+        <target>Kryptera din trafik så att den inte kan läsas av din Internetleverantör eller avlyssnare.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.2">
         <source>Servers in 30+ countries</source>
+        <target>Servrar i över 30 länder</target>
         <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeeded.qml too.</note>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.2">
         <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
+        <target>Välj en server i vilket land du vill och dölj din plats för att lura spårare.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.3">
         <source>No bandwidth restrictions</source>
+        <target>Inga bandbreddsbegränsningar</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.3">
         <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
+        <target>Strömma, ladda ner och spel utan gränser, månatliga tak eller ISP-strypning. </target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.4">
         <source>No online activity logs</source>
+        <target>Inga aktivitetsloggar online</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.4">
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
+        <target>Vi har åtagit oss att inte övervaka eller logga din surfning eller nätverkshistorik.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.skip">
         <source>Skip</source>
+        <target>Hoppa över</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.next">
         <source>Next</source>
+        <target>Nästa</target>
       </trans-unit>
     </body>
   </file>
@@ -651,12 +705,15 @@
     <body>
       <trans-unit id="menubar.file.title">
         <source>File</source>
+        <target>Arkiv</target>
       </trans-unit>
       <trans-unit id="menubar.file.close">
         <source>Close</source>
+        <target>Stäng</target>
       </trans-unit>
       <trans-unit id="menubar.help.title">
         <source>Help</source>
+        <target>Hjälp</target>
       </trans-unit>
     </body>
   </file>
@@ -664,12 +721,15 @@
     <body>
       <trans-unit id="systray.hide">
         <source>Hide Mozilla VPN</source>
+        <target>Dölj Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="systray.show">
         <source>Show Mozilla VPN</source>
+        <target>Visa Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.systray.status.connectedTo">
         <source>Connected to:</source>
+        <target>Ansluten till:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.status.connectTo">
         <source>Connect to the last location:</source>
