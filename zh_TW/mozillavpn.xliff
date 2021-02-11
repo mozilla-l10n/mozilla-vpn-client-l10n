@@ -37,6 +37,7 @@
       </trans-unit>
       <trans-unit id="vpn.main.productDescription">
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
+        <target>又快又安全，更方便使用的 VPN 軟體，由 Firefox 的開發者打造。</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion">
         <source>Release Version</source>
@@ -120,9 +121,11 @@
       </trans-unit>
       <trans-unit id="vpn.controller.activating">
         <source>Masking connection and location</source>
+        <target>隱藏連線與位置資訊</target>
       </trans-unit>
       <trans-unit id="vpn.controller.attemptingToConfirm">
         <source>Attempting to confirm connection</source>
+        <target>正在嘗試確認連線</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activated">
         <source>VPN is on</source>
@@ -139,6 +142,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.deactivating">
         <source>Unmasking connection and location</source>
+        <target>取消隱藏連線與位置資訊</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switching">
         <source>Switching…</source>
@@ -167,6 +171,7 @@
       </trans-unit>
       <trans-unit id="vpn.devices.maxDevicesReached">
         <source>You’ve reached your limit. To install the VPN on this device, you’ll need to remove one.</source>
+        <target>已達裝置數量限制。若要在此裝置安裝 VPN，請先移除其他裝置。</target>
       </trans-unit>
     </body>
   </file>
@@ -451,6 +456,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.runOnBoot">
         <source>Launch VPN app on Startup</source>
+        <target>開機時啟動 VPN 應用程式</target>
       </trans-unit>
       <trans-unit id="vpn.settings.giveFeedback">
         <source>Give feedback</source>
@@ -462,6 +468,7 @@
     <body>
       <trans-unit id="vpn.authenticating.waitForSignIn">
         <source>Waiting for sign in and subscription confirmation…</source>
+        <target>正在等待登入與訂閱確認…</target>
       </trans-unit>
     </body>
   </file>
@@ -485,12 +492,15 @@
     <body>
       <trans-unit id="vpn.subscriptionBlocked.title">
         <source>Error confirming subscription…</source>
+        <target>確認訂閱資訊時發生錯誤…</target>
       </trans-unit>
       <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed">
         <source>Another Firefox Account has already subscribed using this Apple ID.</source>
+        <target>已有另一組 Firefox 帳號使用此 Apple ID 進行訂閱。</target>
       </trans-unit>
       <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
+        <target>請到我們的說明中心了解如何管理訂閱。</target>
       </trans-unit>
       <trans-unit id="vpn.subscriptionBlocked.getHelp">
         <source>Get Help</source>
@@ -594,6 +604,7 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.1">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
+        <target>加密您的流量，讓網路公司或竊聽者完全無法知道當中的內容。</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.2">
         <source>Servers in 30+ countries</source>
@@ -602,6 +613,7 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.2">
         <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
+        <target>挑選世界各地的伺服器，隱藏您的實際所在地，讓追蹤器再也追不到您。</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.3">
         <source>No bandwidth restrictions</source>
@@ -736,7 +748,7 @@
       </trans-unit>
       <trans-unit id="vpn.systray.statusSwtich.message">
         <source>Switched from %1, %2 to %3, %4</source>
-        <target>已從 %1%2 切換到 %3%4</target>
+        <target>已從 %1, %2 切換到 %3, %4</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnected.title">
@@ -745,7 +757,7 @@
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnected.message">
         <source>Connected to %1, %2</source>
-        <target>已連線到 %1%2</target>
+        <target>已連線到 %1, %2</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
       <trans-unit id="vpn.systray.statusDisconnected.title">
@@ -763,6 +775,7 @@
     <body>
       <trans-unit id="vpn.android.notification.isIDLE">
         <source>Ready for you to connect</source>
+        <target>已經就緒，可以連線</target>
         <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
       </trans-unit>
     </body>
@@ -771,12 +784,15 @@
     <body>
       <trans-unit id="menubar.file.title">
         <source>File</source>
+        <target>檔案</target>
       </trans-unit>
       <trans-unit id="menubar.file.close">
         <source>Close</source>
+        <target>關閉</target>
       </trans-unit>
       <trans-unit id="menubar.help.title">
         <source>Help</source>
+        <target>說明</target>
       </trans-unit>
     </body>
   </file>
@@ -784,9 +800,11 @@
     <body>
       <trans-unit id="systray.hide">
         <source>Hide Mozilla VPN</source>
+        <target>隱藏 Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="systray.show">
         <source>Show Mozilla VPN</source>
+        <target>顯示 Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.systray.status.connectedTo">
         <source>Connected to:</source>
@@ -806,14 +824,16 @@
       </trans-unit>
       <trans-unit id="vpn.systray.location">
         <source>%1, %2</source>
-        <target>%2%1</target>
+        <target>%1, %2</target>
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
       </trans-unit>
       <trans-unit id="vpn.systray.captivePortalAlert.title">
         <source>Captive portal detected</source>
+        <target>偵測到網路登入頁面</target>
       </trans-unit>
       <trans-unit id="vpn.systray.captivePortalAlert.message">
         <source>VPN will automatically reconnect when ready</source>
+        <target>準備好之後，將自動重新連線到 VPN</target>
       </trans-unit>
       <trans-unit id="systray.disconnect">
         <source>Disconnect</source>
@@ -829,6 +849,7 @@
       </trans-unit>
       <trans-unit id="systray.quit">
         <source>Quit Mozilla VPN</source>
+        <target>離開 Mozilla VPN</target>
       </trans-unit>
     </body>
   </file>
