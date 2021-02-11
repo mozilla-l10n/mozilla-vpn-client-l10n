@@ -159,10 +159,11 @@ def main():
                 child.text = translations[string_id]
                 trans_node.insert(1, child)
 
-        # Update target-language where defined
+        # Update target-language where defined, replace underscores with
+        # hyphens if necessary (e.g. en_GB => en-GB).
         for file_node in reference_root_copy.xpath("//x:file", namespaces=NS):
             if file_node.get("target-language"):
-                file_node.set("target-language", locale_code)
+                file_node.set("target-language", locale_code.replace("_", "-"))
 
         # Replace the existing locale file with the new XML content
         with open(file_path, "w") as fp:
