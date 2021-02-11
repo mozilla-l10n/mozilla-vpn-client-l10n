@@ -114,6 +114,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.connecting">
         <source>Connecting</source>
+        <target>Pripájanie</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activating">
         <source>Masking connection and location</source>
@@ -131,12 +132,14 @@
       </trans-unit>
       <trans-unit id="vpn.controller.disconnecting">
         <source>Disconnecting…</source>
+        <target>Odpájanie…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.deactivating">
         <source>Unmasking connection and location</source>
       </trans-unit>
       <trans-unit id="vpn.controller.switching">
         <source>Switching…</source>
+        <target>Prepínanie…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switchingDetail">
         <source>From %1 to %2</source>
@@ -144,6 +147,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.info">
         <source>Connection Information</source>
+        <target>Informácie o pripojení</target>
       </trans-unit>
       <trans-unit id="vpn.main.settings">
         <source>Settings</source>
@@ -215,10 +219,12 @@
     <body>
       <trans-unit id="vpn.devices.removeDeviceQuestion">
         <source>Remove device?</source>
+        <target>Naozaj chcete odstrániť zariadenie?</target>
       </trans-unit>
       <trans-unit id="vpn.devices.deviceRemovalConfirm">
         <source>Please confirm you would like to remove
 %1.</source>
+        <target>Prosím, potvrďte, že chcete odstrániť %1.</target>
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
       </trans-unit>
       <trans-unit id="vpn.devices.cancelDeviceRemoval">
@@ -257,6 +263,7 @@
       </trans-unit>
       <trans-unit id="vpn.connectionStability.noSignal">
         <source>No Signal</source>
+        <target>Žiadny signál</target>
       </trans-unit>
     </body>
   </file>
@@ -293,6 +300,7 @@
       </trans-unit>
       <trans-unit id="vpn.alert.deviceRemovedAndLogout">
         <source>Signed out and device removed</source>
+        <target>Odhlásili sme vás a zariadenie sme odstránili</target>
       </trans-unit>
     </body>
   </file>
@@ -389,6 +397,7 @@
       </trans-unit>
       <trans-unit id="vpn.turnOffAlert.vpnMustBeOff">
         <source>VPN must be off to edit network settings</source>
+        <target>Ak chcete upraviť nastavenia siete, musíte vypnúť VPN</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
     </body>
@@ -411,6 +420,7 @@
     <body>
       <trans-unit id="vpn.settings.user">
         <source>VPN User</source>
+        <target>Používateľ VPN</target>
       </trans-unit>
       <trans-unit id="vpn.main.manageAccount">
         <source>Manage account</source>
@@ -482,20 +492,25 @@
       </trans-unit>
       <trans-unit id="vpn.devices.currentDevice">
         <source>Current Device</source>
+        <target>Aktuálne zariadenie</target>
       </trans-unit>
       <trans-unit id="vpn.devices.addedltHour">
         <source>Added less than an hour ago</source>
+        <target>Pridané pred menej ako hodinou</target>
       </trans-unit>
       <trans-unit id="vpn.devices.addedXhoursAgo">
         <source>Added a few hours ago (%1)</source>
+        <target>Pridané pred niekoľkými hodinami (%1)</target>
         <note annotates="source" from="developer">%1 is the number of hours.</note>
       </trans-unit>
       <trans-unit id="vpn.devices.addedXdaysAgo">
         <source>Added %1 days ago</source>
+        <target>Pridané pred niekoľkými dňami (%1)</target>
         <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
       </trans-unit>
       <trans-unit id="vpn.devices.removeA11Y">
         <source>Remove %1</source>
+        <target>Odstrániť %1</target>
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
       </trans-unit>
     </body>
@@ -614,7 +629,7 @@
       </trans-unit>
       <trans-unit id="vpn.subscription.featureSubtitle1">
         <source>We’re Mozilla. We’re on your side.</source>
-        <target>Sme Mozilla. Sme na Vašej strane.</target>
+        <target>Sme Mozilla. Sme na vašej strane.</target>
       </trans-unit>
       <trans-unit id="vpn.updates.subscribeNow">
         <source>Subscribe now</source>
