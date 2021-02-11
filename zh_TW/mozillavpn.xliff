@@ -182,26 +182,32 @@
     <body>
       <trans-unit id="vpn.connectionInfo.Bps">
         <source>B/s</source>
+        <target>B/s</target>
         <note annotates="source" from="developer">Bytes per second</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.kBps">
         <source>kB/s</source>
+        <target>kB/s</target>
         <note annotates="source" from="developer">Kilobytes per second</note>
       </trans-unit>
       <trans-unit id="vpn.connectioInfo.mBps">
         <source>MB/s</source>
+        <target>MB/s</target>
         <note annotates="source" from="developer">Megabytes per second</note>
       </trans-unit>
       <trans-unit id="vpn.connectioInfo.gBps">
         <source>GB/s</source>
+        <target>GB/s</target>
         <note annotates="source" from="developer">Gigabytes per second</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.tBps">
         <source>TB/s</source>
+        <target>TB/s</target>
         <note annotates="source" from="developer">Terabytes per second</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.accessibleName">
         <source>%1: %2 %3</source>
+        <target>%1: %2 %3</target>
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
       </trans-unit>
     </body>
@@ -210,6 +216,7 @@
     <body>
       <trans-unit id="vpn.authenticating.cancel">
         <source>Cancel</source>
+        <target>取消</target>
       </trans-unit>
     </body>
   </file>
@@ -217,17 +224,21 @@
     <body>
       <trans-unit id="vpn.devices.removeDeviceQuestion">
         <source>Remove device?</source>
+        <target>確定移除裝置？</target>
       </trans-unit>
       <trans-unit id="vpn.devices.deviceRemovalConfirm">
         <source>Please confirm you would like to remove
 %1.</source>
+        <target>請確認您是否要移除 %1。</target>
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
       </trans-unit>
       <trans-unit id="vpn.devices.cancelDeviceRemoval">
         <source>Cancel</source>
+        <target>取消</target>
       </trans-unit>
       <trans-unit id="vpn.devices.removeDeviceButton">
         <source>Remove</source>
+        <target>移除</target>
         <note annotates="source" from="developer">This is the “remove” device button.</note>
       </trans-unit>
     </body>
@@ -236,6 +247,7 @@
     <body>
       <trans-unit id="cities">
         <source>Cities</source>
+        <target>城市</target>
         <note annotates="source" from="developer">The title for the list of cities.</note>
       </trans-unit>
     </body>
@@ -244,6 +256,7 @@
     <body>
       <trans-unit id="vpn.main.signOut">
         <source>Sign Out</source>
+        <target>登出</target>
       </trans-unit>
     </body>
   </file>
@@ -251,10 +264,12 @@
     <body>
       <trans-unit id="vpn.connectionStability.unstable">
         <source>Unstable</source>
+        <target>不穩定</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.noSignal">
         <source>No Signal</source>
+        <target>無訊號</target>
       </trans-unit>
     </body>
   </file>
@@ -262,31 +277,39 @@
     <body>
       <trans-unit id="vpn.alert.authenticationError">
         <source>Authentication error</source>
+        <target>驗證錯誤</target>
       </trans-unit>
       <trans-unit id="vpn.alert.tryAgain">
         <source>Try again</source>
+        <target>再試一次</target>
       </trans-unit>
       <trans-unit id="vpn.alert.unableToConnect">
         <source>Unable to connect</source>
+        <target>連線失敗</target>
       </trans-unit>
       <trans-unit id="vpn.alert.noInternet">
         <source>No internet connection</source>
+        <target>沒有網際網路連線</target>
       </trans-unit>
       <trans-unit id="vpn.alert.backgroundServiceError">
         <source>Background service error</source>
+        <target>背景服務發生錯誤</target>
       </trans-unit>
       <trans-unit id="vpn.alert.restore">
         <source>Restore</source>
+        <target>回復</target>
         <note annotates="source" from="developer">Restore a service in case of error.</note>
       </trans-unit>
       <trans-unit id="vpn.alert.subscriptionFailureError">
         <source>Subscription failed</source>
+        <target>訂閱失敗</target>
       </trans-unit>
       <trans-unit id="vpn.alert.getIPRestrictionError">
         <source>Operation not allowed from current location</source>
       </trans-unit>
       <trans-unit id="vpn.alert.deviceRemovedAndLogout">
         <source>Signed out and device removed</source>
+        <target>已登出並移除裝置</target>
       </trans-unit>
     </body>
   </file>
@@ -294,9 +317,11 @@
     <body>
       <trans-unit id="vpn.toggle.on">
         <source>Turn VPN on</source>
+        <target>開啟 VPN</target>
       </trans-unit>
       <trans-unit id="vpn.toggle.off">
         <source>Turn VPN off</source>
+        <target>關閉 VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -304,42 +329,53 @@
     <body>
       <trans-unit id="vpn.settings.appPermissions">
         <source>App Permissions</source>
+        <target>應用程式權限</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps">
         <source>Protect specific apps</source>
+        <target>保護特定應用程式</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.description">
         <source>Choose which apps should use the VPN</source>
+        <target>選擇要讓哪些應用程式透過 VPN 連線</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff">
         <source>VPN must be off to edit App Permissions</source>
+        <target>必須先中斷 VPN 才能編輯應用程式權限</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected">
         <source>VPN protects all apps by default</source>
+        <target>VPN 在預設情況下，會保護所有應用程式</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotected">
         <source>Unprotected</source>
+        <target>未受保護</target>
         <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotected.description">
         <source>These apps will not use the VPN</source>
+        <target>下列應用程式不會透過 VPN 進行連線</target>
         <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protectall">
         <source>Protect All</source>
+        <target>保護全部</target>
         <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected">
         <source>Protected</source>
+        <target>受保護</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected.description">
         <source>These apps will use the VPN</source>
+        <target>下列應用程式將透過 VPN 進行連線</target>
         <note annotates="source" from="developer">Description for the list of apps protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotectall">
         <source>Unprotect All</source>
+        <target>取消保護全部</target>
         <note annotates="source" from="developer">Label for the button to remove protection from all apps currently protected.</note>
       </trans-unit>
     </body>
@@ -348,9 +384,11 @@
     <body>
       <trans-unit id="vpn.settings.language">
         <source>Language</source>
+        <target>語言</target>
       </trans-unit>
       <trans-unit id="vpn.settings.languageAccessibleName">
         <source>%1 %2</source>
+        <target>%1 %2</target>
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
       </trans-unit>
     </body>
@@ -359,9 +397,11 @@
     <body>
       <trans-unit id="vpn.settings.networking">
         <source>Network settings</source>
+        <target>網路設定</target>
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6">
         <source>IPv6</source>
+        <target>IPv6</target>
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6.description">
         <source>Push the internet forward with the latest version of the Internet Protocol</source>
@@ -382,6 +422,7 @@
     <body>
       <trans-unit id="vpn.settings.notifications">
         <source>Notifications</source>
+        <target>通知</target>
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert">
         <source>Guest Wi-Fi portal alert</source>
@@ -395,9 +436,11 @@
     <body>
       <trans-unit id="vpn.settings.user">
         <source>VPN User</source>
+        <target>VPN 使用者</target>
       </trans-unit>
       <trans-unit id="vpn.main.manageAccount">
         <source>Manage account</source>
+        <target>管理帳號</target>
       </trans-unit>
       <trans-unit id="vpn.settings.runOnBoot">
         <source>Launch VPN app on Startup</source>
@@ -424,6 +467,7 @@
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.continue">
         <source>Continue</source>
+        <target>繼續</target>
       </trans-unit>
     </body>
   </file>
@@ -440,6 +484,7 @@
       </trans-unit>
       <trans-unit id="vpn.subscriptionBlocked.getHelp">
         <source>Get Help</source>
+        <target>取得幫助</target>
       </trans-unit>
     </body>
   </file>
@@ -691,12 +736,14 @@
       </trans-unit>
       <trans-unit id="vpn.systray.status.connectingTo">
         <source>Connecting to:</source>
+        <target>正在連線到:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.status.disconnectingFrom">
         <source>Disconnecting from:</source>
       </trans-unit>
       <trans-unit id="vpn.systray.location">
         <source>%1, %2</source>
+        <target>%2%1</target>
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
       </trans-unit>
       <trans-unit id="vpn.systray.captivePortalAlert.title">
@@ -707,12 +754,15 @@
       </trans-unit>
       <trans-unit id="systray.disconnect">
         <source>Disconnect</source>
+        <target>取消連線</target>
       </trans-unit>
       <trans-unit id="systray.help">
         <source>Help</source>
+        <target>說明</target>
       </trans-unit>
       <trans-unit id="systray.preferences">
         <source>Preferences…</source>
+        <target>偏好設定…</target>
       </trans-unit>
       <trans-unit id="systray.quit">
         <source>Quit Mozilla VPN</source>
