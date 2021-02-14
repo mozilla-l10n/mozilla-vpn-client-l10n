@@ -423,7 +423,7 @@
       </trans-unit>
       <trans-unit id="vpn.turnOffAlert.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit network settings</source>
-        <target>La VPN debe estar desconectada para editar los permisos de la aplicación</target>
+        <target>La VPN debe estar desconectada para editar la configuración de red</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
     </body>
@@ -480,7 +480,7 @@
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.statusBarIntro" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
-        <target>Puede acceder rápidamente al Mozilla VPN desde su barra de estado.</target>
+        <target>Podés acceder rápidamente a Mozilla VPN desde la barra de estado.</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
         <source>Continue</source>
@@ -809,29 +809,36 @@
       </trans-unit>
       <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
         <source>Connecting to:</source>
-        <target>Conectando:</target>
+        <target>Conectando a:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.disconnectingFrom">
+      <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
         <source>Disconnecting from:</source>
+        <target>Desconectando de :</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.location">
+      <trans-unit id="vpn.systray.location" xml:space="preserve">
         <source>%1, %2</source>
+        <target>%1, %2</target>
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalAlert.title">
+      <trans-unit id="vpn.systray.captivePortalAlert.title" xml:space="preserve">
         <source>Captive portal detected</source>
+        <target>Portal cautivo detectado</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalAlert.message">
+      <trans-unit id="vpn.systray.captivePortalAlert.message" xml:space="preserve">
         <source>VPN will automatically reconnect when ready</source>
+        <target>La VPN reconectará automáticamente cuando esté lista</target>
       </trans-unit>
-      <trans-unit id="systray.disconnect">
+      <trans-unit id="systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
+        <target>Desconectar</target>
       </trans-unit>
-      <trans-unit id="systray.help">
+      <trans-unit id="systray.help" xml:space="preserve">
         <source>Help</source>
+        <target>Ayuda</target>
       </trans-unit>
-      <trans-unit id="systray.preferences">
+      <trans-unit id="systray.preferences" xml:space="preserve">
         <source>Preferences…</source>
+        <target>Preferencias…</target>
       </trans-unit>
       <trans-unit id="systray.quit">
         <source>Quit Mozilla VPN</source>
