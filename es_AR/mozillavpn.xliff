@@ -701,11 +701,13 @@
         <source>Update required</source>
         <target>Se requiere actualización</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequire.reason">
+      <trans-unit id="vpn.updates.updateRequire.reason" xml:space="preserve">
         <source>We detected and fixed a serious bug. You must update your app.</source>
+        <target>Detectamos y arreglamos un error grave. Tiene que actualizar su aplicación.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
+      <trans-unit id="vpn.updates.updateConnectionInsecureWarning" xml:space="preserve">
         <source>Your connection will not be secure while you update.</source>
+        <target>Su conexión no será segura mientras actualiza.</target>
       </trans-unit>
       <trans-unit id="vpn.updates.notNow" xml:space="preserve">
         <source>Not now</source>
@@ -740,11 +742,13 @@
   </file>
   <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="es-AR">
     <body>
-      <trans-unit id="vpn.systray.statusSwitch.title">
+      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>Servidores VPN conmutados</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusSwtich.message">
+      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
         <source>Switched from %1, %2 to %3, %4</source>
+        <target>Permutado de %1, %2 a %3, %4</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
@@ -794,18 +798,21 @@
   </file>
   <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="es-AR">
     <body>
-      <trans-unit id="systray.hide">
+      <trans-unit id="systray.hide" xml:space="preserve">
         <source>Hide Mozilla VPN</source>
+        <target>Ocultar Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="systray.show">
+      <trans-unit id="systray.show" xml:space="preserve">
         <source>Show Mozilla VPN</source>
+        <target>Mostrar  Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
         <source>Connected to:</source>
         <target>Conectado a:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectTo">
+      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
         <source>Connect to the last location:</source>
+        <target>Conectarse a la última ubicación:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
         <source>Connecting to:</source>
@@ -840,8 +847,9 @@
         <source>Preferences…</source>
         <target>Preferencias…</target>
       </trans-unit>
-      <trans-unit id="systray.quit">
+      <trans-unit id="systray.quit" xml:space="preserve">
         <source>Quit Mozilla VPN</source>
+        <target>Salir de Mozilla VPN</target>
       </trans-unit>
     </body>
   </file>
