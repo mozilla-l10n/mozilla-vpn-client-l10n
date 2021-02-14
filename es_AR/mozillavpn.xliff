@@ -707,29 +707,34 @@
       <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
         <source>Your connection will not be secure while you update.</source>
       </trans-unit>
-      <trans-unit id="vpn.updates.notNow">
+      <trans-unit id="vpn.updates.notNow" xml:space="preserve">
         <source>Not now</source>
+        <target>No ahora</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="es-AR">
     <body>
-      <trans-unit id="vpn.connectionInfo.loading">
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
         <source>Loading</source>
+        <target>Cargando</target>
         <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="es-AR">
     <body>
-      <trans-unit id="help.viewLog">
+      <trans-unit id="help.viewLog" xml:space="preserve">
         <source>View log</source>
+        <target>Ver registro</target>
       </trans-unit>
-      <trans-unit id="help.helpCenter">
+      <trans-unit id="help.helpCenter" xml:space="preserve">
         <source>Help Center</source>
+        <target>Centro de ayuda</target>
       </trans-unit>
-      <trans-unit id="help.contactUs">
+      <trans-unit id="help.contactUs" xml:space="preserve">
         <source>Contact us</source>
+        <target>Contactanos</target>
       </trans-unit>
     </body>
   </file>
@@ -742,40 +747,48 @@
         <source>Switched from %1, %2 to %3, %4</source>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.title">
+      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN conectada</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.message">
+      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
         <source>Connected to %1, %2</source>
+        <target>Conectado a %1, %2</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.title">
+      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
         <source>VPN Disconnected</source>
+        <target>VPN desconectada</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.message">
+      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
         <source>Disconnected from %1, %2</source>
+        <target>Desconectado de %1, %2</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/platforms/android/androidcontroller.cpp" datatype="cpp" source-language="en" target-language="es-AR">
     <body>
-      <trans-unit id="vpn.android.notification.isIDLE">
+      <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
         <source>Ready for you to connect</source>
+        <target>Listo para conectar</target>
         <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="es-AR">
     <body>
-      <trans-unit id="menubar.file.title">
+      <trans-unit id="menubar.file.title" xml:space="preserve">
         <source>File</source>
+        <target>Archivo</target>
       </trans-unit>
-      <trans-unit id="menubar.file.close">
+      <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
+        <target>Cerrar</target>
       </trans-unit>
-      <trans-unit id="menubar.help.title">
+      <trans-unit id="menubar.help.title" xml:space="preserve">
         <source>Help</source>
+        <target>Ayuda</target>
       </trans-unit>
     </body>
   </file>
@@ -787,14 +800,16 @@
       <trans-unit id="systray.show">
         <source>Show Mozilla VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectedTo">
+      <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
         <source>Connected to:</source>
+        <target>Conectado a:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.status.connectTo">
         <source>Connect to the last location:</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectingTo">
+      <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
         <source>Connecting to:</source>
+        <target>Conectando:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.status.disconnectingFrom">
         <source>Disconnecting from:</source>
