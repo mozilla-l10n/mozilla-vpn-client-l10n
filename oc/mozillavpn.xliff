@@ -344,24 +344,28 @@
         <source>Choose which apps should use the VPN</source>
         <target>Causissètz quinas aplicacions devon utilizar lo VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff">
+      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit App Permissions</source>
+        <target>Lo VPN deu èsser desactivat per modificar las permissions de las aplicacions</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected">
+      <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
         <source>VPN protects all apps by default</source>
+        <target>Lo VPN protegís totas las aplicacions per defaut</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
         <source>Unprotected</source>
         <target>Pas protegits</target>
         <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.unprotected.description">
+      <trans-unit id="vpn.settings.unprotected.description" xml:space="preserve">
         <source>These apps will not use the VPN</source>
+        <target>Aquestas aplicacions utilizaràn pas lo VPN</target>
         <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectall">
+      <trans-unit id="vpn.settings.protectall" xml:space="preserve">
         <source>Protect All</source>
+        <target>Las protegir totas</target>
         <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected" xml:space="preserve">
@@ -369,12 +373,14 @@
         <target>Protegits</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protected.description">
+      <trans-unit id="vpn.settings.protected.description" xml:space="preserve">
         <source>These apps will use the VPN</source>
+        <target>Aquestas aplicacions utilizaràn lo VPN</target>
         <note annotates="source" from="developer">Description for the list of apps protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.unprotectall">
+      <trans-unit id="vpn.settings.unprotectall" xml:space="preserve">
         <source>Unprotect All</source>
+        <target>Ne protegir pas cap</target>
         <note annotates="source" from="developer">Label for the button to remove protection from all apps currently protected.</note>
       </trans-unit>
     </body>
@@ -409,11 +415,13 @@
         <source>Local network access</source>
         <target>Accès al ret local</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess.description">
+      <trans-unit id="vpn.settings.lanAccess.description" xml:space="preserve">
         <source>Access printers, streaming sticks and all other devices on your local network</source>
+        <target>Accès a las imprimentas, a las claus de difusion e totes los autres aparelhs de vòstre ret local</target>
       </trans-unit>
-      <trans-unit id="vpn.turnOffAlert.vpnMustBeOff">
+      <trans-unit id="vpn.turnOffAlert.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit network settings</source>
+        <target>Lo VPN deu èsser desactivat per modificar los paramètres ret</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
     </body>
@@ -428,8 +436,9 @@
         <source>Guest Wi-Fi portal alert</source>
         <target>Alèrta portal Wi-Fi convidat</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.guestWifiAlert.description">
+      <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
+        <target>Recebètz una notificacion se un portal Wi-Fi convidat es blocat per la connexion VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -443,18 +452,21 @@
         <source>Manage account</source>
         <target>Gestion del compte</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot">
+      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
         <source>Launch VPN app on Startup</source>
+        <target>Aviar l’aplicacion VPN a l’aviada</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.giveFeedback">
+      <trans-unit id="vpn.settings.giveFeedback" xml:space="preserve">
         <source>Give feedback</source>
+        <target>Donar vòstre vejaire</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/states/StateAuthenticating.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.authenticating.waitForSignIn">
+      <trans-unit id="vpn.authenticating.waitForSignIn" xml:space="preserve">
         <source>Waiting for sign in and subscription confirmation…</source>
+        <target>En espèra d’inscripcion e de confirmacion d’abonament…</target>
       </trans-unit>
     </body>
   </file>
@@ -464,8 +476,9 @@
         <source>Quick access</source>
         <target>Accès rapid</target>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.statusBarIntro">
+      <trans-unit id="vpn.postAuthentication.statusBarIntro" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
+        <target>Podètz accedir rapidament a Mozilla VPN a partir de la barra d’estat.</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
         <source>Continue</source>
@@ -475,14 +488,17 @@
   </file>
   <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.subscriptionBlocked.title">
+      <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
         <source>Error confirming subscription…</source>
+        <target>Error de confirmacion d’abonament…</target>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed">
+      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed" xml:space="preserve">
         <source>Another Firefox Account has already subscribed using this Apple ID.</source>
+        <target>Un autre compte Firefox es ja abonat via aqueste Apple ID.</target>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter">
+      <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
+        <target>Consultatz nòstre centre d’assisténcia per ne saber mai tocant vòstres abonaments.</target>
       </trans-unit>
       <trans-unit id="vpn.subscriptionBlocked.getHelp" xml:space="preserve">
         <source>Get Help</source>
