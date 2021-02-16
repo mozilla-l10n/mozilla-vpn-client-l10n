@@ -35,19 +35,22 @@
         <source>Mozilla VPN</source>
         <target>Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.main.productDescription">
+      <trans-unit id="vpn.main.productDescription" xml:space="preserve">
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
+        <target>Un VPN rapid, segur e de bon utilizar. Concebut pels creators de Firefox.</target>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.releaseVersion">
+      <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
         <source>Release Version</source>
+        <target>Version</target>
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNConnectionInfo.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.connectionInfo.ip">
+      <trans-unit id="vpn.connectionInfo.ip" xml:space="preserve">
         <source>IP: %1</source>
+        <target>IP : %1</target>
         <note annotates="source" from="developer">The current IP address</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
@@ -68,8 +71,9 @@
   </file>
   <file original="../src/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.connectionStability.checkConnection">
+      <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
         <source>Check Connection</source>
+        <target>Verificatz la connexion</target>
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
       </trans-unit>
     </body>
@@ -89,23 +93,27 @@
   </file>
   <file original="../src/ui/components/VPNControllerServer.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.servers.selectLocation">
+      <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
         <source>Select location</source>
+        <target>Causir l’emplaçament</target>
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
       </trans-unit>
-      <trans-unit id="vpn.servers.currentLocation">
+      <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
         <source>current location - %1</source>
+        <target>emplaçament actual - %1</target>
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNControllerView.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.controller.deactivated">
+      <trans-unit id="vpn.controller.deactivated" xml:space="preserve">
         <source>VPN is off</source>
+        <target>Lo VPN es desactivat</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.activationSloagan">
+      <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
         <source>Turn on to protect your privacy</source>
+        <target>Activatz-lo per protegir vòstra vida privada</target>
       </trans-unit>
       <trans-unit id="vpn.controller.connecting" xml:space="preserve">
         <source>Connecting</source>
@@ -620,40 +628,48 @@
       <trans-unit id="help.helpCenter">
         <source>Help Center</source>
       </trans-unit>
-      <trans-unit id="help.contactUs">
+      <trans-unit id="help.contactUs" xml:space="preserve">
         <source>Contact us</source>
+        <target>Nos contactar</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.systray.statusSwitch.title">
+      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>Lo VPN a cambiat de servidor</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusSwtich.message">
+      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
         <source>Switched from %1, %2 to %3, %4</source>
+        <target>Passat de %1 (%2) a %3 (%4)</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.title">
+      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN connectat</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.message">
+      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
         <source>Connected to %1, %2</source>
+        <target>Connectat a %1 (%2)</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.title">
+      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
         <source>VPN Disconnected</source>
+        <target>VPN desconnectat</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.message">
+      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
         <source>Disconnected from %1, %2</source>
+        <target>Desconnectat de %1 (%2)</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/platforms/android/androidcontroller.cpp" datatype="cpp" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.android.notification.isIDLE">
+      <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
         <source>Ready for you to connect</source>
+        <target>Podètz vos connectar</target>
         <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
       </trans-unit>
     </body>
@@ -676,8 +692,9 @@
   </file>
   <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="systray.hide">
+      <trans-unit id="systray.hide" xml:space="preserve">
         <source>Hide Mozilla VPN</source>
+        <target>Amagar Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="systray.show">
         <source>Show Mozilla VPN</source>
