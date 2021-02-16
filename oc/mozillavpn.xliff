@@ -309,8 +309,9 @@
         <source>Subscription failed</source>
         <target>Fracàs de l’abonament</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.getIPRestrictionError">
+      <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
         <source>Operation not allowed from current location</source>
+        <target>Operacion pas autorizada a partir de l’emplaçament actual</target>
       </trans-unit>
       <trans-unit id="vpn.alert.deviceRemovedAndLogout">
         <source>Signed out and device removed</source>
@@ -345,8 +346,9 @@
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected">
         <source>VPN protects all apps by default</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.unprotected">
+      <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
         <source>Unprotected</source>
+        <target>Pas protegits</target>
         <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotected.description">
@@ -357,8 +359,9 @@
         <source>Protect All</source>
         <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protected">
+      <trans-unit id="vpn.settings.protected" xml:space="preserve">
         <source>Protected</source>
+        <target>Protegits</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected.description">
@@ -377,25 +380,29 @@
         <source>Language</source>
         <target>Lenga</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.languageAccessibleName">
+      <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
         <source>%1 %2</source>
+        <target>%1 %2</target>
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.settings.networking">
+      <trans-unit id="vpn.settings.networking" xml:space="preserve">
         <source>Network settings</source>
+        <target>Paramètres ret</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.ipv6">
+      <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
         <source>IPv6</source>
+        <target>IPv6</target>
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6.description">
         <source>Push the internet forward with the latest version of the Internet Protocol</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess">
+      <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
         <source>Local network access</source>
+        <target>Accès al ret local</target>
       </trans-unit>
       <trans-unit id="vpn.settings.lanAccess.description">
         <source>Access printers, streaming sticks and all other devices on your local network</source>
@@ -412,8 +419,9 @@
         <source>Notifications</source>
         <target>Notificacions</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.guestWifiAlert">
+      <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
         <source>Guest Wi-Fi portal alert</source>
+        <target>Alèrta portal Wi-Fi convidat</target>
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert.description">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
@@ -422,11 +430,13 @@
   </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.settings.user">
+      <trans-unit id="vpn.settings.user" xml:space="preserve">
         <source>VPN User</source>
+        <target>Utilizaire VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.main.manageAccount">
+      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>Gestion del compte</target>
       </trans-unit>
       <trans-unit id="vpn.settings.runOnBoot">
         <source>Launch VPN app on Startup</source>
@@ -445,8 +455,9 @@
   </file>
   <file original="../src/ui/states/StatePostAuthentication.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.postAuthentication..quickAccess">
+      <trans-unit id="vpn.postAuthentication..quickAccess" xml:space="preserve">
         <source>Quick access</source>
+        <target>Accès rapid</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.statusBarIntro">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
@@ -484,22 +495,27 @@
   </file>
   <file original="../src/ui/views/ViewDevices.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.devices.deviceAccessibleName">
+      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
         <source>%1 %2</source>
+        <target>%1 %2</target>
         <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
       </trans-unit>
-      <trans-unit id="vpn.devices.currentDevice">
+      <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
         <source>Current Device</source>
+        <target>Aqueste aparelh</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.addedltHour">
+      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
         <source>Added less than an hour ago</source>
+        <target>Apondut fa mens d’una ora</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.addedXhoursAgo">
+      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
         <source>Added a few hours ago (%1)</source>
+        <target>Apondut fa qualques oras (%1)</target>
         <note annotates="source" from="developer">%1 is the number of hours.</note>
       </trans-unit>
-      <trans-unit id="vpn.devices.addedXdaysAgo">
+      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
         <source>Added %1 days ago</source>
+        <target>Apondut fa %1 jorns</target>
         <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
       </trans-unit>
       <trans-unit id="vpn.devices.removeA11Y">
