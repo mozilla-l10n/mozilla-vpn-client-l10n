@@ -320,24 +320,29 @@
   </file>
   <file original="../src/ui/components/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.toggle.on">
+      <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
+        <target>Activar lo VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.toggle.off">
+      <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
+        <target>Desactivar lo VPN</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.settings.appPermissions">
+      <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
         <source>App Permissions</source>
+        <target>Permissions de las aplicacions</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps">
+      <trans-unit id="vpn.settings.protectSelectedApps" xml:space="preserve">
         <source>Protect specific apps</source>
+        <target>Protegir d’aplicacions especificas</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.description">
+      <trans-unit id="vpn.settings.protectSelectedApps.description" xml:space="preserve">
         <source>Choose which apps should use the VPN</source>
+        <target>Causissètz quinas aplicacions devon utilizar lo VPN</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff">
         <source>VPN must be off to edit App Permissions</source>
@@ -648,11 +653,13 @@
         <source>No activity logs</source>
         <target>Cap de jornal d’activitat</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle1">
+      <trans-unit id="vpn.subscription.featureSubtitle1" xml:space="preserve">
         <source>We’re Mozilla. We’re on your side.</source>
+        <target>Sèm Mozilla. Sèm de vòstre costat.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.subscribeNow">
+      <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
+        <target>S'abonar ara</target>
       </trans-unit>
       <trans-unit id="vpn.main.restorePurchases">
         <source>Restore purchases</source>
@@ -661,41 +668,50 @@
   </file>
   <file original="../src/ui/views/ViewUpdate.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.updates.updateRecomended">
+      <trans-unit id="vpn.updates.updateRecomended" xml:space="preserve">
         <source>Update recommended</source>
+        <target>Mesa a jorn recomandada</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRecomended.description">
+      <trans-unit id="vpn.updates.updateRecomended.description" xml:space="preserve">
         <source>Please update the app before you continue to use the VPN</source>
+        <target>Volgatz metre a jorn l’aplicacion abans de contunhar d’utilizar lo VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequired">
+      <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
         <source>Update required</source>
+        <target>Mesa a jorn requerida</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequire.reason">
+      <trans-unit id="vpn.updates.updateRequire.reason" xml:space="preserve">
         <source>We detected and fixed a serious bug. You must update your app.</source>
+        <target>Detectèrem e corregèrem un problèma important.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
+      <trans-unit id="vpn.updates.updateConnectionInsecureWarning" xml:space="preserve">
         <source>Your connection will not be secure while you update.</source>
+        <target>La connexion es pas securizada pendent la mesa a jorn.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.notNow">
+      <trans-unit id="vpn.updates.notNow" xml:space="preserve">
         <source>Not now</source>
+        <target>Pas ara</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.connectionInfo.loading">
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
         <source>Loading</source>
+        <target>Cargament</target>
         <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="help.viewLog">
+      <trans-unit id="help.viewLog" xml:space="preserve">
         <source>View log</source>
+        <target>Veire lo jornal</target>
       </trans-unit>
-      <trans-unit id="help.helpCenter">
+      <trans-unit id="help.helpCenter" xml:space="preserve">
         <source>Help Center</source>
+        <target>Centre d’assisténcia</target>
       </trans-unit>
       <trans-unit id="help.contactUs" xml:space="preserve">
         <source>Contact us</source>
@@ -765,8 +781,9 @@
         <source>Hide Mozilla VPN</source>
         <target>Amagar Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="systray.show">
+      <trans-unit id="systray.show" xml:space="preserve">
         <source>Show Mozilla VPN</source>
+        <target>Mostrar Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
         <source>Connected to:</source>
@@ -809,8 +826,9 @@
         <source>Preferences…</source>
         <target>Preferéncias…</target>
       </trans-unit>
-      <trans-unit id="systray.quit">
+      <trans-unit id="systray.quit" xml:space="preserve">
         <source>Quit Mozilla VPN</source>
+        <target>Quitar Mozilla VPN</target>
       </trans-unit>
     </body>
   </file>
