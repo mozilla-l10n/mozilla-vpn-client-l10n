@@ -2,12 +2,12 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="../src/platforms/android/androidauthenticationview.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.main.back">
+      <trans-unit id="vpn.main.back" xml:space="preserve">
         <source>Back</source>
         <target>上一頁</target>
         <note annotates="source" from="developer">Go back</note>
       </trans-unit>
-      <trans-unit id="vpn.android.authentication">
+      <trans-unit id="vpn.android.authentication" xml:space="preserve">
         <source>Authentication</source>
         <target>驗證</target>
       </trans-unit>
@@ -15,31 +15,31 @@
   </file>
   <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.aboutUs.tos">
+      <trans-unit id="vpn.aboutUs.tos" xml:space="preserve">
         <source>Terms of Service</source>
         <target>服務條款</target>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.privacyNotice">
+      <trans-unit id="vpn.aboutUs.privacyNotice" xml:space="preserve">
         <source>Privacy Notice</source>
         <target>隱私權公告</target>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.license">
+      <trans-unit id="vpn.aboutUs.license" xml:space="preserve">
         <source>License</source>
         <target>授權條款</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.aboutUs">
+      <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
         <source>About us</source>
         <target>關於我們</target>
       </trans-unit>
-      <trans-unit id="vpn.main.productName">
+      <trans-unit id="vpn.main.productName" xml:space="preserve">
         <source>Mozilla VPN</source>
         <target>Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.main.productDescription">
+      <trans-unit id="vpn.main.productDescription" xml:space="preserve">
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
         <target>又快又安全，更方便使用的 VPN 軟體，由 Firefox 的開發者打造。</target>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.releaseVersion">
+      <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
         <source>Release Version</source>
         <target>發行版本</target>
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
@@ -48,22 +48,22 @@
   </file>
   <file original="../src/ui/components/VPNConnectionInfo.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.connectionInfo.ip">
+      <trans-unit id="vpn.connectionInfo.ip" xml:space="preserve">
         <source>IP: %1</source>
         <target>IP: %1</target>
         <note annotates="source" from="developer">The current IP address</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.download">
+      <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
         <source>Download</source>
         <target>下載</target>
         <note annotates="source" from="developer">The current download speed. The speed is shown on the next line.</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.upload">
+      <trans-unit id="vpn.connectionInfo.upload" xml:space="preserve">
         <source>Upload</source>
         <target>上傳</target>
         <note annotates="source" from="developer">The current upload speed. The speed is shown on the next line.</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.close">
+      <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
         <source>Close</source>
         <target>關閉</target>
       </trans-unit>
@@ -71,7 +71,7 @@
   </file>
   <file original="../src/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.connectionStability.checkConnection">
+      <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
         <source>Check Connection</source>
         <target>請確認連線狀態</target>
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
@@ -80,11 +80,11 @@
   </file>
   <file original="../src/ui/components/VPNControllerDevice.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.devices.myDevices">
+      <trans-unit id="vpn.devices.myDevices" xml:space="preserve">
         <source>My devices</source>
         <target>我的裝置</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.activeVsMaxDeviceCount">
+      <trans-unit id="vpn.devices.activeVsMaxDeviceCount" xml:space="preserve">
         <source>%1 of %2</source>
         <target>第 %1 台，共 %2 台</target>
         <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.</note>
@@ -93,12 +93,12 @@
   </file>
   <file original="../src/ui/components/VPNControllerServer.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.servers.selectLocation">
+      <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
         <source>Select location</source>
         <target>選擇位置</target>
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
       </trans-unit>
-      <trans-unit id="vpn.servers.currentLocation">
+      <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
         <source>current location - %1</source>
         <target>目前位置 - %1</target>
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
@@ -107,57 +107,57 @@
   </file>
   <file original="../src/ui/components/VPNControllerView.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.controller.deactivated">
+      <trans-unit id="vpn.controller.deactivated" xml:space="preserve">
         <source>VPN is off</source>
         <target>已關閉 VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.activationSloagan">
+      <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
         <source>Turn on to protect your privacy</source>
         <target>請開啟來保護您的隱私</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.connecting">
+      <trans-unit id="vpn.controller.connecting" xml:space="preserve">
         <source>Connecting</source>
         <target>連線中</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.activating">
+      <trans-unit id="vpn.controller.activating" xml:space="preserve">
         <source>Masking connection and location</source>
         <target>隱藏連線與位置資訊</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.attemptingToConfirm">
+      <trans-unit id="vpn.controller.attemptingToConfirm" xml:space="preserve">
         <source>Attempting to confirm connection</source>
         <target>正在嘗試確認連線</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.activated">
+      <trans-unit id="vpn.controller.activated" xml:space="preserve">
         <source>VPN is on</source>
         <target>已開啟 VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.active">
+      <trans-unit id="vpn.controller.active" xml:space="preserve">
         <source>Secure and private</source>
         <target>安全又有隱私</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
       </trans-unit>
-      <trans-unit id="vpn.controller.disconnecting">
+      <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
         <source>Disconnecting…</source>
         <target>斷線中…</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.deactivating">
+      <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
         <source>Unmasking connection and location</source>
         <target>取消隱藏連線與位置資訊</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.switching">
+      <trans-unit id="vpn.controller.switching" xml:space="preserve">
         <source>Switching…</source>
         <target>切換中…</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.switchingDetail">
+      <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
         <source>From %1 to %2</source>
         <target>從 %1 到 %2</target>
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
       </trans-unit>
-      <trans-unit id="vpn.controller.info">
+      <trans-unit id="vpn.controller.info" xml:space="preserve">
         <source>Connection Information</source>
         <target>連線資訊</target>
       </trans-unit>
-      <trans-unit id="vpn.main.settings">
+      <trans-unit id="vpn.main.settings" xml:space="preserve">
         <source>Settings</source>
         <target>設定</target>
       </trans-unit>
@@ -165,11 +165,11 @@
   </file>
   <file original="../src/ui/components/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.devices.doDeviceRemoval">
+      <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
         <source>Remove a device</source>
         <target>移除裝置</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.maxDevicesReached">
+      <trans-unit id="vpn.devices.maxDevicesReached" xml:space="preserve">
         <source>You’ve reached your limit. To install the VPN on this device, you’ll need to remove one.</source>
         <target>已達裝置數量限制。若要在此裝置安裝 VPN，請先移除其他裝置。</target>
       </trans-unit>
@@ -177,7 +177,7 @@
   </file>
   <file original="../src/ui/components/VPNGetHelp.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.main.getHelp">
+      <trans-unit id="vpn.main.getHelp" xml:space="preserve">
         <source>Get Help</source>
         <target>取得幫助</target>
       </trans-unit>
@@ -185,32 +185,32 @@
   </file>
   <file original="../src/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.connectionInfo.Bps">
+      <trans-unit id="vpn.connectionInfo.Bps" xml:space="preserve">
         <source>B/s</source>
         <target>B/s</target>
         <note annotates="source" from="developer">Bytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.kBps">
+      <trans-unit id="vpn.connectionInfo.kBps" xml:space="preserve">
         <source>kB/s</source>
         <target>kB/s</target>
         <note annotates="source" from="developer">Kilobytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectioInfo.mBps">
+      <trans-unit id="vpn.connectioInfo.mBps" xml:space="preserve">
         <source>MB/s</source>
         <target>MB/s</target>
         <note annotates="source" from="developer">Megabytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectioInfo.gBps">
+      <trans-unit id="vpn.connectioInfo.gBps" xml:space="preserve">
         <source>GB/s</source>
         <target>GB/s</target>
         <note annotates="source" from="developer">Gigabytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.tBps">
+      <trans-unit id="vpn.connectionInfo.tBps" xml:space="preserve">
         <source>TB/s</source>
         <target>TB/s</target>
         <note annotates="source" from="developer">Terabytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.accessibleName">
+      <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
         <source>%1: %2 %3</source>
         <target>%1: %2 %3</target>
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
@@ -219,7 +219,7 @@
   </file>
   <file original="../src/ui/components/VPNLoader.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.authenticating.cancel">
+      <trans-unit id="vpn.authenticating.cancel" xml:space="preserve">
         <source>Cancel</source>
         <target>取消</target>
       </trans-unit>
@@ -227,21 +227,21 @@
   </file>
   <file original="../src/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.devices.removeDeviceQuestion">
+      <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
         <source>Remove device?</source>
         <target>確定移除裝置？</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.deviceRemovalConfirm">
+      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
         <source>Please confirm you would like to remove
 %1.</source>
         <target>請確認您是否要移除 %1。</target>
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
       </trans-unit>
-      <trans-unit id="vpn.devices.cancelDeviceRemoval">
+      <trans-unit id="vpn.devices.cancelDeviceRemoval" xml:space="preserve">
         <source>Cancel</source>
         <target>取消</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceButton">
+      <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
         <source>Remove</source>
         <target>移除</target>
         <note annotates="source" from="developer">This is the “remove” device button.</note>
@@ -250,7 +250,7 @@
   </file>
   <file original="../src/ui/components/VPNServerCountry.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="cities">
+      <trans-unit id="cities" xml:space="preserve">
         <source>Cities</source>
         <target>城市</target>
         <note annotates="source" from="developer">The title for the list of cities.</note>
@@ -259,7 +259,7 @@
   </file>
   <file original="../src/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.main.signOut">
+      <trans-unit id="vpn.main.signOut" xml:space="preserve">
         <source>Sign Out</source>
         <target>登出</target>
       </trans-unit>
@@ -267,12 +267,12 @@
   </file>
   <file original="../src/ui/components/VPNStabilityLabelActions.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.connectionStability.unstable">
+      <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
         <source>Unstable</source>
         <target>不穩定</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionStability.noSignal">
+      <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
         <source>No Signal</source>
         <target>無訊號</target>
       </trans-unit>
@@ -280,42 +280,44 @@
   </file>
   <file original="../src/ui/components/VPNSystemAlert.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.alert.authenticationError">
+      <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
         <source>Authentication error</source>
         <target>驗證錯誤</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.tryAgain">
+      <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
         <source>Try again</source>
         <target>再試一次</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.unableToConnect">
+      <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
         <source>Unable to connect</source>
         <target>連線失敗</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.noInternet">
+      <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
         <source>No internet connection</source>
         <target>沒有網際網路連線</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.backendServiceError">
+      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
         <source>Background service error</source>
+        <target>背景服務發生錯誤</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.restore">
+      <trans-unit id="vpn.alert.restore" xml:space="preserve">
         <source>Restore</source>
         <target>回復</target>
         <note annotates="source" from="developer">Restore a service in case of error.</note>
       </trans-unit>
-      <trans-unit id="vpn.alert.remoteServiceError">
+      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
+        <target>遠端服務發生錯誤</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.subscriptionFailureError">
+      <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
         <source>Subscription failed</source>
         <target>訂閱失敗</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.getIPRestrictionError">
+      <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
         <source>Operation not allowed from current location</source>
         <target>不允許從目前位置進行操作</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.deviceRemovedAndLogout">
+      <trans-unit id="vpn.alert.deviceRemovedAndLogout" xml:space="preserve">
         <source>Signed out and device removed</source>
         <target>已登出並移除裝置</target>
       </trans-unit>
@@ -323,11 +325,11 @@
   </file>
   <file original="../src/ui/components/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.toggle.on">
+      <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
         <target>開啟 VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.toggle.off">
+      <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
         <target>關閉 VPN</target>
       </trans-unit>
@@ -335,53 +337,53 @@
   </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.settings.appPermissions">
+      <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
         <source>App Permissions</source>
         <target>應用程式權限</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps">
+      <trans-unit id="vpn.settings.protectSelectedApps" xml:space="preserve">
         <source>Protect specific apps</source>
         <target>保護特定應用程式</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.description">
+      <trans-unit id="vpn.settings.protectSelectedApps.description" xml:space="preserve">
         <source>Choose which apps should use the VPN</source>
         <target>選擇要讓哪些應用程式透過 VPN 連線</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff">
+      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit App Permissions</source>
         <target>必須先中斷 VPN 才能編輯應用程式權限</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected">
+      <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
         <source>VPN protects all apps by default</source>
         <target>VPN 在預設情況下，會保護所有應用程式</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.unprotected">
+      <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
         <source>Unprotected</source>
         <target>未受保護</target>
         <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.unprotected.description">
+      <trans-unit id="vpn.settings.unprotected.description" xml:space="preserve">
         <source>These apps will not use the VPN</source>
         <target>下列應用程式不會透過 VPN 進行連線</target>
         <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectall">
+      <trans-unit id="vpn.settings.protectall" xml:space="preserve">
         <source>Protect All</source>
         <target>保護全部</target>
         <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protected">
+      <trans-unit id="vpn.settings.protected" xml:space="preserve">
         <source>Protected</source>
         <target>受保護</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protected.description">
+      <trans-unit id="vpn.settings.protected.description" xml:space="preserve">
         <source>These apps will use the VPN</source>
         <target>下列應用程式將透過 VPN 進行連線</target>
         <note annotates="source" from="developer">Description for the list of apps protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.unprotectall">
+      <trans-unit id="vpn.settings.unprotectall" xml:space="preserve">
         <source>Unprotect All</source>
         <target>取消保護全部</target>
         <note annotates="source" from="developer">Label for the button to remove protection from all apps currently protected.</note>
@@ -390,11 +392,11 @@
   </file>
   <file original="../src/ui/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.settings.language">
+      <trans-unit id="vpn.settings.language" xml:space="preserve">
         <source>Language</source>
         <target>語言</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.languageAccessibleName">
+      <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
         <source>%1 %2</source>
         <target>%1 %2</target>
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
@@ -403,27 +405,27 @@
   </file>
   <file original="../src/ui/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.settings.networking">
+      <trans-unit id="vpn.settings.networking" xml:space="preserve">
         <source>Network settings</source>
         <target>網路設定</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.ipv6">
+      <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
         <source>IPv6</source>
         <target>IPv6</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.ipv6.description">
+      <trans-unit id="vpn.settings.ipv6.description" xml:space="preserve">
         <source>Push the internet forward with the latest version of the Internet Protocol</source>
         <target>使用最新版的網際網路通訊協定，讓網路發展更進步</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess">
+      <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
         <source>Local network access</source>
         <target>存取區域網路</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess.description">
+      <trans-unit id="vpn.settings.lanAccess.description" xml:space="preserve">
         <source>Access printers, streaming sticks and all other devices on your local network</source>
         <target>存取您所在區網當中的印表機、電視棒等等各種裝置</target>
       </trans-unit>
-      <trans-unit id="vpn.turnOffAlert.vpnMustBeOff">
+      <trans-unit id="vpn.turnOffAlert.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit network settings</source>
         <target>必須先中斷 VPN 才能編輯網路設定</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
@@ -432,15 +434,15 @@
   </file>
   <file original="../src/ui/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.settings.notifications">
+      <trans-unit id="vpn.settings.notifications" xml:space="preserve">
         <source>Notifications</source>
         <target>通知</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.guestWifiAlert">
+      <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
         <source>Guest Wi-Fi portal alert</source>
         <target>Wi-Fi 登入頁面提示</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.guestWifiAlert.description">
+      <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
         <target>當 Wi-Fi 登入頁面被 VPN 連線影響封鎖時，收到提示</target>
       </trans-unit>
@@ -448,19 +450,19 @@
   </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.settings.user">
+      <trans-unit id="vpn.settings.user" xml:space="preserve">
         <source>VPN User</source>
         <target>VPN 使用者</target>
       </trans-unit>
-      <trans-unit id="vpn.main.manageAccount">
+      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
         <target>管理帳號</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot">
+      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
         <source>Launch VPN app on Startup</source>
         <target>開機時啟動 VPN 應用程式</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.giveFeedback">
+      <trans-unit id="vpn.settings.giveFeedback" xml:space="preserve">
         <source>Give feedback</source>
         <target>提供意見回饋</target>
       </trans-unit>
@@ -468,7 +470,7 @@
   </file>
   <file original="../src/ui/states/StateAuthenticating.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.authenticating.waitForSignIn">
+      <trans-unit id="vpn.authenticating.waitForSignIn" xml:space="preserve">
         <source>Waiting for sign in and subscription confirmation…</source>
         <target>正在等待登入與訂閱確認…</target>
       </trans-unit>
@@ -476,15 +478,15 @@
   </file>
   <file original="../src/ui/states/StatePostAuthentication.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.postAuthentication..quickAccess">
+      <trans-unit id="vpn.postAuthentication..quickAccess" xml:space="preserve">
         <source>Quick access</source>
         <target>快速存取</target>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.statusBarIntro">
+      <trans-unit id="vpn.postAuthentication.statusBarIntro" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
         <target>您可以從狀態列快速存取 Mozilla VPN。</target>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.continue">
+      <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
         <source>Continue</source>
         <target>繼續</target>
       </trans-unit>
@@ -492,19 +494,19 @@
   </file>
   <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.subscriptionBlocked.title">
+      <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
         <source>Error confirming subscription…</source>
         <target>確認訂閱資訊時發生錯誤…</target>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed">
+      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed" xml:space="preserve">
         <source>Another Firefox Account has already subscribed using this Apple ID.</source>
         <target>已有另一組 Firefox 帳號使用此 Apple ID 進行訂閱。</target>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter">
+      <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
         <target>請到我們的說明中心了解如何管理訂閱。</target>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.getHelp">
+      <trans-unit id="vpn.subscriptionBlocked.getHelp" xml:space="preserve">
         <source>Get Help</source>
         <target>取得幫助</target>
       </trans-unit>
@@ -512,7 +514,7 @@
   </file>
   <file original="../src/ui/states/StateSubscriptionValidation.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.subscription.pleaseWait">
+      <trans-unit id="vpn.subscription.pleaseWait" xml:space="preserve">
         <source>Please wait…</source>
         <target>請稍候…</target>
       </trans-unit>
@@ -520,30 +522,30 @@
   </file>
   <file original="../src/ui/views/ViewDevices.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.devices.deviceAccessibleName">
+      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
         <source>%1 %2</source>
         <target>%1 %2</target>
         <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
       </trans-unit>
-      <trans-unit id="vpn.devices.currentDevice">
+      <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
         <source>Current Device</source>
         <target>目前裝置</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.addedltHour">
+      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
         <source>Added less than an hour ago</source>
         <target>不到一小時前加入</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.addedXhoursAgo">
+      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
         <source>Added a few hours ago (%1)</source>
         <target>幾小時前加入（%1）</target>
         <note annotates="source" from="developer">%1 is the number of hours.</note>
       </trans-unit>
-      <trans-unit id="vpn.devices.addedXdaysAgo">
+      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
         <source>Added %1 days ago</source>
         <target>%1 天前加入</target>
         <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeA11Y">
+      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
         <source>Remove %1</source>
         <target>移除 %1</target>
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
@@ -552,11 +554,11 @@
   </file>
   <file original="../src/ui/views/ViewInitialize.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.main.getStarted">
+      <trans-unit id="vpn.main.getStarted" xml:space="preserve">
         <source>Get started</source>
         <target>開始使用</target>
       </trans-unit>
-      <trans-unit id="vpn.main.learnMore">
+      <trans-unit id="vpn.main.learnMore" xml:space="preserve">
         <source>Learn more</source>
         <target>了解更多</target>
       </trans-unit>
@@ -564,19 +566,19 @@
   </file>
   <file original="../src/ui/views/ViewLogs.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.viewlogs.title">
+      <trans-unit id="vpn.viewlogs.title" xml:space="preserve">
         <source>View Logs</source>
         <target>檢視紀錄</target>
       </trans-unit>
-      <trans-unit id="vpn.logs.copy">
+      <trans-unit id="vpn.logs.copy" xml:space="preserve">
         <source>Copy</source>
         <target>複製</target>
       </trans-unit>
-      <trans-unit id="vpn.logs.copied">
+      <trans-unit id="vpn.logs.copied" xml:space="preserve">
         <source>Copied!</source>
         <target>已複製！</target>
       </trans-unit>
-      <trans-unit id="vpn.logs.clear">
+      <trans-unit id="vpn.logs.clear" xml:space="preserve">
         <source>Clear</source>
         <target>清除</target>
       </trans-unit>
@@ -584,15 +586,15 @@
   </file>
   <file original="../src/ui/views/ViewMain.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="MozillaVPN">
+      <trans-unit id="MozillaVPN" xml:space="preserve">
         <source>Mozilla VPN</source>
         <target>Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.newVersionAvailable">
+      <trans-unit id="vpn.updates.newVersionAvailable" xml:space="preserve">
         <source>New version is available.</source>
         <target>有新版本可以使用。</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateNow">
+      <trans-unit id="vpn.updates.updateNow" xml:space="preserve">
         <source>Update now</source>
         <target>立即更新</target>
       </trans-unit>
@@ -600,44 +602,44 @@
   </file>
   <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.onboarding.headline.1">
+      <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
         <source>Device-level encryption</source>
         <target>裝置層級加密</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.1">
+      <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
         <target>加密您的流量，讓網路公司或竊聽者完全無法知道當中的內容。</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.2">
+      <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
         <source>Servers in 30+ countries</source>
         <target>於超過 30 個國家都有伺服器</target>
         <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeeded.qml too.</note>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.2">
+      <trans-unit id="vpn.onboarding.subtitle.2" xml:space="preserve">
         <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
         <target>挑選世界各地的伺服器，隱藏您的實際所在地，讓追蹤器再也追不到您。</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.3">
+      <trans-unit id="vpn.onboarding.headline.3" xml:space="preserve">
         <source>No bandwidth restrictions</source>
         <target>沒有頻寬限制</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.3">
+      <trans-unit id="vpn.onboarding.subtitle.3" xml:space="preserve">
         <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
         <target>不限流、沒有每月流量額度，讓您影音串流、下載檔案、玩遊戲不設限。</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.4">
+      <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
         <source>No online activity logs</source>
         <target>不保留您的上網紀錄</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.4">
+      <trans-unit id="vpn.onboarding.subtitle.4" xml:space="preserve">
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
         <target>我們承諾不會監控或記錄您的上網行為。</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.skip">
+      <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
         <source>Skip</source>
         <target>略過</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.next">
+      <trans-unit id="vpn.onboarding.next" xml:space="preserve">
         <source>Next</source>
         <target>下一步</target>
       </trans-unit>
@@ -645,45 +647,45 @@
   </file>
   <file original="../src/ui/views/ViewSubscriptionNeeded.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.subscription.title">
+      <trans-unit id="vpn.subscription.title" xml:space="preserve">
         <source>Subscribe for %1/mo</source>
         <target>訂閱價格: 每月 %1</target>
         <note annotates="source" from="developer">“/mo” stands for “per month”. %1 is replaced by the cost (including currency).</note>
       </trans-unit>
-      <trans-unit id="vpn.subscription.moneyBackGuarantee">
+      <trans-unit id="vpn.subscription.moneyBackGuarantee" xml:space="preserve">
         <source>30-day money-back guarantee</source>
         <target>30 天內保證退款</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle2">
+      <trans-unit id="vpn.subscription.featureSubtitle2" xml:space="preserve">
         <source>We encrypt your entire device.</source>
         <target>完整保護裝置的所有連線。</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle3">
+      <trans-unit id="vpn.subscription.featureSubtitle3" xml:space="preserve">
         <source>Protect your access to the web.</source>
         <target>保護您上網瀏覽。</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureTitle4">
+      <trans-unit id="vpn.subscription.featureTitle4" xml:space="preserve">
         <source>Connect up to %1 devices</source>
         <target>最多可有 %1 台裝置連線</target>
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle4">
+      <trans-unit id="vpn.subscription.featureSubtitle4" xml:space="preserve">
         <source>We won’t restrict your bandwidth.</source>
         <target>我們不會限制您的可用頻寬。</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureTitle1">
+      <trans-unit id="vpn.subscription.featureTitle1" xml:space="preserve">
         <source>No activity logs</source>
         <target>不會留下您的活動紀錄</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle1">
+      <trans-unit id="vpn.subscription.featureSubtitle1" xml:space="preserve">
         <source>We’re Mozilla. We’re on your side.</source>
         <target>我們是 Mozilla，與您站在一起。</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.subscribeNow">
+      <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
         <target>立即訂閱</target>
       </trans-unit>
-      <trans-unit id="vpn.main.restorePurchases">
+      <trans-unit id="vpn.main.restorePurchases" xml:space="preserve">
         <source>Restore purchases</source>
         <target>恢復購買紀錄</target>
       </trans-unit>
@@ -691,27 +693,27 @@
   </file>
   <file original="../src/ui/views/ViewUpdate.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.updates.updateRecomended">
+      <trans-unit id="vpn.updates.updateRecomended" xml:space="preserve">
         <source>Update recommended</source>
         <target>建議更新</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRecomended.description">
+      <trans-unit id="vpn.updates.updateRecomended.description" xml:space="preserve">
         <source>Please update the app before you continue to use the VPN</source>
         <target>請先更新應用程式，才能連線到 VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequired">
+      <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
         <source>Update required</source>
         <target>必要更新</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequire.reason">
+      <trans-unit id="vpn.updates.updateRequire.reason" xml:space="preserve">
         <source>We detected and fixed a serious bug. You must update your app.</source>
         <target>我們發現並修正了一組嚴重的 Bug，必須先更新程式才能繼續使用。</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
+      <trans-unit id="vpn.updates.updateConnectionInsecureWarning" xml:space="preserve">
         <source>Your connection will not be secure while you update.</source>
         <target>更新過程中，您的連線未受保護，並不安全。</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.notNow">
+      <trans-unit id="vpn.updates.notNow" xml:space="preserve">
         <source>Not now</source>
         <target>現在不要</target>
       </trans-unit>
@@ -719,7 +721,7 @@
   </file>
   <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.connectionInfo.loading">
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
         <source>Loading</source>
         <target>載入中</target>
         <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
@@ -728,15 +730,15 @@
   </file>
   <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="help.viewLog">
+      <trans-unit id="help.viewLog" xml:space="preserve">
         <source>View log</source>
         <target>檢視紀錄</target>
       </trans-unit>
-      <trans-unit id="help.helpCenter">
+      <trans-unit id="help.helpCenter" xml:space="preserve">
         <source>Help Center</source>
         <target>說明中心</target>
       </trans-unit>
-      <trans-unit id="help.contactUs">
+      <trans-unit id="help.contactUs" xml:space="preserve">
         <source>Contact us</source>
         <target>聯絡我們</target>
       </trans-unit>
@@ -744,29 +746,29 @@
   </file>
   <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.systray.statusSwitch.title">
+      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
         <source>VPN Switched Servers</source>
         <target>已切換 VPN 伺服器</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusSwtich.message">
+      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
         <source>Switched from %1, %2 to %3, %4</source>
         <target>已從 %1, %2 切換到 %3, %4</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.title">
+      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
         <source>VPN Connected</source>
         <target>已連線至 VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.message">
+      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
         <source>Connected to %1, %2</source>
         <target>已連線到 %1, %2</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.title">
+      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
         <source>VPN Disconnected</source>
         <target>VPN 已中斷</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.message">
+      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
         <source>Disconnected from %1, %2</source>
         <target>已中斷與 %1, %2 的連線</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
@@ -775,7 +777,7 @@
   </file>
   <file original="../src/platforms/android/androidcontroller.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.android.notification.isIDLE">
+      <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
         <source>Ready for you to connect</source>
         <target>已經就緒，可以連線</target>
         <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
@@ -784,15 +786,15 @@
   </file>
   <file original="../src/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="menubar.file.title">
+      <trans-unit id="menubar.file.title" xml:space="preserve">
         <source>File</source>
         <target>檔案</target>
       </trans-unit>
-      <trans-unit id="menubar.file.close">
+      <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
         <target>關閉</target>
       </trans-unit>
-      <trans-unit id="menubar.help.title">
+      <trans-unit id="menubar.help.title" xml:space="preserve">
         <source>Help</source>
         <target>說明</target>
       </trans-unit>
@@ -800,56 +802,56 @@
   </file>
   <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="systray.hide">
+      <trans-unit id="systray.hide" xml:space="preserve">
         <source>Hide Mozilla VPN</source>
         <target>隱藏 Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="systray.show">
+      <trans-unit id="systray.show" xml:space="preserve">
         <source>Show Mozilla VPN</source>
         <target>顯示 Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectedTo">
+      <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
         <source>Connected to:</source>
         <target>已連線到:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectTo">
+      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
         <source>Connect to the last location:</source>
         <target>連線到上次連線位置:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectingTo">
+      <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
         <source>Connecting to:</source>
         <target>正在連線到:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.disconnectingFrom">
+      <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
         <source>Disconnecting from:</source>
         <target>正在中斷與下列位置間的連線:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.location">
+      <trans-unit id="vpn.systray.location" xml:space="preserve">
         <source>%1, %2</source>
         <target>%1, %2</target>
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalAlert.title">
+      <trans-unit id="vpn.systray.captivePortalAlert.title" xml:space="preserve">
         <source>Captive portal detected</source>
         <target>偵測到網路登入頁面</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalAlert.message">
+      <trans-unit id="vpn.systray.captivePortalAlert.message" xml:space="preserve">
         <source>VPN will automatically reconnect when ready</source>
         <target>準備好之後，將自動重新連線到 VPN</target>
       </trans-unit>
-      <trans-unit id="systray.disconnect">
+      <trans-unit id="systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
         <target>斷線</target>
       </trans-unit>
-      <trans-unit id="systray.help">
+      <trans-unit id="systray.help" xml:space="preserve">
         <source>Help</source>
         <target>說明</target>
       </trans-unit>
-      <trans-unit id="systray.preferences">
+      <trans-unit id="systray.preferences" xml:space="preserve">
         <source>Preferences…</source>
         <target>偏好設定…</target>
       </trans-unit>
-      <trans-unit id="systray.quit">
+      <trans-unit id="systray.quit" xml:space="preserve">
         <source>Quit Mozilla VPN</source>
         <target>離開 Mozilla VPN</target>
       </trans-unit>
