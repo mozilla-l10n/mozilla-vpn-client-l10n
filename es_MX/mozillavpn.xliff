@@ -25,7 +25,7 @@
       <trans-unit id="vpn.settings.aboutUs">
         <source>About us</source>
       </trans-unit>
-      <trans-unit id="vpn.main.productName" xml:space="preserve">
+      <trans-unit id="vpn.main.productName">
         <source>Mozilla VPN</source>
         <target>Mozilla VPN</target>
       </trans-unit>
@@ -244,12 +244,15 @@
       <trans-unit id="vpn.alert.noInternet">
         <source>No internet connection</source>
       </trans-unit>
-      <trans-unit id="vpn.alert.backgroundServiceError">
+      <trans-unit id="vpn.alert.backendServiceError">
         <source>Background service error</source>
       </trans-unit>
       <trans-unit id="vpn.alert.restore">
         <source>Restore</source>
         <note annotates="source" from="developer">Restore a service in case of error.</note>
+      </trans-unit>
+      <trans-unit id="vpn.alert.remoteServiceError">
+        <source>Remote service error</source>
       </trans-unit>
       <trans-unit id="vpn.alert.subscriptionFailureError">
         <source>Subscription failed</source>
@@ -269,6 +272,16 @@
       </trans-unit>
       <trans-unit id="vpn.toggle.off">
         <source>Turn VPN off</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/components/VPNWasmAlerts.qml" datatype="plaintext" source-language="en" target-language="es-MX">
+    <body>
+      <trans-unit id="vpn.updates.updateNow">
+        <source>Update now</source>
+      </trans-unit>
+      <trans-unit id="vpn.updates.newVersionAvailable">
+        <source>New version is available.</source>
       </trans-unit>
     </body>
   </file>
@@ -478,12 +491,6 @@
     <body>
       <trans-unit id="MozillaVPN">
         <source>Mozilla VPN</source>
-      </trans-unit>
-      <trans-unit id="vpn.updates.newVersionAvailable">
-        <source>New version is available.</source>
-      </trans-unit>
-      <trans-unit id="vpn.updates.updateNow">
-        <source>Update now</source>
       </trans-unit>
     </body>
   </file>
