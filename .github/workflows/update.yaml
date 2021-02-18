@@ -4,7 +4,7 @@ on:
     - cron: '0 7 * * 1-5' # Run Mon-Fri at 7AM UTC
   workflow_dispatch:
 jobs:
-  fetch:
+  update:
     runs-on: ubuntu-20.04
     steps:
       - name: Install Linux packages
