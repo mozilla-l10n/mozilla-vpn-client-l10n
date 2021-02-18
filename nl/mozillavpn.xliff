@@ -305,7 +305,7 @@
         <target>Herstellen</target>
         <note annotates="source" from="developer">Restore a service in case of error.</note>
       </trans-unit>
-      <trans-unit id="vpn.alert.remoteServiceError">
+      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
       </trans-unit>
       <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
@@ -331,6 +331,16 @@
       <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
         <target>VPN uitschakelen</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/components/VPNWasmAlerts.qml" datatype="plaintext" source-language="en" target-language="nl">
+    <body>
+      <trans-unit id="vpn.updates.updateNow" xml:space="preserve">
+        <source>Update now</source>
+      </trans-unit>
+      <trans-unit id="vpn.updates.newVersionAvailable" xml:space="preserve">
+        <source>New version is available.</source>
       </trans-unit>
     </body>
   </file>
@@ -588,14 +598,6 @@
       <trans-unit id="MozillaVPN" xml:space="preserve">
         <source>Mozilla VPN</source>
         <target>Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.updates.newVersionAvailable" xml:space="preserve">
-        <source>New version is available.</source>
-        <target>Er is een nieuwe versie beschikbaar.</target>
-      </trans-unit>
-      <trans-unit id="vpn.updates.updateNow" xml:space="preserve">
-        <source>Update now</source>
-        <target>Nu bijwerken</target>
       </trans-unit>
     </body>
   </file>
