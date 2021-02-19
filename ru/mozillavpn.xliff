@@ -115,9 +115,8 @@
         <source>Turn on to protect your privacy</source>
         <target>Включите для защиты вашей приватности</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.connecting" xml:space="preserve">
-        <source>Connecting</source>
-        <target>Подключение</target>
+      <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
+        <source>Connecting…</source>
       </trans-unit>
       <trans-unit id="vpn.controller.activating" xml:space="preserve">
         <source>Masking connection and location</source>
@@ -438,8 +437,7 @@
         <target>Доступ к принтерам, сетевым медиаплеерам и всем другим устройствам в вашей локальной сети</target>
       </trans-unit>
       <trans-unit id="vpn.turnOffAlert.vpnMustBeOff" xml:space="preserve">
-        <source>VPN must be off to edit network settings</source>
-        <target>Для изменения настроек сети нужно отключить VPN</target>
+        <source>VPN must be off to edit settings</source>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
     </body>
@@ -457,6 +455,12 @@
       <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
         <target>Получать уведомления, если гостевой портал Wi-Fi заблокирован из-за VPN-подключения</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert" xml:space="preserve">
+        <source>Unsecured network alert</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description" xml:space="preserve">
+        <source>Get notified if you connect to an unsecured Wi-Fi network</source>
       </trans-unit>
     </body>
   </file>
@@ -835,13 +839,24 @@
         <target>%1, %2</target>
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalAlert.title" xml:space="preserve">
-        <source>Captive portal detected</source>
-        <target>Обнаружен перехватывающий портал</target>
+      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
+        <source>Unsecured Wi-Fi network detected</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalAlert.message" xml:space="preserve">
-        <source>VPN will automatically reconnect when ready</source>
-        <target>По готовности VPN автоматически подключится заново</target>
+      <trans-unit id="vpn.systray.unsecuredNetwork.message" xml:space="preserve">
+        <source>%1 is not secure. Turn on VPN to secure your device.</source>
+        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
+        <source>Guest Wi-Fi portal blocked</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalBlock.message" xml:space="preserve">
+        <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
+        <source>Guest Wi-Fi portal detected</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalUnblock.message" xml:space="preserve">
+        <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
       </trans-unit>
       <trans-unit id="systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
