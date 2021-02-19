@@ -95,8 +95,8 @@
       <trans-unit id="vpn.controller.activationSloagan">
         <source>Turn on to protect your privacy</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.connecting">
-        <source>Connecting</source>
+      <trans-unit id="vpn.controller.connectingState">
+        <source>Connecting…</source>
       </trans-unit>
       <trans-unit id="vpn.controller.activating">
         <source>Masking connection and location</source>
@@ -357,7 +357,7 @@
         <source>Access printers, streaming sticks and all other devices on your local network</source>
       </trans-unit>
       <trans-unit id="vpn.turnOffAlert.vpnMustBeOff">
-        <source>VPN must be off to edit network settings</source>
+        <source>VPN must be off to edit settings</source>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
     </body>
@@ -372,6 +372,12 @@
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert.description">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert">
+        <source>Unsecured network alert</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description">
+        <source>Get notified if you connect to an unsecured Wi-Fi network</source>
       </trans-unit>
     </body>
   </file>
@@ -677,11 +683,24 @@
         <source>%1, %2</source>
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalAlert.title">
-        <source>Captive portal detected</source>
+      <trans-unit id="vpn.systray.unsecuredNetwork.title">
+        <source>Unsecured Wi-Fi network detected</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalAlert.message">
-        <source>VPN will automatically reconnect when ready</source>
+      <trans-unit id="vpn.systray.unsecuredNetwork.message">
+        <source>%1 is not secure. Turn on VPN to secure your device.</source>
+        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalBlock.title">
+        <source>Guest Wi-Fi portal blocked</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalBlock.message">
+        <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalUnblock.title">
+        <source>Guest Wi-Fi portal detected</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalUnblock.message">
+        <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
       </trans-unit>
       <trans-unit id="systray.disconnect">
         <source>Disconnect</source>
