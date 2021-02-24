@@ -461,6 +461,10 @@
       <trans-unit id="vpn.settings.unsecuredNetworkAlert.description" xml:space="preserve">
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
       </trans-unit>
+      <trans-unit id="vpn.settings.notificationVpnMustBeOff" xml:space="preserve">
+        <source>VPN must be off to edit notifications</source>
+        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="fr">
