@@ -23,8 +23,9 @@
         <source>Privacy Notice</source>
         <target>Privacy Notice</target>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.license">
+      <trans-unit id="vpn.aboutUs.license" xml:space="preserve">
         <source>License</source>
+        <target>Licence</target>
       </trans-unit>
       <trans-unit id="vpn.settings.aboutUs">
         <source>About us</source>
@@ -643,196 +644,246 @@
         <source>No online activity logs</source>
         <target>No online activity logs</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.4">
+      <trans-unit id="vpn.onboarding.subtitle.4" xml:space="preserve">
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
+        <target>We are committed to not monitoring or logging your browsing or network history.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.skip">
+      <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
         <source>Skip</source>
+        <target>Skip</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.next">
+      <trans-unit id="vpn.onboarding.next" xml:space="preserve">
         <source>Next</source>
+        <target>Next</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewSubscriptionNeeded.qml" datatype="plaintext" source-language="en" target-language="en-CA">
     <body>
-      <trans-unit id="vpn.subscription.title">
+      <trans-unit id="vpn.subscription.title" xml:space="preserve">
         <source>Subscribe for %1/mo</source>
+        <target>Subscribe for %1/mo</target>
         <note annotates="source" from="developer">“/mo” stands for “per month”. %1 is replaced by the cost (including currency).</note>
       </trans-unit>
-      <trans-unit id="vpn.subscription.moneyBackGuarantee">
+      <trans-unit id="vpn.subscription.moneyBackGuarantee" xml:space="preserve">
         <source>30-day money-back guarantee</source>
+        <target>30-day money-back guarantee</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle2">
+      <trans-unit id="vpn.subscription.featureSubtitle2" xml:space="preserve">
         <source>We encrypt your entire device.</source>
+        <target>We encrypt your entire device.</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle3">
+      <trans-unit id="vpn.subscription.featureSubtitle3" xml:space="preserve">
         <source>Protect your access to the web.</source>
+        <target>Protect your access to the web.</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureTitle4">
+      <trans-unit id="vpn.subscription.featureTitle4" xml:space="preserve">
         <source>Connect up to %1 devices</source>
+        <target>Connect up to %1 devices</target>
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle4">
+      <trans-unit id="vpn.subscription.featureSubtitle4" xml:space="preserve">
         <source>We won’t restrict your bandwidth.</source>
+        <target>We won’t restrict your bandwidth.</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureTitle1">
+      <trans-unit id="vpn.subscription.featureTitle1" xml:space="preserve">
         <source>No activity logs</source>
+        <target>No activity logs</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle1">
+      <trans-unit id="vpn.subscription.featureSubtitle1" xml:space="preserve">
         <source>We’re Mozilla. We’re on your side.</source>
+        <target>We’re Mozilla. We’re on your side.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.subscribeNow">
+      <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
+        <target>Subscribe now</target>
       </trans-unit>
-      <trans-unit id="vpn.main.restorePurchases">
+      <trans-unit id="vpn.main.restorePurchases" xml:space="preserve">
         <source>Restore purchases</source>
+        <target>Restore purchases</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewUpdate.qml" datatype="plaintext" source-language="en" target-language="en-CA">
     <body>
-      <trans-unit id="vpn.updates.updateRecomended">
+      <trans-unit id="vpn.updates.updateRecomended" xml:space="preserve">
         <source>Update recommended</source>
+        <target>Update recommended</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRecomended.description">
+      <trans-unit id="vpn.updates.updateRecomended.description" xml:space="preserve">
         <source>Please update the app before you continue to use the VPN</source>
+        <target>Please update the app before you continue to use the VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequired">
+      <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
         <source>Update required</source>
+        <target>Update required</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequire.reason">
+      <trans-unit id="vpn.updates.updateRequire.reason" xml:space="preserve">
         <source>We detected and fixed a serious bug. You must update your app.</source>
+        <target>We detected and fixed a serious bug. You must update your app.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
+      <trans-unit id="vpn.updates.updateConnectionInsecureWarning" xml:space="preserve">
         <source>Your connection will not be secure while you update.</source>
+        <target>Your connection will not be secure while you update.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.notNow">
+      <trans-unit id="vpn.updates.notNow" xml:space="preserve">
         <source>Not now</source>
+        <target>Not now</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="en-CA">
     <body>
-      <trans-unit id="vpn.connectionInfo.loading">
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
         <source>Loading</source>
+        <target>Loading</target>
         <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="en-CA">
     <body>
-      <trans-unit id="help.viewLog">
+      <trans-unit id="help.viewLog" xml:space="preserve">
         <source>View log</source>
+        <target>View log</target>
       </trans-unit>
-      <trans-unit id="help.helpCenter">
+      <trans-unit id="help.helpCenter" xml:space="preserve">
         <source>Help Center</source>
+        <target>Help Centre</target>
       </trans-unit>
-      <trans-unit id="help.contactUs">
+      <trans-unit id="help.contactUs" xml:space="preserve">
         <source>Contact us</source>
+        <target>Contact us</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="en-CA">
     <body>
-      <trans-unit id="vpn.systray.statusSwitch.title">
+      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>VPN Switched Servers</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusSwtich.message">
+      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
         <source>Switched from %1, %2 to %3, %4</source>
+        <target>Switched from %1, %2 to %3, %4</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.title">
+      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN Connected</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.message">
+      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
         <source>Connected to %1, %2</source>
+        <target>Connected to %1, %2</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.title">
+      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
         <source>VPN Disconnected</source>
+        <target>VPN Disconnected</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.message">
+      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
         <source>Disconnected from %1, %2</source>
+        <target>Disconnected from %1, %2</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/platforms/android/androidcontroller.cpp" datatype="cpp" source-language="en" target-language="en-CA">
     <body>
-      <trans-unit id="vpn.android.notification.isIDLE">
+      <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
         <source>Ready for you to connect</source>
+        <target>Ready for you to connect</target>
         <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="en-CA">
     <body>
-      <trans-unit id="menubar.file.title">
+      <trans-unit id="menubar.file.title" xml:space="preserve">
         <source>File</source>
+        <target>File</target>
       </trans-unit>
-      <trans-unit id="menubar.file.close">
+      <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
+        <target>Close</target>
       </trans-unit>
-      <trans-unit id="menubar.help.title">
+      <trans-unit id="menubar.help.title" xml:space="preserve">
         <source>Help</source>
+        <target>Help</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="en-CA">
     <body>
-      <trans-unit id="systray.hide">
+      <trans-unit id="systray.hide" xml:space="preserve">
         <source>Hide Mozilla VPN</source>
+        <target>Hide Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="systray.show">
+      <trans-unit id="systray.show" xml:space="preserve">
         <source>Show Mozilla VPN</source>
+        <target>Show Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectedTo">
+      <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
         <source>Connected to:</source>
+        <target>Connected to:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectTo">
+      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
         <source>Connect to the last location:</source>
+        <target>Connect to the last location:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectingTo">
+      <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
         <source>Connecting to:</source>
+        <target>Connecting to:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.disconnectingFrom">
+      <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
         <source>Disconnecting from:</source>
+        <target>Disconnecting from:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.location">
+      <trans-unit id="vpn.systray.location" xml:space="preserve">
         <source>%1, %2</source>
+        <target>%1, %2</target>
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork.title">
+      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
         <source>Unsecured Wi-Fi network detected</source>
+        <target>Unsecured Wi-Fi network detected</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork.message">
+      <trans-unit id="vpn.systray.unsecuredNetwork.message" xml:space="preserve">
         <source>%1 is not secure. Turn on VPN to secure your device.</source>
+        <target>%1 is not secure. Turn on VPN to secure your device.</target>
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock.title">
+      <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
+        <target>Guest Wi-Fi portal blocked</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock.message">
+      <trans-unit id="vpn.systray.captivePortalBlock.message" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
+        <target>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock.title">
+      <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
         <source>Guest Wi-Fi portal detected</source>
+        <target>Guest Wi-Fi portal detected</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock.message">
+      <trans-unit id="vpn.systray.captivePortalUnblock.message" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
+        <target>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</target>
       </trans-unit>
-      <trans-unit id="systray.disconnect">
+      <trans-unit id="systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
+        <target>Disconnect</target>
       </trans-unit>
-      <trans-unit id="systray.help">
+      <trans-unit id="systray.help" xml:space="preserve">
         <source>Help</source>
+        <target>Help</target>
       </trans-unit>
-      <trans-unit id="systray.preferences">
+      <trans-unit id="systray.preferences" xml:space="preserve">
         <source>Preferences…</source>
+        <target>Preferences...</target>
       </trans-unit>
-      <trans-unit id="systray.quit">
+      <trans-unit id="systray.quit" xml:space="preserve">
         <source>Quit Mozilla VPN</source>
+        <target>Quit Mozilla VPN</target>
       </trans-unit>
     </body>
   </file>
