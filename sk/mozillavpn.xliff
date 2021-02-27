@@ -113,9 +113,11 @@
       </trans-unit>
       <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
         <source>Turn on to protect your privacy</source>
+        <target>Pre ochranu svojho súkromia ho zapnite</target>
       </trans-unit>
       <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
         <source>Connecting…</source>
+        <target>Pripájanie…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activating" xml:space="preserve">
         <source>Masking connection and location</source>
@@ -148,6 +150,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
         <source>From %1 to %2</source>
+        <target>Z %1 do %2</target>
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
       </trans-unit>
       <trans-unit id="vpn.controller.info" xml:space="preserve">
@@ -164,9 +167,11 @@
     <body>
       <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
         <source>Remove a device</source>
+        <target>Odstrániť zariadenie</target>
       </trans-unit>
       <trans-unit id="vpn.devices.maxDevicesReached" xml:space="preserve">
         <source>You’ve reached your limit. To install the VPN on this device, you’ll need to remove one.</source>
+        <target>Dosiahli ste svoj limit. Ak chcete do tohto zariadenia nainštalovať VPN, musíte jedno zariadenie odstrániť.</target>
       </trans-unit>
     </body>
   </file>
@@ -293,6 +298,7 @@
       </trans-unit>
       <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
         <source>Background service error</source>
+        <target>Chyba služby na pozadí</target>
       </trans-unit>
       <trans-unit id="vpn.alert.restore" xml:space="preserve">
         <source>Restore</source>
@@ -301,12 +307,15 @@
       </trans-unit>
       <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
+        <target>Chyba vzdialenej služby</target>
       </trans-unit>
       <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
         <source>Subscription failed</source>
+        <target>Predplatné zlyhalo</target>
       </trans-unit>
       <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
         <source>Operation not allowed from current location</source>
+        <target>Operácia nie je povolená z aktuálneho umiestnenia</target>
       </trans-unit>
       <trans-unit id="vpn.alert.deviceRemovedAndLogout" xml:space="preserve">
         <source>Signed out and device removed</source>
@@ -330,9 +339,11 @@
     <body>
       <trans-unit id="vpn.updates.updateNow" xml:space="preserve">
         <source>Update now</source>
+        <target>Aktualizovať teraz</target>
       </trans-unit>
       <trans-unit id="vpn.updates.newVersionAvailable" xml:space="preserve">
         <source>New version is available.</source>
+        <target>Je dostupná nová verzia.</target>
       </trans-unit>
     </body>
   </file>
@@ -344,19 +355,24 @@
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps" xml:space="preserve">
         <source>Protect specific apps</source>
+        <target>Chráňte určité aplikácie</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.description" xml:space="preserve">
         <source>Choose which apps should use the VPN</source>
+        <target>Vyberte si aplikácie, ktoré by mali používať VPN</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit App Permissions</source>
+        <target>Ak chcete upravovať povolenia aplikácií, VPN musí byť vypnuté</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
         <source>VPN protects all apps by default</source>
+        <target>V predvolenom nastavení chráni VPN všetky aplikácie</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
         <source>Unprotected</source>
+        <target>Nechránené</target>
         <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotected.description" xml:space="preserve">
@@ -366,10 +382,12 @@
       </trans-unit>
       <trans-unit id="vpn.settings.protectall" xml:space="preserve">
         <source>Protect All</source>
+        <target>Chrániť všetky</target>
         <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected" xml:space="preserve">
         <source>Protected</source>
+        <target>Chránené</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected.description" xml:space="preserve">
@@ -379,6 +397,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.unprotectall" xml:space="preserve">
         <source>Unprotect All</source>
+        <target>Odstrániť ochranu</target>
         <note annotates="source" from="developer">Label for the button to remove protection from all apps currently protected.</note>
       </trans-unit>
     </body>
@@ -408,15 +427,19 @@
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6.description" xml:space="preserve">
         <source>Push the internet forward with the latest version of the Internet Protocol</source>
+        <target>Používať najnovšiu verziu internetového protokolu</target>
       </trans-unit>
       <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
         <source>Local network access</source>
+        <target>Prístup k lokálnej sieti</target>
       </trans-unit>
       <trans-unit id="vpn.settings.lanAccess.description" xml:space="preserve">
         <source>Access printers, streaming sticks and all other devices on your local network</source>
+        <target>Získajte prístup k tlačiarňam a ostatným zariadeniam vo vašej lokálnej sieti</target>
       </trans-unit>
       <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit these settings</source>
+        <target>Ak chcete upraviť tieto nastavenia, musíte vypnúť VPN</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
     </body>
@@ -429,15 +452,19 @@
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
         <source>Guest Wi-Fi portal alert</source>
+        <target>Upozornenie na hosťovský Wi-Fi portál</target>
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
+        <target>Upozorníme vás, ak je hosťovský Wi-Fi portál blokovaný kvôli VPN</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unsecuredNetworkAlert" xml:space="preserve">
         <source>Unsecured network alert</source>
+        <target>Upozornenie na nezabezpečenú sieť</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unsecuredNetworkAlert.description" xml:space="preserve">
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
+        <target>Upozorníme vás, ak sa pripojíte k nezabezpečenej sieti Wi-Fi</target>
       </trans-unit>
     </body>
   </file>
@@ -465,6 +492,7 @@
     <body>
       <trans-unit id="vpn.authenticating.waitForSignIn" xml:space="preserve">
         <source>Waiting for sign in and subscription confirmation…</source>
+        <target>Čakanie na prihlásenie a potvrdenie predplatného…</target>
       </trans-unit>
     </body>
   </file>
@@ -560,6 +588,7 @@
     <body>
       <trans-unit id="vpn.viewlogs.title" xml:space="preserve">
         <source>View Logs</source>
+        <target>Zobraziť denníky</target>
       </trans-unit>
       <trans-unit id="vpn.logs.copy" xml:space="preserve">
         <source>Copy</source>
@@ -591,6 +620,7 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
+        <target>Zašifrujte svoje spojenie tak, aby nikto nevedel, čo robíte.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
         <source>Servers in 30+ countries</source>
@@ -607,12 +637,15 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.3" xml:space="preserve">
         <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
+        <target>Streamujte, sťahujte a hrajte bez obmedzení.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
         <source>No online activity logs</source>
+        <target>Žiadne záznamy o online aktivite</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.4" xml:space="preserve">
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
+        <target>Zaviazali sme sa, že nebudeme monitorovať ani zaznamenávať históriu vášho prehliadania alebo siete.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
         <source>Skip</source>
@@ -637,6 +670,7 @@
       </trans-unit>
       <trans-unit id="vpn.subscription.featureSubtitle2" xml:space="preserve">
         <source>We encrypt your entire device.</source>
+        <target>Chránime celé vaše zariadenie.</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.featureSubtitle3" xml:space="preserve">
         <source>Protect your access to the web.</source>
@@ -644,6 +678,7 @@
       </trans-unit>
       <trans-unit id="vpn.subscription.featureTitle4" xml:space="preserve">
         <source>Connect up to %1 devices</source>
+        <target>Pripojte až %1 zariadení</target>
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
       </trans-unit>
       <trans-unit id="vpn.subscription.featureSubtitle4" xml:space="preserve">
@@ -652,6 +687,7 @@
       </trans-unit>
       <trans-unit id="vpn.subscription.featureTitle1" xml:space="preserve">
         <source>No activity logs</source>
+        <target>Žiadne záznamy aktivity</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.featureSubtitle1" xml:space="preserve">
         <source>We’re Mozilla. We’re on your side.</source>
@@ -708,6 +744,7 @@
     <body>
       <trans-unit id="help.viewLog" xml:space="preserve">
         <source>View log</source>
+        <target>Zobraziť denník</target>
       </trans-unit>
       <trans-unit id="help.helpCenter" xml:space="preserve">
         <source>Help Center</source>
@@ -727,6 +764,7 @@
       </trans-unit>
       <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
         <source>Switched from %1, %2 to %3, %4</source>
+        <target>Prepnuté z %1, %2 do %3, %4</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
@@ -735,6 +773,7 @@
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
         <source>Connected to %1, %2</source>
+        <target>Pripojené k %1, %2</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
       <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
@@ -743,6 +782,7 @@
       </trans-unit>
       <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
         <source>Disconnected from %1, %2</source>
+        <target>Odpojené z %1, %2</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
     </body>
@@ -751,6 +791,7 @@
     <body>
       <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
         <source>Ready for you to connect</source>
+        <target>Môžete sa pripojiť</target>
         <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
       </trans-unit>
     </body>
@@ -783,15 +824,19 @@
       </trans-unit>
       <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
         <source>Connected to:</source>
+        <target>Pripojené k:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
         <source>Connect to the last location:</source>
+        <target>Pripojiť k poslednému miestu:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
         <source>Connecting to:</source>
+        <target>Pripájanie k:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
         <source>Disconnecting from:</source>
+        <target>Odpájanie z:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.location" xml:space="preserve">
         <source>%1, %2</source>
@@ -800,22 +845,28 @@
       </trans-unit>
       <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
         <source>Unsecured Wi-Fi network detected</source>
+        <target>Bola zistená nezabezpečená sieť Wi-Fi</target>
       </trans-unit>
       <trans-unit id="vpn.systray.unsecuredNetwork.message" xml:space="preserve">
         <source>%1 is not secure. Turn on VPN to secure your device.</source>
+        <target>Sieť %1 nie je zabezpečená. Zapnite si VPN, aby ste ochránili svoje zariadenie.</target>
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
       </trans-unit>
       <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
+        <target>Bol zablokovaný hosťovský Wi-Fi portál</target>
       </trans-unit>
       <trans-unit id="vpn.systray.captivePortalBlock.message" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
+        <target>Hosťovská Wi-Fi, ku ktorej je vaše zariadenie pripojené vyžaduje akciu. Kliknutím vypnete VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
         <source>Guest Wi-Fi portal detected</source>
+        <target>Bol zistený hosťovský Wi-Fi portál</target>
       </trans-unit>
       <trans-unit id="vpn.systray.captivePortalUnblock.message" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
+        <target>Hosťovská Wi-Fi, ku ktorej je vaše zariadenie pripojené, nemusí byť zabezpečená. Kliknutím zapnete VPN.</target>
       </trans-unit>
       <trans-unit id="systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
