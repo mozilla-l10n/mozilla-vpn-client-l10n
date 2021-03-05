@@ -58,6 +58,13 @@
   </file>
   <file original="../src/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
+      <trans-unit id="vpn.connectionStability.unstable">
+        <source>Unstable</source>
+        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+      </trans-unit>
+      <trans-unit id="vpn.connectionStability.noSignal">
+        <source>No Signal</source>
+      </trans-unit>
       <trans-unit id="vpn.connectionStability.checkConnection">
         <source>Check Connection</source>
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
@@ -215,17 +222,6 @@
     <body>
       <trans-unit id="vpn.main.signOut">
         <source>Sign Out</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNStabilityLabelActions.qml" datatype="plaintext" source-language="en" target-language="en-US">
-    <body>
-      <trans-unit id="vpn.connectionStability.unstable">
-        <source>Unstable</source>
-        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
-      </trans-unit>
-      <trans-unit id="vpn.connectionStability.noSignal">
-        <source>No Signal</source>
       </trans-unit>
     </body>
   </file>
@@ -401,6 +397,19 @@
     <body>
       <trans-unit id="vpn.authenticating.waitForSignIn">
         <source>Waiting for sign in and subscription confirmation…</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/states/StateBackendFailure.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.errors.somethingWentWrong">
+        <source>Something went wrong…</source>
+      </trans-unit>
+      <trans-unit id="vpn.errors.unableToEstablishConnection">
+        <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
+      </trans-unit>
+      <trans-unit id="vpn.errors.tryAgain">
+        <source>Try Again</source>
       </trans-unit>
     </body>
   </file>

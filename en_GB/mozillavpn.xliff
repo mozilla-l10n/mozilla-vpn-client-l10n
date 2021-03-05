@@ -71,6 +71,13 @@
   </file>
   <file original="../src/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="en-GB">
     <body>
+      <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
+        <source>Unstable</source>
+        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+      </trans-unit>
+      <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
+        <source>No Signal</source>
+      </trans-unit>
       <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
         <source>Check Connection</source>
         <target>Check Connection</target>
@@ -262,19 +269,6 @@
       <trans-unit id="vpn.main.signOut" xml:space="preserve">
         <source>Sign Out</source>
         <target>Sign Out</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNStabilityLabelActions.qml" datatype="plaintext" source-language="en" target-language="en-GB">
-    <body>
-      <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
-        <source>Unstable</source>
-        <target>Unstable</target>
-        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
-      </trans-unit>
-      <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
-        <source>No Signal</source>
-        <target>No Signal</target>
       </trans-unit>
     </body>
   </file>
@@ -493,6 +487,19 @@
       <trans-unit id="vpn.authenticating.waitForSignIn" xml:space="preserve">
         <source>Waiting for sign in and subscription confirmation…</source>
         <target>Waiting for sign in and subscription confirmation…</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/states/StateBackendFailure.qml" datatype="plaintext" source-language="en" target-language="en-GB">
+    <body>
+      <trans-unit id="vpn.errors.somethingWentWrong" xml:space="preserve">
+        <source>Something went wrong…</source>
+      </trans-unit>
+      <trans-unit id="vpn.errors.unableToEstablishConnection" xml:space="preserve">
+        <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
+      </trans-unit>
+      <trans-unit id="vpn.errors.tryAgain" xml:space="preserve">
+        <source>Try Again</source>
       </trans-unit>
     </body>
   </file>
