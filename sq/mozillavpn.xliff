@@ -292,16 +292,18 @@
         <source>No internet connection</source>
         <target>S’ka lidhje interneti</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.backendServiceError">
+      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
         <source>Background service error</source>
+        <target>Gabim shërbimi prapaskenë</target>
       </trans-unit>
       <trans-unit id="vpn.alert.restore" xml:space="preserve">
         <source>Restore</source>
         <target>Riktheje</target>
         <note annotates="source" from="developer">Restore a service in case of error.</note>
       </trans-unit>
-      <trans-unit id="vpn.alert.remoteServiceError">
+      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
+        <target>Gabim shërbimi të largët</target>
       </trans-unit>
       <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
         <source>Subscription failed</source>
@@ -431,8 +433,9 @@
         <source>Access printers, streaming sticks and all other devices on your local network</source>
         <target>Përdorni shtypësa, pajisje të vockla transmetuese dhe krejt pajisjet e tjera në rrejtin tuaj vendor</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.vpnMustBeOff">
+      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit these settings</source>
+        <target>VPN-ja duhet të jetë e fikur, që të përpunohen këto rregullime</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
     </body>
@@ -451,11 +454,13 @@
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
         <target>Merrni një njoftim, nëse bllokohet një portal Wi-Fi mysafir për shkak të lidhjes VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.unsecuredNetworkAlert">
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert" xml:space="preserve">
         <source>Unsecured network alert</source>
+        <target>Sinjalizim për rrjet jo të sigurt</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description">
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description" xml:space="preserve">
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
+        <target>Sinjalizohuni, nëse lidheni me një rrjet Wi-Fi jo të sigurt</target>
       </trans-unit>
     </body>
   </file>
@@ -495,8 +500,9 @@
       <trans-unit id="vpn.errors.unableToEstablishConnection">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
       </trans-unit>
-      <trans-unit id="vpn.errors.tryAgain">
+      <trans-unit id="vpn.errors.tryAgain" xml:space="preserve">
         <source>Try Again</source>
+        <target>Riprovoni</target>
       </trans-unit>
     </body>
   </file>
@@ -733,8 +739,9 @@
   </file>
   <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="sq">
     <body>
-      <trans-unit id="vpn.connectionInfo.loading">
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
         <source>Loading</source>
+        <target>Po ngarkohet</target>
         <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
       </trans-unit>
     </body>
@@ -842,24 +849,30 @@
         <target>%1, %2</target>
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork.title">
+      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
         <source>Unsecured Wi-Fi network detected</source>
+        <target>U pikas rrjet Wi-Fi jo i sigurt</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork2.message">
+      <trans-unit id="vpn.systray.unsecuredNetwork2.message" xml:space="preserve">
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
+        <target>%1 s’është i sigurt. Klikoni këtu që të aktivizoni VPN-në dhe të siguroni pajisjen tuaj.</target>
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock.title">
+      <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
+        <target>U bllokua portal Wi-Fi mysafir</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock2.message">
+      <trans-unit id="vpn.systray.captivePortalBlock2.message" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
+        <target>Rrjeti mysafir Wi-Fi te i cili jeni lidhur, lyp veprim. Klikoni këtu që ta çaktivizoni VPN-në, për të parë portalin.</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock.title">
+      <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
         <source>Guest Wi-Fi portal detected</source>
+        <target>U pikas portal Wi-Fi mysafir</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock2.message">
+      <trans-unit id="vpn.systray.captivePortalUnblock2.message" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
+        <target>Rrjeti mysafir Wi-Fi te i cili jeni lidhur, mund të mos jetë i sigurt. Klikoni këtu që ta çaktivizoni VPN-në, për të siguruar portalin.</target>
       </trans-unit>
       <trans-unit id="systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
