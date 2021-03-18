@@ -2,8 +2,9 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="../src/platforms/android/androidauthenticationview.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.main.back">
+      <trans-unit id="vpn.main.back" xml:space="preserve">
         <source>Back</source>
+        <target>Πίσω</target>
         <note annotates="source" from="developer">Go back</note>
       </trans-unit>
       <trans-unit id="vpn.android.authentication">
@@ -68,8 +69,9 @@
         <source>Unstable</source>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionStability.noSignal">
+      <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
         <source>No Signal</source>
+        <target>Χωρίς σήμα</target>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.checkConnection">
         <source>Check Connection</source>
@@ -83,8 +85,9 @@
         <source>My devices</source>
         <target>Οι συσκευές μου</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.activeVsMaxDeviceCount">
+      <trans-unit id="vpn.devices.activeVsMaxDeviceCount" xml:space="preserve">
         <source>%1 of %2</source>
+        <target>%1 από %2</target>
         <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.</note>
       </trans-unit>
     </body>
@@ -103,14 +106,16 @@
   </file>
   <file original="../src/ui/components/VPNControllerView.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.controller.deactivated">
+      <trans-unit id="vpn.controller.deactivated" xml:space="preserve">
         <source>VPN is off</source>
+        <target>Το VPN είναι ανενεργό</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activationSloagan">
         <source>Turn on to protect your privacy</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.connectingState">
+      <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
         <source>Connecting…</source>
+        <target>Σύνδεση…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activating">
         <source>Masking connection and location</source>
@@ -118,24 +123,29 @@
       <trans-unit id="vpn.controller.attemptingToConfirm">
         <source>Attempting to confirm connection</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.activated">
+      <trans-unit id="vpn.controller.activated" xml:space="preserve">
         <source>VPN is on</source>
+        <target>Το VPN είναι ενεργό</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.active">
+      <trans-unit id="vpn.controller.active" xml:space="preserve">
         <source>Secure and private</source>
+        <target>Ασφαλής και ιδιωτική</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
       </trans-unit>
-      <trans-unit id="vpn.controller.disconnecting">
+      <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
         <source>Disconnecting…</source>
+        <target>Αποσύνδεση…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.deactivating">
         <source>Unmasking connection and location</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.switching">
+      <trans-unit id="vpn.controller.switching" xml:space="preserve">
         <source>Switching…</source>
+        <target>Εναλλαγή…</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.switchingDetail">
+      <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
         <source>From %1 to %2</source>
+        <target>Από %1 σε %2</target>
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
       </trans-unit>
       <trans-unit id="vpn.controller.info" xml:space="preserve">
@@ -258,18 +268,22 @@
       <trans-unit id="vpn.alert.unableToConnect">
         <source>Unable to connect</source>
       </trans-unit>
-      <trans-unit id="vpn.alert.noInternet">
+      <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
         <source>No internet connection</source>
+        <target>Χωρίς σύνδεση στο διαδίκτυο</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.backendServiceError">
+      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
         <source>Background service error</source>
+        <target>Σφάλμα υπηρεσίας παρασκηνίου</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.restore">
+      <trans-unit id="vpn.alert.restore" xml:space="preserve">
         <source>Restore</source>
+        <target>Επαναφορά</target>
         <note annotates="source" from="developer">Restore a service in case of error.</note>
       </trans-unit>
-      <trans-unit id="vpn.alert.remoteServiceError">
+      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
+        <target>Σφάλμα απομακρυσμένης υπηρεσίας</target>
       </trans-unit>
       <trans-unit id="vpn.alert.subscriptionFailureError">
         <source>Subscription failed</source>
@@ -284,11 +298,13 @@
   </file>
   <file original="../src/ui/components/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.toggle.on">
+      <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
+        <target>Ενεργοποίηση VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.toggle.off">
+      <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
+        <target>Απενεργοποίηση VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -298,8 +314,9 @@
         <source>Update now</source>
         <target>Ενημέρωση τώρα</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.newVersionAvailable">
+      <trans-unit id="vpn.updates.newVersionAvailable" xml:space="preserve">
         <source>New version is available.</source>
+        <target>Νέα έκδοση διαθέσιμη.</target>
       </trans-unit>
     </body>
   </file>
@@ -349,22 +366,26 @@
   </file>
   <file original="../src/ui/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.settings.language">
+      <trans-unit id="vpn.settings.language" xml:space="preserve">
         <source>Language</source>
+        <target>Γλώσσα</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.languageAccessibleName">
+      <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
         <source>%1 %2</source>
+        <target>%1 %2</target>
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.settings.networking">
+      <trans-unit id="vpn.settings.networking" xml:space="preserve">
         <source>Network settings</source>
+        <target>Ρυθμίσεις δικτύου</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.ipv6">
+      <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
         <source>IPv6</source>
+        <target>IPv6</target>
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6.description">
         <source>Push the internet forward with the latest version of the Internet Protocol</source>
@@ -383,8 +404,9 @@
   </file>
   <file original="../src/ui/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.settings.notifications">
+      <trans-unit id="vpn.settings.notifications" xml:space="preserve">
         <source>Notifications</source>
+        <target>Ειδοποιήσεις</target>
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert">
         <source>Guest Wi-Fi portal alert</source>
@@ -402,17 +424,21 @@
   </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.settings.user">
+      <trans-unit id="vpn.settings.user" xml:space="preserve">
         <source>VPN User</source>
+        <target>Χρήστης VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.main.manageAccount">
+      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>Διαχείριση λογαριασμού</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot">
+      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
         <source>Launch VPN app on Startup</source>
+        <target>Εκτέλεση εφαρμογής VPN κατά την εκκίνηση</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.giveFeedback">
+      <trans-unit id="vpn.settings.giveFeedback" xml:space="preserve">
         <source>Give feedback</source>
+        <target>Αποστολή σχολίων</target>
       </trans-unit>
     </body>
   </file>
@@ -425,8 +451,9 @@
   </file>
   <file original="../src/ui/states/StateBackendFailure.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.errors.somethingWentWrong">
+      <trans-unit id="vpn.errors.somethingWentWrong" xml:space="preserve">
         <source>Something went wrong…</source>
+        <target>Κάτι πήγε στραβά…</target>
       </trans-unit>
       <trans-unit id="vpn.errors.unableToEstablishConnection">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
@@ -438,14 +465,16 @@
   </file>
   <file original="../src/ui/states/StatePostAuthentication.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.postAuthentication..quickAccess">
+      <trans-unit id="vpn.postAuthentication..quickAccess" xml:space="preserve">
         <source>Quick access</source>
+        <target>Γρήγορη πρόσβαση</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.statusBarIntro">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.continue">
+      <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
         <source>Continue</source>
+        <target>Συνέχεια</target>
       </trans-unit>
     </body>
   </file>
@@ -460,51 +489,61 @@
       <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.getHelp">
+      <trans-unit id="vpn.subscriptionBlocked.getHelp" xml:space="preserve">
         <source>Get Help</source>
+        <target>Λήψη βοήθειας</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/states/StateSubscriptionValidation.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.subscription.pleaseWait">
+      <trans-unit id="vpn.subscription.pleaseWait" xml:space="preserve">
         <source>Please wait…</source>
+        <target>Παρακαλώ περιμένετε…</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewDevices.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.devices.deviceAccessibleName">
+      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
         <source>%1 %2</source>
+        <target>%1 %2</target>
         <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
       </trans-unit>
-      <trans-unit id="vpn.devices.currentDevice">
+      <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
         <source>Current Device</source>
+        <target>Τρέχουσα συσκευή</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.addedltHour">
+      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
         <source>Added less than an hour ago</source>
+        <target>Προστέθηκε πριν από λιγότερο από μία ώρα</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.addedXhoursAgo">
+      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
         <source>Added a few hours ago (%1)</source>
+        <target>Προστέθηκε πριν μερικές ώρες (%1)</target>
         <note annotates="source" from="developer">%1 is the number of hours.</note>
       </trans-unit>
-      <trans-unit id="vpn.devices.addedXdaysAgo">
+      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
         <source>Added %1 days ago</source>
+        <target>Προστέθηκε %1 ημέρες πριν</target>
         <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeA11Y">
+      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
         <source>Remove %1</source>
+        <target>Αφαίρεση %1</target>
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewInitialize.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.main.getStarted">
+      <trans-unit id="vpn.main.getStarted" xml:space="preserve">
         <source>Get started</source>
+        <target>Έναρξη</target>
       </trans-unit>
-      <trans-unit id="vpn.main.learnMore">
+      <trans-unit id="vpn.main.learnMore" xml:space="preserve">
         <source>Learn more</source>
+        <target>Μάθετε περισσότερα</target>
       </trans-unit>
     </body>
   </file>
@@ -513,8 +552,9 @@
       <trans-unit id="vpn.viewlogs.title">
         <source>View Logs</source>
       </trans-unit>
-      <trans-unit id="vpn.logs.copy">
+      <trans-unit id="vpn.logs.copy" xml:space="preserve">
         <source>Copy</source>
+        <target>Αντιγραφή</target>
       </trans-unit>
       <trans-unit id="vpn.logs.copied">
         <source>Copied!</source>
@@ -526,8 +566,9 @@
   </file>
   <file original="../src/ui/views/ViewMain.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="MozillaVPN">
+      <trans-unit id="MozillaVPN" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -701,11 +742,13 @@
   </file>
   <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="el">
     <body>
-      <trans-unit id="systray.hide">
+      <trans-unit id="systray.hide" xml:space="preserve">
         <source>Hide Mozilla VPN</source>
+        <target>Απόκρυψη Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="systray.show">
+      <trans-unit id="systray.show" xml:space="preserve">
         <source>Show Mozilla VPN</source>
+        <target>Εμφάνιση Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
         <source>Connected to:</source>
@@ -757,8 +800,9 @@
         <source>Preferences…</source>
         <target>Προτιμήσεις…</target>
       </trans-unit>
-      <trans-unit id="systray.quit">
+      <trans-unit id="systray.quit" xml:space="preserve">
         <source>Quit Mozilla VPN</source>
+        <target>Κλείσιμο Mozilla VPN</target>
       </trans-unit>
     </body>
   </file>
