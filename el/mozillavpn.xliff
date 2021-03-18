@@ -33,8 +33,9 @@
         <source>Mozilla VPN</source>
         <target>Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.main.productDescription">
+      <trans-unit id="vpn.main.productDescription" xml:space="preserve">
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
+        <target>Ένα γρήγορο, ασφαλές και εύχρηστο VPN. Από τους δημιουργούς του Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion">
         <source>Release Version</source>
@@ -556,8 +557,9 @@
   </file>
   <file original="../src/ui/views/ViewLogs.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.viewlogs.title">
+      <trans-unit id="vpn.viewlogs.title" xml:space="preserve">
         <source>View Logs</source>
+        <target>Προβολή αρχείων καταγραφής</target>
       </trans-unit>
       <trans-unit id="vpn.logs.copy" xml:space="preserve">
         <source>Copy</source>
@@ -567,8 +569,9 @@
         <source>Copied!</source>
         <target>Έγινε αντιγραφή!</target>
       </trans-unit>
-      <trans-unit id="vpn.logs.clear">
+      <trans-unit id="vpn.logs.clear" xml:space="preserve">
         <source>Clear</source>
+        <target>Εκκαθάριση</target>
       </trans-unit>
     </body>
   </file>
@@ -697,8 +700,9 @@
         <source>Help Center</source>
         <target>Κέντρο βοήθειας</target>
       </trans-unit>
-      <trans-unit id="help.contactUs">
+      <trans-unit id="help.contactUs" xml:space="preserve">
         <source>Contact us</source>
+        <target>Επικοινωνία</target>
       </trans-unit>
     </body>
   </file>
@@ -711,15 +715,17 @@
         <source>Switched from %1, %2 to %3, %4</source>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.title">
+      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>Το VPN συνδέθηκε</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnected.message">
         <source>Connected to %1, %2</source>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.title">
+      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
         <source>VPN Disconnected</source>
+        <target>Το VPN αποσυνδέθηκε</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusDisconnected.message">
         <source>Disconnected from %1, %2</source>
@@ -729,8 +735,9 @@
   </file>
   <file original="../src/platforms/android/androidcontroller.cpp" datatype="cpp" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.android.notification.isIDLE">
+      <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
         <source>Ready for you to connect</source>
+        <target>Έτοιμο για σύνδεση</target>
         <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
       </trans-unit>
     </body>
