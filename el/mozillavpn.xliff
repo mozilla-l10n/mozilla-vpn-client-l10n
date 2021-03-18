@@ -272,8 +272,9 @@
       <trans-unit id="vpn.alert.tryAgain">
         <source>Try again</source>
       </trans-unit>
-      <trans-unit id="vpn.alert.unableToConnect">
+      <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
         <source>Unable to connect</source>
+        <target>Αδυναμία σύνδεσης</target>
       </trans-unit>
       <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
         <source>No internet connection</source>
@@ -589,8 +590,9 @@
   </file>
   <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.onboarding.headline.1">
+      <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
         <source>Device-level encryption</source>
+        <target>Κρυπτογράφηση σε επίπεδο συσκευής</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.1">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
@@ -637,8 +639,9 @@
         <source>30-day money-back guarantee</source>
         <target>Εγγύηση επιστροφής χρημάτων εντός 30 ημερών</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle2">
+      <trans-unit id="vpn.subscription.featureSubtitle2" xml:space="preserve">
         <source>We encrypt your entire device.</source>
+        <target>Κρυπτογραφούμε ολόκληρη τη συσκευή σας.</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.featureSubtitle3">
         <source>Protect your access to the web.</source>
@@ -650,8 +653,9 @@
       <trans-unit id="vpn.subscription.featureSubtitle4">
         <source>We won’t restrict your bandwidth.</source>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureTitle1">
+      <trans-unit id="vpn.subscription.featureTitle1" xml:space="preserve">
         <source>No activity logs</source>
+        <target>Κανένα αρχείο δραστηριότητας</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.featureSubtitle1" xml:space="preserve">
         <source>We’re Mozilla. We’re on your side.</source>
@@ -701,7 +705,7 @@
     <body>
       <trans-unit id="help.viewLog" xml:space="preserve">
         <source>View log</source>
-        <target>Προβολή αρχείου καταγραφής</target>
+        <target>Προβολή αρχείου</target>
       </trans-unit>
       <trans-unit id="help.helpCenter" xml:space="preserve">
         <source>Help Center</source>
@@ -798,8 +802,9 @@
       <trans-unit id="vpn.systray.unsecuredNetwork.title">
         <source>Unsecured Wi-Fi network detected</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork2.message">
+      <trans-unit id="vpn.systray.unsecuredNetwork2.message" xml:space="preserve">
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
+        <target>Το %1 δεν είναι ασφαλές. Κάντε κλικ εδώ για να ενεργοποιήσετε το VPN και να προστατεύσετε τη συσκευή σας.</target>
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
       </trans-unit>
       <trans-unit id="vpn.systray.captivePortalBlock.title">
