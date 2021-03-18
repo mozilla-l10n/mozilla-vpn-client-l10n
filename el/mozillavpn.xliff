@@ -98,8 +98,9 @@
         <source>Select location</source>
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
       </trans-unit>
-      <trans-unit id="vpn.servers.currentLocation">
+      <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
         <source>current location - %1</source>
+        <target>τρέχουσα τοποθεσία - %1</target>
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
       </trans-unit>
     </body>
@@ -117,11 +118,13 @@
         <source>Connecting…</source>
         <target>Σύνδεση…</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.activating">
+      <trans-unit id="vpn.controller.activating" xml:space="preserve">
         <source>Masking connection and location</source>
+        <target>Απόκρυψη σύνδεσης και τοποθεσίας</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.attemptingToConfirm">
+      <trans-unit id="vpn.controller.attemptingToConfirm" xml:space="preserve">
         <source>Attempting to confirm connection</source>
+        <target>Απόπειρα επιβεβαίωσης σύνδεσης</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activated" xml:space="preserve">
         <source>VPN is on</source>
@@ -285,8 +288,9 @@
         <source>Remote service error</source>
         <target>Σφάλμα απομακρυσμένης υπηρεσίας</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.subscriptionFailureError">
+      <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
         <source>Subscription failed</source>
+        <target>Αποτυχία συνδρομής</target>
       </trans-unit>
       <trans-unit id="vpn.alert.getIPRestrictionError">
         <source>Operation not allowed from current location</source>
@@ -346,8 +350,9 @@
         <source>These apps will not use the VPN</source>
         <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectall">
+      <trans-unit id="vpn.settings.protectall" xml:space="preserve">
         <source>Protect All</source>
+        <target>Προστασία όλων</target>
         <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected">
@@ -390,8 +395,9 @@
       <trans-unit id="vpn.settings.ipv6.description">
         <source>Push the internet forward with the latest version of the Internet Protocol</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess">
+      <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
         <source>Local network access</source>
+        <target>Τοπική πρόσβαση δικτύου</target>
       </trans-unit>
       <trans-unit id="vpn.settings.lanAccess.description">
         <source>Access printers, streaming sticks and all other devices on your local network</source>
@@ -480,8 +486,9 @@
   </file>
   <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.subscriptionBlocked.title">
+      <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
         <source>Error confirming subscription…</source>
+        <target>Σφάλμα επιβεβαίωσης συνδρομής…</target>
       </trans-unit>
       <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed">
         <source>Another Firefox Account has already subscribed using this Apple ID.</source>
@@ -556,8 +563,9 @@
         <source>Copy</source>
         <target>Αντιγραφή</target>
       </trans-unit>
-      <trans-unit id="vpn.logs.copied">
+      <trans-unit id="vpn.logs.copied" xml:space="preserve">
         <source>Copied!</source>
+        <target>Έγινε αντιγραφή!</target>
       </trans-unit>
       <trans-unit id="vpn.logs.clear">
         <source>Clear</source>
@@ -580,15 +588,17 @@
       <trans-unit id="vpn.onboarding.subtitle.1">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.2">
+      <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
         <source>Servers in 30+ countries</source>
+        <target>Διακομιστές σε 30+ χώρες</target>
         <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeeded.qml too.</note>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.2">
         <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.3">
+      <trans-unit id="vpn.onboarding.headline.3" xml:space="preserve">
         <source>No bandwidth restrictions</source>
+        <target>Χωρίς περιορισμούς εύρους ζώνης</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.3">
         <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
@@ -683,8 +693,9 @@
       <trans-unit id="help.viewLog">
         <source>View log</source>
       </trans-unit>
-      <trans-unit id="help.helpCenter">
+      <trans-unit id="help.helpCenter" xml:space="preserve">
         <source>Help Center</source>
+        <target>Κέντρο βοήθειας</target>
       </trans-unit>
       <trans-unit id="help.contactUs">
         <source>Contact us</source>
@@ -754,8 +765,9 @@
         <source>Connected to:</source>
         <target>Συνδέθηκε σε:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectTo">
+      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
         <source>Connect to the last location:</source>
+        <target>Σύνδεση στην τελευταία τοποθεσία:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
         <source>Connecting to:</source>
