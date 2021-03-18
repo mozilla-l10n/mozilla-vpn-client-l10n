@@ -69,16 +69,18 @@
   </file>
   <file original="../src/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.connectionStability.unstable">
+      <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
         <source>Unstable</source>
+        <target>Ασταθής</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
         <source>No Signal</source>
         <target>Χωρίς σήμα</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionStability.checkConnection">
+      <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
         <source>Check Connection</source>
+        <target>Ελέγξτε τη σύνδεση</target>
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
       </trans-unit>
     </body>
@@ -98,8 +100,9 @@
   </file>
   <file original="../src/ui/components/VPNControllerServer.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.servers.selectLocation">
+      <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
         <source>Select location</source>
+        <target>Επιλογή τοποθεσίας</target>
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
       </trans-unit>
       <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
@@ -231,9 +234,10 @@
         <source>Remove device?</source>
         <target>Αφαίρεση συσκευής;</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.deviceRemovalConfirm">
+      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
         <source>Please confirm you would like to remove
 %1.</source>
+        <target>Παρακαλούμε επιβεβαιώστε ότι θέλετε να αφαιρέσετε το %1.</target>
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
       </trans-unit>
       <trans-unit id="vpn.devices.cancelDeviceRemoval" xml:space="preserve">
@@ -266,11 +270,13 @@
   </file>
   <file original="../src/ui/components/VPNSystemAlert.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.alert.authenticationError">
+      <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
         <source>Authentication error</source>
+        <target>Σφάλμα ταυτοποίησης</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.tryAgain">
+      <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
         <source>Try again</source>
+        <target>Δοκιμή ξανά</target>
       </trans-unit>
       <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
         <source>Unable to connect</source>
@@ -297,11 +303,13 @@
         <source>Subscription failed</source>
         <target>Αποτυχία συνδρομής</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.getIPRestrictionError">
+      <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
         <source>Operation not allowed from current location</source>
+        <target>Η λειτουργία δεν επιτρέπεται στην τρέχουσα τοποθεσία</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.deviceRemovedAndLogout">
+      <trans-unit id="vpn.alert.deviceRemovedAndLogout" xml:space="preserve">
         <source>Signed out and device removed</source>
+        <target>Έγινε αποσύνδεση και αφαίρεση συσκευής</target>
       </trans-unit>
     </body>
   </file>
@@ -331,17 +339,21 @@
   </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.settings.appPermissions">
+      <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
         <source>App Permissions</source>
+        <target>Δικαιώματα εφαρμογών</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps">
+      <trans-unit id="vpn.settings.protectSelectedApps" xml:space="preserve">
         <source>Protect specific apps</source>
+        <target>Προστασία συγκεκριμένων εφαρμογών</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.description">
+      <trans-unit id="vpn.settings.protectSelectedApps.description" xml:space="preserve">
         <source>Choose which apps should use the VPN</source>
+        <target>Επιλέξτε ποιες εφαρμογές θα χρησιμοποιούν το VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff">
+      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit App Permissions</source>
+        <target>Το VPN πρέπει να είναι ανενεργό για την επεξεργασία δικαιωμάτων εφαρμογών</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
@@ -673,18 +685,21 @@
         <source>Update recommended</source>
         <target>Προτείνεται ενημέρωση</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRecomended.description">
+      <trans-unit id="vpn.updates.updateRecomended.description" xml:space="preserve">
         <source>Please update the app before you continue to use the VPN</source>
+        <target>Παρακαλούμε ενημερώστε την εφαρμογή πριν συνεχίσετε με τη χρήση του VPN</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
         <source>Update required</source>
         <target>Απαιτείται ενημέρωση</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequire.reason">
+      <trans-unit id="vpn.updates.updateRequire.reason" xml:space="preserve">
         <source>We detected and fixed a serious bug. You must update your app.</source>
+        <target>Εντοπίσαμε και διορθώσαμε ένα σοβαρό σφάλμα. Πρέπει να ενημερώσετε την εφαρμογή σας.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
+      <trans-unit id="vpn.updates.updateConnectionInsecureWarning" xml:space="preserve">
         <source>Your connection will not be secure while you update.</source>
+        <target>Η σύνδεσή σας δεν θα είναι ασφαλής κατά την ενημέρωση.</target>
       </trans-unit>
       <trans-unit id="vpn.updates.notNow" xml:space="preserve">
         <source>Not now</source>
@@ -719,27 +734,31 @@
   </file>
   <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.systray.statusSwitch.title">
+      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>Το VPN άλλαξε διακομιστές</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusSwtich.message">
+      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
         <source>Switched from %1, %2 to %3, %4</source>
+        <target>Έγινε εναλλαγή από %2, %1 σε %4, %3</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
         <source>VPN Connected</source>
         <target>Το VPN συνδέθηκε</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.message">
+      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
         <source>Connected to %1, %2</source>
+        <target>Έγινε σύνδεση σε: %2, %1</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
       <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
         <source>VPN Disconnected</source>
         <target>Το VPN αποσυνδέθηκε</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.message">
+      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
         <source>Disconnected from %1, %2</source>
+        <target>Έγινε αποσύνδεση από: %2, %1</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
     </body>
@@ -795,12 +814,14 @@
         <source>Disconnecting from:</source>
         <target>Αποσύνδεση από:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.location">
+      <trans-unit id="vpn.systray.location" xml:space="preserve">
         <source>%1, %2</source>
+        <target>%2, %1</target>
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork.title">
+      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
         <source>Unsecured Wi-Fi network detected</source>
+        <target>Εντοπίστηκε επισφαλές δίκτυο Wi-Fi</target>
       </trans-unit>
       <trans-unit id="vpn.systray.unsecuredNetwork2.message" xml:space="preserve">
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
