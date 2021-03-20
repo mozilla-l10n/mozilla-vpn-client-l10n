@@ -79,41 +79,50 @@
         <source>No Signal</source>
         <target>信号なし</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionStability.checkConnection">
+      <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
         <source>Check Connection</source>
+        <target>接続を確認してください</target>
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNControllerView.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
-      <trans-unit id="vpn.controller.deactivated">
+      <trans-unit id="vpn.controller.deactivated" xml:space="preserve">
         <source>VPN is off</source>
+        <target>VPN はオフです</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.activationSloagan">
+      <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
         <source>Turn on to protect your privacy</source>
+        <target>オンにしてプライバシーを保護する</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.connectingState">
+      <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
         <source>Connecting…</source>
+        <target>接続中...</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.activating">
+      <trans-unit id="vpn.controller.activating" xml:space="preserve">
         <source>Masking connection and location</source>
+        <target>接続と現在地を隠す</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.attemptingToConfirm">
+      <trans-unit id="vpn.controller.attemptingToConfirm" xml:space="preserve">
         <source>Attempting to confirm connection</source>
+        <target>接続を確認しています</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.activated">
+      <trans-unit id="vpn.controller.activated" xml:space="preserve">
         <source>VPN is on</source>
+        <target>VPN はオンです</target>
       </trans-unit>
       <trans-unit id="vpn.controller.active">
         <source>Secure and private</source>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
       </trans-unit>
-      <trans-unit id="vpn.controller.disconnecting">
+      <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
         <source>Disconnecting…</source>
+        <target>切断中...</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.deactivating">
+      <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
         <source>Unmasking connection and location</source>
+        <target>接続と現在地の遮蔽を解く</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switching">
         <source>Switching…</source>
