@@ -333,101 +333,125 @@
         <target>アプリの許可設定を編集するには VPN をオフにする必要があります</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected">
+      <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
         <source>VPN protects all apps by default</source>
+        <target>VPN は初期設定ですべてのアプリを保護します</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.unprotected">
+      <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
         <source>Unprotected</source>
+        <target>保護されていないアプリ</target>
         <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.unprotected.description">
+      <trans-unit id="vpn.settings.unprotected.description" xml:space="preserve">
         <source>These apps will not use the VPN</source>
+        <target>これらのアプリは VPN を使用しません</target>
         <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectall">
+      <trans-unit id="vpn.settings.protectall" xml:space="preserve">
         <source>Protect All</source>
+        <target>すべてを保護する</target>
         <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protected">
+      <trans-unit id="vpn.settings.protected" xml:space="preserve">
         <source>Protected</source>
+        <target>保護されたアプリ</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protected.description">
+      <trans-unit id="vpn.settings.protected.description" xml:space="preserve">
         <source>These apps will use the VPN</source>
+        <target>これらのアプリは VPN を使用します</target>
         <note annotates="source" from="developer">Description for the list of apps protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.unprotectall">
+      <trans-unit id="vpn.settings.unprotectall" xml:space="preserve">
         <source>Unprotect All</source>
+        <target>すべての保護を解除する</target>
         <note annotates="source" from="developer">Label for the button to remove protection from all apps currently protected.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
-      <trans-unit id="vpn.settings.language">
+      <trans-unit id="vpn.settings.language" xml:space="preserve">
         <source>Language</source>
+        <target>言語</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.languageAccessibleName">
+      <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
         <source>%1 %2</source>
+        <target>%1 (%2)</target>
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
-      <trans-unit id="vpn.settings.networking">
+      <trans-unit id="vpn.settings.networking" xml:space="preserve">
         <source>Network settings</source>
+        <target>ネットワーク設定</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.ipv6">
+      <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
         <source>IPv6</source>
+        <target>IPv6</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.ipv6.description">
+      <trans-unit id="vpn.settings.ipv6.description" xml:space="preserve">
         <source>Push the internet forward with the latest version of the Internet Protocol</source>
+        <target>最新バージョンのインターネットプロトコルでインターネットを促進しましょう</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess">
+      <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
         <source>Local network access</source>
+        <target>ローカルネットワークアクセス</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess.description">
+      <trans-unit id="vpn.settings.lanAccess.description" xml:space="preserve">
         <source>Access printers, streaming sticks and all other devices on your local network</source>
+        <target>プリンターや USB ストリーミングスティックなど、ローカルネットワーク上の他のすべての端末にアクセスします</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.vpnMustBeOff">
+      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit these settings</source>
+        <target>これらの設定を編集するには VPN をオフにする必要があります</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
-      <trans-unit id="vpn.settings.notifications">
+      <trans-unit id="vpn.settings.notifications" xml:space="preserve">
         <source>Notifications</source>
+        <target>通知</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.guestWifiAlert">
+      <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
         <source>Guest Wi-Fi portal alert</source>
+        <target>ゲスト Wi-Fi ポータル警告</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.guestWifiAlert.description">
+      <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
+        <target>VPN 接続が原因でゲスト接続の Wi-Fi ポータルがブロックされた場合に通知されます</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.unsecuredNetworkAlert">
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert" xml:space="preserve">
         <source>Unsecured network alert</source>
+        <target>安全でないネットワーク警告</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description">
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description" xml:space="preserve">
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
+        <target>安全でない Wi-Fi ネットワークに接続すると通知されます</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
-      <trans-unit id="vpn.settings.user">
+      <trans-unit id="vpn.settings.user" xml:space="preserve">
         <source>VPN User</source>
+        <target>VPN ユーザー</target>
       </trans-unit>
-      <trans-unit id="vpn.main.manageAccount">
+      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>アカウント管理</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot">
+      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
         <source>Launch VPN app on Startup</source>
+        <target>端末起動時に VPN アプリを起動する</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.giveFeedback">
+      <trans-unit id="vpn.settings.giveFeedback" xml:space="preserve">
         <source>Give feedback</source>
+        <target>フィードバックを送る</target>
       </trans-unit>
     </body>
   </file>
