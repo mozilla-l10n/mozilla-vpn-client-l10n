@@ -651,127 +651,156 @@
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
         <target>Rydym wedi ymrwymo i beidio â monitro na chofnodi eich hanes pori neu rwydwaith.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.skip">
+      <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
         <source>Skip</source>
+        <target>Hepgor</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.next">
+      <trans-unit id="vpn.onboarding.next" xml:space="preserve">
         <source>Next</source>
+        <target>Nesaf</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewSubscriptionNeeded.qml" datatype="plaintext" source-language="en" target-language="cy">
     <body>
-      <trans-unit id="vpn.subscription.title">
+      <trans-unit id="vpn.subscription.title" xml:space="preserve">
         <source>Subscribe for %1/mo</source>
+        <target>Tanysgrifio am %1 y mis</target>
         <note annotates="source" from="developer">“/mo” stands for “per month”. %1 is replaced by the cost (including currency).</note>
       </trans-unit>
-      <trans-unit id="vpn.subscription.moneyBackGuarantee">
+      <trans-unit id="vpn.subscription.moneyBackGuarantee" xml:space="preserve">
         <source>30-day money-back guarantee</source>
+        <target>Gwarant arian-yn-ôl 30 diwrnod</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle2">
+      <trans-unit id="vpn.subscription.featureSubtitle2" xml:space="preserve">
         <source>We encrypt your entire device.</source>
+        <target>Rydym yn amgryptio'ch dyfais gyfan.</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle3">
+      <trans-unit id="vpn.subscription.featureSubtitle3" xml:space="preserve">
         <source>Protect your access to the web.</source>
+        <target>Diogelwch eich mynediad i'r we.</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureTitle4">
+      <trans-unit id="vpn.subscription.featureTitle4" xml:space="preserve">
         <source>Connect up to %1 devices</source>
+        <target>Cysylltu hyd at %1 dyfais</target>
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle4">
+      <trans-unit id="vpn.subscription.featureSubtitle4" xml:space="preserve">
         <source>We won’t restrict your bandwidth.</source>
+        <target>Fyddwn nid ddim yn cyfyngu ar eich lled band.</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureTitle1">
+      <trans-unit id="vpn.subscription.featureTitle1" xml:space="preserve">
         <source>No activity logs</source>
+        <target>Dim cofnodion gweithgaredd</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle1">
+      <trans-unit id="vpn.subscription.featureSubtitle1" xml:space="preserve">
         <source>We’re Mozilla. We’re on your side.</source>
+        <target>Ni yw Mozilla. Rydyn ni ar eich ochr chi.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.subscribeNow">
+      <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
+        <target>Tanysgrifiwch nawr</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewUpdate.qml" datatype="plaintext" source-language="en" target-language="cy">
     <body>
-      <trans-unit id="vpn.updates.updateRecomended">
+      <trans-unit id="vpn.updates.updateRecomended" xml:space="preserve">
         <source>Update recommended</source>
+        <target>Diweddariad yn cael ei argymell</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRecomended.description">
+      <trans-unit id="vpn.updates.updateRecomended.description" xml:space="preserve">
         <source>Please update the app before you continue to use the VPN</source>
+        <target>Diweddarwch yr ap cyn parhau i ddefnyddio'r VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequired">
+      <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
         <source>Update required</source>
+        <target>Mae angen diweddaru</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequire.reason">
+      <trans-unit id="vpn.updates.updateRequire.reason" xml:space="preserve">
         <source>We detected and fixed a serious bug. You must update your app.</source>
+        <target>Rydym wedi canfod a thrwsio gwall difrifol. Rhaid i chi ddiweddaru'ch ap.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
+      <trans-unit id="vpn.updates.updateConnectionInsecureWarning" xml:space="preserve">
         <source>Your connection will not be secure while you update.</source>
+        <target>Bydd eich cysylltiad ddim yn ddiogel wrth i chi ddiweddaru.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.notNow">
+      <trans-unit id="vpn.updates.notNow" xml:space="preserve">
         <source>Not now</source>
+        <target>Nid nawr</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="cy">
     <body>
-      <trans-unit id="vpn.connectionInfo.loading">
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
         <source>Loading</source>
+        <target>Wrthi’n llwytho</target>
         <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="cy">
     <body>
-      <trans-unit id="help.viewLog">
+      <trans-unit id="help.viewLog" xml:space="preserve">
         <source>View log</source>
+        <target>Gweld y cofnodion</target>
       </trans-unit>
-      <trans-unit id="help.helpCenter">
+      <trans-unit id="help.helpCenter" xml:space="preserve">
         <source>Help Center</source>
+        <target>Canolfan Gymorth</target>
       </trans-unit>
-      <trans-unit id="help.contactUs">
+      <trans-unit id="help.contactUs" xml:space="preserve">
         <source>Contact us</source>
+        <target>Cysylltu â ni</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="cy">
     <body>
-      <trans-unit id="vpn.systray.statusSwitch.title">
+      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>Gweinyddion Newid VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusSwtich.message">
+      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
         <source>Switched from %1, %2 to %3, %4</source>
+        <target>Wedi newid o %1, %2 i %3, %4</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.title">
+      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN Wedi'i Gysylltu</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.message">
+      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
         <source>Connected to %1, %2</source>
+        <target>Wedi'i gysylltu i %1, %2</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.title">
+      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
         <source>VPN Disconnected</source>
+        <target>VPN Wedi'i Ddatgysylltu</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.message">
+      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
         <source>Disconnected from %1, %2</source>
+        <target>Wedi'i ddatgysylltu o %1, %2</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/platforms/android/androidcontroller.cpp" datatype="cpp" source-language="en" target-language="cy">
     <body>
-      <trans-unit id="vpn.android.notification.isIDLE">
+      <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
         <source>Ready for you to connect</source>
+        <target>Yn barod i chi gysylltu</target>
         <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="cy">
     <body>
-      <trans-unit id="menubar.file.title">
+      <trans-unit id="menubar.file.title" xml:space="preserve">
         <source>File</source>
+        <target>Ffeil</target>
       </trans-unit>
       <trans-unit id="menubar.file.close">
         <source>Close</source>
