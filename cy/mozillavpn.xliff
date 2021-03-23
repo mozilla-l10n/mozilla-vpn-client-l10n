@@ -55,7 +55,7 @@
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
         <source>Download</source>
-        <target>Llwytho i Lawr</target>
+        <target>Llwytho i lawr</target>
         <note annotates="source" from="developer">The current download speed. The speed is shown on the next line.</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.upload" xml:space="preserve">
@@ -153,7 +153,7 @@
       </trans-unit>
       <trans-unit id="vpn.devices.maxDevicesReached" xml:space="preserve">
         <source>You’ve reached your limit. To install the VPN on this device, you’ll need to remove one.</source>
-        <target>Rydych wedi cyrraedd eich terfyn. I osod y VPN ar y ddyfais hon, bydd angen i chi dynnu un.</target>
+        <target>Rydych wedi cyrraedd eich terfyn. I osod y VPN ar y ddyfais hon, bydd angen i chi dynnu un arall.</target>
       </trans-unit>
     </body>
   </file>
@@ -590,7 +590,7 @@
       </trans-unit>
       <trans-unit id="vpn.logs.copied" xml:space="preserve">
         <source>Copied!</source>
-        <target>Copïwyd!</target>
+        <target>Wedi copïo!</target>
       </trans-unit>
       <trans-unit id="vpn.logs.clear" xml:space="preserve">
         <source>Clear</source>
@@ -802,68 +802,87 @@
         <source>File</source>
         <target>Ffeil</target>
       </trans-unit>
-      <trans-unit id="menubar.file.close">
+      <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
+        <target>Cau</target>
       </trans-unit>
-      <trans-unit id="menubar.help.title">
+      <trans-unit id="menubar.help.title" xml:space="preserve">
         <source>Help</source>
+        <target>Cymorth</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="cy">
     <body>
-      <trans-unit id="systray.hide">
+      <trans-unit id="systray.hide" xml:space="preserve">
         <source>Hide Mozilla VPN</source>
+        <target>Cuddio Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="systray.show">
+      <trans-unit id="systray.show" xml:space="preserve">
         <source>Show Mozilla VPN</source>
+        <target>Dangos Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectedTo">
+      <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
         <source>Connected to:</source>
+        <target>Cysylltwyd i</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectTo">
+      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
         <source>Connect to the last location:</source>
+        <target>Cysylltu â'r lleoliad diwethaf:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectingTo">
+      <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
         <source>Connecting to:</source>
+        <target>Yn cysylltu i:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.disconnectingFrom">
+      <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
         <source>Disconnecting from:</source>
+        <target>Yn datgysylltu o:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.location">
+      <trans-unit id="vpn.systray.location" xml:space="preserve">
         <source>%1, %2</source>
+        <target>%1, %2</target>
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork.title">
+      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
         <source>Unsecured Wi-Fi network detected</source>
+        <target>Wedi canfod rhwydwaith diwifri heb ei diogelu</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork2.message">
+      <trans-unit id="vpn.systray.unsecuredNetwork2.message" xml:space="preserve">
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
+        <target>Nid yw %1 yn ddiogel. Cliciwch yma i droi VPN ymlaen a diogelu eich dyfais.</target>
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock.title">
+      <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
+        <target>Porth diwifr gwesteion wedi'i rwystro</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock2.message">
+      <trans-unit id="vpn.systray.captivePortalBlock2.message" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
+        <target>Mae angen gweithredu ar y rhwydwaith diwfr gwestai yr ydych wedi cysylltu ag ef. Cliciwch yma i ddiffodd VPN i weld y porth.</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock.title">
+      <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
         <source>Guest Wi-Fi portal detected</source>
+        <target>Porth diwifr gwestai wedi'i ganfod</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock2.message">
+      <trans-unit id="vpn.systray.captivePortalUnblock2.message" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
+        <target>Efallai na fydd y rhwydwaith diwifr gwestai rydych wedi cysylltu ag ef yn ddiogel. Cliciwch yma i droi VPN ymlaen i ddiogelu eich dyfais.</target>
       </trans-unit>
-      <trans-unit id="systray.disconnect">
+      <trans-unit id="systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
+        <target>Datgysylltu</target>
       </trans-unit>
-      <trans-unit id="systray.help">
+      <trans-unit id="systray.help" xml:space="preserve">
         <source>Help</source>
+        <target>Cymorth</target>
       </trans-unit>
-      <trans-unit id="systray.preferences">
+      <trans-unit id="systray.preferences" xml:space="preserve">
         <source>Preferences…</source>
+        <target>Dewisiadau…</target>
       </trans-unit>
-      <trans-unit id="systray.quit">
+      <trans-unit id="systray.quit" xml:space="preserve">
         <source>Quit Mozilla VPN</source>
+        <target>Gadael Mozilla VPN</target>
       </trans-unit>
     </body>
   </file>
