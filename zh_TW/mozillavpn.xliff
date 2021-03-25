@@ -373,10 +373,6 @@
   </file>
   <file original="../src/ui/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.settings.language" xml:space="preserve">
-        <source>Language</source>
-        <target>語言</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.systemLangaugeEnabledSubtitle" xml:space="preserve">
         <source>Mozilla VPN will use your system’s default language.</source>
         <target>Mozilla VPN 將使用您系統的預設語言。</target>
@@ -396,6 +392,10 @@
         <source>Disable to select a different language</source>
         <target>若要選擇不同語言，請先停用此設定</target>
         <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.language" xml:space="preserve">
+        <source>Language</source>
+        <target>語言</target>
       </trans-unit>
       <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
         <source>%1 %2</source>
