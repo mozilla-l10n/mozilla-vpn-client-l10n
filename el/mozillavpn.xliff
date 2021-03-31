@@ -93,6 +93,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
         <source>Turn on to protect your privacy</source>
+        <target>Ενεργοποιήστε το για προστασία απορρήτου</target>
       </trans-unit>
       <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
         <source>Connecting…</source>
@@ -112,7 +113,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.active" xml:space="preserve">
         <source>Secure and private</source>
-        <target>Ασφαλής και ιδιωτική</target>
+        <target>Ασφαλής και ιδιωτική σύνδεση</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
       </trans-unit>
       <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
@@ -121,6 +122,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
         <source>Unmasking connection and location</source>
+        <target>Αποκάλυψη σύνδεσης και τοποθεσίας</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switching" xml:space="preserve">
         <source>Switching…</source>
@@ -366,10 +368,12 @@
     <body>
       <trans-unit id="vpn.settings.systemLangaugeEnabledSubtitle" xml:space="preserve">
         <source>Mozilla VPN will use your system’s default language.</source>
+        <target>Το Mozilla VPN θα χρησιμοποιεί την προεπιλεγμένη γλώσσα του συστήματός σας.</target>
         <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageDisabledSubtitle" xml:space="preserve">
         <source>Mozilla VPN will not use the default system language.</source>
+        <target>Το Mozilla VPN δεν θα χρησιμοποιεί την προεπιλεγμένη γλώσσα συστήματος.</target>
         <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is disabled.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageTitle" xml:space="preserve">
@@ -404,6 +408,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6.description" xml:space="preserve">
         <source>Push the internet forward with the latest version of the Internet Protocol</source>
+        <target>Συμβάλλετε στην πρόοδο του διαδικτύου με την πιο πρόσφατη έκδοση του πρωτοκόλλου διαδικτύου</target>
       </trans-unit>
       <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
         <source>Local network access</source>
@@ -558,7 +563,7 @@
       </trans-unit>
       <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
         <source>Added %1 days ago</source>
-        <target>Προστέθηκε %1 ημέρες πριν</target>
+        <target>Προστέθηκε πριν %1 ημέρες</target>
         <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
       </trans-unit>
       <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
