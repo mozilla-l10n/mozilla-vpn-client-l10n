@@ -151,9 +151,8 @@
         <source>Remove a device</source>
         <target>移除裝置</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.maxDevicesReached" xml:space="preserve">
-        <source>You’ve reached your limit. To install the VPN on this device, you’ll need to remove one.</source>
-        <target>已達裝置數量限制。若要在此裝置安裝 VPN，請先移除其他裝置。</target>
+      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
+        <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
       </trans-unit>
     </body>
   </file>
@@ -373,6 +372,10 @@
   </file>
   <file original="../src/ui/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
+      <trans-unit id="vpn.settings.language" xml:space="preserve">
+        <source>Language</source>
+        <target>語言</target>
+      </trans-unit>
       <trans-unit id="vpn.settings.systemLangaugeEnabledSubtitle" xml:space="preserve">
         <source>Mozilla VPN will use your system’s default language.</source>
         <target>Mozilla VPN 將使用您系統的預設語言。</target>
@@ -392,10 +395,6 @@
         <source>Disable to select a different language</source>
         <target>若要選擇不同語言，請先停用此設定</target>
         <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.language" xml:space="preserve">
-        <source>Language</source>
-        <target>語言</target>
       </trans-unit>
       <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
         <source>%1 %2</source>
