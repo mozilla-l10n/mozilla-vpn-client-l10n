@@ -151,9 +151,8 @@
         <source>Remove a device</source>
         <target>Tynnu dyfais</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.maxDevicesReached" xml:space="preserve">
-        <source>You’ve reached your limit. To install the VPN on this device, you’ll need to remove one.</source>
-        <target>Rydych wedi cyrraedd eich terfyn. I osod y VPN ar y ddyfais hon, bydd angen i chi dynnu un arall.</target>
+      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
+        <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
       </trans-unit>
     </body>
   </file>
@@ -373,6 +372,10 @@
   </file>
   <file original="../src/ui/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="cy">
     <body>
+      <trans-unit id="vpn.settings.language" xml:space="preserve">
+        <source>Language</source>
+        <target>Iaith</target>
+      </trans-unit>
       <trans-unit id="vpn.settings.systemLangaugeEnabledSubtitle" xml:space="preserve">
         <source>Mozilla VPN will use your system’s default language.</source>
         <target>Bydd Mozilla VPN yn defnyddio iaith rhagosodedig eich system.</target>
@@ -392,10 +395,6 @@
         <source>Disable to select a different language</source>
         <target>Analluogi i ddewis iaith wahanol</target>
         <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.language" xml:space="preserve">
-        <source>Language</source>
-        <target>Iaith</target>
       </trans-unit>
       <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
         <source>%1 %2</source>
