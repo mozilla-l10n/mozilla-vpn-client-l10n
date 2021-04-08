@@ -262,30 +262,18 @@
       <trans-unit id="vpn.settings.appPermissions">
         <source>App Permissions</source>
       </trans-unit>
+      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff">
+        <source>VPN must be off to edit App Permissions</source>
+        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+      </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps">
         <source>Protect specific apps</source>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.description">
         <source>Choose which apps should use the VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff">
-        <source>VPN must be off to edit App Permissions</source>
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-      </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected">
         <source>VPN protects all apps by default</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotected">
-        <source>Unprotected</source>
-        <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotected.description">
-        <source>These apps will not use the VPN</source>
-        <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectall">
-        <source>Protect All</source>
-        <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected">
         <source>Protected</source>
@@ -298,6 +286,18 @@
       <trans-unit id="vpn.settings.unprotectall">
         <source>Unprotect All</source>
         <note annotates="source" from="developer">Label for the button to remove protection from all apps currently protected.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unprotected">
+        <source>Unprotected</source>
+        <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unprotected.description">
+        <source>These apps will not use the VPN</source>
+        <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.protectall">
+        <source>Protect All</source>
+        <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
     </body>
   </file>

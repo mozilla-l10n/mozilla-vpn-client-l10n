@@ -321,6 +321,11 @@
         <source>App Permissions</source>
         <target>Разрешения приложения</target>
       </trans-unit>
+      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
+        <source>VPN must be off to edit App Permissions</source>
+        <target>Для изменения разрешений приложений нужно отключить VPN</target>
+        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+      </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps" xml:space="preserve">
         <source>Protect specific apps</source>
         <target>Защитить определенные приложения</target>
@@ -329,29 +334,9 @@
         <source>Choose which apps should use the VPN</source>
         <target>Выберите, какие приложения должны использовать VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
-        <source>VPN must be off to edit App Permissions</source>
-        <target>Для изменения разрешений приложений нужно отключить VPN</target>
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-      </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
         <source>VPN protects all apps by default</source>
         <target>По умолчанию VPN защищает все приложения</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
-        <source>Unprotected</source>
-        <target>Без защиты</target>
-        <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotected.description" xml:space="preserve">
-        <source>These apps will not use the VPN</source>
-        <target>Следующие приложения не будут использовать VPN</target>
-        <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectall" xml:space="preserve">
-        <source>Protect All</source>
-        <target>Защитить все</target>
-        <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected" xml:space="preserve">
         <source>Protected</source>
@@ -367,6 +352,21 @@
         <source>Unprotect All</source>
         <target>Снять защиту со всех</target>
         <note annotates="source" from="developer">Label for the button to remove protection from all apps currently protected.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
+        <source>Unprotected</source>
+        <target>Без защиты</target>
+        <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unprotected.description" xml:space="preserve">
+        <source>These apps will not use the VPN</source>
+        <target>Следующие приложения не будут использовать VPN</target>
+        <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.protectall" xml:space="preserve">
+        <source>Protect All</source>
+        <target>Защитить все</target>
+        <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
     </body>
   </file>

@@ -321,6 +321,11 @@
         <source>App Permissions</source>
         <target>Permessi di l’appiecazione</target>
       </trans-unit>
+      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
+        <source>VPN must be off to edit App Permissions</source>
+        <target>Ci vole à disattivà a VPN per mudificà i permessi di l’appiecazione</target>
+        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+      </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps" xml:space="preserve">
         <source>Protect specific apps</source>
         <target>Prutege appiecazioni specifiche</target>
@@ -329,29 +334,9 @@
         <source>Choose which apps should use the VPN</source>
         <target>Sceglie chì appiecazioni anu da impiegà a VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
-        <source>VPN must be off to edit App Permissions</source>
-        <target>Ci vole à disattivà a VPN per mudificà i permessi di l’appiecazione</target>
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-      </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
         <source>VPN protects all apps by default</source>
         <target>L’ozzione predefinita hè di prutege tutte l’appiecazioni</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
-        <source>Unprotected</source>
-        <target>Micca prutette</target>
-        <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotected.description" xml:space="preserve">
-        <source>These apps will not use the VPN</source>
-        <target>Quesse appiecazioni ùn impiegheranu micca a VPN</target>
-        <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectall" xml:space="preserve">
-        <source>Protect All</source>
-        <target>Tuttu prutege</target>
-        <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected" xml:space="preserve">
         <source>Protected</source>
@@ -367,6 +352,21 @@
         <source>Unprotect All</source>
         <target>Caccià tutte e prutezzioni</target>
         <note annotates="source" from="developer">Label for the button to remove protection from all apps currently protected.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
+        <source>Unprotected</source>
+        <target>Micca prutette</target>
+        <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unprotected.description" xml:space="preserve">
+        <source>These apps will not use the VPN</source>
+        <target>Quesse appiecazioni ùn impiegheranu micca a VPN</target>
+        <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.protectall" xml:space="preserve">
+        <source>Protect All</source>
+        <target>Tuttu prutege</target>
+        <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
     </body>
   </file>
