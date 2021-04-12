@@ -10,8 +10,12 @@
 
   1. Read existing translations, store them in an array: IDs use the structure
      file_name:string_id:source_hash. Using the hash of the source string
-     prevent from keeping an existing translation if the ID doesn't change
+     prevents from keeping an existing translation if the ID doesn't change
      but the source string does.
+
+     If the '--nofile' argument is passed, the 'file_name' won't be used when
+     storinga translations. This allows to retain translations when a string
+     moves as-is from one file to another.
 
   2. Inject available translations in the reference XLIFF file, updating
      the target-language where available on file elements.
@@ -50,6 +54,13 @@ def main():
         required=True,
         dest="xliff_filename",
         help="Name of the XLIFF file to process",
+    )
+    parser.add_argument(
+        "--nofile",
+        required=False,
+        dest="ignore_file",
+        action="store_true",
+        help="Ignore the 'file' element when storing existing translations, only use IDs and source string",
     )
     parser.add_argument("locales", nargs="*", help="Locales to process")
     args = parser.parse_args()
@@ -133,7 +144,12 @@ def main():
             for child in trans_node.xpath("./x:target", namespaces=NS):
                 file_name = trans_node.getparent().getparent().get("original")
                 source_string = trans_node.xpath("./x:source", namespaces=NS)[0].text
-                string_id = f"{file_name}:{trans_node.get('id')}:{hash(source_string)}"
+                if args.ignore_file:
+                    string_id = f"{trans_node.get('id')}:{hash(source_string)}"
+                else:
+                    string_id = (
+                        f"{file_name}:{trans_node.get('id')}:{hash(source_string)}"
+                    )
                 translations[string_id] = child.text
 
         # Inject available translations in the reference XML
@@ -148,7 +164,10 @@ def main():
             file_name = trans_node.getparent().getparent().get("original")
             source_string = trans_node.xpath("./x:source", namespaces=NS)[0].text
             original_id = trans_node.get("id")
-            string_id = f"{file_name}:{original_id}:{hash(source_string)}"
+            if args.ignore_file:
+                string_id = f"{original_id}:{hash(source_string)}"
+            else:
+                string_id = f"{file_name}:{original_id}:{hash(source_string)}"
             updated = False
             translated = string_id in translations
             for child in trans_node.xpath("./x:target", namespaces=NS):
