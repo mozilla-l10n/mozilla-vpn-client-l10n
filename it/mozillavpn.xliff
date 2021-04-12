@@ -145,15 +145,46 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/components/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="it">
+    <body>
+      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
+        <source>%1 %2</source>
+        <target>%1 %2</target>
+        <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
+      </trans-unit>
+      <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
+        <source>Current Device</source>
+        <target>Dispositivo corrente</target>
+      </trans-unit>
+      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
+        <source>Added less than an hour ago</source>
+        <target>Aggiunto meno di un’ora fa</target>
+      </trans-unit>
+      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
+        <source>Added a few hours ago (%1)</source>
+        <target>Aggiunto alcune ore fa (%1)</target>
+        <note annotates="source" from="developer">%1 is the number of hours.</note>
+      </trans-unit>
+      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
+        <source>Added %1 days ago</source>
+        <target>Aggiunto %1 giorni fa</target>
+        <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
+      </trans-unit>
+      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
+        <source>Remove %1</source>
+        <target>Rimuovi %1</target>
+        <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/components/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="it">
     <body>
       <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
         <source>Remove a device</source>
         <target>Rimuovi un dispositivo</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.maxDevicesReached" xml:space="preserve">
-        <source>You’ve reached your limit. To install the VPN on this device, you’ll need to remove one.</source>
-        <target>È stato raggiunto il numero massimo di dispositivi. Per installare VPN su questo dispositivo, è necessario rimuoverne uno esistente.</target>
+      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
+        <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
       </trans-unit>
     </body>
   </file>
@@ -322,6 +353,11 @@
         <source>App Permissions</source>
         <target>Permessi app</target>
       </trans-unit>
+      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
+        <source>VPN must be off to edit App Permissions</source>
+        <target>La VPN deve essere disattivata per modificare i permessi delle app</target>
+        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+      </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps" xml:space="preserve">
         <source>Protect specific apps</source>
         <target>Proteggi app specifiche</target>
@@ -330,29 +366,9 @@
         <source>Choose which apps should use the VPN</source>
         <target>Scegli quali app possono utilizzare la VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
-        <source>VPN must be off to edit App Permissions</source>
-        <target>La VPN deve essere disattivata per modificare i permessi delle app</target>
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-      </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
         <source>VPN protects all apps by default</source>
         <target>La VPN protegge tutte le app per impostazione predefinita</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
-        <source>Unprotected</source>
-        <target>Non protette</target>
-        <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotected.description" xml:space="preserve">
-        <source>These apps will not use the VPN</source>
-        <target>Queste app non useranno la VPN</target>
-        <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectall" xml:space="preserve">
-        <source>Protect All</source>
-        <target>Proteggi tutte</target>
-        <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected" xml:space="preserve">
         <source>Protected</source>
@@ -369,6 +385,21 @@
         <target>Rimuovi protezione da tutte</target>
         <note annotates="source" from="developer">Label for the button to remove protection from all apps currently protected.</note>
       </trans-unit>
+      <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
+        <source>Unprotected</source>
+        <target>Non protette</target>
+        <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unprotected.description" xml:space="preserve">
+        <source>These apps will not use the VPN</source>
+        <target>Queste app non useranno la VPN</target>
+        <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.protectall" xml:space="preserve">
+        <source>Protect All</source>
+        <target>Proteggi tutte</target>
+        <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="it">
@@ -376,6 +407,22 @@
       <trans-unit id="vpn.settings.language" xml:space="preserve">
         <source>Language</source>
         <target>Lingua</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.systemLangaugeEnabledSubtitle" xml:space="preserve">
+        <source>Mozilla VPN will use your system’s default language.</source>
+        <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.systemLanguageDisabledSubtitle" xml:space="preserve">
+        <source>Mozilla VPN will not use the default system language.</source>
+        <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is disabled.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.systemLanguageTitle" xml:space="preserve">
+        <source>Use system language</source>
+        <note annotates="source" from="developer">Title for the language switcher toggle.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.systemLanguageEnabled" xml:space="preserve">
+        <source>Disable to select a different language</source>
+        <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
       </trans-unit>
       <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
         <source>%1 %2</source>
@@ -535,34 +582,6 @@
         <source>%1 of %2</source>
         <target>%1 di %2</target>
         <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.</note>
-      </trans-unit>
-      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
-        <source>%1 %2</source>
-        <target>%1 %2</target>
-        <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
-      </trans-unit>
-      <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
-        <source>Current Device</source>
-        <target>Dispositivo corrente</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
-        <source>Added less than an hour ago</source>
-        <target>Aggiunto meno di un’ora fa</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
-        <source>Added a few hours ago (%1)</source>
-        <target>Aggiunto alcune ore fa (%1)</target>
-        <note annotates="source" from="developer">%1 is the number of hours.</note>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
-        <source>Added %1 days ago</source>
-        <target>Aggiunto %1 giorni fa</target>
-        <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
-        <source>Remove %1</source>
-        <target>Rimuovi %1</target>
-        <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
       </trans-unit>
     </body>
   </file>
