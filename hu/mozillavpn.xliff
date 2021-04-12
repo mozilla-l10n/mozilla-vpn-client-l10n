@@ -93,158 +93,194 @@
         <source>VPN is off</source>
         <target>A VPN ki van kapcsolva</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.activationSloagan">
+      <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
         <source>Turn on to protect your privacy</source>
+        <target>Kapcsolja be, hogy megvédje a magánszféráját</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.connectingState">
+      <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
         <source>Connecting…</source>
+        <target>Kapcsolódás…</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.activating">
+      <trans-unit id="vpn.controller.activating" xml:space="preserve">
         <source>Masking connection and location</source>
+        <target>Kapcsolat és hely maszkolása</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.attemptingToConfirm">
+      <trans-unit id="vpn.controller.attemptingToConfirm" xml:space="preserve">
         <source>Attempting to confirm connection</source>
+        <target>Kísérlet a kapcsolat megerősítésére</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.activated">
+      <trans-unit id="vpn.controller.activated" xml:space="preserve">
         <source>VPN is on</source>
+        <target>A VPN be van kapcsolva</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.active">
+      <trans-unit id="vpn.controller.active" xml:space="preserve">
         <source>Secure and private</source>
+        <target>Biztonságos és privát</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
       </trans-unit>
-      <trans-unit id="vpn.controller.disconnecting">
+      <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
         <source>Disconnecting…</source>
+        <target>Kapcsolat bontása…</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.deactivating">
+      <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
         <source>Unmasking connection and location</source>
+        <target>Kapcsolat és hely maszkolásának megszüntetése</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.switching">
+      <trans-unit id="vpn.controller.switching" xml:space="preserve">
         <source>Switching…</source>
+        <target>Átváltás…</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.switchingDetail">
+      <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
         <source>From %1 to %2</source>
+        <target>%1 → %2</target>
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
       </trans-unit>
-      <trans-unit id="vpn.controller.info">
+      <trans-unit id="vpn.controller.info" xml:space="preserve">
         <source>Connection Information</source>
+        <target>Kapcsolat adatai</target>
       </trans-unit>
-      <trans-unit id="vpn.main.settings">
+      <trans-unit id="vpn.main.settings" xml:space="preserve">
         <source>Settings</source>
+        <target>Beállítások</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
-      <trans-unit id="vpn.devices.doDeviceRemoval">
+      <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
         <source>Remove a device</source>
+        <target>Eszköz eltávolítása</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.maxDevicesHeader">
+      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
         <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
+        <target>Elérte az eszközkorlátot. A VPN ezen az eszközön történő bekapcsolásához el kell távolítania egyet.</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNGetHelp.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
-      <trans-unit id="vpn.main.getHelp">
+      <trans-unit id="vpn.main.getHelp" xml:space="preserve">
         <source>Get Help</source>
+        <target>Segítség kérése</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
-      <trans-unit id="vpn.connectionInfo.Bps">
+      <trans-unit id="vpn.connectionInfo.Bps" xml:space="preserve">
         <source>B/s</source>
+        <target>B/s</target>
         <note annotates="source" from="developer">Bytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.kBps">
+      <trans-unit id="vpn.connectionInfo.kBps" xml:space="preserve">
         <source>kB/s</source>
+        <target>kB/s</target>
         <note annotates="source" from="developer">Kilobytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectioInfo.mBps">
+      <trans-unit id="vpn.connectioInfo.mBps" xml:space="preserve">
         <source>MB/s</source>
+        <target>MB/s</target>
         <note annotates="source" from="developer">Megabytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectioInfo.gBps">
+      <trans-unit id="vpn.connectioInfo.gBps" xml:space="preserve">
         <source>GB/s</source>
+        <target>GB/s</target>
         <note annotates="source" from="developer">Gigabytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.tBps">
+      <trans-unit id="vpn.connectionInfo.tBps" xml:space="preserve">
         <source>TB/s</source>
+        <target>TB/s</target>
         <note annotates="source" from="developer">Terabytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.accessibleName">
+      <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
         <source>%1: %2 %3</source>
+        <target>%1: %2 %3</target>
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNLoader.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
-      <trans-unit id="vpn.authenticating.cancel">
+      <trans-unit id="vpn.authenticating.cancel" xml:space="preserve">
         <source>Cancel</source>
+        <target>Mégse</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
-      <trans-unit id="vpn.devices.removeDeviceQuestion">
+      <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
         <source>Remove device?</source>
+        <target>Eltávolítja az eszközt?</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.deviceRemovalConfirm">
+      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
         <source>Please confirm you would like to remove
 %1.</source>
+        <target>Erősítse meg, hogy el akarja távolítani a következőt: %1.</target>
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
       </trans-unit>
-      <trans-unit id="vpn.devices.cancelDeviceRemoval">
+      <trans-unit id="vpn.devices.cancelDeviceRemoval" xml:space="preserve">
         <source>Cancel</source>
+        <target>Mégse</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceButton">
+      <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
         <source>Remove</source>
+        <target>Eltávolítás</target>
         <note annotates="source" from="developer">This is the “remove” device button.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNServerCountry.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
-      <trans-unit id="cities">
+      <trans-unit id="cities" xml:space="preserve">
         <source>Cities</source>
+        <target>Városok</target>
         <note annotates="source" from="developer">The title for the list of cities.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
-      <trans-unit id="vpn.main.signOut">
+      <trans-unit id="vpn.main.signOut" xml:space="preserve">
         <source>Sign Out</source>
+        <target>Kijelentkezés</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNSystemAlert.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
-      <trans-unit id="vpn.alert.authenticationError">
+      <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
         <source>Authentication error</source>
+        <target>Hitelesítési hiba</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.tryAgain">
+      <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
         <source>Try again</source>
+        <target>Próbálja újra</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.unableToConnect">
+      <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
         <source>Unable to connect</source>
+        <target>A kapcsolódás sikertelen</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.noInternet">
+      <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
         <source>No internet connection</source>
+        <target>Nincs internetkapcsolat</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.backendServiceError">
+      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
         <source>Background service error</source>
+        <target>Háttérszolgáltatás hiba</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.restore">
+      <trans-unit id="vpn.alert.restore" xml:space="preserve">
         <source>Restore</source>
+        <target>Helyreállítás</target>
         <note annotates="source" from="developer">Restore a service in case of error.</note>
       </trans-unit>
-      <trans-unit id="vpn.alert.remoteServiceError">
+      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
+        <target>Távoli szolgáltatás hiba</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.subscriptionFailureError">
+      <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
         <source>Subscription failed</source>
+        <target>Az előfizetés sikertelen</target>
       </trans-unit>
       <trans-unit id="vpn.alert.getIPRestrictionError">
         <source>Operation not allowed from current location</source>
