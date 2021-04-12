@@ -145,6 +145,38 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/components/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
+        <source>%1 %2</source>
+        <target>%1 %2</target>
+        <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
+      </trans-unit>
+      <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
+        <source>Current Device</source>
+        <target>現在の端末</target>
+      </trans-unit>
+      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
+        <source>Added less than an hour ago</source>
+        <target>1 時間以内に追加された</target>
+      </trans-unit>
+      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
+        <source>Added a few hours ago (%1)</source>
+        <target>数時間前に追加された (%1)</target>
+        <note annotates="source" from="developer">%1 is the number of hours.</note>
+      </trans-unit>
+      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
+        <source>Added %1 days ago</source>
+        <target>%1 日前に追加された</target>
+        <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
+      </trans-unit>
+      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
+        <source>Remove %1</source>
+        <target>%1 を削除</target>
+        <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/components/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
@@ -555,34 +587,6 @@
         <source>%1 of %2</source>
         <target>%1 / %2</target>
         <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.</note>
-      </trans-unit>
-      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
-        <source>%1 %2</source>
-        <target>%1 %2</target>
-        <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
-      </trans-unit>
-      <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
-        <source>Current Device</source>
-        <target>現在の端末</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
-        <source>Added less than an hour ago</source>
-        <target>1 時間以内に追加された</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
-        <source>Added a few hours ago (%1)</source>
-        <target>数時間前に追加された (%1)</target>
-        <note annotates="source" from="developer">%1 is the number of hours.</note>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
-        <source>Added %1 days ago</source>
-        <target>%1 日前に追加された</target>
-        <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
-        <source>Remove %1</source>
-        <target>%1 を削除</target>
-        <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
       </trans-unit>
     </body>
   </file>
