@@ -409,20 +409,14 @@
         <source>Language</source>
         <target>Språk</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.systemLangaugeEnabledSubtitle" xml:space="preserve">
-        <source>Mozilla VPN will use your system’s default language.</source>
-        <target>Mozilla VPN använder standardspråket i ditt system.</target>
-        <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.systemLanguageDisabledSubtitle" xml:space="preserve">
-        <source>Mozilla VPN will not use the default system language.</source>
-        <target>Mozilla VPN använder inte ditt systems standardspråk.</target>
-        <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is disabled.</note>
-      </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageTitle" xml:space="preserve">
         <source>Use system language</source>
         <target>Använd systemspråket</target>
         <note annotates="source" from="developer">Title for the language switcher toggle.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.systemLangaugeSubtitle" xml:space="preserve">
+        <source>Mozilla VPN will use the default system language.</source>
+        <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageEnabled" xml:space="preserve">
         <source>Disable to select a different language</source>
@@ -502,6 +496,9 @@
       <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
         <source>Launch VPN app on Startup</source>
         <target>Starta VPN-appen vid start</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.glean" xml:space="preserve">
+        <source>Enable telemetry</source>
       </trans-unit>
       <trans-unit id="vpn.settings.giveFeedback" xml:space="preserve">
         <source>Give feedback</source>

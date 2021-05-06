@@ -332,17 +332,13 @@
       <trans-unit id="vpn.settings.language">
         <source>Language</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.systemLangaugeEnabledSubtitle">
-        <source>Mozilla VPN will use your system’s default language.</source>
-        <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.systemLanguageDisabledSubtitle">
-        <source>Mozilla VPN will not use the default system language.</source>
-        <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is disabled.</note>
-      </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageTitle">
         <source>Use system language</source>
         <note annotates="source" from="developer">Title for the language switcher toggle.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.systemLangaugeSubtitle">
+        <source>Mozilla VPN will use the default system language.</source>
+        <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageEnabled">
         <source>Disable to select a different language</source>
@@ -406,6 +402,9 @@
       </trans-unit>
       <trans-unit id="vpn.settings.runOnBoot">
         <source>Launch VPN app on Startup</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.glean">
+        <source>Enable telemetry</source>
       </trans-unit>
       <trans-unit id="vpn.settings.giveFeedback">
         <source>Give feedback</source>
