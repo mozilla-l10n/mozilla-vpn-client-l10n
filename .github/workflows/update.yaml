@@ -34,7 +34,7 @@ jobs:
           # Manually add QT executables to path
           export PATH=/opt/qt515/bin:$PATH
           lupdate -version
-          python translationFiles/.github/scripts/extract_source_strings.py
+          python translationFiles/.github/scripts/extract_source_strings.py --vpn vpn --l10n translationFiles
           python translationFiles/.github/scripts/update_other_locales.py --reference en --xliff mozillavpn.xliff --path translationFiles/
       - run : git config --global user.email 'flodolo@users.noreply.github.com'
       - uses: peter-evans/create-pull-request@v3
