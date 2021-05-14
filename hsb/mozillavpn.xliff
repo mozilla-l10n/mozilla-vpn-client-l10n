@@ -46,6 +46,22 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/components/VPNAlerts.qml" datatype="plaintext" source-language="en" target-language="hsb">
+    <body>
+      <trans-unit id="vpn.updates.newVersionAvailable" xml:space="preserve">
+        <source>New version is available.</source>
+      </trans-unit>
+      <trans-unit id="vpn.updates.updateNow" xml:space="preserve">
+        <source>Update now</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.survey.wouldLoveYourFeedback" xml:space="preserve">
+        <source>We’d love your feedback!</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.survey.takeSurvey" xml:space="preserve">
+        <source>Take Survey</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/components/VPNConnectionInfo.qml" datatype="plaintext" source-language="en" target-language="hsb">
     <body>
       <trans-unit id="vpn.connectionInfo.ip" xml:space="preserve">
@@ -336,18 +352,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNWasmAlerts.qml" datatype="plaintext" source-language="en" target-language="hsb">
-    <body>
-      <trans-unit id="vpn.updates.updateNow" xml:space="preserve">
-        <source>Update now</source>
-        <target>Nětko aktualizować</target>
-      </trans-unit>
-      <trans-unit id="vpn.updates.newVersionAvailable" xml:space="preserve">
-        <source>New version is available.</source>
-        <target>Nowa wersija je k dispoziciji.</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="hsb">
     <body>
       <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
@@ -484,6 +488,19 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/settings/ViewPrivacySecurity.qml" datatype="plaintext" source-language="en" target-language="hsb">
+    <body>
+      <trans-unit id="vpn.settings.privacySecurity" xml:space="preserve">
+        <source>Privacy &amp; Security settings</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
+        <source>Data collection and use</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
+        <source>Allow Mozilla VPN to send technical data to Mozilla</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="hsb">
     <body>
       <trans-unit id="vpn.settings.user" xml:space="preserve">
@@ -498,13 +515,12 @@
         <source>Launch VPN app on Startup</source>
         <target>VPN-nałoženje při startowanju zmóžnić</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.glean" xml:space="preserve">
-        <source>Enable telemetry</source>
-        <target>Telemetriju zmóžnić</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.giveFeedback" xml:space="preserve">
         <source>Give feedback</source>
         <target>Komentar pósłać</target>
+      </trans-unit>
+      <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
+        <source>Privacy &amp; Security</source>
       </trans-unit>
     </body>
   </file>
