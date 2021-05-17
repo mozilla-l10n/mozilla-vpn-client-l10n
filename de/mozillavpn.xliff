@@ -787,6 +787,54 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="macosinstaller.title" xml:space="preserve">
+        <source>Mozilla VPN for macOS</source>
+        <target>Mozilla VPN für macOS</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
+        <source>Unable to install</source>
+        <target>Installation nicht möglich</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
+        <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
+        <target>Mozilla VPN erfordert Mac OS X 10.6 oder höher.</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
+        <source>Previous Installation Detected</source>
+        <target>Vorherige Installation erkannt</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
+        <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
+        <target>Unter /Applications/Mozilla VPN.app befindet sich eine ältere Installation von Mozilla VPN. Das Installationsprogramm entfernt diese ältere Installation, bevor dien eue installiert wird. Bitte sichern Sie alle Daten, bevor Sie fortfahren.</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
+        <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
+        <target>Sie werden nun durch die Installationsschritte für das Mozilla VPN geführt. Vielen Dank, dass Sie sich für das VPN vom vertrauenswürdigen Pionier für Datenschutz im Internet entschieden haben.</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
+        <source>Click “Continue” to continue the setup.</source>
+        <target>Klicken Sie auf „Weiter“, um die Einrichtung fortzusetzen.</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
+        <source>Success!</source>
+        <target>Fertig!</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.message1" xml:space="preserve">
+        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
+        <target>Das Mozilla VPN wurde erfolgreich installiert. Gehen Sie zu Ihrem Anwendungsordner, um das VPN zu starten und die Kontrolle über Ihre Online-Privatsphäre zu übernehmen.</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
+        <source>Trouble with this installation?</source>
+        <target>Probleme mit dieser Installation?</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
+        <source>Get help.</source>
+        <target>Holen Sie sich Hilfe.</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="de">
     <body>
       <trans-unit id="help.viewLog" xml:space="preserve">
@@ -856,54 +904,6 @@
       <trans-unit id="menubar.help.title" xml:space="preserve">
         <source>Help</source>
         <target>Hilfe</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="de">
-    <body>
-      <trans-unit id="macosinstaller.title" xml:space="preserve">
-        <source>Mozilla VPN for macOS</source>
-        <target>Mozilla VPN für macOS</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
-        <source>Unable to install</source>
-        <target>Installation nicht möglich</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
-        <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
-        <target>Mozilla VPN erfordert Mac OS X 10.6 oder höher.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
-        <source>Previous Installation Detected</source>
-        <target>Vorherige Installation erkannt</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
-        <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
-        <target>Unter /Applications/Mozilla VPN.app befindet sich eine ältere Installation von Mozilla VPN. Das Installationsprogramm entfernt diese ältere Installation, bevor dien eue installiert wird. Bitte sichern Sie alle Daten, bevor Sie fortfahren.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
-        <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
-        <target>Sie werden nun durch die Installationsschritte für das Mozilla VPN geführt. Vielen Dank, dass Sie sich für das VPN vom vertrauenswürdigen Pionier für Datenschutz im Internet entschieden haben.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
-        <source>Click “Continue” to continue the setup.</source>
-        <target>Klicken Sie auf „Weiter“, um die Einrichtung fortzusetzen.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
-        <source>Success!</source>
-        <target>Fertig!</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message1" xml:space="preserve">
-        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
-        <target>Das Mozilla VPN wurde erfolgreich installiert. Gehen Sie zu Ihrem Anwendungsordner, um das VPN zu starten und die Kontrolle über Ihre Online-Privatsphäre zu übernehmen.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
-        <source>Trouble with this installation?</source>
-        <target>Probleme mit dieser Installation?</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
-        <source>Get help.</source>
-        <target>Holen Sie sich Hilfe.</target>
       </trans-unit>
     </body>
   </file>
