@@ -140,7 +140,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
         <source>Disconnecting…</source>
-        <target>切断中...</target>
+        <target>接続を解除しています...</target>
       </trans-unit>
       <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
         <source>Unmasking connection and location</source>
@@ -340,6 +340,7 @@
       </trans-unit>
       <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
         <source>Signed out and device disconnected</source>
+        <target>ログアウトして接続を解除しました</target>
       </trans-unit>
     </body>
   </file>
@@ -495,12 +496,15 @@
     <body>
       <trans-unit id="vpn.settings.privacySecurityTitle" xml:space="preserve">
         <source>Privacy &amp; Security</source>
+        <target>プライバシーとセキュリティ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
         <source>Data collection and use</source>
+        <target>データの収集と使用</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla</source>
+        <target>Mozilla VPN が技術的なデータを Mozilla へ送信することを許可する</target>
       </trans-unit>
     </body>
   </file>
@@ -524,6 +528,7 @@
       </trans-unit>
       <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
         <source>Privacy &amp; Security</source>
+        <target>プライバシーとセキュリティ</target>
       </trans-unit>
     </body>
   </file>
@@ -602,18 +607,22 @@
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.allowMozillaToSendData" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla?</source>
+        <target>Mozilla VPN が技術的なデータを Mozilla へ送信することを許可しますか？</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice" xml:space="preserve">
         <source>Allow on this device</source>
+        <target>この端末で許可する</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.doNotAllow" xml:space="preserve">
         <source>Don’t allow</source>
+        <target>許可しない</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.MozillaVPNPrivacyNotice" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Mozilla VPN プライバシー通知</target>
       </trans-unit>
     </body>
   </file>
@@ -634,6 +643,7 @@
     <body>
       <trans-unit id="vpn.errors.checkOutageUpdates" xml:space="preserve">
         <source>Check outage updates</source>
+        <target>サーバーの稼働状況を確認する</target>
       </trans-unit>
     </body>
   </file>
@@ -815,9 +825,11 @@
     <body>
       <trans-unit id="macosinstaller.title" xml:space="preserve">
         <source>Mozilla VPN for macOS</source>
+        <target>macOS 版 Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
         <source>Unable to install</source>
+        <target>インストールできません</target>
       </trans-unit>
       <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
         <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
@@ -886,11 +898,11 @@
       </trans-unit>
       <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
         <source>VPN Disconnected</source>
-        <target>VPN を切断しました</target>
+        <target>VPN の接続を解除しました</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
         <source>Disconnected from %1, %2</source>
-        <target>%1 %2 から切断しました</target>
+        <target>%1 %2 との接続を解除しました</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
     </body>
@@ -944,7 +956,7 @@
       </trans-unit>
       <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
         <source>Disconnecting from:</source>
-        <target>切断中:</target>
+        <target>接続を解除:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.location" xml:space="preserve">
         <source>%1, %2</source>
@@ -978,7 +990,7 @@
       </trans-unit>
       <trans-unit id="systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
-        <target>切断</target>
+        <target>接続を解除</target>
       </trans-unit>
       <trans-unit id="systray.help" xml:space="preserve">
         <source>Help</source>
