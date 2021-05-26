@@ -56,8 +56,12 @@
   <file original="../src/ui/components/VPNConnectionInfo.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
       <trans-unit id="vpn.connectionInfo.ip">
-        <source>IP: %1</source>
-        <note annotates="source" from="developer">The current IP address</note>
+        <source>IP:</source>
+        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.ipv6">
+        <source>IPv6:</source>
+        <note annotates="source" from="developer">The abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.download">
         <source>Download</source>
