@@ -100,6 +100,10 @@ def main():
                     if ref_matches != l10n_matches:
                         errors.append(f"{locale}: variable mismatch in {string_id}")
 
+                # Check pilcrow
+                if "¶" in l10n_string:
+                    errors.append(f"{locale}: '¶' in {string_id}")
+
     if errors:
         print("ERRORS:")
         print("\n".join(errors))
