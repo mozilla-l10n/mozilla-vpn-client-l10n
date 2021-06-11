@@ -45,9 +45,11 @@ jobs:
           for branch in $(cd vpn && git branch -r | grep origin/releases); do
             echo Importing strings from $branch
             cd vpn && git checkout $branch
-            lupdate src/src.pro -ts ../branch.ts
+            lupdate src/src.pro -ts branch.ts
+            mv branch.ts ../
             cd ..
             lconvert -i translations.ts branch.ts -o tmp.ts
+            cat tmp.ts
             mv tmp.ts translations.ts
             rm branch.ts
           done
