@@ -14,10 +14,10 @@ import os
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--vpn",
+        "--input",
         required=True,
-        dest="vpn_path",
-        help="Path to VPN project repository",
+        dest="input_path",
+        help="Path to the .ts file to import strings from.",
     )
     parser.add_argument(
         "--l10n",
@@ -34,17 +34,12 @@ def main():
     )
     args = parser.parse_args()
 
-    source_file = os.path.join(args.vpn_path, "src", "src.pro")
-    exe_path = os.path.join(args.lib_path, "lupdate")
-    os.system(f"{exe_path} {source_file} -ts")
-
-    source_ts_file = os.path.join(args.vpn_path, "translations", "mozillavpn_en.ts")
     output_xliff_file = os.path.join(args.l10n_path, "en", "mozillavpn.xliff")
 
     # Update English XLIFF file
     print(f"Updating {output_xliff_file}")
     exe_path = os.path.join(args.lib_path, "lconvert")
-    os.system(f"{exe_path} -if ts -i {source_ts_file} -of xlf -o {output_xliff_file}")
+    os.system(f"{exe_path} -if ts -i {args.input_path} -of xlf -o {output_xliff_file}")
 
     # Clean up the new XLIFF file
     NS = {"x": "urn:oasis:names:tc:xliff:document:1.2"}
