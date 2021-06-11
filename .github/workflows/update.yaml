@@ -35,9 +35,7 @@ jobs:
           # Manually add QT executables to path
           export PATH=/opt/qt515/bin:$PATH
           lupdate -version
-          cd vpn
-          lupdate src/src.pro -ts
-          cd ..
+          lupdate vpn/src/src.pro -ts
           # Store translations from the "main" branch in translations.ts
           cp vpn/translations/mozillavpn_en.ts translations.ts
           # Store translations for each branch in branch.ts, then convert them
@@ -45,9 +43,11 @@ jobs:
           for branch in $(cd vpn && git branch -r | grep origin/releases); do
             echo Importing strings from $branch
             cd vpn && git checkout $branch
-            lupdate src/src.pro -ts ../branch.ts
             cd ..
+            lupdate vpn/src/src.pro -ts branch.ts
+            cat branch.ts
             lconvert -i translations.ts branch.ts -o tmp.ts
+            cat tmp.ts
             mv tmp.ts translations.ts
             rm branch.ts
           done
