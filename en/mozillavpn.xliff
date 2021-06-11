@@ -63,6 +63,13 @@
         <source>IP:</source>
         <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
       </trans-unit>
+      <trans-unit id="vpn.connectionInfo.ip">
+        <source>IP:</source>
+        <alt-trans>
+        <source>IP: %1</source>
+        </alt-trans>
+        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
+      </trans-unit>
       <trans-unit id="vpn.connectionInfo.ipv6">
         <source>IPv6:</source>
         <note annotates="source" from="developer">The abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
@@ -285,6 +292,9 @@
       <trans-unit id="vpn.alert.deviceDisconnectedAndLogout">
         <source>Signed out and device disconnected</source>
       </trans-unit>
+      <trans-unit id="vpn.alert.deviceRemovedAndLogout">
+        <source>Signed out and device removed</source>
+      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="en-US">
@@ -350,9 +360,17 @@
         <source>Use system language</source>
         <note annotates="source" from="developer">Title for the language switcher toggle.</note>
       </trans-unit>
+      <trans-unit id="vpn.settings.systemLangaugeEnabledSubtitle">
+        <source>Mozilla VPN will use your system’s default language.</source>
+        <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
+      </trans-unit>
       <trans-unit id="vpn.settings.systemLangaugeSubtitle">
         <source>Mozilla VPN will use the default system language.</source>
         <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.systemLanguageDisabledSubtitle">
+        <source>Mozilla VPN will not use the default system language.</source>
+        <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is disabled.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageEnabled">
         <source>Disable to select a different language</source>
