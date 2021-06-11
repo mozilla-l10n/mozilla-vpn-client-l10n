@@ -17,7 +17,7 @@ def main():
         "--input",
         required=True,
         dest="input_path",
-        help="Path to VPN project repository",
+        help="Path to the .ts file to import strings from",
     )
     parser.add_argument(
         "--l10n",

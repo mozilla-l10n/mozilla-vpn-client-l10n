@@ -36,9 +36,10 @@ jobs:
           export PATH=/opt/qt515/bin:$PATH
           lupdate -version
           lupdate vpn/src/src.pro -ts
-          # The translations from the `main` branch
+          # Store translations from the "main" branch in translations.ts
           cp vpn/translations/mozillavpn_en.ts translations.ts
-          # For each branch, let's take the translations...
+          # Store translations for each branch in branch.ts, then convert them
+          # from both main and branch, with precedence to the former.
           for branch in $(cd vpn && git branch -r | grep origin/releases); do
             echo Importing strings from $branch
             cd vpn && git checkout $branch
