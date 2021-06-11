@@ -40,14 +40,17 @@ jobs:
           cd ..
           # Store translations from the "main" branch in translations.ts
           cp vpn/translations/mozillavpn_en.ts translations.ts
+          cat translations.ts
           # Store translations for each branch in branch.ts, then convert them
           # from both main and branch, with precedence to the former.
           for branch in $(cd vpn && git branch -r | grep origin/releases); do
             echo Importing strings from $branch
             cd vpn && git checkout $branch
             lupdate src/src.pro -ts ../branch.ts
+            cat ../branch.ts
             cd ..
             lconvert -i translations.ts branch.ts -o tmp.ts
+            cat tmp.ts
             mv tmp.ts translations.ts
             rm branch.ts
           done
