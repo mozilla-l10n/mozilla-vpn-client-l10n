@@ -21,6 +21,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: "mozilla-mobile/mozilla-vpn-client"
+          fetch-depth: 0
           path: "vpn"
       - name: Set up Python 3
         uses: actions/setup-python@v2
@@ -34,7 +35,22 @@ jobs:
           # Manually add QT executables to path
           export PATH=/opt/qt515/bin:$PATH
           lupdate -version
-          python translationFiles/.github/scripts/extract_source_strings.py --vpn vpn --l10n translationFiles
+          lupdate vpn/src/src.pro -ts
+          # Store translations from the "main" branch in translations.ts
+          cp vpn/translations/mozillavpn_en.ts translations.ts
+          # Store translations for each branch in branch.ts, then convert them
+          # from both main and branch, with precedence to the former.
+          for branch in $(cd vpn && git branch -r | grep origin/releases); do
+            echo Importing strings from $branch
+            cd vpn && git checkout $branch
+            cd ..
+            lupdate vpn/src/src.pro -ts
+            cp vpn/translations/mozillavpn_en.ts branch.ts
+            lconvert -i translations.ts branch.ts -o tmp.ts
+            mv tmp.ts translations.ts
+            rm branch.ts
+          done
+          python translationFiles/.github/scripts/extract_source_strings.py --input translations.ts --l10n translationFiles
           python translationFiles/.github/scripts/update_other_locales.py --reference en --xliff mozillavpn.xliff --path translationFiles/
       - run : git config --global user.email 'flodolo@users.noreply.github.com'
       - uses: peter-evans/create-pull-request@v3
