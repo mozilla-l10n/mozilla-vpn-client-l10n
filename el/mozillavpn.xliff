@@ -68,9 +68,12 @@
   </file>
   <file original="../src/ui/components/VPNConnectionInfo.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.connectionInfo.ip" xml:space="preserve">
+      <trans-unit id="vpn.connectionInfo.ipv4" xml:space="preserve">
+        <source>IPv4:</source>
+        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IPv4 address.</note>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.ip2" xml:space="preserve">
         <source>IP:</source>
-        <target>IP:</target>
         <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.ipv6" xml:space="preserve">
@@ -494,6 +497,18 @@
       <trans-unit id="vpn.settings.unsecuredNetworkAlert.description" xml:space="preserve">
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
         <target>Λάβετε ειδοποίηση εάν συνδεθείτε σε μη ασφαλές δίκτυο Wi-Fi</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.serverSwitch" xml:space="preserve">
+        <source>Server Switchting Notification</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
+        <source>Get notified when you successfully switched servers</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.connectionChange" xml:space="preserve">
+        <source>Connection Change Notification</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
+        <source>Get notified when the connection status changes</source>
       </trans-unit>
     </body>
   </file>

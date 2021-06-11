@@ -55,7 +55,11 @@
   </file>
   <file original="../src/ui/components/VPNConnectionInfo.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.connectionInfo.ip">
+      <trans-unit id="vpn.connectionInfo.ipv4">
+        <source>IPv4:</source>
+        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IPv4 address.</note>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.ip2">
         <source>IP:</source>
         <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
       </trans-unit>
@@ -399,6 +403,18 @@
       </trans-unit>
       <trans-unit id="vpn.settings.unsecuredNetworkAlert.description">
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.serverSwitch">
+        <source>Server Switchting Notification</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.serverSwitch.description">
+        <source>Get notified when you successfully switched servers</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.connectionChange">
+        <source>Connection Change Notification</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.connectionChange.description">
+        <source>Get notified when the connection status changes</source>
       </trans-unit>
     </body>
   </file>
