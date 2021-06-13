@@ -195,83 +195,99 @@
         <target>Añadido hace unas horas (%1)</target>
         <note annotates="source" from="developer">%1 is the number of hours.</note>
       </trans-unit>
-      <trans-unit id="vpn.devices.addedXdaysAgo">
+      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
         <source>Added %1 days ago</source>
+        <target>Añadido hace %1 días</target>
         <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeA11Y">
+      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
         <source>Remove %1</source>
+        <target>Eliminar %1</target>
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="es-ES">
     <body>
-      <trans-unit id="vpn.devices.doDeviceRemoval">
+      <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
         <source>Remove a device</source>
+        <target>Eliminar un dispositivo</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.maxDevicesHeader">
+      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
         <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
+        <target>Has alcanzado el límite de dispositivos. Para activar la VPN en este dispositivo, necesitas eliminar otro.</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNGetHelp.qml" datatype="plaintext" source-language="en" target-language="es-ES">
     <body>
-      <trans-unit id="vpn.main.getHelp">
+      <trans-unit id="vpn.main.getHelp" xml:space="preserve">
         <source>Get Help</source>
+        <target>Obtener ayuda</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="es-ES">
     <body>
-      <trans-unit id="vpn.connectionInfo.Bps">
+      <trans-unit id="vpn.connectionInfo.Bps" xml:space="preserve">
         <source>B/s</source>
+        <target>B/s</target>
         <note annotates="source" from="developer">Bytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.kBps">
+      <trans-unit id="vpn.connectionInfo.kBps" xml:space="preserve">
         <source>kB/s</source>
+        <target>kB/s</target>
         <note annotates="source" from="developer">Kilobytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectioInfo.mBps">
+      <trans-unit id="vpn.connectioInfo.mBps" xml:space="preserve">
         <source>MB/s</source>
+        <target>MB/s</target>
         <note annotates="source" from="developer">Megabytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectioInfo.gBps">
+      <trans-unit id="vpn.connectioInfo.gBps" xml:space="preserve">
         <source>GB/s</source>
+        <target>GB/s</target>
         <note annotates="source" from="developer">Gigabytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.tBps">
+      <trans-unit id="vpn.connectionInfo.tBps" xml:space="preserve">
         <source>TB/s</source>
+        <target>TB/s</target>
         <note annotates="source" from="developer">Terabytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.accessibleName">
+      <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
         <source>%1: %2 %3</source>
+        <target>%1: %2 %3</target>
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNLoader.qml" datatype="plaintext" source-language="en" target-language="es-ES">
     <body>
-      <trans-unit id="vpn.authenticating.cancel">
+      <trans-unit id="vpn.authenticating.cancel" xml:space="preserve">
         <source>Cancel</source>
+        <target>Cancelar</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="es-ES">
     <body>
-      <trans-unit id="vpn.devices.removeDeviceQuestion">
+      <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
         <source>Remove device?</source>
+        <target>¿Eliminar dispositivo?</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.deviceRemovalConfirm">
+      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
         <source>Please confirm you would like to remove
 %1.</source>
+        <target>Por favor, confirma que quieres eliminar %1.</target>
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
       </trans-unit>
-      <trans-unit id="vpn.devices.cancelDeviceRemoval">
+      <trans-unit id="vpn.devices.cancelDeviceRemoval" xml:space="preserve">
         <source>Cancel</source>
+        <target>Cancelar</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceButton">
+      <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
         <source>Remove</source>
+        <target>Eliminar</target>
         <note annotates="source" from="developer">This is the “remove” device button.</note>
       </trans-unit>
     </body>
