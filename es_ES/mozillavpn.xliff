@@ -138,9 +138,11 @@
       </trans-unit>
       <trans-unit id="vpn.controller.activating" xml:space="preserve">
         <source>Masking connection and location</source>
+        <target>Enmascarando conexión y ubicación</target>
       </trans-unit>
       <trans-unit id="vpn.controller.attemptingToConfirm" xml:space="preserve">
         <source>Attempting to confirm connection</source>
+        <target>Intentando confirmar la conexión</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activated" xml:space="preserve">
         <source>VPN is on</source>
@@ -157,12 +159,15 @@
       </trans-unit>
       <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
         <source>Unmasking connection and location</source>
+        <target>Desenmascarando la conexión y la ubicación</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switching" xml:space="preserve">
         <source>Switching…</source>
+        <target>Cambiando…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
         <source>From %1 to %2</source>
+        <target>De %1 a %2</target>
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
       </trans-unit>
       <trans-unit id="vpn.controller.info" xml:space="preserve">
@@ -296,6 +301,7 @@
     <body>
       <trans-unit id="cities" xml:space="preserve">
         <source>Cities</source>
+        <target>Ciudades</target>
         <note annotates="source" from="developer">The title for the list of cities.</note>
       </trans-unit>
     </body>
@@ -304,6 +310,7 @@
     <body>
       <trans-unit id="vpn.main.signOut" xml:space="preserve">
         <source>Sign Out</source>
+        <target>Cerrar sesión</target>
       </trans-unit>
     </body>
   </file>
@@ -311,34 +318,44 @@
     <body>
       <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
         <source>Authentication error</source>
+        <target>Error en la identificación</target>
       </trans-unit>
       <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
         <source>Try again</source>
+        <target>Volver a intentarlo</target>
       </trans-unit>
       <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
         <source>Unable to connect</source>
+        <target>No se puede conectar</target>
       </trans-unit>
       <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
         <source>No internet connection</source>
+        <target>No hay conexión a internet</target>
       </trans-unit>
       <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
         <source>Background service error</source>
+        <target>Error de servicio en segundo plano</target>
       </trans-unit>
       <trans-unit id="vpn.alert.restore" xml:space="preserve">
         <source>Restore</source>
+        <target>Restaurar</target>
         <note annotates="source" from="developer">Restore a service in case of error.</note>
       </trans-unit>
       <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
+        <target>Error de servicio remoto</target>
       </trans-unit>
       <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
         <source>Subscription failed</source>
+        <target>La suscripción ha fallado</target>
       </trans-unit>
       <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
         <source>Operation not allowed from current location</source>
+        <target>Operación no permitida desde la ubicación actual</target>
       </trans-unit>
       <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
         <source>Signed out and device disconnected</source>
+        <target>Se cerró la sesión y se desconectó el dispositivo</target>
       </trans-unit>
     </body>
   </file>
@@ -346,9 +363,11 @@
     <body>
       <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
+        <target>Conectar VPN</target>
       </trans-unit>
       <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
+        <target>Desconectar VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -356,42 +375,53 @@
     <body>
       <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
         <source>App Permissions</source>
+        <target>Permisos de la aplicación</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit App Permissions</source>
+        <target>La VPN debe estar desconectada para editar los permisos de la aplicación</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps" xml:space="preserve">
         <source>Protect specific apps</source>
+        <target>Proteger aplicaciones específicas</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.description" xml:space="preserve">
         <source>Choose which apps should use the VPN</source>
+        <target>Elegir qué aplicaciones deben usar VPN</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
         <source>VPN protects all apps by default</source>
+        <target>La VPN protege todas las aplicaciones de forma predeterminada</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protected" xml:space="preserve">
         <source>Protected</source>
+        <target>Protegido</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protected.description" xml:space="preserve">
         <source>These apps will use the VPN</source>
+        <target>Estas aplicaciones usarán la VPN</target>
         <note annotates="source" from="developer">Description for the list of apps protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotectall" xml:space="preserve">
         <source>Unprotect All</source>
+        <target>Desproteger todo</target>
         <note annotates="source" from="developer">Label for the button to remove protection from all apps currently protected.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
         <source>Unprotected</source>
+        <target>Sin proteger</target>
         <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.unprotected.description" xml:space="preserve">
         <source>These apps will not use the VPN</source>
+        <target>Estas aplicaciones no usarán la VPN</target>
         <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protectall" xml:space="preserve">
         <source>Protect All</source>
+        <target>Proteger todo</target>
         <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
     </body>
@@ -400,21 +430,26 @@
     <body>
       <trans-unit id="vpn.settings.language" xml:space="preserve">
         <source>Language</source>
+        <target>Idioma</target>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageTitle" xml:space="preserve">
         <source>Use system language</source>
+        <target>Usar el idioma del sistema</target>
         <note annotates="source" from="developer">Title for the language switcher toggle.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLangaugeSubtitle" xml:space="preserve">
         <source>Mozilla VPN will use the default system language.</source>
+        <target>La VPN de Mozilla usará el idioma predeterminado del sistema.</target>
         <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageEnabled" xml:space="preserve">
         <source>Disable to select a different language</source>
+        <target>Desactivar para seleccionar un idioma diferente</target>
         <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
       </trans-unit>
       <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
         <source>%1 %2</source>
+        <target>%1 %2</target>
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
       </trans-unit>
     </body>
@@ -423,21 +458,27 @@
     <body>
       <trans-unit id="vpn.settings.networking" xml:space="preserve">
         <source>Network settings</source>
+        <target>Configuración de la red</target>
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
         <source>IPv6</source>
+        <target>IPv6</target>
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6.description" xml:space="preserve">
         <source>Push the internet forward with the latest version of the Internet Protocol</source>
+        <target>Lleva Internet un paso más con la última versión del Protocolo de Internet</target>
       </trans-unit>
       <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
         <source>Local network access</source>
+        <target>Acceso a la red local</target>
       </trans-unit>
       <trans-unit id="vpn.settings.lanAccess.description" xml:space="preserve">
         <source>Access printers, streaming sticks and all other devices on your local network</source>
+        <target>Acceder a impresoras, dispositivos de transmisión y todos los demás dispositivos en tu red local</target>
       </trans-unit>
       <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit these settings</source>
+        <target>La VPN debe estar desactivada para editar estos ajustes</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
     </body>
@@ -493,15 +534,19 @@
       </trans-unit>
       <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>Administrar cuenta</target>
       </trans-unit>
       <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
         <source>Launch VPN app on Startup</source>
+        <target>Lanzar la aplicación de VPN al inicio</target>
       </trans-unit>
       <trans-unit id="vpn.settings.giveFeedback" xml:space="preserve">
         <source>Give feedback</source>
+        <target>Enviar opinión</target>
       </trans-unit>
       <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
         <source>Privacy &amp; Security</source>
+        <target>Privacidad y seguridad</target>
       </trans-unit>
     </body>
   </file>
@@ -509,6 +554,7 @@
     <body>
       <trans-unit id="vpn.authenticating.waitForSignIn" xml:space="preserve">
         <source>Waiting for sign in and subscription confirmation…</source>
+        <target>Esperando el inicio de sesión y la confirmación de la suscripción…</target>
       </trans-unit>
     </body>
   </file>
@@ -516,12 +562,14 @@
     <body>
       <trans-unit id="vpn.errors.somethingWentWrong" xml:space="preserve">
         <source>Something went wrong…</source>
+        <target>Algo no ha ido bien…</target>
       </trans-unit>
       <trans-unit id="vpn.errors.unableToEstablishConnection" xml:space="preserve">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
       </trans-unit>
       <trans-unit id="vpn.errors.tryAgain" xml:space="preserve">
         <source>Try Again</source>
+        <target>Intentar de nuevo</target>
       </trans-unit>
     </body>
   </file>
@@ -529,12 +577,14 @@
     <body>
       <trans-unit id="vpn.postAuthentication..quickAccess" xml:space="preserve">
         <source>Quick access</source>
+        <target>Acceso rápido</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.statusBarIntro" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
         <source>Continue</source>
+        <target>Continuar</target>
       </trans-unit>
     </body>
   </file>
@@ -542,6 +592,7 @@
     <body>
       <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
         <source>Error confirming subscription…</source>
+        <target>Error al confirmar la suscripción…</target>
       </trans-unit>
       <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed" xml:space="preserve">
         <source>Another Firefox Account has already subscribed using this Apple ID.</source>
@@ -551,6 +602,7 @@
       </trans-unit>
       <trans-unit id="vpn.subscriptionBlocked.getHelp" xml:space="preserve">
         <source>Get Help</source>
+        <target>Obtener ayuda</target>
       </trans-unit>
     </body>
   </file>
@@ -571,9 +623,11 @@
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice" xml:space="preserve">
         <source>Allow on this device</source>
+        <target>Permitir en este dispositivo</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.doNotAllow" xml:space="preserve">
         <source>Don’t allow</source>
+        <target>No permitir</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
@@ -587,6 +641,7 @@
     <body>
       <trans-unit id="vpn.devices.myDevices" xml:space="preserve">
         <source>My devices</source>
+        <target>Mis dispositivos</target>
       </trans-unit>
       <trans-unit id="vpn.devices.activeVsMaxDeviceCount" xml:space="preserve">
         <source>%1 of %2</source>
