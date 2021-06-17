@@ -426,6 +426,109 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="es-ES">
+    <body>
+      <trans-unit id="vpn.settings.giveFeedback" xml:space="preserve">
+        <source>Give feedback</source>
+        <target>Enviar opinión</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.user" xml:space="preserve">
+        <source>VPN User</source>
+        <target>Usuario de VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
+        <source>Manage account</source>
+        <target>Administrar cuenta</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
+        <source>Launch VPN app on Startup</source>
+        <target>Lanzar la aplicación de VPN al inicio</target>
+      </trans-unit>
+      <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
+        <source>Privacy &amp; Security</source>
+        <target>Privacidad y seguridad</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/settings/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="es-ES">
+    <body>
+      <trans-unit id="vpn.feedbackForm.ratingHeadline" xml:space="preserve">
+        <source>How would you describe your Mozilla VPN experience so far?</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.veryPoor" xml:space="preserve">
+        <source>Very poor</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.poor" xml:space="preserve">
+        <source>Poor</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.average" xml:space="preserve">
+        <source>Average</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.good" xml:space="preserve">
+        <source>Good</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.veryGood" xml:space="preserve">
+        <source>Very good</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.continue" xml:space="preserve">
+        <source>Continue</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.lowRatingResponse" xml:space="preserve">
+        <source>We’re sorry to hear you’ve had a poor experience! Please let us know how we can improve.</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse" xml:space="preserve">
+        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
+        <source>Choose a Category</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.category1" xml:space="preserve">
+        <source>Product Bugs/Errors</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.category2" xml:space="preserve">
+        <source>Network Connection/Speed</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.categor3" xml:space="preserve">
+        <source>Product Quality</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.category4" xml:space="preserve">
+        <source>Access to service</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.category5" xml:space="preserve">
+        <source>Compatability</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.category6" xml:space="preserve">
+        <source>Ease of Use</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.category7" xml:space="preserve">
+        <source>Other</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.textAreaPlaceholder" xml:space="preserve">
+        <source>Enter feedback…</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedback.privacyBlurb" xml:space="preserve">
+        <source>When you submit feedback, Mozilla VPN will send interaction data to Mozilla. This data isn’t associated with your identity.</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.privacyNoticeLink" xml:space="preserve">
+        <source>Mozilla VPN Privacy Notice</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackform.submit" xml:space="preserve">
+        <source>Submit</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.skip" xml:space="preserve">
+        <source>Skip</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.thankyou" xml:space="preserve">
+        <source>Thank you!</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.thankyouSubtitle" xml:space="preserve">
+        <source>We appreciate your feedback. You’re helping us improve Mozilla VPN.</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackform.done" xml:space="preserve">
+        <source>Done</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="es-ES">
     <body>
       <trans-unit id="vpn.settings.language" xml:space="preserve">
@@ -505,22 +608,6 @@
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
         <target>Recibir una notificación al conectar a una red Wi-Fi insegura</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch" xml:space="preserve">
-        <source>Server Switching Notification</source>
-        <target>Notificación de cambio de servidor</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
-        <source>Get notified when you successfully switched servers</source>
-        <target>Recibir una notificación cuando se cambie de servidor con éxito</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange" xml:space="preserve">
-        <source>Connection Change Notification</source>
-        <target>Notificación de cambio de conexión</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
-        <source>Get notified when the connection status changes</source>
-        <target>Recibir notificación cuando cambie el estado de la conexión</target>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewPrivacySecurity.qml" datatype="plaintext" source-language="en" target-language="es-ES">
@@ -536,30 +623,6 @@
       <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla</source>
         <target>Permitir que Mozilla VPN envíe datos técnicos a Mozilla</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="es-ES">
-    <body>
-      <trans-unit id="vpn.settings.user" xml:space="preserve">
-        <source>VPN User</source>
-        <target>Usuario de VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
-        <source>Manage account</source>
-        <target>Administrar cuenta</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
-        <source>Launch VPN app on Startup</source>
-        <target>Lanzar la aplicación de VPN al inicio</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.giveFeedback" xml:space="preserve">
-        <source>Give feedback</source>
-        <target>Enviar opinión</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
-        <source>Privacy &amp; Security</source>
-        <target>Privacidad y seguridad</target>
       </trans-unit>
     </body>
   </file>
