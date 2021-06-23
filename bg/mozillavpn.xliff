@@ -224,8 +224,9 @@
   </file>
   <file original="../src/ui/components/VPNGetHelp.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
-      <trans-unit id="vpn.main.getHelp">
+      <trans-unit id="vpn.main.getHelp" xml:space="preserve">
         <source>Get Help</source>
+        <target>Получете помощ</target>
       </trans-unit>
     </body>
   </file>
@@ -246,93 +247,113 @@
         <target>МБ/сек</target>
         <note annotates="source" from="developer">Megabytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectioInfo.gBps">
+      <trans-unit id="vpn.connectioInfo.gBps" xml:space="preserve">
         <source>GB/s</source>
+        <target>ГБ/сек</target>
         <note annotates="source" from="developer">Gigabytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.tBps">
+      <trans-unit id="vpn.connectionInfo.tBps" xml:space="preserve">
         <source>TB/s</source>
+        <target>ТБ/сек</target>
         <note annotates="source" from="developer">Terabytes per second</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.accessibleName">
+      <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
         <source>%1: %2 %3</source>
+        <target>%1: %2 %3</target>
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNLoader.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
-      <trans-unit id="vpn.authenticating.cancel">
+      <trans-unit id="vpn.authenticating.cancel" xml:space="preserve">
         <source>Cancel</source>
+        <target>Отказ</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
-      <trans-unit id="vpn.devices.removeDeviceQuestion">
+      <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
         <source>Remove device?</source>
+        <target>Премахвате устройството?</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.deviceRemovalConfirm">
+      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
         <source>Please confirm you would like to remove
 %1.</source>
+        <target>Потвърдете намерението си да премахнете устройството „%1“.</target>
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
       </trans-unit>
-      <trans-unit id="vpn.devices.cancelDeviceRemoval">
+      <trans-unit id="vpn.devices.cancelDeviceRemoval" xml:space="preserve">
         <source>Cancel</source>
+        <target>Отказ</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceButton">
+      <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
         <source>Remove</source>
+        <target>Премахване</target>
         <note annotates="source" from="developer">This is the “remove” device button.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNServerCountry.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
-      <trans-unit id="cities">
+      <trans-unit id="cities" xml:space="preserve">
         <source>Cities</source>
+        <target>Градове</target>
         <note annotates="source" from="developer">The title for the list of cities.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
-      <trans-unit id="vpn.main.signOut">
+      <trans-unit id="vpn.main.signOut" xml:space="preserve">
         <source>Sign Out</source>
+        <target>Излизане</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNSystemAlert.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
-      <trans-unit id="vpn.alert.authenticationError">
+      <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
         <source>Authentication error</source>
+        <target>Грешка при удостоверяване</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.tryAgain">
+      <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
         <source>Try again</source>
+        <target>Нов опит</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.unableToConnect">
+      <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
         <source>Unable to connect</source>
+        <target>Не може да бъде установена връзка</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.noInternet">
+      <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
         <source>No internet connection</source>
+        <target>Няма връзка с интернет</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.backendServiceError">
+      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
         <source>Background service error</source>
+        <target>Грешка във фонова услуга</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.restore">
+      <trans-unit id="vpn.alert.restore" xml:space="preserve">
         <source>Restore</source>
+        <target>Възстановяване</target>
         <note annotates="source" from="developer">Restore a service in case of error.</note>
       </trans-unit>
-      <trans-unit id="vpn.alert.remoteServiceError">
+      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
+        <target>Грешка във отдалечена услуга</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.subscriptionFailureError">
+      <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
         <source>Subscription failed</source>
+        <target>Грешка при абониране</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.getIPRestrictionError">
+      <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
         <source>Operation not allowed from current location</source>
+        <target>Операцията не е разрешена от текущото местоположение</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout">
+      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
         <source>Signed out and device disconnected</source>
+        <target>Излизане и изключване на устройството</target>
       </trans-unit>
     </body>
   </file>
@@ -364,62 +385,75 @@
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected">
         <source>VPN protects all apps by default</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.protected">
+      <trans-unit id="vpn.settings.protected" xml:space="preserve">
         <source>Protected</source>
+        <target>Защитени</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protected.description">
+      <trans-unit id="vpn.settings.protected.description" xml:space="preserve">
         <source>These apps will use the VPN</source>
+        <target>Следните приложения използват VPN</target>
         <note annotates="source" from="developer">Description for the list of apps protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.unprotectall">
+      <trans-unit id="vpn.settings.unprotectall" xml:space="preserve">
         <source>Unprotect All</source>
+        <target>Незащитени всички</target>
         <note annotates="source" from="developer">Label for the button to remove protection from all apps currently protected.</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.unprotected">
+      <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
         <source>Unprotected</source>
+        <target>Незащитени</target>
         <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.unprotected.description">
+      <trans-unit id="vpn.settings.unprotected.description" xml:space="preserve">
         <source>These apps will not use the VPN</source>
+        <target>Следните приложения няма да използват VPN</target>
         <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectall">
+      <trans-unit id="vpn.settings.protectall" xml:space="preserve">
         <source>Protect All</source>
+        <target>Защитаване всички</target>
         <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
-      <trans-unit id="vpn.settings.language">
+      <trans-unit id="vpn.settings.language" xml:space="preserve">
         <source>Language</source>
+        <target>Език</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.systemLanguageTitle">
+      <trans-unit id="vpn.settings.systemLanguageTitle" xml:space="preserve">
         <source>Use system language</source>
+        <target>Използване на системния език</target>
         <note annotates="source" from="developer">Title for the language switcher toggle.</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.systemLangaugeSubtitle">
+      <trans-unit id="vpn.settings.systemLangaugeSubtitle" xml:space="preserve">
         <source>Mozilla VPN will use the default system language.</source>
+        <target>Mozilla VPN ще използва системния език по подразбиране.</target>
         <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.systemLanguageEnabled">
+      <trans-unit id="vpn.settings.systemLanguageEnabled" xml:space="preserve">
         <source>Disable to select a different language</source>
+        <target>Изключете, за да изберете друг език</target>
         <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.languageAccessibleName">
+      <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
         <source>%1 %2</source>
+        <target>%1 %2</target>
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
-      <trans-unit id="vpn.settings.networking">
+      <trans-unit id="vpn.settings.networking" xml:space="preserve">
         <source>Network settings</source>
+        <target>Настройки на мрежата</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.ipv6">
+      <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
         <source>IPv6</source>
+        <target>IPv6</target>
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6.description">
         <source>Push the internet forward with the latest version of the Internet Protocol</source>
@@ -438,8 +472,9 @@
   </file>
   <file original="../src/ui/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
-      <trans-unit id="vpn.settings.notifications">
+      <trans-unit id="vpn.settings.notifications" xml:space="preserve">
         <source>Notifications</source>
+        <target>Известия</target>
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert">
         <source>Guest Wi-Fi portal alert</source>
@@ -514,21 +549,24 @@
       <trans-unit id="vpn.errors.unableToEstablishConnection">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
       </trans-unit>
-      <trans-unit id="vpn.errors.tryAgain">
+      <trans-unit id="vpn.errors.tryAgain" xml:space="preserve">
         <source>Try Again</source>
+        <target>Нов опит</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/states/StatePostAuthentication.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
-      <trans-unit id="vpn.postAuthentication..quickAccess">
+      <trans-unit id="vpn.postAuthentication..quickAccess" xml:space="preserve">
         <source>Quick access</source>
+        <target>Бърз достъп</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.statusBarIntro">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.continue">
+      <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
         <source>Continue</source>
+        <target>Продължаване</target>
       </trans-unit>
     </body>
   </file>
@@ -543,15 +581,17 @@
       <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.getHelp">
+      <trans-unit id="vpn.subscriptionBlocked.getHelp" xml:space="preserve">
         <source>Get Help</source>
+        <target>Получете помощ</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/states/StateSubscriptionValidation.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
-      <trans-unit id="vpn.subscription.pleaseWait">
+      <trans-unit id="vpn.subscription.pleaseWait" xml:space="preserve">
         <source>Please wait…</source>
+        <target>Моля, изчакайте…</target>
       </trans-unit>
     </body>
   </file>
@@ -583,8 +623,9 @@
         <source>My devices</source>
         <target>Моите устройства</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.activeVsMaxDeviceCount">
+      <trans-unit id="vpn.devices.activeVsMaxDeviceCount" xml:space="preserve">
         <source>%1 of %2</source>
+        <target>%1 от %2</target>
         <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.</note>
       </trans-unit>
     </body>
@@ -598,49 +639,59 @@
   </file>
   <file original="../src/ui/views/ViewInitialize.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
-      <trans-unit id="vpn.main.getStarted">
+      <trans-unit id="vpn.main.getStarted" xml:space="preserve">
         <source>Get started</source>
+        <target>Въведение</target>
       </trans-unit>
-      <trans-unit id="vpn.main.learnMore">
+      <trans-unit id="vpn.main.learnMore" xml:space="preserve">
         <source>Learn more</source>
+        <target>Научете повече</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewLogs.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
-      <trans-unit id="vpn.viewlogs.title">
+      <trans-unit id="vpn.viewlogs.title" xml:space="preserve">
         <source>View Logs</source>
+        <target>Преглед на журнали</target>
       </trans-unit>
-      <trans-unit id="vpn.logs.copy">
+      <trans-unit id="vpn.logs.copy" xml:space="preserve">
         <source>Copy</source>
+        <target>Копиране</target>
       </trans-unit>
-      <trans-unit id="vpn.logs.copied">
+      <trans-unit id="vpn.logs.copied" xml:space="preserve">
         <source>Copied!</source>
+        <target>Копирано!</target>
       </trans-unit>
-      <trans-unit id="vpn.logs.clear">
+      <trans-unit id="vpn.logs.clear" xml:space="preserve">
         <source>Clear</source>
+        <target>Изчистване</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewMain.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
-      <trans-unit id="MozillaVPN">
+      <trans-unit id="MozillaVPN" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.servers.selectLocation">
+      <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
         <source>Select location</source>
+        <target>Изберете местоположение</target>
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
       </trans-unit>
-      <trans-unit id="vpn.servers.currentLocation">
+      <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
         <source>current location - %1</source>
+        <target>текущо местоположение -%1</target>
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
-      <trans-unit id="vpn.onboarding.headline.1">
+      <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
         <source>Device-level encryption</source>
+        <target>Криптиране на ниво устройство</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.1">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
