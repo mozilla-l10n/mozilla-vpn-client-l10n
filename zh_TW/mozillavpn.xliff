@@ -335,10 +335,12 @@
       </trans-unit>
       <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
         <source>%1-month plan: %2</source>
+        <target>%1 月付方案: %2</target>
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
       </trans-unit>
       <trans-unit id="vpn.subscription.save" xml:space="preserve">
         <source>Save %1</source>
+        <target>省下 %1</target>
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
       </trans-unit>
     </body>
@@ -392,6 +394,7 @@
     <body>
       <trans-unit id="vpn.settings.inputValue.invalid" xml:space="preserve">
         <source>The entered value is invalid</source>
+        <target>輸入的值無效</target>
         <note annotates="source" from="developer">Associated to an inputfield for a setting</note>
       </trans-unit>
     </body>
@@ -412,27 +415,35 @@
     <body>
       <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
         <source>Advanced DNS Settings</source>
+        <target>進階 DNS 設定</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
         <source>Use default DNS</source>
+        <target>使用預設 DNS</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.gateway.description" xml:space="preserve">
         <source>Automatically use Mozilla VPN-protected DNS</source>
+        <target>自動使用由 Mozilla VPN 保護的 DNS</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.localDNS" xml:space="preserve">
         <source>Use local DNS</source>
+        <target>使用本機 DNS</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.localDNS.resolveWebsiteDomainNames" xml:space="preserve">
         <source>Resolve website domain names using a DNS in your local network</source>
+        <target>使用您本機網路的 DNS 主機來解析網站的網域名稱</target>
       </trans-unit>
       <trans-unit id="vpn.settings.userDNS.invalid" xml:space="preserve">
         <source>Invalid IP address</source>
+        <target>IP 地址無效</target>
       </trans-unit>
       <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
         <source>We currently support only IPv4 IP addresses</source>
+        <target>我們目前僅支援 IPv4 的 IP 地址</target>
       </trans-unit>
       <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
         <source>Out of range IP address</source>
+        <target>IP 地址超出範圍</target>
       </trans-unit>
     </body>
   </file>
@@ -465,12 +476,15 @@
       </trans-unit>
       <trans-unit id="vpn.settings.useGatewayDNS" xml:space="preserve">
         <source>Use local DNS</source>
+        <target>使用本機 DNS</target>
       </trans-unit>
       <trans-unit id="vpn.settings.useGatewayDNS.resolveWebsiteDomainNames" xml:space="preserve">
         <source>Resolve website domain names using a DNS in your local network</source>
+        <target>使用您本機網路的 DNS 主機來解析網站的網域名稱</target>
       </trans-unit>
       <trans-unit id="vpn.settings.networking.advancedDNSSettings" xml:space="preserve">
         <source>Advanced DNS Settings</source>
+        <target>進階 DNS 設定</target>
       </trans-unit>
     </body>
   </file>
@@ -478,10 +492,12 @@
     <body>
       <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
         <source>Search Apps</source>
+        <target>搜尋應用程式</target>
         <note annotates="source" from="developer">Search bar placeholder text</note>
       </trans-unit>
       <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
         <source>Add Application</source>
+        <target>新增應用程式</target>
         <note annotates="source" from="developer">Button label</note>
       </trans-unit>
       <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
@@ -503,12 +519,15 @@
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
         <source>Protect all apps with VPN</source>
+        <target>使用 VPN 保護所有應用程式</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps.description" xml:space="preserve">
         <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
+        <target>預設情況下 VPN 會保護所有應用程式。關閉此設定即可調整哪些應用程式不透過 Mozilla VPN 連線。</target>
       </trans-unit>
       <trans-unit id="vpn.settings.excludeTitle" xml:space="preserve">
         <source>Exclude apps from VPN protection</source>
+        <target>將應用程式從 VPN 保護排除</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
@@ -575,57 +594,75 @@
     <body>
       <trans-unit id="vpn.feedbackForm.ratingHeadline" xml:space="preserve">
         <source>How would you describe your Mozilla VPN experience so far?</source>
+        <target>您到目前為止對 Mozilla VPN 的使用體驗如何？</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.veryPoor" xml:space="preserve">
         <source>Very poor</source>
+        <target>非常差</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.poor" xml:space="preserve">
         <source>Poor</source>
+        <target>差</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.average" xml:space="preserve">
         <source>Average</source>
+        <target>普通</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.good" xml:space="preserve">
         <source>Good</source>
+        <target>好</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.veryGood" xml:space="preserve">
         <source>Very good</source>
+        <target>非常好</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.continue" xml:space="preserve">
         <source>Continue</source>
+        <target>繼續</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.lowRatingResponse" xml:space="preserve">
         <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
+        <target>很抱歉讓您的使用體驗不佳，請讓我們知道可以如何改進。</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse" xml:space="preserve">
         <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
+        <target>我們想知道可以如何改進 Mozilla VPN，請在此處提供具體的意見。</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
         <source>Choose a Category</source>
+        <target>選擇分類</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.textAreaPlaceholder" xml:space="preserve">
         <source>Enter feedback…</source>
+        <target>請輸入要回饋的意見…</target>
       </trans-unit>
       <trans-unit id="vpn.feedback.privacyDisclaimer" xml:space="preserve">
         <source>When you submit feedback, Mozilla VPN will collect technical and interaction data, including your IP address, to help us improve. This data won’t be associated with your Firefox account.</source>
+        <target>當您送出意見回饋時，Mozilla VPN 將會收集您的技術與互動資料，包含您的 IP 地址，來幫助我們改善產品。此資料並不會與您的 Firefox 帳號建立關聯。</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.privacyNoticeLink" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Mozilla VPN 隱私權公告</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackform.submit" xml:space="preserve">
         <source>Submit</source>
+        <target>送出</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.skip" xml:space="preserve">
         <source>Skip</source>
+        <target>略過</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.thankyou" xml:space="preserve">
         <source>Thank you!</source>
+        <target>感謝您！</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.thankyouSubtitle" xml:space="preserve">
         <source>We appreciate your feedback. You’re helping us improve Mozilla VPN.</source>
+        <target>感謝您提供意見回饋。您的意見可幫助我們改進 Mozilla VPN 的相關功能。</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackform.done" xml:space="preserve">
         <source>Done</source>
+        <target>完成</target>
       </trans-unit>
     </body>
   </file>
@@ -785,6 +822,7 @@
     <body>
       <trans-unit id="vpn.telemetryPolicy.updatedTelemetryDisclaimer" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
+        <target>我們努力提供您不同選擇，也只收集我們用來改善 Mozilla VPN 所必須的技術資料。您不一定須要與 Mozilla 分享此資料。</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.telemetryDisclaimer" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
@@ -1059,24 +1097,31 @@
     <body>
       <trans-unit id="feedback.category.bugError" xml:space="preserve">
         <source>Product Bugs/Errors</source>
+        <target>產品有 Bug 或發生錯誤</target>
       </trans-unit>
       <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
         <source>Network Connection/Speed</source>
+        <target>網路連線問題或速度太慢</target>
       </trans-unit>
       <trans-unit id="feedback.category.productQuality" xml:space="preserve">
         <source>Product Quality</source>
+        <target>產品品質問題</target>
       </trans-unit>
       <trans-unit id="feedback.category.accessToService" xml:space="preserve">
         <source>Access to service</source>
+        <target>服務使用問題</target>
       </trans-unit>
       <trans-unit id="feedback.category.compatibility" xml:space="preserve">
         <source>Compatibility</source>
+        <target>相容性</target>
       </trans-unit>
       <trans-unit id="feedback.category.easeToUse" xml:space="preserve">
         <source>Ease of Use</source>
+        <target>易用性</target>
       </trans-unit>
       <trans-unit id="feedback.category.other" xml:space="preserve">
         <source>Other</source>
+        <target>其他</target>
       </trans-unit>
     </body>
   </file>
