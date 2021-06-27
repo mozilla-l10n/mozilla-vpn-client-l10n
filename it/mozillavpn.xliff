@@ -228,6 +228,7 @@
     <body>
       <trans-unit id="vpn.appList.selectAll" xml:space="preserve">
         <source>Select all</source>
+        <target>Seleziona tutto</target>
       </trans-unit>
     </body>
   </file>
@@ -325,17 +326,21 @@
     <body>
       <trans-unit id="vpn.subscription.price" xml:space="preserve">
         <source>%1/month</source>
+        <target>%1/mese</target>
         <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
       </trans-unit>
       <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
         <source>Monthly plan</source>
+        <target>Piano mensile</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
         <source>%1-month plan: %2</source>
+        <target>Piano %1 mesi: %2</target>
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
       </trans-unit>
       <trans-unit id="vpn.subscription.save" xml:space="preserve">
         <source>Save %1</source>
+        <target>Risparmia %1</target>
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
       </trans-unit>
     </body>
@@ -389,6 +394,7 @@
     <body>
       <trans-unit id="vpn.settings.inputValue.invalid" xml:space="preserve">
         <source>The entered value is invalid</source>
+        <target>Il valore inserito non è valido</target>
         <note annotates="source" from="developer">Associated to an inputfield for a setting</note>
       </trans-unit>
     </body>
@@ -409,27 +415,35 @@
     <body>
       <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
         <source>Advanced DNS Settings</source>
+        <target>Impostazioni DNS avanzate</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
         <source>Use default DNS</source>
+        <target>Utilizza DNS predefiniti</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.gateway.description" xml:space="preserve">
         <source>Automatically use Mozilla VPN-protected DNS</source>
+        <target>Usa automaticamente DNS protetto da Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.localDNS" xml:space="preserve">
         <source>Use local DNS</source>
+        <target>Utilizza DNS locale</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.localDNS.resolveWebsiteDomainNames" xml:space="preserve">
         <source>Resolve website domain names using a DNS in your local network</source>
+        <target>Risolvi i nomi di dominio dei siti web utilizzando un DNS nella tua rete locale</target>
       </trans-unit>
       <trans-unit id="vpn.settings.userDNS.invalid" xml:space="preserve">
         <source>Invalid IP address</source>
+        <target>Indirizzo IP non valido</target>
       </trans-unit>
       <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
         <source>We currently support only IPv4 IP addresses</source>
+        <target>Attualmente supportiamo solo indirizzi IPv4</target>
       </trans-unit>
       <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
         <source>Out of range IP address</source>
+        <target>Indirizzo IP fuori intervallo</target>
       </trans-unit>
     </body>
   </file>
@@ -462,12 +476,15 @@
       </trans-unit>
       <trans-unit id="vpn.settings.useGatewayDNS" xml:space="preserve">
         <source>Use local DNS</source>
+        <target>Utilizza DNS locale</target>
       </trans-unit>
       <trans-unit id="vpn.settings.useGatewayDNS.resolveWebsiteDomainNames" xml:space="preserve">
         <source>Resolve website domain names using a DNS in your local network</source>
+        <target>Risolvi i nomi di dominio dei siti web utilizzando un DNS nella tua rete locale</target>
       </trans-unit>
       <trans-unit id="vpn.settings.networking.advancedDNSSettings" xml:space="preserve">
         <source>Advanced DNS Settings</source>
+        <target>Impostazioni DNS avanzate</target>
       </trans-unit>
     </body>
   </file>
@@ -475,10 +492,12 @@
     <body>
       <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
         <source>Search Apps</source>
+        <target>Cerca app</target>
         <note annotates="source" from="developer">Search bar placeholder text</note>
       </trans-unit>
       <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
         <source>Add Application</source>
+        <target>Aggiungi applicazione</target>
         <note annotates="source" from="developer">Button label</note>
       </trans-unit>
       <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
@@ -500,12 +519,15 @@
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
         <source>Protect all apps with VPN</source>
+        <target>Proteggi tutte le app con VPN</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps.description" xml:space="preserve">
         <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
+        <target>La VPN protegge tutte le app per impostazione predefinita. Disattiva per scegliere quali app non devono essere protette da Mozilla VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.excludeTitle" xml:space="preserve">
         <source>Exclude apps from VPN protection</source>
+        <target>Escludi app dalla protezione VPN</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
