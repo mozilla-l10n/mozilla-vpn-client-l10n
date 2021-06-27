@@ -228,6 +228,7 @@
     <body>
       <trans-unit id="vpn.appList.selectAll" xml:space="preserve">
         <source>Select all</source>
+        <target>Вибрати все</target>
       </trans-unit>
     </body>
   </file>
@@ -325,17 +326,21 @@
     <body>
       <trans-unit id="vpn.subscription.price" xml:space="preserve">
         <source>%1/month</source>
+        <target>%1/month</target>
         <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
       </trans-unit>
       <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
         <source>Monthly plan</source>
+        <target>Місячний тарифний план</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
         <source>%1-month plan: %2</source>
+        <target>%1-місячний тарифний план: %2</target>
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
       </trans-unit>
       <trans-unit id="vpn.subscription.save" xml:space="preserve">
         <source>Save %1</source>
+        <target>Зберегти %1</target>
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
       </trans-unit>
     </body>
@@ -389,6 +394,7 @@
     <body>
       <trans-unit id="vpn.settings.inputValue.invalid" xml:space="preserve">
         <source>The entered value is invalid</source>
+        <target>Введене значення недійсне</target>
         <note annotates="source" from="developer">Associated to an inputfield for a setting</note>
       </trans-unit>
     </body>
@@ -409,27 +415,35 @@
     <body>
       <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
         <source>Advanced DNS Settings</source>
+        <target>Розширені налаштування DNS</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
         <source>Use default DNS</source>
+        <target>Використовувати типову DNS</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.gateway.description" xml:space="preserve">
         <source>Automatically use Mozilla VPN-protected DNS</source>
+        <target>Автоматично використовувати DNS, захищену VPN від Mozilla</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.localDNS" xml:space="preserve">
         <source>Use local DNS</source>
+        <target>Використовувати локальну DNS</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.localDNS.resolveWebsiteDomainNames" xml:space="preserve">
         <source>Resolve website domain names using a DNS in your local network</source>
+        <target>Розв'язуйте доменні імена вебсайтів за допомогою DNS у вашій локальній мережі</target>
       </trans-unit>
       <trans-unit id="vpn.settings.userDNS.invalid" xml:space="preserve">
         <source>Invalid IP address</source>
+        <target>Недійсна IP-адреса</target>
       </trans-unit>
       <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
         <source>We currently support only IPv4 IP addresses</source>
+        <target>На цю мить ми підтримуємо лише IP-адреси IPv4</target>
       </trans-unit>
       <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
         <source>Out of range IP address</source>
+        <target>IP-адреса поза діапазоном</target>
       </trans-unit>
     </body>
   </file>
@@ -462,12 +476,15 @@
       </trans-unit>
       <trans-unit id="vpn.settings.useGatewayDNS" xml:space="preserve">
         <source>Use local DNS</source>
+        <target>Використовувати локальну DNS</target>
       </trans-unit>
       <trans-unit id="vpn.settings.useGatewayDNS.resolveWebsiteDomainNames" xml:space="preserve">
         <source>Resolve website domain names using a DNS in your local network</source>
+        <target>Розв'язуйте доменні імена вебсайтів за допомогою DNS у вашій локальній мережі</target>
       </trans-unit>
       <trans-unit id="vpn.settings.networking.advancedDNSSettings" xml:space="preserve">
         <source>Advanced DNS Settings</source>
+        <target>Розширені налаштування DNS</target>
       </trans-unit>
     </body>
   </file>
@@ -475,10 +492,12 @@
     <body>
       <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
         <source>Search Apps</source>
+        <target>Пошук програм</target>
         <note annotates="source" from="developer">Search bar placeholder text</note>
       </trans-unit>
       <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
         <source>Add Application</source>
+        <target>Додати програму</target>
         <note annotates="source" from="developer">Button label</note>
       </trans-unit>
       <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
@@ -500,12 +519,15 @@
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
         <source>Protect all apps with VPN</source>
+        <target>Захистити усі програми за допомогою VPN</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps.description" xml:space="preserve">
         <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
+        <target>VPN типово захищає всі програми. Вимкніть її, щоб вибрати, які програми Mozilla VPN не повинна захищати.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.excludeTitle" xml:space="preserve">
         <source>Exclude apps from VPN protection</source>
+        <target>Прибрати програми з-під захисту VPN</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
@@ -572,57 +594,75 @@
     <body>
       <trans-unit id="vpn.feedbackForm.ratingHeadline" xml:space="preserve">
         <source>How would you describe your Mozilla VPN experience so far?</source>
+        <target>Як би ви описали свій досвід роботи з Mozilla VPN?</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.veryPoor" xml:space="preserve">
         <source>Very poor</source>
+        <target>Дуже погано</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.poor" xml:space="preserve">
         <source>Poor</source>
+        <target>Погано</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.average" xml:space="preserve">
         <source>Average</source>
+        <target>Посередньо</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.good" xml:space="preserve">
         <source>Good</source>
+        <target>Добре</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.veryGood" xml:space="preserve">
         <source>Very good</source>
+        <target>Відмінно</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.continue" xml:space="preserve">
         <source>Continue</source>
+        <target>Продовжити</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.lowRatingResponse" xml:space="preserve">
         <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
+        <target>Нам шкода, що ви мали проблеми з нашою службою. Будь ласка, повідомте нам, що ми можемо поліпшити.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse" xml:space="preserve">
         <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
+        <target>Нам цікаво знати, як ми можемо поліпшити Mozilla VPN. Будь ласка, залиште нам будь-який відгук.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
         <source>Choose a Category</source>
+        <target>Оберіть категорію</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.textAreaPlaceholder" xml:space="preserve">
         <source>Enter feedback…</source>
+        <target>Напишіть відгук…</target>
       </trans-unit>
       <trans-unit id="vpn.feedback.privacyDisclaimer" xml:space="preserve">
         <source>When you submit feedback, Mozilla VPN will collect technical and interaction data, including your IP address, to help us improve. This data won’t be associated with your Firefox account.</source>
+        <target>Коли ви надсилаєте відгук, Mozilla VPN збирає технічні дані та дані взаємодії, включно з вашою IP-адресою, щоб допомогти нам вдосконалитись. Ці дані не будуть пов’язані з вашим обліковим записом Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.privacyNoticeLink" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Повідомлення про приватність Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackform.submit" xml:space="preserve">
         <source>Submit</source>
+        <target>Надіслати</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.skip" xml:space="preserve">
         <source>Skip</source>
+        <target>Пропустити</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.thankyou" xml:space="preserve">
         <source>Thank you!</source>
+        <target>Дякуємо!</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.thankyouSubtitle" xml:space="preserve">
         <source>We appreciate your feedback. You’re helping us improve Mozilla VPN.</source>
+        <target>Ми цінуємо вашу думку. Ви допомагаєте нам вдосконалити Mozilla VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackform.done" xml:space="preserve">
         <source>Done</source>
+        <target>Готово</target>
       </trans-unit>
     </body>
   </file>
@@ -782,6 +822,7 @@
     <body>
       <trans-unit id="vpn.telemetryPolicy.updatedTelemetryDisclaimer" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
+        <target>Ми прагнемо надати вам вибір і збирати лише технічні дані, необхідні нам для вдосконалення Mozilla VPN. Обмін даними з Mozilla не обов’язковий.</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.telemetryDisclaimer" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
@@ -1056,24 +1097,31 @@
     <body>
       <trans-unit id="feedback.category.bugError" xml:space="preserve">
         <source>Product Bugs/Errors</source>
+        <target>Помилки/вади служби</target>
       </trans-unit>
       <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
         <source>Network Connection/Speed</source>
+        <target>Мережеве з'єднання/швидкість</target>
       </trans-unit>
       <trans-unit id="feedback.category.productQuality" xml:space="preserve">
         <source>Product Quality</source>
+        <target>Якість служби</target>
       </trans-unit>
       <trans-unit id="feedback.category.accessToService" xml:space="preserve">
         <source>Access to service</source>
+        <target>Доступ до служби</target>
       </trans-unit>
       <trans-unit id="feedback.category.compatibility" xml:space="preserve">
         <source>Compatibility</source>
+        <target>Сумісність</target>
       </trans-unit>
       <trans-unit id="feedback.category.easeToUse" xml:space="preserve">
         <source>Ease of Use</source>
+        <target>Простота користування</target>
       </trans-unit>
       <trans-unit id="feedback.category.other" xml:space="preserve">
         <source>Other</source>
+        <target>Інше</target>
       </trans-unit>
     </body>
   </file>
