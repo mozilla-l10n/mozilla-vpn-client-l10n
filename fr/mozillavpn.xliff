@@ -228,6 +228,7 @@
     <body>
       <trans-unit id="vpn.appList.selectAll" xml:space="preserve">
         <source>Select all</source>
+        <target>Tout sélectionner</target>
       </trans-unit>
     </body>
   </file>
@@ -325,17 +326,21 @@
     <body>
       <trans-unit id="vpn.subscription.price" xml:space="preserve">
         <source>%1/month</source>
+        <target>%1/mois</target>
         <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
       </trans-unit>
       <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
         <source>Monthly plan</source>
+        <target>Forfait mensuel</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
         <source>%1-month plan: %2</source>
+        <target>Forfait de %1 mois : %2</target>
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
       </trans-unit>
       <trans-unit id="vpn.subscription.save" xml:space="preserve">
         <source>Save %1</source>
+        <target>Économiser %1</target>
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
       </trans-unit>
     </body>
@@ -389,6 +394,7 @@
     <body>
       <trans-unit id="vpn.settings.inputValue.invalid" xml:space="preserve">
         <source>The entered value is invalid</source>
+        <target>La valeur saisie est invalide</target>
         <note annotates="source" from="developer">Associated to an inputfield for a setting</note>
       </trans-unit>
     </body>
@@ -409,27 +415,35 @@
     <body>
       <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
         <source>Advanced DNS Settings</source>
+        <target>Paramètres DNS avancés</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
         <source>Use default DNS</source>
+        <target>Utiliser le DNS par défaut</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.gateway.description" xml:space="preserve">
         <source>Automatically use Mozilla VPN-protected DNS</source>
+        <target>Utiliser automatiquement le DNS protégé par Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.localDNS" xml:space="preserve">
         <source>Use local DNS</source>
+        <target>Utiliser le DNS local</target>
       </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.localDNS.resolveWebsiteDomainNames" xml:space="preserve">
         <source>Resolve website domain names using a DNS in your local network</source>
+        <target>Résoudre les noms de domaine des sites web en utilisant un DNS dans votre réseau local</target>
       </trans-unit>
       <trans-unit id="vpn.settings.userDNS.invalid" xml:space="preserve">
         <source>Invalid IP address</source>
+        <target>Adresse IP invalide</target>
       </trans-unit>
       <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
         <source>We currently support only IPv4 IP addresses</source>
+        <target>Nous ne prenons actuellement en charge que les adresses IPv4</target>
       </trans-unit>
       <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
         <source>Out of range IP address</source>
+        <target>Adresse IP hors de l’intervalle autorisé</target>
       </trans-unit>
     </body>
   </file>
@@ -462,12 +476,15 @@
       </trans-unit>
       <trans-unit id="vpn.settings.useGatewayDNS" xml:space="preserve">
         <source>Use local DNS</source>
+        <target>Utiliser le DNS local</target>
       </trans-unit>
       <trans-unit id="vpn.settings.useGatewayDNS.resolveWebsiteDomainNames" xml:space="preserve">
         <source>Resolve website domain names using a DNS in your local network</source>
+        <target>Résoudre les noms de domaine des sites web en utilisant un DNS dans votre réseau local</target>
       </trans-unit>
       <trans-unit id="vpn.settings.networking.advancedDNSSettings" xml:space="preserve">
         <source>Advanced DNS Settings</source>
+        <target>Paramètres DNS avancés</target>
       </trans-unit>
     </body>
   </file>
@@ -475,10 +492,12 @@
     <body>
       <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
         <source>Search Apps</source>
+        <target>Rechercher des applications</target>
         <note annotates="source" from="developer">Search bar placeholder text</note>
       </trans-unit>
       <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
         <source>Add Application</source>
+        <target>Ajouter une application</target>
         <note annotates="source" from="developer">Button label</note>
       </trans-unit>
       <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
@@ -500,12 +519,14 @@
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
         <source>Protect all apps with VPN</source>
+        <target>Protéger toutes les applications avec le VPN</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps.description" xml:space="preserve">
         <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
       </trans-unit>
       <trans-unit id="vpn.settings.excludeTitle" xml:space="preserve">
         <source>Exclude apps from VPN protection</source>
+        <target>Exclure des applications de la protection VPN</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
@@ -572,57 +593,75 @@
     <body>
       <trans-unit id="vpn.feedbackForm.ratingHeadline" xml:space="preserve">
         <source>How would you describe your Mozilla VPN experience so far?</source>
+        <target>Comment décririez-vous votre expérience de Mozilla VPN jusqu’à présent ?</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.veryPoor" xml:space="preserve">
         <source>Very poor</source>
+        <target>Très mauvaise</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.poor" xml:space="preserve">
         <source>Poor</source>
+        <target>Mauvaise</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.average" xml:space="preserve">
         <source>Average</source>
+        <target>Moyenne</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.good" xml:space="preserve">
         <source>Good</source>
+        <target>Bonne</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.veryGood" xml:space="preserve">
         <source>Very good</source>
+        <target>Très bonne</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.continue" xml:space="preserve">
         <source>Continue</source>
+        <target>Continuer</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.lowRatingResponse" xml:space="preserve">
         <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
+        <target>Nous sommes désolés d’apprendre que vous avez eu une mauvaise expérience. Merci de nous indiquer comment nous pouvons nous améliorer.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse" xml:space="preserve">
         <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
+        <target>Nous aimerions savoir ce que nous pouvons faire pour améliorer Mozilla VPN. Merci de nous faire part de tout commentaire spécifique ici.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
         <source>Choose a Category</source>
+        <target>Choisir une catégorie</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.textAreaPlaceholder" xml:space="preserve">
         <source>Enter feedback…</source>
+        <target>Donner votre avis…</target>
       </trans-unit>
       <trans-unit id="vpn.feedback.privacyDisclaimer" xml:space="preserve">
         <source>When you submit feedback, Mozilla VPN will collect technical and interaction data, including your IP address, to help us improve. This data won’t be associated with your Firefox account.</source>
+        <target>Lorsque vous envoyez des commentaires, Mozilla VPN collectera des données techniques et d’interaction, dont votre adresse IP, pour nous aider à nous améliorer. Ces données ne seront pas associées à votre compte Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.privacyNoticeLink" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Politique de confidentialité de Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackform.submit" xml:space="preserve">
         <source>Submit</source>
+        <target>Envoyer</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.skip" xml:space="preserve">
         <source>Skip</source>
+        <target>Ignorer</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.thankyou" xml:space="preserve">
         <source>Thank you!</source>
+        <target>Merci !</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.thankyouSubtitle" xml:space="preserve">
         <source>We appreciate your feedback. You’re helping us improve Mozilla VPN.</source>
+        <target>Nous apprécions vos commentaires. Vous nous aidez à améliorer Mozilla VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackform.done" xml:space="preserve">
         <source>Done</source>
+        <target>Terminé</target>
       </trans-unit>
     </body>
   </file>
@@ -782,6 +821,7 @@
     <body>
       <trans-unit id="vpn.telemetryPolicy.updatedTelemetryDisclaimer" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
+        <target>Nous nous efforçons de vous laisser le choix et de collecter uniquement les données techniques dont nous avons besoin pour améliorer Mozilla VPN. Le partage de ces données avec Mozilla est facultatif.</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.telemetryDisclaimer" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
@@ -1056,6 +1096,7 @@
     <body>
       <trans-unit id="feedback.category.bugError" xml:space="preserve">
         <source>Product Bugs/Errors</source>
+        <target>Bugs/erreurs du produit</target>
       </trans-unit>
       <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
         <source>Network Connection/Speed</source>
