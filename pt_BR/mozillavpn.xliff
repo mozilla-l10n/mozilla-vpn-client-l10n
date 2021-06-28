@@ -126,7 +126,7 @@
     <body>
       <trans-unit id="vpn.controller.deactivated" xml:space="preserve">
         <source>VPN is off</source>
-        <target>VPN está desligada</target>
+        <target>VPN está ativada</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
         <source>Turn on to protect your privacy</source>
@@ -146,7 +146,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.activated" xml:space="preserve">
         <source>VPN is on</source>
-        <target>VPN está ligada</target>
+        <target>VPN está ativada</target>
       </trans-unit>
       <trans-unit id="vpn.controller.active" xml:space="preserve">
         <source>Secure and private</source>
@@ -403,11 +403,11 @@
     <body>
       <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
-        <target>Ligar VPN</target>
+        <target>Ativar VPN</target>
       </trans-unit>
       <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
-        <target>Desligar VPN</target>
+        <target>Desativar VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -451,7 +451,7 @@
     <body>
       <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit these settings</source>
-        <target>A VPN deve estar desligada para editar essas configurações</target>
+        <target>A VPN deve estar desativada para editar essas configurações</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
       <trans-unit id="vpn.settings.networking" xml:space="preserve">
@@ -506,7 +506,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit App Permissions</source>
-        <target>A VPN deve estar desligada para editar permissões de aplicativos</target>
+        <target>A VPN deve estar desativada para editar permissões de aplicativos</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps" xml:space="preserve">
@@ -523,6 +523,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps.description" xml:space="preserve">
         <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
+        <target>A VPN protege por padrão todos os aplicativos. Desative para escolher quais aplicativos o Mozilla VPN não deve proteger.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.excludeTitle" xml:space="preserve">
         <source>Exclude apps from VPN protection</source>
@@ -621,9 +622,11 @@
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.lowRatingResponse" xml:space="preserve">
         <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
+        <target>Lamentamos saber que você não teve uma boa experiência. Por favor, nos diga como podemos melhorar.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse" xml:space="preserve">
         <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
+        <target>Adoraríamos saber o que podemos fazer para melhorar o Mozilla VPN. Compartilhe aqui qualquer opinião específica.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
         <source>Choose a Category</source>
@@ -635,6 +638,7 @@
       </trans-unit>
       <trans-unit id="vpn.feedback.privacyDisclaimer" xml:space="preserve">
         <source>When you submit feedback, Mozilla VPN will collect technical and interaction data, including your IP address, to help us improve. This data won’t be associated with your Firefox account.</source>
+        <target>Quando você envia uma opinião, o Mozilla VPN coleta dados técnicos e de interação, incluindo seu endereço IP, para nos ajudar a melhorar. Esses dados não são associados à sua Conta Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.privacyNoticeLink" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
@@ -818,6 +822,7 @@
     <body>
       <trans-unit id="vpn.telemetryPolicy.updatedTelemetryDisclaimer" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
+        <target>Nos esforçamos para fornecer escolhas e coletar apenas os dados técnicos que precisamos para melhorar o Mozilla VPN. Compartilhar esses dados com a Mozilla é opcional.</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.telemetryDisclaimer" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
@@ -1238,7 +1243,7 @@
       </trans-unit>
       <trans-unit id="vpn.systray.captivePortalBlock2.message" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
-        <target>A rede Wi-Fi para visitantes em que você está conectado requer uma ação. Clique aqui para desligar a VPN para ver o portal.</target>
+        <target>A rede Wi-Fi para visitantes em que você está conectado requer uma ação. Clique aqui para desativar a VPN para ver o portal.</target>
       </trans-unit>
       <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
         <source>Guest Wi-Fi portal detected</source>
@@ -1246,7 +1251,7 @@
       </trans-unit>
       <trans-unit id="vpn.systray.captivePortalUnblock2.message" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
-        <target>A rede Wi-Fi para visitantes em que você está conectado pode não ser segura. Clique aqui para ligar a VPN para proteger seu dispositivo.</target>
+        <target>A rede Wi-Fi para visitantes em que você está conectado pode não ser segura. Clique aqui para ativar a VPN para proteger seu dispositivo.</target>
       </trans-unit>
       <trans-unit id="systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
