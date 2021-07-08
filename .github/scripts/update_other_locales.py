@@ -129,7 +129,9 @@ def main():
         Structure: "locale folder" -> "locale code"
         """
         locale_code = file_path.split(os.sep)[-2]
-        locale_mapping = {}
+        locale_mapping = {
+            "sv_SE": "sv",  # See bug 1713058
+        }
         locale_code = locale_mapping.get(locale_code, locale_code)
 
         """
