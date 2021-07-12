@@ -462,8 +462,9 @@
         <source>IPv6</source>
         <target>IPv6</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.ipv6.description">
+      <trans-unit id="vpn.settings.ipv6.description" xml:space="preserve">
         <source>Push the internet forward with the latest version of the Internet Protocol</source>
+        <target>Lleva Internet más allá con la última versión del Protocolo de Internet</target>
       </trans-unit>
       <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
         <source>Local network access</source>
@@ -635,8 +636,9 @@
         <source>Enter feedback…</source>
         <target>Ingresar comentario…</target>
       </trans-unit>
-      <trans-unit id="vpn.feedback.privacyDisclaimer">
+      <trans-unit id="vpn.feedback.privacyDisclaimer" xml:space="preserve">
         <source>When you submit feedback, Mozilla VPN will collect technical and interaction data, including your IP address, to help us improve. This data won’t be associated with your Firefox account.</source>
+        <target>Al enviar tus comentarios, Mozilla VPN recopilará información técnica y de interacción, incluida la dirección IP, para ayudarnos a mejorar. Esta información no se asociará con tu cuenta de Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.privacyNoticeLink" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
@@ -750,8 +752,9 @@
   </file>
   <file original="../src/ui/states/StateAuthenticating.qml" datatype="plaintext" source-language="en" target-language="es-CL">
     <body>
-      <trans-unit id="vpn.authenticating.waitForSignIn">
+      <trans-unit id="vpn.authenticating.waitForSignIn" xml:space="preserve">
         <source>Waiting for sign in and subscription confirmation…</source>
+        <target>Esperando la conexión y la confirmación de la suscripción…</target>
       </trans-unit>
     </body>
   </file>
@@ -761,8 +764,9 @@
         <source>Something went wrong…</source>
         <target>Algo se fue a las pailas…</target>
       </trans-unit>
-      <trans-unit id="vpn.errors.unableToEstablishConnection">
+      <trans-unit id="vpn.errors.unableToEstablishConnection" xml:space="preserve">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
+        <target>No se puede establecer una conexión en este momento. Estamos trabajando duro para resolver el problema. Por favor, intentalo nuevamente en breve.</target>
       </trans-unit>
       <trans-unit id="vpn.errors.tryAgain" xml:space="preserve">
         <source>Try Again</source>
@@ -776,8 +780,9 @@
         <source>Quick access</source>
         <target>Acceso rápido</target>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.statusBarIntro">
+      <trans-unit id="vpn.postAuthentication.statusBarIntro" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
+        <target>Puedes acceder rápidamente a Mozilla VPN desde tu barra de estado.</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
         <source>Continue</source>
@@ -815,14 +820,17 @@
   </file>
   <file original="../src/ui/states/StateTelemetryPolicy.qml" datatype="plaintext" source-language="en" target-language="es-CL">
     <body>
-      <trans-unit id="vpn.telemetryPolicy.updatedTelemetryDisclaimer">
+      <trans-unit id="vpn.telemetryPolicy.updatedTelemetryDisclaimer" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
+        <target>Nos esforzamos por ofrecerte opciones y recopilar solo los datos técnicos que necesitamos para mejorar Mozilla VPN. Compartir estos datos con Mozilla es opcional.</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.telemetryDisclaimer">
+      <trans-unit id="vpn.telemetryPolicy.telemetryDisclaimer" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
+        <target>Nos esforzamos por ofrecerte opciones y recopilar solo los datos técnicos que necesitamos para mejorar Mozilla VPN. Compartir datos con Mozilla es opcional.</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.allowMozillaToSendData">
+      <trans-unit id="vpn.telemetryPolicy.allowMozillaToSendData" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla?</source>
+        <target>¿Permitir que Mozilla VPN envíe datos técnicos a Mozilla?</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice" xml:space="preserve">
         <source>Allow on this device</source>
@@ -832,8 +840,9 @@
         <source>Don’t allow</source>
         <target>No permitir</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData">
+      <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
+        <target>Aprende más sobre qué datos recopila Mozilla y cómo se utilizan.</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.MozillaVPNPrivacyNotice" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
@@ -1042,176 +1051,223 @@
         <source>Mozilla VPN for macOS</source>
         <target>Mozilla VPN para macOS</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.title">
+      <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
         <source>Unable to install</source>
+        <target>No se pudo instalar</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.message">
+      <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
         <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
+        <target>Mozilla VPN requiere Mac OS X 10.6 o superior.</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.title">
+      <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
         <source>Previous Installation Detected</source>
+        <target>Instalación anterior detectada</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.message">
+      <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
         <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
+        <target>Existe una instalación previa de Mozilla VPN en /Applications/Mozilla VPN.app. Este instalador eliminará la instalación anterior antes de instalar. Por favor, realiza una copia de seguridad de cualquier dato antes de continuar.</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message1">
+      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
         <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
+        <target>Ahora se te guiará a través de los pasos de instalación de Mozilla VPN. Gracias por elegir tu VPN del más confiable y pionero de la privacidad en Internet.</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message2">
+      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
         <source>Click “Continue” to continue the setup.</source>
+        <target>Haz clic en "Continuar" para seguir con la configuración.</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.title">
+      <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
         <source>Success!</source>
+        <target>¡Hecho!</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message1">
+      <trans-unit id="macosinstaller.conclusion.message1" xml:space="preserve">
         <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
+        <target>El VPN de Mozilla está instalado exitosamente. Ve a la carpeta Aplicaciones para abrir el VPN y empezar a tomar el control de tu privacidad en línea.</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message2">
+      <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
         <source>Trouble with this installation?</source>
+        <target>¿Problemas con esta instalación?</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message3">
+      <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
         <source>Get help.</source>
+        <target>Obtener ayuda.</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/models/feedbackcategorymodel.cpp" datatype="cpp" source-language="en" target-language="es-CL">
     <body>
-      <trans-unit id="feedback.category.bugError">
+      <trans-unit id="feedback.category.bugError" xml:space="preserve">
         <source>Product Bugs/Errors</source>
+        <target>Errores/fallos del producto</target>
       </trans-unit>
-      <trans-unit id="feedback.category.networkSpeed">
+      <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
         <source>Network Connection/Speed</source>
+        <target>Conexión/velocidad de red</target>
       </trans-unit>
-      <trans-unit id="feedback.category.productQuality">
+      <trans-unit id="feedback.category.productQuality" xml:space="preserve">
         <source>Product Quality</source>
+        <target>Calidad del producto</target>
       </trans-unit>
-      <trans-unit id="feedback.category.accessToService">
+      <trans-unit id="feedback.category.accessToService" xml:space="preserve">
         <source>Access to service</source>
+        <target>Acceso al servicio</target>
       </trans-unit>
-      <trans-unit id="feedback.category.compatibility">
+      <trans-unit id="feedback.category.compatibility" xml:space="preserve">
         <source>Compatibility</source>
+        <target>Compatibilidad</target>
       </trans-unit>
-      <trans-unit id="feedback.category.easeToUse">
+      <trans-unit id="feedback.category.easeToUse" xml:space="preserve">
         <source>Ease of Use</source>
+        <target>Facilidad de uso</target>
       </trans-unit>
-      <trans-unit id="feedback.category.other">
+      <trans-unit id="feedback.category.other" xml:space="preserve">
         <source>Other</source>
+        <target>Otro</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="es-CL">
     <body>
-      <trans-unit id="help.viewLog">
+      <trans-unit id="help.viewLog" xml:space="preserve">
         <source>View log</source>
+        <target>Ver registro</target>
       </trans-unit>
-      <trans-unit id="help.helpCenter">
+      <trans-unit id="help.helpCenter" xml:space="preserve">
         <source>Help Center</source>
+        <target>Centro de ayuda</target>
       </trans-unit>
-      <trans-unit id="help.contactUs">
+      <trans-unit id="help.contactUs" xml:space="preserve">
         <source>Contact us</source>
+        <target>Contáctanos</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="es-CL">
     <body>
-      <trans-unit id="vpn.systray.statusSwitch.title">
+      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>Servidores VPN conmutados</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusSwtich.message">
+      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
         <source>Switched from %1, %2 to %3, %4</source>
+        <target>Cambiado de %1, %2 a %3, %4</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.title">
+      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN conectado</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.message">
+      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
         <source>Connected to %1, %2</source>
+        <target>Conectado a %1, %2</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.title">
+      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
         <source>VPN Disconnected</source>
+        <target>VPN desconectado</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.message">
+      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
         <source>Disconnected from %1, %2</source>
+        <target>Desconectado de %1, %2</target>
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/platforms/android/androidcontroller.cpp" datatype="cpp" source-language="en" target-language="es-CL">
     <body>
-      <trans-unit id="vpn.android.notification.isIDLE">
+      <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
         <source>Ready for you to connect</source>
+        <target>Listo para que te conectes</target>
         <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="es-CL">
     <body>
-      <trans-unit id="menubar.file.title">
+      <trans-unit id="menubar.file.title" xml:space="preserve">
         <source>File</source>
+        <target>Archivo</target>
       </trans-unit>
-      <trans-unit id="menubar.file.close">
+      <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
+        <target>Cerrar</target>
       </trans-unit>
-      <trans-unit id="menubar.help.title">
+      <trans-unit id="menubar.help.title" xml:space="preserve">
         <source>Help</source>
+        <target>Ayuda</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="es-CL">
     <body>
-      <trans-unit id="systray.hide">
+      <trans-unit id="systray.hide" xml:space="preserve">
         <source>Hide Mozilla VPN</source>
+        <target>Ocultar VPN de Mozilla</target>
       </trans-unit>
-      <trans-unit id="systray.show">
+      <trans-unit id="systray.show" xml:space="preserve">
         <source>Show Mozilla VPN</source>
+        <target>Mostrar VPN de Mozilla</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectedTo">
+      <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
         <source>Connected to:</source>
+        <target>Conectado a:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectTo">
+      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
         <source>Connect to the last location:</source>
+        <target>Conectar a la última ubicación:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.connectingTo">
+      <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
         <source>Connecting to:</source>
+        <target>Conectando a:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.status.disconnectingFrom">
+      <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
         <source>Disconnecting from:</source>
+        <target>Desconectando de:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.location">
+      <trans-unit id="vpn.systray.location" xml:space="preserve">
         <source>%1, %2</source>
+        <target>%1, %2</target>
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork.title">
+      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
         <source>Unsecured Wi-Fi network detected</source>
+        <target>Red Wi-Fi insegura detectaa</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork2.message">
+      <trans-unit id="vpn.systray.unsecuredNetwork2.message" xml:space="preserve">
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
+        <target>%1 no es segura. Haz clic aquí para activar el VPN y asegurar tu dispositivo.</target>
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock.title">
+      <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
+        <target>Portal Wi-Fi para invitados bloqueado</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock2.message">
+      <trans-unit id="vpn.systray.captivePortalBlock2.message" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
+        <target>La red Wi-Fi a la que estás conectado requiere una acción. Haz clic aquí para desactivar el VPN para ver el portal.</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock.title">
+      <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
         <source>Guest Wi-Fi portal detected</source>
+        <target>Portal Wi-Fi para invitados detectado</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock2.message">
+      <trans-unit id="vpn.systray.captivePortalUnblock2.message" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
+        <target>Puede que la red Wi-Fi a la que estás conectado no sea segura. Haz clic aquí para activar el VPN para proteger tu dispositivo.</target>
       </trans-unit>
-      <trans-unit id="systray.disconnect">
+      <trans-unit id="systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
+        <target>Desconectar</target>
       </trans-unit>
-      <trans-unit id="systray.help">
+      <trans-unit id="systray.help" xml:space="preserve">
         <source>Help</source>
+        <target>Ayuda</target>
       </trans-unit>
-      <trans-unit id="systray.preferences">
+      <trans-unit id="systray.preferences" xml:space="preserve">
         <source>Preferences…</source>
+        <target>Preferencias…</target>
       </trans-unit>
-      <trans-unit id="systray.quit">
+      <trans-unit id="systray.quit" xml:space="preserve">
         <source>Quit Mozilla VPN</source>
+        <target>Salir de Mozilla VPN</target>
       </trans-unit>
     </body>
   </file>
