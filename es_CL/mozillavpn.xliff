@@ -934,87 +934,108 @@
         <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
         <target>Transmite, descarga y juega sin límites, cuotas mensuales o limitaciones del ISP.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.4">
+      <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
         <source>No online activity logs</source>
+        <target>Sin registros de actividad en línea</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.4">
+      <trans-unit id="vpn.onboarding.subtitle.4" xml:space="preserve">
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
+        <target>Nos comprometemos a no monitorear o registrar tu historial de navegación o de red.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.skip">
+      <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
         <source>Skip</source>
+        <target>Saltar</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.next">
+      <trans-unit id="vpn.onboarding.next" xml:space="preserve">
         <source>Next</source>
+        <target>Siguiente</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewSubscriptionNeeded.qml" datatype="plaintext" source-language="en" target-language="es-CL">
     <body>
-      <trans-unit id="vpn.subscription.featureTitle1">
+      <trans-unit id="vpn.subscription.featureTitle1" xml:space="preserve">
         <source>No activity logs</source>
+        <target>Sin registros de actividad</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureTitle4">
+      <trans-unit id="vpn.subscription.featureTitle4" xml:space="preserve">
         <source>Connect up to %1 devices</source>
+        <target>Conecta hasta %1 dispositivos</target>
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
       </trans-unit>
-      <trans-unit id="vpn.subscription.title">
+      <trans-unit id="vpn.subscription.title" xml:space="preserve">
         <source>Subscribe for %1/mo</source>
+        <target>Suscríbete por %1 al mes</target>
         <note annotates="source" from="developer">“/mo” stands for “per month”. %1 is replaced by the cost (including currency).</note>
       </trans-unit>
-      <trans-unit id="vpn.subscription.moneyBackGuarantee">
+      <trans-unit id="vpn.subscription.moneyBackGuarantee" xml:space="preserve">
         <source>30-day money-back guarantee</source>
+        <target>30 días de garantía de devolución de dinero</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle2">
+      <trans-unit id="vpn.subscription.featureSubtitle2" xml:space="preserve">
         <source>We encrypt your entire device.</source>
+        <target>Ciframos todo tu dispositivo.</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle3">
+      <trans-unit id="vpn.subscription.featureSubtitle3" xml:space="preserve">
         <source>Protect your access to the web.</source>
+        <target>Protege tu acceso a la web.</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle4">
+      <trans-unit id="vpn.subscription.featureSubtitle4" xml:space="preserve">
         <source>We won’t restrict your bandwidth.</source>
+        <target>No restringimos tu ancho de banda.</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle1">
+      <trans-unit id="vpn.subscription.featureSubtitle1" xml:space="preserve">
         <source>We’re Mozilla. We’re on your side.</source>
+        <target>Somos Mozilla. Estamos de tu lado.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.subscribeNow">
+      <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
+        <target>Suscríbete ahora</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewUpdate.qml" datatype="plaintext" source-language="en" target-language="es-CL">
     <body>
-      <trans-unit id="vpn.updates.updateRecomended">
+      <trans-unit id="vpn.updates.updateRecomended" xml:space="preserve">
         <source>Update recommended</source>
+        <target>Actualización recomendada</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRecomended.description">
+      <trans-unit id="vpn.updates.updateRecomended.description" xml:space="preserve">
         <source>Please update the app before you continue to use the VPN</source>
+        <target>Por favor, actualiza la aplicación antes de continuar utilizando el VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequired">
+      <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
         <source>Update required</source>
+        <target>Actualización requerida</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequire.reason">
+      <trans-unit id="vpn.updates.updateRequire.reason" xml:space="preserve">
         <source>We detected and fixed a serious bug. You must update your app.</source>
+        <target>Detectamos y solucionamos un problema serio. Debes actualizar tu app.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
+      <trans-unit id="vpn.updates.updateConnectionInsecureWarning" xml:space="preserve">
         <source>Your connection will not be secure while you update.</source>
+        <target>Tu conexión no será segura mientras actualizas.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.notNow">
+      <trans-unit id="vpn.updates.notNow" xml:space="preserve">
         <source>Not now</source>
+        <target>Ahora no</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="es-CL">
     <body>
-      <trans-unit id="vpn.connectionInfo.loading">
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
         <source>Loading</source>
+        <target>Cargando</target>
         <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
       </trans-unit>
     </body>
   </file>
   <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="es-CL">
     <body>
-      <trans-unit id="macosinstaller.title">
+      <trans-unit id="macosinstaller.title" xml:space="preserve">
         <source>Mozilla VPN for macOS</source>
+        <target>Mozilla VPN para macOS</target>
       </trans-unit>
       <trans-unit id="macosinstaller.unsupported_version.title">
         <source>Unable to install</source>
