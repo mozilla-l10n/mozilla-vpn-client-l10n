@@ -224,16 +224,11 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNExpandableAppList.qml" datatype="plaintext" source-language="en" target-language="es-MX">
-    <body>
-      <trans-unit id="vpn.appList.selectAll" xml:space="preserve">
-        <source>Select all</source>
-        <target>Seleccionar todo</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/components/VPNGetHelp.qml" datatype="plaintext" source-language="en" target-language="es-MX">
     <body>
+      <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
+        <source>Get help</source>
+      </trans-unit>
       <trans-unit id="vpn.main.getHelp" xml:space="preserve">
         <source>Get Help</source>
         <target>Obtener ayuda</target>
@@ -390,15 +385,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNTextInput.qml" datatype="plaintext" source-language="en" target-language="es-MX">
-    <body>
-      <trans-unit id="vpn.settings.inputValue.invalid" xml:space="preserve">
-        <source>The entered value is invalid</source>
-        <target>El valor ingresado no es válido</target>
-        <note annotates="source" from="developer">Associated to an inputfield for a setting</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/components/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="es-MX">
     <body>
       <trans-unit id="vpn.toggle.on" xml:space="preserve">
@@ -437,57 +423,21 @@
         <source>Invalid IP address</source>
         <target>Dirección IP inválida</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
-        <source>We currently support only IPv4 IP addresses</source>
-      </trans-unit>
       <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
         <source>Out of range IP address</source>
         <target>Dirección IP fuera de rango</target>
       </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="es-MX">
-    <body>
-      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
-        <source>VPN must be off to edit these settings</source>
-        <target>La VPN debe estar desactivado para editar estos ajustes</target>
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.networking" xml:space="preserve">
-        <source>Network settings</source>
-        <target>Configuración de la red</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
-        <source>IPv6</source>
-        <target>IPv6</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.ipv6.description" xml:space="preserve">
-        <source>Push the internet forward with the latest version of the Internet Protocol</source>
-        <target>Lleva Internet más allá con la última versión del Protocolo de Internet</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
-        <source>Local network access</source>
-        <target>Acceso a la red local</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess.description" xml:space="preserve">
-        <source>Access printers, streaming sticks and all other devices on your local network</source>
-        <target>Acceder a impresoras, dispositivos de transmisión y todos los demás dispositivos en tu red local</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.useGatewayDNS" xml:space="preserve">
-        <source>Use local DNS</source>
-        <target>Usar DNS local</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.useGatewayDNS.resolveWebsiteDomainNames" xml:space="preserve">
-        <source>Resolve website domain names using a DNS in your local network</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.networking.advancedDNSSettings" xml:space="preserve">
-        <source>Advanced DNS Settings</source>
-        <target>Configuración avanzada de DNS</target>
+      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
+        <source>We currently support only IPv4 IP addresses</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="es-MX">
     <body>
+      <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
+        <source>App Permissions</source>
+        <target>Permisos de la aplicación</target>
+      </trans-unit>
       <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
         <source>Search Apps</source>
         <target>Buscar aplicaciones</target>
@@ -498,9 +448,8 @@
         <target>Agregar aplicación</target>
         <note annotates="source" from="developer">Button label</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
-        <source>App Permissions</source>
-        <target>Permisos de la aplicación</target>
+      <trans-unit id="vpn.settings.appPermissions2" xml:space="preserve">
+        <source>App permissions</source>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit App Permissions</source>
@@ -562,32 +511,11 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="es-MX">
+  <file original="../src/ui/settings/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="es-MX">
     <body>
       <trans-unit id="vpn.settings.giveFeedback" xml:space="preserve">
         <source>Give feedback</source>
-        <target>Enviar opinión</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.user" xml:space="preserve">
-        <source>VPN User</source>
-        <target>Usuario de VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
-        <source>Manage account</source>
-        <target>Administrar cuenta</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
-        <source>Launch VPN app on Startup</source>
-        <target>Iniciar la aplicación de VPN al inicio</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
-        <source>Privacy &amp; Security</source>
-        <target>Privacidad y seguridad</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="es-MX">
-    <body>
       <trans-unit id="vpn.feedbackForm.ratingHeadline" xml:space="preserve">
         <source>How would you describe your Mozilla VPN experience so far?</source>
         <target>¿Cómo describirías tu experiencia con Mozilla VPN hasta ahora?</target>
@@ -619,8 +547,14 @@
       <trans-unit id="vpn.feedbackForm.lowRatingResponse" xml:space="preserve">
         <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
       </trans-unit>
+      <trans-unit id="vpn.feedbackForm.averageRatingResponse" xml:space="preserve">
+        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
+      </trans-unit>
       <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse" xml:space="preserve">
         <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.goodRatingResponse" xml:space="preserve">
+        <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
         <source>Choose a Category</source>
@@ -687,6 +621,39 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="es-MX">
+    <body>
+      <trans-unit id="vpn.settings.networking" xml:space="preserve">
+        <source>Network settings</source>
+        <target>Configuración de la red</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
+        <source>IPv6</source>
+        <target>IPv6</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.ipv6.description" xml:space="preserve">
+        <source>Push the internet forward with the latest version of the Internet Protocol</source>
+        <target>Lleva Internet más allá con la última versión del Protocolo de Internet</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
+        <source>Local network access</source>
+        <target>Acceso a la red local</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.lanAccess.description" xml:space="preserve">
+        <source>Access printers, streaming sticks and all other devices on your local network</source>
+        <target>Acceder a impresoras, dispositivos de transmisión y todos los demás dispositivos en tu red local</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.networking.advancedDNSSettings" xml:space="preserve">
+        <source>Advanced DNS Settings</source>
+        <target>Configuración avanzada de DNS</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
+        <source>VPN must be off to edit these settings</source>
+        <target>La VPN debe estar desactivado para editar estos ajustes</target>
+        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="es-MX">
     <body>
       <trans-unit id="vpn.settings.notifications" xml:space="preserve">
@@ -740,6 +707,26 @@
       <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla</source>
         <target>Permitir que Mozilla VPN envié datos técnicos a Mozilla</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="es-MX">
+    <body>
+      <trans-unit id="vpn.settings.user" xml:space="preserve">
+        <source>VPN User</source>
+        <target>Usuario de VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
+        <source>Manage account</source>
+        <target>Administrar cuenta</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
+        <source>Launch VPN app on Startup</source>
+        <target>Iniciar la aplicación de VPN al inicio</target>
+      </trans-unit>
+      <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
+        <source>Privacy &amp; Security</source>
+        <target>Privacidad y seguridad</target>
       </trans-unit>
     </body>
   </file>
