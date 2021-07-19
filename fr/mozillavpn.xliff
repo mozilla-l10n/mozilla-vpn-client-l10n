@@ -224,16 +224,11 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNExpandableAppList.qml" datatype="plaintext" source-language="en" target-language="fr">
-    <body>
-      <trans-unit id="vpn.appList.selectAll" xml:space="preserve">
-        <source>Select all</source>
-        <target>Tout sélectionner</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/components/VPNGetHelp.qml" datatype="plaintext" source-language="en" target-language="fr">
     <body>
+      <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
+        <source>Get help</source>
+      </trans-unit>
       <trans-unit id="vpn.main.getHelp" xml:space="preserve">
         <source>Get Help</source>
         <target>Obtenir de l’aide</target>
@@ -390,15 +385,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNTextInput.qml" datatype="plaintext" source-language="en" target-language="fr">
-    <body>
-      <trans-unit id="vpn.settings.inputValue.invalid" xml:space="preserve">
-        <source>The entered value is invalid</source>
-        <target>La valeur saisie est invalide</target>
-        <note annotates="source" from="developer">Associated to an inputfield for a setting</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/components/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="fr">
     <body>
       <trans-unit id="vpn.toggle.on" xml:space="preserve">
@@ -437,59 +423,22 @@
         <source>Invalid IP address</source>
         <target>Adresse IP invalide</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
-        <source>We currently support only IPv4 IP addresses</source>
-        <target>Nous ne prenons actuellement en charge que les adresses IPv4</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
         <source>Out of range IP address</source>
         <target>Adresse IP hors de l’intervalle autorisé</target>
       </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="fr">
-    <body>
-      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
-        <source>VPN must be off to edit these settings</source>
-        <target>Le VPN doit être désactivé pour modifier ces paramètres</target>
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.networking" xml:space="preserve">
-        <source>Network settings</source>
-        <target>Paramètres réseau</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
-        <source>IPv6</source>
-        <target>IPv6</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.ipv6.description" xml:space="preserve">
-        <source>Push the internet forward with the latest version of the Internet Protocol</source>
-        <target>Contribuez aux progrès d’Internet en utilisant la dernière version du protocole Internet</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
-        <source>Local network access</source>
-        <target>Accès au réseau local</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess.description" xml:space="preserve">
-        <source>Access printers, streaming sticks and all other devices on your local network</source>
-        <target>Accédez aux imprimantes, aux clés de streaming et à tous les autres appareils de votre réseau local</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.useGatewayDNS" xml:space="preserve">
-        <source>Use local DNS</source>
-        <target>Utiliser le DNS local</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.useGatewayDNS.resolveWebsiteDomainNames" xml:space="preserve">
-        <source>Resolve website domain names using a DNS in your local network</source>
-        <target>Résoudre les noms de domaine des sites web en utilisant un DNS dans votre réseau local</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.networking.advancedDNSSettings" xml:space="preserve">
-        <source>Advanced DNS Settings</source>
-        <target>Paramètres DNS avancés</target>
+      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
+        <source>We currently support only IPv4 IP addresses</source>
+        <target>Nous ne prenons actuellement en charge que les adresses IPv4</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="fr">
     <body>
+      <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
+        <source>App Permissions</source>
+        <target>Permissions des applications</target>
+      </trans-unit>
       <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
         <source>Search Apps</source>
         <target>Rechercher des applications</target>
@@ -500,9 +449,8 @@
         <target>Ajouter une application</target>
         <note annotates="source" from="developer">Button label</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
-        <source>App Permissions</source>
-        <target>Permissions des applications</target>
+      <trans-unit id="vpn.settings.appPermissions2" xml:space="preserve">
+        <source>App permissions</source>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit App Permissions</source>
@@ -566,32 +514,11 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="fr">
+  <file original="../src/ui/settings/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="fr">
     <body>
       <trans-unit id="vpn.settings.giveFeedback" xml:space="preserve">
         <source>Give feedback</source>
-        <target>Donner votre avis</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.user" xml:space="preserve">
-        <source>VPN User</source>
-        <target>Utilisateur ou utilisatrice VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
-        <source>Manage account</source>
-        <target>Gérer le compte</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
-        <source>Launch VPN app on Startup</source>
-        <target>Lancer l’application VPN au démarrage</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
-        <source>Privacy &amp; Security</source>
-        <target>Vie privée et sécurité</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="fr">
-    <body>
       <trans-unit id="vpn.feedbackForm.ratingHeadline" xml:space="preserve">
         <source>How would you describe your Mozilla VPN experience so far?</source>
         <target>Comment décririez-vous votre expérience de Mozilla VPN jusqu’à présent ?</target>
@@ -624,9 +551,15 @@
         <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
         <target>Nous sommes désolés d’apprendre que vous avez eu une mauvaise expérience. Merci de nous indiquer comment nous pouvons nous améliorer.</target>
       </trans-unit>
+      <trans-unit id="vpn.feedbackForm.averageRatingResponse" xml:space="preserve">
+        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
+      </trans-unit>
       <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse" xml:space="preserve">
         <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
         <target>Nous aimerions savoir ce que nous pouvons faire pour améliorer Mozilla VPN. Merci de nous faire part de tout commentaire spécifique ici.</target>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.goodRatingResponse" xml:space="preserve">
+        <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
         <source>Choose a Category</source>
@@ -694,6 +627,39 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="fr">
+    <body>
+      <trans-unit id="vpn.settings.networking" xml:space="preserve">
+        <source>Network settings</source>
+        <target>Paramètres réseau</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
+        <source>IPv6</source>
+        <target>IPv6</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.ipv6.description" xml:space="preserve">
+        <source>Push the internet forward with the latest version of the Internet Protocol</source>
+        <target>Contribuez aux progrès d’Internet en utilisant la dernière version du protocole Internet</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
+        <source>Local network access</source>
+        <target>Accès au réseau local</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.lanAccess.description" xml:space="preserve">
+        <source>Access printers, streaming sticks and all other devices on your local network</source>
+        <target>Accédez aux imprimantes, aux clés de streaming et à tous les autres appareils de votre réseau local</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.networking.advancedDNSSettings" xml:space="preserve">
+        <source>Advanced DNS Settings</source>
+        <target>Paramètres DNS avancés</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
+        <source>VPN must be off to edit these settings</source>
+        <target>Le VPN doit être désactivé pour modifier ces paramètres</target>
+        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="fr">
     <body>
       <trans-unit id="vpn.settings.notifications" xml:space="preserve">
@@ -747,6 +713,26 @@
       <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla</source>
         <target>Autoriser Mozilla VPN à envoyer des données techniques à Mozilla</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="fr">
+    <body>
+      <trans-unit id="vpn.settings.user" xml:space="preserve">
+        <source>VPN User</source>
+        <target>Utilisateur ou utilisatrice VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
+        <source>Manage account</source>
+        <target>Gérer le compte</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
+        <source>Launch VPN app on Startup</source>
+        <target>Lancer l’application VPN au démarrage</target>
+      </trans-unit>
+      <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
+        <source>Privacy &amp; Security</source>
+        <target>Vie privée et sécurité</target>
       </trans-unit>
     </body>
   </file>
