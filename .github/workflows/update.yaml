@@ -34,18 +34,28 @@ jobs:
         run: |
           # Manually add QT executables to path
           export PATH=/opt/qt515/bin:$PATH
+          # Ensure that the folder to store the .ts file exists
+          mkdir -p vpn/translations/en
           lupdate -version
           lupdate vpn/src/src.pro -ts
           # Store translations from the "main" branch in translations.ts
-          cp vpn/translations/mozillavpn_en.ts translations.ts
+          cp vpn/translations/en/mozillavpn_en.ts translations.ts
           # Store translations for each branch in branch.ts, then convert them
           # from both main and branch, with precedence to the former.
           for branch in $(cd vpn && git branch -r | grep origin/releases); do
             echo Importing strings from $branch
             cd vpn && git checkout $branch
             cd ..
+            # Ensure that the folder to store the .ts file exists
+            mkdir -p vpn/translations/en
             lupdate vpn/src/src.pro -ts
-            cp vpn/translations/mozillavpn_en.ts branch.ts
+            # Older branches can have mozillavpn_en.ts in a different path
+            if [ -f "vpn/translations/en/mozillavpn_en.ts" ]
+            then
+              cp vpn/translations/en/mozillavpn_en.ts branch.ts
+            else
+              cp vpn/translations/mozillavpn_en.ts branch.ts
+            fi
             lconvert -i translations.ts branch.ts -o tmp.ts
             mv tmp.ts translations.ts
             rm branch.ts
