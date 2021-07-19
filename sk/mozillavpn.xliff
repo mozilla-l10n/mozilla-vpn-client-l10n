@@ -15,9 +15,15 @@
   </file>
   <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
+      <trans-unit id="vpn.aboutUs.tos2" xml:space="preserve">
+        <source>Terms of service</source>
+      </trans-unit>
       <trans-unit id="vpn.aboutUs.tos" xml:space="preserve">
         <source>Terms of Service</source>
         <target>Podmienky používania služby</target>
+      </trans-unit>
+      <trans-unit id="vpn.aboutUs.privacyNotice2" xml:space="preserve">
+        <source>Privacy notice</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.privacyNotice" xml:space="preserve">
         <source>Privacy Notice</source>
@@ -38,6 +44,10 @@
       <trans-unit id="vpn.main.productDescription" xml:space="preserve">
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
         <target>Rýchle, bezpečné a ľahko použiteľné VPN. Od tvorcov Firefoxu.</target>
+      </trans-unit>
+      <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
+        <source>Release version</source>
+        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
         <source>Release Version</source>
@@ -311,6 +321,9 @@
   </file>
   <file original="../src/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
+      <trans-unit id="vpn.main.signOut2" xml:space="preserve">
+        <source>Sign out</source>
+      </trans-unit>
       <trans-unit id="vpn.main.signOut" xml:space="preserve">
         <source>Sign Out</source>
         <target>Odhlásiť sa</target>
@@ -395,6 +408,9 @@
   </file>
   <file original="../src/ui/settings/ViewAdvancedDNSSettings.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
+      <trans-unit id="vpn.settings.advancedDNSSettings.title2" xml:space="preserve">
+        <source>Advanced DNS settings</source>
+      </trans-unit>
       <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
         <source>Advanced DNS Settings</source>
       </trans-unit>
@@ -646,6 +662,9 @@
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
         <target>Upozorníme vás, ak sa pripojíte k nezabezpečenej sieti Wi-Fi</target>
       </trans-unit>
+      <trans-unit id="vpn.settings.notification.serverSwitch2" xml:space="preserve">
+        <source>Server switching notification</source>
+      </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch" xml:space="preserve">
         <source>Server Switching Notification</source>
         <target>Oznámenie o prepnutí servera</target>
@@ -653,6 +672,9 @@
       <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
         <source>Get notified when you successfully switched servers</source>
         <target>Zobraziť upozornenie po úspešnom prepnutí servera</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
+        <source>Connection change notification</source>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange" xml:space="preserve">
         <source>Connection Change Notification</source>
@@ -694,9 +716,15 @@
         <source>Launch VPN app on Startup</source>
         <target>Otvoriť aplikáciu pri spustení</target>
       </trans-unit>
+      <trans-unit id="vpn.settings.runOnBoot2" xml:space="preserve">
+        <source>Launch VPN app on startup</source>
+      </trans-unit>
       <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
         <source>Privacy &amp; Security</source>
         <target>Súkromie a bezpečnosť</target>
+      </trans-unit>
+      <trans-unit id="vpn.main.privacySecurity2" xml:space="preserve">
+        <source>Privacy &amp; security</source>
       </trans-unit>
     </body>
   </file>
@@ -1072,6 +1100,9 @@
       <trans-unit id="help.viewLog" xml:space="preserve">
         <source>View log</source>
         <target>Zobraziť denník</target>
+      </trans-unit>
+      <trans-unit id="help.helpCenter2" xml:space="preserve">
+        <source>Help center</source>
       </trans-unit>
       <trans-unit id="help.helpCenter" xml:space="preserve">
         <source>Help Center</source>
