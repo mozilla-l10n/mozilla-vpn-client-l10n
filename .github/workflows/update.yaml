@@ -39,7 +39,7 @@ jobs:
           lupdate -version
           lupdate vpn/src/src.pro -ts
           # Store translations from the "main" branch in translations.ts
-          cp vpn/translations/en/mozillavpn_en.ts translations.ts
+          mv vpn/translations/en/mozillavpn_en.ts translations.ts
           # Store translations for each branch in branch.ts, then convert them
           # from both main and branch, with precedence to the former.
           for branch in $(cd vpn && git branch -r | grep origin/releases); do
@@ -52,9 +52,9 @@ jobs:
             # Older branches can have mozillavpn_en.ts in a different path
             if [ -f "vpn/translations/en/mozillavpn_en.ts" ]
             then
-              cp vpn/translations/en/mozillavpn_en.ts branch.ts
+              mv vpn/translations/en/mozillavpn_en.ts branch.ts
             else
-              cp vpn/translations/mozillavpn_en.ts branch.ts
+              mv vpn/translations/mozillavpn_en.ts branch.ts
             fi
             lconvert -i translations.ts branch.ts -o tmp.ts
             mv tmp.ts translations.ts
