@@ -18,17 +18,17 @@
       <trans-unit id="vpn.aboutUs.tos2" xml:space="preserve">
         <source>Terms of service</source>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.tos" xml:space="preserve">
-        <source>Terms of Service</source>
-        <target>Όροι υπηρεσίας</target>
-      </trans-unit>
       <trans-unit id="vpn.aboutUs.privacyNotice2" xml:space="preserve">
         <source>Privacy notice</source>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.privacyNotice" xml:space="preserve">
-        <source>Privacy Notice</source>
-        <target>Σημείωση απορρήτου</target>
+      <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
+        <source>Release version</source>
+        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
       </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="el">
+    <body>
       <trans-unit id="vpn.aboutUs.license" xml:space="preserve">
         <source>License</source>
         <target>Άδεια</target>
@@ -45,14 +45,18 @@
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
         <target>Ένα γρήγορο, ασφαλές και εύχρηστο VPN. Από τους δημιουργούς του Firefox.</target>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
-        <source>Release version</source>
-        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
-      </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
         <source>Release Version</source>
         <target>Έκδοση</target>
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
+      </trans-unit>
+      <trans-unit id="vpn.aboutUs.tos" xml:space="preserve">
+        <source>Terms of Service</source>
+        <target>Όροι υπηρεσίας</target>
+      </trans-unit>
+      <trans-unit id="vpn.aboutUs.privacyNotice" xml:space="preserve">
+        <source>Privacy Notice</source>
+        <target>Σημείωση απορρήτου</target>
       </trans-unit>
     </body>
   </file>
@@ -83,11 +87,6 @@
         <target>IPv4:</target>
         <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IPv4 address.</note>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.ip" xml:space="preserve">
-        <source>IP:</source>
-        <target>IP:</target>
-        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
-      </trans-unit>
       <trans-unit id="vpn.connectionInfo.ip2" xml:space="preserve">
         <source>IP:</source>
         <target>IP:</target>
@@ -111,6 +110,11 @@
       <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
         <source>Close</source>
         <target>Κλείσιμο</target>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.ip" xml:space="preserve">
+        <source>IP:</source>
+        <target>IP:</target>
+        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
       </trans-unit>
     </body>
   </file>
@@ -324,10 +328,6 @@
       <trans-unit id="vpn.main.signOut2" xml:space="preserve">
         <source>Sign out</source>
       </trans-unit>
-      <trans-unit id="vpn.main.signOut" xml:space="preserve">
-        <source>Sign Out</source>
-        <target>Αποσύνδεση</target>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="el">
@@ -415,10 +415,10 @@
       <trans-unit id="vpn.settings.advancedDNSSettings.title2" xml:space="preserve">
         <source>Advanced DNS settings</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
-        <source>Advanced DNS Settings</source>
-        <target>Σύνθετες ρυθμίσεις DNS</target>
-      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/settings/ViewAdvancedDNSSettings.qml" datatype="plaintext" source-language="en" target-language="el">
+    <body>
       <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
         <source>Use default DNS</source>
         <target>Χρήση προεπιλεγμένου DNS</target>
@@ -439,22 +439,22 @@
         <source>Invalid IP address</source>
         <target>Μη έγκυρη διεύθυνση IP</target>
       </trans-unit>
+      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
+        <source>We currently support only IPv4 IP addresses</source>
+        <target>Προς το παρόν, υποστηρίζουμε μόνο διευθύνσεις IP IPv4</target>
+      </trans-unit>
       <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
         <source>Out of range IP address</source>
         <target>Διεύθυνση IP εκτός εμβέλειας</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
-        <source>We currently support only IPv4 IP addresses</source>
-        <target>Προς το παρόν, υποστηρίζουμε μόνο διευθύνσεις IP IPv4</target>
+      <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
+        <source>Advanced DNS Settings</source>
+        <target>Σύνθετες ρυθμίσεις DNS</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
-        <source>App Permissions</source>
-        <target>Δικαιώματα εφαρμογών</target>
-      </trans-unit>
       <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
         <source>Search Apps</source>
         <target>Αναζήτηση εφαρμογών</target>
@@ -480,19 +480,6 @@
       <trans-unit id="vpn.settings.protectSelectedApps.description" xml:space="preserve">
         <source>Choose which apps should use the VPN</source>
         <target>Επιλέξτε ποιες εφαρμογές θα χρησιμοποιούν το VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
-        <source>Protect all apps with VPN</source>
-        <target>Προστασία όλων των εφαρμογών με VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectAllApps.description" xml:space="preserve">
-        <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
-        <target>Το VPN προστατεύει όλες τις εφαρμογές από προεπιλογή. Απενεργοποιήστε αυτή τη ρύθμιση για να επιλέξετε ποιες εφαρμογές δεν πρέπει να προστατεύει το Mozilla VPN.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.excludeTitle" xml:space="preserve">
-        <source>Exclude apps from VPN protection</source>
-        <target>Εξαίρεση εφαρμογών από την προστασία VPN</target>
-        <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
         <source>VPN protects all apps by default</source>
@@ -527,6 +514,23 @@
         <source>Protect All</source>
         <target>Προστασία όλων</target>
         <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
+        <source>Protect all apps with VPN</source>
+        <target>Προστασία όλων των εφαρμογών με VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.protectAllApps.description" xml:space="preserve">
+        <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
+        <target>Το VPN προστατεύει όλες τις εφαρμογές από προεπιλογή. Απενεργοποιήστε αυτή τη ρύθμιση για να επιλέξετε ποιες εφαρμογές δεν πρέπει να προστατεύει το Mozilla VPN.</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.excludeTitle" xml:space="preserve">
+        <source>Exclude apps from VPN protection</source>
+        <target>Εξαίρεση εφαρμογών από την προστασία VPN</target>
+        <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
+        <source>App Permissions</source>
+        <target>Δικαιώματα εφαρμογών</target>
       </trans-unit>
     </body>
   </file>
@@ -567,15 +571,9 @@
         <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
         <target>Λυπούμαστε που είχατε μια κακή εμπειρία. Παρακαλούμε πείτε μας πώς μπορούμε να βελτιωθούμε.</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.averageRatingResponse" xml:space="preserve">
-        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
-      </trans-unit>
       <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse" xml:space="preserve">
         <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
         <target>Θα θέλαμε να μάθουμε πώς μπορούμε να βελτιώσουμε το Mozilla VPN. Παρακαλούμε γράψτε τυχόν συγκεκριμένα σχόλια εδώ.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.goodRatingResponse" xml:space="preserve">
-        <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
         <source>Choose a Category</source>
@@ -612,6 +610,16 @@
       <trans-unit id="vpn.feedbackform.done" xml:space="preserve">
         <source>Done</source>
         <target>Τέλος</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/settings/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="el">
+    <body>
+      <trans-unit id="vpn.feedbackForm.averageRatingResponse" xml:space="preserve">
+        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.goodRatingResponse" xml:space="preserve">
+        <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
       </trans-unit>
     </body>
   </file>
@@ -698,27 +706,31 @@
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
         <target>Λάβετε ειδοποίηση εάν συνδεθείτε σε μη ασφαλές δίκτυο Wi-Fi</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch2" xml:space="preserve">
-        <source>Server switching notification</source>
-      </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch" xml:space="preserve">
         <source>Server Switching Notification</source>
         <target>Ειδοποίηση εναλλαγής διακομιστή</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
-        <source>Get notified when you successfully switched servers</source>
-        <target>Λάβετε ειδοποίηση όταν ολοκληρωθεί επιτυχώς η εναλλαγή των διακομιστών</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
-        <source>Connection change notification</source>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange" xml:space="preserve">
         <source>Connection Change Notification</source>
         <target>Ειδοποίηση αλλαγής σύνδεσης</target>
       </trans-unit>
+      <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
+        <source>Get notified when you successfully switched servers</source>
+        <target>Λάβετε ειδοποίηση όταν ολοκληρωθεί επιτυχώς η εναλλαγή των διακομιστών</target>
+      </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
         <source>Get notified when the connection status changes</source>
         <target>Λάβετε ειδοποίηση όταν αλλάξει η κατάσταση της σύνδεσης</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="el">
+    <body>
+      <trans-unit id="vpn.settings.notification.serverSwitch2" xml:space="preserve">
+        <source>Server switching notification</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
+        <source>Connection change notification</source>
       </trans-unit>
     </body>
   </file>
@@ -752,12 +764,16 @@
         <source>Launch VPN app on Startup</source>
         <target>Εκτέλεση εφαρμογής VPN κατά την εκκίνηση</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot2" xml:space="preserve">
-        <source>Launch VPN app on startup</source>
-      </trans-unit>
       <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
         <source>Privacy &amp; Security</source>
         <target>Απόρρητο &amp; ασφάλεια</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="el">
+    <body>
+      <trans-unit id="vpn.settings.runOnBoot2" xml:space="preserve">
+        <source>Launch VPN app on startup</source>
       </trans-unit>
       <trans-unit id="vpn.main.privacySecurity2" xml:space="preserve">
         <source>Privacy &amp; security</source>
@@ -838,10 +854,6 @@
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
         <target>Προσπαθούμε να σας παρέχουμε επιλογές και να συλλέγουμε μόνο τα τεχνικά δεδομένα που χρειαζόμαστε για τη βελτίωση του Mozilla VPN. Η κοινή χρήση αυτών των δεδομένων με τη Mozilla είναι προαιρετική.</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.telemetryDisclaimer" xml:space="preserve">
-        <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
-        <target>Προσπαθούμε να σας παρέχουμε επιλογές και να συλλέγουμε μόνο τα τεχνικά δεδομένα που χρειαζόμαστε για τη βελτίωση του Mozilla VPN. Η κοινή χρήση των δεδομένων με τη Mozilla είναι προαιρετική.</target>
-      </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.allowMozillaToSendData" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla?</source>
         <target>Να επιτρέπεται στο Mozilla VPN η αποστολή τεχνικών δεδομένων στη Mozilla;</target>
@@ -861,6 +873,10 @@
       <trans-unit id="vpn.telemetryPolicy.MozillaVPNPrivacyNotice" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
         <target>Σημείωση απορρήτου Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.telemetryPolicy.telemetryDisclaimer" xml:space="preserve">
+        <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
+        <target>Προσπαθούμε να σας παρέχουμε επιλογές και να συλλέγουμε μόνο τα τεχνικά δεδομένα που χρειαζόμαστε για τη βελτίωση του Mozilla VPN. Η κοινή χρήση των δεδομένων με τη Mozilla είναι προαιρετική.</target>
       </trans-unit>
     </body>
   </file>
@@ -991,6 +1007,10 @@
         <target>Σύνδεση έως και %1 συσκευών</target>
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
       </trans-unit>
+      <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
+        <source>Subscribe now</source>
+        <target>Συνδρομή τώρα</target>
+      </trans-unit>
       <trans-unit id="vpn.subscription.title" xml:space="preserve">
         <source>Subscribe for %1/mo</source>
         <target>Συνδρομή με %1/μήνα</target>
@@ -1015,10 +1035,6 @@
       <trans-unit id="vpn.subscription.featureSubtitle1" xml:space="preserve">
         <source>We’re Mozilla. We’re on your side.</source>
         <target>Είμαστε η Mozilla. Είμαστε στο πλευρό σας.</target>
-      </trans-unit>
-      <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
-        <source>Subscribe now</source>
-        <target>Συνδρομή τώρα</target>
       </trans-unit>
     </body>
   </file>
@@ -1145,9 +1161,6 @@
         <source>View log</source>
         <target>Αρχείο καταγραφής</target>
       </trans-unit>
-      <trans-unit id="help.helpCenter2" xml:space="preserve">
-        <source>Help center</source>
-      </trans-unit>
       <trans-unit id="help.helpCenter" xml:space="preserve">
         <source>Help Center</source>
         <target>Κέντρο βοήθειας</target>
@@ -1155,6 +1168,13 @@
       <trans-unit id="help.contactUs" xml:space="preserve">
         <source>Contact us</source>
         <target>Επικοινωνία</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="el">
+    <body>
+      <trans-unit id="help.helpCenter2" xml:space="preserve">
+        <source>Help center</source>
       </trans-unit>
     </body>
   </file>
@@ -1285,6 +1305,14 @@
       <trans-unit id="systray.quit" xml:space="preserve">
         <source>Quit Mozilla VPN</source>
         <target>Κλείσιμο Mozilla VPN</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="el">
+    <body>
+      <trans-unit id="vpn.main.signOut" xml:space="preserve">
+        <source>Sign Out</source>
+        <target>Αποσύνδεση</target>
       </trans-unit>
     </body>
   </file>
