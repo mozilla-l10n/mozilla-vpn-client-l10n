@@ -19,16 +19,8 @@
         <source>Terms of service</source>
         <target>Condizioni di utilizzo del servizio</target>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.tos" xml:space="preserve">
-        <source>Terms of Service</source>
-        <target>Condizioni di utilizzo del servizio</target>
-      </trans-unit>
       <trans-unit id="vpn.aboutUs.privacyNotice2" xml:space="preserve">
         <source>Privacy notice</source>
-        <target>Informativa sulla privacy</target>
-      </trans-unit>
-      <trans-unit id="vpn.aboutUs.privacyNotice" xml:space="preserve">
-        <source>Privacy Notice</source>
         <target>Informativa sulla privacy</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.license" xml:space="preserve">
@@ -49,11 +41,6 @@
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
         <source>Release version</source>
-        <target>Versione</target>
-        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
-      </trans-unit>
-      <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
-        <source>Release Version</source>
         <target>Versione</target>
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
       </trans-unit>
@@ -85,11 +72,6 @@
         <source>IPv4:</source>
         <target>IPv4:</target>
         <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IPv4 address.</note>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.ip" xml:space="preserve">
-        <source>IP:</source>
-        <target>IP:</target>
-        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.ip2" xml:space="preserve">
         <source>IP:</source>
@@ -243,10 +225,6 @@
         <source>Get help</source>
         <target>Ottieni assistenza</target>
       </trans-unit>
-      <trans-unit id="vpn.main.getHelp" xml:space="preserve">
-        <source>Get Help</source>
-        <target>Ottieni assistenza</target>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="it">
@@ -327,10 +305,6 @@
     <body>
       <trans-unit id="vpn.main.signOut2" xml:space="preserve">
         <source>Sign out</source>
-        <target>Disconnetti</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.signOut" xml:space="preserve">
-        <source>Sign Out</source>
         <target>Disconnetti</target>
       </trans-unit>
     </body>
@@ -421,10 +395,6 @@
         <source>Advanced DNS settings</source>
         <target>Impostazioni DNS avanzate</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
-        <source>Advanced DNS Settings</source>
-        <target>Impostazioni DNS avanzate</target>
-      </trans-unit>
       <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
         <source>Use default DNS</source>
         <target>Utilizza DNS predefiniti</target>
@@ -449,18 +419,10 @@
         <source>Out of range IP address</source>
         <target>Indirizzo IP fuori intervallo</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
-        <source>We currently support only IPv4 IP addresses</source>
-        <target>Attualmente sono supportati solo indirizzi IPv4</target>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="it">
     <body>
-      <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
-        <source>App Permissions</source>
-        <target>Permessi app</target>
-      </trans-unit>
       <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
         <source>Search Apps</source>
         <target>Cerca app</target>
@@ -480,14 +442,6 @@
         <target>La VPN deve essere disattivata per modificare i permessi delle app</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps" xml:space="preserve">
-        <source>Protect specific apps</source>
-        <target>Proteggi app specifiche</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.description" xml:space="preserve">
-        <source>Choose which apps should use the VPN</source>
-        <target>Scegli quali app possono utilizzare la VPN</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
         <source>Protect all apps with VPN</source>
         <target>Proteggi tutte le app con VPN</target>
@@ -500,40 +454,6 @@
         <source>Exclude apps from VPN protection</source>
         <target>Escludi app dalla protezione VPN</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
-        <source>VPN protects all apps by default</source>
-        <target>La VPN protegge tutte le app per impostazione predefinita</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protected" xml:space="preserve">
-        <source>Protected</source>
-        <target>Protette</target>
-        <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protected.description" xml:space="preserve">
-        <source>These apps will use the VPN</source>
-        <target>Queste app useranno la VPN</target>
-        <note annotates="source" from="developer">Description for the list of apps protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotectall" xml:space="preserve">
-        <source>Unprotect All</source>
-        <target>Rimuovi protezione da tutte</target>
-        <note annotates="source" from="developer">Label for the button to remove protection from all apps currently protected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
-        <source>Unprotected</source>
-        <target>Non protette</target>
-        <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotected.description" xml:space="preserve">
-        <source>These apps will not use the VPN</source>
-        <target>Queste app non useranno la VPN</target>
-        <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectall" xml:space="preserve">
-        <source>Protect All</source>
-        <target>Proteggi tutte</target>
-        <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
       </trans-unit>
     </body>
   </file>
@@ -576,10 +496,6 @@
         <target>Ci dispiace che la tua esperienza sia stata scadente. Facci sapere come possiamo migliorare.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.averageRatingResponse" xml:space="preserve">
-        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
-        <target>Ci piacerebbe sapere cosa possiamo fare per migliorare Mozilla VPN. Condividi qualsiasi feedback qui.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse" xml:space="preserve">
         <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
         <target>Ci piacerebbe sapere cosa possiamo fare per migliorare Mozilla VPN. Condividi qualsiasi feedback qui.</target>
       </trans-unit>
@@ -712,20 +628,12 @@
         <source>Server switching notification</source>
         <target>Notifica cambio server</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch" xml:space="preserve">
-        <source>Server Switching Notification</source>
-        <target>Notifica cambio server</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
         <source>Get notified when you successfully switched servers</source>
         <target>Ricevi una notifica quando il cambio di server viene completato</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
         <source>Connection change notification</source>
-        <target>Notifica modifiche della connessione</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange" xml:space="preserve">
-        <source>Connection Change Notification</source>
         <target>Notifica modifiche della connessione</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
@@ -760,17 +668,9 @@
         <source>Manage account</source>
         <target>Gestisci account</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
-        <source>Launch VPN app on Startup</source>
-        <target>Apri l’app VPN all’avvio</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.runOnBoot2" xml:space="preserve">
         <source>Launch VPN app on startup</source>
         <target>Avvia l’app VPN all'avvio</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
-        <source>Privacy &amp; Security</source>
-        <target>Privacy e sicurezza</target>
       </trans-unit>
       <trans-unit id="vpn.main.privacySecurity2" xml:space="preserve">
         <source>Privacy &amp; security</source>
@@ -851,10 +751,6 @@
       <trans-unit id="vpn.telemetryPolicy.updatedTelemetryDisclaimer" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
         <target>Ci impegniamo a garantire la tua libertà di scelta e raccogliere solo i dati tecnici necessari per migliorare Mozilla VPN. La condivisione di questi dati con Mozilla è facoltativa.</target>
-      </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.telemetryDisclaimer" xml:space="preserve">
-        <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
-        <target>Ci impegniamo a garantire la tua libertà di scelta e raccogliere solo i dati tecnici necessari per migliorare Mozilla VPN. La condivisione dei dati con Mozilla è facoltativa.</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.allowMozillaToSendData" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla?</source>
@@ -1005,31 +901,6 @@
         <target>Connetti fino a %1 dispositivi</target>
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
       </trans-unit>
-      <trans-unit id="vpn.subscription.title" xml:space="preserve">
-        <source>Subscribe for %1/mo</source>
-        <target>Abbonati per %1 al mese</target>
-        <note annotates="source" from="developer">“/mo” stands for “per month”. %1 is replaced by the cost (including currency).</note>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.moneyBackGuarantee" xml:space="preserve">
-        <source>30-day money-back guarantee</source>
-        <target>Garanzia di rimborso di 30 giorni</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle2" xml:space="preserve">
-        <source>We encrypt your entire device.</source>
-        <target>Proteggiamo il tuo intero dispositivo.</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle3" xml:space="preserve">
-        <source>Protect your access to the web.</source>
-        <target>Proteggi il tuo accesso al Web.</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle4" xml:space="preserve">
-        <source>We won’t restrict your bandwidth.</source>
-        <target>Non limiteremo la tua larghezza di banda.</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle1" xml:space="preserve">
-        <source>We’re Mozilla. We’re on your side.</source>
-        <target>Siamo Mozilla. Siamo dalla tua parte.</target>
-      </trans-unit>
       <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
         <target>Abbonati adesso</target>
@@ -1161,10 +1032,6 @@
       </trans-unit>
       <trans-unit id="help.helpCenter2" xml:space="preserve">
         <source>Help center</source>
-        <target>Centro assistenza</target>
-      </trans-unit>
-      <trans-unit id="help.helpCenter" xml:space="preserve">
-        <source>Help Center</source>
         <target>Centro assistenza</target>
       </trans-unit>
       <trans-unit id="help.contactUs" xml:space="preserve">
