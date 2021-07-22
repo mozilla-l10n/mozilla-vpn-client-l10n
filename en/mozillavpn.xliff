@@ -536,6 +536,10 @@
       <trans-unit id="vpn.settings.networking">
         <source>Network settings</source>
       </trans-unit>
+      <trans-unit id="vpn.settings.vpnMustBeOff">
+        <source>VPN must be off to edit these settings</source>
+        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+      </trans-unit>
       <trans-unit id="vpn.settings.ipv6">
         <source>IPv6</source>
       </trans-unit>
@@ -550,10 +554,6 @@
       </trans-unit>
       <trans-unit id="vpn.settings.networking.advancedDNSSettings">
         <source>Advanced DNS Settings</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.vpnMustBeOff">
-        <source>VPN must be off to edit these settings</source>
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
     </body>
   </file>
