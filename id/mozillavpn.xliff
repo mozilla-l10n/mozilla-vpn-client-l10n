@@ -657,6 +657,11 @@
         <source>Network settings</source>
         <target>Pengaturan jaringan</target>
       </trans-unit>
+      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
+        <source>VPN must be off to edit these settings</source>
+        <target>VPN harus dimatikan untuk mengubah pengaturan ini</target>
+        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+      </trans-unit>
       <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
         <source>IPv6</source>
         <target>IPv6</target>
@@ -676,11 +681,6 @@
       <trans-unit id="vpn.settings.networking.advancedDNSSettings" xml:space="preserve">
         <source>Advanced DNS Settings</source>
         <target>Pengaturan DNS Tingkat Lanjut</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
-        <source>VPN must be off to edit these settings</source>
-        <target>VPN harus dimatikan untuk mengubah pengaturan ini</target>
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
     </body>
   </file>
