@@ -55,6 +55,16 @@ def main():
             file_name = f.get("original").replace("../../src/", "../src/")
             f.set("original", file_name)
 
+    # Normalize path for strings generated from strings.yaml, removing "../"
+    # (more than once if necessary).
+    for f in root.xpath("//x:file", namespaces=NS):
+        if "original" in f.attrib:
+            file_name = f.get("original")
+            if "l18nstrings_p.cpp" in file_name:
+                while file_name.startswith("../"):
+                    file_name = file_name.lstrip("../")
+                f.set("original", file_name)
+
     # Remove targets (i.e. translations) if present, since this is the reference
     # locale
     for target in root.xpath("//x:target", namespaces=NS):

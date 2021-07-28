@@ -34,8 +34,10 @@ jobs:
         run: |
           # Manually add QT executables to path
           export PATH=/opt/qt515/bin:$PATH
-          # Ensure that the folder to store the .ts file exists
+          # Ensure that the folder to store the .ts file exists, generate
+          # strings from strings.yaml
           mkdir -p vpn/translations/en
+          python vpn/scripts/generate_strings.py
           lupdate -version
           lupdate vpn/src/src.pro -ts
           # Store translations from the "main" branch in translations.ts
@@ -46,8 +48,13 @@ jobs:
             echo Importing strings from $branch
             cd vpn && git checkout $branch
             cd ..
-            # Ensure that the folder to store the .ts file exists
+            # Ensure that the folder to store the .ts file exists, generate
+            # strings from strings.yaml
             mkdir -p vpn/translations/en
+            if [ -f "vpn/scripts/generate_strings.py" ]
+            then
+              python vpn/scripts/generate_strings.py
+            fi
             lupdate vpn/src/src.pro -ts
             # Older branches can have mozillavpn_en.ts in a different path
             if [ -f "vpn/translations/en/mozillavpn_en.ts" ]
