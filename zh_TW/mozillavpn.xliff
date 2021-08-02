@@ -114,11 +114,6 @@
         <source>Close</source>
         <target>關閉</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.ip" xml:space="preserve">
-        <source>IP:</source>
-        <target>IP:</target>
-        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
@@ -245,10 +240,6 @@
     <body>
       <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
         <source>Get help</source>
-        <target>取得幫助</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.getHelp" xml:space="preserve">
-        <source>Get Help</source>
         <target>取得幫助</target>
       </trans-unit>
     </body>
@@ -480,48 +471,6 @@
         <target>必須先中斷 VPN 才能編輯應用程式權限</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps" xml:space="preserve">
-        <source>Protect specific apps</source>
-        <target>保護特定應用程式</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.description" xml:space="preserve">
-        <source>Choose which apps should use the VPN</source>
-        <target>選擇要讓哪些應用程式透過 VPN 連線</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
-        <source>VPN protects all apps by default</source>
-        <target>VPN 在預設情況下，會保護所有應用程式</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protected" xml:space="preserve">
-        <source>Protected</source>
-        <target>受保護</target>
-        <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protected.description" xml:space="preserve">
-        <source>These apps will use the VPN</source>
-        <target>下列應用程式將透過 VPN 進行連線</target>
-        <note annotates="source" from="developer">Description for the list of apps protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotectall" xml:space="preserve">
-        <source>Unprotect All</source>
-        <target>取消保護全部</target>
-        <note annotates="source" from="developer">Label for the button to remove protection from all apps currently protected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
-        <source>Unprotected</source>
-        <target>未受保護</target>
-        <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotected.description" xml:space="preserve">
-        <source>These apps will not use the VPN</source>
-        <target>下列應用程式不會透過 VPN 進行連線</target>
-        <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectall" xml:space="preserve">
-        <source>Protect All</source>
-        <target>保護全部</target>
-        <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
-      </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
         <source>Protect all apps with VPN</source>
         <target>使用 VPN 保護所有應用程式</target>
@@ -534,10 +483,6 @@
         <source>Exclude apps from VPN protection</source>
         <target>將應用程式從 VPN 保護排除</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
-        <source>App Permissions</source>
-        <target>應用程式權限</target>
       </trans-unit>
     </body>
   </file>
@@ -888,10 +833,6 @@
         <source>Mozilla VPN Privacy Notice</source>
         <target>Mozilla VPN 隱私權公告</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.telemetryDisclaimer" xml:space="preserve">
-        <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
-        <target>我們努力提供您不同選擇，也只收集我們用來改善 Mozilla VPN 所必須的技術資料。與 Mozilla 分享資料不是必要的。</target>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewDevices.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
@@ -1024,31 +965,6 @@
       <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
         <target>立即訂閱</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.title" xml:space="preserve">
-        <source>Subscribe for %1/mo</source>
-        <target>訂閱價格: 每月 %1</target>
-        <note annotates="source" from="developer">“/mo” stands for “per month”. %1 is replaced by the cost (including currency).</note>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.moneyBackGuarantee" xml:space="preserve">
-        <source>30-day money-back guarantee</source>
-        <target>30 天內保證退款</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle2" xml:space="preserve">
-        <source>We encrypt your entire device.</source>
-        <target>完整保護裝置的所有連線。</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle3" xml:space="preserve">
-        <source>Protect your access to the web.</source>
-        <target>保護您上網瀏覽。</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle4" xml:space="preserve">
-        <source>We won’t restrict your bandwidth.</source>
-        <target>我們不會限制您的可用頻寬。</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle1" xml:space="preserve">
-        <source>We’re Mozilla. We’re on your side.</source>
-        <target>我們是 Mozilla，與您站在一起。</target>
       </trans-unit>
     </body>
   </file>
