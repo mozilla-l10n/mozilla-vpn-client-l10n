@@ -114,11 +114,6 @@
         <source>Close</source>
         <target>Fermer</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.ip" xml:space="preserve">
-        <source>IP:</source>
-        <target>IP :</target>
-        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="fr">
@@ -245,10 +240,6 @@
     <body>
       <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
         <source>Get help</source>
-        <target>Obtenir de l’aide</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.getHelp" xml:space="preserve">
-        <source>Get Help</source>
         <target>Obtenir de l’aide</target>
       </trans-unit>
     </body>
@@ -480,48 +471,6 @@
         <target>Le VPN doit être désactivé pour modifier les permissions des applications</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps" xml:space="preserve">
-        <source>Protect specific apps</source>
-        <target>Protéger des applications spécifiques</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.description" xml:space="preserve">
-        <source>Choose which apps should use the VPN</source>
-        <target>Choisissez quelles applications doivent utiliser le VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.allAppsProtected" xml:space="preserve">
-        <source>VPN protects all apps by default</source>
-        <target>Le VPN protège toutes les applications par défaut</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protected" xml:space="preserve">
-        <source>Protected</source>
-        <target>Protégées</target>
-        <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protected.description" xml:space="preserve">
-        <source>These apps will use the VPN</source>
-        <target>Ces applications utiliseront le VPN</target>
-        <note annotates="source" from="developer">Description for the list of apps protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotectall" xml:space="preserve">
-        <source>Unprotect All</source>
-        <target>Retirer la protection pour toutes</target>
-        <note annotates="source" from="developer">Label for the button to remove protection from all apps currently protected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotected" xml:space="preserve">
-        <source>Unprotected</source>
-        <target>Non protégées</target>
-        <note annotates="source" from="developer">Header for the list of apps not protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unprotected.description" xml:space="preserve">
-        <source>These apps will not use the VPN</source>
-        <target>Ces applications n’utiliseront pas le VPN</target>
-        <note annotates="source" from="developer">Description for the list of apps not protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectall" xml:space="preserve">
-        <source>Protect All</source>
-        <target>Toutes les protéger</target>
-        <note annotates="source" from="developer">Label for the button to add protection to all apps currently unprotected.</note>
-      </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
         <source>Protect all apps with VPN</source>
         <target>Protéger toutes les applications avec le VPN</target>
@@ -534,10 +483,6 @@
         <source>Exclude apps from VPN protection</source>
         <target>Exclure des applications de la protection VPN</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
-      </trans-unit>
-      <trans-unit id="vpn.settings.appPermissions" xml:space="preserve">
-        <source>App Permissions</source>
-        <target>Permissions des applications</target>
       </trans-unit>
     </body>
   </file>
@@ -887,10 +832,6 @@
         <source>Mozilla VPN Privacy Notice</source>
         <target>Politique de confidentialité de Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.telemetryDisclaimer" xml:space="preserve">
-        <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
-        <target>Nous nous efforçons de vous laisser le choix et de collecter uniquement les données techniques dont nous avons besoin pour améliorer Mozilla VPN. Le partage de données avec Mozilla est facultatif.</target>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewDevices.qml" datatype="plaintext" source-language="en" target-language="fr">
@@ -1023,31 +964,6 @@
       <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
         <target>S’abonner maintenant</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.title" xml:space="preserve">
-        <source>Subscribe for %1/mo</source>
-        <target>S’abonner pour %1/mois</target>
-        <note annotates="source" from="developer">“/mo” stands for “per month”. %1 is replaced by the cost (including currency).</note>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.moneyBackGuarantee" xml:space="preserve">
-        <source>30-day money-back guarantee</source>
-        <target>Garantie de remboursement de 30 jours</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle2" xml:space="preserve">
-        <source>We encrypt your entire device.</source>
-        <target>Nous chiffrons l’ensemble de votre appareil.</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle3" xml:space="preserve">
-        <source>Protect your access to the web.</source>
-        <target>Protégez votre accès au Web.</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle4" xml:space="preserve">
-        <source>We won’t restrict your bandwidth.</source>
-        <target>Nous ne limiterons pas votre bande passante.</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.featureSubtitle1" xml:space="preserve">
-        <source>We’re Mozilla. We’re on your side.</source>
-        <target>Nous sommes Mozilla. Nous sommes de votre côté.</target>
       </trans-unit>
     </body>
   </file>
