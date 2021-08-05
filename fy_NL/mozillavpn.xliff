@@ -236,14 +236,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNGetHelp.qml" datatype="plaintext" source-language="en" target-language="fy-NL">
-    <body>
-      <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
-        <source>Get help</source>
-        <target>Help krije</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="fy-NL">
     <body>
       <trans-unit id="vpn.connectionInfo.Bps" xml:space="preserve">
@@ -739,6 +731,14 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/components/VPNGetHelp.qml" datatype="plaintext" source-language="en" target-language="fy-NL">
+    <body>
+      <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
+        <source>Get help</source>
+        <target>Help krije</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/states/StateAuthenticating.qml" datatype="plaintext" source-language="en" target-language="fy-NL">
     <body>
       <trans-unit id="vpn.authenticating.waitForSignIn" xml:space="preserve">
@@ -853,6 +853,13 @@
       <trans-unit id="vpn.errors.checkOutageUpdates" xml:space="preserve">
         <source>Check outage updates</source>
         <target>Utfalfernijingen besjen</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/views/ViewGetHelp.qml" datatype="plaintext" source-language="en" target-language="fy-NL">
+    <body>
+      <trans-unit id="vpn.settings.developer" xml:space="preserve">
+        <source>Developer Options</source>
       </trans-unit>
     </body>
   </file>
@@ -1236,6 +1243,34 @@
       <trans-unit id="systray.quit" xml:space="preserve">
         <source>Quit Mozilla VPN</source>
         <target>Mozilla VPN ôfslute</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="generated/l18nstrings_p.cpp" datatype="cpp" source-language="en" target-language="fy-NL">
+    <body>
+      <trans-unit id="vpn.serversView.searchPlaceholder" xml:space="preserve">
+        <source>Search countries</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
+        <source>No results. Try a different search</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.title" xml:space="preserve">
+        <source>Developer Options</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.showOptionTitle" xml:space="preserve">
+        <source>Show Developer Options</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.showOptionSubtitle" xml:space="preserve">
+        <source>Show or hide the developer options menu</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.useStagingTitle" xml:space="preserve">
+        <source>Use Staging Servers</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.useStagingSubtitle" xml:space="preserve">
+        <source>Staging services are used to test features before they go live to production</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
+        <source>VPN must be restarted to take effect</source>
       </trans-unit>
     </body>
   </file>
