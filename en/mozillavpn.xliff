@@ -190,13 +190,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNGetHelp.qml" datatype="plaintext" source-language="en" target-language="en-US">
-    <body>
-      <trans-unit id="vpn.main.getHelp2">
-        <source>Get help</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
       <trans-unit id="vpn.connectionInfo.Bps">
@@ -594,6 +587,13 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/components/VPNGetHelp.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.main.getHelp2">
+        <source>Get help</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/states/StateAuthenticating.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
       <trans-unit id="vpn.authenticating.waitForSignIn">
@@ -687,6 +687,13 @@
     <body>
       <trans-unit id="vpn.errors.checkOutageUpdates">
         <source>Check outage updates</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/views/ViewGetHelp.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.settings.developer">
+        <source>Developer Options</source>
       </trans-unit>
     </body>
   </file>
@@ -992,6 +999,34 @@
       </trans-unit>
       <trans-unit id="systray.quit">
         <source>Quit Mozilla VPN</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="generated/l18nstrings_p.cpp" datatype="cpp" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.serversView.searchPlaceholder">
+        <source>Search countries</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.searchNoResultsLabel">
+        <source>No results. Try a different search</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.title">
+        <source>Developer Options</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.showOptionTitle">
+        <source>Show Developer Options</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.showOptionSubtitle">
+        <source>Show or hide the developer options menu</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.useStagingTitle">
+        <source>Use Staging Servers</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.useStagingSubtitle">
+        <source>Staging services are used to test features before they go live to production</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.restartRequired">
+        <source>VPN must be restarted to take effect</source>
       </trans-unit>
     </body>
   </file>
