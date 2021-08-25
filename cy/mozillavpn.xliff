@@ -591,6 +591,7 @@
     <body>
       <trans-unit id="vpn.settings.multihop.description" xml:space="preserve">
         <source>Protect your traffic by routing it through multiple servers</source>
+        <target>Diogelwch eich traffig trwy ei gyfeirio trwy weinyddion lluosog</target>
       </trans-unit>
     </body>
   </file>
@@ -1028,6 +1029,7 @@
     <body>
       <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
         <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
+        <target>Mae'r VPN Mozilla wedi'i osod yn llwyddiannus. Rydych chi nawr yn barod i ddechrau cymryd rheolaeth o'ch preifatrwydd ar-lein.</target>
       </trans-unit>
     </body>
   </file>
@@ -1229,16 +1231,20 @@
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.excellentLabel" xml:space="preserve">
         <source>Excellent</source>
+        <target>Gwych</target>
         <note annotates="source" from="developer">One of the answers on the feedback question about the user experience with the VPN client.</note>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.reviewHeader" xml:space="preserve">
         <source>Give us 5 stars!</source>
+        <target>Rhowch 5 seren i ni!</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.reviewBody" xml:space="preserve">
         <source>If you enjoy using Mozilla VPN, would you review it? Thanks for your support!</source>
+        <target>Os ydych chi'n mwynhau defnyddio Mozilla VPN, a fyddech chi'n ei adolygu? Diolch am eich cefnogaeth!</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.leaveReviewButton" xml:space="preserve">
         <source>Leave a Review</source>
+        <target>Gadewch Adolygiad</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.title" xml:space="preserve">
         <source>Developer Options</source>
@@ -1266,59 +1272,76 @@
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppActionButton" xml:space="preserve">
         <source>Add apps manually</source>
+        <target>Ychwanegwch apiau â llaw</target>
         <note annotates="source" from="developer">Displayed in a notification as "call to action" when apps are missing from the split-tunnel settings.</note>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppMultiple" xml:space="preserve">
         <source>%1 apps missing from list.</source>
+        <target>%1 ap ar goll o'r rhestr.</target>
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppAddedOne" xml:space="preserve">
         <source>Success! You added “%1” to this list.</source>
+        <target>Llwyddiant! Rydych wedi ychwanegu “%1” at y rhestr hon.</target>
         <note annotates="source" from="developer">Displayed in notification after the user added a missing app to the split-tunnel List; %1 is the name of the added application</note>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText" xml:space="preserve">
         <source>For any questions about setting app permissions, we’ve provided some helpful tips on our website.</source>
+        <target>Am unrhyw gwestiwn ar osod caniatâd apiau, mae gennym rhai awgrymiadau defnyddiol ar ein gwefan.</target>
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
         <source>Learn more</source>
+        <target>Dysgu rhagor</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA" xml:space="preserve">
         <source>Single-hop</source>
+        <target>Un-cam</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA" xml:space="preserve">
         <source>Multi-hop</source>
+        <target>Camau lluosog</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardHeader" xml:space="preserve">
         <source>What is multi-hop VPN?</source>
+        <target>Beth yw VPN camau lluosog?</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardBody" xml:space="preserve">
         <source>Multi-hop VPN routes your traffic through two servers instead of one for extra security and privacy. This may slow down your connection.</source>
+        <target>Mae VPN camau lluosog yn anfon eich traffig trwy ddau weinydd yn lle un er mwyn diogelwch a phreifatrwydd ychwanegol. Gall hyn arafu'ch cysylltiad.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopEntryLocationHeader" xml:space="preserve">
         <source>Select entry location</source>
+        <target>Dewiswch leoliad cychwyn</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopExitLocationHeader" xml:space="preserve">
         <source>Select exit location</source>
+        <target>Dewiswch leoliad gorffen</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopInfoText" xml:space="preserve">
         <source>Exit location represents your main VPN server.</source>
+        <target>Mae'r lleoliad gorffen yn cynrychioli'ch prif weinydd VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader" xml:space="preserve">
         <source>Recent connections</source>
+        <target>Cysylltiadau diweddar</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText" xml:space="preserve">
         <source>To</source>
+        <target>i</target>
         <note annotates="source" from="developer">This is alt text for an arrow showing the multi-hop route between servers. e.g. Atlanta TO Copenhagen</note>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
+        <target>Dim canlyniadau. Rhowch gynnig ar chwiliad gwahanol</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportNavLinkText" xml:space="preserve">
         <source>Contact support</source>
+        <target>Cysylltu â chefnogaeth</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldLabel" xml:space="preserve">
         <source>Enter your email</source>
+        <target>Rhowch eich e-bost</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldPlaceholder" xml:space="preserve">
         <source>Email address</source>
