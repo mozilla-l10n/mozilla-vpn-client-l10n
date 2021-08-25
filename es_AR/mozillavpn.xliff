@@ -398,50 +398,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/settings/ViewAdvancedDNSSettings.qml" datatype="plaintext" source-language="en" target-language="es-AR">
-    <body>
-      <trans-unit id="vpn.settings.advancedDNSSettings.title2" xml:space="preserve">
-        <source>Advanced DNS settings</source>
-        <target>Configuración avanzada de DNS</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewAdvancedDNSSettings.qml" datatype="plaintext" source-language="en" target-language="es-AR">
-    <body>
-      <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
-        <source>Use default DNS</source>
-        <target>Usar DNS predeterminado</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.gateway.description" xml:space="preserve">
-        <source>Automatically use Mozilla VPN-protected DNS</source>
-        <target>Usar DNS protegido por Mozilla VPN automáticamente</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.localDNS" xml:space="preserve">
-        <source>Use local DNS</source>
-        <target>Usar DNS local</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.localDNS.resolveWebsiteDomainNames" xml:space="preserve">
-        <source>Resolve website domain names using a DNS in your local network</source>
-        <target>Resolver nombres de dominio de sitio web usando un DNS en la red local</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.invalid" xml:space="preserve">
-        <source>Invalid IP address</source>
-        <target>Dirección IP inválida</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
-        <source>We currently support only IPv4 IP addresses</source>
-        <target>Actualmente solo se soportan direcciones IPv4</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
-        <source>Out of range IP address</source>
-        <target>Dirección IP fuera de rango</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
-        <source>Advanced DNS Settings</source>
-        <target>Configuración avanzada de DNS</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="es-AR">
     <body>
       <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
@@ -628,6 +584,13 @@
       <trans-unit id="vpn.settings.networking.advancedDNSSettings" xml:space="preserve">
         <source>Advanced DNS Settings</source>
         <target>Configuración avanzada de DNS</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="es-AR">
+    <body>
+      <trans-unit id="vpn.settings.multihop.description" xml:space="preserve">
+        <source>Protect your traffic by routing it through multiple servers</source>
       </trans-unit>
     </body>
   </file>
@@ -1061,6 +1024,13 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="es-AR">
+    <body>
+      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
+        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/models/feedbackcategorymodel.cpp" datatype="cpp" source-language="en" target-language="es-AR">
     <body>
       <trans-unit id="feedback.category.bugError" xml:space="preserve">
@@ -1257,6 +1227,19 @@
         <source>No results. Try a different search</source>
         <target>No hay resultados. Probá una búsqueda distinta</target>
       </trans-unit>
+      <trans-unit id="vpn.feedbackForm.excellentLabel" xml:space="preserve">
+        <source>Excellent</source>
+        <note annotates="source" from="developer">One of the answers on the feedback question about the user experience with the VPN client.</note>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.reviewHeader" xml:space="preserve">
+        <source>Give us 5 stars!</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.reviewBody" xml:space="preserve">
+        <source>If you enjoy using Mozilla VPN, would you review it? Thanks for your support!</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.leaveReviewButton" xml:space="preserve">
+        <source>Leave a Review</source>
+      </trans-unit>
       <trans-unit id="vpn.settingsDev.title" xml:space="preserve">
         <source>Developer Options</source>
         <target>Opciones de desarrollador</target>
@@ -1281,6 +1264,273 @@
         <source>VPN must be restarted to take effect</source>
         <target>La VPN debe reiniciarse para que surta efecto</target>
       </trans-unit>
+      <trans-unit id="vpn.splittunnel.missingAppActionButton" xml:space="preserve">
+        <source>Add apps manually</source>
+        <note annotates="source" from="developer">Displayed in a notification as "call to action" when apps are missing from the split-tunnel settings.</note>
+      </trans-unit>
+      <trans-unit id="vpn.splittunnel.missingAppMultiple" xml:space="preserve">
+        <source>%1 apps missing from list.</source>
+        <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
+      </trans-unit>
+      <trans-unit id="vpn.splittunnel.missingAppAddedOne" xml:space="preserve">
+        <source>Success! You added “%1” to this list.</source>
+        <note annotates="source" from="developer">Displayed in notification after the user added a missing app to the split-tunnel List; %1 is the name of the added application</note>
+      </trans-unit>
+      <trans-unit id="vpn.splittunnel.infoText" xml:space="preserve">
+        <source>For any questions about setting app permissions, we’ve provided some helpful tips on our website.</source>
+        <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
+      </trans-unit>
+      <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
+        <source>Learn more</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA" xml:space="preserve">
+        <source>Single-hop</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA" xml:space="preserve">
+        <source>Multi-hop</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.multiHopCardHeader" xml:space="preserve">
+        <source>What is multi-hop VPN?</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.multiHopCardBody" xml:space="preserve">
+        <source>Multi-hop VPN routes your traffic through two servers instead of one for extra security and privacy. This may slow down your connection.</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.multiHopEntryLocationHeader" xml:space="preserve">
+        <source>Select entry location</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.multiHopExitLocationHeader" xml:space="preserve">
+        <source>Select exit location</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.multiHopInfoText" xml:space="preserve">
+        <source>Exit location represents your main VPN server.</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader" xml:space="preserve">
+        <source>Recent connections</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText" xml:space="preserve">
+        <source>To</source>
+        <note annotates="source" from="developer">This is alt text for an arrow showing the multi-hop route between servers. e.g. Atlanta TO Copenhagen</note>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
+        <source>No results. Try a different search</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportNavLinkText" xml:space="preserve">
+        <source>Contact support</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldLabel" xml:space="preserve">
+        <source>Enter your email</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldPlaceholder" xml:space="preserve">
+        <source>Email address</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportConfirmEmailPlaceholder" xml:space="preserve">
+        <source>Confirm email address</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportFieldHeader" xml:space="preserve">
+        <source>How can we help you with Mozilla VPN?</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel" xml:space="preserve">
+        <source>Choose a category</source>
+        <note annotates="source" from="developer">A user trying to submit feedback will use this dropdown to select the general topic related to the feedback.</note>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.paymentDropdownListItem" xml:space="preserve">
+        <source>Payment and billing</source>
+        <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to payment and billing.</note>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
+        <source>Account issues</source>
+        <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.technicaDropdownListItem" xml:space="preserve">
+        <source>Technical issues</source>
+        <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to technical issues.</note>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.featureRequestDropdownListItem" xml:space="preserve">
+        <source>Request features</source>
+        <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to requesting new features.</note>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.otherDropdownListItem" xml:space="preserve">
+        <source>Other</source>
+        <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to issues not covered under the other categories.</note>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder" xml:space="preserve">
+        <source>Subject (optional)</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.issueFieldPlaceholder" xml:space="preserve">
+        <source>Describe issue</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.disclaimerText" xml:space="preserve">
+        <source>When you submit, Mozilla VPN will collect technical and interaction data with your email to help our support team understand your issue.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.privacyNoticeLinkText" xml:space="preserve">
+        <source>Mozilla VPN Privacy Notice</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportPrimaryButtonText" xml:space="preserve">
+        <source>Submit</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportSecondaryActionText" xml:space="preserve">
+        <source>Cancel</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportResponseHeader" xml:space="preserve">
+        <source>Thank you!</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody" xml:space="preserve">
+        <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
+        <note annotates="source" from="developer">The %1 represents the email used to complete the form</note>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportResponseButton" xml:space="preserve">
+        <source>Done</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorHeader" xml:space="preserve">
+        <source>Error submitting your support request</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText" xml:space="preserve">
+        <source>An unexpected error has occurred, please try again.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorButton" xml:space="preserve">
+        <source>Try Again</source>
+      </trans-unit>
+      <trans-unit id="vpn.notSignedInGoogle.googleModalHeader" xml:space="preserve">
+        <source>Sign in to Google Account</source>
+      </trans-unit>
+      <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText" xml:space="preserve">
+        <source>To continue subscribing, please sign in to your Google Account</source>
+      </trans-unit>
+      <trans-unit id="vpn.notSignedInGoogle.googleModalLinkText" xml:space="preserve">
+        <source>Go to Play Store</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader" xml:space="preserve">
+        <source>Problem confirming subscription</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorText" xml:space="preserve">
+        <source>Your subscription is linked to another Firefox Account. You may need to sign in with a different email address.</source>
+      </trans-unit>
+      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorHeader" xml:space="preserve">
+        <source>Problem confirming subscription</source>
+      </trans-unit>
+      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText" xml:space="preserve">
+        <source>An unexpected error has occurred, please try again. Visit our help center below to learn how to troubleshoot this issue or contact support.</source>
+      </trans-unit>
+      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton" xml:space="preserve">
+        <source>Try Again</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.tourModalHeader" xml:space="preserve">
+        <source>What’s new in VPN?</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.tourModalBodyText" xml:space="preserve">
+        <source>We’ve added a ton of cool features in this latest release. Take the tour to get a deeper dive into what we’ve added for you!</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.tourModalButtonText" xml:space="preserve">
+        <source>Take the tour</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.multiModalHeader" xml:space="preserve">
+        <source>Multi-hop VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.multiModalBodyText" xml:space="preserve">
+        <source>Multi-hop VPN will route your traffic through a second server for added protection. You can find this feature on the “Select location” screen.</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.supportModalButtonText" xml:space="preserve">
+        <source>Next</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.supportModalHeader" xml:space="preserve">
+        <source>In-app support form</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.supportModalBodyText" xml:space="preserve">
+        <source>The in-app support form will allow you to contact support from within the VPN app. You can find it in the “Get help” section.</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalHeader" xml:space="preserve">
+        <source>Custom DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalBodyText" xml:space="preserve">
+        <source>Custom DNS servers allow for faster speed using local networks. You can find this feature in the “Network settings” section.</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalButtonText" xml:space="preserve">
+        <source>Done</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.tourPageHeader" xml:space="preserve">
+        <source>What’s new</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.tourSubHeader" xml:space="preserve">
+        <source>Take the tour</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.multiListItemHeader" xml:space="preserve">
+        <source>Multi-hop VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.multiListItemBody" xml:space="preserve">
+        <source>Multi-hop VPN uses multiple VPN servers instead of one for extra security and privacy.</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.supportListItemHeader" xml:space="preserve">
+        <source>In-app support form</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.supportListItemBody" xml:space="preserve">
+        <source>The in-app support form will streamline the process of getting your issues resolved.</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemHeader" xml:space="preserve">
+        <source>Custom DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemBody" xml:space="preserve">
+        <source>Custom DNS settings allow for faster connection using local servers.</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifHeader" xml:space="preserve">
+        <source>What’s new in VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifBody" xml:space="preserve">
+        <source>Check out all the new features available in the latest version of Mozilla VPN!</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifCTA" xml:space="preserve">
+        <source>Take the tour</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.dnsInfoAlert" xml:space="preserve">
+        <source>VPN must be off to change these settings</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.dnsNavItem" xml:space="preserve">
+        <source>DNS settings</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.dnsDefaultToggle" xml:space="preserve">
+        <source>Default</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioHeader" xml:space="preserve">
+        <source>Use default DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioBody" xml:space="preserve">
+        <source>Automatically use Mozilla VPN-protected DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.dnsAdvancedToggle" xml:space="preserve">
+        <source>Advanced</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioHeader" xml:space="preserve">
+        <source>Use adblock DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioBody" xml:space="preserve">
+        <source>Block internet ads with VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioHeader" xml:space="preserve">
+        <source>Use anti-tracking DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioBody" xml:space="preserve">
+        <source>Block harmful domains with VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioHeader" xml:space="preserve">
+        <source>Use adblock and anti-tracking DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody" xml:space="preserve">
+        <source>Block internet ads and harmful domains with VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.dnsCustomDNSRadioHeader" xml:space="preserve">
+        <source>Use custom DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.dnsCustomDNSRadioBody" xml:space="preserve">
+        <source>Resolve websites using a custom DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.dnsFieldPlaceHolder" xml:space="preserve">
+        <source>Enter custom DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.customDNSSettings.inlineCustomDNSError" xml:space="preserve">
+        <source>Invalid DNS, please try a new one</source>
+      </trans-unit>
+      <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
+        <source>Multi-hop tunnel</source>
+      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="es-AR">
@@ -1288,6 +1538,42 @@
       <trans-unit id="vpn.main.signOut" xml:space="preserve">
         <source>Sign Out</source>
         <target>Salir</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/settings/ViewAdvancedDNSSettings.qml" datatype="plaintext" source-language="en" target-language="es-AR">
+    <body>
+      <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
+        <source>Advanced DNS Settings</source>
+        <target>Configuración avanzada de DNS</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
+        <source>Use default DNS</source>
+        <target>Usar DNS predeterminado</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.gateway.description" xml:space="preserve">
+        <source>Automatically use Mozilla VPN-protected DNS</source>
+        <target>Usar DNS protegido por Mozilla VPN automáticamente</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.localDNS" xml:space="preserve">
+        <source>Use local DNS</source>
+        <target>Usar DNS local</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.localDNS.resolveWebsiteDomainNames" xml:space="preserve">
+        <source>Resolve website domain names using a DNS in your local network</source>
+        <target>Resolver nombres de dominio de sitio web usando un DNS en la red local</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.userDNS.invalid" xml:space="preserve">
+        <source>Invalid IP address</source>
+        <target>Dirección IP inválida</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
+        <source>We currently support only IPv4 IP addresses</source>
+        <target>Actualmente solo se soportan direcciones IPv4</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
+        <source>Out of range IP address</source>
+        <target>Dirección IP fuera de rango</target>
       </trans-unit>
     </body>
   </file>
