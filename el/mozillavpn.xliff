@@ -997,7 +997,7 @@
       </trans-unit>
       <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
         <source>Click “Continue” to continue the setup.</source>
-        <target>Κάντε κλικ στο “Συνέχεια” για να συνεχίσετε με την εγκατάσταση.</target>
+        <target>Κάντε κλικ στο «Συνέχεια» για να συνεχίσετε με την εγκατάσταση.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
         <source>Success!</source>
@@ -1263,10 +1263,12 @@
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppMultiple" xml:space="preserve">
         <source>%1 apps missing from list.</source>
+        <target>Απουσιάζουν %1 εφαρμογές από τη λίστα.</target>
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppAddedOne" xml:space="preserve">
         <source>Success! You added “%1” to this list.</source>
+        <target>Επιτυχία! Προσθέσατε το «%1» στη λίστα.</target>
         <note annotates="source" from="developer">Displayed in notification after the user added a missing app to the split-tunnel List; %1 is the name of the added application</note>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText" xml:space="preserve">
@@ -1275,6 +1277,7 @@
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
         <source>Learn more</source>
+        <target>Μάθετε περισσότερα</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA" xml:space="preserve">
         <source>Single-hop</source>
@@ -1299,9 +1302,11 @@
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader" xml:space="preserve">
         <source>Recent connections</source>
+        <target>Πρόσφατες συνδέσεις</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText" xml:space="preserve">
         <source>To</source>
+        <target>Προς</target>
         <note annotates="source" from="developer">This is alt text for an arrow showing the multi-hop route between servers. e.g. Atlanta TO Copenhagen</note>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
@@ -1328,26 +1333,32 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.paymentDropdownListItem" xml:space="preserve">
         <source>Payment and billing</source>
+        <target>Πληρωμή και χρέωση</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to payment and billing.</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
         <source>Account issues</source>
+        <target>Ζητήματα λογαριασμού</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.technicaDropdownListItem" xml:space="preserve">
         <source>Technical issues</source>
+        <target>Τεχνικά ζητήματα</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to technical issues.</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.featureRequestDropdownListItem" xml:space="preserve">
         <source>Request features</source>
+        <target>Αίτημα λειτουργιών</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to requesting new features.</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.otherDropdownListItem" xml:space="preserve">
         <source>Other</source>
+        <target>Άλλο</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to issues not covered under the other categories.</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder" xml:space="preserve">
         <source>Subject (optional)</source>
+        <target>Θέμα (προαιρετικό)</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.issueFieldPlaceholder" xml:space="preserve">
         <source>Describe issue</source>
@@ -1360,12 +1371,15 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportPrimaryButtonText" xml:space="preserve">
         <source>Submit</source>
+        <target>Υποβολή</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportSecondaryActionText" xml:space="preserve">
         <source>Cancel</source>
+        <target>Ακύρωση</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseHeader" xml:space="preserve">
         <source>Thank you!</source>
+        <target>Ευχαριστούμε!</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody" xml:space="preserve">
         <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
@@ -1373,6 +1387,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseButton" xml:space="preserve">
         <source>Done</source>
+        <target>Τέλος</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorHeader" xml:space="preserve">
         <source>Error submitting your support request</source>
@@ -1385,6 +1400,7 @@
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalHeader" xml:space="preserve">
         <source>Sign in to Google Account</source>
+        <target>Σύνδεση σε λογαριασμό Google</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText" xml:space="preserve">
         <source>To continue subscribing, please sign in to your Google Account</source>
@@ -1424,6 +1440,7 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.supportModalButtonText" xml:space="preserve">
         <source>Next</source>
+        <target>Επόμενο</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.supportModalHeader" xml:space="preserve">
         <source>In-app support form</source>
@@ -1433,15 +1450,18 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalHeader" xml:space="preserve">
         <source>Custom DNS</source>
+        <target>Προσαρμοσμένο DNS</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalBodyTextNew" xml:space="preserve">
         <source>Custom DNS servers allow for faster speed using local networks, features like ad-blocking and anti-tracking. You can find this feature in the “Network settings” section.</source>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalButtonText" xml:space="preserve">
         <source>Done</source>
+        <target>Τέλος</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourPageHeader" xml:space="preserve">
         <source>What’s new</source>
+        <target>Τι νέο υπάρχει</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourSubHeader" xml:space="preserve">
         <source>Take the tour</source>
@@ -1460,6 +1480,7 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemHeader" xml:space="preserve">
         <source>Custom DNS</source>
+        <target>Προσαρμοσμένο DNS</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemBody" xml:space="preserve">
         <source>Custom DNS settings allow for faster connection using local servers.</source>
@@ -1475,12 +1496,15 @@
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsInfoAlert" xml:space="preserve">
         <source>VPN must be off to change these settings</source>
+        <target>Το VPN πρέπει να είναι ανενεργό για την αλλαγή αυτών των ρυθμίσεων</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsNavItem" xml:space="preserve">
         <source>DNS settings</source>
+        <target>Ρυθμίσεις DNS</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsDefaultToggle" xml:space="preserve">
         <source>Default</source>
+        <target>Προεπιλογή</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioHeader" xml:space="preserve">
         <source>Use default DNS</source>
