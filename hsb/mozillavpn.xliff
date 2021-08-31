@@ -23,15 +23,6 @@
         <source>Privacy notice</source>
         <target>Zdźělenka priwatnosće</target>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
-        <source>Release version</source>
-        <target>Končna wersija</target>
-        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="hsb">
-    <body>
       <trans-unit id="vpn.aboutUs.license" xml:space="preserve">
         <source>License</source>
         <target>Licenca</target>
@@ -48,6 +39,15 @@
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
         <target>Spěšny, wěsty a lochko wužiwajomny VPN. Wot wuwiwarjow Firefox wuwity.</target>
       </trans-unit>
+      <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
+        <source>Release version</source>
+        <target>Končna wersija</target>
+        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="hsb">
+    <body>
       <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
         <source>Release Version</source>
         <target>Končna wersija</target>
@@ -278,6 +278,14 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/components/VPNPopup.qml" datatype="plaintext" source-language="en" target-language="hsb">
+    <body>
+      <trans-unit id="menubar.file.close" xml:space="preserve">
+        <source>Close</source>
+        <target>Začinić</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="hsb">
     <body>
       <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
@@ -460,10 +468,6 @@
         <source>Good</source>
         <target>Dobre</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.veryGood" xml:space="preserve">
-        <source>Very good</source>
-        <target>Jara dobre</target>
-      </trans-unit>
       <trans-unit id="vpn.feedbackForm.continue" xml:space="preserve">
         <source>Continue</source>
         <target>Dale</target>
@@ -472,9 +476,13 @@
         <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
         <target>Je nam žel, zo sće špatne dožiwjenje měł. Prošu nam zdźělće, kak móžemy to polěpšić.</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse" xml:space="preserve">
+      <trans-unit id="vpn.feedbackForm.averageRatingResponse" xml:space="preserve">
         <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
         <target>Bychmy rad wědźeli, štož móžemy činić, zo bychmy Mozilla VPN polěpšili. Prošu zdźělće nam tu swoje měnjenje.</target>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.goodRatingResponse" xml:space="preserve">
+        <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
+        <target>Wjeselimy so, zo Mozilla VPN wužiwaće! Prošu zdźělće nam, kak móžemy waše dožiwjenje polěpšić.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.textAreaPlaceholder" xml:space="preserve">
         <source>Enter feedback…</source>
@@ -508,21 +516,17 @@
         <source>Done</source>
         <target>Dokónčeny</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
-        <source>Choose a Category</source>
-        <target>Wubjerće kategoriju</target>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="hsb">
     <body>
-      <trans-unit id="vpn.feedbackForm.averageRatingResponse" xml:space="preserve">
+      <trans-unit id="vpn.feedbackForm.veryGood" xml:space="preserve">
+        <source>Very good</source>
+        <target>Jara dobre</target>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse" xml:space="preserve">
         <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
         <target>Bychmy rad wědźeli, štož móžemy činić, zo bychmy Mozilla VPN polěpšili. Prošu zdźělće nam tu swoje měnjenje.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.goodRatingResponse" xml:space="preserve">
-        <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
-        <target>Wjeselimy so, zo Mozilla VPN wužiwaće! Prošu zdźělće nam, kak móžemy waše dožiwjenje polěpšić.</target>
       </trans-unit>
     </body>
   </file>
@@ -609,17 +613,17 @@
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
         <target>Dóstańće zdźělenku, hdyž so z njewěstej WLAN-syću zwjazujeće</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch" xml:space="preserve">
-        <source>Server Switching Notification</source>
+      <trans-unit id="vpn.settings.notification.serverSwitch2" xml:space="preserve">
+        <source>Server switching notification</source>
         <target>Zdźělenje wo wuměnje serwera</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange" xml:space="preserve">
-        <source>Connection Change Notification</source>
-        <target>Zdźělenje wo měnjenju zwiska</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
         <source>Get notified when you successfully switched servers</source>
         <target>Zdźělenje wo wuspěšnej wuměnje serwerow zmóžnić</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
+        <source>Connection change notification</source>
+        <target>Zdźělenje wo měnjenju zwiska</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
         <source>Get notified when the connection status changes</source>
@@ -629,12 +633,12 @@
   </file>
   <file original="../src/ui/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="hsb">
     <body>
-      <trans-unit id="vpn.settings.notification.serverSwitch2" xml:space="preserve">
-        <source>Server switching notification</source>
+      <trans-unit id="vpn.settings.notification.serverSwitch" xml:space="preserve">
+        <source>Server Switching Notification</source>
         <target>Zdźělenje wo wuměnje serwera</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
-        <source>Connection change notification</source>
+      <trans-unit id="vpn.settings.notification.connectionChange" xml:space="preserve">
+        <source>Connection Change Notification</source>
         <target>Zdźělenje wo měnjenju zwiska</target>
       </trans-unit>
     </body>
@@ -665,21 +669,13 @@
         <source>Manage account</source>
         <target>Konto rjadować</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
-        <source>Launch VPN app on Startup</source>
-        <target>VPN-nałoženje při startowanju zmóžnić</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
-        <source>Privacy &amp; Security</source>
-        <target>Priwatnosć a wěstota</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="hsb">
-    <body>
       <trans-unit id="vpn.settings.runOnBoot2" xml:space="preserve">
         <source>Launch VPN app on startup</source>
         <target>VPN-nałoženje při startowanju zmóžnić</target>
+      </trans-unit>
+      <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
+        <source>Get help</source>
+        <target>Pomoc sej wobstarać</target>
       </trans-unit>
       <trans-unit id="vpn.main.privacySecurity2" xml:space="preserve">
         <source>Privacy &amp; security</source>
@@ -687,11 +683,15 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNGetHelp.qml" datatype="plaintext" source-language="en" target-language="hsb">
+  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="hsb">
     <body>
-      <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
-        <source>Get help</source>
-        <target>Pomoc sej wobstarać</target>
+      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
+        <source>Launch VPN app on Startup</source>
+        <target>VPN-nałoženje při startowanju zmóžnić</target>
+      </trans-unit>
+      <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
+        <source>Privacy &amp; Security</source>
+        <target>Priwatnosć a wěstota</target>
       </trans-unit>
     </body>
   </file>
@@ -745,17 +745,9 @@
         <source>Get Help</source>
         <target>Pomoc sej wobstarać</target>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
-        <source>Error confirming subscription…</source>
-        <target>Zmylk při wobkrućenju abonementa…</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed" xml:space="preserve">
-        <source>Another Firefox Account has already subscribed using this Apple ID.</source>
-        <target>Druhe konto Firefox je so hižo z tutym Apple ID přizjewiło.</target>
-      </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/states/StateSubscriptionValidation.qml" datatype="plaintext" source-language="en" target-language="hsb">
+  <file original="../src/ui/states/StateSubscriptionInProgress.qml" datatype="plaintext" source-language="en" target-language="hsb">
     <body>
       <trans-unit id="vpn.subscription.pleaseWait" xml:space="preserve">
         <source>Please wait…</source>
@@ -1003,9 +995,9 @@
         <source>Success!</source>
         <target>Je so poradźiło!</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message1" xml:space="preserve">
-        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
-        <target>Mozilla VPN je so wuspěšnje zainstalował. Dźiće k swojemu rjadowakej nałoženjow, zo byšće VPN startował a kontrolu nad swojej priwatnosću online přewzał.</target>
+      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
+        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
+        <target>Mozilla VPN je so wuspěšnje instalował. Sće hotowy, kontrolu nad wašej priwatnosću online přewzać.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
         <source>Trouble with this installation?</source>
@@ -1019,9 +1011,9 @@
   </file>
   <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="hsb">
     <body>
-      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
-        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
-        <target>Mozilla VPN je so wuspěšnje instalował. Sće hotowy, kontrolu nad wašej priwatnosću online přewzać.</target>
+      <trans-unit id="macosinstaller.conclusion.message1" xml:space="preserve">
+        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
+        <target>Mozilla VPN je so wuspěšnje zainstalował. Dźiće k swojemu rjadowakej nałoženjow, zo byšće VPN startował a kontrolu nad swojej priwatnosću online přewzał.</target>
       </trans-unit>
     </body>
   </file>
@@ -1063,8 +1055,8 @@
         <source>View log</source>
         <target>Protokol pokazać</target>
       </trans-unit>
-      <trans-unit id="help.helpCenter" xml:space="preserve">
-        <source>Help Center</source>
+      <trans-unit id="help.helpCenter2" xml:space="preserve">
+        <source>Help center</source>
         <target>Centrum pomocy</target>
       </trans-unit>
       <trans-unit id="help.contactUs" xml:space="preserve">
@@ -1075,8 +1067,8 @@
   </file>
   <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="hsb">
     <body>
-      <trans-unit id="help.helpCenter2" xml:space="preserve">
-        <source>Help center</source>
+      <trans-unit id="help.helpCenter" xml:space="preserve">
+        <source>Help Center</source>
         <target>Centrum pomocy</target>
       </trans-unit>
     </body>
@@ -1126,10 +1118,6 @@
       <trans-unit id="menubar.file.title" xml:space="preserve">
         <source>File</source>
         <target>Dataja</target>
-      </trans-unit>
-      <trans-unit id="menubar.file.close" xml:space="preserve">
-        <source>Close</source>
-        <target>Začinić</target>
       </trans-unit>
       <trans-unit id="menubar.help.title" xml:space="preserve">
         <source>Help</source>
@@ -1220,6 +1208,9 @@
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
         <target>Žane wuslědki. Spytajće druhe pytanje</target>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
+        <source>Choose a category</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.excellentLabel" xml:space="preserve">
         <source>Excellent</source>
@@ -1652,6 +1643,18 @@
       <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
         <source>Out of range IP address</source>
         <target>IP-adresa zwonka wobłuka</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="hsb">
+    <body>
+      <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
+        <source>Error confirming subscription…</source>
+        <target>Zmylk při wobkrućenju abonementa…</target>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed" xml:space="preserve">
+        <source>Another Firefox Account has already subscribed using this Apple ID.</source>
+        <target>Druhe konto Firefox je so hižo z tutym Apple ID přizjewiło.</target>
       </trans-unit>
     </body>
   </file>

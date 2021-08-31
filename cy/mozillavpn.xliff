@@ -23,15 +23,6 @@
         <source>Privacy notice</source>
         <target>Hysbysiad preifatrwydd</target>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
-        <source>Release version</source>
-        <target>Fersiwn rhyddhau</target>
-        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="cy">
-    <body>
       <trans-unit id="vpn.aboutUs.license" xml:space="preserve">
         <source>License</source>
         <target>Trwydded</target>
@@ -48,6 +39,15 @@
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
         <target>VPN cyflym, diogel a hawdd ei ddefnyddio. Adeiladwyd gan wneuthurwyr Firefox.</target>
       </trans-unit>
+      <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
+        <source>Release version</source>
+        <target>Fersiwn rhyddhau</target>
+        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="cy">
+    <body>
       <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
         <source>Release Version</source>
         <target>Fersiwn Rhyddhau</target>
@@ -278,6 +278,14 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/components/VPNPopup.qml" datatype="plaintext" source-language="en" target-language="cy">
+    <body>
+      <trans-unit id="menubar.file.close" xml:space="preserve">
+        <source>Close</source>
+        <target>Cau</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="cy">
     <body>
       <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
@@ -460,10 +468,6 @@
         <source>Good</source>
         <target>Da</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.veryGood" xml:space="preserve">
-        <source>Very good</source>
-        <target>Da iawn</target>
-      </trans-unit>
       <trans-unit id="vpn.feedbackForm.continue" xml:space="preserve">
         <source>Continue</source>
         <target>Parhau</target>
@@ -472,9 +476,13 @@
         <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
         <target>Mae'n ddrwg gennym glywed eich bod wedi cael profiad gwael. Rhowch wybod i ni sut y gallwn ei wella.</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse" xml:space="preserve">
+      <trans-unit id="vpn.feedbackForm.averageRatingResponse" xml:space="preserve">
         <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
-        <target>Rydyn ni wrth ein bodd yn cael gwybod beth allwn ni ei wneud i wella Mozilla VPN. Rhannwch unrhyw adborth penodol yma.</target>
+        <target>Byddwn wrth ein bodd yn cael gwybod beth allwn ni ei wneud i wella Mozilla VPN. Rhannwch unrhyw adborth penodol yma.</target>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.goodRatingResponse" xml:space="preserve">
+        <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
+        <target>Rydyn ni'n falch eich bod chi'n mwynhau Mozilla VPN! Rhowch wybod i ni sut y gallwn ni wneud eich profiad yn well fyth.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.textAreaPlaceholder" xml:space="preserve">
         <source>Enter feedback…</source>
@@ -508,21 +516,17 @@
         <source>Done</source>
         <target>Gorffen</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
-        <source>Choose a Category</source>
-        <target>Dewiswch Gategori</target>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="cy">
     <body>
-      <trans-unit id="vpn.feedbackForm.averageRatingResponse" xml:space="preserve">
-        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
-        <target>Byddwn wrth ein bodd yn cael gwybod beth allwn ni ei wneud i wella Mozilla VPN. Rhannwch unrhyw adborth penodol yma.</target>
+      <trans-unit id="vpn.feedbackForm.veryGood" xml:space="preserve">
+        <source>Very good</source>
+        <target>Da iawn</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.goodRatingResponse" xml:space="preserve">
-        <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
-        <target>Rydyn ni'n falch eich bod chi'n mwynhau Mozilla VPN! Rhowch wybod i ni sut y gallwn ni wneud eich profiad yn well fyth.</target>
+      <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse" xml:space="preserve">
+        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
+        <target>Rydyn ni wrth ein bodd yn cael gwybod beth allwn ni ei wneud i wella Mozilla VPN. Rhannwch unrhyw adborth penodol yma.</target>
       </trans-unit>
     </body>
   </file>
@@ -609,17 +613,17 @@
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
         <target>Cewch eich hysbysu os ydych chi'n cysylltu â rhwydwaith Wi-Fi heb ei ddiogelu</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch" xml:space="preserve">
-        <source>Server Switching Notification</source>
-        <target>Hysbysiad Newid Gweinydd</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange" xml:space="preserve">
-        <source>Connection Change Notification</source>
-        <target>Hysbysiad Newid Cysylltiad</target>
+      <trans-unit id="vpn.settings.notification.serverSwitch2" xml:space="preserve">
+        <source>Server switching notification</source>
+        <target>Hysbysiad newid gweinydd</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
         <source>Get notified when you successfully switched servers</source>
         <target>Cael eich hysbysu ar ôl newid gweinydd yn llwyddiannus</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
+        <source>Connection change notification</source>
+        <target>Hysbysiad newid cysylltiad</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
         <source>Get notified when the connection status changes</source>
@@ -629,13 +633,13 @@
   </file>
   <file original="../src/ui/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="cy">
     <body>
-      <trans-unit id="vpn.settings.notification.serverSwitch2" xml:space="preserve">
-        <source>Server switching notification</source>
-        <target>Hysbysiad newid gweinydd</target>
+      <trans-unit id="vpn.settings.notification.serverSwitch" xml:space="preserve">
+        <source>Server Switching Notification</source>
+        <target>Hysbysiad Newid Gweinydd</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
-        <source>Connection change notification</source>
-        <target>Hysbysiad newid cysylltiad</target>
+      <trans-unit id="vpn.settings.notification.connectionChange" xml:space="preserve">
+        <source>Connection Change Notification</source>
+        <target>Hysbysiad Newid Cysylltiad</target>
       </trans-unit>
     </body>
   </file>
@@ -665,21 +669,13 @@
         <source>Manage account</source>
         <target>Rheoli cyfrif</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
-        <source>Launch VPN app on Startup</source>
-        <target>Cychwyn yr ap VPN wrth Gychwyn</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
-        <source>Privacy &amp; Security</source>
-        <target>Preifatrwydd a Diogelwch</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="cy">
-    <body>
       <trans-unit id="vpn.settings.runOnBoot2" xml:space="preserve">
         <source>Launch VPN app on startup</source>
         <target>Cychwyn yr ap VPN wrth gychwyn</target>
+      </trans-unit>
+      <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
+        <source>Get help</source>
+        <target>Derbyn cymorth</target>
       </trans-unit>
       <trans-unit id="vpn.main.privacySecurity2" xml:space="preserve">
         <source>Privacy &amp; security</source>
@@ -687,11 +683,15 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNGetHelp.qml" datatype="plaintext" source-language="en" target-language="cy">
+  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="cy">
     <body>
-      <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
-        <source>Get help</source>
-        <target>Derbyn cymorth</target>
+      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
+        <source>Launch VPN app on Startup</source>
+        <target>Cychwyn yr ap VPN wrth Gychwyn</target>
+      </trans-unit>
+      <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
+        <source>Privacy &amp; Security</source>
+        <target>Preifatrwydd a Diogelwch</target>
       </trans-unit>
     </body>
   </file>
@@ -745,17 +745,9 @@
         <source>Get Help</source>
         <target>Derbyn Cymorth</target>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
-        <source>Error confirming subscription…</source>
-        <target>Gwall wrth gadarnhau eich tanysgrifiad…</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed" xml:space="preserve">
-        <source>Another Firefox Account has already subscribed using this Apple ID.</source>
-        <target>Mae Cyfrif Firefox arall eisoes wedi tanysgrifio gan ddefnyddio'r ID Apple hwn.</target>
-      </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/states/StateSubscriptionValidation.qml" datatype="plaintext" source-language="en" target-language="cy">
+  <file original="../src/ui/states/StateSubscriptionInProgress.qml" datatype="plaintext" source-language="en" target-language="cy">
     <body>
       <trans-unit id="vpn.subscription.pleaseWait" xml:space="preserve">
         <source>Please wait…</source>
@@ -1003,9 +995,9 @@
         <source>Success!</source>
         <target>Llwyddiant!</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message1" xml:space="preserve">
-        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
-        <target>Mae'r Mozilla VPN wedi'i osod yn llwyddiannus. Ewch i'ch ffolder Rhaglenni i agor y VPN a dechrau rheoli eich preifatrwydd ar-lein.</target>
+      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
+        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
+        <target>Mae'r VPN Mozilla wedi'i osod yn llwyddiannus. Rydych chi nawr yn barod i ddechrau cymryd rheolaeth o'ch preifatrwydd ar-lein.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
         <source>Trouble with this installation?</source>
@@ -1019,9 +1011,9 @@
   </file>
   <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="cy">
     <body>
-      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
-        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
-        <target>Mae'r VPN Mozilla wedi'i osod yn llwyddiannus. Rydych chi nawr yn barod i ddechrau cymryd rheolaeth o'ch preifatrwydd ar-lein.</target>
+      <trans-unit id="macosinstaller.conclusion.message1" xml:space="preserve">
+        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
+        <target>Mae'r Mozilla VPN wedi'i osod yn llwyddiannus. Ewch i'ch ffolder Rhaglenni i agor y VPN a dechrau rheoli eich preifatrwydd ar-lein.</target>
       </trans-unit>
     </body>
   </file>
@@ -1063,9 +1055,9 @@
         <source>View log</source>
         <target>Gweld y cofnodion</target>
       </trans-unit>
-      <trans-unit id="help.helpCenter" xml:space="preserve">
-        <source>Help Center</source>
-        <target>Canolfan Gymorth</target>
+      <trans-unit id="help.helpCenter2" xml:space="preserve">
+        <source>Help center</source>
+        <target>Canolfan gymorth</target>
       </trans-unit>
       <trans-unit id="help.contactUs" xml:space="preserve">
         <source>Contact us</source>
@@ -1075,9 +1067,9 @@
   </file>
   <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="cy">
     <body>
-      <trans-unit id="help.helpCenter2" xml:space="preserve">
-        <source>Help center</source>
-        <target>Canolfan gymorth</target>
+      <trans-unit id="help.helpCenter" xml:space="preserve">
+        <source>Help Center</source>
+        <target>Canolfan Gymorth</target>
       </trans-unit>
     </body>
   </file>
@@ -1126,10 +1118,6 @@
       <trans-unit id="menubar.file.title" xml:space="preserve">
         <source>File</source>
         <target>Ffeil</target>
-      </trans-unit>
-      <trans-unit id="menubar.file.close" xml:space="preserve">
-        <source>Close</source>
-        <target>Cau</target>
       </trans-unit>
       <trans-unit id="menubar.help.title" xml:space="preserve">
         <source>Help</source>
@@ -1220,6 +1208,9 @@
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
         <target>Dim canlyniadau. Rhowch gynnig ar chwiliad gwahanol</target>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
+        <source>Choose a category</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.excellentLabel" xml:space="preserve">
         <source>Excellent</source>
@@ -1656,6 +1647,18 @@
       <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
         <source>Out of range IP address</source>
         <target>Cyfeiriad IP y tu allan i'r ystod</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="cy">
+    <body>
+      <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
+        <source>Error confirming subscription…</source>
+        <target>Gwall wrth gadarnhau eich tanysgrifiad…</target>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed" xml:space="preserve">
+        <source>Another Firefox Account has already subscribed using this Apple ID.</source>
+        <target>Mae Cyfrif Firefox arall eisoes wedi tanysgrifio gan ddefnyddio'r ID Apple hwn.</target>
       </trans-unit>
     </body>
   </file>

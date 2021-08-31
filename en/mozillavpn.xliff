@@ -19,14 +19,6 @@
       <trans-unit id="vpn.aboutUs.privacyNotice2">
         <source>Privacy notice</source>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.releaseVersion2">
-        <source>Release version</source>
-        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="en-US">
-    <body>
       <trans-unit id="vpn.aboutUs.license">
         <source>License</source>
       </trans-unit>
@@ -39,6 +31,14 @@
       <trans-unit id="vpn.main.productDescription">
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
       </trans-unit>
+      <trans-unit id="vpn.aboutUs.releaseVersion2">
+        <source>Release version</source>
+        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
       <trans-unit id="vpn.aboutUs.releaseVersion">
         <source>Release Version</source>
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
@@ -225,6 +225,13 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/components/VPNPopup.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="menubar.file.close">
+        <source>Close</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
       <trans-unit id="vpn.devices.removeDeviceQuestion">
@@ -372,17 +379,17 @@
       <trans-unit id="vpn.feedbackForm.good">
         <source>Good</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.veryGood">
-        <source>Very good</source>
-      </trans-unit>
       <trans-unit id="vpn.feedbackForm.continue">
         <source>Continue</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.lowRatingResponse">
         <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse">
+      <trans-unit id="vpn.feedbackForm.averageRatingResponse">
         <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.goodRatingResponse">
+        <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.textAreaPlaceholder">
         <source>Enter feedback…</source>
@@ -408,18 +415,15 @@
       <trans-unit id="vpn.feedbackform.done">
         <source>Done</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.chooseCategory">
-        <source>Choose a Category</source>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.feedbackForm.averageRatingResponse">
-        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
+      <trans-unit id="vpn.feedbackForm.veryGood">
+        <source>Very good</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.goodRatingResponse">
-        <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
+      <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse">
+        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
       </trans-unit>
     </body>
   </file>
@@ -489,14 +493,14 @@
       <trans-unit id="vpn.settings.unsecuredNetworkAlert.description">
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch">
-        <source>Server Switching Notification</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange">
-        <source>Connection Change Notification</source>
+      <trans-unit id="vpn.settings.notification.serverSwitch2">
+        <source>Server switching notification</source>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch.description">
         <source>Get notified when you successfully switched servers</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.connectionChange2">
+        <source>Connection change notification</source>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange.description">
         <source>Get notified when the connection status changes</source>
@@ -505,11 +509,11 @@
   </file>
   <file original="../src/ui/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.settings.notification.serverSwitch2">
-        <source>Server switching notification</source>
+      <trans-unit id="vpn.settings.notification.serverSwitch">
+        <source>Server Switching Notification</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange2">
-        <source>Connection change notification</source>
+      <trans-unit id="vpn.settings.notification.connectionChange">
+        <source>Connection Change Notification</source>
       </trans-unit>
     </body>
   </file>
@@ -534,28 +538,24 @@
       <trans-unit id="vpn.main.manageAccount">
         <source>Manage account</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot">
-        <source>Launch VPN app on Startup</source>
-      </trans-unit>
-      <trans-unit id="vpn.main.privacySecurity">
-        <source>Privacy &amp; Security</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="en-US">
-    <body>
       <trans-unit id="vpn.settings.runOnBoot2">
         <source>Launch VPN app on startup</source>
+      </trans-unit>
+      <trans-unit id="vpn.main.getHelp2">
+        <source>Get help</source>
       </trans-unit>
       <trans-unit id="vpn.main.privacySecurity2">
         <source>Privacy &amp; security</source>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNGetHelp.qml" datatype="plaintext" source-language="en" target-language="en-US">
+  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.main.getHelp2">
-        <source>Get help</source>
+      <trans-unit id="vpn.settings.runOnBoot">
+        <source>Launch VPN app on Startup</source>
+      </trans-unit>
+      <trans-unit id="vpn.main.privacySecurity">
+        <source>Privacy &amp; Security</source>
       </trans-unit>
     </body>
   </file>
@@ -600,15 +600,9 @@
       <trans-unit id="vpn.subscriptionBlocked.getHelp">
         <source>Get Help</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.title">
-        <source>Error confirming subscription…</source>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed">
-        <source>Another Firefox Account has already subscribed using this Apple ID.</source>
-      </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/states/StateSubscriptionValidation.qml" datatype="plaintext" source-language="en" target-language="en-US">
+  <file original="../src/ui/states/StateSubscriptionInProgress.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
       <trans-unit id="vpn.subscription.pleaseWait">
         <source>Please wait…</source>
@@ -808,8 +802,8 @@
       <trans-unit id="macosinstaller.conclusion.title">
         <source>Success!</source>
       </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message1">
-        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
+      <trans-unit id="macosinstaller.conclusion.message1_v2">
+        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message2">
         <source>Trouble with this installation?</source>
@@ -821,8 +815,8 @@
   </file>
   <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="macosinstaller.conclusion.message1_v2">
-        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
+      <trans-unit id="macosinstaller.conclusion.message1">
+        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
       </trans-unit>
     </body>
   </file>
@@ -856,8 +850,8 @@
       <trans-unit id="help.viewLog">
         <source>View log</source>
       </trans-unit>
-      <trans-unit id="help.helpCenter">
-        <source>Help Center</source>
+      <trans-unit id="help.helpCenter2">
+        <source>Help center</source>
       </trans-unit>
       <trans-unit id="help.contactUs">
         <source>Contact us</source>
@@ -866,8 +860,8 @@
   </file>
   <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="help.helpCenter2">
-        <source>Help center</source>
+      <trans-unit id="help.helpCenter">
+        <source>Help Center</source>
       </trans-unit>
     </body>
   </file>
@@ -908,9 +902,6 @@
     <body>
       <trans-unit id="menubar.file.title">
         <source>File</source>
-      </trans-unit>
-      <trans-unit id="menubar.file.close">
-        <source>Close</source>
       </trans-unit>
       <trans-unit id="menubar.help.title">
         <source>Help</source>
@@ -981,6 +972,9 @@
       </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel">
         <source>No results. Try a different search</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.chooseCategory">
+        <source>Choose a category</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.excellentLabel">
         <source>Excellent</source>
@@ -1314,6 +1308,16 @@
       </trans-unit>
       <trans-unit id="vpn.settings.userDNS.outOfRange">
         <source>Out of range IP address</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.subscriptionBlocked.title">
+        <source>Error confirming subscription…</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed">
+        <source>Another Firefox Account has already subscribed using this Apple ID.</source>
       </trans-unit>
     </body>
   </file>
