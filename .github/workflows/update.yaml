@@ -68,7 +68,7 @@ jobs:
             rm branch.ts
           done
           python translationFiles/.github/scripts/extract_source_strings.py --input translations.ts --l10n translationFiles
-          python translationFiles/.github/scripts/update_other_locales.py --reference en --xliff mozillavpn.xliff --path translationFiles/
+          python translationFiles/.github/scripts/update_other_locales.py --reference en --xliff mozillavpn.xliff --path translationFiles/ --nofile
       - run : git config --global user.email 'flodolo@users.noreply.github.com'
       - uses: peter-evans/create-pull-request@v3
         with:

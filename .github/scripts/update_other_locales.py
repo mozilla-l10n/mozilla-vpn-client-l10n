@@ -14,7 +14,7 @@
      but the source string does.
 
      If the '--nofile' argument is passed, the 'file_name' won't be used when
-     storinga translations. This allows to retain translations when a string
+     storing translations. This allows to retain translations when a string
      moves as-is from one file to another.
 
   2. Inject available translations in the reference XLIFF file, updating
