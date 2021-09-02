@@ -997,6 +997,7 @@
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
         <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
+        <target>Mozilla VPN est correctement installé. Vous pouvez maintenant prendre le contrôle de votre confidentialité en ligne.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
         <source>Trouble with this installation?</source>
@@ -1265,6 +1266,7 @@
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppAddedOne" xml:space="preserve">
         <source>Success! You added “%1” to this list.</source>
+        <target>Terminé ! Vous avez ajouté « %1 » à cette liste.</target>
         <note annotates="source" from="developer">Displayed in notification after the user added a missing app to the split-tunnel List; %1 is the name of the added application</note>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText" xml:space="preserve">
@@ -1273,6 +1275,7 @@
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
         <source>Learn more</source>
+        <target>En savoir plus</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA" xml:space="preserve">
         <source>Single-hop</source>
@@ -1288,101 +1291,130 @@
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardBody" xml:space="preserve">
         <source>Multi-hop VPN routes your traffic through two servers instead of one for extra security and privacy. This may slow down your connection.</source>
+        <target>Un VPN en cascade achemine votre trafic via deux serveurs au lieu d’un seul pour plus de sécurité et de confidentialité. Cela peut ralentir votre connexion.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopEntryLocationHeader" xml:space="preserve">
         <source>Select entry location</source>
+        <target>Sélectionnez l’emplacement d’entrée</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopExitLocationHeader" xml:space="preserve">
         <source>Select exit location</source>
+        <target>Sélectionnez l’emplacement de sortie</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopInfoText" xml:space="preserve">
         <source>Exit location represents your main VPN server.</source>
+        <target>L’emplacement de sortie représente votre serveur VPN principal.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader" xml:space="preserve">
         <source>Recent connections</source>
+        <target>Connexions récentes</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText" xml:space="preserve">
         <source>To</source>
+        <target>Vers</target>
         <note annotates="source" from="developer">This is alt text for an arrow showing the multi-hop route between servers. e.g. Atlanta TO Copenhagen</note>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
+        <target>Aucun résultat. Essayez une recherche différente</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportNavLinkText" xml:space="preserve">
         <source>Contact support</source>
+        <target>Contacter l’assistance</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldLabel" xml:space="preserve">
         <source>Enter your email</source>
+        <target>Saisissez votre adresse électronique</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldPlaceholder" xml:space="preserve">
         <source>Email address</source>
+        <target>Adresse électronique</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportConfirmEmailPlaceholder" xml:space="preserve">
         <source>Confirm email address</source>
+        <target>Confirmer l’adresse électronique</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportFieldHeader" xml:space="preserve">
         <source>How can we help you with Mozilla VPN?</source>
+        <target>Comment pouvons-nous vous aider avec Mozilla VPN ?</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel" xml:space="preserve">
         <source>Choose a category</source>
+        <target>Choisissez une catégorie</target>
         <note annotates="source" from="developer">A user trying to submit feedback will use this dropdown to select the general topic related to the feedback.</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.paymentDropdownListItem" xml:space="preserve">
         <source>Payment and billing</source>
+        <target>Paiement et facturation</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to payment and billing.</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
         <source>Account issues</source>
+        <target>Problèmes de compte</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.technicaDropdownListItem" xml:space="preserve">
         <source>Technical issues</source>
+        <target>Problèmes techniques</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to technical issues.</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.featureRequestDropdownListItem" xml:space="preserve">
         <source>Request features</source>
+        <target>Demander des fonctionnalités</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to requesting new features.</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.otherDropdownListItem" xml:space="preserve">
         <source>Other</source>
+        <target>Autre</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to issues not covered under the other categories.</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder" xml:space="preserve">
         <source>Subject (optional)</source>
+        <target>Sujet (facultatif)</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.issueFieldPlaceholder" xml:space="preserve">
         <source>Describe issue</source>
+        <target>Décrivez le problème</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.disclaimerText" xml:space="preserve">
         <source>When you submit, Mozilla VPN will collect technical and interaction data with your email to help our support team understand your issue.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.privacyNoticeLinkText" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Politique de confidentialité de Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportPrimaryButtonText" xml:space="preserve">
         <source>Submit</source>
+        <target>Envoyer</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportSecondaryActionText" xml:space="preserve">
         <source>Cancel</source>
+        <target>Annuler</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseHeader" xml:space="preserve">
         <source>Thank you!</source>
+        <target>Merci !</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody" xml:space="preserve">
         <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
+        <target>Notre équipe d’assistance vous contactera à l’adresse %1 une fois que nous aurons pu examiner votre problème.</target>
         <note annotates="source" from="developer">The %1 represents the email used to complete the form</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseButton" xml:space="preserve">
         <source>Done</source>
+        <target>Terminer</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorHeader" xml:space="preserve">
         <source>Error submitting your support request</source>
+        <target>Erreur lors de l’envoi de votre demande d’assistance</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again.</source>
+        <target>Une erreur inattendue s’est produite, veuillez réessayer.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorButton" xml:space="preserve">
         <source>Try Again</source>
+        <target>Réessayer</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalHeader" xml:space="preserve">
         <source>Sign in to Google Account</source>
