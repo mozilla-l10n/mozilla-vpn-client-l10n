@@ -86,7 +86,9 @@ def main():
                 if "…" in ref_string and "…" not in l10n_string:
                     if string_id in exceptions.get("ellipsis", {}).get(locale, []):
                         continue
-                    errors.append(f"{locale}: '…' missing in {string_id}")
+                    errors.append(
+                        f"{locale}: '…' missing in {string_id}\nText: {l10n_string}"
+                    )
 
                 # Check variables
                 ref_matches = var_pattern.findall(ref_string)
@@ -98,11 +100,13 @@ def main():
                     l10n_matches.sort()
 
                     if ref_matches != l10n_matches:
-                        errors.append(f"{locale}: variable mismatch in {string_id}")
+                        errors.append(
+                            f"{locale}: variable mismatch in {string_id}\nText: {l10n_string}"
+                        )
 
                 # Check pilcrow
                 if "¶" in l10n_string:
-                    errors.append(f"{locale}: '¶' in {string_id}")
+                    errors.append(f"{locale}: '¶' in {string_id}\nText: {l10n_string}")
 
     if errors:
         print("ERRORS:")
