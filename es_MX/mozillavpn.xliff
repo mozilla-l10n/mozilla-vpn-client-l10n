@@ -1266,10 +1266,12 @@
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppAddedOne" xml:space="preserve">
         <source>Success! You added “%1” to this list.</source>
+        <target>¡Correcto! Has agregado “%1” a esta lista.</target>
         <note annotates="source" from="developer">Displayed in notification after the user added a missing app to the split-tunnel List; %1 is the name of the added application</note>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText" xml:space="preserve">
         <source>For any questions about setting app permissions, we’ve provided some helpful tips on our website.</source>
+        <target>Para cualquier pregunta sobre cómo configurar los permisos de las aplicaciones, hemos preparado algunos consejos útiles en nuestro sitio web.</target>
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
@@ -1278,15 +1280,19 @@
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA" xml:space="preserve">
         <source>Single-hop</source>
+        <target>Salto único</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA" xml:space="preserve">
         <source>Multi-hop</source>
+        <target>Salto múltiple</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardHeader" xml:space="preserve">
         <source>What is multi-hop VPN?</source>
+        <target>¿Qué es una VPN de salto múltiple?</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardBody" xml:space="preserve">
         <source>Multi-hop VPN routes your traffic through two servers instead of one for extra security and privacy. This may slow down your connection.</source>
+        <target>La VPN de salto múltiple dirige tu tráfico a través de dos servidores en lugar de uno para una mayor seguridad y privacidad. Esto puede ralentizar tu conexión.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopEntryLocationHeader" xml:space="preserve">
         <source>Select entry location</source>
@@ -1298,6 +1304,7 @@
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopInfoText" xml:space="preserve">
         <source>Exit location represents your main VPN server.</source>
+        <target>La ubicación de salida representa tu servidor VPN principal.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader" xml:space="preserve">
         <source>Recent connections</source>
@@ -1372,12 +1379,15 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.disclaimerText" xml:space="preserve">
         <source>When you submit, Mozilla VPN will collect technical and interaction data with your email to help our support team understand your issue.</source>
+        <target>Cuando lo envíes, Mozilla VPN recopilará datos técnicos y de interacción junto con tu correo electrónico para ayudar a nuestro equipo de ayuda a comprender tu problema.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.privacyNoticeLinkText" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Aviso de privacidad de Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportPrimaryButtonText" xml:space="preserve">
         <source>Submit</source>
+        <target>Enviar</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportSecondaryActionText" xml:space="preserve">
         <source>Cancel</source>
@@ -1389,6 +1399,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody" xml:space="preserve">
         <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
+        <target>Nuestro equipo de ayuda se pondrá en contacto contigo en %1 una vez que hayamos podido examinar tu problema.</target>
         <note annotates="source" from="developer">The %1 represents the email used to complete the form</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseButton" xml:space="preserve">
@@ -1401,6 +1412,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again.</source>
+        <target>Se ha producido un error inesperado, por favor, intenta de nuevo.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorButton" xml:space="preserve">
         <source>Try Again</source>
@@ -1408,9 +1420,11 @@
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalHeader" xml:space="preserve">
         <source>Sign in to Google Account</source>
+        <target>Inicia sesión con tu cuenta de Google</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText" xml:space="preserve">
         <source>To continue subscribing, please sign in to your Google Account</source>
+        <target>Para continuar con la suscripción, inicia sesión en tu cuenta de Google</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalLinkText" xml:space="preserve">
         <source>Go to Play Store</source>
@@ -1418,15 +1432,19 @@
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
+        <target>Problema al confirmar la suscripción</target>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorText" xml:space="preserve">
         <source>Your subscription is linked to another Firefox Account. You may need to sign in with a different email address.</source>
+        <target>Tu suscripción está vinculada con otra cuenta de Firefox. Puede que tengas que iniciar sesión con una dirección de correo diferente.</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
+        <target>Problema al confirmar la suscripción</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again. Visit our help center below to learn how to troubleshoot this issue or contact support.</source>
+        <target>Se ha producido un error inesperado, por favor, intenta de nuevo. Visita nuestro centro de ayuda para aprender cómo solucionar este problema o contacta con el equipo de soporte.</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton" xml:space="preserve">
         <source>Try Again</source>
@@ -1434,9 +1452,11 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourModalHeader" xml:space="preserve">
         <source>What’s new in VPN?</source>
+        <target>Novedades de la VPN</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourModalBodyText" xml:space="preserve">
         <source>We’ve added a ton of cool features in this latest release. Take the tour to get a deeper dive into what we’ve added for you!</source>
+        <target>Hemos agregado un montón de funcionalidades increíbles en esta última versión. ¡Visita el tour para profundizar en lo que hemos agregado para ti!</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourModalButtonText" xml:space="preserve">
         <source>Take the tour</source>
@@ -1444,9 +1464,11 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.multiModalHeader" xml:space="preserve">
         <source>Multi-hop VPN</source>
+        <target>VPN de salto múltiple</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.multiModalBodyText" xml:space="preserve">
         <source>Multi-hop VPN will route your traffic through a second server for added protection. You can find this feature on the “Select location” screen.</source>
+        <target>La VPN de salto múltiple desviará tu tráfico a través de un segundo servidor para mayor protección. Puedes encontrar esta función en la pantalla “Elegir ubicación”.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.supportModalButtonText" xml:space="preserve">
         <source>Next</source>
@@ -1454,18 +1476,23 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.supportModalHeader" xml:space="preserve">
         <source>In-app support form</source>
+        <target>Formulario de soporte dentro de la aplicación</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.supportModalBodyText" xml:space="preserve">
         <source>The in-app support form will allow you to contact support from within the VPN app. You can find it in the “Get help” section.</source>
+        <target>El formulario de soporte en la aplicación te permitirá contactar con el equipo de ayuda desde la aplicación VPN. Puedes encontrarlo en la sección “Obtener ayuda”.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalHeader" xml:space="preserve">
         <source>Custom DNS</source>
+        <target>DNS personalizado</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalBodyTextNew" xml:space="preserve">
         <source>Custom DNS servers allow for faster speed using local networks, features like ad-blocking and anti-tracking. You can find this feature in the “Network settings” section.</source>
+        <target>Los servidores DNS personalizados permiten una velocidad más rápida usando las redes locales, y funcionalidades como el bloqueo de publicidad y rastreo. Puedes encontrar esta función en la sección “Configuración de red”.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalButtonText" xml:space="preserve">
         <source>Done</source>
+        <target>Hecho</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourPageHeader" xml:space="preserve">
         <source>What’s new</source>
@@ -1473,18 +1500,23 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourSubHeader" xml:space="preserve">
         <source>Take the tour</source>
+        <target>Hacer el tour</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.multiListItemHeader" xml:space="preserve">
         <source>Multi-hop VPN</source>
+        <target>VPN de salto múltiple</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.multiListItemBody" xml:space="preserve">
         <source>Multi-hop VPN uses multiple VPN servers instead of one for extra security and privacy.</source>
+        <target>La VPN de salto múltiple utiliza varios servidores VPN en lugar de uno para mayor seguridad y privacidad.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.supportListItemHeader" xml:space="preserve">
         <source>In-app support form</source>
+        <target>Formulario de soporte dentro de la aplicación</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.supportListItemBody" xml:space="preserve">
         <source>The in-app support form will streamline the process of getting your issues resolved.</source>
+        <target>El formulario de ayuda dentro de la aplicación simplificará el proceso para resolver tus problemas.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemHeader" xml:space="preserve">
         <source>Custom DNS</source>
@@ -1492,12 +1524,15 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemBody" xml:space="preserve">
         <source>Custom DNS settings allow for faster connection using local servers.</source>
+        <target>Los servidores DNS personalizados permiten una velocidad más rápida usando servidores locales.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifHeader" xml:space="preserve">
         <source>What’s new in VPN</source>
+        <target>Novedades de la VPN</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifBody" xml:space="preserve">
         <source>Check out all the new features available in the latest version of Mozilla VPN!</source>
+        <target>¡Descubre todas las nuevas funcionalidades disponibles en la última versión de la Mozilla VPN!</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifCTA" xml:space="preserve">
         <source>Take the tour</source>
@@ -1505,6 +1540,7 @@
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsInfoAlert" xml:space="preserve">
         <source>VPN must be off to change these settings</source>
+        <target>La VPN debe estar desactivada para cambiar estos ajustes</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsNavItem" xml:space="preserve">
         <source>DNS settings</source>
@@ -1520,6 +1556,7 @@
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioBody" xml:space="preserve">
         <source>Automatically use Mozilla VPN-protected DNS</source>
+        <target>Usar automáticamente DNS protegidos por la VPN de Mozilla</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdvancedToggle" xml:space="preserve">
         <source>Advanced</source>
@@ -1527,21 +1564,27 @@
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioHeader" xml:space="preserve">
         <source>Use adblock DNS</source>
+        <target>Usar DNS de bloqueo de publicidad</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioBody" xml:space="preserve">
         <source>Block internet ads with VPN</source>
+        <target>Bloquear anuncios de Internet con la VPN</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioHeader" xml:space="preserve">
         <source>Use anti-tracking DNS</source>
+        <target>Usar DNS contra rastreo</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioBody" xml:space="preserve">
         <source>Block harmful domains with VPN</source>
+        <target>Bloquear dominios dañinos con la VPN</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioHeader" xml:space="preserve">
         <source>Use adblock and anti-tracking DNS</source>
+        <target>Usar DNS de bloqueo de publicidad y contra rastreo</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody" xml:space="preserve">
         <source>Block internet ads and harmful domains with VPN</source>
+        <target>Bloquear anuncios de Internet y dominios dañinos con la VPN</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsCustomDNSRadioHeader" xml:space="preserve">
         <source>Use custom DNS</source>
