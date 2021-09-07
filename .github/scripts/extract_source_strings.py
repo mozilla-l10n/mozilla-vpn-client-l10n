@@ -11,6 +11,18 @@ import argparse
 import os
 
 
+def get_node_key(node, attr=None):
+    if attr in node.attrib:
+        return f"{node.tag}:{node.get(attr)}"
+    return f"{node.tag}"
+
+
+def sort_children(node, attr=None):
+    node[:] = sorted(node, key=lambda child: get_node_key(child, attr))
+    for child in node:
+        sort_children(child, attr)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -84,6 +96,12 @@ def main():
     # Remove all <context-group> elements
     for context_group in root.xpath("//x:context-group", namespaces=NS):
         context_group.getparent().remove(context_group)
+
+    # Sort file elements by "original" attribute
+    sort_children(root, "original")
+    # Sort trans-unit elements by IDswithin each file element
+    for f in root.xpath("//x:file", namespaces=NS):
+        sort_children(f, "id")
 
     # Replace the existing locale file with the new XML content
     with open(output_xliff_file, "w") as fp:
