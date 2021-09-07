@@ -15,6 +15,10 @@
   </file>
   <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
+      <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
+        <source>About us</source>
+        <target>Σχετικά με εμάς</target>
+      </trans-unit>
       <trans-unit id="vpn.aboutUs.tos2" xml:space="preserve">
         <source>Terms of service</source>
         <target>Όροι υπηρεσίας</target>
@@ -26,10 +30,6 @@
       <trans-unit id="vpn.aboutUs.license" xml:space="preserve">
         <source>License</source>
         <target>Άδεια</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
-        <source>About us</source>
-        <target>Σχετικά με εμάς</target>
       </trans-unit>
       <trans-unit id="vpn.main.productName" xml:space="preserve">
         <source>Mozilla VPN</source>
@@ -645,10 +645,6 @@
   </file>
   <file original="../src/ui/settings/ViewPrivacySecurity.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.settings.privacySecurityTitle" xml:space="preserve">
-        <source>Privacy &amp; Security</source>
-        <target>Απόρρητο &amp; ασφάλεια</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
         <source>Data collection and use</source>
         <target>Συλλογή και χρήση δεδομένων</target>
@@ -656,6 +652,10 @@
       <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla</source>
         <target>Να επιτρέπεται στο Mozilla VPN η αποστολή τεχνικών δεδομένων στη Mozilla</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacySecurityTitle" xml:space="preserve">
+        <source>Privacy &amp; Security</source>
+        <target>Απόρρητο &amp; ασφάλεια</target>
       </trans-unit>
     </body>
   </file>
@@ -669,6 +669,10 @@
         <source>Manage account</source>
         <target>Διαχείριση λογαριασμού</target>
       </trans-unit>
+      <trans-unit id="vpn.main.privacySecurity2" xml:space="preserve">
+        <source>Privacy &amp; security</source>
+        <target>Απόρρητο &amp; ασφάλεια</target>
+      </trans-unit>
       <trans-unit id="vpn.settings.runOnBoot2" xml:space="preserve">
         <source>Launch VPN app on startup</source>
         <target>Εκτέλεση εφαρμογής VPN κατά την εκκίνηση</target>
@@ -676,10 +680,6 @@
       <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
         <source>Get help</source>
         <target>Λήψη βοήθειας</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.privacySecurity2" xml:space="preserve">
-        <source>Privacy &amp; security</source>
-        <target>Απόρρητο &amp; ασφάλεια</target>
       </trans-unit>
     </body>
   </file>
@@ -692,6 +692,80 @@
       <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
         <source>Privacy &amp; Security</source>
         <target>Απόρρητο &amp; ασφάλεια</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="el">
+    <body>
+      <trans-unit id="systray.preferences" xml:space="preserve">
+        <source>Preferences…</source>
+        <target>Προτιμήσεις…</target>
+      </trans-unit>
+      <trans-unit id="systray.hide" xml:space="preserve">
+        <source>Hide Mozilla VPN</source>
+        <target>Απόκρυψη Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="systray.show" xml:space="preserve">
+        <source>Show Mozilla VPN</source>
+        <target>Εμφάνιση Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
+        <source>Connected to:</source>
+        <target>Συνδέθηκε σε:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
+        <source>Connect to the last location:</source>
+        <target>Σύνδεση στην τελευταία τοποθεσία:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
+        <source>Connecting to:</source>
+        <target>Σύνδεση σε:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
+        <source>Disconnecting from:</source>
+        <target>Αποσύνδεση από:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.location" xml:space="preserve">
+        <source>%1, %2</source>
+        <target>%2, %1</target>
+        <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
+      </trans-unit>
+      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
+        <source>Unsecured Wi-Fi network detected</source>
+        <target>Εντοπίστηκε επισφαλές δίκτυο Wi-Fi</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.unsecuredNetwork2.message" xml:space="preserve">
+        <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
+        <target>Το %1 δεν είναι ασφαλές. Κάντε κλικ εδώ για να ενεργοποιήσετε το VPN και να προστατεύσετε τη συσκευή σας.</target>
+        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
+        <source>Guest Wi-Fi portal blocked</source>
+        <target>Το δίκτυο Wi-Fi επισκεπτών αποκλείστηκε</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalBlock2.message" xml:space="preserve">
+        <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
+        <target>Το δίκτυο Wi-Fi επισκεπτών που συνδεθήκατε απαιτεί κάποια ενέργεια. Κάντε κλικ εδώ για να απενεργοποιήσετε το VPN και να δείτε την πύλη.</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
+        <source>Guest Wi-Fi portal detected</source>
+        <target>Ανιχνεύθηκε δίκτυο Wi-Fi επισκεπτών</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalUnblock2.message" xml:space="preserve">
+        <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
+        <target>Το δίκτυο Wi-Fi επισκεπτών που συνδεθήκατε ενδέχεται να μην είναι ασφαλές. Κάντε κλικ εδώ για να ενεργοποιήσετε το VPN και να προστατέψετε τη συσκευή σας.</target>
+      </trans-unit>
+      <trans-unit id="systray.disconnect" xml:space="preserve">
+        <source>Disconnect</source>
+        <target>Αποσύνδεση</target>
+      </trans-unit>
+      <trans-unit id="systray.help" xml:space="preserve">
+        <source>Help</source>
+        <target>Βοήθεια</target>
+      </trans-unit>
+      <trans-unit id="systray.quit" xml:space="preserve">
+        <source>Quit Mozilla VPN</source>
+        <target>Κλείσιμο Mozilla VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -1051,10 +1125,6 @@
   </file>
   <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="el">
     <body>
-      <trans-unit id="help.viewLog" xml:space="preserve">
-        <source>View log</source>
-        <target>Αρχείο καταγραφής</target>
-      </trans-unit>
       <trans-unit id="help.helpCenter2" xml:space="preserve">
         <source>Help center</source>
         <target>Κέντρο βοήθειας</target>
@@ -1062,6 +1132,10 @@
       <trans-unit id="help.contactUs" xml:space="preserve">
         <source>Contact us</source>
         <target>Επικοινωνία</target>
+      </trans-unit>
+      <trans-unit id="help.viewLog" xml:space="preserve">
+        <source>View log</source>
+        <target>Αρχείο καταγραφής</target>
       </trans-unit>
     </body>
   </file>
@@ -1122,80 +1196,6 @@
       <trans-unit id="menubar.help.title" xml:space="preserve">
         <source>Help</source>
         <target>Βοήθεια</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="el">
-    <body>
-      <trans-unit id="systray.hide" xml:space="preserve">
-        <source>Hide Mozilla VPN</source>
-        <target>Απόκρυψη Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="systray.show" xml:space="preserve">
-        <source>Show Mozilla VPN</source>
-        <target>Εμφάνιση Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
-        <source>Connected to:</source>
-        <target>Συνδέθηκε σε:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
-        <source>Connect to the last location:</source>
-        <target>Σύνδεση στην τελευταία τοποθεσία:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
-        <source>Connecting to:</source>
-        <target>Σύνδεση σε:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
-        <source>Disconnecting from:</source>
-        <target>Αποσύνδεση από:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.location" xml:space="preserve">
-        <source>%1, %2</source>
-        <target>%2, %1</target>
-        <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
-      </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
-        <source>Unsecured Wi-Fi network detected</source>
-        <target>Εντοπίστηκε επισφαλές δίκτυο Wi-Fi</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork2.message" xml:space="preserve">
-        <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
-        <target>Το %1 δεν είναι ασφαλές. Κάντε κλικ εδώ για να ενεργοποιήσετε το VPN και να προστατεύσετε τη συσκευή σας.</target>
-        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
-        <source>Guest Wi-Fi portal blocked</source>
-        <target>Το δίκτυο Wi-Fi επισκεπτών αποκλείστηκε</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock2.message" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
-        <target>Το δίκτυο Wi-Fi επισκεπτών που συνδεθήκατε απαιτεί κάποια ενέργεια. Κάντε κλικ εδώ για να απενεργοποιήσετε το VPN και να δείτε την πύλη.</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
-        <source>Guest Wi-Fi portal detected</source>
-        <target>Ανιχνεύθηκε δίκτυο Wi-Fi επισκεπτών</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock2.message" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
-        <target>Το δίκτυο Wi-Fi επισκεπτών που συνδεθήκατε ενδέχεται να μην είναι ασφαλές. Κάντε κλικ εδώ για να ενεργοποιήσετε το VPN και να προστατέψετε τη συσκευή σας.</target>
-      </trans-unit>
-      <trans-unit id="systray.disconnect" xml:space="preserve">
-        <source>Disconnect</source>
-        <target>Αποσύνδεση</target>
-      </trans-unit>
-      <trans-unit id="systray.help" xml:space="preserve">
-        <source>Help</source>
-        <target>Βοήθεια</target>
-      </trans-unit>
-      <trans-unit id="systray.preferences" xml:space="preserve">
-        <source>Preferences…</source>
-        <target>Προτιμήσεις…</target>
-      </trans-unit>
-      <trans-unit id="systray.quit" xml:space="preserve">
-        <source>Quit Mozilla VPN</source>
-        <target>Κλείσιμο Mozilla VPN</target>
       </trans-unit>
     </body>
   </file>
