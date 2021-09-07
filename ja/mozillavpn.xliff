@@ -1,11 +1,163 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
+        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
+        <target>読み込み中</target>
+        <source>Loading</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="macosinstaller.title" xml:space="preserve">
+        <source>Mozilla VPN for macOS</source>
+        <target>macOS 版 Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
+        <source>Unable to install</source>
+        <target>インストールできません</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
+        <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
+        <target>Mozilla VPN が動作するには Mac OS X 10.6 以降が必要です。</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
+        <source>Previous Installation Detected</source>
+        <target>以前のインストールが検出されました</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
+        <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
+        <target>以前にインストールされた Mozilla VPN が /Applications/Mozilla VPN.app にあります。このインストーラーは、まず以前のインストールデータを削除します。続ける前にデータをバックアップしてください。</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
+        <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
+        <target>Mozilla VPN のインストール手順をご案内します。インターネットプライバシーの信頼できるパイオニアから VPN をお選びいただきありがとうございます。</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
+        <source>Click “Continue” to continue the setup.</source>
+        <target>“続ける” をクリックしてセットアップを続行します。</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
+        <source>Success!</source>
+        <target>完了しました！</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
+        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
+        <target>Mozilla VPN のインストールが完了しました。これで、オンライン上のプライバシーをあなた自身がコントロールするための準備が整いました。</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
+        <source>Trouble with this installation?</source>
+        <target>このインストールに問題がありますか？</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
+        <source>Get help.</source>
+        <target>ヘルプサポートを表示する。</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="macosinstaller.conclusion.message1" xml:space="preserve">
+        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
+        <target>Mozilla VPN のインストールが完了しました。Applications フォルダーに移動して VPN を開き、あなたのオンラインプライバシーをコントロールしましょう。</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/models/feedbackcategorymodel.cpp" datatype="cpp" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="feedback.category.bugError" xml:space="preserve">
+        <source>Product Bugs/Errors</source>
+        <target>製品のバグまたはエラー</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
+        <source>Network Connection/Speed</source>
+        <target>ネットワーク接続または速度</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.productQuality" xml:space="preserve">
+        <source>Product Quality</source>
+        <target>製品の品質</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.accessToService" xml:space="preserve">
+        <source>Access to service</source>
+        <target>サービスへのアクセス</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.compatibility" xml:space="preserve">
+        <source>Compatibility</source>
+        <target>互換性</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.easeToUse" xml:space="preserve">
+        <source>Ease of Use</source>
+        <target>使いやすさ</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.other" xml:space="preserve">
+        <source>Other</source>
+        <target>その他</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="help.helpCenter2" xml:space="preserve">
+        <source>Help center</source>
+        <target>ヘルプセンター</target>
+      </trans-unit>
+      <trans-unit id="help.contactUs" xml:space="preserve">
+        <source>Contact us</source>
+        <target>お問い合わせ</target>
+      </trans-unit>
+      <trans-unit id="help.viewLog" xml:space="preserve">
+        <source>View log</source>
+        <target>ログを表示</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="help.helpCenter" xml:space="preserve">
+        <source>Help Center</source>
+        <target>ヘルプセンター</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
+        <source>VPN Switched Servers</source>
+        <target>VPN のサーバー切り替え</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
+        <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
+        <target>%1 %2 から %3 %4 に切り替えました</target>
+        <source>Switched from %1, %2 to %3, %4</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
+        <source>VPN Connected</source>
+        <target>VPN の接続先</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
+        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
+        <target>%1 %2 に接続しました</target>
+        <source>Connected to %1, %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
+        <source>VPN Disconnected</source>
+        <target>VPN の接続を解除しました</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
+        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
+        <target>%1 %2 との接続を解除しました</target>
+        <source>Disconnected from %1, %2</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/platforms/android/androidauthenticationview.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.main.back" xml:space="preserve">
-        <source>Back</source>
-        <target>戻る</target>
         <note annotates="source" from="developer">Go back</note>
+        <target>戻る</target>
+        <source>Back</source>
       </trans-unit>
       <trans-unit id="vpn.android.authentication" xml:space="preserve">
         <source>Authentication</source>
@@ -13,8 +165,107 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/platforms/android/androidcontroller.cpp" datatype="cpp" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
+        <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
+        <target>接続する準備ができました</target>
+        <source>Ready for you to connect</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="menubar.file.title" xml:space="preserve">
+        <source>File</source>
+        <target>ファイル</target>
+      </trans-unit>
+      <trans-unit id="menubar.help.title" xml:space="preserve">
+        <source>Help</source>
+        <target>ヘルプ</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="systray.preferences" xml:space="preserve">
+        <source>Preferences…</source>
+        <target>環境設定...</target>
+      </trans-unit>
+      <trans-unit id="systray.hide" xml:space="preserve">
+        <source>Hide Mozilla VPN</source>
+        <target>Mozilla VPN を隠す</target>
+      </trans-unit>
+      <trans-unit id="systray.show" xml:space="preserve">
+        <source>Show Mozilla VPN</source>
+        <target>Mozilla VPN を表示する</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
+        <source>Connected to:</source>
+        <target>接続先:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
+        <source>Connect to the last location:</source>
+        <target>前回の場所に接続:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
+        <source>Connecting to:</source>
+        <target>接続中:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
+        <source>Disconnecting from:</source>
+        <target>接続を解除:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.location" xml:space="preserve">
+        <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
+        <target>%1 %2</target>
+        <source>%1, %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
+        <source>Unsecured Wi-Fi network detected</source>
+        <target>安全でない Wi-Fi ネットワークが検出されました</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.unsecuredNetwork2.message" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
+        <target>%1 は安全ではありません。端末を保護するには、ここをクリックして VPN をオンにしてください。</target>
+        <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
+        <source>Guest Wi-Fi portal blocked</source>
+        <target>ゲスト Wi-Fi ポータルをブロックしました</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalBlock2.message" xml:space="preserve">
+        <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
+        <target>接続しているゲスト Wi-Fi ネットワークには操作が必要です。ポータルを表示するには、ここをクリックして VPN をオフにしてください。</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
+        <source>Guest Wi-Fi portal detected</source>
+        <target>ゲスト Wi-Fi ポータルを検出しました</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalUnblock2.message" xml:space="preserve">
+        <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
+        <target>接続しているゲスト Wi-Fi ポータルは安全ではありません。端末を保護するには、ここをクリックして VPN をオンにしてください。</target>
+      </trans-unit>
+      <trans-unit id="systray.disconnect" xml:space="preserve">
+        <source>Disconnect</source>
+        <target>接続を解除</target>
+      </trans-unit>
+      <trans-unit id="systray.help" xml:space="preserve">
+        <source>Help</source>
+        <target>ヘルプ</target>
+      </trans-unit>
+      <trans-unit id="systray.quit" xml:space="preserve">
+        <source>Quit Mozilla VPN</source>
+        <target>Mozilla VPN を終了</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
+      <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
+        <source>About us</source>
+        <target>Mozilla について</target>
+      </trans-unit>
       <trans-unit id="vpn.aboutUs.tos2" xml:space="preserve">
         <source>Terms of service</source>
         <target>サービス利用規約</target>
@@ -27,10 +278,6 @@
         <source>License</source>
         <target>ライセンス</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
-        <source>About us</source>
-        <target>Mozilla について</target>
-      </trans-unit>
       <trans-unit id="vpn.main.productName" xml:space="preserve">
         <source>Mozilla VPN</source>
         <target>Mozilla VPN</target>
@@ -40,18 +287,18 @@
         <target>高速、安全で使いやすい VPN。 Firefox のメーカーにより構築されました。</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
-        <source>Release version</source>
-        <target>リリースバージョン</target>
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
+        <target>リリースバージョン</target>
+        <source>Release version</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
-        <source>Release Version</source>
-        <target>リリースバージョン</target>
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
+        <target>リリースバージョン</target>
+        <source>Release Version</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.tos" xml:space="preserve">
         <source>Terms of Service</source>
@@ -86,29 +333,29 @@
   <file original="../src/ui/components/VPNConnectionInfo.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.connectionInfo.ipv4" xml:space="preserve">
-        <source>IPv4:</source>
-        <target>IPv4:</target>
         <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IPv4 address.</note>
+        <target>IPv4:</target>
+        <source>IPv4:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.ip2" xml:space="preserve">
-        <source>IP:</source>
-        <target>IP:</target>
         <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
+        <target>IP:</target>
+        <source>IP:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.ipv6" xml:space="preserve">
-        <source>IPv6:</source>
-        <target>IPv6:</target>
         <note annotates="source" from="developer">The abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
+        <target>IPv6:</target>
+        <source>IPv6:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
-        <source>Download</source>
-        <target>ダウンロード</target>
         <note annotates="source" from="developer">The current download speed. The speed is shown on the next line.</note>
+        <target>ダウンロード</target>
+        <source>Download</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.upload" xml:space="preserve">
-        <source>Upload</source>
-        <target>アップロード</target>
         <note annotates="source" from="developer">The current upload speed. The speed is shown on the next line.</note>
+        <target>アップロード</target>
+        <source>Upload</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
         <source>Close</source>
@@ -119,18 +366,18 @@
   <file original="../src/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
-        <source>Unstable</source>
-        <target>不安定</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>不安定</target>
+        <source>Unstable</source>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
         <source>No Signal</source>
         <target>信号なし</target>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
-        <source>Check Connection</source>
-        <target>接続を確認してください</target>
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
+        <target>接続を確認してください</target>
+        <source>Check Connection</source>
       </trans-unit>
     </body>
   </file>
@@ -173,9 +420,9 @@
         <target>切り替え中...</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
-        <source>From %1 to %2</source>
-        <target>%1 から %2 へ</target>
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
+        <target>%1 から %2 へ</target>
+        <source>From %1 to %2</source>
       </trans-unit>
       <trans-unit id="vpn.controller.info" xml:space="preserve">
         <source>Connection Information</source>
@@ -186,18 +433,18 @@
         <target>設定</target>
       </trans-unit>
       <trans-unit id="vpn.controller.active" xml:space="preserve">
-        <source>Secure and private</source>
-        <target>安全に保護</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>安全に保護</target>
+        <source>Secure and private</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
-        <source>%1 %2</source>
-        <target>%1 %2</target>
         <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
+        <target>%1 %2</target>
+        <source>%1 %2</source>
       </trans-unit>
       <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
         <source>Current Device</source>
@@ -208,19 +455,19 @@
         <target>1 時間以内に追加された</target>
       </trans-unit>
       <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
-        <source>Added a few hours ago (%1)</source>
-        <target>数時間前に追加された (%1)</target>
         <note annotates="source" from="developer">%1 is the number of hours.</note>
+        <target>数時間前に追加された (%1)</target>
+        <source>Added a few hours ago (%1)</source>
       </trans-unit>
       <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
-        <source>Added %1 days ago</source>
-        <target>%1 日前に追加された</target>
         <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
+        <target>%1 日前に追加された</target>
+        <source>Added %1 days ago</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
-        <source>Remove %1</source>
-        <target>%1 を削除</target>
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <target>%1 を削除</target>
+        <source>Remove %1</source>
       </trans-unit>
     </body>
   </file>
@@ -239,34 +486,34 @@
   <file original="../src/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.connectionInfo.Bps" xml:space="preserve">
-        <source>B/s</source>
-        <target>バイト/秒</target>
         <note annotates="source" from="developer">Bytes per second</note>
+        <target>バイト/秒</target>
+        <source>B/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.kBps" xml:space="preserve">
-        <source>kB/s</source>
-        <target>kB/秒</target>
         <note annotates="source" from="developer">Kilobytes per second</note>
+        <target>kB/秒</target>
+        <source>kB/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectioInfo.mBps" xml:space="preserve">
-        <source>MB/s</source>
-        <target>MB/秒</target>
         <note annotates="source" from="developer">Megabytes per second</note>
+        <target>MB/秒</target>
+        <source>MB/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectioInfo.gBps" xml:space="preserve">
-        <source>GB/s</source>
-        <target>GB/秒</target>
         <note annotates="source" from="developer">Gigabytes per second</note>
+        <target>GB/秒</target>
+        <source>GB/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.tBps" xml:space="preserve">
-        <source>TB/s</source>
-        <target>TB/秒</target>
         <note annotates="source" from="developer">Terabytes per second</note>
+        <target>TB/秒</target>
+        <source>TB/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
-        <source>%1: %2 %3</source>
-        <target>%1: %2 %3</target>
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
+        <target>%1: %2 %3</target>
+        <source>%1: %2 %3</source>
       </trans-unit>
     </body>
   </file>
@@ -293,15 +540,15 @@
         <target>端末を削除しますか？</target>
       </trans-unit>
       <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
+        <target>%1 を削除してもよろしいですか？</target>
         <source>Please confirm you would like to remove
 %1.</source>
-        <target>%1 を削除してもよろしいですか？</target>
-        <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
       </trans-unit>
       <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
-        <source>Remove</source>
-        <target>削除</target>
         <note annotates="source" from="developer">This is the “remove” device button.</note>
+        <target>削除</target>
+        <source>Remove</source>
       </trans-unit>
       <trans-unit id="vpn.devices.cancelDeviceRemoval" xml:space="preserve">
         <source>Cancel</source>
@@ -312,9 +559,9 @@
   <file original="../src/ui/components/VPNServerCountry.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="cities" xml:space="preserve">
-        <source>Cities</source>
-        <target>都市</target>
         <note annotates="source" from="developer">The title for the list of cities.</note>
+        <target>都市</target>
+        <source>Cities</source>
       </trans-unit>
     </body>
   </file>
@@ -326,26 +573,34 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="vpn.main.signOut" xml:space="preserve">
+        <source>Sign Out</source>
+        <target>ログアウト</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/components/VPNSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.subscription.price" xml:space="preserve">
-        <source>%1/month</source>
-        <target>%1 / 月</target>
         <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
+        <target>%1 / 月</target>
+        <source>%1/month</source>
       </trans-unit>
       <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
         <source>Monthly plan</source>
         <target>月額プラン</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
-        <source>%1-month plan: %2</source>
-        <target>%1か月プラン: %2</target>
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>%1か月プラン: %2</target>
+        <source>%1-month plan: %2</source>
       </trans-unit>
       <trans-unit id="vpn.subscription.savePercent" xml:space="preserve">
-        <source>Save %1%</source>
-        <target>%1% 割安</target>
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
+        <target>%1% 割安</target>
+        <source>Save %1%</source>
       </trans-unit>
     </body>
   </file>
@@ -372,9 +627,9 @@
         <target>バックグラウンドサービスエラー</target>
       </trans-unit>
       <trans-unit id="vpn.alert.restore" xml:space="preserve">
-        <source>Restore</source>
-        <target>復元</target>
         <note annotates="source" from="developer">Restore a service in case of error.</note>
+        <target>復元</target>
+        <source>Restore</source>
       </trans-unit>
       <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
@@ -406,26 +661,62 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/settings/ViewAdvancedDNSSettings.qml" datatype="plaintext" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
+        <source>Advanced DNS Settings</source>
+        <target>高度な DNS 設定</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
+        <source>Use default DNS</source>
+        <target>既定の DNS を使用する</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.gateway.description" xml:space="preserve">
+        <source>Automatically use Mozilla VPN-protected DNS</source>
+        <target>Mozilla VPN で保護された DNS を自動的に使用する</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.localDNS" xml:space="preserve">
+        <source>Use local DNS</source>
+        <target>ローカル DNS を使用する</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.localDNS.resolveWebsiteDomainNames" xml:space="preserve">
+        <source>Resolve website domain names using a DNS in your local network</source>
+        <target>ローカルネットワークの DNS を使用してウェブサイトのドメイン名を解決する</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.userDNS.invalid" xml:space="preserve">
+        <source>Invalid IP address</source>
+        <target>IP アドレスが正しくありません</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
+        <source>We currently support only IPv4 IP addresses</source>
+        <target>現在、IPv4 の IP アドレスのみをサポートしています</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
+        <source>Out of range IP address</source>
+        <target>範囲外の IP アドレス</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
-        <source>Search Apps</source>
-        <target>アプリを検索</target>
         <note annotates="source" from="developer">Search bar placeholder text</note>
+        <target>アプリを検索</target>
+        <source>Search Apps</source>
       </trans-unit>
       <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
-        <source>Add Application</source>
-        <target>アプリケーションを追加</target>
         <note annotates="source" from="developer">Button label</note>
+        <target>アプリケーションを追加</target>
+        <source>Add Application</source>
       </trans-unit>
       <trans-unit id="vpn.settings.appPermissions2" xml:space="preserve">
         <source>App permissions</source>
         <target>アプリの許可設定</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
-        <source>VPN must be off to edit App Permissions</source>
-        <target>アプリの許可設定を編集するには VPN をオフにする必要があります</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+        <target>アプリの許可設定を編集するには VPN をオフにする必要があります</target>
+        <source>VPN must be off to edit App Permissions</source>
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
         <source>Protect all apps with VPN</source>
@@ -436,9 +727,9 @@
         <target>VPN は既定ですべてのアプリを保護します。Mozilla VPN が保護しないアプリを選択するにはオフにしてください。</target>
       </trans-unit>
       <trans-unit id="vpn.settings.excludeTitle" xml:space="preserve">
-        <source>Exclude apps from VPN protection</source>
-        <target>VPN の保護から除外するアプリ</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
+        <target>VPN の保護から除外するアプリ</target>
+        <source>Exclude apps from VPN protection</source>
       </trans-unit>
     </body>
   </file>
@@ -537,24 +828,24 @@
         <target>言語</target>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageTitle" xml:space="preserve">
-        <source>Use system language</source>
-        <target>システム言語を使用する</target>
         <note annotates="source" from="developer">Title for the language switcher toggle.</note>
+        <target>システム言語を使用する</target>
+        <source>Use system language</source>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLangaugeSubtitle" xml:space="preserve">
-        <source>Mozilla VPN will use the default system language.</source>
-        <target>Mozilla VPN はシステムの既定の言語を使用します。</target>
         <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
+        <target>Mozilla VPN はシステムの既定の言語を使用します。</target>
+        <source>Mozilla VPN will use the default system language.</source>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageEnabled" xml:space="preserve">
-        <source>Disable to select a different language</source>
-        <target>別の言語を選択するには無効にしてください</target>
         <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
+        <target>別の言語を選択するには無効にしてください</target>
+        <source>Disable to select a different language</source>
       </trans-unit>
       <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
-        <source>%1 %2</source>
-        <target>%1 (%2)</target>
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
+        <target>%1 (%2)</target>
+        <source>%1 %2</source>
       </trans-unit>
     </body>
   </file>
@@ -565,9 +856,9 @@
         <target>ネットワーク設定</target>
       </trans-unit>
       <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
-        <source>VPN must be off to edit these settings</source>
-        <target>これらの設定を編集するには VPN をオフにする必要があります</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+        <target>これらの設定を編集するには VPN をオフにする必要があります</target>
+        <source>VPN must be off to edit these settings</source>
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
         <source>IPv6</source>
@@ -645,10 +936,6 @@
   </file>
   <file original="../src/ui/settings/ViewPrivacySecurity.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
-      <trans-unit id="vpn.settings.privacySecurityTitle" xml:space="preserve">
-        <source>Privacy &amp; Security</source>
-        <target>プライバシーとセキュリティ</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
         <source>Data collection and use</source>
         <target>データの収集と使用</target>
@@ -656,6 +943,10 @@
       <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla</source>
         <target>Mozilla VPN が技術的なデータを Mozilla へ送信することを許可する</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacySecurityTitle" xml:space="preserve">
+        <source>Privacy &amp; Security</source>
+        <target>プライバシーとセキュリティ</target>
       </trans-unit>
     </body>
   </file>
@@ -669,6 +960,10 @@
         <source>Manage account</source>
         <target>アカウント管理</target>
       </trans-unit>
+      <trans-unit id="vpn.main.privacySecurity2" xml:space="preserve">
+        <source>Privacy &amp; security</source>
+        <target>プライバシーとセキュリティ</target>
+      </trans-unit>
       <trans-unit id="vpn.settings.runOnBoot2" xml:space="preserve">
         <source>Launch VPN app on startup</source>
         <target>端末起動時に VPN アプリを起動する</target>
@@ -676,10 +971,6 @@
       <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
         <source>Get help</source>
         <target>ヘルプを表示</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.privacySecurity2" xml:space="preserve">
-        <source>Privacy &amp; security</source>
-        <target>プライバシーとセキュリティ</target>
       </trans-unit>
     </body>
   </file>
@@ -747,6 +1038,18 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
+        <source>Error confirming subscription…</source>
+        <target>サブスクリプションの確認中にエラーが発生しました...</target>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed" xml:space="preserve">
+        <source>Another Firefox Account has already subscribed using this Apple ID.</source>
+        <target>この Apple ID は、別の Firefox アカウントによるサブスクリプションですでに使用されています。</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/states/StateSubscriptionInProgress.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.subscription.pleaseWait" xml:space="preserve">
@@ -790,9 +1093,9 @@
         <target>自分の端末</target>
       </trans-unit>
       <trans-unit id="vpn.devices.activeVsMaxDeviceCount" xml:space="preserve">
-        <source>%1 of %2</source>
-        <target>%1 / %2</target>
         <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.</note>
+        <target>%1 / %2</target>
+        <source>%1 of %2</source>
       </trans-unit>
     </body>
   </file>
@@ -851,14 +1154,14 @@
         <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
-        <source>Select location</source>
-        <target>場所を選んでください</target>
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
+        <target>場所を選んでください</target>
+        <source>Select location</source>
       </trans-unit>
       <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
-        <source>current location - %1</source>
-        <target>現在の場所 - %1</target>
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
+        <target>現在の場所 - %1</target>
+        <source>current location - %1</source>
       </trans-unit>
     </body>
   </file>
@@ -873,9 +1176,9 @@
         <target>トラフィックを暗号化して ISP や盗聴者が読み取れないようにします。</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
-        <source>Servers in 30+ countries</source>
-        <target>30 か国以上に設置されたサーバー</target>
         <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeeded.qml too.</note>
+        <target>30 か国以上に設置されたサーバー</target>
+        <source>Servers in 30+ countries</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.2" xml:space="preserve">
         <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
@@ -914,9 +1217,9 @@
         <target>アクティビティログなし</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.featureTitle4" xml:space="preserve">
-        <source>Connect up to %1 devices</source>
-        <target>最大 %1 台まで接続可能</target>
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
+        <target>最大 %1 台まで接続可能</target>
+        <source>Connect up to %1 devices</source>
       </trans-unit>
       <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
@@ -952,253 +1255,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
-        <source>Loading</source>
-        <target>読み込み中</target>
-        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="macosinstaller.title" xml:space="preserve">
-        <source>Mozilla VPN for macOS</source>
-        <target>macOS 版 Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
-        <source>Unable to install</source>
-        <target>インストールできません</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
-        <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
-        <target>Mozilla VPN が動作するには Mac OS X 10.6 以降が必要です。</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
-        <source>Previous Installation Detected</source>
-        <target>以前のインストールが検出されました</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
-        <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
-        <target>以前にインストールされた Mozilla VPN が /Applications/Mozilla VPN.app にあります。このインストーラーは、まず以前のインストールデータを削除します。続ける前にデータをバックアップしてください。</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
-        <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
-        <target>Mozilla VPN のインストール手順をご案内します。インターネットプライバシーの信頼できるパイオニアから VPN をお選びいただきありがとうございます。</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
-        <source>Click “Continue” to continue the setup.</source>
-        <target>“続ける” をクリックしてセットアップを続行します。</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
-        <source>Success!</source>
-        <target>完了しました！</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
-        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
-        <target>Mozilla VPN のインストールが完了しました。これで、オンライン上のプライバシーをあなた自身がコントロールするための準備が整いました。</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
-        <source>Trouble with this installation?</source>
-        <target>このインストールに問題がありますか？</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
-        <source>Get help.</source>
-        <target>ヘルプサポートを表示する。</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="macosinstaller.conclusion.message1" xml:space="preserve">
-        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
-        <target>Mozilla VPN のインストールが完了しました。Applications フォルダーに移動して VPN を開き、あなたのオンラインプライバシーをコントロールしましょう。</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/models/feedbackcategorymodel.cpp" datatype="cpp" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="feedback.category.bugError" xml:space="preserve">
-        <source>Product Bugs/Errors</source>
-        <target>製品のバグまたはエラー</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
-        <source>Network Connection/Speed</source>
-        <target>ネットワーク接続または速度</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.productQuality" xml:space="preserve">
-        <source>Product Quality</source>
-        <target>製品の品質</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.accessToService" xml:space="preserve">
-        <source>Access to service</source>
-        <target>サービスへのアクセス</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.compatibility" xml:space="preserve">
-        <source>Compatibility</source>
-        <target>互換性</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.easeToUse" xml:space="preserve">
-        <source>Ease of Use</source>
-        <target>使いやすさ</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.other" xml:space="preserve">
-        <source>Other</source>
-        <target>その他</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="help.viewLog" xml:space="preserve">
-        <source>View log</source>
-        <target>ログを表示</target>
-      </trans-unit>
-      <trans-unit id="help.helpCenter2" xml:space="preserve">
-        <source>Help center</source>
-        <target>ヘルプセンター</target>
-      </trans-unit>
-      <trans-unit id="help.contactUs" xml:space="preserve">
-        <source>Contact us</source>
-        <target>お問い合わせ</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="help.helpCenter" xml:space="preserve">
-        <source>Help Center</source>
-        <target>ヘルプセンター</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
-        <source>VPN Switched Servers</source>
-        <target>VPN のサーバー切り替え</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
-        <source>Switched from %1, %2 to %3, %4</source>
-        <target>%1 %2 から %3 %4 に切り替えました</target>
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
-        <source>VPN Connected</source>
-        <target>VPN の接続先</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
-        <source>Connected to %1, %2</source>
-        <target>%1 %2 に接続しました</target>
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
-        <source>VPN Disconnected</source>
-        <target>VPN の接続を解除しました</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
-        <source>Disconnected from %1, %2</source>
-        <target>%1 %2 との接続を解除しました</target>
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/platforms/android/androidcontroller.cpp" datatype="cpp" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
-        <source>Ready for you to connect</source>
-        <target>接続する準備ができました</target>
-        <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="menubar.file.title" xml:space="preserve">
-        <source>File</source>
-        <target>ファイル</target>
-      </trans-unit>
-      <trans-unit id="menubar.help.title" xml:space="preserve">
-        <source>Help</source>
-        <target>ヘルプ</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="systray.hide" xml:space="preserve">
-        <source>Hide Mozilla VPN</source>
-        <target>Mozilla VPN を隠す</target>
-      </trans-unit>
-      <trans-unit id="systray.show" xml:space="preserve">
-        <source>Show Mozilla VPN</source>
-        <target>Mozilla VPN を表示する</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
-        <source>Connected to:</source>
-        <target>接続先:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
-        <source>Connect to the last location:</source>
-        <target>前回の場所に接続:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
-        <source>Connecting to:</source>
-        <target>接続中:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
-        <source>Disconnecting from:</source>
-        <target>接続を解除:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.location" xml:space="preserve">
-        <source>%1, %2</source>
-        <target>%1 %2</target>
-        <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
-      </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
-        <source>Unsecured Wi-Fi network detected</source>
-        <target>安全でない Wi-Fi ネットワークが検出されました</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork2.message" xml:space="preserve">
-        <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
-        <target>%1 は安全ではありません。端末を保護するには、ここをクリックして VPN をオンにしてください。</target>
-        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
-        <source>Guest Wi-Fi portal blocked</source>
-        <target>ゲスト Wi-Fi ポータルをブロックしました</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock2.message" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
-        <target>接続しているゲスト Wi-Fi ネットワークには操作が必要です。ポータルを表示するには、ここをクリックして VPN をオフにしてください。</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
-        <source>Guest Wi-Fi portal detected</source>
-        <target>ゲスト Wi-Fi ポータルを検出しました</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock2.message" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
-        <target>接続しているゲスト Wi-Fi ポータルは安全ではありません。端末を保護するには、ここをクリックして VPN をオンにしてください。</target>
-      </trans-unit>
-      <trans-unit id="systray.disconnect" xml:space="preserve">
-        <source>Disconnect</source>
-        <target>接続を解除</target>
-      </trans-unit>
-      <trans-unit id="systray.help" xml:space="preserve">
-        <source>Help</source>
-        <target>ヘルプ</target>
-      </trans-unit>
-      <trans-unit id="systray.preferences" xml:space="preserve">
-        <source>Preferences…</source>
-        <target>環境設定...</target>
-      </trans-unit>
-      <trans-unit id="systray.quit" xml:space="preserve">
-        <source>Quit Mozilla VPN</source>
-        <target>Mozilla VPN を終了</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="generated/l18nstrings_p.cpp" datatype="cpp" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.serversView.searchPlaceholder" xml:space="preserve">
@@ -1214,9 +1270,9 @@
         <target>カテゴリーを選んでください</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.excellentLabel" xml:space="preserve">
-        <source>Excellent</source>
-        <target>優秀</target>
         <note annotates="source" from="developer">One of the answers on the feedback question about the user experience with the VPN client.</note>
+        <target>優秀</target>
+        <source>Excellent</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.reviewHeader" xml:space="preserve">
         <source>Give us 5 stars!</source>
@@ -1255,24 +1311,24 @@
         <target>VPN を有効にするには再起動する必要があります</target>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppActionButton" xml:space="preserve">
-        <source>Add apps manually</source>
-        <target>アプリを手動で追加してください</target>
         <note annotates="source" from="developer">Displayed in a notification as "call to action" when apps are missing from the split-tunnel settings.</note>
+        <target>アプリを手動で追加してください</target>
+        <source>Add apps manually</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppMultiple" xml:space="preserve">
-        <source>%1 apps missing from list.</source>
-        <target>%1 個のアプリがリストにありません。</target>
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
+        <target>%1 個のアプリがリストにありません。</target>
+        <source>%1 apps missing from list.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppAddedOne" xml:space="preserve">
-        <source>Success! You added “%1” to this list.</source>
-        <target>このリストに "%1" を追加しました。</target>
         <note annotates="source" from="developer">Displayed in notification after the user added a missing app to the split-tunnel List; %1 is the name of the added application</note>
+        <target>このリストに "%1" を追加しました。</target>
+        <source>Success! You added “%1” to this list.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText" xml:space="preserve">
-        <source>For any questions about setting app permissions, we’ve provided some helpful tips on our website.</source>
-        <target>アプリの許可設定に関する質問については、ウェブサイトでいくつかの役立つヒントを提供しています。</target>
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
+        <target>アプリの許可設定に関する質問については、ウェブサイトでいくつかの役立つヒントを提供しています。</target>
+        <source>For any questions about setting app permissions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
         <source>Learn more</source>
@@ -1311,9 +1367,9 @@
         <target>最近の接続先</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText" xml:space="preserve">
-        <source>To</source>
-        <target>接続先</target>
         <note annotates="source" from="developer">This is alt text for an arrow showing the multi-hop route between servers. e.g. Atlanta TO Copenhagen</note>
+        <target>接続先</target>
+        <source>To</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
@@ -1340,34 +1396,34 @@
         <target>Mozilla VPN でどのような助けが必要ですか？</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel" xml:space="preserve">
-        <source>Choose a category</source>
-        <target>カテゴリーを選んでください</target>
         <note annotates="source" from="developer">A user trying to submit feedback will use this dropdown to select the general topic related to the feedback.</note>
+        <target>カテゴリーを選んでください</target>
+        <source>Choose a category</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.paymentDropdownListItem" xml:space="preserve">
-        <source>Payment and billing</source>
-        <target>支払いと請求に関して</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to payment and billing.</note>
+        <target>支払いと請求に関して</target>
+        <source>Payment and billing</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
-        <source>Account issues</source>
-        <target>アカウントに関する問題</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
+        <target>アカウントに関する問題</target>
+        <source>Account issues</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.technicaDropdownListItem" xml:space="preserve">
-        <source>Technical issues</source>
-        <target>技術的な問題</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to technical issues.</note>
+        <target>技術的な問題</target>
+        <source>Technical issues</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.featureRequestDropdownListItem" xml:space="preserve">
-        <source>Request features</source>
-        <target>機能の要望</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to requesting new features.</note>
+        <target>機能の要望</target>
+        <source>Request features</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.otherDropdownListItem" xml:space="preserve">
-        <source>Other</source>
-        <target>その他</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to issues not covered under the other categories.</note>
+        <target>その他</target>
+        <source>Other</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder" xml:space="preserve">
         <source>Subject (optional)</source>
@@ -1398,9 +1454,9 @@
         <target>ありがとうございます。</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody" xml:space="preserve">
-        <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
-        <target>問題を確認でき次第、サポートチームから %1 にご連絡いたします。</target>
         <note annotates="source" from="developer">The %1 represents the email used to complete the form</note>
+        <target>問題を確認でき次第、サポートチームから %1 にご連絡いたします。</target>
+        <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseButton" xml:space="preserve">
         <source>Done</source>
@@ -1605,62 +1661,6 @@
       <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
         <source>Multi-hop tunnel</source>
         <target>マルチホップトンネル</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.main.signOut" xml:space="preserve">
-        <source>Sign Out</source>
-        <target>ログアウト</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewAdvancedDNSSettings.qml" datatype="plaintext" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
-        <source>Advanced DNS Settings</source>
-        <target>高度な DNS 設定</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
-        <source>Use default DNS</source>
-        <target>既定の DNS を使用する</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.gateway.description" xml:space="preserve">
-        <source>Automatically use Mozilla VPN-protected DNS</source>
-        <target>Mozilla VPN で保護された DNS を自動的に使用する</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.localDNS" xml:space="preserve">
-        <source>Use local DNS</source>
-        <target>ローカル DNS を使用する</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.localDNS.resolveWebsiteDomainNames" xml:space="preserve">
-        <source>Resolve website domain names using a DNS in your local network</source>
-        <target>ローカルネットワークの DNS を使用してウェブサイトのドメイン名を解決する</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.invalid" xml:space="preserve">
-        <source>Invalid IP address</source>
-        <target>IP アドレスが正しくありません</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
-        <source>We currently support only IPv4 IP addresses</source>
-        <target>現在、IPv4 の IP アドレスのみをサポートしています</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
-        <source>Out of range IP address</source>
-        <target>範囲外の IP アドレス</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
-        <source>Error confirming subscription…</source>
-        <target>サブスクリプションの確認中にエラーが発生しました...</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed" xml:space="preserve">
-        <source>Another Firefox Account has already subscribed using this Apple ID.</source>
-        <target>この Apple ID は、別の Firefox アカウントによるサブスクリプションですでに使用されています。</target>
       </trans-unit>
     </body>
   </file>

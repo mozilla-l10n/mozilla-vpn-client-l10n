@@ -1,11 +1,163 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
+    <body>
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
+        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
+        <target>載入中</target>
+        <source>Loading</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
+    <body>
+      <trans-unit id="macosinstaller.title" xml:space="preserve">
+        <source>Mozilla VPN for macOS</source>
+        <target>Mozilla VPN for macOS</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
+        <source>Unable to install</source>
+        <target>無法安裝</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
+        <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
+        <target>Mozilla VPN 需要 Mac OS X 10.6 或更新版本。</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
+        <source>Previous Installation Detected</source>
+        <target>偵測到舊版本</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
+        <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
+        <target>/Applications/Mozilla VPN.app 當中已有舊版的 Mozilla VPN。此安裝程式將先移除舊版再繼續安裝，請先備份好資料再繼續。</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
+        <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
+        <target>接下來將帶領您安裝 Mozilla VPN。感謝您選用由網際網路隱私權先鋒推出的 VPN 服務。</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
+        <source>Click “Continue” to continue the setup.</source>
+        <target>點擊「繼續」繼續安裝。</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
+        <source>Success!</source>
+        <target>成功！</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
+        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
+        <target>Mozilla VPN 安裝完成！已經準備好可以自行控管您的線上隱私。</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
+        <source>Trouble with this installation?</source>
+        <target>此次安裝遇到問題？</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
+        <source>Get help.</source>
+        <target>取得協助。</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
+    <body>
+      <trans-unit id="macosinstaller.conclusion.message1" xml:space="preserve">
+        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
+        <target>成功安裝 Mozilla VPN。請到應用程式資料夾開啟 VPN，開始掌握您的上網隱私。</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/models/feedbackcategorymodel.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
+    <body>
+      <trans-unit id="feedback.category.bugError" xml:space="preserve">
+        <source>Product Bugs/Errors</source>
+        <target>產品有 Bug 或發生錯誤</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
+        <source>Network Connection/Speed</source>
+        <target>網路連線問題或速度太慢</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.productQuality" xml:space="preserve">
+        <source>Product Quality</source>
+        <target>產品品質問題</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.accessToService" xml:space="preserve">
+        <source>Access to service</source>
+        <target>服務使用問題</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.compatibility" xml:space="preserve">
+        <source>Compatibility</source>
+        <target>相容性</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.easeToUse" xml:space="preserve">
+        <source>Ease of Use</source>
+        <target>易用性</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.other" xml:space="preserve">
+        <source>Other</source>
+        <target>其他</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
+    <body>
+      <trans-unit id="help.helpCenter2" xml:space="preserve">
+        <source>Help center</source>
+        <target>說明中心</target>
+      </trans-unit>
+      <trans-unit id="help.contactUs" xml:space="preserve">
+        <source>Contact us</source>
+        <target>聯絡我們</target>
+      </trans-unit>
+      <trans-unit id="help.viewLog" xml:space="preserve">
+        <source>View log</source>
+        <target>檢視紀錄</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
+    <body>
+      <trans-unit id="help.helpCenter" xml:space="preserve">
+        <source>Help Center</source>
+        <target>說明中心</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
+    <body>
+      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
+        <source>VPN Switched Servers</source>
+        <target>已切換 VPN 伺服器</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
+        <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
+        <target>已從 %1, %2 切換到 %3, %4</target>
+        <source>Switched from %1, %2 to %3, %4</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
+        <source>VPN Connected</source>
+        <target>已連線至 VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
+        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
+        <target>已連線到 %1, %2</target>
+        <source>Connected to %1, %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
+        <source>VPN Disconnected</source>
+        <target>VPN 已中斷</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
+        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
+        <target>已中斷與 %1, %2 的連線</target>
+        <source>Disconnected from %1, %2</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/platforms/android/androidauthenticationview.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
       <trans-unit id="vpn.main.back" xml:space="preserve">
-        <source>Back</source>
-        <target>上一頁</target>
         <note annotates="source" from="developer">Go back</note>
+        <target>上一頁</target>
+        <source>Back</source>
       </trans-unit>
       <trans-unit id="vpn.android.authentication" xml:space="preserve">
         <source>Authentication</source>
@@ -13,8 +165,107 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/platforms/android/androidcontroller.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
+    <body>
+      <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
+        <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
+        <target>已經就緒，可以連線</target>
+        <source>Ready for you to connect</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
+    <body>
+      <trans-unit id="menubar.file.title" xml:space="preserve">
+        <source>File</source>
+        <target>檔案</target>
+      </trans-unit>
+      <trans-unit id="menubar.help.title" xml:space="preserve">
+        <source>Help</source>
+        <target>說明</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
+    <body>
+      <trans-unit id="systray.preferences" xml:space="preserve">
+        <source>Preferences…</source>
+        <target>偏好設定…</target>
+      </trans-unit>
+      <trans-unit id="systray.hide" xml:space="preserve">
+        <source>Hide Mozilla VPN</source>
+        <target>隱藏 Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="systray.show" xml:space="preserve">
+        <source>Show Mozilla VPN</source>
+        <target>顯示 Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
+        <source>Connected to:</source>
+        <target>已連線到:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
+        <source>Connect to the last location:</source>
+        <target>連線到上次連線位置:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
+        <source>Connecting to:</source>
+        <target>正在連線到:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
+        <source>Disconnecting from:</source>
+        <target>正在中斷與下列位置間的連線:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.location" xml:space="preserve">
+        <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
+        <target>%1, %2</target>
+        <source>%1, %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
+        <source>Unsecured Wi-Fi network detected</source>
+        <target>偵測到不安全的 Wi-Fi 網路</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.unsecuredNetwork2.message" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
+        <target>%1 網路並不安全，請點擊此處開啟 VPN 來保護傳輸內容。</target>
+        <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
+        <source>Guest Wi-Fi portal blocked</source>
+        <target>Wi-Fi 登入頁面遭到封鎖</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalBlock2.message" xml:space="preserve">
+        <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
+        <target>您目前連上的 Wi-Fi 網路需要登入才能對外連線。請點擊此處關閉 VPN 檢視登入網頁內容。</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
+        <source>Guest Wi-Fi portal detected</source>
+        <target>偵測到 Wi-Fi 登入頁面</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalUnblock2.message" xml:space="preserve">
+        <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
+        <target>您目前連上的 Wi-Fi 網路可能不安全。請點擊此處開啟 VPN 來保護傳輸內容。</target>
+      </trans-unit>
+      <trans-unit id="systray.disconnect" xml:space="preserve">
+        <source>Disconnect</source>
+        <target>斷線</target>
+      </trans-unit>
+      <trans-unit id="systray.help" xml:space="preserve">
+        <source>Help</source>
+        <target>說明</target>
+      </trans-unit>
+      <trans-unit id="systray.quit" xml:space="preserve">
+        <source>Quit Mozilla VPN</source>
+        <target>離開 Mozilla VPN</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
+      <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
+        <source>About us</source>
+        <target>關於我們</target>
+      </trans-unit>
       <trans-unit id="vpn.aboutUs.tos2" xml:space="preserve">
         <source>Terms of service</source>
         <target>服務條款</target>
@@ -27,10 +278,6 @@
         <source>License</source>
         <target>授權條款</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
-        <source>About us</source>
-        <target>關於我們</target>
-      </trans-unit>
       <trans-unit id="vpn.main.productName" xml:space="preserve">
         <source>Mozilla VPN</source>
         <target>Mozilla VPN</target>
@@ -40,18 +287,18 @@
         <target>又快又安全，更方便使用的 VPN 軟體，由 Firefox 的開發者打造。</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
-        <source>Release version</source>
-        <target>發行版本</target>
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
+        <target>發行版本</target>
+        <source>Release version</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
       <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
-        <source>Release Version</source>
-        <target>發行版本</target>
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
+        <target>發行版本</target>
+        <source>Release Version</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.tos" xml:space="preserve">
         <source>Terms of Service</source>
@@ -86,29 +333,29 @@
   <file original="../src/ui/components/VPNConnectionInfo.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
       <trans-unit id="vpn.connectionInfo.ipv4" xml:space="preserve">
-        <source>IPv4:</source>
-        <target>IPv4:</target>
         <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IPv4 address.</note>
+        <target>IPv4:</target>
+        <source>IPv4:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.ip2" xml:space="preserve">
-        <source>IP:</source>
-        <target>IP:</target>
         <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
+        <target>IP:</target>
+        <source>IP:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.ipv6" xml:space="preserve">
-        <source>IPv6:</source>
-        <target>IPv6:</target>
         <note annotates="source" from="developer">The abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
+        <target>IPv6:</target>
+        <source>IPv6:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
-        <source>Download</source>
-        <target>下載</target>
         <note annotates="source" from="developer">The current download speed. The speed is shown on the next line.</note>
+        <target>下載</target>
+        <source>Download</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.upload" xml:space="preserve">
-        <source>Upload</source>
-        <target>上傳</target>
         <note annotates="source" from="developer">The current upload speed. The speed is shown on the next line.</note>
+        <target>上傳</target>
+        <source>Upload</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
         <source>Close</source>
@@ -119,18 +366,18 @@
   <file original="../src/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
       <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
-        <source>Unstable</source>
-        <target>不穩定</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>不穩定</target>
+        <source>Unstable</source>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
         <source>No Signal</source>
         <target>無訊號</target>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
-        <source>Check Connection</source>
-        <target>請確認連線狀態</target>
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
+        <target>請確認連線狀態</target>
+        <source>Check Connection</source>
       </trans-unit>
     </body>
   </file>
@@ -173,9 +420,9 @@
         <target>切換中…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
-        <source>From %1 to %2</source>
-        <target>從 %1 到 %2</target>
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
+        <target>從 %1 到 %2</target>
+        <source>From %1 to %2</source>
       </trans-unit>
       <trans-unit id="vpn.controller.info" xml:space="preserve">
         <source>Connection Information</source>
@@ -186,18 +433,18 @@
         <target>設定</target>
       </trans-unit>
       <trans-unit id="vpn.controller.active" xml:space="preserve">
-        <source>Secure and private</source>
-        <target>安全又有隱私</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>安全又有隱私</target>
+        <source>Secure and private</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
       <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
-        <source>%1 %2</source>
-        <target>%1 %2</target>
         <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
+        <target>%1 %2</target>
+        <source>%1 %2</source>
       </trans-unit>
       <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
         <source>Current Device</source>
@@ -208,19 +455,19 @@
         <target>不到一小時前加入</target>
       </trans-unit>
       <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
-        <source>Added a few hours ago (%1)</source>
-        <target>幾小時前加入（%1）</target>
         <note annotates="source" from="developer">%1 is the number of hours.</note>
+        <target>幾小時前加入（%1）</target>
+        <source>Added a few hours ago (%1)</source>
       </trans-unit>
       <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
-        <source>Added %1 days ago</source>
-        <target>%1 天前加入</target>
         <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
+        <target>%1 天前加入</target>
+        <source>Added %1 days ago</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
-        <source>Remove %1</source>
-        <target>移除 %1</target>
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <target>移除 %1</target>
+        <source>Remove %1</source>
       </trans-unit>
     </body>
   </file>
@@ -239,34 +486,34 @@
   <file original="../src/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
       <trans-unit id="vpn.connectionInfo.Bps" xml:space="preserve">
-        <source>B/s</source>
-        <target>B/s</target>
         <note annotates="source" from="developer">Bytes per second</note>
+        <target>B/s</target>
+        <source>B/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.kBps" xml:space="preserve">
-        <source>kB/s</source>
-        <target>kB/s</target>
         <note annotates="source" from="developer">Kilobytes per second</note>
+        <target>kB/s</target>
+        <source>kB/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectioInfo.mBps" xml:space="preserve">
-        <source>MB/s</source>
-        <target>MB/s</target>
         <note annotates="source" from="developer">Megabytes per second</note>
+        <target>MB/s</target>
+        <source>MB/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectioInfo.gBps" xml:space="preserve">
-        <source>GB/s</source>
-        <target>GB/s</target>
         <note annotates="source" from="developer">Gigabytes per second</note>
+        <target>GB/s</target>
+        <source>GB/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.tBps" xml:space="preserve">
-        <source>TB/s</source>
-        <target>TB/s</target>
         <note annotates="source" from="developer">Terabytes per second</note>
+        <target>TB/s</target>
+        <source>TB/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
-        <source>%1: %2 %3</source>
-        <target>%1: %2 %3</target>
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
+        <target>%1: %2 %3</target>
+        <source>%1: %2 %3</source>
       </trans-unit>
     </body>
   </file>
@@ -293,15 +540,15 @@
         <target>確定移除裝置？</target>
       </trans-unit>
       <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
+        <target>請確認您是否要移除 %1。</target>
         <source>Please confirm you would like to remove
 %1.</source>
-        <target>請確認您是否要移除 %1。</target>
-        <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
       </trans-unit>
       <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
-        <source>Remove</source>
-        <target>移除</target>
         <note annotates="source" from="developer">This is the “remove” device button.</note>
+        <target>移除</target>
+        <source>Remove</source>
       </trans-unit>
       <trans-unit id="vpn.devices.cancelDeviceRemoval" xml:space="preserve">
         <source>Cancel</source>
@@ -312,9 +559,9 @@
   <file original="../src/ui/components/VPNServerCountry.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
       <trans-unit id="cities" xml:space="preserve">
-        <source>Cities</source>
-        <target>城市</target>
         <note annotates="source" from="developer">The title for the list of cities.</note>
+        <target>城市</target>
+        <source>Cities</source>
       </trans-unit>
     </body>
   </file>
@@ -326,26 +573,34 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
+    <body>
+      <trans-unit id="vpn.main.signOut" xml:space="preserve">
+        <source>Sign Out</source>
+        <target>登出</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/components/VPNSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
       <trans-unit id="vpn.subscription.price" xml:space="preserve">
-        <source>%1/month</source>
-        <target>%1 / 每月</target>
         <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
+        <target>%1 / 每月</target>
+        <source>%1/month</source>
       </trans-unit>
       <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
         <source>Monthly plan</source>
         <target>月付方案</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
-        <source>%1-month plan: %2</source>
-        <target>%1 月付方案: %2</target>
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>%1 月付方案: %2</target>
+        <source>%1-month plan: %2</source>
       </trans-unit>
       <trans-unit id="vpn.subscription.savePercent" xml:space="preserve">
-        <source>Save %1%</source>
-        <target>省下 %1%</target>
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
+        <target>省下 %1%</target>
+        <source>Save %1%</source>
       </trans-unit>
     </body>
   </file>
@@ -372,9 +627,9 @@
         <target>背景服務發生錯誤</target>
       </trans-unit>
       <trans-unit id="vpn.alert.restore" xml:space="preserve">
-        <source>Restore</source>
-        <target>回復</target>
         <note annotates="source" from="developer">Restore a service in case of error.</note>
+        <target>回復</target>
+        <source>Restore</source>
       </trans-unit>
       <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
@@ -406,26 +661,62 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/settings/ViewAdvancedDNSSettings.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
+    <body>
+      <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
+        <source>Advanced DNS Settings</source>
+        <target>進階 DNS 設定</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
+        <source>Use default DNS</source>
+        <target>使用預設 DNS</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.gateway.description" xml:space="preserve">
+        <source>Automatically use Mozilla VPN-protected DNS</source>
+        <target>自動使用由 Mozilla VPN 保護的 DNS</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.localDNS" xml:space="preserve">
+        <source>Use local DNS</source>
+        <target>使用本機 DNS</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.localDNS.resolveWebsiteDomainNames" xml:space="preserve">
+        <source>Resolve website domain names using a DNS in your local network</source>
+        <target>使用您本機網路的 DNS 主機來解析網站的網域名稱</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.userDNS.invalid" xml:space="preserve">
+        <source>Invalid IP address</source>
+        <target>IP 地址無效</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
+        <source>We currently support only IPv4 IP addresses</source>
+        <target>我們目前僅支援 IPv4 的 IP 地址</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
+        <source>Out of range IP address</source>
+        <target>IP 地址超出範圍</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
       <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
-        <source>Search Apps</source>
-        <target>搜尋應用程式</target>
         <note annotates="source" from="developer">Search bar placeholder text</note>
+        <target>搜尋應用程式</target>
+        <source>Search Apps</source>
       </trans-unit>
       <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
-        <source>Add Application</source>
-        <target>新增應用程式</target>
         <note annotates="source" from="developer">Button label</note>
+        <target>新增應用程式</target>
+        <source>Add Application</source>
       </trans-unit>
       <trans-unit id="vpn.settings.appPermissions2" xml:space="preserve">
         <source>App permissions</source>
         <target>應用程式權限</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
-        <source>VPN must be off to edit App Permissions</source>
-        <target>必須先中斷 VPN 才能編輯應用程式權限</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+        <target>必須先中斷 VPN 才能編輯應用程式權限</target>
+        <source>VPN must be off to edit App Permissions</source>
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
         <source>Protect all apps with VPN</source>
@@ -436,9 +727,9 @@
         <target>預設情況下 VPN 會保護所有應用程式。關閉此設定即可調整哪些應用程式不透過 Mozilla VPN 連線。</target>
       </trans-unit>
       <trans-unit id="vpn.settings.excludeTitle" xml:space="preserve">
-        <source>Exclude apps from VPN protection</source>
-        <target>將應用程式從 VPN 保護排除</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
+        <target>將應用程式從 VPN 保護排除</target>
+        <source>Exclude apps from VPN protection</source>
       </trans-unit>
     </body>
   </file>
@@ -537,24 +828,24 @@
         <target>語言</target>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageTitle" xml:space="preserve">
-        <source>Use system language</source>
-        <target>使用系統語言</target>
         <note annotates="source" from="developer">Title for the language switcher toggle.</note>
+        <target>使用系統語言</target>
+        <source>Use system language</source>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLangaugeSubtitle" xml:space="preserve">
-        <source>Mozilla VPN will use the default system language.</source>
-        <target>Mozilla VPN 會使用系統預設語言。</target>
         <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
+        <target>Mozilla VPN 會使用系統預設語言。</target>
+        <source>Mozilla VPN will use the default system language.</source>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageEnabled" xml:space="preserve">
-        <source>Disable to select a different language</source>
-        <target>若要選擇不同語言，請先停用此設定</target>
         <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
+        <target>若要選擇不同語言，請先停用此設定</target>
+        <source>Disable to select a different language</source>
       </trans-unit>
       <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
-        <source>%1 %2</source>
-        <target>%1 %2</target>
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
+        <target>%1 %2</target>
+        <source>%1 %2</source>
       </trans-unit>
     </body>
   </file>
@@ -565,9 +856,9 @@
         <target>網路設定</target>
       </trans-unit>
       <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
-        <source>VPN must be off to edit these settings</source>
-        <target>必須先中斷 VPN 才能編輯下列設定</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+        <target>必須先中斷 VPN 才能編輯下列設定</target>
+        <source>VPN must be off to edit these settings</source>
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
         <source>IPv6</source>
@@ -645,10 +936,6 @@
   </file>
   <file original="../src/ui/settings/ViewPrivacySecurity.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
-      <trans-unit id="vpn.settings.privacySecurityTitle" xml:space="preserve">
-        <source>Privacy &amp; Security</source>
-        <target>隱私權與安全性</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
         <source>Data collection and use</source>
         <target>資料收集與使用</target>
@@ -656,6 +943,10 @@
       <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla</source>
         <target>允許 Mozilla VPN 傳送技術資料給 Mozilla</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacySecurityTitle" xml:space="preserve">
+        <source>Privacy &amp; Security</source>
+        <target>隱私權與安全性</target>
       </trans-unit>
     </body>
   </file>
@@ -669,6 +960,10 @@
         <source>Manage account</source>
         <target>管理帳號</target>
       </trans-unit>
+      <trans-unit id="vpn.main.privacySecurity2" xml:space="preserve">
+        <source>Privacy &amp; security</source>
+        <target>隱私權與安全性</target>
+      </trans-unit>
       <trans-unit id="vpn.settings.runOnBoot2" xml:space="preserve">
         <source>Launch VPN app on startup</source>
         <target>開機時啟動 VPN 應用程式</target>
@@ -676,10 +971,6 @@
       <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
         <source>Get help</source>
         <target>取得協助</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.privacySecurity2" xml:space="preserve">
-        <source>Privacy &amp; security</source>
-        <target>隱私權與安全性</target>
       </trans-unit>
     </body>
   </file>
@@ -747,6 +1038,18 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
+    <body>
+      <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
+        <source>Error confirming subscription…</source>
+        <target>確認訂閱資訊時發生錯誤…</target>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed" xml:space="preserve">
+        <source>Another Firefox Account has already subscribed using this Apple ID.</source>
+        <target>已有另一組 Firefox 帳號使用此 Apple ID 進行訂閱。</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/states/StateSubscriptionInProgress.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
       <trans-unit id="vpn.subscription.pleaseWait" xml:space="preserve">
@@ -790,9 +1093,9 @@
         <target>我的裝置</target>
       </trans-unit>
       <trans-unit id="vpn.devices.activeVsMaxDeviceCount" xml:space="preserve">
-        <source>%1 of %2</source>
-        <target>第 %1 台，共 %2 台</target>
         <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.</note>
+        <target>第 %1 台，共 %2 台</target>
+        <source>%1 of %2</source>
       </trans-unit>
     </body>
   </file>
@@ -851,14 +1154,14 @@
         <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
-        <source>Select location</source>
-        <target>選擇位置</target>
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
+        <target>選擇位置</target>
+        <source>Select location</source>
       </trans-unit>
       <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
-        <source>current location - %1</source>
-        <target>目前位置 - %1</target>
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
+        <target>目前位置 - %1</target>
+        <source>current location - %1</source>
       </trans-unit>
     </body>
   </file>
@@ -873,9 +1176,9 @@
         <target>加密您的流量，讓網路公司或竊聽者完全無法知道當中的內容。</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
-        <source>Servers in 30+ countries</source>
-        <target>於超過 30 個國家都有伺服器</target>
         <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeeded.qml too.</note>
+        <target>於超過 30 個國家都有伺服器</target>
+        <source>Servers in 30+ countries</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.2" xml:space="preserve">
         <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
@@ -914,9 +1217,9 @@
         <target>不會留下您的活動紀錄</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.featureTitle4" xml:space="preserve">
-        <source>Connect up to %1 devices</source>
-        <target>最多可有 %1 台裝置連線</target>
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
+        <target>最多可有 %1 台裝置連線</target>
+        <source>Connect up to %1 devices</source>
       </trans-unit>
       <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
@@ -952,253 +1255,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
-    <body>
-      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
-        <source>Loading</source>
-        <target>載入中</target>
-        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
-    <body>
-      <trans-unit id="macosinstaller.title" xml:space="preserve">
-        <source>Mozilla VPN for macOS</source>
-        <target>Mozilla VPN for macOS</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
-        <source>Unable to install</source>
-        <target>無法安裝</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
-        <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
-        <target>Mozilla VPN 需要 Mac OS X 10.6 或更新版本。</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
-        <source>Previous Installation Detected</source>
-        <target>偵測到舊版本</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
-        <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
-        <target>/Applications/Mozilla VPN.app 當中已有舊版的 Mozilla VPN。此安裝程式將先移除舊版再繼續安裝，請先備份好資料再繼續。</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
-        <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
-        <target>接下來將帶領您安裝 Mozilla VPN。感謝您選用由網際網路隱私權先鋒推出的 VPN 服務。</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
-        <source>Click “Continue” to continue the setup.</source>
-        <target>點擊「繼續」繼續安裝。</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
-        <source>Success!</source>
-        <target>成功！</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
-        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
-        <target>Mozilla VPN 安裝完成！已經準備好可以自行控管您的線上隱私。</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
-        <source>Trouble with this installation?</source>
-        <target>此次安裝遇到問題？</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
-        <source>Get help.</source>
-        <target>取得協助。</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
-    <body>
-      <trans-unit id="macosinstaller.conclusion.message1" xml:space="preserve">
-        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
-        <target>成功安裝 Mozilla VPN。請到應用程式資料夾開啟 VPN，開始掌握您的上網隱私。</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/models/feedbackcategorymodel.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
-    <body>
-      <trans-unit id="feedback.category.bugError" xml:space="preserve">
-        <source>Product Bugs/Errors</source>
-        <target>產品有 Bug 或發生錯誤</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
-        <source>Network Connection/Speed</source>
-        <target>網路連線問題或速度太慢</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.productQuality" xml:space="preserve">
-        <source>Product Quality</source>
-        <target>產品品質問題</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.accessToService" xml:space="preserve">
-        <source>Access to service</source>
-        <target>服務使用問題</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.compatibility" xml:space="preserve">
-        <source>Compatibility</source>
-        <target>相容性</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.easeToUse" xml:space="preserve">
-        <source>Ease of Use</source>
-        <target>易用性</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.other" xml:space="preserve">
-        <source>Other</source>
-        <target>其他</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
-    <body>
-      <trans-unit id="help.viewLog" xml:space="preserve">
-        <source>View log</source>
-        <target>檢視紀錄</target>
-      </trans-unit>
-      <trans-unit id="help.helpCenter2" xml:space="preserve">
-        <source>Help center</source>
-        <target>說明中心</target>
-      </trans-unit>
-      <trans-unit id="help.contactUs" xml:space="preserve">
-        <source>Contact us</source>
-        <target>聯絡我們</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
-    <body>
-      <trans-unit id="help.helpCenter" xml:space="preserve">
-        <source>Help Center</source>
-        <target>說明中心</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
-    <body>
-      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
-        <source>VPN Switched Servers</source>
-        <target>已切換 VPN 伺服器</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
-        <source>Switched from %1, %2 to %3, %4</source>
-        <target>已從 %1, %2 切換到 %3, %4</target>
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
-        <source>VPN Connected</source>
-        <target>已連線至 VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
-        <source>Connected to %1, %2</source>
-        <target>已連線到 %1, %2</target>
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
-        <source>VPN Disconnected</source>
-        <target>VPN 已中斷</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
-        <source>Disconnected from %1, %2</source>
-        <target>已中斷與 %1, %2 的連線</target>
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/platforms/android/androidcontroller.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
-    <body>
-      <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
-        <source>Ready for you to connect</source>
-        <target>已經就緒，可以連線</target>
-        <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
-    <body>
-      <trans-unit id="menubar.file.title" xml:space="preserve">
-        <source>File</source>
-        <target>檔案</target>
-      </trans-unit>
-      <trans-unit id="menubar.help.title" xml:space="preserve">
-        <source>Help</source>
-        <target>說明</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
-    <body>
-      <trans-unit id="systray.hide" xml:space="preserve">
-        <source>Hide Mozilla VPN</source>
-        <target>隱藏 Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="systray.show" xml:space="preserve">
-        <source>Show Mozilla VPN</source>
-        <target>顯示 Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
-        <source>Connected to:</source>
-        <target>已連線到:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
-        <source>Connect to the last location:</source>
-        <target>連線到上次連線位置:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
-        <source>Connecting to:</source>
-        <target>正在連線到:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
-        <source>Disconnecting from:</source>
-        <target>正在中斷與下列位置間的連線:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.location" xml:space="preserve">
-        <source>%1, %2</source>
-        <target>%1, %2</target>
-        <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
-      </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
-        <source>Unsecured Wi-Fi network detected</source>
-        <target>偵測到不安全的 Wi-Fi 網路</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork2.message" xml:space="preserve">
-        <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
-        <target>%1 網路並不安全，請點擊此處開啟 VPN 來保護傳輸內容。</target>
-        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
-        <source>Guest Wi-Fi portal blocked</source>
-        <target>Wi-Fi 登入頁面遭到封鎖</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock2.message" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
-        <target>您目前連上的 Wi-Fi 網路需要登入才能對外連線。請點擊此處關閉 VPN 檢視登入網頁內容。</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
-        <source>Guest Wi-Fi portal detected</source>
-        <target>偵測到 Wi-Fi 登入頁面</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock2.message" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
-        <target>您目前連上的 Wi-Fi 網路可能不安全。請點擊此處開啟 VPN 來保護傳輸內容。</target>
-      </trans-unit>
-      <trans-unit id="systray.disconnect" xml:space="preserve">
-        <source>Disconnect</source>
-        <target>斷線</target>
-      </trans-unit>
-      <trans-unit id="systray.help" xml:space="preserve">
-        <source>Help</source>
-        <target>說明</target>
-      </trans-unit>
-      <trans-unit id="systray.preferences" xml:space="preserve">
-        <source>Preferences…</source>
-        <target>偏好設定…</target>
-      </trans-unit>
-      <trans-unit id="systray.quit" xml:space="preserve">
-        <source>Quit Mozilla VPN</source>
-        <target>離開 Mozilla VPN</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="generated/l18nstrings_p.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
     <body>
       <trans-unit id="vpn.serversView.searchPlaceholder" xml:space="preserve">
@@ -1214,9 +1270,9 @@
         <target>選擇分類</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.excellentLabel" xml:space="preserve">
-        <source>Excellent</source>
-        <target>超棒！</target>
         <note annotates="source" from="developer">One of the answers on the feedback question about the user experience with the VPN client.</note>
+        <target>超棒！</target>
+        <source>Excellent</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.reviewHeader" xml:space="preserve">
         <source>Give us 5 stars!</source>
@@ -1255,24 +1311,24 @@
         <target>必須重新啟動 VPN 才能生效</target>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppActionButton" xml:space="preserve">
-        <source>Add apps manually</source>
-        <target>手動加入應用程式</target>
         <note annotates="source" from="developer">Displayed in a notification as "call to action" when apps are missing from the split-tunnel settings.</note>
+        <target>手動加入應用程式</target>
+        <source>Add apps manually</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppMultiple" xml:space="preserve">
-        <source>%1 apps missing from list.</source>
-        <target>清單中缺少 %1 套應用程式。</target>
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
+        <target>清單中缺少 %1 套應用程式。</target>
+        <source>%1 apps missing from list.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppAddedOne" xml:space="preserve">
-        <source>Success! You added “%1” to this list.</source>
-        <target>成功！您已將「%1」加入此清單。</target>
         <note annotates="source" from="developer">Displayed in notification after the user added a missing app to the split-tunnel List; %1 is the name of the added application</note>
+        <target>成功！您已將「%1」加入此清單。</target>
+        <source>Success! You added “%1” to this list.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText" xml:space="preserve">
-        <source>For any questions about setting app permissions, we’ve provided some helpful tips on our website.</source>
-        <target>若有關於設定應用程式權限的任何問題，我們在網站中提供一些有用的小撇步。</target>
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
+        <target>若有關於設定應用程式權限的任何問題，我們在網站中提供一些有用的小撇步。</target>
+        <source>For any questions about setting app permissions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
         <source>Learn more</source>
@@ -1311,9 +1367,9 @@
         <target>近期連線資訊</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText" xml:space="preserve">
-        <source>To</source>
-        <target>往</target>
         <note annotates="source" from="developer">This is alt text for an arrow showing the multi-hop route between servers. e.g. Atlanta TO Copenhagen</note>
+        <target>往</target>
+        <source>To</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
@@ -1340,34 +1396,34 @@
         <target>關於 Mozilla VPN 的使用，有什麼我們可以協助的地方？</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel" xml:space="preserve">
-        <source>Choose a category</source>
-        <target>選擇分類</target>
         <note annotates="source" from="developer">A user trying to submit feedback will use this dropdown to select the general topic related to the feedback.</note>
+        <target>選擇分類</target>
+        <source>Choose a category</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.paymentDropdownListItem" xml:space="preserve">
-        <source>Payment and billing</source>
-        <target>付款與帳務問題</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to payment and billing.</note>
+        <target>付款與帳務問題</target>
+        <source>Payment and billing</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
-        <source>Account issues</source>
-        <target>帳號問題</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
+        <target>帳號問題</target>
+        <source>Account issues</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.technicaDropdownListItem" xml:space="preserve">
-        <source>Technical issues</source>
-        <target>技術問題</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to technical issues.</note>
+        <target>技術問題</target>
+        <source>Technical issues</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.featureRequestDropdownListItem" xml:space="preserve">
-        <source>Request features</source>
-        <target>功能請求</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to requesting new features.</note>
+        <target>功能請求</target>
+        <source>Request features</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.otherDropdownListItem" xml:space="preserve">
-        <source>Other</source>
-        <target>其他</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to issues not covered under the other categories.</note>
+        <target>其他</target>
+        <source>Other</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder" xml:space="preserve">
         <source>Subject (optional)</source>
@@ -1398,9 +1454,9 @@
         <target>感謝您！</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody" xml:space="preserve">
-        <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
-        <target>我們的支援團隊會在收到您的問題後回信到 %1 來連絡您。</target>
         <note annotates="source" from="developer">The %1 represents the email used to complete the form</note>
+        <target>我們的支援團隊會在收到您的問題後回信到 %1 來連絡您。</target>
+        <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseButton" xml:space="preserve">
         <source>Done</source>
@@ -1605,62 +1661,6 @@
       <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
         <source>Multi-hop tunnel</source>
         <target>多點跳轉通道</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
-    <body>
-      <trans-unit id="vpn.main.signOut" xml:space="preserve">
-        <source>Sign Out</source>
-        <target>登出</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewAdvancedDNSSettings.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
-    <body>
-      <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
-        <source>Advanced DNS Settings</source>
-        <target>進階 DNS 設定</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
-        <source>Use default DNS</source>
-        <target>使用預設 DNS</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.gateway.description" xml:space="preserve">
-        <source>Automatically use Mozilla VPN-protected DNS</source>
-        <target>自動使用由 Mozilla VPN 保護的 DNS</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.localDNS" xml:space="preserve">
-        <source>Use local DNS</source>
-        <target>使用本機 DNS</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.localDNS.resolveWebsiteDomainNames" xml:space="preserve">
-        <source>Resolve website domain names using a DNS in your local network</source>
-        <target>使用您本機網路的 DNS 主機來解析網站的網域名稱</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.invalid" xml:space="preserve">
-        <source>Invalid IP address</source>
-        <target>IP 地址無效</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
-        <source>We currently support only IPv4 IP addresses</source>
-        <target>我們目前僅支援 IPv4 的 IP 地址</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
-        <source>Out of range IP address</source>
-        <target>IP 地址超出範圍</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
-    <body>
-      <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
-        <source>Error confirming subscription…</source>
-        <target>確認訂閱資訊時發生錯誤…</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed" xml:space="preserve">
-        <source>Another Firefox Account has already subscribed using this Apple ID.</source>
-        <target>已有另一組 Firefox 帳號使用此 Apple ID 進行訂閱。</target>
       </trans-unit>
     </body>
   </file>

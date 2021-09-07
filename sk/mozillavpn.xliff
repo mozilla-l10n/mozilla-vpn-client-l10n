@@ -1,11 +1,162 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="sk">
+    <body>
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
+        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
+        <target>Načítavanie</target>
+        <source>Loading</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="sk">
+    <body>
+      <trans-unit id="macosinstaller.title" xml:space="preserve">
+        <source>Mozilla VPN for macOS</source>
+        <target>Mozilla VPN pre macOS</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
+        <source>Unable to install</source>
+        <target>Nedá sa nainštalovať</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
+        <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
+        <target>Mozilla VPN vyžaduje Mac OS X 10.6 alebo novšiu verziu.</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
+        <source>Previous Installation Detected</source>
+        <target>Bola zistená predchádzajúca inštalácia</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
+        <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
+        <target>V /Applications/Mozilla VPN.app existuje predchádzajúca inštalácia Mozilla VPN. Tento inštalátor pred inštaláciou odstráni predchádzajúcu inštaláciu. Pred pokračovaním si zálohujte všetky údaje.</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
+        <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
+        <target>Teraz vás prevedieme krokmi inštalácie Mozilla VPN. Ďakujeme, že ste si vybrali svoju VPN od dôveryhodného priekopníka v oblasti ochrany súkromia na internete.</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
+        <source>Click “Continue” to continue the setup.</source>
+        <target>V inštalácii pokračujte kliknutím na “Pokračovať”.</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
+        <source>Success!</source>
+        <target>Úspech!</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
+        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
+        <source>Trouble with this installation?</source>
+        <target>Máte s touto inštaláciou problém?</target>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
+        <source>Get help.</source>
+        <target>Získať pomoc.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="sk">
+    <body>
+      <trans-unit id="macosinstaller.conclusion.message1" xml:space="preserve">
+        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
+        <target>Mozilla VPN je úspešne nainštalovaná. Prejdite do priečinka Aplikácie, spustite sieť VPN a začnite ovládať svoje súkromie online.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/models/feedbackcategorymodel.cpp" datatype="cpp" source-language="en" target-language="sk">
+    <body>
+      <trans-unit id="feedback.category.bugError" xml:space="preserve">
+        <source>Product Bugs/Errors</source>
+        <target>Chyby produktu</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
+        <source>Network Connection/Speed</source>
+        <target>Sieťové pripojenie/rýchlosť</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.productQuality" xml:space="preserve">
+        <source>Product Quality</source>
+        <target>Kvalita produktu</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.accessToService" xml:space="preserve">
+        <source>Access to service</source>
+        <target>Prístup k službe</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.compatibility" xml:space="preserve">
+        <source>Compatibility</source>
+        <target>Kompatibilita</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.easeToUse" xml:space="preserve">
+        <source>Ease of Use</source>
+        <target>Jednoduchosť používania</target>
+      </trans-unit>
+      <trans-unit id="feedback.category.other" xml:space="preserve">
+        <source>Other</source>
+        <target>Iná</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="sk">
+    <body>
+      <trans-unit id="help.helpCenter2" xml:space="preserve">
+        <source>Help center</source>
+        <target>Centrum pomoci</target>
+      </trans-unit>
+      <trans-unit id="help.contactUs" xml:space="preserve">
+        <source>Contact us</source>
+        <target>Kontaktujte nás</target>
+      </trans-unit>
+      <trans-unit id="help.viewLog" xml:space="preserve">
+        <source>View log</source>
+        <target>Zobraziť denník</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="sk">
+    <body>
+      <trans-unit id="help.helpCenter" xml:space="preserve">
+        <source>Help Center</source>
+        <target>Centrum pomoci</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="sk">
+    <body>
+      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
+        <source>VPN Switched Servers</source>
+        <target>VPN zmenilo server</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
+        <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
+        <target>Prepnuté z %1, %2 do %3, %4</target>
+        <source>Switched from %1, %2 to %3, %4</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
+        <source>VPN Connected</source>
+        <target>VPN je pripojené</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
+        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
+        <target>Pripojené k %1, %2</target>
+        <source>Connected to %1, %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
+        <source>VPN Disconnected</source>
+        <target>VPN je odpojené</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
+        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
+        <target>Odpojené z %1, %2</target>
+        <source>Disconnected from %1, %2</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/platforms/android/androidauthenticationview.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
       <trans-unit id="vpn.main.back" xml:space="preserve">
-        <source>Back</source>
-        <target>Späť</target>
         <note annotates="source" from="developer">Go back</note>
+        <target>Späť</target>
+        <source>Back</source>
       </trans-unit>
       <trans-unit id="vpn.android.authentication" xml:space="preserve">
         <source>Authentication</source>
@@ -13,8 +164,107 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/platforms/android/androidcontroller.cpp" datatype="cpp" source-language="en" target-language="sk">
+    <body>
+      <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
+        <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
+        <target>Môžete sa pripojiť</target>
+        <source>Ready for you to connect</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="sk">
+    <body>
+      <trans-unit id="menubar.file.title" xml:space="preserve">
+        <source>File</source>
+        <target>Súbor</target>
+      </trans-unit>
+      <trans-unit id="menubar.help.title" xml:space="preserve">
+        <source>Help</source>
+        <target>Pomocník</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="sk">
+    <body>
+      <trans-unit id="systray.preferences" xml:space="preserve">
+        <source>Preferences…</source>
+        <target>Nastavenia…</target>
+      </trans-unit>
+      <trans-unit id="systray.hide" xml:space="preserve">
+        <source>Hide Mozilla VPN</source>
+        <target>Skryť Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="systray.show" xml:space="preserve">
+        <source>Show Mozilla VPN</source>
+        <target>Zobraziť Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
+        <source>Connected to:</source>
+        <target>Pripojené k:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
+        <source>Connect to the last location:</source>
+        <target>Pripojiť k poslednému miestu:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
+        <source>Connecting to:</source>
+        <target>Pripájanie k:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
+        <source>Disconnecting from:</source>
+        <target>Odpájanie z:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.location" xml:space="preserve">
+        <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
+        <target>%1, %2</target>
+        <source>%1, %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
+        <source>Unsecured Wi-Fi network detected</source>
+        <target>Bola zistená nezabezpečená sieť Wi-Fi</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.unsecuredNetwork2.message" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
+        <target>Sieť %1 nie je zabezpečená. Kliknutím sem si zapnete VPN, aby ste ochránili svoje zariadenie.</target>
+        <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
+        <source>Guest Wi-Fi portal blocked</source>
+        <target>Bol zablokovaný hosťovský Wi-Fi portál</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalBlock2.message" xml:space="preserve">
+        <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
+        <target>Hosťovská Wi-Fi, ku ktorej je vaše zariadenie pripojené vyžaduje akciu. Kliknutím sem vypnete VPN.</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
+        <source>Guest Wi-Fi portal detected</source>
+        <target>Bol zistený hosťovský Wi-Fi portál</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.captivePortalUnblock2.message" xml:space="preserve">
+        <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
+        <target>Hosťovská Wi-Fi, ku ktorej je vaše zariadenie pripojené, nemusí byť zabezpečená. Kliknutím sem zapnete VPN.</target>
+      </trans-unit>
+      <trans-unit id="systray.disconnect" xml:space="preserve">
+        <source>Disconnect</source>
+        <target>Odpojiť</target>
+      </trans-unit>
+      <trans-unit id="systray.help" xml:space="preserve">
+        <source>Help</source>
+        <target>Pomocník</target>
+      </trans-unit>
+      <trans-unit id="systray.quit" xml:space="preserve">
+        <source>Quit Mozilla VPN</source>
+        <target>Ukončiť Mozilla VPN</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
+      <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
+        <source>About us</source>
+        <target>O nás</target>
+      </trans-unit>
       <trans-unit id="vpn.aboutUs.tos2" xml:space="preserve">
         <source>Terms of service</source>
         <target>Podmienky používania</target>
@@ -27,10 +277,6 @@
         <source>License</source>
         <target>Licencia</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
-        <source>About us</source>
-        <target>O nás</target>
-      </trans-unit>
       <trans-unit id="vpn.main.productName" xml:space="preserve">
         <source>Mozilla VPN</source>
         <target>Mozilla VPN</target>
@@ -40,18 +286,18 @@
         <target>Rýchle, bezpečné a ľahko použiteľné VPN. Od tvorcov Firefoxu.</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
-        <source>Release version</source>
-        <target>Verzia</target>
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
+        <target>Verzia</target>
+        <source>Release version</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
       <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
-        <source>Release Version</source>
-        <target>Verzia</target>
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
+        <target>Verzia</target>
+        <source>Release Version</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.tos" xml:space="preserve">
         <source>Terms of Service</source>
@@ -86,29 +332,29 @@
   <file original="../src/ui/components/VPNConnectionInfo.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
       <trans-unit id="vpn.connectionInfo.ipv4" xml:space="preserve">
-        <source>IPv4:</source>
-        <target>IPv4:</target>
         <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IPv4 address.</note>
+        <target>IPv4:</target>
+        <source>IPv4:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.ip2" xml:space="preserve">
-        <source>IP:</source>
-        <target>IP:</target>
         <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
+        <target>IP:</target>
+        <source>IP:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.ipv6" xml:space="preserve">
-        <source>IPv6:</source>
-        <target>IPv6:</target>
         <note annotates="source" from="developer">The abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
+        <target>IPv6:</target>
+        <source>IPv6:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
-        <source>Download</source>
-        <target>Download</target>
         <note annotates="source" from="developer">The current download speed. The speed is shown on the next line.</note>
+        <target>Download</target>
+        <source>Download</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.upload" xml:space="preserve">
-        <source>Upload</source>
-        <target>Upload</target>
         <note annotates="source" from="developer">The current upload speed. The speed is shown on the next line.</note>
+        <target>Upload</target>
+        <source>Upload</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
         <source>Close</source>
@@ -119,18 +365,18 @@
   <file original="../src/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
       <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
-        <source>Unstable</source>
-        <target>Nestabilita</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>Nestabilita</target>
+        <source>Unstable</source>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
         <source>No Signal</source>
         <target>Žiadny signál</target>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
-        <source>Check Connection</source>
-        <target>Skontrolovať pripojenie</target>
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
+        <target>Skontrolovať pripojenie</target>
+        <source>Check Connection</source>
       </trans-unit>
     </body>
   </file>
@@ -173,9 +419,9 @@
         <target>Prepínanie…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
-        <source>From %1 to %2</source>
-        <target>Z %1 do %2</target>
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
+        <target>Z %1 do %2</target>
+        <source>From %1 to %2</source>
       </trans-unit>
       <trans-unit id="vpn.controller.info" xml:space="preserve">
         <source>Connection Information</source>
@@ -186,18 +432,18 @@
         <target>Nastavenia</target>
       </trans-unit>
       <trans-unit id="vpn.controller.active" xml:space="preserve">
-        <source>Secure and private</source>
-        <target>Bezpečnosť a súkromie</target>
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>Bezpečnosť a súkromie</target>
+        <source>Secure and private</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
       <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
-        <source>%1 %2</source>
-        <target>%1 %2</target>
         <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
+        <target>%1 %2</target>
+        <source>%1 %2</source>
       </trans-unit>
       <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
         <source>Current Device</source>
@@ -208,19 +454,19 @@
         <target>Pridané pred menej ako hodinou</target>
       </trans-unit>
       <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
-        <source>Added a few hours ago (%1)</source>
-        <target>Pridané pred niekoľkými hodinami (%1)</target>
         <note annotates="source" from="developer">%1 is the number of hours.</note>
+        <target>Pridané pred niekoľkými hodinami (%1)</target>
+        <source>Added a few hours ago (%1)</source>
       </trans-unit>
       <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
-        <source>Added %1 days ago</source>
-        <target>Pridané pred niekoľkými dňami (%1)</target>
         <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
+        <target>Pridané pred niekoľkými dňami (%1)</target>
+        <source>Added %1 days ago</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
-        <source>Remove %1</source>
-        <target>Odstrániť %1</target>
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <target>Odstrániť %1</target>
+        <source>Remove %1</source>
       </trans-unit>
     </body>
   </file>
@@ -239,34 +485,34 @@
   <file original="../src/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
       <trans-unit id="vpn.connectionInfo.Bps" xml:space="preserve">
-        <source>B/s</source>
-        <target>B/s</target>
         <note annotates="source" from="developer">Bytes per second</note>
+        <target>B/s</target>
+        <source>B/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.kBps" xml:space="preserve">
-        <source>kB/s</source>
-        <target>kB/s</target>
         <note annotates="source" from="developer">Kilobytes per second</note>
+        <target>kB/s</target>
+        <source>kB/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectioInfo.mBps" xml:space="preserve">
-        <source>MB/s</source>
-        <target>MB/s</target>
         <note annotates="source" from="developer">Megabytes per second</note>
+        <target>MB/s</target>
+        <source>MB/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectioInfo.gBps" xml:space="preserve">
-        <source>GB/s</source>
-        <target>GB/s</target>
         <note annotates="source" from="developer">Gigabytes per second</note>
+        <target>GB/s</target>
+        <source>GB/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.tBps" xml:space="preserve">
-        <source>TB/s</source>
-        <target>TB/s</target>
         <note annotates="source" from="developer">Terabytes per second</note>
+        <target>TB/s</target>
+        <source>TB/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
-        <source>%1: %2 %3</source>
-        <target>%1: %2 %3</target>
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
+        <target>%1: %2 %3</target>
+        <source>%1: %2 %3</source>
       </trans-unit>
     </body>
   </file>
@@ -293,15 +539,15 @@
         <target>Naozaj chcete odstrániť zariadenie?</target>
       </trans-unit>
       <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
+        <target>Prosím, potvrďte, že chcete odstrániť %1.</target>
         <source>Please confirm you would like to remove
 %1.</source>
-        <target>Prosím, potvrďte, že chcete odstrániť %1.</target>
-        <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
       </trans-unit>
       <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
-        <source>Remove</source>
-        <target>Odstrániť</target>
         <note annotates="source" from="developer">This is the “remove” device button.</note>
+        <target>Odstrániť</target>
+        <source>Remove</source>
       </trans-unit>
       <trans-unit id="vpn.devices.cancelDeviceRemoval" xml:space="preserve">
         <source>Cancel</source>
@@ -312,9 +558,9 @@
   <file original="../src/ui/components/VPNServerCountry.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
       <trans-unit id="cities" xml:space="preserve">
-        <source>Cities</source>
-        <target>Mestá</target>
         <note annotates="source" from="developer">The title for the list of cities.</note>
+        <target>Mestá</target>
+        <source>Cities</source>
       </trans-unit>
     </body>
   </file>
@@ -326,26 +572,34 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="sk">
+    <body>
+      <trans-unit id="vpn.main.signOut" xml:space="preserve">
+        <source>Sign Out</source>
+        <target>Odhlásiť sa</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/components/VPNSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
       <trans-unit id="vpn.subscription.price" xml:space="preserve">
-        <source>%1/month</source>
-        <target>%1 mesačne</target>
         <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
+        <target>%1 mesačne</target>
+        <source>%1/month</source>
       </trans-unit>
       <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
         <source>Monthly plan</source>
         <target>Mesačný plán</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
-        <source>%1-month plan: %2</source>
-        <target>%1-mesačný plán: %2</target>
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>%1-mesačný plán: %2</target>
+        <source>%1-month plan: %2</source>
       </trans-unit>
       <trans-unit id="vpn.subscription.savePercent" xml:space="preserve">
-        <source>Save %1%</source>
-        <target>Ušetríte %1 %</target>
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
+        <target>Ušetríte %1 %</target>
+        <source>Save %1%</source>
       </trans-unit>
     </body>
   </file>
@@ -372,9 +626,9 @@
         <target>Chyba služby na pozadí</target>
       </trans-unit>
       <trans-unit id="vpn.alert.restore" xml:space="preserve">
-        <source>Restore</source>
-        <target>Obnoviť</target>
         <note annotates="source" from="developer">Restore a service in case of error.</note>
+        <target>Obnoviť</target>
+        <source>Restore</source>
       </trans-unit>
       <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
@@ -406,26 +660,62 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/settings/ViewAdvancedDNSSettings.qml" datatype="plaintext" source-language="en" target-language="sk">
+    <body>
+      <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
+        <source>Advanced DNS Settings</source>
+        <target>Pokročilé nastavenia DNS</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
+        <source>Use default DNS</source>
+        <target>Použiť predvolené nastavenia DNS</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.gateway.description" xml:space="preserve">
+        <source>Automatically use Mozilla VPN-protected DNS</source>
+        <target>Automaticky používať DNS chránené pomocou Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.localDNS" xml:space="preserve">
+        <source>Use local DNS</source>
+        <target>Použiť miestne DNS</target>
+      </trans-unit>
+      <trans-unit id="vpn.advancedDNSSettings.localDNS.resolveWebsiteDomainNames" xml:space="preserve">
+        <source>Resolve website domain names using a DNS in your local network</source>
+        <target>Použite DNS z vašej miestnej siete</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.userDNS.invalid" xml:space="preserve">
+        <source>Invalid IP address</source>
+        <target>Neplatná IP adresa</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
+        <source>We currently support only IPv4 IP addresses</source>
+        <target>Momentálne podporujeme iba adresy IPv4</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
+        <source>Out of range IP address</source>
+        <target>IP adresa je mimo rozsah</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
       <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
-        <source>Search Apps</source>
-        <target>Hľadať</target>
         <note annotates="source" from="developer">Search bar placeholder text</note>
+        <target>Hľadať</target>
+        <source>Search Apps</source>
       </trans-unit>
       <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
-        <source>Add Application</source>
-        <target>Pridať aplikáciu</target>
         <note annotates="source" from="developer">Button label</note>
+        <target>Pridať aplikáciu</target>
+        <source>Add Application</source>
       </trans-unit>
       <trans-unit id="vpn.settings.appPermissions2" xml:space="preserve">
         <source>App permissions</source>
         <target>Pridať povolenie</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
-        <source>VPN must be off to edit App Permissions</source>
-        <target>Ak chcete upravovať povolenia aplikácií, VPN musí byť vypnuté</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+        <target>Ak chcete upravovať povolenia aplikácií, VPN musí byť vypnuté</target>
+        <source>VPN must be off to edit App Permissions</source>
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
         <source>Protect all apps with VPN</source>
@@ -436,9 +726,9 @@
         <target>V predvolenom nastavení chráni VPN všetky vaše aplikácie. Môžete však vybrať aplikácie, ktoré Mozilla VPN nemá chrániť.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.excludeTitle" xml:space="preserve">
-        <source>Exclude apps from VPN protection</source>
-        <target>Vyňať aplikáciu spod ochrany pomocou VPN</target>
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
+        <target>Vyňať aplikáciu spod ochrany pomocou VPN</target>
+        <source>Exclude apps from VPN protection</source>
       </trans-unit>
     </body>
   </file>
@@ -537,24 +827,24 @@
         <target>Jazyk</target>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageTitle" xml:space="preserve">
-        <source>Use system language</source>
-        <target>Použiť jazyk systému</target>
         <note annotates="source" from="developer">Title for the language switcher toggle.</note>
+        <target>Použiť jazyk systému</target>
+        <source>Use system language</source>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLangaugeSubtitle" xml:space="preserve">
-        <source>Mozilla VPN will use the default system language.</source>
-        <target>Mozilla VPN bude používať predvolený jazyk systému.</target>
         <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
+        <target>Mozilla VPN bude používať predvolený jazyk systému.</target>
+        <source>Mozilla VPN will use the default system language.</source>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageEnabled" xml:space="preserve">
-        <source>Disable to select a different language</source>
-        <target>Zrušte túto voľbu ak chcete vybrať iný jazyk</target>
         <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
+        <target>Zrušte túto voľbu ak chcete vybrať iný jazyk</target>
+        <source>Disable to select a different language</source>
       </trans-unit>
       <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
-        <source>%1 %2</source>
-        <target>%1 %2</target>
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
+        <target>%1 %2</target>
+        <source>%1 %2</source>
       </trans-unit>
     </body>
   </file>
@@ -565,9 +855,9 @@
         <target>Nastavenia siete</target>
       </trans-unit>
       <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
-        <source>VPN must be off to edit these settings</source>
-        <target>Ak chcete upraviť tieto nastavenia, musíte vypnúť VPN</target>
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+        <target>Ak chcete upraviť tieto nastavenia, musíte vypnúť VPN</target>
+        <source>VPN must be off to edit these settings</source>
       </trans-unit>
       <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
         <source>IPv6</source>
@@ -645,10 +935,6 @@
   </file>
   <file original="../src/ui/settings/ViewPrivacySecurity.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
-      <trans-unit id="vpn.settings.privacySecurityTitle" xml:space="preserve">
-        <source>Privacy &amp; Security</source>
-        <target>Súkromie a bezpečnosť</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
         <source>Data collection and use</source>
         <target>Zhromažďovanie a použitie údajov</target>
@@ -656,6 +942,10 @@
       <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla</source>
         <target>Povoliť aplikácii Mozilla VPN posielať technické údaje Mozille</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacySecurityTitle" xml:space="preserve">
+        <source>Privacy &amp; Security</source>
+        <target>Súkromie a bezpečnosť</target>
       </trans-unit>
     </body>
   </file>
@@ -669,6 +959,10 @@
         <source>Manage account</source>
         <target>Spravovať účet</target>
       </trans-unit>
+      <trans-unit id="vpn.main.privacySecurity2" xml:space="preserve">
+        <source>Privacy &amp; security</source>
+        <target>Súkromie a bezpečnosť</target>
+      </trans-unit>
       <trans-unit id="vpn.settings.runOnBoot2" xml:space="preserve">
         <source>Launch VPN app on startup</source>
         <target>Otvoriť aplikáciu pri spustení</target>
@@ -676,10 +970,6 @@
       <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
         <source>Get help</source>
         <target>Získať pomoc</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.privacySecurity2" xml:space="preserve">
-        <source>Privacy &amp; security</source>
-        <target>Súkromie a bezpečnosť</target>
       </trans-unit>
     </body>
   </file>
@@ -747,6 +1037,18 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="sk">
+    <body>
+      <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
+        <source>Error confirming subscription…</source>
+        <target>Chyba pri potvrdzovaní predplatného…</target>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed" xml:space="preserve">
+        <source>Another Firefox Account has already subscribed using this Apple ID.</source>
+        <target>Na základe tohto Apple ID má už predplatné iný účet Firefox.</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/ui/states/StateSubscriptionInProgress.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
       <trans-unit id="vpn.subscription.pleaseWait" xml:space="preserve">
@@ -790,9 +1092,9 @@
         <target>Moje zariadenia</target>
       </trans-unit>
       <trans-unit id="vpn.devices.activeVsMaxDeviceCount" xml:space="preserve">
-        <source>%1 of %2</source>
-        <target>%1 z %2</target>
         <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.</note>
+        <target>%1 z %2</target>
+        <source>%1 of %2</source>
       </trans-unit>
     </body>
   </file>
@@ -851,14 +1153,14 @@
         <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
-        <source>Select location</source>
-        <target>Vybrať polohu</target>
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
+        <target>Vybrať polohu</target>
+        <source>Select location</source>
       </trans-unit>
       <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
-        <source>current location - %1</source>
-        <target>súčasná poloha - %1</target>
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
+        <target>súčasná poloha - %1</target>
+        <source>current location - %1</source>
       </trans-unit>
     </body>
   </file>
@@ -873,9 +1175,9 @@
         <target>Zašifrujte svoje spojenie tak, aby nikto nevedel, čo robíte.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
-        <source>Servers in 30+ countries</source>
-        <target>Servery vo viac ako 30 krajinách</target>
         <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeeded.qml too.</note>
+        <target>Servery vo viac ako 30 krajinách</target>
+        <source>Servers in 30+ countries</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.2" xml:space="preserve">
         <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
@@ -914,9 +1216,9 @@
         <target>Žiadne záznamy aktivity</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.featureTitle4" xml:space="preserve">
-        <source>Connect up to %1 devices</source>
-        <target>Pripojte až %1 zariadení</target>
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
+        <target>Pripojte až %1 zariadení</target>
+        <source>Connect up to %1 devices</source>
       </trans-unit>
       <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
@@ -952,252 +1254,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
-        <source>Loading</source>
-        <target>Načítavanie</target>
-        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="macosinstaller.title" xml:space="preserve">
-        <source>Mozilla VPN for macOS</source>
-        <target>Mozilla VPN pre macOS</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
-        <source>Unable to install</source>
-        <target>Nedá sa nainštalovať</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
-        <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
-        <target>Mozilla VPN vyžaduje Mac OS X 10.6 alebo novšiu verziu.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
-        <source>Previous Installation Detected</source>
-        <target>Bola zistená predchádzajúca inštalácia</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
-        <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
-        <target>V /Applications/Mozilla VPN.app existuje predchádzajúca inštalácia Mozilla VPN. Tento inštalátor pred inštaláciou odstráni predchádzajúcu inštaláciu. Pred pokračovaním si zálohujte všetky údaje.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
-        <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
-        <target>Teraz vás prevedieme krokmi inštalácie Mozilla VPN. Ďakujeme, že ste si vybrali svoju VPN od dôveryhodného priekopníka v oblasti ochrany súkromia na internete.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
-        <source>Click “Continue” to continue the setup.</source>
-        <target>V inštalácii pokračujte kliknutím na “Pokračovať”.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
-        <source>Success!</source>
-        <target>Úspech!</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
-        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
-        <source>Trouble with this installation?</source>
-        <target>Máte s touto inštaláciou problém?</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
-        <source>Get help.</source>
-        <target>Získať pomoc.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="macosinstaller.conclusion.message1" xml:space="preserve">
-        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
-        <target>Mozilla VPN je úspešne nainštalovaná. Prejdite do priečinka Aplikácie, spustite sieť VPN a začnite ovládať svoje súkromie online.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/models/feedbackcategorymodel.cpp" datatype="cpp" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="feedback.category.bugError" xml:space="preserve">
-        <source>Product Bugs/Errors</source>
-        <target>Chyby produktu</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
-        <source>Network Connection/Speed</source>
-        <target>Sieťové pripojenie/rýchlosť</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.productQuality" xml:space="preserve">
-        <source>Product Quality</source>
-        <target>Kvalita produktu</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.accessToService" xml:space="preserve">
-        <source>Access to service</source>
-        <target>Prístup k službe</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.compatibility" xml:space="preserve">
-        <source>Compatibility</source>
-        <target>Kompatibilita</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.easeToUse" xml:space="preserve">
-        <source>Ease of Use</source>
-        <target>Jednoduchosť používania</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.other" xml:space="preserve">
-        <source>Other</source>
-        <target>Iná</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="help.viewLog" xml:space="preserve">
-        <source>View log</source>
-        <target>Zobraziť denník</target>
-      </trans-unit>
-      <trans-unit id="help.helpCenter2" xml:space="preserve">
-        <source>Help center</source>
-        <target>Centrum pomoci</target>
-      </trans-unit>
-      <trans-unit id="help.contactUs" xml:space="preserve">
-        <source>Contact us</source>
-        <target>Kontaktujte nás</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="help.helpCenter" xml:space="preserve">
-        <source>Help Center</source>
-        <target>Centrum pomoci</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
-        <source>VPN Switched Servers</source>
-        <target>VPN zmenilo server</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
-        <source>Switched from %1, %2 to %3, %4</source>
-        <target>Prepnuté z %1, %2 do %3, %4</target>
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
-        <source>VPN Connected</source>
-        <target>VPN je pripojené</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
-        <source>Connected to %1, %2</source>
-        <target>Pripojené k %1, %2</target>
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
-        <source>VPN Disconnected</source>
-        <target>VPN je odpojené</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
-        <source>Disconnected from %1, %2</source>
-        <target>Odpojené z %1, %2</target>
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/platforms/android/androidcontroller.cpp" datatype="cpp" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
-        <source>Ready for you to connect</source>
-        <target>Môžete sa pripojiť</target>
-        <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="menubar.file.title" xml:space="preserve">
-        <source>File</source>
-        <target>Súbor</target>
-      </trans-unit>
-      <trans-unit id="menubar.help.title" xml:space="preserve">
-        <source>Help</source>
-        <target>Pomocník</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="systray.hide" xml:space="preserve">
-        <source>Hide Mozilla VPN</source>
-        <target>Skryť Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="systray.show" xml:space="preserve">
-        <source>Show Mozilla VPN</source>
-        <target>Zobraziť Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
-        <source>Connected to:</source>
-        <target>Pripojené k:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
-        <source>Connect to the last location:</source>
-        <target>Pripojiť k poslednému miestu:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
-        <source>Connecting to:</source>
-        <target>Pripájanie k:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
-        <source>Disconnecting from:</source>
-        <target>Odpájanie z:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.location" xml:space="preserve">
-        <source>%1, %2</source>
-        <target>%1, %2</target>
-        <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
-      </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
-        <source>Unsecured Wi-Fi network detected</source>
-        <target>Bola zistená nezabezpečená sieť Wi-Fi</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork2.message" xml:space="preserve">
-        <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
-        <target>Sieť %1 nie je zabezpečená. Kliknutím sem si zapnete VPN, aby ste ochránili svoje zariadenie.</target>
-        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
-        <source>Guest Wi-Fi portal blocked</source>
-        <target>Bol zablokovaný hosťovský Wi-Fi portál</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock2.message" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
-        <target>Hosťovská Wi-Fi, ku ktorej je vaše zariadenie pripojené vyžaduje akciu. Kliknutím sem vypnete VPN.</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
-        <source>Guest Wi-Fi portal detected</source>
-        <target>Bol zistený hosťovský Wi-Fi portál</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock2.message" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
-        <target>Hosťovská Wi-Fi, ku ktorej je vaše zariadenie pripojené, nemusí byť zabezpečená. Kliknutím sem zapnete VPN.</target>
-      </trans-unit>
-      <trans-unit id="systray.disconnect" xml:space="preserve">
-        <source>Disconnect</source>
-        <target>Odpojiť</target>
-      </trans-unit>
-      <trans-unit id="systray.help" xml:space="preserve">
-        <source>Help</source>
-        <target>Pomocník</target>
-      </trans-unit>
-      <trans-unit id="systray.preferences" xml:space="preserve">
-        <source>Preferences…</source>
-        <target>Nastavenia…</target>
-      </trans-unit>
-      <trans-unit id="systray.quit" xml:space="preserve">
-        <source>Quit Mozilla VPN</source>
-        <target>Ukončiť Mozilla VPN</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="generated/l18nstrings_p.cpp" datatype="cpp" source-language="en" target-language="sk">
     <body>
       <trans-unit id="vpn.serversView.searchPlaceholder" xml:space="preserve">
@@ -1213,8 +1269,8 @@
         <target>Výber kategórie</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.excellentLabel" xml:space="preserve">
-        <source>Excellent</source>
         <note annotates="source" from="developer">One of the answers on the feedback question about the user experience with the VPN client.</note>
+        <source>Excellent</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.reviewHeader" xml:space="preserve">
         <source>Give us 5 stars!</source>
@@ -1250,20 +1306,20 @@
         <target>Aby sa zmeny prejavili je potrebné VPN reštartovať</target>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppActionButton" xml:space="preserve">
-        <source>Add apps manually</source>
         <note annotates="source" from="developer">Displayed in a notification as "call to action" when apps are missing from the split-tunnel settings.</note>
+        <source>Add apps manually</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppMultiple" xml:space="preserve">
-        <source>%1 apps missing from list.</source>
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
+        <source>%1 apps missing from list.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppAddedOne" xml:space="preserve">
-        <source>Success! You added “%1” to this list.</source>
         <note annotates="source" from="developer">Displayed in notification after the user added a missing app to the split-tunnel List; %1 is the name of the added application</note>
+        <source>Success! You added “%1” to this list.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText" xml:space="preserve">
-        <source>For any questions about setting app permissions, we’ve provided some helpful tips on our website.</source>
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
+        <source>For any questions about setting app permissions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
         <source>Learn more</source>
@@ -1294,8 +1350,8 @@
         <source>Recent connections</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText" xml:space="preserve">
-        <source>To</source>
         <note annotates="source" from="developer">This is alt text for an arrow showing the multi-hop route between servers. e.g. Atlanta TO Copenhagen</note>
+        <source>To</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
@@ -1316,28 +1372,28 @@
         <source>How can we help you with Mozilla VPN?</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel" xml:space="preserve">
-        <source>Choose a category</source>
         <note annotates="source" from="developer">A user trying to submit feedback will use this dropdown to select the general topic related to the feedback.</note>
+        <source>Choose a category</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.paymentDropdownListItem" xml:space="preserve">
-        <source>Payment and billing</source>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to payment and billing.</note>
+        <source>Payment and billing</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
-        <source>Account issues</source>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
+        <source>Account issues</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.technicaDropdownListItem" xml:space="preserve">
-        <source>Technical issues</source>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to technical issues.</note>
+        <source>Technical issues</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.featureRequestDropdownListItem" xml:space="preserve">
-        <source>Request features</source>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to requesting new features.</note>
+        <source>Request features</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.otherDropdownListItem" xml:space="preserve">
-        <source>Other</source>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to issues not covered under the other categories.</note>
+        <source>Other</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder" xml:space="preserve">
         <source>Subject (optional)</source>
@@ -1365,8 +1421,8 @@
         <target>Ďakujeme!</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody" xml:space="preserve">
-        <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
         <note annotates="source" from="developer">The %1 represents the email used to complete the form</note>
+        <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseButton" xml:space="preserve">
         <source>Done</source>
@@ -1526,62 +1582,6 @@
       </trans-unit>
       <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
         <source>Multi-hop tunnel</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="vpn.main.signOut" xml:space="preserve">
-        <source>Sign Out</source>
-        <target>Odhlásiť sa</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewAdvancedDNSSettings.qml" datatype="plaintext" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
-        <source>Advanced DNS Settings</source>
-        <target>Pokročilé nastavenia DNS</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
-        <source>Use default DNS</source>
-        <target>Použiť predvolené nastavenia DNS</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.gateway.description" xml:space="preserve">
-        <source>Automatically use Mozilla VPN-protected DNS</source>
-        <target>Automaticky používať DNS chránené pomocou Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.localDNS" xml:space="preserve">
-        <source>Use local DNS</source>
-        <target>Použiť miestne DNS</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.localDNS.resolveWebsiteDomainNames" xml:space="preserve">
-        <source>Resolve website domain names using a DNS in your local network</source>
-        <target>Použite DNS z vašej miestnej siete</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.invalid" xml:space="preserve">
-        <source>Invalid IP address</source>
-        <target>Neplatná IP adresa</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
-        <source>We currently support only IPv4 IP addresses</source>
-        <target>Momentálne podporujeme iba adresy IPv4</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
-        <source>Out of range IP address</source>
-        <target>IP adresa je mimo rozsah</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
-        <source>Error confirming subscription…</source>
-        <target>Chyba pri potvrdzovaní predplatného…</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed" xml:space="preserve">
-        <source>Another Firefox Account has already subscribed using this Apple ID.</source>
-        <target>Na základe tohto Apple ID má už predplatné iný účet Firefox.</target>
       </trans-unit>
     </body>
   </file>
