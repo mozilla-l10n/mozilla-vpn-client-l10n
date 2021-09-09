@@ -166,10 +166,6 @@
       <trans-unit id="systray.hide" xml:space="preserve">
         <source>Hide Mozilla VPN</source>
       </trans-unit>
-      <trans-unit id="systray.preferences" xml:space="preserve">
-        <source>Preferences…</source>
-        <target>Настройки…</target>
-      </trans-unit>
       <trans-unit id="systray.quit" xml:space="preserve">
         <source>Quit Mozilla VPN</source>
         <target>Изход от Mozilla VPN</target>
@@ -833,6 +829,10 @@
       <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla</source>
       </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/settings/ViewPrivacySecurity.qml" datatype="plaintext" source-language="en" target-language="bg">
+    <body>
       <trans-unit id="vpn.settings.privacySecurityTitle" xml:space="preserve">
         <source>Privacy &amp; Security</source>
       </trans-unit>
@@ -840,14 +840,15 @@
   </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
+      <trans-unit id="systray.preferences" xml:space="preserve">
+        <source>Preferences…</source>
+        <target>Настройки…</target>
+      </trans-unit>
       <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
         <source>Get help</source>
       </trans-unit>
       <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
-      </trans-unit>
-      <trans-unit id="vpn.main.privacySecurity2" xml:space="preserve">
-        <source>Privacy &amp; security</source>
       </trans-unit>
       <trans-unit id="vpn.settings.runOnBoot2" xml:space="preserve">
         <source>Launch VPN app on startup</source>
