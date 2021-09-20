@@ -57,14 +57,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="el">
-    <body>
-      <trans-unit id="macosinstaller.conclusion.message1" xml:space="preserve">
-        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
-        <target>Το Mozilla VPN εγκαταστάθηκε με επιτυχία. Μεταβείτε στον φάκελο «Εφαρμογές» για να ανοίξετε το VPN και να ελέγξετε το διαδικτυακό σας απόρρητο.</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/models/feedbackcategorymodel.cpp" datatype="cpp" source-language="en" target-language="el">
     <body>
       <trans-unit id="feedback.category.accessToService" xml:space="preserve">
@@ -110,14 +102,6 @@
       <trans-unit id="help.viewLog" xml:space="preserve">
         <source>View log</source>
         <target>Αρχείο καταγραφής</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="el">
-    <body>
-      <trans-unit id="help.helpCenter" xml:space="preserve">
-        <source>Help Center</source>
-        <target>Κέντρο βοήθειας</target>
       </trans-unit>
     </body>
   </file>
@@ -286,23 +270,6 @@
       <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
         <source>About us</source>
         <target>Σχετικά με εμάς</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="el">
-    <body>
-      <trans-unit id="vpn.aboutUs.privacyNotice" xml:space="preserve">
-        <source>Privacy Notice</source>
-        <target>Σημείωση απορρήτου</target>
-      </trans-unit>
-      <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
-        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
-        <target>Έκδοση</target>
-        <source>Release Version</source>
-      </trans-unit>
-      <trans-unit id="vpn.aboutUs.tos" xml:space="preserve">
-        <source>Terms of Service</source>
-        <target>Όροι υπηρεσίας</target>
       </trans-unit>
     </body>
   </file>
@@ -569,14 +536,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="el">
-    <body>
-      <trans-unit id="vpn.main.signOut" xml:space="preserve">
-        <source>Sign Out</source>
-        <target>Αποσύνδεση</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/components/VPNSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
       <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
@@ -654,42 +613,6 @@
       <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
         <target>Ενεργοποίηση VPN</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewAdvancedDNSSettings.qml" datatype="plaintext" source-language="en" target-language="el">
-    <body>
-      <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
-        <source>Use default DNS</source>
-        <target>Χρήση προεπιλεγμένου DNS</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.gateway.description" xml:space="preserve">
-        <source>Automatically use Mozilla VPN-protected DNS</source>
-        <target>Αυτόματη χρήση DNS με προστασία από το Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.localDNS" xml:space="preserve">
-        <source>Use local DNS</source>
-        <target>Χρήση τοπικού DNS</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.localDNS.resolveWebsiteDomainNames" xml:space="preserve">
-        <source>Resolve website domain names using a DNS in your local network</source>
-        <target>Επίλυση των ονομάτων τομέων των ιστοσελίδων με DNS του τοπικού σας δικτύου</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
-        <source>Advanced DNS Settings</source>
-        <target>Σύνθετες ρυθμίσεις DNS</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.invalid" xml:space="preserve">
-        <source>Invalid IP address</source>
-        <target>Μη έγκυρη διεύθυνση IP</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
-        <source>We currently support only IPv4 IP addresses</source>
-        <target>Προς το παρόν, υποστηρίζουμε μόνο διευθύνσεις IP IPv4</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
-        <source>Out of range IP address</source>
-        <target>Διεύθυνση IP εκτός εμβέλειας</target>
       </trans-unit>
     </body>
   </file>
@@ -805,18 +728,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/settings/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="el">
-    <body>
-      <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse" xml:space="preserve">
-        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
-        <target>Θα θέλαμε να μάθουμε πώς μπορούμε να βελτιώσουμε το Mozilla VPN. Παρακαλούμε γράψτε τυχόν συγκεκριμένα σχόλια εδώ.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.veryGood" xml:space="preserve">
-        <source>Very good</source>
-        <target>Πολύ καλή</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
       <trans-unit id="vpn.settings.language" xml:space="preserve">
@@ -918,18 +829,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="el">
-    <body>
-      <trans-unit id="vpn.settings.notification.connectionChange" xml:space="preserve">
-        <source>Connection Change Notification</source>
-        <target>Ειδοποίηση αλλαγής σύνδεσης</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch" xml:space="preserve">
-        <source>Server Switching Notification</source>
-        <target>Ειδοποίηση εναλλαγής διακομιστή</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/settings/ViewPrivacySecurity.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
       <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
@@ -939,14 +838,6 @@
       <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla</source>
         <target>Να επιτρέπεται στο Mozilla VPN η αποστολή τεχνικών δεδομένων στη Mozilla</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewPrivacySecurity.qml" datatype="plaintext" source-language="en" target-language="el">
-    <body>
-      <trans-unit id="vpn.settings.privacySecurityTitle" xml:space="preserve">
-        <source>Privacy &amp; Security</source>
-        <target>Απόρρητο &amp; ασφάλεια</target>
       </trans-unit>
     </body>
   </file>
@@ -971,18 +862,6 @@
       <trans-unit id="vpn.settings.user" xml:space="preserve">
         <source>VPN User</source>
         <target>Χρήστης VPN</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="el">
-    <body>
-      <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
-        <source>Privacy &amp; Security</source>
-        <target>Απόρρητο &amp; ασφάλεια</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
-        <source>Launch VPN app on Startup</source>
-        <target>Εκτέλεση εφαρμογής VPN κατά την εκκίνηση</target>
       </trans-unit>
     </body>
   </file>
@@ -1035,18 +914,6 @@
       <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
         <target>Επισκεφτείτε το κέντρο βοήθειας για περισσότερες πληροφορίες σχετικά με τη διαχείριση των συνδρομών σας.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="el">
-    <body>
-      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed" xml:space="preserve">
-        <source>Another Firefox Account has already subscribed using this Apple ID.</source>
-        <target>Υπάρχει ήδη συνδρομή σε άλλο λογαριασμό Firefox με αυτό το Apple ID.</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
-        <source>Error confirming subscription…</source>
-        <target>Σφάλμα επιβεβαίωσης συνδρομής…</target>
       </trans-unit>
     </body>
   </file>

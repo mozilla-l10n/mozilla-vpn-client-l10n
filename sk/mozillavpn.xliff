@@ -56,14 +56,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="macosinstaller.conclusion.message1" xml:space="preserve">
-        <source>The Mozilla VPN is successfully installed. Go to your Applications folder to open up the VPN and start taking control of your online privacy.</source>
-        <target>Mozilla VPN je úspešne nainštalovaná. Prejdite do priečinka Aplikácie, spustite sieť VPN a začnite ovládať svoje súkromie online.</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/models/feedbackcategorymodel.cpp" datatype="cpp" source-language="en" target-language="sk">
     <body>
       <trans-unit id="feedback.category.accessToService" xml:space="preserve">
@@ -109,14 +101,6 @@
       <trans-unit id="help.viewLog" xml:space="preserve">
         <source>View log</source>
         <target>Zobraziť denník</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="help.helpCenter" xml:space="preserve">
-        <source>Help Center</source>
-        <target>Centrum pomoci</target>
       </trans-unit>
     </body>
   </file>
@@ -285,23 +269,6 @@
       <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
         <source>About us</source>
         <target>O nás</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="vpn.aboutUs.privacyNotice" xml:space="preserve">
-        <source>Privacy Notice</source>
-        <target>Zásady ochrany súkromia</target>
-      </trans-unit>
-      <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
-        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
-        <target>Verzia</target>
-        <source>Release Version</source>
-      </trans-unit>
-      <trans-unit id="vpn.aboutUs.tos" xml:space="preserve">
-        <source>Terms of Service</source>
-        <target>Podmienky používania služby</target>
       </trans-unit>
     </body>
   </file>
@@ -568,14 +535,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="vpn.main.signOut" xml:space="preserve">
-        <source>Sign Out</source>
-        <target>Odhlásiť sa</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/components/VPNSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
       <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
@@ -653,42 +612,6 @@
       <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
         <target>Zapnúť VPN</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewAdvancedDNSSettings.qml" datatype="plaintext" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="vpn.advancedDNSSettings.gateway" xml:space="preserve">
-        <source>Use default DNS</source>
-        <target>Použiť predvolené nastavenia DNS</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.gateway.description" xml:space="preserve">
-        <source>Automatically use Mozilla VPN-protected DNS</source>
-        <target>Automaticky používať DNS chránené pomocou Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.localDNS" xml:space="preserve">
-        <source>Use local DNS</source>
-        <target>Použiť miestne DNS</target>
-      </trans-unit>
-      <trans-unit id="vpn.advancedDNSSettings.localDNS.resolveWebsiteDomainNames" xml:space="preserve">
-        <source>Resolve website domain names using a DNS in your local network</source>
-        <target>Použite DNS z vašej miestnej siete</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.advancedDNSSettings.title" xml:space="preserve">
-        <source>Advanced DNS Settings</source>
-        <target>Pokročilé nastavenia DNS</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.invalid" xml:space="preserve">
-        <source>Invalid IP address</source>
-        <target>Neplatná IP adresa</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.notIPv4" xml:space="preserve">
-        <source>We currently support only IPv4 IP addresses</source>
-        <target>Momentálne podporujeme iba adresy IPv4</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.userDNS.outOfRange" xml:space="preserve">
-        <source>Out of range IP address</source>
-        <target>IP adresa je mimo rozsah</target>
       </trans-unit>
     </body>
   </file>
@@ -804,18 +727,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/settings/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="vpn.feedbackForm.averageToHighRatingResponse" xml:space="preserve">
-        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
-        <target>Radi by sme vedeli, ako môžeme Mozilla VPN ešte vylepšiť. Prosím, zdieľajte s nami spätnú väzbu.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.veryGood" xml:space="preserve">
-        <source>Very good</source>
-        <target>Veľmi dobré</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
       <trans-unit id="vpn.settings.language" xml:space="preserve">
@@ -917,18 +828,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="vpn.settings.notification.connectionChange" xml:space="preserve">
-        <source>Connection Change Notification</source>
-        <target>Oznámenie o zmene pripojenia</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch" xml:space="preserve">
-        <source>Server Switching Notification</source>
-        <target>Oznámenie o prepnutí servera</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/settings/ViewPrivacySecurity.qml" datatype="plaintext" source-language="en" target-language="sk">
     <body>
       <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
@@ -938,14 +837,6 @@
       <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla</source>
         <target>Povoliť aplikácii Mozilla VPN posielať technické údaje Mozille</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewPrivacySecurity.qml" datatype="plaintext" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="vpn.settings.privacySecurityTitle" xml:space="preserve">
-        <source>Privacy &amp; Security</source>
-        <target>Súkromie a bezpečnosť</target>
       </trans-unit>
     </body>
   </file>
@@ -970,18 +861,6 @@
       <trans-unit id="vpn.settings.user" xml:space="preserve">
         <source>VPN User</source>
         <target>Používateľ VPN</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="vpn.main.privacySecurity" xml:space="preserve">
-        <source>Privacy &amp; Security</source>
-        <target>Súkromie a bezpečnosť</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot" xml:space="preserve">
-        <source>Launch VPN app on Startup</source>
-        <target>Otvoriť aplikáciu pri spustení</target>
       </trans-unit>
     </body>
   </file>
@@ -1034,18 +913,6 @@
       <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
         <target>O správe svojich predplatných sa dozviete viac v našom centre pomoci.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="sk">
-    <body>
-      <trans-unit id="vpn.subscriptionBlocked.anotherFxaSubscribed" xml:space="preserve">
-        <source>Another Firefox Account has already subscribed using this Apple ID.</source>
-        <target>Na základe tohto Apple ID má už predplatné iný účet Firefox.</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.title" xml:space="preserve">
-        <source>Error confirming subscription…</source>
-        <target>Chyba pri potvrdzovaní predplatného…</target>
       </trans-unit>
     </body>
   </file>
