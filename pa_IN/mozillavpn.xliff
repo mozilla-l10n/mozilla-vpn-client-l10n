@@ -381,72 +381,87 @@
   </file>
   <file original="../src/ui/components/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.devices.addedXdaysAgo">
+      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
+        <target>%1 ਦਿਨ ਪਹਿਲਾਂ ਸ਼ਾਮਲ ਕੀਤਾ</target>
         <source>Added %1 days ago</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.addedXhoursAgo">
+      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the number of hours.</note>
+        <target>ਕੁਝ ਘੰਟੇ ਪਹਿਲਾਂ ਜੋੜਿਆ (%1)</target>
         <source>Added a few hours ago (%1)</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.addedltHour">
+      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
         <source>Added less than an hour ago</source>
+        <target>ਘੰਟੇ ਤੋਂ ਘੱਟ ਪਹਿਲਾਂ ਜੋੜਿਆ</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.currentDevice">
+      <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
         <source>Current Device</source>
+        <target>ਮੌਜੂਦਾ ਡਿਵਾਇਸ</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.deviceAccessibleName">
+      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
         <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
+        <target>%1 %2</target>
         <source>%1 %2</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeA11Y">
+      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <target>%1 ਨੂੰ ਹਟਾਓ</target>
         <source>Remove %1</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.devices.doDeviceRemoval">
+      <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
         <source>Remove a device</source>
+        <target>ਡਿਵਾਇਸ ਨੂੰ ਹਟਾਓ</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.maxDevicesHeader">
+      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
         <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
+        <target>ਤੁਸੀਂ ਡਿਵਾਇਸਾਂ ਦੀ ਹੱਦ ਟੱਪ ਚੁੱਕੇ ਹੋ। ਇਸ ਡਿਵਾਇਸ ਉੱਤੇ VPN ਨੂੰ ਚਾਲੂ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਪਹਿਲਾਂ ਕਿਸੇ ਡਿਵਾਇਸ ਨੂੰ ਹਟਾਉਣਾ ਪਵੇਗਾ।</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.connectioInfo.gBps">
+      <trans-unit id="vpn.connectioInfo.gBps" xml:space="preserve">
         <note annotates="source" from="developer">Gigabytes per second</note>
+        <target>GB/s</target>
         <source>GB/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectioInfo.mBps">
+      <trans-unit id="vpn.connectioInfo.mBps" xml:space="preserve">
         <note annotates="source" from="developer">Megabytes per second</note>
+        <target>MB/s</target>
         <source>MB/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.Bps">
+      <trans-unit id="vpn.connectionInfo.Bps" xml:space="preserve">
         <note annotates="source" from="developer">Bytes per second</note>
+        <target>B/s</target>
         <source>B/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.accessibleName">
+      <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
+        <target>%1: %2 %3</target>
         <source>%1: %2 %3</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.kBps">
+      <trans-unit id="vpn.connectionInfo.kBps" xml:space="preserve">
         <note annotates="source" from="developer">Kilobytes per second</note>
+        <target>kB/s</target>
         <source>kB/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.tBps">
+      <trans-unit id="vpn.connectionInfo.tBps" xml:space="preserve">
         <note annotates="source" from="developer">Terabytes per second</note>
+        <target>TB/s</target>
         <source>TB/s</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNLoader.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.authenticating.cancel">
+      <trans-unit id="vpn.authenticating.cancel" xml:space="preserve">
         <source>Cancel</source>
+        <target>ਰੱਦ ਕਰੋ</target>
       </trans-unit>
     </body>
   </file>
@@ -459,27 +474,32 @@
   </file>
   <file original="../src/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.devices.cancelDeviceRemoval">
+      <trans-unit id="vpn.devices.cancelDeviceRemoval" xml:space="preserve">
         <source>Cancel</source>
+        <target>ਰੱਦ ਕਰੋ</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.deviceRemovalConfirm">
+      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
+        <target>%1 ਨੂੰ ਹਟਾਉਣ ਦੀ ਤਸਦੀਕ ਕਰੋ</target>
         <source>Please confirm you would like to remove
 %1.</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceButton">
+      <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
         <note annotates="source" from="developer">This is the “remove” device button.</note>
+        <target>ਹਟਾਓ</target>
         <source>Remove</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceQuestion">
+      <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
         <source>Remove device?</source>
+        <target>ਡਿਵਾਇਸ ਹਟਾਉਣਾ ਹੈ?</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNServerCountry.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="cities">
+      <trans-unit id="cities" xml:space="preserve">
         <note annotates="source" from="developer">The title for the list of cities.</note>
+        <target>ਸ਼ਹਿਰ</target>
         <source>Cities</source>
       </trans-unit>
     </body>
@@ -512,46 +532,58 @@
   </file>
   <file original="../src/ui/components/VPNSystemAlert.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.alert.authenticationError">
+      <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
         <source>Authentication error</source>
+        <target>ਪਰਮਾਣਕਿਤਾ ਗਲਤੀ</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.backendServiceError">
+      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
         <source>Background service error</source>
+        <target>ਬੈਕਗਰਾਉਂਡ ਸੇਵਾ ਗਲਤੀ</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout">
+      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
         <source>Signed out and device disconnected</source>
+        <target>ਸਾਈਨ ਆਉਟ ਕਰੋ ਤੇ ਡਿਵਾਈਸ ਨਾਲੋਂ ਕਨੈਕਸ਼ਨ ਤੋੜੋ</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.getIPRestrictionError">
+      <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
         <source>Operation not allowed from current location</source>
+        <target>ਮੌਜੂਦਾ ਟਿਕਾਣੇ ਤੋਂ ਕਾਰਵਾਈ ਮਨਜ਼ੂਰ ਨਹੀਂ ਹੈ</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.noInternet">
+      <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
         <source>No internet connection</source>
+        <target>ਕੋਈ ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.remoteServiceError">
+      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
+        <target>ਰਿਮੋਟ ਸੇਵਾ ਗਲਤੀ</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.restore">
+      <trans-unit id="vpn.alert.restore" xml:space="preserve">
         <note annotates="source" from="developer">Restore a service in case of error.</note>
+        <target>ਬਹਾਲ ਕਰੋ</target>
         <source>Restore</source>
       </trans-unit>
-      <trans-unit id="vpn.alert.subscriptionFailureError">
+      <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
         <source>Subscription failed</source>
+        <target>ਮੈਂਬਰੀ ਅਸਫਲ ਹੋਈ</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.tryAgain">
+      <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
         <source>Try again</source>
+        <target>ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.unableToConnect">
+      <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
         <source>Unable to connect</source>
+        <target>ਕਨੈਕਟ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.toggle.off">
+      <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
+        <target>VPN ਨੂੰ ਬੰਦ ਕਰੋ</target>
       </trans-unit>
-      <trans-unit id="vpn.toggle.on">
+      <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
+        <target>VPN ਨੂੰ ਚਾਲੂ ਕਰੋ</target>
       </trans-unit>
     </body>
   </file>
@@ -578,8 +610,9 @@
       <trans-unit id="vpn.settings.protectAllApps.description">
         <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff">
+      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+        <target>ਐਪ ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਸੋਧਣ ਲਈ VPN ਬੰਦ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</target>
         <source>VPN must be off to edit App Permissions</source>
       </trans-unit>
     </body>
@@ -644,91 +677,111 @@
   </file>
   <file original="../src/ui/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.settings.language">
+      <trans-unit id="vpn.settings.language" xml:space="preserve">
         <source>Language</source>
+        <target>ਭਾਸ਼ਾ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.languageAccessibleName">
+      <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
+        <target>%1 %2</target>
         <source>%1 %2</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.systemLangaugeSubtitle">
+      <trans-unit id="vpn.settings.systemLangaugeSubtitle" xml:space="preserve">
         <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
+        <target>Mozilla VPN ਸਿਸਟਮ ਦੀ ਮੁੱਢਲੀ ਭਾਸ਼ਾ ਦੀ ਵਰਤੋਂ ਕਰੇਗਾ।</target>
         <source>Mozilla VPN will use the default system language.</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.systemLanguageEnabled">
+      <trans-unit id="vpn.settings.systemLanguageEnabled" xml:space="preserve">
         <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
+        <target>ਵੱਖਰੀ ਭਾਸ਼ਾ ਚੁਣ ਲਈ ਅਸਮਰੱਥ ਕਰੋ</target>
         <source>Disable to select a different language</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.systemLanguageTitle">
+      <trans-unit id="vpn.settings.systemLanguageTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the language switcher toggle.</note>
+        <target>ਸਿਸਟਮ ਦੀ ਭਾਸ਼ਾ ਵਰਤੋ</target>
         <source>Use system language</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.settings.ipv6">
+      <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
         <source>IPv6</source>
+        <target>IPv6</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.ipv6.description">
+      <trans-unit id="vpn.settings.ipv6.description" xml:space="preserve">
         <source>Push the internet forward with the latest version of the Internet Protocol</source>
+        <target>ਇੰਟਰਨੈੱਟ ਪਰੋਟੋਕਾਲ ਦੇ ਨਵੇਂ ਵਰਜ਼ਨ ਨਾਲ ਇੰਟਰਨੈੱਟ ਨੂੰ ਅੱਗੇ ਵਧਾਓ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess">
+      <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
         <source>Local network access</source>
+        <target>ਲੋਕਲ ਨੈੱਟਵਰਕ ਲਈ ਪਹੁੰਚ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess.description">
+      <trans-unit id="vpn.settings.lanAccess.description" xml:space="preserve">
         <source>Access printers, streaming sticks and all other devices on your local network</source>
+        <target>ਆਪਣੇ ਲੋਕਲ ਨੈੱਟਵਰਕ ਉੱਤੇ ਪਰਿੰਟਰਾਂ, ਸਟਰੀਮਿੰਗ ਸਟਿੱਕਾਂ ਅਤੇ ਹੋਰ ਡਿਵਾਇਸਾਂ ਲਈ ਪਹੁੰਚ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.networking">
+      <trans-unit id="vpn.settings.networking" xml:space="preserve">
         <source>Network settings</source>
+        <target>ਨੈੱਟਵਰਕ ਦੀਆਂ ਸੈਟਿੰਗਾਂ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.networking.advancedDNSSettings">
         <source>Advanced DNS Settings</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.vpnMustBeOff">
+      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+        <target>ਇਹਨਾਂ ਸੈਟਿੰਗਾਂ ਨੂੰ ਸੋਧਣ ਲਈ VPN ਬੰਦ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</target>
         <source>VPN must be off to edit these settings</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.settings.guestWifiAlert">
+      <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
         <source>Guest Wi-Fi portal alert</source>
+        <target>ਮਹਿਮਾਨ ਵਾਈ-ਫ਼ਾਈ ਪੋਰਟਲ ਦੀ ਚੇਤਾਵਨੀ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.guestWifiAlert.description">
+      <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
+        <target>ਜੇਕਰ VPN ਕਨੈਕਸ਼ਨ ਕਾਰਨ ਮਹਿਮਾਨ ਵਾਈ-ਫ਼ਾਈ 'ਤੇ ਰੋਕ ਲੱਗਦੀ ਹੈ ਤਾਂ ਉਸ ਸਬੰਧੀ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਕਰੋ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange.description">
+      <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
         <source>Get notified when the connection status changes</source>
+        <target>ਜਦੋਂ ਕਨੈਕਸ਼ਨ ਦੀ ਸਥਿਤੀ ਬਦਲਦੀ ਹੈ ਤਾਂ ਉਸ ਸਬੰਧੀ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਕਰੋ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange2">
         <source>Connection change notification</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch.description">
+      <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
         <source>Get notified when you successfully switched servers</source>
+        <target>ਜਦੋਂ ਤੁਸੀਂ ਕਾਮਯਾਬੀ ਨਾਲ ਸਰਵਰ ਬਦਲਦੇ ਹੋ ਤਾਂ ਉਸ ਸਬੰਧੀ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਕਰੋ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch2">
         <source>Server switching notification</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.notifications">
+      <trans-unit id="vpn.settings.notifications" xml:space="preserve">
         <source>Notifications</source>
+        <target>ਸੂਚਨਾਵਾਂ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.unsecuredNetworkAlert">
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert" xml:space="preserve">
         <source>Unsecured network alert</source>
+        <target>ਅਸੁਰੱਖਿਅਤ ਨੈੱਟਵਰਕ ਦੀ ਚੇਤਾਵਨੀ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description">
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description" xml:space="preserve">
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
+        <target>ਜੇਕਰ ਤੁਸੀਂ ਅਸੁਰੱਖਿਅਤ ਵਾਈ-ਫ਼ਾਈ ਨੈੱਟਵਰਕ ਨਾਲ ਜੁੜਦੇ ਹੋ ਤਾਂ ਉਸ ਸਬੰਧੀ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਕਰੋ</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewPrivacySecurity.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.settings.dataCollection">
+      <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
         <source>Data collection and use</source>
+        <target>ਡਾਟਾ ਇਕੱਤਰਤਾ ਅਤੇ ਵਰਤੋਂ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dataCollection.description">
+      <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla</source>
+        <target>Mozilla VPN ਨੂੰ ਤਕਨੀਕੀ ਡਾਟਾ Mozilla ਨੂੰ ਭੇਜਣ ਦੀ ਮਨਜ਼ੂਰੀ ਦਿਓ</target>
       </trans-unit>
     </body>
   </file>
@@ -740,57 +793,68 @@
       <trans-unit id="vpn.main.getHelp2">
         <source>Get help</source>
       </trans-unit>
-      <trans-unit id="vpn.main.manageAccount">
+      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.runOnBoot2">
         <source>Launch VPN app on startup</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.user">
+      <trans-unit id="vpn.settings.user" xml:space="preserve">
         <source>VPN User</source>
+        <target>VPN ਵਰਤੋਂਕਾਰ</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/states/StateAuthenticating.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.authenticating.waitForSignIn">
+      <trans-unit id="vpn.authenticating.waitForSignIn" xml:space="preserve">
         <source>Waiting for sign in and subscription confirmation…</source>
+        <target>…ਸਾਈਨ ਇਨ ਅਤੇ ਮੈਂਬਰੀ ਤਸਦੀਕ ਕਰਨ ਦੀ ਉਡੀਕ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/states/StateBackendFailure.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.errors.somethingWentWrong">
+      <trans-unit id="vpn.errors.somethingWentWrong" xml:space="preserve">
         <source>Something went wrong…</source>
+        <target>ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ…</target>
       </trans-unit>
-      <trans-unit id="vpn.errors.tryAgain">
+      <trans-unit id="vpn.errors.tryAgain" xml:space="preserve">
         <source>Try Again</source>
+        <target>ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ</target>
       </trans-unit>
-      <trans-unit id="vpn.errors.unableToEstablishConnection">
+      <trans-unit id="vpn.errors.unableToEstablishConnection" xml:space="preserve">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
+        <target>ਫਿਲਹਾਲ ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਬਣਾ ਸਕੇ। ਅਸੀਂ ਇਸ ਸਮੱਸਿਆ ਨੂੰ ਹੱਲ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹਾਂ। ਕੁਝ ਸਮੇਂ ਬਾਅਦ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/states/StatePostAuthentication.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.postAuthentication..quickAccess">
+      <trans-unit id="vpn.postAuthentication..quickAccess" xml:space="preserve">
         <source>Quick access</source>
+        <target>ਫ਼ੌਰੀ ਪਹੁੰਚ</target>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.continue">
+      <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
         <source>Continue</source>
+        <target>ਜਾਰੀ ਰੱਖੋ</target>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.statusBarIntro">
+      <trans-unit id="vpn.postAuthentication.statusBarIntro" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
+        <target>ਤੁਸੀਂ ਸਟੇਟਸ ਬਾਰ ਤੋਂ Mozilla VPN ਨੂੰ ਤੁਰੰਤ ਵਰਤ ਸਕਦੇ ਹੋ।</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.subscriptionBlocked.getHelp">
+      <trans-unit id="vpn.subscriptionBlocked.getHelp" xml:space="preserve">
         <source>Get Help</source>
+        <target>ਮਦਦ ਲਵੋ</target>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter">
+      <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
+        <target>ਆਪਣੀ ਮੈਂਬਰੀ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰਨ ਬਾਰੇ ਜਾਣਨ ਲਈ ਸਾਡੇ ਮਦਦ ਕੇਂਦਰ ਨੂੰ ਖੋਲ੍ਹੋ।</target>
       </trans-unit>
     </body>
   </file>
@@ -803,20 +867,24 @@
   </file>
   <file original="../src/ui/states/StateTelemetryPolicy.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.telemetryPolicy.MozillaVPNPrivacyNotice">
+      <trans-unit id="vpn.telemetryPolicy.MozillaVPNPrivacyNotice" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Mozilla VPN ਦੀ ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.allowMozillaToSendData">
         <source>Allow Mozilla VPN to send technical data to Mozilla?</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice">
+      <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice" xml:space="preserve">
         <source>Allow on this device</source>
+        <target>ਇਸ ਡਿਵਾਇਸ ਉੱਤੇ ਮਨਜ਼ੂਰੀ ਦਿਓ</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.doNotAllow">
+      <trans-unit id="vpn.telemetryPolicy.doNotAllow" xml:space="preserve">
         <source>Don’t allow</source>
+        <target>ਇਜਾਜ਼ਤ ਨਾ ਦਿਓ</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData">
+      <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
+        <target>Mozilla ਵੱਲੋਂ ਕਿਹੜਾ ਡਾਟਾ ਇਕੱਠਾ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਤੇ ਉਸਨੂੰ ਕਿਵੇਂ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ, ਇਸ ਬਾਰੇ ਹੋਰ ਜਾਣੋ।</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.updatedTelemetryDisclaimer">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
@@ -825,19 +893,22 @@
   </file>
   <file original="../src/ui/views/ViewDevices.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.devices.activeVsMaxDeviceCount">
+      <trans-unit id="vpn.devices.activeVsMaxDeviceCount" xml:space="preserve">
         <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.</note>
+        <target>%2 'ਚੋਂ %1</target>
         <source>%1 of %2</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.myDevices">
+      <trans-unit id="vpn.devices.myDevices" xml:space="preserve">
         <source>My devices</source>
+        <target>ਮੇਰੇ ਡਿਵਾਇਸ</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewErrorFullScreen.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.errors.checkOutageUpdates">
+      <trans-unit id="vpn.errors.checkOutageUpdates" xml:space="preserve">
         <source>Check outage updates</source>
+        <target>ਸੇਵਾ ਰੁਕਾਵਟ ਦੇ ਅੱਪਡੇਟਾਂ ਦੀ ਜਾਂਚ ਕਰੋ</target>
       </trans-unit>
     </body>
   </file>
@@ -850,65 +921,80 @@
   </file>
   <file original="../src/ui/views/ViewInitialize.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.main.getStarted">
+      <trans-unit id="vpn.main.getStarted" xml:space="preserve">
         <source>Get started</source>
+        <target>ਸ਼ੁਰੂ ਕਰੋ</target>
       </trans-unit>
-      <trans-unit id="vpn.main.learnMore">
+      <trans-unit id="vpn.main.learnMore" xml:space="preserve">
         <source>Learn more</source>
+        <target>ਹੋਰ ਜਾਣੋ</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewLogs.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.logs.clear">
+      <trans-unit id="vpn.logs.clear" xml:space="preserve">
         <source>Clear</source>
+        <target>ਮਿਟਾਓ</target>
       </trans-unit>
-      <trans-unit id="vpn.logs.copied">
+      <trans-unit id="vpn.logs.copied" xml:space="preserve">
         <source>Copied!</source>
+        <target>ਕਾਪੀ ਕੀਤਾ!</target>
       </trans-unit>
-      <trans-unit id="vpn.logs.copy">
+      <trans-unit id="vpn.logs.copy" xml:space="preserve">
         <source>Copy</source>
+        <target>ਕਾਪੀ ਕਰੋ</target>
       </trans-unit>
-      <trans-unit id="vpn.viewlogs.title">
+      <trans-unit id="vpn.viewlogs.title" xml:space="preserve">
         <source>View Logs</source>
+        <target>ਲਾਗ ਵੇਖੋ</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewMain.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="MozillaVPN">
+      <trans-unit id="MozillaVPN" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.servers.currentLocation">
+      <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
+        <target>ਮੌਜੂਦਾ ਟਿਕਾਣਾ - %1</target>
         <source>current location - %1</source>
       </trans-unit>
-      <trans-unit id="vpn.servers.selectLocation">
+      <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
+        <target>ਟਿਕਾਣਾ ਚੁਣੋ</target>
         <source>Select location</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.onboarding.headline.1">
+      <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
         <source>Device-level encryption</source>
+        <target>ਡਿਵਾਇਸ-ਪੱਧਰੀ ਇਨਕਰਿਪਸ਼ਨ</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.2">
+      <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
         <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeeded.qml too.</note>
+        <target>30+ ਦੇਸ਼ਾਂ ਵਿੱਚ ਸਰਵਰ</target>
         <source>Servers in 30+ countries</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.3">
+      <trans-unit id="vpn.onboarding.headline.3" xml:space="preserve">
         <source>No bandwidth restrictions</source>
+        <target>ਕੋਈ ਬੈਂਡਵਿੱਥ ਲਈ ਕੋਈ ਪਾਬੰਦੀ ਨਹੀਂ</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.4">
+      <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
         <source>No online activity logs</source>
+        <target>ਆਨਲਾਇਨ ਸਰਗਰਮੀਆਂ ਦਾ ਕੋਈ ਲਾਗ ਨਹੀਂ</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.next">
+      <trans-unit id="vpn.onboarding.next" xml:space="preserve">
         <source>Next</source>
+        <target>ਅੱਗੇ</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.skip">
+      <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
         <source>Skip</source>
+        <target>ਛੱਡੋ</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.1">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
@@ -926,15 +1012,17 @@
   </file>
   <file original="../src/ui/views/ViewSubscriptionNeeded.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.subscription.featureTitle1">
+      <trans-unit id="vpn.subscription.featureTitle1" xml:space="preserve">
         <source>No activity logs</source>
+        <target>ਕੋਈ ਸਰਗਰਮੀ ਲਾਗ ਨਹੀਂ</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.featureTitle4">
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
         <source>Connect up to %1 devices</source>
       </trans-unit>
-      <trans-unit id="vpn.updates.subscribeNow">
+      <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
+        <target>ਹੁਣੇ ਮੈਂਬਰ ਬਣੋ</target>
       </trans-unit>
     </body>
   </file>
