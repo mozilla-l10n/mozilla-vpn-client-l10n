@@ -1375,6 +1375,31 @@
         <source>Go to Play Store</source>
         <target>Перейти в Play Store</target>
       </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalBlockMessage" xml:space="preserve">
+        <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
+        <target>Гостевая Wi-Fi сеть, к которой вы подключены, требует действий. Щёлкните здесь, чтобы отключить VPN и увидеть портал.</target>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalBlockTitle" xml:space="preserve">
+        <source>Guest Wi-Fi portal blocked</source>
+        <target>Гостевой портал Wi-Fi заблокирован</target>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalUnblockMessage" xml:space="preserve">
+        <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
+        <target>Гостевая Wi-Fi сеть, к которой вы подключены, может быть не защищена. Щёлкните здесь, чтобы включить VPN для защиты вашего устройства.</target>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalUnblockTitle" xml:space="preserve">
+        <source>Guest Wi-Fi portal detected</source>
+        <target>Обнаружен гостевой портал Wi-Fi</target>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
+        <target>%1 не защищена. Щёлкните здесь, чтобы включить VPN и защитить своё устройство.</target>
+        <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.unsecuredNetworkTitle" xml:space="preserve">
+        <source>Unsecured Wi-Fi network detected</source>
+        <target>Обнаружена незащищённая Wi-Fi сеть</target>
+      </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
         <target>Нет результатов. Попробуйте другие настройки поиска</target>
@@ -1382,6 +1407,9 @@
       <trans-unit id="vpn.serversView.searchPlaceholder" xml:space="preserve">
         <source>Search countries</source>
         <target>Поиск страны</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.preferences" xml:space="preserve">
+        <source>Preferences</source>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
         <source>VPN must be restarted to take effect</source>
@@ -1430,6 +1458,51 @@
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
         <target>%1 приложение отсутствует в списке.</target>
         <source>%1 apps missing from list.</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
+        <source>Disconnect</source>
+        <target>Отключиться</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.help" xml:space="preserve">
+        <source>Help</source>
+        <target>Помощь</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.hide" xml:space="preserve">
+        <source>Hide Mozilla VPN</source>
+        <target>Скрыть Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.location2" xml:space="preserve">
+        <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
+        <target>%1, %2</target>
+        <source>%1, %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.preferences" xml:space="preserve">
+        <source>Preferences…</source>
+        <target>Настройки…</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.quit" xml:space="preserve">
+        <source>Quit Mozilla VPN</source>
+        <target>Выйти из Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.show" xml:space="preserve">
+        <source>Show Mozilla VPN</source>
+        <target>Показать Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnectTo" xml:space="preserve">
+        <source>Connect to the last location:</source>
+        <target>Подключиться к последнему местоположению:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnectedTo" xml:space="preserve">
+        <source>Connected to:</source>
+        <target>Подключено к:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnectingTo" xml:space="preserve">
+        <source>Connecting to:</source>
+        <target>Подключение к:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusDisconnectingFrom" xml:space="preserve">
+        <source>Disconnecting from:</source>
+        <target>Отключение от:</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemBody" xml:space="preserve">
         <source>Custom DNS settings allow for faster connection using local servers.</source>

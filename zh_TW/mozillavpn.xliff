@@ -1385,6 +1385,31 @@
         <source>Go to Play Store</source>
         <target>前往 Play 商店</target>
       </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalBlockMessage" xml:space="preserve">
+        <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
+        <target>您目前連上的 Wi-Fi 網路需要登入才能對外連線。請點擊此處關閉 VPN 檢視登入網頁內容。</target>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalBlockTitle" xml:space="preserve">
+        <source>Guest Wi-Fi portal blocked</source>
+        <target>Wi-Fi 登入頁面遭到封鎖</target>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalUnblockMessage" xml:space="preserve">
+        <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
+        <target>您目前連上的 Wi-Fi 網路可能不安全。請點擊此處開啟 VPN 來保護傳輸內容。</target>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalUnblockTitle" xml:space="preserve">
+        <source>Guest Wi-Fi portal detected</source>
+        <target>偵測到 Wi-Fi 登入頁面</target>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
+        <target>%1 網路並不安全，請點擊此處開啟 VPN 來保護傳輸內容。</target>
+        <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.unsecuredNetworkTitle" xml:space="preserve">
+        <source>Unsecured Wi-Fi network detected</source>
+        <target>偵測到不安全的 Wi-Fi 網路</target>
+      </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
         <target>找不到結果，請嘗試調整關鍵字。</target>
@@ -1392,6 +1417,9 @@
       <trans-unit id="vpn.serversView.searchPlaceholder" xml:space="preserve">
         <source>Search countries</source>
         <target>搜尋國家</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.preferences" xml:space="preserve">
+        <source>Preferences</source>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
         <source>VPN must be restarted to take effect</source>
@@ -1440,6 +1468,51 @@
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
         <target>清單中缺少 %1 套應用程式。</target>
         <source>%1 apps missing from list.</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
+        <source>Disconnect</source>
+        <target>斷線</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.help" xml:space="preserve">
+        <source>Help</source>
+        <target>說明</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.hide" xml:space="preserve">
+        <source>Hide Mozilla VPN</source>
+        <target>隱藏 Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.location2" xml:space="preserve">
+        <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
+        <target>%1, %2</target>
+        <source>%1, %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.preferences" xml:space="preserve">
+        <source>Preferences…</source>
+        <target>偏好設定…</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.quit" xml:space="preserve">
+        <source>Quit Mozilla VPN</source>
+        <target>離開 Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.show" xml:space="preserve">
+        <source>Show Mozilla VPN</source>
+        <target>顯示 Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnectTo" xml:space="preserve">
+        <source>Connect to the last location:</source>
+        <target>連線到上次連線位置:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnectedTo" xml:space="preserve">
+        <source>Connected to:</source>
+        <target>已連線到:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnectingTo" xml:space="preserve">
+        <source>Connecting to:</source>
+        <target>正在連線到:</target>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusDisconnectingFrom" xml:space="preserve">
+        <source>Disconnecting from:</source>
+        <target>正在中斷與下列位置間的連線:</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemBody" xml:space="preserve">
         <source>Custom DNS settings allow for faster connection using local servers.</source>

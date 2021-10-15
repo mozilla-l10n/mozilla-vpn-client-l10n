@@ -1101,11 +1101,33 @@
       <trans-unit id="vpn.notSignedInGoogle.googleModalLinkText">
         <source>Go to Play Store</source>
       </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalBlockMessage">
+        <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalBlockTitle">
+        <source>Guest Wi-Fi portal blocked</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalUnblockMessage">
+        <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalUnblockTitle">
+        <source>Guest Wi-Fi portal detected</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.unsecuredNetworkMessage">
+        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
+        <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.unsecuredNetworkTitle">
+        <source>Unsecured Wi-Fi network detected</source>
+      </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel">
         <source>No results. Try a different search</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.searchPlaceholder">
         <source>Search countries</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.preferences">
+        <source>Preferences</source>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired">
         <source>VPN must be restarted to take effect</source>
@@ -1143,6 +1165,40 @@
       <trans-unit id="vpn.splittunnel.missingAppMultiple">
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
         <source>%1 apps missing from list.</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.disconnect">
+        <source>Disconnect</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.help">
+        <source>Help</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.hide">
+        <source>Hide Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.location2">
+        <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
+        <source>%1, %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.preferences">
+        <source>Preferences…</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.quit">
+        <source>Quit Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.show">
+        <source>Show Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnectTo">
+        <source>Connect to the last location:</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnectedTo">
+        <source>Connected to:</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnectingTo">
+        <source>Connecting to:</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusDisconnectingFrom">
+        <source>Disconnecting from:</source>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemBody">
         <source>Custom DNS settings allow for faster connection using local servers.</source>
