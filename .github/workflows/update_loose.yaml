@@ -1,0 +1,70 @@
+name: Update Strings (loose)
+description: Only match IDs, copying translations across files
+on:
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Install Linux packages
+        run: |
+          # Add external PPA, latest version of QT is 5.12.x for Ubuntu 20.04
+          sudo add-apt-repository ppa:beineri/opt-qt-5.15.2-focal -y
+          sudo apt update
+          sudo apt install git qt515tools -y
+      - name: Clone l10n repository
+        uses: actions/checkout@v2
+        with:
+          path: "translationFiles"
+      - name: Clone main code repository
+        uses: actions/checkout@v2
+        with:
+          repository: "mozilla-mobile/mozilla-vpn-client"
+          fetch-depth: 0
+          path: "vpn"
+      - name: Set up Python 3
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Install Python dependencies
+        run: |
+          pip install -r translationFiles/.github/scripts/requirements.txt
+      - name: Extract new strings
+        run: |
+          # Manually add QT executables to path
+          export PATH=/opt/qt515/bin:$PATH
+          # Ensure that the folder to store the .ts file exists, generate
+          # strings from strings.yaml
+          mkdir -p vpn/translations/en
+          python vpn/scripts/generate_strings.py
+          lupdate -version
+          lupdate vpn/src/src.pro -ts
+          # Store translations from the "main" branch in translations.ts
+          mv vpn/translations/en/mozillavpn_en.ts translations.ts
+          # Store translations for each branch in branch.ts, then convert them
+          # from both main and branch, with precedence to the former.
+          for branch in $(cd vpn && git branch -r | grep origin/releases); do
+            echo Importing strings from $branch
+            cd vpn && git checkout $branch
+            cd ..
+            # Ensure that the folder to store the .ts file exists, generate
+            # strings from strings.yaml
+            mkdir -p vpn/translations/en
+            python vpn/scripts/generate_strings.py
+            lupdate vpn/src/src.pro -ts
+            # Older branches can have mozillavpn_en.ts in a different path
+            mv vpn/translations/en/mozillavpn_en.ts branch.ts
+            lconvert -i translations.ts branch.ts -o tmp.ts
+            mv tmp.ts translations.ts
+            rm branch.ts
+          done
+          python translationFiles/.github/scripts/extract_source_strings.py --input translations.ts --l10n translationFiles
+          python translationFiles/.github/scripts/update_other_locales.py --reference en --xliff mozillavpn.xliff --path translationFiles/ --nofile
+      - run : git config --global user.email 'flodolo@users.noreply.github.com'
+      - uses: peter-evans/create-pull-request@v3
+        with:
+          path: "translationFiles"
+          commit-message: "Extract new strings and update all locales"
+          branch: l10n_automation
+          delete-branch: true
+          title: "Extract new strings"
