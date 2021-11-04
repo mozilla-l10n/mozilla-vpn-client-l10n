@@ -544,6 +544,7 @@
       </trans-unit>
       <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>Shumë muaj (%1): %2</target>
         <source>%1-month plan: %2</source>
       </trans-unit>
       <trans-unit id="vpn.subscription.price" xml:space="preserve">
@@ -1137,6 +1138,7 @@
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioHeader" xml:space="preserve">
         <source>Use adblock and anti-tracking DNS</source>
+        <target>Përdor DNS bllokimi reklamash dhe anti-gjurmim</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioBody" xml:space="preserve">
         <source>Block internet ads with VPN</source>
@@ -1144,6 +1146,7 @@
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioHeader" xml:space="preserve">
         <source>Use adblock DNS</source>
+        <target>Përdor DNS bllokimi reklamash</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdvancedToggle" xml:space="preserve">
         <source>Advanced</source>
@@ -1340,10 +1343,11 @@
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardBody" xml:space="preserve">
         <source>Multi-hop VPN routes your traffic through two servers instead of one for extra security and privacy. This may slow down your connection.</source>
+        <target>VPN-ja “multi-hop” e kalon trafikun tuaj përmes dy shërbyesve, në vend se një, për siguri dhe privatësi shtesë. Kjo mund të ngadalësojë lidhjen tuaj.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardHeader" xml:space="preserve">
         <source>What is multi-hop VPN?</source>
-        <target>një “multi-hop social mesh”</target>
+        <target>Ç’është një VPN “multi-hop”</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader" xml:space="preserve">
         <source>Recent connections</source>
@@ -1359,25 +1363,25 @@
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopInfoText" xml:space="preserve">
         <source>Exit location represents your main VPN server.</source>
+        <target>Vendndodhja e daljes përfaqëson shërbyesin tuaj kryesor VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA" xml:space="preserve">
         <source>Multi-hop</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
-        <target>S’ka përfundime. Ju lutemi, provoni një kërkim tjetër.</target>
+        <target>S’ka përfundime. Ju lutemi, provoni një kërkim tjetër</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA" xml:space="preserve">
         <source>Single-hop</source>
-        <target>Në vend të kësaj, përdor një “single-hop social mesh”.</target>
       </trans-unit>
       <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
         <source>Multi-hop tunnel</source>
-        <target>një “multi-hop social mesh”</target>
+        <target>Tunel “multi-hop”</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText" xml:space="preserve">
         <source>To continue subscribing, please sign in to your Google Account</source>
-        <target>Llogaria juaj u shkyç me sukses. Ju lutemi, që të vazhdohet, bëni hyrjen.</target>
+        <target>Që të vazhdohet pajtimi, ju lutemi, hyni te Llogaria juaj Google</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalHeader" xml:space="preserve">
         <source>Sign in to Google Account</source>
@@ -1442,9 +1446,11 @@
       </trans-unit>
       <trans-unit id="vpn.settingsDev.useStagingSubtitle" xml:space="preserve">
         <source>Staging services are used to test features before they go live to production</source>
+        <target>Shërbimet provë përdoren për të testuar veçori përpara se të jepen për përdorim</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.useStagingTitle" xml:space="preserve">
         <source>Use Staging Servers</source>
+        <target>Përdor Shërbyes Provash</target>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
         <source>Learn more</source>
@@ -1452,6 +1458,7 @@
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText" xml:space="preserve">
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
+        <target>Për çfarëdo pyetjesh rreth ujdisjes së lejeve të aplikacionit, kemi dhënë disa ndihmëza të dobishme në sajtin tonë.</target>
         <source>For any questions about setting app permissions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppActionButton" xml:space="preserve">
@@ -1516,6 +1523,7 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemBody" xml:space="preserve">
         <source>Custom DNS settings allow for faster connection using local servers.</source>
+        <target>Rregullimet vetjake për DNS-në lejojnë lidhje më të shpejtë, duke përdorur shërbyes vendorë.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemHeader" xml:space="preserve">
         <source>Custom DNS</source>
@@ -1523,6 +1531,7 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalBodyTextNew" xml:space="preserve">
         <source>Custom DNS servers allow for faster speed using local networks, features like ad-blocking and anti-tracking. You can find this feature in the “Network settings” section.</source>
+        <target>Rregullimet vetjake për DNS-në lejojnë lidhje më të shpejtë, duke përdorur shërbyes vendorë, veçori të tilla si bllokim reklamash dhe anti-gjurmim. Këtë veçori mund ta gjeni te ndarja “Rregullimet rrjeti”.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalButtonText" xml:space="preserve">
         <source>Done</source>
@@ -1534,38 +1543,43 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.multiListItemBody" xml:space="preserve">
         <source>Multi-hop VPN uses multiple VPN servers instead of one for extra security and privacy.</source>
+        <target>VPN-ja “multi-hop” përdor disa shërbyes VPN, në vend se një, për siguri dhe privatësi shtesë.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.multiListItemHeader" xml:space="preserve">
         <source>Multi-hop VPN</source>
-        <target>një “multi-hop social mesh”</target>
+        <target>VPN “multi-hop”</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.multiModalBodyText" xml:space="preserve">
         <source>Multi-hop VPN will route your traffic through a second server for added protection. You can find this feature on the “Select location” screen.</source>
+        <target>VPN-ja “multi-hop” do ta kalojë trafikun tuaj përmes një shërbyesi të dytë, për mbrojtje më të madhe. Këtë veçori mund ta gjeni te skena “Përzgjidhni vendndodhje”.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.multiModalHeader" xml:space="preserve">
         <source>Multi-hop VPN</source>
-        <target>një “multi-hop social mesh”</target>
+        <target>VPN “multi-hop”</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.supportListItemBody" xml:space="preserve">
         <source>The in-app support form will streamline the process of getting your issues resolved.</source>
+        <target>Formulari i asistencës brenda aplikacionit do të thjeshtojë procesin e zgjidhjes së problemeve tuaja.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.supportListItemHeader" xml:space="preserve">
         <source>In-app support form</source>
-        <target>Mundësi Formulari Asistence Jetpack-u</target>
+        <target>Formular asistence, brenda aplikacionit</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.supportModalBodyText" xml:space="preserve">
         <source>The in-app support form will allow you to contact support from within the VPN app. You can find it in the “Get help” section.</source>
+        <target>Formulari i asistencës brenda aplikacionit do t’ju lejojë të lidheni me asistencën që brenda aplikacionit VPN. Mund ta gjeni te ndarja “Merrni ndihmë”.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.supportModalButtonText" xml:space="preserve">
         <source>Next</source>
-        <target>Pasueja</target>
+        <target>Pasuesi</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.supportModalHeader" xml:space="preserve">
         <source>In-app support form</source>
-        <target>Mundësi Formulari Asistence Jetpack-u</target>
+        <target>Formular asistence, brenda aplikacionit</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourModalBodyText" xml:space="preserve">
         <source>We’ve added a ton of cool features in this latest release. Take the tour to get a deeper dive into what we’ve added for you!</source>
+        <target>Në këtë hedhje më të re në qarkullim kemi shtuar një thes me veçori të lezetshme. Që të bëni një zhytje më të thellë në ç’kemi shtuar për ju, bëni turin!</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourModalButtonText" xml:space="preserve">
         <source>Take the tour</source>
@@ -1585,6 +1599,7 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifBody" xml:space="preserve">
         <source>Check out all the new features available in the latest version of Mozilla VPN!</source>
+        <target>Shihni krejt veçoritë e reja të gatshme te versioni më i ri i Mozilla VPN-së!</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifCTA" xml:space="preserve">
         <source>Take the tour</source>
