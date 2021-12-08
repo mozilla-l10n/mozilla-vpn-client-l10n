@@ -1478,6 +1478,15 @@
         <source>Unsecured Wi-Fi network detected</source>
         <target>偵測到不安全的 Wi-Fi 網路</target>
       </trans-unit>
+      <trans-unit id="vpn.serverUnavailableModal.bodyText" xml:space="preserve">
+        <source>This server location is temporarily unavailable. Choose a new location.</source>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableModal.buttonLabel" xml:space="preserve">
+        <source>Choose a new location</source>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableModal.headerText" xml:space="preserve">
+        <source>Server unavailable</source>
+      </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
         <target>找不到結果，請嘗試調整關鍵字。</target>
@@ -1494,9 +1503,12 @@
         <source>Preferences</source>
         <target>偏好設定</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.startAtBootDescription" xml:space="preserve">
-        <source>Mozilla VPN will launch when you open the app</source>
-        <target>開啟應用程式時，就自動連線到 Mozilla VPN</target>
+      <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
+        <source>Mozilla VPN will launch and connect when you start up your device</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.startAtBootTitle" xml:space="preserve">
+        <note annotates="source" from="developer">Startup refers to a device's startup, not the VPN client's.</note>
+        <source>Connect VPN on startup</source>
       </trans-unit>
       <trans-unit id="vpn.settings.systemPreferences" xml:space="preserve">
         <source>System preferences</source>

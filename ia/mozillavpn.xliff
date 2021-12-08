@@ -1484,6 +1484,15 @@
         <source>Unsecured Wi-Fi network detected</source>
         <target>Rete wi-fi non secur disvelate</target>
       </trans-unit>
+      <trans-unit id="vpn.serverUnavailableModal.bodyText" xml:space="preserve">
+        <source>This server location is temporarily unavailable. Choose a new location.</source>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableModal.buttonLabel" xml:space="preserve">
+        <source>Choose a new location</source>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableModal.headerText" xml:space="preserve">
+        <source>Server unavailable</source>
+      </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
         <target>Nulle resultatos. Tenta un recerca differente</target>
@@ -1500,9 +1509,12 @@
         <source>Preferences</source>
         <target>Preferentias</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.startAtBootDescription" xml:space="preserve">
-        <source>Mozilla VPN will launch when you open the app</source>
-        <target>Mozilla VPN essera lanceate quando tu aperi le app</target>
+      <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
+        <source>Mozilla VPN will launch and connect when you start up your device</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.startAtBootTitle" xml:space="preserve">
+        <note annotates="source" from="developer">Startup refers to a device's startup, not the VPN client's.</note>
+        <source>Connect VPN on startup</source>
       </trans-unit>
       <trans-unit id="vpn.settings.systemPreferences" xml:space="preserve">
         <source>System preferences</source>
