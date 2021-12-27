@@ -159,76 +159,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="oc">
-    <body>
-      <trans-unit id="systray.disconnect" xml:space="preserve">
-        <source>Disconnect</source>
-        <target>Desconnectar</target>
-      </trans-unit>
-      <trans-unit id="systray.help" xml:space="preserve">
-        <source>Help</source>
-        <target>Ajuda</target>
-      </trans-unit>
-      <trans-unit id="systray.hide" xml:space="preserve">
-        <source>Hide Mozilla VPN</source>
-        <target>Amagar Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="systray.quit" xml:space="preserve">
-        <source>Quit Mozilla VPN</source>
-        <target>Quitar Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="systray.show" xml:space="preserve">
-        <source>Show Mozilla VPN</source>
-        <target>Mostrar Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
-        <source>Guest Wi-Fi portal blocked</source>
-        <target>Portal Wi-Fi convidat blocat</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock2.message" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
-        <target>Lo ret Wi-Fi convidat qu’utilizatz requerís una accion. Clicatz aquí per desactivar lo VPN per veire lo portal.</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
-        <source>Guest Wi-Fi portal detected</source>
-        <target>Portal Wi-Fi convidat detectat</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock2.message" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
-        <target>Lo ret Wi-Fi convidat qu’utilizatz poiriá èsser pas segur. Clicatz aquí per activar lo VPN per securizar vòstre aparelh.</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.location" xml:space="preserve">
-        <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
-        <target>%1 (%2)</target>
-        <source>%1, %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
-        <source>Connect to the last location:</source>
-        <target>Se connectar al darrièr emplaçament :</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
-        <source>Connected to:</source>
-        <target>Connectat a :</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
-        <source>Connecting to:</source>
-        <target>Connexion a :</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
-        <source>Disconnecting from:</source>
-        <target>Desconnexion de :</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
-        <source>Unsecured Wi-Fi network detected</source>
-        <target>Ret Wi-Fi pas segur detectat</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork2.message" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
-        <target>%1 es pas segur. Clicatz aquí per activatz lo VPN e securizar vòstre aparelh.</target>
-        <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
       <trans-unit id="vpn.aboutUs.license" xml:space="preserve">
@@ -733,14 +663,6 @@
   </file>
   <file original="../src/ui/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
-        <source>IPv6</source>
-        <target>IPv6</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.ipv6.description" xml:space="preserve">
-        <source>Push the internet forward with the latest version of the Internet Protocol</source>
-        <target>Fasètz passar Internet a la velocitat superiora amb la darrièra version del protocòl Internet</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
         <source>Local network access</source>
         <target>Accès al ret local</target>
@@ -809,10 +731,6 @@
   </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="systray.preferences" xml:space="preserve">
-        <source>Preferences…</source>
-        <target>Preferéncias…</target>
-      </trans-unit>
       <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
         <source>Get help</source>
         <target>Obténer d’ajuda</target>
@@ -896,10 +814,6 @@
         <source>Mozilla VPN Privacy Notice</source>
         <target>Politica de vida privada de Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.allowMozillaToSendData" xml:space="preserve">
-        <source>Allow Mozilla VPN to send technical data to Mozilla?</source>
-        <target>Autorizar Mozilla VPN a enviar de donadas tecnicas a Mozilla ?</target>
-      </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice" xml:space="preserve">
         <source>Allow on this device</source>
         <target>Autorizar sus aqueste aparelh</target>
@@ -910,9 +824,6 @@
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
-      </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.updatedTelemetryDisclaimer" xml:space="preserve">
-        <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
       </trans-unit>
     </body>
   </file>
@@ -1529,6 +1440,16 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalHeader" xml:space="preserve">
         <source>Custom DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.multiAccountContainersDescription" xml:space="preserve">
+        <source>You can now use different Mozilla VPN locations in multiple tabs simultaneously.</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.multiAccountContainersHeader" xml:space="preserve">
+        <source>Mozilla VPN in Firefox</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.multiAccountContainersShortDescription" xml:space="preserve">
+        <note annotates="source" from="developer">“Multi-Account Containers” is the name of the add-on and should not be translated.</note>
+        <source>Mozilla VPN is now integrated with the Multi-Account Containers add-on for more privacy and security.</source>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.multiListItemBody" xml:space="preserve">
         <source>Multi-hop VPN uses multiple VPN servers instead of one for extra security and privacy.</source>
