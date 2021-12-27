@@ -170,76 +170,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/systemtrayhandler.cpp" datatype="cpp" source-language="en" target-language="sq">
-    <body>
-      <trans-unit id="systray.disconnect" xml:space="preserve">
-        <source>Disconnect</source>
-        <target>Shkëpute</target>
-      </trans-unit>
-      <trans-unit id="systray.help" xml:space="preserve">
-        <source>Help</source>
-        <target>Ndihmë</target>
-      </trans-unit>
-      <trans-unit id="systray.hide" xml:space="preserve">
-        <source>Hide Mozilla VPN</source>
-        <target>Fshihe Mozilla VPN-n</target>
-      </trans-unit>
-      <trans-unit id="systray.quit" xml:space="preserve">
-        <source>Quit Mozilla VPN</source>
-        <target>Dil nga Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="systray.show" xml:space="preserve">
-        <source>Show Mozilla VPN</source>
-        <target>Shfaqe Mozilla VPN-n</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock.title" xml:space="preserve">
-        <source>Guest Wi-Fi portal blocked</source>
-        <target>U bllokua portal Wi-Fi mysafir</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalBlock2.message" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
-        <target>Rrjeti mysafir Wi-Fi te i cili jeni lidhur, lyp veprim. Klikoni këtu që ta çaktivizoni VPN-në, për të parë portalin.</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock.title" xml:space="preserve">
-        <source>Guest Wi-Fi portal detected</source>
-        <target>U pikas portal Wi-Fi mysafir</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.captivePortalUnblock2.message" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
-        <target>Rrjeti mysafir Wi-Fi te i cili jeni lidhur, mund të mos jetë i sigurt. Klikoni këtu që ta çaktivizoni VPN-në, për të siguruar portalin.</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.location" xml:space="preserve">
-        <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
-        <target>%1, %2</target>
-        <source>%1, %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectTo" xml:space="preserve">
-        <source>Connect to the last location:</source>
-        <target>Lidhu me vendndodhjen e fundit:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectedTo" xml:space="preserve">
-        <source>Connected to:</source>
-        <target>I lidhur te:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.connectingTo" xml:space="preserve">
-        <source>Connecting to:</source>
-        <target>Po lidhet te:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.status.disconnectingFrom" xml:space="preserve">
-        <source>Disconnecting from:</source>
-        <target>Po shkëputet prej:</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork.title" xml:space="preserve">
-        <source>Unsecured Wi-Fi network detected</source>
-        <target>U pikas rrjet Wi-Fi jo i sigurt</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.unsecuredNetwork2.message" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
-        <target>%1 s’është i sigurt. Klikoni këtu që të aktivizoni VPN-në dhe të siguroni pajisjen tuaj.</target>
-        <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="sq">
     <body>
       <trans-unit id="vpn.aboutUs.license" xml:space="preserve">
@@ -767,14 +697,6 @@
   </file>
   <file original="../src/ui/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="sq">
     <body>
-      <trans-unit id="vpn.settings.ipv6" xml:space="preserve">
-        <source>IPv6</source>
-        <target>IPv6</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.ipv6.description" xml:space="preserve">
-        <source>Push the internet forward with the latest version of the Internet Protocol</source>
-        <target>Shpjereni internetin përpara, me versionin më të ri të Protokollit Internet</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
         <source>Local network access</source>
         <target>Hyrje në rrjet vendor</target>
@@ -847,10 +769,6 @@
   </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="sq">
     <body>
-      <trans-unit id="systray.preferences" xml:space="preserve">
-        <source>Preferences…</source>
-        <target>Parapëlqime…</target>
-      </trans-unit>
       <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
         <source>Get help</source>
         <target>Merrni ndihmë</target>
@@ -935,10 +853,6 @@
         <source>Mozilla VPN Privacy Notice</source>
         <target>Rregulla Privatësie të Mozilla VPN-së</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.allowMozillaToSendData" xml:space="preserve">
-        <source>Allow Mozilla VPN to send technical data to Mozilla?</source>
-        <target>Të lejohet Mozilla VPN të dërgojë të dhëna teknike te Mozilla?</target>
-      </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice" xml:space="preserve">
         <source>Allow on this device</source>
         <target>Lejoje në këtë pajisje</target>
@@ -950,10 +864,6 @@
       <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
         <target>Mësoni më tepër se ç’të dhëna grumbullon Mozilla dhe se si i përdor.</target>
-      </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.updatedTelemetryDisclaimer" xml:space="preserve">
-        <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
-        <target>Përpiqemi fort t’ju japim zgjidhje dhe të grumbullojmë vetëm të dhëna teknike që na duhen për të përmirësuar Mozilla VPN-në. Dhënia e këtyre të dhënave Mozilla-s është në dëshirën tuaj.</target>
       </trans-unit>
     </body>
   </file>
@@ -1665,6 +1575,16 @@
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalHeader" xml:space="preserve">
         <source>Custom DNS</source>
         <target>DNS Vetjake</target>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.multiAccountContainersDescription" xml:space="preserve">
+        <source>You can now use different Mozilla VPN locations in multiple tabs simultaneously.</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.multiAccountContainersHeader" xml:space="preserve">
+        <source>Mozilla VPN in Firefox</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.multiAccountContainersShortDescription" xml:space="preserve">
+        <note annotates="source" from="developer">“Multi-Account Containers” is the name of the add-on and should not be translated.</note>
+        <source>Mozilla VPN is now integrated with the Multi-Account Containers add-on for more privacy and security.</source>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.multiListItemBody" xml:space="preserve">
         <source>Multi-hop VPN uses multiple VPN servers instead of one for extra security and privacy.</source>
