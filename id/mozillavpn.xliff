@@ -1045,6 +1045,24 @@
       <trans-unit id="vpn.aboutUs.licenses" xml:space="preserve">
         <source>Licenses</source>
       </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.actionPostActivation" xml:space="preserve">
+        <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.actionPreActivation" xml:space="preserve">
+        <source>You can turn on your VPN once you have gained internet access by logging in to the portal.</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation" xml:space="preserve">
+        <source>Turn off VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.buttonTextPreActivation" xml:space="preserve">
+        <source>Okay</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.header" xml:space="preserve">
+        <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.title" xml:space="preserve">
+        <source>Captive portal detected!</source>
+      </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelBitps" xml:space="preserve">
         <note annotates="source" from="developer">Bits per second</note>
         <source>bit/s</source>
@@ -1235,6 +1253,9 @@
         <source>Email address</source>
         <target>Alamat surel</target>
       </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorBrowserButton" xml:space="preserve">
+        <source>Try opening in browser</source>
+      </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorButton" xml:space="preserve">
         <source>Try Again</source>
         <target>Coba Lagi</target>
@@ -1353,6 +1374,9 @@
       <trans-unit id="vpn.notifications.captivePortalBlockMessage" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
         <target>Jaringan Wi-Fi tamu yang tersambung dengan Anda memerlukan tindakan. Klik di sini untuk mematikan VPN untuk melihat portal.</target>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
+        <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
@@ -1517,8 +1541,8 @@
       <trans-unit id="vpn.updateButton.checkForUpdateButtonText" xml:space="preserve">
         <source>Check for Updates</source>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.descriptionNoUpdate" xml:space="preserve">
-        <source>There is no new update available at this time</source>
+      <trans-unit id="vpn.updateButton.descriptionNoUpdate2" xml:space="preserve">
+        <source>You currently have the latest version of Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.updateButton.descriptionOnUpdate" xml:space="preserve">
         <source>Click to update to the latest version of the application</source>
