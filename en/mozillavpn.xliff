@@ -845,6 +845,24 @@
       <trans-unit id="vpn.aboutUs.licenses">
         <source>Licenses</source>
       </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.actionPostActivation">
+        <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.actionPreActivation">
+        <source>You can turn on your VPN once you have gained internet access by logging in to the portal.</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation">
+        <source>Turn off VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.buttonTextPreActivation">
+        <source>Okay</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.header">
+        <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.title">
+        <source>Captive portal detected!</source>
+      </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelBitps">
         <note annotates="source" from="developer">Bits per second</note>
         <source>bit/s</source>
@@ -999,6 +1017,9 @@
       <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldPlaceholder">
         <source>Email address</source>
       </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorBrowserButton">
+        <source>Try opening in browser</source>
+      </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorButton">
         <source>Try Again</source>
       </trans-unit>
@@ -1089,6 +1110,9 @@
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage">
         <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalBlockMessage2">
+        <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockTitle">
         <source>Guest Wi-Fi portal blocked</source>
@@ -1223,8 +1247,8 @@
       <trans-unit id="vpn.updateButton.checkForUpdateButtonText">
         <source>Check for Updates</source>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.descriptionNoUpdate">
-        <source>There is no new update available at this time</source>
+      <trans-unit id="vpn.updateButton.descriptionNoUpdate2">
+        <source>You currently have the latest version of Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.updateButton.descriptionOnUpdate">
         <source>Click to update to the latest version of the application</source>
