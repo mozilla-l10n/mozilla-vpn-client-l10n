@@ -59,14 +59,6 @@ def main():
     root = tree.getroot()
     objectify.deannotate(root, cleanup_namespaces=True)
 
-    # Work around the change of file path caused by exporting translations
-    # in subfolders
-    # https://github.com/mozilla-mobile/mozilla-vpn-client/pull/1284
-    for f in root.xpath("//x:file", namespaces=NS):
-        if "original" in f.attrib:
-            file_name = f.get("original").replace("../../src/", "../src/")
-            f.set("original", file_name)
-
     # Normalize path for strings generated from strings.yaml, removing "../"
     # (more than once if necessary).
     for f in root.xpath("//x:file", namespaces=NS):
