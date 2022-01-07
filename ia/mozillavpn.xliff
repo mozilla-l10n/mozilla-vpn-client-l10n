@@ -1,5 +1,303 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="../../nebula/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.aboutUs.privacyNotice2" xml:space="preserve">
+        <source>Privacy notice</source>
+      </trans-unit>
+      <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
+        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
+        <source>Release version</source>
+      </trans-unit>
+      <trans-unit id="vpn.aboutUs.tos2" xml:space="preserve">
+        <source>Terms of service</source>
+      </trans-unit>
+      <trans-unit id="vpn.main.productDescription" xml:space="preserve">
+        <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
+      </trans-unit>
+      <trans-unit id="vpn.main.productName" xml:space="preserve">
+        <source>Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
+        <source>About us</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNAlerts.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.systray.survey.takeSurvey" xml:space="preserve">
+        <source>Take Survey</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.survey.wouldLoveYourFeedback" xml:space="preserve">
+        <source>We’d love your feedback!</source>
+      </trans-unit>
+      <trans-unit id="vpn.updates.newVersionAvailable" xml:space="preserve">
+        <source>New version is available.</source>
+      </trans-unit>
+      <trans-unit id="vpn.updates.updateNow" xml:space="preserve">
+        <source>Update now</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNConnectionInfo.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
+        <source>Close</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
+        <note annotates="source" from="developer">The current download speed. The speed is shown on the next line.</note>
+        <source>Download</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.ip2" xml:space="preserve">
+        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
+        <source>IP:</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.ipv4" xml:space="preserve">
+        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IPv4 address.</note>
+        <source>IPv4:</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.ipv6" xml:space="preserve">
+        <note annotates="source" from="developer">The abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
+        <source>IPv6:</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.upload" xml:space="preserve">
+        <note annotates="source" from="developer">The current upload speed. The speed is shown on the next line.</note>
+        <source>Upload</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
+        <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
+        <source>Check Connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
+        <source>No Signal</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
+        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <source>Unstable</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNControllerView.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.controller.activated" xml:space="preserve">
+        <source>VPN is on</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.activating" xml:space="preserve">
+        <source>Masking connection and location</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
+        <source>Turn on to protect your privacy</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.active" xml:space="preserve">
+        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <source>Secure and private</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.attemptingToConfirm" xml:space="preserve">
+        <source>Attempting to confirm connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
+        <source>Connecting…</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.deactivated" xml:space="preserve">
+        <source>VPN is off</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
+        <source>Unmasking connection and location</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
+        <source>Disconnecting…</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.info" xml:space="preserve">
+        <source>Connection Information</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.switching" xml:space="preserve">
+        <source>Switching…</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
+        <note annotates="source" from="developer">Switches from location 1 to location 2</note>
+        <source>From %1 to %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.main.settings" xml:space="preserve">
+        <source>Settings</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
+        <source>Added %1 days ago</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the number of hours.</note>
+        <source>Added a few hours ago (%1)</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
+        <source>Added less than an hour ago</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
+        <source>Current Device</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
+        <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
+        <source>%1 %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
+        <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <source>Remove %1</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
+        <source>Remove a device</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
+        <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNFeatureTour.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.main.back" xml:space="preserve">
+        <note annotates="source" from="developer">Go back</note>
+        <source>Back</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
+        <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
+        <source>%1: %2 %3</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNLoader.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.authenticating.cancel" xml:space="preserve">
+        <source>Cancel</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNPopup.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="menubar.file.close" xml:space="preserve">
+        <source>Close</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.devices.cancelDeviceRemoval" xml:space="preserve">
+        <source>Cancel</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
+        <source>Please confirm you would like to remove
+%1.</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
+        <note annotates="source" from="developer">This is the “remove” device button.</note>
+        <source>Remove</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
+        <source>Remove device?</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNServerCountry.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="cities" xml:space="preserve">
+        <note annotates="source" from="developer">The title for the list of cities.</note>
+        <source>Cities</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.main.signOut2" xml:space="preserve">
+        <source>Sign out</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
+        <source>Monthly plan</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <source>%1-month plan: %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscription.price" xml:space="preserve">
+        <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
+        <source>%1/month</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscription.savePercent" xml:space="preserve">
+        <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
+        <source>Save %1%</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNSystemAlert.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
+        <source>Authentication error</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
+        <source>Background service error</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
+        <source>Signed out and device disconnected</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
+        <source>Operation not allowed from current location</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
+        <source>No internet connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
+        <source>Remote service error</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.restore" xml:space="preserve">
+        <note annotates="source" from="developer">Restore a service in case of error.</note>
+        <source>Restore</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
+        <source>Subscription failed</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
+        <source>Try again</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
+        <source>Unable to connect</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.toggle.off" xml:space="preserve">
+        <source>Turn VPN off</source>
+      </trans-unit>
+      <trans-unit id="vpn.toggle.on" xml:space="preserve">
+        <source>Turn VPN on</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNViewDNSSettings.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
+        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+        <source>VPN must be off to edit these settings</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="ia">
     <body>
       <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
@@ -142,11 +440,6 @@
         <source>Authentication</source>
         <target>Authentication</target>
       </trans-unit>
-      <trans-unit id="vpn.main.back" xml:space="preserve">
-        <note annotates="source" from="developer">Go back</note>
-        <target>Retro</target>
-        <source>Back</source>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/platforms/android/androidcontroller.cpp" datatype="cpp" source-language="en" target-language="ia">
@@ -176,206 +469,6 @@
         <source>License</source>
         <target>Licentia</target>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.privacyNotice2" xml:space="preserve">
-        <source>Privacy notice</source>
-        <target>Aviso de confidentialitate</target>
-      </trans-unit>
-      <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
-        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
-        <target>Version</target>
-        <source>Release version</source>
-      </trans-unit>
-      <trans-unit id="vpn.aboutUs.tos2" xml:space="preserve">
-        <source>Terms of service</source>
-        <target>Terminos del servicio</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.productDescription" xml:space="preserve">
-        <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
-        <target>Producite per le autores de Firefox. Producite per le productores de Firefox.</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.productName" xml:space="preserve">
-        <source>Mozilla VPN</source>
-        <target>Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
-        <source>About us</source>
-        <target>A proposito de nos</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNAlerts.qml" datatype="plaintext" source-language="en" target-language="ia">
-    <body>
-      <trans-unit id="vpn.systray.survey.takeSurvey" xml:space="preserve">
-        <source>Take Survey</source>
-        <target>Participar al questionario</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.survey.wouldLoveYourFeedback" xml:space="preserve">
-        <source>We’d love your feedback!</source>
-        <target>Nos amarea tu commento!</target>
-      </trans-unit>
-      <trans-unit id="vpn.updates.newVersionAvailable" xml:space="preserve">
-        <source>New version is available.</source>
-        <target>Un nove version es disponibile.</target>
-      </trans-unit>
-      <trans-unit id="vpn.updates.updateNow" xml:space="preserve">
-        <source>Update now</source>
-        <target>Actualisar ora</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNConnectionInfo.qml" datatype="plaintext" source-language="en" target-language="ia">
-    <body>
-      <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
-        <source>Close</source>
-        <target>Clauder</target>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
-        <note annotates="source" from="developer">The current download speed. The speed is shown on the next line.</note>
-        <target>Discargar</target>
-        <source>Download</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.ip2" xml:space="preserve">
-        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
-        <target>IP:</target>
-        <source>IP:</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.ipv4" xml:space="preserve">
-        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IPv4 address.</note>
-        <target>IPv4:</target>
-        <source>IPv4:</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.ipv6" xml:space="preserve">
-        <note annotates="source" from="developer">The abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
-        <target>IPv6:</target>
-        <source>IPv6:</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.upload" xml:space="preserve">
-        <note annotates="source" from="developer">The current upload speed. The speed is shown on the next line.</note>
-        <target>Incargar</target>
-        <source>Upload</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="ia">
-    <body>
-      <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
-        <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
-        <target>Verificar connexion</target>
-        <source>Check Connection</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
-        <source>No Signal</source>
-        <target>Nulle signal</target>
-      </trans-unit>
-      <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
-        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
-        <target>Instabile</target>
-        <source>Unstable</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNControllerView.qml" datatype="plaintext" source-language="en" target-language="ia">
-    <body>
-      <trans-unit id="vpn.controller.activated" xml:space="preserve">
-        <source>VPN is on</source>
-        <target>VPN es active</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.activating" xml:space="preserve">
-        <source>Masking connection and location</source>
-        <target>Disguisamento de connexion e position</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
-        <source>Turn on to protect your privacy</source>
-        <target>Activa lo pro proteger tu confidentialitate</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.active" xml:space="preserve">
-        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
-        <target>Secur e private</target>
-        <source>Secure and private</source>
-      </trans-unit>
-      <trans-unit id="vpn.controller.attemptingToConfirm" xml:space="preserve">
-        <source>Attempting to confirm connection</source>
-        <target>Tentativa de confirmar le connexion</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
-        <source>Connecting…</source>
-        <target>Connexion…</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.deactivated" xml:space="preserve">
-        <source>VPN is off</source>
-        <target>Le VPN es disactivate</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
-        <source>Unmasking connection and location</source>
-        <target>Disvelamento de connexion e position</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
-        <source>Disconnecting…</source>
-        <target>Disconnexion…</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.info" xml:space="preserve">
-        <source>Connection Information</source>
-        <target>Informationes del connexion
-</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.switching" xml:space="preserve">
-        <source>Switching…</source>
-        <target>Commutation…</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
-        <note annotates="source" from="developer">Switches from location 1 to location 2</note>
-        <target>De %1 a %2</target>
-        <source>From %1 to %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.main.settings" xml:space="preserve">
-        <source>Settings</source>
-        <target>Parametros</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="ia">
-    <body>
-      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
-        <target>Addite %1 dies retro</target>
-        <source>Added %1 days ago</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the number of hours.</note>
-        <target>Addite alcun horas retro (%1)</target>
-        <source>Added a few hours ago (%1)</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
-        <source>Added less than an hour ago</source>
-        <target>Addite minus de un hora retro</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
-        <source>Current Device</source>
-        <target>Apparato actual</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
-        <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
-        <target>%1 %2</target>
-        <source>%1 %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
-        <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
-        <target>Remover %1</target>
-        <source>Remove %1</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="ia">
-    <body>
-      <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
-        <source>Remove a device</source>
-        <target>Remover un apparato
-</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
-        <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
-        <target>Tu ha attingite le limite de apparatos. Pro activar le VPN sur iste apparato, tu debera haber eliminate un.</target>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="ia">
@@ -395,11 +488,6 @@
         <target>B/s</target>
         <source>B/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
-        <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
-        <target>%1: %2 %3</target>
-        <source>%1: %2 %3</source>
-      </trans-unit>
       <trans-unit id="vpn.connectionInfo.kBps" xml:space="preserve">
         <note annotates="source" from="developer">Kilobytes per second</note>
         <target>kB/s</target>
@@ -412,163 +500,15 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNLoader.qml" datatype="plaintext" source-language="en" target-language="ia">
-    <body>
-      <trans-unit id="vpn.authenticating.cancel" xml:space="preserve">
-        <source>Cancel</source>
-        <target>Cancellar</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNPopup.qml" datatype="plaintext" source-language="en" target-language="ia">
-    <body>
-      <trans-unit id="menubar.file.close" xml:space="preserve">
-        <source>Close</source>
-        <target>Clauder</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="ia">
-    <body>
-      <trans-unit id="vpn.devices.cancelDeviceRemoval" xml:space="preserve">
-        <source>Cancel</source>
-        <target>Cancellar</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
-        <target>Confirma que tu vole remover %1.</target>
-        <source>Please confirm you would like to remove
-%1.</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
-        <note annotates="source" from="developer">This is the “remove” device button.</note>
-        <target>Remover</target>
-        <source>Remove</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
-        <source>Remove device?</source>
-        <target>Remover le apparato?</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNServerCountry.qml" datatype="plaintext" source-language="en" target-language="ia">
-    <body>
-      <trans-unit id="cities" xml:space="preserve">
-        <note annotates="source" from="developer">The title for the list of cities.</note>
-        <target>Citates</target>
-        <source>Cities</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="ia">
-    <body>
-      <trans-unit id="vpn.main.signOut2" xml:space="preserve">
-        <source>Sign out</source>
-        <target>Clauder session</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="ia">
-    <body>
-      <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
-        <source>Monthly plan</source>
-        <target>Plan mensual</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
-        <target>%1-mensuel plan: %2</target>
-        <source>%1-month plan: %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.price" xml:space="preserve">
-        <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
-        <target>%1/mense</target>
-        <source>%1/month</source>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.savePercent" xml:space="preserve">
-        <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
-        <target>Salvar %1%</target>
-        <source>Save %1%</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNSystemAlert.qml" datatype="plaintext" source-language="en" target-language="ia">
-    <body>
-      <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
-        <source>Authentication error</source>
-        <target>Error de authentication</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
-        <source>Background service error</source>
-        <target>Error de servicio in secunde plano</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
-        <source>Signed out and device disconnected</source>
-        <target>Apparato disconnectite</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
-        <source>Operation not allowed from current location</source>
-        <target>Operation non consentite del position actual</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
-        <source>No internet connection</source>
-        <target>Nulle connexion de internet</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
-        <source>Remote service error</source>
-        <target>Error de servicio remote
-</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.restore" xml:space="preserve">
-        <note annotates="source" from="developer">Restore a service in case of error.</note>
-        <target>Restaurar</target>
-        <source>Restore</source>
-      </trans-unit>
-      <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
-        <source>Subscription failed</source>
-        <target>Subscription fallite</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
-        <source>Try again</source>
-        <target>Retentar</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
-        <source>Unable to connect</source>
-        <target>Connexion impossibile</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="ia">
-    <body>
-      <trans-unit id="vpn.toggle.off" xml:space="preserve">
-        <source>Turn VPN off</source>
-        <target>Disactivar le VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.toggle.on" xml:space="preserve">
-        <source>Turn VPN on</source>
-        <target>Activar le VPN</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNViewDNSSettings.qml" datatype="plaintext" source-language="en" target-language="ia">
-    <body>
-      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-        <target>VPN debe esser inactive pro rediger iste parametros</target>
-        <source>VPN must be off to edit these settings</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="ia">
     <body>
       <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
-        <target>Adder le application</target>
-        <source>Add Application</source>
+        <source>Add application</source>
       </trans-unit>
       <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
         <note annotates="source" from="developer">Search bar placeholder text</note>
-        <target>Cercar in Apps</target>
-        <source>Search Apps</source>
+        <source>Search apps</source>
       </trans-unit>
       <trans-unit id="vpn.settings.appPermissions2" xml:space="preserve">
         <source>App permissions</source>
@@ -1331,6 +1271,12 @@
         <note annotates="source" from="developer">Placeholder text for a search field that can be used to search through a list of languages</note>
         <target>Cercar lingua</target>
         <source>Search languages</source>
+      </trans-unit>
+      <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber" xml:space="preserve">
+        <source>Already a subscriber?</source>
+      </trans-unit>
+      <trans-unit id="vpn.mobileOnboarding.signUpBtn" xml:space="preserve">
+        <source>Sign up</source>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
