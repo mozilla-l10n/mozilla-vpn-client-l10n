@@ -33,8 +33,9 @@
         <source>Take Survey</source>
         <target>Taktu þátt í könnun</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.survey.wouldLoveYourFeedback">
+      <trans-unit id="vpn.systray.survey.wouldLoveYourFeedback" xml:space="preserve">
         <source>We’d love your feedback!</source>
+        <target>Okkur þætti vænt um álit þitt!</target>
       </trans-unit>
       <trans-unit id="vpn.updates.newVersionAvailable" xml:space="preserve">
         <source>New version is available.</source>
@@ -111,12 +112,14 @@
         <source>Turn on to protect your privacy</source>
         <target>Kveiktu á til að vernda friðhelgi þína</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.active">
+      <trans-unit id="vpn.controller.active" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>Öruggt og gagnaleynd varin</target>
         <source>Secure and private</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.attemptingToConfirm">
+      <trans-unit id="vpn.controller.attemptingToConfirm" xml:space="preserve">
         <source>Attempting to confirm connection</source>
+        <target>Reyni að staðfesta tengingu</target>
       </trans-unit>
       <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
         <source>Connecting…</source>
@@ -191,136 +194,163 @@
         <source>Remove a device</source>
         <target>Fjarlægja tæki</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.maxDevicesHeader">
+      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
         <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
+        <target>Þú hefur náð takmörkunum á fjölda tækja. Til að kveikja á VPN á þessu tæki þarftu að fjarlægja eitt annað.</target>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNFeatureTour.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.main.back">
+      <trans-unit id="vpn.main.back" xml:space="preserve">
         <note annotates="source" from="developer">Go back</note>
+        <target>Til baka</target>
         <source>Back</source>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.connectionInfo.accessibleName">
+      <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
+        <target>%1: %2 %3</target>
         <source>%1: %2 %3</source>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNLoader.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.authenticating.cancel">
+      <trans-unit id="vpn.authenticating.cancel" xml:space="preserve">
         <source>Cancel</source>
+        <target>Hætta við</target>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNPopup.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="menubar.file.close">
+      <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
+        <target>Loka</target>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.devices.cancelDeviceRemoval">
+      <trans-unit id="vpn.devices.cancelDeviceRemoval" xml:space="preserve">
         <source>Cancel</source>
+        <target>Hætta við</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.deviceRemovalConfirm">
+      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
+        <target>Staðfestu að þú viljir fjarlægja %1.</target>
         <source>Please confirm you would like to remove
 %1.</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceButton">
+      <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
         <note annotates="source" from="developer">This is the “remove” device button.</note>
+        <target>Fjarlægja</target>
         <source>Remove</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceQuestion">
+      <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
         <source>Remove device?</source>
+        <target>Fjarlægja tæki?</target>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNServerCountry.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="cities">
+      <trans-unit id="cities" xml:space="preserve">
         <note annotates="source" from="developer">The title for the list of cities.</note>
+        <target>Borgir</target>
         <source>Cities</source>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.main.signOut2">
+      <trans-unit id="vpn.main.signOut2" xml:space="preserve">
         <source>Sign out</source>
+        <target>Skrá út</target>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.subscription.monthlyPlan">
+      <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
         <source>Monthly plan</source>
+        <target>Mánaðaráskrift</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.multiMonthPlan">
+      <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>%1-mánaða áskrift: %2</target>
         <source>%1-month plan: %2</source>
       </trans-unit>
-      <trans-unit id="vpn.subscription.price">
+      <trans-unit id="vpn.subscription.price" xml:space="preserve">
         <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
+        <target>%1/mánuði</target>
         <source>%1/month</source>
       </trans-unit>
-      <trans-unit id="vpn.subscription.savePercent">
+      <trans-unit id="vpn.subscription.savePercent" xml:space="preserve">
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
+        <target>Sparaðu %1%</target>
         <source>Save %1%</source>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNSystemAlert.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.alert.authenticationError">
+      <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
         <source>Authentication error</source>
+        <target>Auðkenningarvilla</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.backendServiceError">
+      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
         <source>Background service error</source>
+        <target>Villa í bakgrunnsþjónustu</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout">
+      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
         <source>Signed out and device disconnected</source>
+        <target>Skráð út og tæki aftengt</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.getIPRestrictionError">
+      <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
         <source>Operation not allowed from current location</source>
+        <target>Aðgerð ekki leyfð frá fyrirliggjandi staðsetningu</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.noInternet">
+      <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
         <source>No internet connection</source>
+        <target>Engin internettenging</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.remoteServiceError">
+      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
+        <target>Villa í fjarþjónustu</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.restore">
+      <trans-unit id="vpn.alert.restore" xml:space="preserve">
         <note annotates="source" from="developer">Restore a service in case of error.</note>
+        <target>Endurheimta</target>
         <source>Restore</source>
       </trans-unit>
-      <trans-unit id="vpn.alert.subscriptionFailureError">
+      <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
         <source>Subscription failed</source>
+        <target>Áskrift mistókst</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.tryAgain">
+      <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
         <source>Try again</source>
+        <target>Reyna aftur</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.unableToConnect">
+      <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
         <source>Unable to connect</source>
+        <target>Get ekki tengst</target>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.toggle.off">
+      <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
+        <target>Slökkva á VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.toggle.on">
+      <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
+        <target>Kveikja á VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -379,23 +409,29 @@
   </file>
   <file original="../src/models/feedbackcategorymodel.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="feedback.category.accessToService">
+      <trans-unit id="feedback.category.accessToService" xml:space="preserve">
         <source>Access to service</source>
+        <target>Aðgangur að þjónustu</target>
       </trans-unit>
-      <trans-unit id="feedback.category.bugError">
+      <trans-unit id="feedback.category.bugError" xml:space="preserve">
         <source>Product Bugs/Errors</source>
+        <target>Gallar/villur í hugbúnaðnum</target>
       </trans-unit>
-      <trans-unit id="feedback.category.compatibility">
+      <trans-unit id="feedback.category.compatibility" xml:space="preserve">
         <source>Compatibility</source>
+        <target>Samhæfni</target>
       </trans-unit>
-      <trans-unit id="feedback.category.easeToUse">
+      <trans-unit id="feedback.category.easeToUse" xml:space="preserve">
         <source>Ease of Use</source>
+        <target>Auðvelt í notkun</target>
       </trans-unit>
-      <trans-unit id="feedback.category.networkSpeed">
+      <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
         <source>Network Connection/Speed</source>
+        <target>Nettenging/hraði</target>
       </trans-unit>
-      <trans-unit id="feedback.category.other">
+      <trans-unit id="feedback.category.other" xml:space="preserve">
         <source>Other</source>
+        <target>Annað</target>
       </trans-unit>
       <trans-unit id="feedback.category.productQuality">
         <source>Product Quality</source>
@@ -404,25 +440,29 @@
   </file>
   <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="help.contactUs">
+      <trans-unit id="help.contactUs" xml:space="preserve">
         <source>Contact us</source>
+        <target>Hafa samband við okkur</target>
       </trans-unit>
       <trans-unit id="help.helpCenter2">
         <source>Help center</source>
       </trans-unit>
-      <trans-unit id="help.viewLog">
+      <trans-unit id="help.viewLog" xml:space="preserve">
         <source>View log</source>
+        <target>Skoða atvikaskráningu</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.systray.statusConnected.message">
+      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
+        <target>Tengt við %1, %2</target>
         <source>Connected to %1, %2</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.title">
+      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN tengt</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusDisconnected.message">
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
