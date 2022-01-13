@@ -952,9 +952,11 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.next" xml:space="preserve">
         <source>Next</source>
+        <target>Næsta</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
         <source>Skip</source>
+        <target>Sleppa</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
@@ -974,13 +976,16 @@
     <body>
       <trans-unit id="vpn.subscription.featureTitle1" xml:space="preserve">
         <source>No activity logs</source>
+        <target>Engir avikaskrár</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.featureTitle4" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
+        <target>Tengdu allt að %1 tæki</target>
         <source>Connect up to %1 devices</source>
       </trans-unit>
       <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
+        <target>Gerast áskrifandi núna</target>
       </trans-unit>
     </body>
   </file>
@@ -988,21 +993,27 @@
     <body>
       <trans-unit id="vpn.updates.notNow" xml:space="preserve">
         <source>Not now</source>
+        <target>Ekki núna</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateConnectionInsecureWarning" xml:space="preserve">
         <source>Your connection will not be secure while you update.</source>
+        <target>Tengingin þín verður ekki örugg á meðan þú uppfærir.</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRecomended" xml:space="preserve">
         <source>Update recommended</source>
+        <target>Mælt er með uppfærslu</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRecomended.description" xml:space="preserve">
         <source>Please update the app before you continue to use the VPN</source>
+        <target>Vinsamlegast uppfærðu forritið áður en þú heldur áfram að nota VPN</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRequire.reason" xml:space="preserve">
         <source>We detected and fixed a serious bug. You must update your app.</source>
+        <target>Við fundum og laguðum alvarlega villu. Þú verður að uppfæra forritið þitt.</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
         <source>Update required</source>
+        <target>Uppfærslu krafist</target>
       </trans-unit>
     </body>
   </file>
@@ -1010,67 +1021,85 @@
     <body>
       <trans-unit id="vpn.AndroidNotifications.GeneralNotifications" xml:space="preserve">
         <note annotates="source" from="developer">A notification channel; so the user can subscribe to "General Notifications"</note>
+        <target>Almennar tilkynningar</target>
         <source>General Notifications</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.licenses" xml:space="preserve">
         <source>Licenses</source>
+        <target>Notkunarleyfi</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPostActivation" xml:space="preserve">
         <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
+        <target>Þú verður að slökkva á VPN til að sjá gáttina og kveikja aftur á henni þegar þú hefur skráð þig inn.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPreActivation" xml:space="preserve">
         <source>You can turn on your VPN once you have gained internet access by logging in to the portal.</source>
+        <target>Þú getur kveikt á VPN-netinu þínu þegar þú hefur fengið netaðgang með því að skrá þig inn á gáttina.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation" xml:space="preserve">
         <source>Turn off VPN</source>
+        <target>Slökkva á VPN</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPreActivation" xml:space="preserve">
         <source>Okay</source>
+        <target>Allt í lagi</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.header" xml:space="preserve">
         <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
+        <target>Þjónustugátt er þegar gesta-Wi-Fi tenging sem þú notar krefst þess að þú skráir þig inn til að fá netaðgang.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.title" xml:space="preserve">
         <source>Captive portal detected!</source>
+        <target>Þjónustugátt fannst!</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelBitps" xml:space="preserve">
         <note annotates="source" from="developer">Bits per second</note>
+        <target>bitar/s</target>
         <source>bit/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelGbitps" xml:space="preserve">
         <note annotates="source" from="developer">Gigabits per second</note>
+        <target>Gbitar/s</target>
         <source>Gbit/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelKbitps" xml:space="preserve">
         <note annotates="source" from="developer">Kilobits per second</note>
+        <target>kbitar/s</target>
         <source>kbit/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelMbitps" xml:space="preserve">
         <note annotates="source" from="developer">Megabits per second</note>
+        <target>Mbitar/s</target>
         <source>Mbit/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelTbitps" xml:space="preserve">
         <note annotates="source" from="developer">Terabits per second</note>
+        <target>Tbitar/s</target>
         <source>Tbit/s</source>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
         <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
+        <target>Mozilla VPN-forritið hætti óvænt. Viltu senda hrunskýrslu til að hjálpa við að laga vandamálið?</target>
         <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
         <note annotates="source" from="developer">User does not agree to send a crash report.</note>
+        <target>Nei takk</target>
         <source>No thanks</source>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
         <note annotates="source" from="developer">Label over description text section.</note>
+        <target>Hrunaskýrsla</target>
         <source>Crash reporting</source>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
         <note annotates="source" from="developer">Main window title</note>
+        <target>Mozilla hrunskýrsla</target>
         <source>Mozilla Crash Report</source>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">User agrees to send a crash report.</note>
+        <target>Senda skýrslu</target>
         <source>Send report</source>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody" xml:space="preserve">
@@ -1087,6 +1116,7 @@
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdvancedToggle" xml:space="preserve">
         <source>Advanced</source>
+        <target>Nánar</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioBody" xml:space="preserve">
         <source>Block harmful domains with VPN</source>
@@ -1099,49 +1129,63 @@
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsCustomDNSRadioHeader" xml:space="preserve">
         <source>Use custom DNS</source>
+        <target>Nota sérsniðið DNS</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioBody" xml:space="preserve">
         <source>Automatically use Mozilla VPN-protected DNS</source>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioHeader" xml:space="preserve">
         <source>Use default DNS</source>
+        <target>Nota sjálfgefið DNS</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsDefaultToggle" xml:space="preserve">
         <source>Default</source>
+        <target>Sjálfgefið</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsFieldPlaceHolder" xml:space="preserve">
         <source>Enter custom DNS</source>
+        <target>Settu inn sérsniðið DNS</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsInfoAlert" xml:space="preserve">
         <source>VPN must be off to change these settings</source>
+        <target>Slökkt verður að vera á VPN til að breyta þessum stillingum</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsNavItem" xml:space="preserve">
         <source>DNS settings</source>
+        <target>DNS-stillingar</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.inlineCustomDNSError" xml:space="preserve">
         <source>Invalid DNS, please try a new one</source>
+        <target>Ógilt DNS, prófaðu eitthvað annað</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
         <source>Choose a category</source>
+        <target>Veldu flokk</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.excellentLabel" xml:space="preserve">
         <note annotates="source" from="developer">One of the answers on the feedback question about the user experience with the VPN client.</note>
+        <target>Stórfínt</target>
         <source>Excellent</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.leaveReviewButton" xml:space="preserve">
         <source>Leave a Review</source>
+        <target>Skildu eftir umsögn</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.reviewBody" xml:space="preserve">
         <source>If you enjoy using Mozilla VPN, would you review it? Thanks for your support!</source>
+        <target>Ef þú nýtur þess að nota Mozilla VPN, myndir þú gefa því umsögn? Þakka þér fyrir stuðninginn!</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.reviewHeader" xml:space="preserve">
         <source>Give us 5 stars!</source>
+        <target>Gefðu okkur 5 stjörnur!</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton" xml:space="preserve">
         <source>Try Again</source>
+        <target>Reyndu aftur</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
+        <target>Vandamál við að staðfesta áskrift</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again. Visit our help center below to learn how to troubleshoot this issue or contact support.</source>
@@ -1155,6 +1199,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel" xml:space="preserve">
         <note annotates="source" from="developer">A user trying to submit feedback will use this dropdown to select the general topic related to the feedback.</note>
+        <target>Veldu flokk</target>
         <source>Choose a category</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.featureRequestDropdownListItem" xml:space="preserve">
