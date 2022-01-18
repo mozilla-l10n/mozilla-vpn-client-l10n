@@ -374,6 +374,33 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/crashreporter/crashui/main.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
+    <body>
+      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
+        <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
+        <target>Mozilla VPN 應用程式發生未預期的錯誤，您願意發送錯誤報告幫助我們修正遇到的問題嗎？</target>
+        <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
+        <note annotates="source" from="developer">User does not agree to send a crash report.</note>
+        <target>不要，謝謝</target>
+        <source>No thanks</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
+        <note annotates="source" from="developer">Label over description text section.</note>
+        <target>錯誤回報</target>
+        <source>Crash reporting</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
+        <source>Mozilla Crash Reporter</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
+        <note annotates="source" from="developer">User agrees to send a crash report.</note>
+        <target>傳送報告</target>
+        <source>Send report</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
     <body>
       <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
@@ -958,7 +985,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
+  <file original="../src/ui/views/ViewMobileOnboarding.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
     <body>
       <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
         <source>Device-level encryption</source>
@@ -973,18 +1000,6 @@
         <source>No bandwidth restrictions</source>
         <target>沒有頻寬限制</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
-        <source>No online activity logs</source>
-        <target>不保留您的上網紀錄</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.next" xml:space="preserve">
-        <source>Next</source>
-        <target>下一步</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
-        <source>Skip</source>
-        <target>略過</target>
-      </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
         <target>加密您的流量，讓網路公司或竊聽者完全無法知道當中的內容。</target>
@@ -996,6 +1011,22 @@
       <trans-unit id="vpn.onboarding.subtitle.3" xml:space="preserve">
         <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
         <target>不限流、沒有每月流量額度，讓您影音串流、下載檔案、玩遊戲不設限。</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="zh-TW">
+    <body>
+      <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
+        <source>No online activity logs</source>
+        <target>不保留您的上網紀錄</target>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.next" xml:space="preserve">
+        <source>Next</source>
+        <target>下一步</target>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
+        <source>Skip</source>
+        <target>略過</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.4" xml:space="preserve">
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
@@ -1107,31 +1138,6 @@
         <note annotates="source" from="developer">Terabits per second</note>
         <target>Tbit/s</target>
         <source>Tbit/s</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
-        <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
-        <target>Mozilla VPN 應用程式發生未預期的錯誤，您願意發送錯誤報告幫助我們修正遇到的問題嗎？</target>
-        <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
-        <note annotates="source" from="developer">User does not agree to send a crash report.</note>
-        <target>不要，謝謝</target>
-        <source>No thanks</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
-        <note annotates="source" from="developer">Label over description text section.</note>
-        <target>錯誤回報</target>
-        <source>Crash reporting</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
-        <note annotates="source" from="developer">Main window title</note>
-        <target>Mozilla 程式錯誤回報</target>
-        <source>Mozilla Crash Report</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
-        <note annotates="source" from="developer">User agrees to send a crash report.</note>
-        <target>傳送報告</target>
-        <source>Send report</source>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody" xml:space="preserve">
         <source>Block internet ads and harmful domains with VPN</source>
