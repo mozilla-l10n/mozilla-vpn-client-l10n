@@ -374,6 +374,29 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/crashreporter/crashui/main.qml" datatype="plaintext" source-language="en" target-language="hsb">
+    <body>
+      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
+        <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
+        <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
+        <note annotates="source" from="developer">User does not agree to send a crash report.</note>
+        <source>No thanks</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
+        <note annotates="source" from="developer">Label over description text section.</note>
+        <source>Crash reporting</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
+        <source>Mozilla Crash Reporter</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
+        <note annotates="source" from="developer">User agrees to send a crash report.</note>
+        <source>Send report</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="hsb">
     <body>
       <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
@@ -958,21 +981,31 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="hsb">
+  <file original="../src/ui/views/ViewMobileOnboarding.qml" datatype="plaintext" source-language="en" target-language="hsb">
     <body>
       <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
         <source>Device-level encryption</source>
-        <target>Zaklučowanje na gratowej runinje</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
         <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeeded.qml too.</note>
-        <target>Serwery w přez 30 krajach</target>
         <source>Servers in 30+ countries</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.3" xml:space="preserve">
         <source>No bandwidth restrictions</source>
-        <target>Žane wobmjezowanja šěrokosće pasma</target>
       </trans-unit>
+      <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
+        <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.subtitle.2" xml:space="preserve">
+        <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.subtitle.3" xml:space="preserve">
+        <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="hsb">
+    <body>
       <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
         <source>No online activity logs</source>
         <target>Žane protokole aktiwnosće online</target>
@@ -984,18 +1017,6 @@
       <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
         <source>Skip</source>
         <target>Přeskočić</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
-        <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
-        <target>Zaklučujće swój datowy wobchad, zo njeby so dał wot wašeho internetneho poskićowarja abo wotposłucharjow čitać.</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.2" xml:space="preserve">
-        <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
-        <target>Wubjerće serwer w někajkimžkuli kraju a schowajće swoje stejnišćo, zo byšće přesćěhowaki wottřasł.</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.3" xml:space="preserve">
-        <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
-        <target>Móžeće bjez limitow, měsačnych mjezow abo dušenja wot internetneho poskićowarja prudźić, sćahnyć a hrać.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.4" xml:space="preserve">
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
@@ -1107,31 +1128,6 @@
         <note annotates="source" from="developer">Terabits per second</note>
         <target>Tbit/s</target>
         <source>Tbit/s</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
-        <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
-        <target>Nałoženje Mozilla VPN je so njejapcy skónčiło. Chceće rozprawu wo spadźe słać, zo byšće pomhał problem rozrisać?</target>
-        <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
-        <note annotates="source" from="developer">User does not agree to send a crash report.</note>
-        <target>Ně, dźakuju so</target>
-        <source>No thanks</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
-        <note annotates="source" from="developer">Label over description text section.</note>
-        <target>Rozprawy wo spadach</target>
-        <source>Crash reporting</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
-        <note annotates="source" from="developer">Main window title</note>
-        <target>Rozprawa wo spadźe Mozilla</target>
-        <source>Mozilla Crash Report</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
-        <note annotates="source" from="developer">User agrees to send a crash report.</note>
-        <target>Rozprawu pósłać</target>
-        <source>Send report</source>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody" xml:space="preserve">
         <source>Block internet ads and harmful domains with VPN</source>
