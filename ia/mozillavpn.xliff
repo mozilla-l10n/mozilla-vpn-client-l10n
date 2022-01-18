@@ -377,6 +377,33 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/crashreporter/crashui/main.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
+        <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
+        <target>Le app Mozilla VPN quitava inexpectatemente. Vole tu inviar un reporto de crash pro adjutar a remediar iste problema?</target>
+        <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
+        <note annotates="source" from="developer">User does not agree to send a crash report.</note>
+        <target>No, gratias</target>
+        <source>No thanks</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
+        <note annotates="source" from="developer">Label over description text section.</note>
+        <target>Reporto de crash</target>
+        <source>Crash reporting</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
+        <source>Mozilla Crash Reporter</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
+        <note annotates="source" from="developer">User agrees to send a crash report.</note>
+        <target>Inviar reporto</target>
+        <source>Send report</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="ia">
     <body>
       <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
@@ -962,7 +989,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="ia">
+  <file original="../src/ui/views/ViewMobileOnboarding.qml" datatype="plaintext" source-language="en" target-language="ia">
     <body>
       <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
         <source>Device-level encryption</source>
@@ -977,18 +1004,6 @@
         <source>No bandwidth restrictions</source>
         <target>Nulle limitationes de largessa de banda</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
-        <source>No online activity logs</source>
-        <target>Nulle registros de activitate online</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.next" xml:space="preserve">
-        <source>Next</source>
-        <target>Sequente</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
-        <source>Skip</source>
-        <target>Saltar</target>
-      </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
         <target>Crypta tu traffico de maniera que illo non pote esser legite ni per tu fornitor de accesso a internet, ni per spias.</target>
@@ -1000,6 +1015,22 @@
       <trans-unit id="vpn.onboarding.subtitle.3" xml:space="preserve">
         <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
         <target>Gaude diffusiones, discarga e joca sin limites, sin coperculos mensual o regulation de ISP.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="ia">
+    <body>
+      <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
+        <source>No online activity logs</source>
+        <target>Nulle registros de activitate online</target>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.next" xml:space="preserve">
+        <source>Next</source>
+        <target>Sequente</target>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
+        <source>Skip</source>
+        <target>Saltar</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.4" xml:space="preserve">
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
@@ -1111,31 +1142,6 @@
         <note annotates="source" from="developer">Terabits per second</note>
         <target>Tbit/s</target>
         <source>Tbit/s</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
-        <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
-        <target>Le app Mozilla VPN quitava inexpectatemente. Vole tu inviar un reporto de crash pro adjutar a remediar iste problema?</target>
-        <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
-        <note annotates="source" from="developer">User does not agree to send a crash report.</note>
-        <target>No, gratias</target>
-        <source>No thanks</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
-        <note annotates="source" from="developer">Label over description text section.</note>
-        <target>Reporto de crash</target>
-        <source>Crash reporting</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
-        <note annotates="source" from="developer">Main window title</note>
-        <target>Reporto de crash de Mozilla</target>
-        <source>Mozilla Crash Report</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
-        <note annotates="source" from="developer">User agrees to send a crash report.</note>
-        <target>Inviar reporto</target>
-        <source>Send report</source>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody" xml:space="preserve">
         <source>Block internet ads and harmful domains with VPN</source>
