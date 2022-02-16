@@ -1115,6 +1115,21 @@
         <source>Captive portal detected!</source>
         <target>¡Portal cautivo detectado!</target>
       </trans-unit>
+      <trans-unit id="vpn.connectionInfo.errorMessage" xml:space="preserve">
+        <source>Looks like there was an unexpected error while trying to connect. Please try again or check your connection.</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.highBulletOne" xml:space="preserve">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
+        <source>Streaming in 4K</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.highBulletThree" xml:space="preserve">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
+        <source>Online gaming</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.highBulletTwo" xml:space="preserve">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
+        <source>High-speed downloads</source>
+      </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelBitps" xml:space="preserve">
         <note annotates="source" from="developer">Bits per second</note>
         <target>bit/s</target>
@@ -1135,10 +1150,49 @@
         <target>Mbit/s</target>
         <source>Mbit/s</source>
       </trans-unit>
+      <trans-unit id="vpn.connectionInfo.labelPing" xml:space="preserve">
+        <note annotates="source" from="developer">Latency of the connection</note>
+        <source>Ping</source>
+      </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelTbitps" xml:space="preserve">
         <note annotates="source" from="developer">Terabits per second</note>
         <target>Tbit/s</target>
         <source>Tbit/s</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.listHeaderDefault" xml:space="preserve">
+        <note annotates="source" from="developer">Headline for a list of things that the current connection is capable of.</note>
+        <source>At your current speed, here’s what your device is optimized for:</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.listHeaderSlow" xml:space="preserve">
+        <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
+        <source>It looks like the connection to this server location is a bit slow, you can try:</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel" xml:space="preserve">
+        <note annotates="source" from="developer">Shown to the user while waiting for the connection speed test results</note>
+        <source>Testing speed…</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.mediumBulletOne" xml:space="preserve">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <source>Browsing the internet</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.mediumBulletThree" xml:space="preserve">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <source>Video conferencing</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.mediumBulletTwo" xml:space="preserve">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <source>Streaming video</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne" xml:space="preserve">
+        <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
+        <source>Switching server locations</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo" xml:space="preserve">
+        <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
+        <source>Checking your internet connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.unitPing" xml:space="preserve">
+        <source>ms</source>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody" xml:space="preserve">
         <source>Block internet ads and harmful domains with VPN</source>
@@ -1225,6 +1279,9 @@
         <source>Give us 5 stars!</source>
         <target>¡Danos 5 estrellas!</target>
       </trans-unit>
+      <trans-unit id="vpn.genericError.unexpected" xml:space="preserve">
+        <source>Unexpected error</source>
+      </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton" xml:space="preserve">
         <source>Try Again</source>
         <target>Reintentar</target>
@@ -1236,6 +1293,9 @@
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again. Visit our help center below to learn how to troubleshoot this issue or contact support.</source>
         <target>Se ha producido un error inesperado. Inténtalo de nuevo. Visita nuestro centro de ayuda a continuación para aprender cómo solucionar este problema o contacta con el equipo de ayuda.</target>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.changeEmailLink" xml:space="preserve">
+        <source>Change email</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>

@@ -902,6 +902,21 @@
       <trans-unit id="vpn.captivePortalAlert.title">
         <source>Captive portal detected!</source>
       </trans-unit>
+      <trans-unit id="vpn.connectionInfo.errorMessage">
+        <source>Looks like there was an unexpected error while trying to connect. Please try again or check your connection.</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.highBulletOne">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
+        <source>Streaming in 4K</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.highBulletThree">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
+        <source>Online gaming</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.highBulletTwo">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
+        <source>High-speed downloads</source>
+      </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelBitps">
         <note annotates="source" from="developer">Bits per second</note>
         <source>bit/s</source>
@@ -918,9 +933,48 @@
         <note annotates="source" from="developer">Megabits per second</note>
         <source>Mbit/s</source>
       </trans-unit>
+      <trans-unit id="vpn.connectionInfo.labelPing">
+        <note annotates="source" from="developer">Latency of the connection</note>
+        <source>Ping</source>
+      </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelTbitps">
         <note annotates="source" from="developer">Terabits per second</note>
         <source>Tbit/s</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.listHeaderDefault">
+        <note annotates="source" from="developer">Headline for a list of things that the current connection is capable of.</note>
+        <source>At your current speed, here’s what your device is optimized for:</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.listHeaderSlow">
+        <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
+        <source>It looks like the connection to this server location is a bit slow, you can try:</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel">
+        <note annotates="source" from="developer">Shown to the user while waiting for the connection speed test results</note>
+        <source>Testing speed…</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.mediumBulletOne">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <source>Browsing the internet</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.mediumBulletThree">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <source>Video conferencing</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.mediumBulletTwo">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <source>Streaming video</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne">
+        <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
+        <source>Switching server locations</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo">
+        <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
+        <source>Checking your internet connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.unitPing">
+        <source>ms</source>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody">
         <source>Block internet ads and harmful domains with VPN</source>
@@ -986,6 +1040,9 @@
       <trans-unit id="vpn.feedbackForm.reviewHeader">
         <source>Give us 5 stars!</source>
       </trans-unit>
+      <trans-unit id="vpn.genericError.unexpected">
+        <source>Unexpected error</source>
+      </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton">
         <source>Try Again</source>
       </trans-unit>
@@ -994,6 +1051,9 @@
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText">
         <source>An unexpected error has occurred, please try again. Visit our help center below to learn how to troubleshoot this issue or contact support.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.changeEmailLink">
+        <source>Change email</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
