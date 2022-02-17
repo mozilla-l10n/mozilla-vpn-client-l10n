@@ -1166,38 +1166,47 @@
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.listHeaderDefault" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list of things that the current connection is capable of.</note>
+        <target>Pri vašej aktuálnej rýchlosti je vaše zariadenie optimalizované pre:</target>
         <source>At your current speed, here’s what your device is optimized for:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.listHeaderSlow" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
+        <target>Zdá sa, že pripojenie k tomuto serveru je trochu pomalé, môžete skúsiť:</target>
         <source>It looks like the connection to this server location is a bit slow, you can try:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel" xml:space="preserve">
         <note annotates="source" from="developer">Shown to the user while waiting for the connection speed test results</note>
+        <target>Testuje sa rýchlosť…</target>
         <source>Testing speed…</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <target>Prehliadanie internetu</target>
         <source>Browsing the internet</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletThree" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <target>Video konferencie</target>
         <source>Video conferencing</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletTwo" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <target>Streamovanie videa</target>
         <source>Streaming video</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
+        <target>Prepnutie umiestnenia servera</target>
         <source>Switching server locations</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
+        <target>Kontroluje sa internetové pripojenie</target>
         <source>Checking your internet connection</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.unitPing" xml:space="preserve">
         <source>ms</source>
+        <target>ms</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody" xml:space="preserve">
         <source>Block internet ads and harmful domains with VPN</source>
@@ -1286,6 +1295,7 @@
       </trans-unit>
       <trans-unit id="vpn.genericError.unexpected" xml:space="preserve">
         <source>Unexpected error</source>
+        <target>Neočakávaná chyba</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton" xml:space="preserve">
         <source>Try Again</source>
@@ -1301,6 +1311,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.changeEmailLink" xml:space="preserve">
         <source>Change email</source>
+        <target>Zmeniť e-mailovú adresu</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
@@ -1416,27 +1427,35 @@
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelFourSubtitle" xml:space="preserve">
         <source>Stream, download and game without limits, monthly caps or ISP throttling.</source>
+        <target>Streamujte, sťahujte a hrajte bez obmedzení, mesačných limitov alebo obmedzovania od ISP.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelFourTitle" xml:space="preserve">
         <source>More security with one tap</source>
+        <target>Väčšia bezpečnosť jediným klepnutím</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle" xml:space="preserve">
         <source>A safe, reliable and fast VPN. Built by the makers of Firefox.</source>
+        <target>Bezpečná, spoľahlivá a rýchla VPN. Od tvorcov Firefoxu.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneTitle" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelThreeSubtitle" xml:space="preserve">
         <source>Route your activity and location through servers in more than 30 countries.</source>
+        <target>Smerujte svoju aktivitu a polohu cez servery vo viac ako 30 krajinách.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelThreeTitle" xml:space="preserve">
         <source>Protect your privacy</source>
+        <target>Chráňte svoje súkromie</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelTwoSubtitle" xml:space="preserve">
         <source>Mozilla VPN keeps your location and browsing safe from eavesdroppers.</source>
+        <target>Mozilla VPN chráni vašu polohu a prehliadanie pred odpočúvaním.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelTwoTitle" xml:space="preserve">
         <source>Encrypt your activity</source>
+        <target>Šifrujte svoju aktivitu</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.signUpBtn" xml:space="preserve">
         <source>Sign up</source>
@@ -1611,10 +1630,12 @@
       </trans-unit>
       <trans-unit id="vpn.settings.tunnelPort53" xml:space="preserve">
         <note annotates="source" from="developer">Tunnel is used as a verb, as in to direct traffic through</note>
+        <target>Tunel VPN cez port 53/DNS</target>
         <source>Tunnel VPN through port 53/DNS</source>
       </trans-unit>
       <trans-unit id="vpn.settings.tunnelPort53Description" xml:space="preserve">
         <source>Use port 53/DNS for Wireguard traffic, which may help evade firewalls</source>
+        <target>Pre prenos Wireguard použite port 53/DNS, ktorý môže pomôcť vyhnúť sa firewallom</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
         <source>VPN must be restarted to take effect</source>
