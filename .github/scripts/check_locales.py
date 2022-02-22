@@ -84,7 +84,10 @@ def main():
 
                 # Check ellipsis
                 if "…" in ref_string and "…" not in l10n_string:
-                    if string_id in exceptions.get("ellipsis", {}).get(locale, []):
+                    tmp_exceptions = exceptions.get("ellipsis", {})
+                    if locale in tmp_exceptions.get(
+                        "excluded_locales", []
+                    ) or string_id in tmp_exceptions.get(locale, []):
                         continue
                     errors.append(
                         f"{locale}: '…' missing in {string_id}\nText: {l10n_string}"
