@@ -140,8 +140,7 @@
         <target>Αποσύνδεση…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.info" xml:space="preserve">
-        <source>Connection Information</source>
-        <target>Πληροφορίες σύνδεσης</target>
+        <source>Close</source>
       </trans-unit>
       <trans-unit id="vpn.controller.switching" xml:space="preserve">
         <source>Switching…</source>
@@ -362,6 +361,14 @@
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
         <target>Το VPN πρέπει να είναι ανενεργό για την επεξεργασία αυτών των ρυθμίσεων</target>
         <source>VPN must be off to edit these settings</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/inAppAuth/VPNInAppAuthenticationBase.qml" datatype="plaintext" source-language="en" target-language="el">
+    <body>
+      <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
+        <source>Get help</source>
+        <target>Λήψη βοήθειας</target>
       </trans-unit>
     </body>
   </file>
@@ -809,10 +816,6 @@
   </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
-        <source>Get help</source>
-        <target>Λήψη βοήθειας</target>
-      </trans-unit>
       <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
         <target>Διαχείριση λογαριασμού</target>
@@ -986,7 +989,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/views/ViewMobileOnboarding.qml" datatype="plaintext" source-language="en" target-language="el">
+  <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
       <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
         <source>Device-level encryption</source>
@@ -1001,22 +1004,6 @@
         <source>No bandwidth restrictions</source>
         <target>Χωρίς περιορισμούς εύρους ζώνης</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
-        <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
-        <target>Κρυπτογραφήστε την κίνηση δικτύου σας, ώστε να μην είναι δυνατή η ανάγνωσή τους από τον πάροχο ή από κακόβουλους τρίτους.</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.2" xml:space="preserve">
-        <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
-        <target>Επιλέξτε διακομιστή σε όποια χώρα θέλετε και αποκρύψτε την τοποθεσία σας για να ξεγελάσετε τους ιχνηλάτες.</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.3" xml:space="preserve">
-        <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
-        <target>Δείτε σειρές, κάντε λήψη και παίξτε χωρίς περιορισμούς, μηνιαία όρια ή μείωση ταχύτητας.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="el">
-    <body>
       <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
         <source>No online activity logs</source>
         <target>Χωρίς καταγραφή online δραστηριότητας</target>
@@ -1028,6 +1015,18 @@
       <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
         <source>Skip</source>
         <target>Παράλειψη</target>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
+        <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
+        <target>Κρυπτογραφήστε την κίνηση δικτύου σας, ώστε να μην είναι δυνατή η ανάγνωσή τους από τον πάροχο ή από κακόβουλους τρίτους.</target>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.subtitle.2" xml:space="preserve">
+        <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
+        <target>Επιλέξτε διακομιστή σε όποια χώρα θέλετε και αποκρύψτε την τοποθεσία σας για να ξεγελάσετε τους ιχνηλάτες.</target>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.subtitle.3" xml:space="preserve">
+        <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
+        <target>Δείτε σειρές, κάντε λήψη και παίξτε χωρίς περιορισμούς, μηνιαία όρια ή μείωση ταχύτητας.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.4" xml:space="preserve">
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
