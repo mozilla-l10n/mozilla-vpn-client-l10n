@@ -112,7 +112,7 @@
         <source>Disconnecting…</source>
       </trans-unit>
       <trans-unit id="vpn.controller.info">
-        <source>Connection Information</source>
+        <source>Close</source>
       </trans-unit>
       <trans-unit id="vpn.controller.switching">
         <source>Switching…</source>
@@ -295,6 +295,13 @@
       <trans-unit id="vpn.settings.vpnMustBeOff">
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
         <source>VPN must be off to edit these settings</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/inAppAuth/VPNInAppAuthenticationBase.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.main.getHelp2">
+        <source>Get help</source>
       </trans-unit>
     </body>
   </file>
@@ -654,9 +661,6 @@
   </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.main.getHelp2">
-        <source>Get help</source>
-      </trans-unit>
       <trans-unit id="vpn.main.manageAccount">
         <source>Manage account</source>
       </trans-unit>
@@ -800,7 +804,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/views/ViewMobileOnboarding.qml" datatype="plaintext" source-language="en" target-language="en-US">
+  <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
       <trans-unit id="vpn.onboarding.headline.1">
         <source>Device-level encryption</source>
@@ -812,19 +816,6 @@
       <trans-unit id="vpn.onboarding.headline.3">
         <source>No bandwidth restrictions</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.1">
-        <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.2">
-        <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.3">
-        <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="en-US">
-    <body>
       <trans-unit id="vpn.onboarding.headline.4">
         <source>No online activity logs</source>
       </trans-unit>
@@ -833,6 +824,15 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.skip">
         <source>Skip</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.subtitle.1">
+        <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.subtitle.2">
+        <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.subtitle.3">
+        <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.4">
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
