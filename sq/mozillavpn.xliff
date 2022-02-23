@@ -140,8 +140,7 @@
         <target>Po shkëputet…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.info" xml:space="preserve">
-        <source>Connection Information</source>
-        <target>Të dhëna Lidhjeje</target>
+        <source>Close</source>
       </trans-unit>
       <trans-unit id="vpn.controller.switching" xml:space="preserve">
         <source>Switching…</source>
@@ -362,6 +361,14 @@
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
         <target>VPN-ja duhet të jetë e fikur, që të përpunohen këto rregullime</target>
         <source>VPN must be off to edit these settings</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/inAppAuth/VPNInAppAuthenticationBase.qml" datatype="plaintext" source-language="en" target-language="sq">
+    <body>
+      <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
+        <source>Get help</source>
+        <target>Merrni ndihmë</target>
       </trans-unit>
     </body>
   </file>
@@ -806,10 +813,6 @@
   </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="sq">
     <body>
-      <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
-        <source>Get help</source>
-        <target>Merrni ndihmë</target>
-      </trans-unit>
       <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
         <target>Administroni llogari</target>
@@ -983,7 +986,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/views/ViewMobileOnboarding.qml" datatype="plaintext" source-language="en" target-language="sq">
+  <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="sq">
     <body>
       <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
         <source>Device-level encryption</source>
@@ -998,22 +1001,6 @@
         <source>No bandwidth restrictions</source>
         <target>Pa kufizime për sasi trafiku</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
-        <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
-        <target>Fshehtëzoni trafikun tuaj, që të mos mund të lexohet nga ISP-ja juaj ose nga përgjyes të ndryshëm.</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.2" xml:space="preserve">
-        <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
-        <target>Zgjidhni një shërbye në çfarëdo vendi që doni dhe fshiheni vendndodhjen tuaj për të hequr qafe gjurmuesit.</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.3" xml:space="preserve">
-        <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
-        <target>Shihni, shkarkoni dhe luani pa kufizime, tavane mujore apo ngadalësim trafiku nga ISP-ja.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="sq">
-    <body>
       <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
         <source>No online activity logs</source>
         <target>Pa regjistra veprimtarie internetore</target>
@@ -1025,6 +1012,18 @@
       <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
         <source>Skip</source>
         <target>Anashkaloje</target>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
+        <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
+        <target>Fshehtëzoni trafikun tuaj, që të mos mund të lexohet nga ISP-ja juaj ose nga përgjyes të ndryshëm.</target>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.subtitle.2" xml:space="preserve">
+        <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
+        <target>Zgjidhni një shërbye në çfarëdo vendi që doni dhe fshiheni vendndodhjen tuaj për të hequr qafe gjurmuesit.</target>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.subtitle.3" xml:space="preserve">
+        <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
+        <target>Shihni, shkarkoni dhe luani pa kufizime, tavane mujore apo ngadalësim trafiku nga ISP-ja.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.4" xml:space="preserve">
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
