@@ -1330,17 +1330,20 @@
         <source>Error submitting your support request</source>
         <target>Virhe lähetettäessä tukipyyntöäsi</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again.</source>
+        <target>Tapahtui odottamaton virhe, yritä uudestaan.</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportFieldHeader">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportFieldHeader" xml:space="preserve">
         <source>How can we help you with Mozilla VPN?</source>
+        <target>Kuinka voimme auttaa sinua Mozilla VPN:n kanssa?</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportNavLinkText">
         <source>Contact support</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportPrimaryButtonText">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportPrimaryButtonText" xml:space="preserve">
         <source>Submit</source>
+        <target>Lähetä</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody">
         <note annotates="source" from="developer">The %1 represents the email used to complete the form</note>
@@ -1358,8 +1361,9 @@
         <source>Cancel</source>
         <target>Peruuta</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.technicaDropdownListItem">
+      <trans-unit id="vpn.inAppSupportWorkflow.technicaDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to technical issues.</note>
+        <target>Tekniset ongelmat</target>
         <source>Technical issues</source>
       </trans-unit>
       <trans-unit id="vpn.languageView.searchPlaceholder">
@@ -1373,11 +1377,13 @@
       <trans-unit id="vpn.mobileOnboarding.panelFourSubtitle">
         <source>Stream, download and game without limits, monthly caps or ISP throttling.</source>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelFourTitle">
+      <trans-unit id="vpn.mobileOnboarding.panelFourTitle" xml:space="preserve">
         <source>More security with one tap</source>
+        <target>Lisää turvallisuutta yhdellä napautuksella</target>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle">
+      <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle" xml:space="preserve">
         <source>A safe, reliable and fast VPN. Built by the makers of Firefox.</source>
+        <target>Turvallinen, luotettava ja nopea VPN. Firefoxin tekijöiden rakentama.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneTitle" xml:space="preserve">
         <source>Mozilla VPN</source>
@@ -1386,8 +1392,9 @@
       <trans-unit id="vpn.mobileOnboarding.panelThreeSubtitle">
         <source>Route your activity and location through servers in more than 30 countries.</source>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelThreeTitle">
+      <trans-unit id="vpn.mobileOnboarding.panelThreeTitle" xml:space="preserve">
         <source>Protect your privacy</source>
+        <target>Suojaa yksityisyyttäsi</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelTwoSubtitle">
         <source>Mozilla VPN keeps your location and browsing safe from eavesdroppers.</source>
@@ -1431,8 +1438,9 @@
       <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA">
         <source>Multi-hop</source>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.serverSearchResultsError">
+      <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
+        <target>Ei tuloksia. Kokeile eri hakuehtoja</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA">
         <source>Single-hop</source>
@@ -1469,12 +1477,14 @@
       <trans-unit id="vpn.notifications.captivePortalUnblockTitle">
         <source>Guest Wi-Fi portal detected</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.unsecuredNetworkMessage">
+      <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
+        <target>%1 ei ole turvallinen. Napsauta tätä ottaaksesi VPN käyttöön ja suojataksesi laitteesi.</target>
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.unsecuredNetworkTitle">
+      <trans-unit id="vpn.notifications.unsecuredNetworkTitle" xml:space="preserve">
         <source>Unsecured Wi-Fi network detected</source>
+        <target>Suojaamaton wifi-verkko havaittu</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
         <source>Already a subscriber?</source>
@@ -1509,27 +1519,33 @@
       <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel">
         <source>Get notified when connecting to a server location failed</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.searchNoResultsLabel">
+      <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
+        <target>Ei tuloksia. Kokeile eri hakuehtoja</target>
       </trans-unit>
-      <trans-unit id="vpn.serversView.searchPlaceholder">
+      <trans-unit id="vpn.serversView.searchPlaceholder" xml:space="preserve">
         <source>Search countries</source>
+        <target>Hae maita</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dataCollectionDescription">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.preferences">
+      <trans-unit id="vpn.settings.preferences" xml:space="preserve">
         <source>Preferences</source>
+        <target>Asetukset</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.startAtBootSubtitle">
+      <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
         <source>Mozilla VPN will launch and connect when you start up your device</source>
+        <target>Mozilla VPN käynnistyy ja muodostaa yhteyden, kun käynnistät laitteen</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.startAtBootTitle">
+      <trans-unit id="vpn.settings.startAtBootTitle" xml:space="preserve">
         <note annotates="source" from="developer">Startup refers to a device's startup, not the VPN client's.</note>
+        <target>Yhdistä VPN käynnistyksen yhteydessä</target>
         <source>Connect VPN on startup</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.systemPreferences">
+      <trans-unit id="vpn.settings.systemPreferences" xml:space="preserve">
         <source>System preferences</source>
+        <target>Järjestelmän asetukset</target>
       </trans-unit>
       <trans-unit id="vpn.settings.tunnelPort53">
         <note annotates="source" from="developer">Tunnel is used as a verb, as in to direct traffic through</note>
@@ -1538,17 +1554,21 @@
       <trans-unit id="vpn.settings.tunnelPort53Description">
         <source>Use port 53/DNS for Wireguard traffic, which may help evade firewalls</source>
       </trans-unit>
-      <trans-unit id="vpn.settingsDev.restartRequired">
+      <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
         <source>VPN must be restarted to take effect</source>
+        <target>VPN on käynnistettävä uudelleen, jotta muutos tulee voimaan</target>
       </trans-unit>
-      <trans-unit id="vpn.settingsDev.showOptionSubtitle">
+      <trans-unit id="vpn.settingsDev.showOptionSubtitle" xml:space="preserve">
         <source>Show or hide the developer options menu</source>
+        <target>Näytä tai piilota kehittäjävalintojen valikko</target>
       </trans-unit>
-      <trans-unit id="vpn.settingsDev.showOptionTitle">
+      <trans-unit id="vpn.settingsDev.showOptionTitle" xml:space="preserve">
         <source>Show Developer Options</source>
+        <target>Näytä kehittäjävalinnat</target>
       </trans-unit>
-      <trans-unit id="vpn.settingsDev.title">
+      <trans-unit id="vpn.settingsDev.title" xml:space="preserve">
         <source>Developer Options</source>
+        <target>Kehittäjävalinnat</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.useStagingSubtitle">
         <source>Staging services are used to test features before they go live to production</source>
