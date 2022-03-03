@@ -131,8 +131,9 @@
         <source>VPN is off</source>
         <target>VPN on pois päältä</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.deactivating">
+      <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
         <source>Unmasking connection and location</source>
+        <target>Paljastetaan yhteys ja sijainti</target>
       </trans-unit>
       <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
         <source>Disconnecting…</source>
@@ -573,24 +574,29 @@
   </file>
   <file original="../src/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.connectioInfo.gBps">
+      <trans-unit id="vpn.connectioInfo.gBps" xml:space="preserve">
         <note annotates="source" from="developer">Gigabytes per second</note>
+        <target>Gt/s</target>
         <source>GB/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectioInfo.mBps">
+      <trans-unit id="vpn.connectioInfo.mBps" xml:space="preserve">
         <note annotates="source" from="developer">Megabytes per second</note>
+        <target>Mt/s</target>
         <source>MB/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.Bps">
+      <trans-unit id="vpn.connectionInfo.Bps" xml:space="preserve">
         <note annotates="source" from="developer">Bytes per second</note>
+        <target>t/s</target>
         <source>B/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.kBps">
+      <trans-unit id="vpn.connectionInfo.kBps" xml:space="preserve">
         <note annotates="source" from="developer">Kilobytes per second</note>
+        <target>kt/s</target>
         <source>kB/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.tBps">
+      <trans-unit id="vpn.connectionInfo.tBps" xml:space="preserve">
         <note annotates="source" from="developer">Terabytes per second</note>
+        <target>Tt/s</target>
         <source>TB/s</source>
       </trans-unit>
     </body>
@@ -619,22 +625,26 @@
         <source>Protect all apps with VPN</source>
         <target>Suojaa kaikki sovellukset VPN:llä</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectAllApps.description">
+      <trans-unit id="vpn.settings.protectAllApps.description" xml:space="preserve">
         <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
+        <target>VPN suojaa kaikkia sovelluksia oletuksena. Sammuta, jos haluat valita, mitä sovelluksia Mozilla VPN:n ei tule suojata.</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff">
+      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+        <target>VPN:n on oltava pois päältä, jotta sovelluksen oikeuksia on mahdollista muokata</target>
         <source>VPN must be off to edit App Permissions</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.feedback.privacyDisclaimer">
+      <trans-unit id="vpn.feedback.privacyDisclaimer" xml:space="preserve">
         <source>When you submit feedback, Mozilla VPN will collect technical and interaction data, including your IP address, to help us improve. This data won’t be associated with your Firefox account.</source>
+        <target>Kun lähetät palautetta, Mozilla VPN kerää teknisiä ja vuorovaikutustietoja, mukaan lukien IP-osoitteesi, auttaakseen meitä parantamaan toimintaamme. Näitä tietoja ei yhdistetä Firefox-tiliisi.</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.average">
+      <trans-unit id="vpn.feedbackForm.average" xml:space="preserve">
         <source>Average</source>
+        <target>Keskiverto</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.averageRatingResponse">
         <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
@@ -647,11 +657,13 @@
         <source>Good</source>
         <target>Hyvä</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.goodRatingResponse">
+      <trans-unit id="vpn.feedbackForm.goodRatingResponse" xml:space="preserve">
         <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
+        <target>Olemme iloisia, että pidät Mozilla VPN:stä! Kerro meille, kuinka voimme tehdä kokemuksestasi entistä paremman.</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.lowRatingResponse">
+      <trans-unit id="vpn.feedbackForm.lowRatingResponse" xml:space="preserve">
         <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
+        <target>Ikävä kuulla, että sinulla oli huono kokemus. Kerro meille, kuinka voimme parantaa.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.poor" xml:space="preserve">
         <source>Poor</source>
@@ -771,8 +783,9 @@
         <source>Notifications</source>
         <target>Ilmoitukset</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.unsecuredNetworkAlert">
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert" xml:space="preserve">
         <source>Unsecured network alert</source>
+        <target>Suojaamattoman verkon hälytys</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unsecuredNetworkAlert.description">
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
@@ -839,8 +852,9 @@
         <source>Continue</source>
         <target>Jatka</target>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.statusBarIntro">
+      <trans-unit id="vpn.postAuthentication.statusBarIntro" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
+        <target>Voit käyttää Mozilla VPN:ää nopeasti tilapalkista.</target>
       </trans-unit>
     </body>
   </file>
@@ -1170,15 +1184,17 @@
         <source>Block internet ads and harmful domains with VPN</source>
         <target>Estä Internet-mainokset ja haitalliset verkkotunnukset VPN:llä</target>
       </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioHeader">
+      <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioHeader" xml:space="preserve">
         <source>Use adblock and anti-tracking DNS</source>
+        <target>Käytä mainosestolla ja seurannan ehkäisyllä DNS:ää</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioBody" xml:space="preserve">
         <source>Block internet ads with VPN</source>
         <target>Estä Internet-mainokset VPN:llä</target>
       </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioHeader">
+      <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioHeader" xml:space="preserve">
         <source>Use adblock DNS</source>
+        <target>Käytä mainosestolla DNS:ää</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdvancedToggle" xml:space="preserve">
         <source>Advanced</source>
@@ -1188,17 +1204,21 @@
         <source>Block harmful domains with VPN</source>
         <target>Estä haitalliset verkkotunnukset VPN:llä</target>
       </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioHeader">
+      <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioHeader" xml:space="preserve">
         <source>Use anti-tracking DNS</source>
+        <target>Käytä seurantaa ehkäisevää DNS:ää</target>
       </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsCustomDNSRadioBody">
+      <trans-unit id="vpn.customDNSSettings.dnsCustomDNSRadioBody" xml:space="preserve">
         <source>Resolve websites using a custom DNS</source>
+        <target>Selvitä verkkosivustot mukautetun DNS:n avulla</target>
       </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsCustomDNSRadioHeader">
+      <trans-unit id="vpn.customDNSSettings.dnsCustomDNSRadioHeader" xml:space="preserve">
         <source>Use custom DNS</source>
+        <target>Käytä mukautettua DNS:ää</target>
       </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioBody">
+      <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioBody" xml:space="preserve">
         <source>Automatically use Mozilla VPN-protected DNS</source>
+        <target>Käytä automaattisesti Mozilla VPN -suojattua DNS:ää</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioHeader" xml:space="preserve">
         <source>Use default DNS</source>
@@ -1208,8 +1228,9 @@
         <source>Default</source>
         <target>Oletus</target>
       </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsFieldPlaceHolder">
+      <trans-unit id="vpn.customDNSSettings.dnsFieldPlaceHolder" xml:space="preserve">
         <source>Enter custom DNS</source>
+        <target>Anna mukautettu DNS</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsInfoAlert" xml:space="preserve">
         <source>VPN must be off to change these settings</source>
@@ -1387,8 +1408,9 @@
         <target>Tekniset ongelmat</target>
         <source>Technical issues</source>
       </trans-unit>
-      <trans-unit id="vpn.languageView.searchPlaceholder">
+      <trans-unit id="vpn.languageView.searchPlaceholder" xml:space="preserve">
         <note annotates="source" from="developer">Placeholder text for a search field that can be used to search through a list of languages</note>
+        <target>Etsi kieliä</target>
         <source>Search languages</source>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber" xml:space="preserve">
@@ -1774,8 +1796,9 @@
       <trans-unit id="vpn.whatsNewReleaseNotes.tourSubHeader">
         <source>Take the tour</source>
       </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifBody">
+      <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifBody" xml:space="preserve">
         <source>Check out all the new features available in the latest version of Mozilla VPN!</source>
+        <target>Tutustu Mozilla VPN:n uusimman version kaikkiin uusiin ominaisuuksiin!</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifCTA">
         <source>Take the tour</source>
