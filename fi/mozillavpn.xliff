@@ -681,16 +681,19 @@
         <target>%1 %2</target>
         <source>%1 %2</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.systemLangaugeSubtitle">
+      <trans-unit id="vpn.settings.systemLangaugeSubtitle" xml:space="preserve">
         <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
+        <target>Mozilla VPN käyttää järjestelmän oletuskieltä.</target>
         <source>Mozilla VPN will use the default system language.</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.systemLanguageEnabled">
+      <trans-unit id="vpn.settings.systemLanguageEnabled" xml:space="preserve">
         <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
+        <target>Poista käytöstä valitaksesi toisen kielen</target>
         <source>Disable to select a different language</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.systemLanguageTitle">
+      <trans-unit id="vpn.settings.systemLanguageTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the language switcher toggle.</note>
+        <target>Käytä järjestelmän kieltä</target>
         <source>Use system language</source>
       </trans-unit>
     </body>
@@ -703,8 +706,9 @@
       <trans-unit id="vpn.settings.lanAccess.description">
         <source>Access printers, streaming sticks and all other devices on your local network</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.networking">
+      <trans-unit id="vpn.settings.networking" xml:space="preserve">
         <source>Network settings</source>
+        <target>Verkkoasetukset</target>
       </trans-unit>
       <trans-unit id="vpn.settings.networking.advancedDNSSettings">
         <source>Advanced DNS Settings</source>
@@ -731,8 +735,9 @@
       <trans-unit id="vpn.settings.notification.serverSwitch2">
         <source>Server switching notification</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.notifications">
+      <trans-unit id="vpn.settings.notifications" xml:space="preserve">
         <source>Notifications</source>
+        <target>Ilmoitukset</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unsecuredNetworkAlert">
         <source>Unsecured network alert</source>
@@ -754,11 +759,13 @@
   </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.main.manageAccount">
+      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>Hallinnoi tiliä</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot2">
+      <trans-unit id="vpn.settings.runOnBoot2" xml:space="preserve">
         <source>Launch VPN app on startup</source>
+        <target>Käynnistä VPN-sovellus käynnistyksen yhteydessä</target>
       </trans-unit>
       <trans-unit id="vpn.settings.user">
         <source>VPN User</source>
@@ -790,8 +797,9 @@
       <trans-unit id="vpn.postAuthentication..quickAccess">
         <source>Quick access</source>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.continue">
+      <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
         <source>Continue</source>
+        <target>Jatka</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.statusBarIntro">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
@@ -810,8 +818,9 @@
   </file>
   <file original="../src/ui/states/StateSubscriptionInProgress.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.subscription.pleaseWait">
+      <trans-unit id="vpn.subscription.pleaseWait" xml:space="preserve">
         <source>Please wait…</source>
+        <target>Odota…</target>
       </trans-unit>
     </body>
   </file>
@@ -820,11 +829,13 @@
       <trans-unit id="vpn.telemetryPolicy.MozillaVPNPrivacyNotice">
         <source>Mozilla VPN Privacy Notice</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice">
+      <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice" xml:space="preserve">
         <source>Allow on this device</source>
+        <target>Salli tällä laitteella</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.doNotAllow">
+      <trans-unit id="vpn.telemetryPolicy.doNotAllow" xml:space="preserve">
         <source>Don’t allow</source>
+        <target>Älä salli</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
@@ -833,12 +844,14 @@
   </file>
   <file original="../src/ui/views/ViewDevices.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.devices.activeVsMaxDeviceCount">
+      <trans-unit id="vpn.devices.activeVsMaxDeviceCount" xml:space="preserve">
         <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.</note>
+        <target>%1/%2</target>
         <source>%1 of %2</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.myDevices">
+      <trans-unit id="vpn.devices.myDevices" xml:space="preserve">
         <source>My devices</source>
+        <target>Omat laitteet</target>
       </trans-unit>
     </body>
   </file>
@@ -861,62 +874,76 @@
       <trans-unit id="vpn.main.getStarted">
         <source>Get started</source>
       </trans-unit>
-      <trans-unit id="vpn.main.learnMore">
+      <trans-unit id="vpn.main.learnMore" xml:space="preserve">
         <source>Learn more</source>
+        <target>Lue lisää</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewLogs.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.logs.clear">
+      <trans-unit id="vpn.logs.clear" xml:space="preserve">
         <source>Clear</source>
+        <target>Tyhjennä</target>
       </trans-unit>
-      <trans-unit id="vpn.logs.copied">
+      <trans-unit id="vpn.logs.copied" xml:space="preserve">
         <source>Copied!</source>
+        <target>Kopioitu!</target>
       </trans-unit>
-      <trans-unit id="vpn.logs.copy">
+      <trans-unit id="vpn.logs.copy" xml:space="preserve">
         <source>Copy</source>
+        <target>Kopioi</target>
       </trans-unit>
-      <trans-unit id="vpn.viewlogs.title">
+      <trans-unit id="vpn.viewlogs.title" xml:space="preserve">
         <source>View Logs</source>
+        <target>Näytä lokit</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewMain.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="MozillaVPN">
+      <trans-unit id="MozillaVPN" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.servers.currentLocation">
+      <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
+        <target>nykyinen sijainti - %1</target>
         <source>current location - %1</source>
       </trans-unit>
-      <trans-unit id="vpn.servers.selectLocation">
+      <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
+        <target>Valitse sijainti</target>
         <source>Select location</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.onboarding.headline.1">
+      <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
         <source>Device-level encryption</source>
+        <target>Laitetason salaus</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.2">
+      <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
         <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeeded.qml too.</note>
+        <target>Palvelimet yli 30 maassa</target>
         <source>Servers in 30+ countries</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.3">
+      <trans-unit id="vpn.onboarding.headline.3" xml:space="preserve">
         <source>No bandwidth restrictions</source>
+        <target>Ei kaistanleveysrajoituksia</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.4">
+      <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
         <source>No online activity logs</source>
+        <target>Ei toimintalokeja</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.next">
+      <trans-unit id="vpn.onboarding.next" xml:space="preserve">
         <source>Next</source>
+        <target>Seuraava</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.skip">
+      <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
         <source>Skip</source>
+        <target>Ohita</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.1">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
@@ -934,28 +961,33 @@
   </file>
   <file original="../src/ui/views/ViewSubscriptionNeeded.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.subscription.featureTitle1">
+      <trans-unit id="vpn.subscription.featureTitle1" xml:space="preserve">
         <source>No activity logs</source>
+        <target>Ei toimintalokeja</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureTitle4">
+      <trans-unit id="vpn.subscription.featureTitle4" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
+        <target>Yhdistä enintään %1 laitetta</target>
         <source>Connect up to %1 devices</source>
       </trans-unit>
-      <trans-unit id="vpn.updates.subscribeNow">
+      <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
+        <target>Tilaa nyt</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewUpdate.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.updates.notNow">
+      <trans-unit id="vpn.updates.notNow" xml:space="preserve">
         <source>Not now</source>
+        <target>Ei nyt</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
         <source>Your connection will not be secure while you update.</source>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRecomended">
+      <trans-unit id="vpn.updates.updateRecomended" xml:space="preserve">
         <source>Update recommended</source>
+        <target>Päivitystä suositellaan</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRecomended.description">
         <source>Please update the app before you continue to use the VPN</source>
@@ -963,8 +995,9 @@
       <trans-unit id="vpn.updates.updateRequire.reason">
         <source>We detected and fixed a serious bug. You must update your app.</source>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequired">
+      <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
         <source>Update required</source>
+        <target>Päivitys vaaditaan</target>
       </trans-unit>
     </body>
   </file>
@@ -974,8 +1007,9 @@
         <note annotates="source" from="developer">A notification channel; so the user can subscribe to "General Notifications"</note>
         <source>General Notifications</source>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.licenses">
+      <trans-unit id="vpn.aboutUs.licenses" xml:space="preserve">
         <source>Licenses</source>
+        <target>Lisenssit</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPostActivation">
         <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
@@ -1042,8 +1076,9 @@
         <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
         <source>It looks like the connection to this server location is a bit slow, you can try:</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel">
+      <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel" xml:space="preserve">
         <note annotates="source" from="developer">Shown to the user while waiting for the connection speed test results</note>
+        <target>Testataan nopeutta…</target>
         <source>Testing speed…</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletOne">
@@ -1081,8 +1116,9 @@
       <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioHeader">
         <source>Use adblock DNS</source>
       </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAdvancedToggle">
+      <trans-unit id="vpn.customDNSSettings.dnsAdvancedToggle" xml:space="preserve">
         <source>Advanced</source>
+        <target>Lisäasetukset</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioBody">
         <source>Block harmful domains with VPN</source>
@@ -1102,8 +1138,9 @@
       <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioHeader">
         <source>Use default DNS</source>
       </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsDefaultToggle">
+      <trans-unit id="vpn.customDNSSettings.dnsDefaultToggle" xml:space="preserve">
         <source>Default</source>
+        <target>Oletus</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsFieldPlaceHolder">
         <source>Enter custom DNS</source>
@@ -1111,8 +1148,9 @@
       <trans-unit id="vpn.customDNSSettings.dnsInfoAlert">
         <source>VPN must be off to change these settings</source>
       </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsNavItem">
+      <trans-unit id="vpn.customDNSSettings.dnsNavItem" xml:space="preserve">
         <source>DNS settings</source>
+        <target>DNS-asetukset</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.inlineCustomDNSError">
         <source>Invalid DNS, please try a new one</source>
@@ -1133,14 +1171,17 @@
       <trans-unit id="vpn.feedbackForm.reviewHeader">
         <source>Give us 5 stars!</source>
       </trans-unit>
-      <trans-unit id="vpn.genericError.unexpected">
+      <trans-unit id="vpn.genericError.unexpected" xml:space="preserve">
         <source>Unexpected error</source>
+        <target>Odottamaton virhe</target>
       </trans-unit>
-      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton">
+      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton" xml:space="preserve">
         <source>Try Again</source>
+        <target>Yritä uudestaan</target>
       </trans-unit>
-      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorHeader">
+      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
+        <target>Ongelma vahvistaessa tilausta</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText">
         <source>An unexpected error has occurred, please try again. Visit our help center below to learn how to troubleshoot this issue or contact support.</source>
@@ -1148,20 +1189,25 @@
       <trans-unit id="vpn.inAppAuth.changeEmailLink">
         <source>Change email</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.forgotPasswordLink">
+      <trans-unit id="vpn.inAppAuth.forgotPasswordLink" xml:space="preserve">
         <source>Forgot your password?</source>
+        <target>Unohditko salasanan?</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.invalidPasswordErrorMessage">
+      <trans-unit id="vpn.inAppAuth.invalidPasswordErrorMessage" xml:space="preserve">
         <source>Invalid password. Please try again</source>
+        <target>Virheellinen salasana. Yritä uudestaan</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.passwordInputLabel">
+      <trans-unit id="vpn.inAppAuth.passwordInputLabel" xml:space="preserve">
         <source>Password</source>
+        <target>Salasana</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.passwordInputPlaceholder">
+      <trans-unit id="vpn.inAppAuth.passwordInputPlaceholder" xml:space="preserve">
         <source>Enter password</source>
+        <target>Kirjoita salasana</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.signInButton">
+      <trans-unit id="vpn.inAppAuth.signInButton" xml:space="preserve">
         <source>Sign in</source>
+        <target>Kirjaudu sisään</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInSubtitle">
         <source>Continue to Mozilla VPN by signing in with your Firefox account</source>
@@ -1181,37 +1227,45 @@
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to requesting new features.</note>
         <source>Request features</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.issueFieldPlaceholder">
+      <trans-unit id="vpn.inAppSupportWorkflow.issueFieldPlaceholder" xml:space="preserve">
         <source>Describe issue</source>
+        <target>Kuvaile ongelma</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.otherDropdownListItem">
+      <trans-unit id="vpn.inAppSupportWorkflow.otherDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to issues not covered under the other categories.</note>
+        <target>Muu</target>
         <source>Other</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.paymentDropdownListItem">
+      <trans-unit id="vpn.inAppSupportWorkflow.paymentDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to payment and billing.</note>
+        <target>Maksut ja laskutus</target>
         <source>Payment and billing</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.privacyNoticeLinkText">
         <source>Mozilla VPN Privacy Notice</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder">
+      <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder" xml:space="preserve">
         <source>Subject (optional)</source>
+        <target>Aihe (valinnainen)</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportConfirmEmailPlaceholder">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportConfirmEmailPlaceholder" xml:space="preserve">
         <source>Confirm email address</source>
+        <target>Vahvista sähköpostiosoite</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldLabel">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldLabel" xml:space="preserve">
         <source>Enter your email</source>
+        <target>Kirjoita sähköpostiosoitteesi</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldPlaceholder">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldPlaceholder" xml:space="preserve">
         <source>Email address</source>
+        <target>Sähköpostiosoite</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorBrowserButton">
         <source>Try opening in browser</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorButton">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorButton" xml:space="preserve">
         <source>Try Again</source>
+        <target>Yritä uudestaan</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorHeader">
         <source>Error submitting your support request</source>
@@ -1232,14 +1286,17 @@
         <note annotates="source" from="developer">The %1 represents the email used to complete the form</note>
         <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportResponseButton">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportResponseButton" xml:space="preserve">
         <source>Done</source>
+        <target>Valmis</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportResponseHeader">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportResponseHeader" xml:space="preserve">
         <source>Thank you!</source>
+        <target>Kiitos!</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportSecondaryActionText">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportSecondaryActionText" xml:space="preserve">
         <source>Cancel</source>
+        <target>Peruuta</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.technicaDropdownListItem">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to technical issues.</note>
@@ -1249,8 +1306,9 @@
         <note annotates="source" from="developer">Placeholder text for a search field that can be used to search through a list of languages</note>
         <source>Search languages</source>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber">
+      <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber" xml:space="preserve">
         <source>Already a subscriber?</source>
+        <target>Oletko jo tilaaja?</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelFourSubtitle">
         <source>Stream, download and game without limits, monthly caps or ISP throttling.</source>
@@ -1261,8 +1319,9 @@
       <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle">
         <source>A safe, reliable and fast VPN. Built by the makers of Firefox.</source>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelOneTitle">
+      <trans-unit id="vpn.mobileOnboarding.panelOneTitle" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelThreeSubtitle">
         <source>Route your activity and location through servers in more than 30 countries.</source>
@@ -1276,11 +1335,13 @@
       <trans-unit id="vpn.mobileOnboarding.panelTwoTitle">
         <source>Encrypt your activity</source>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.signUpBtn">
+      <trans-unit id="vpn.mobileOnboarding.signUpBtn" xml:space="preserve">
         <source>Sign up</source>
+        <target>Rekisteröidy</target>
       </trans-unit>
-      <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader">
+      <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
+        <target>Ongelma vahvistaessa tilausta</target>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorText">
         <source>Your subscription is linked to another Firefox Account. You may need to sign in with a different email address.</source>
@@ -1322,11 +1383,13 @@
       <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText">
         <source>To continue subscribing, please sign in to your Google Account</source>
       </trans-unit>
-      <trans-unit id="vpn.notSignedInGoogle.googleModalHeader">
+      <trans-unit id="vpn.notSignedInGoogle.googleModalHeader" xml:space="preserve">
         <source>Sign in to Google Account</source>
+        <target>Kirjaudu sisään Google-tilille</target>
       </trans-unit>
-      <trans-unit id="vpn.notSignedInGoogle.googleModalLinkText">
+      <trans-unit id="vpn.notSignedInGoogle.googleModalLinkText" xml:space="preserve">
         <source>Go to Play Store</source>
+        <target>Siirry Play Kauppaan</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage">
         <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
@@ -1353,8 +1416,9 @@
       <trans-unit id="vpn.notifications.unsecuredNetworkTitle">
         <source>Unsecured Wi-Fi network detected</source>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchase.restorePurchaseButton">
+      <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
         <source>Already a subscriber?</source>
+        <target>Oletko jo tilaaja?</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText">
         <source>Sorry, we are unable to connect your Firefox Account to a current subscription. Please try again or contact our support team for further assistance.</source>
@@ -1368,8 +1432,9 @@
       <trans-unit id="vpn.serverUnavailableModal.bodyText">
         <source>This server location is temporarily unavailable. Choose a new location.</source>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.buttonLabel">
+      <trans-unit id="vpn.serverUnavailableModal.buttonLabel" xml:space="preserve">
         <source>Choose a new location</source>
+        <target>Valitse uusi sijainti</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.headerText">
         <source>Server unavailable</source>
