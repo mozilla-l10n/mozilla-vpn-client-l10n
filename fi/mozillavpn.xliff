@@ -446,8 +446,9 @@
         <source>Unable to install</source>
         <target>Asennus ei onnistu</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message1">
+      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
         <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
+        <target>Sinut ohjataan nyt Mozilla VPN:n asennusvaiheiden läpi. Kiitos, että valitsit VPN:si Internetin tietosuojan luotetulta edelläkävijältä.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
         <source>Click “Continue” to continue the setup.</source>
@@ -526,16 +527,18 @@
       <trans-unit id="vpn.systray.statusSwitch.title">
         <source>VPN Switched Servers</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusSwtich.message">
+      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
         <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
+        <target>Vaihdettiin sijainnista %1, %2 sijaintiin %3, %4</target>
         <source>Switched from %1, %2 to %3, %4</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/platforms/android/androidauthenticationview.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.android.authentication">
+      <trans-unit id="vpn.android.authentication" xml:space="preserve">
         <source>Authentication</source>
+        <target>Todennus</target>
       </trans-unit>
     </body>
   </file>
@@ -650,8 +653,9 @@
       <trans-unit id="vpn.feedbackForm.lowRatingResponse">
         <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.poor">
+      <trans-unit id="vpn.feedbackForm.poor" xml:space="preserve">
         <source>Poor</source>
+        <target>Huono</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.privacyNoticeLink" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
@@ -677,8 +681,9 @@
         <source>We appreciate your feedback. You’re helping us improve Mozilla VPN.</source>
         <target>Arvostamme palautettasi. Autat meitä parantamaan Mozilla VPN:ää.</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.veryPoor">
+      <trans-unit id="vpn.feedbackForm.veryPoor" xml:space="preserve">
         <source>Very poor</source>
+        <target>Erittäin huono</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackform.done" xml:space="preserve">
         <source>Done</source>
