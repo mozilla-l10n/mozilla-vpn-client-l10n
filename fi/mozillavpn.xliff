@@ -195,8 +195,9 @@
         <source>Remove a device</source>
         <target>Poista laite</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.maxDevicesHeader">
+      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
         <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
+        <target>Laiteraja ylittyi. Jos haluat ottaa VPN:n käyttöön tällä laitteella, sinun on poistettava toinen laite.</target>
       </trans-unit>
     </body>
   </file>
@@ -382,8 +383,9 @@
   </file>
   <file original="../src/crashreporter/crashui/main.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.crashreporter.description">
+      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
         <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
+        <target>Mozilla VPN -sovellus sulkeutui odottamatta. Haluatko lähettää kaatumisilmoituksen ongelman korjaamiseksi?</target>
         <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
@@ -391,12 +393,14 @@
         <target>Ei kiitos</target>
         <source>No thanks</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainHeading">
+      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
         <note annotates="source" from="developer">Label over description text section.</note>
+        <target>Kaatumisilmoitus</target>
         <source>Crash reporting</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainTitle">
+      <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
         <source>Mozilla Crash Reporter</source>
+        <target>Mozillan kaatumisilmoitusohjelma</target>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">User agrees to send a crash report.</note>
@@ -407,14 +411,17 @@
   </file>
   <file original="../src/localizer.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="macosinstaller.conclusion.message1_v2">
+      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
         <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
+        <target>Mozilla VPN on asennettu onnistuneesti. Olet valmis aloittaaksesi yksityisyytesi hallinnan verkossa.</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message2">
+      <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
         <source>Trouble with this installation?</source>
+        <target>Ongelmia asennuksen kanssa?</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message3">
+      <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
         <source>Get help.</source>
+        <target>Hae apua.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
         <source>Success!</source>
@@ -442,25 +449,29 @@
       <trans-unit id="macosinstaller.welcome.message1">
         <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
       </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message2">
+      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
         <source>Click “Continue” to continue the setup.</source>
+        <target>Napsauta “Jatka” jatkaaksesi asennusta.</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/models/feedbackcategorymodel.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="feedback.category.accessToService">
+      <trans-unit id="feedback.category.accessToService" xml:space="preserve">
         <source>Access to service</source>
+        <target>Palveluun pääsy</target>
       </trans-unit>
-      <trans-unit id="feedback.category.bugError">
+      <trans-unit id="feedback.category.bugError" xml:space="preserve">
         <source>Product Bugs/Errors</source>
+        <target>Tuotevirheet/ongelmat</target>
       </trans-unit>
       <trans-unit id="feedback.category.compatibility" xml:space="preserve">
         <source>Compatibility</source>
         <target>Yhteensopivuus</target>
       </trans-unit>
-      <trans-unit id="feedback.category.easeToUse">
+      <trans-unit id="feedback.category.easeToUse" xml:space="preserve">
         <source>Ease of Use</source>
+        <target>Helppokäyttöisyys</target>
       </trans-unit>
       <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
         <source>Network Connection/Speed</source>
@@ -503,8 +514,9 @@
         <source>VPN Connected</source>
         <target>VPN yhdistetty</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.message">
+      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
+        <target>Katkaistu yhteys kohteeseen %1, %2</target>
         <source>Disconnected from %1, %2</source>
       </trans-unit>
       <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
@@ -529,8 +541,9 @@
   </file>
   <file original="../src/platforms/android/androidnotificationhandler.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.android.notification.isIDLE">
+      <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
         <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
+        <target>Valmiina yhdistämään</target>
         <source>Ready for you to connect</source>
       </trans-unit>
     </body>
@@ -581,23 +594,27 @@
   </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.protectSelectedApps.addApplication">
+      <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Lisää sovellus</target>
         <source>Add application</source>
       </trans-unit>
-      <trans-unit id="vpn.protectSelectedApps.searchApps">
+      <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
         <note annotates="source" from="developer">Search bar placeholder text</note>
+        <target>Hae sovelluksia</target>
         <source>Search apps</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.appPermissions2">
+      <trans-unit id="vpn.settings.appPermissions2" xml:space="preserve">
         <source>App permissions</source>
+        <target>Sovellusten oikeudet</target>
       </trans-unit>
       <trans-unit id="vpn.settings.excludeTitle">
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
         <source>Exclude apps from VPN protection</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectAllApps">
+      <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
         <source>Protect all apps with VPN</source>
+        <target>Suojaa kaikki sovellukset VPN:llä</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps.description">
         <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
@@ -636,37 +653,44 @@
       <trans-unit id="vpn.feedbackForm.poor">
         <source>Poor</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.privacyNoticeLink">
+      <trans-unit id="vpn.feedbackForm.privacyNoticeLink" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Mozilla VPN:n tietosuojakäytäntö</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.ratingHeadline">
+      <trans-unit id="vpn.feedbackForm.ratingHeadline" xml:space="preserve">
         <source>How would you describe your Mozilla VPN experience so far?</source>
+        <target>Miten kuvailisit Mozilla VPN -kokemustasi tähän mennessä?</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.skip" xml:space="preserve">
         <source>Skip</source>
         <target>Ohita</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.textAreaPlaceholder">
+      <trans-unit id="vpn.feedbackForm.textAreaPlaceholder" xml:space="preserve">
         <source>Enter feedback…</source>
+        <target>Kirjoita palaute…</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.thankyou" xml:space="preserve">
         <source>Thank you!</source>
         <target>Kiitos!</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.thankyouSubtitle">
+      <trans-unit id="vpn.feedbackForm.thankyouSubtitle" xml:space="preserve">
         <source>We appreciate your feedback. You’re helping us improve Mozilla VPN.</source>
+        <target>Arvostamme palautettasi. Autat meitä parantamaan Mozilla VPN:ää.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.veryPoor">
         <source>Very poor</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackform.done">
+      <trans-unit id="vpn.feedbackform.done" xml:space="preserve">
         <source>Done</source>
+        <target>Valmis</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackform.submit">
+      <trans-unit id="vpn.feedbackform.submit" xml:space="preserve">
         <source>Submit</source>
+        <target>Lähetä</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.giveFeedback">
+      <trans-unit id="vpn.settings.giveFeedback" xml:space="preserve">
         <source>Give feedback</source>
+        <target>Anna palautetta</target>
       </trans-unit>
     </body>
   </file>
@@ -1436,8 +1460,9 @@
         <source>Choose a new location</source>
         <target>Valitse uusi sijainti</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.headerText">
+      <trans-unit id="vpn.serverUnavailableModal.headerText" xml:space="preserve">
         <source>Server unavailable</source>
+        <target>Palvelin ei ole käytettävissä</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyText">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
@@ -1495,8 +1520,9 @@
       <trans-unit id="vpn.settingsDev.useStagingTitle">
         <source>Use Staging Servers</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoLinkText">
+      <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
         <source>Learn more</source>
+        <target>Lue lisää</target>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText">
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
@@ -1514,27 +1540,34 @@
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
         <source>%1 apps missing from list.</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.disconnect">
+      <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
+        <target>Katkaise yhteys</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.help">
+      <trans-unit id="vpn.systray.help" xml:space="preserve">
         <source>Help</source>
+        <target>Ohje</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.hide">
+      <trans-unit id="vpn.systray.hide" xml:space="preserve">
         <source>Hide Mozilla VPN</source>
+        <target>Piilota Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.location2">
+      <trans-unit id="vpn.systray.location2" xml:space="preserve">
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
+        <target>%1, %2</target>
         <source>%1, %2</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.preferences">
+      <trans-unit id="vpn.systray.preferences" xml:space="preserve">
         <source>Preferences…</source>
+        <target>Asetukset…</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.quit">
+      <trans-unit id="vpn.systray.quit" xml:space="preserve">
         <source>Quit Mozilla VPN</source>
+        <target>Lopeta Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.show">
+      <trans-unit id="vpn.systray.show" xml:space="preserve">
         <source>Show Mozilla VPN</source>
+        <target>Näytä Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnectTo">
         <source>Connect to the last location:</source>
@@ -1557,23 +1590,29 @@
       <trans-unit id="vpn.updateButton.actionNoUpdate">
         <source>Okay</source>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.actionOnUpdate">
+      <trans-unit id="vpn.updateButton.actionOnUpdate" xml:space="preserve">
         <source>Update now</source>
+        <target>Päivitä heti</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.checkForUpdateButtonText">
+      <trans-unit id="vpn.updateButton.checkForUpdateButtonText" xml:space="preserve">
         <source>Check for Updates</source>
+        <target>Hae päivityksiä</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.descriptionNoUpdate2">
+      <trans-unit id="vpn.updateButton.descriptionNoUpdate2" xml:space="preserve">
         <source>You currently have the latest version of Mozilla VPN</source>
+        <target>Sinulla on tällä hetkellä Mozilla VPN:n uusin versio</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.descriptionOnUpdate">
+      <trans-unit id="vpn.updateButton.descriptionOnUpdate" xml:space="preserve">
         <source>Click to update to the latest version of the application</source>
+        <target>Napsauta päivittääksesi sovelluksen uusimpaan versioon</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.titleNoUpdate">
+      <trans-unit id="vpn.updateButton.titleNoUpdate" xml:space="preserve">
         <source>You are up to date</source>
+        <target>Olet ajan tasalla</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.titleOnUpdate">
+      <trans-unit id="vpn.updateButton.titleOnUpdate" xml:space="preserve">
         <source>Updates available</source>
+        <target>Päivityksiä saatavilla</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemBody">
         <source>Custom DNS settings allow for faster connection using local servers.</source>
@@ -1584,8 +1623,9 @@
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalBodyTextNew">
         <source>Custom DNS servers allow for faster speed using local networks, features like ad-blocking and anti-tracking. You can find this feature in the “Network settings” section.</source>
       </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalButtonText">
+      <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalButtonText" xml:space="preserve">
         <source>Done</source>
+        <target>Valmis</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalHeader">
         <source>Custom DNS</source>
@@ -1621,8 +1661,9 @@
       <trans-unit id="vpn.whatsNewReleaseNotes.supportModalBodyText">
         <source>The in-app support form will allow you to contact support from within the VPN app. You can find it in the “Get help” section.</source>
       </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.supportModalButtonText">
+      <trans-unit id="vpn.whatsNewReleaseNotes.supportModalButtonText" xml:space="preserve">
         <source>Next</source>
+        <target>Seuraava</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.supportModalHeader">
         <source>In-app support form</source>
@@ -1633,11 +1674,13 @@
       <trans-unit id="vpn.whatsNewReleaseNotes.tourModalButtonText">
         <source>Take the tour</source>
       </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.tourModalHeader">
+      <trans-unit id="vpn.whatsNewReleaseNotes.tourModalHeader" xml:space="preserve">
         <source>What’s new in VPN?</source>
+        <target>Mitä uutta VPN:ssä?</target>
       </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.tourPageHeader">
+      <trans-unit id="vpn.whatsNewReleaseNotes.tourPageHeader" xml:space="preserve">
         <source>What’s new</source>
+        <target>Mitä uutta</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourSubHeader">
         <source>Take the tour</source>
@@ -1648,8 +1691,9 @@
       <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifCTA">
         <source>Take the tour</source>
       </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifHeader">
+      <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifHeader" xml:space="preserve">
         <source>What’s new in VPN</source>
+        <target>Mitä uutta VPN:ssä?</target>
       </trans-unit>
     </body>
   </file>
