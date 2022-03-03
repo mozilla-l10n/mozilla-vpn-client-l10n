@@ -198,7 +198,7 @@
       </trans-unit>
       <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
         <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
-        <target>Laiteraja ylittyi. Jos haluat ottaa VPN:n käyttöön tällä laitteella, sinun on poistettava toinen laite.</target>
+        <target>Laiteraja ylittyi. Jos haluat ottaa VPN:n käyttöön tällä laitteella, sinun on poistettava jokin laite.</target>
       </trans-unit>
     </body>
   </file>
@@ -289,7 +289,7 @@
       </trans-unit>
       <trans-unit id="vpn.subscription.price" xml:space="preserve">
         <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
-        <target>%1/kuukausi</target>
+        <target>%1 / kuukausi</target>
         <source>%1/month</source>
       </trans-unit>
       <trans-unit id="vpn.subscription.savePercent" xml:space="preserve">
@@ -428,8 +428,9 @@
         <source>Success!</source>
         <target>Onnistui!</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.message">
+      <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
         <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
+        <target>Mozilla VPN:n aiempi asennus on olemassa polussa /Applications/Mozilla VPN.app. Tämä asennusohjelma poistaa edellisen asennuksen ennen asennusta. Varmuuskopioi kaikki tiedot ennen kuin jatkat.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
         <source>Previous Installation Detected</source>
@@ -525,8 +526,9 @@
         <source>VPN Disconnected</source>
         <target>VPN-yhteys katkaistu</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusSwitch.title">
+      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>VPN vaihtoi palvelimia</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
         <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
@@ -863,8 +865,9 @@
       <trans-unit id="vpn.subscriptionBlocked.getHelp">
         <source>Get Help</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter">
+      <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
+        <target>Vieraile ohjekeskuksessamme saadaksesi lisätietoja tilausten hallinnasta.</target>
       </trans-unit>
     </body>
   </file>
@@ -1008,11 +1011,13 @@
       <trans-unit id="vpn.onboarding.subtitle.2">
         <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.3">
+      <trans-unit id="vpn.onboarding.subtitle.3" xml:space="preserve">
         <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
+        <target>Suoratoista, lataa ja pelaa ilman rajoituksia, kuukausittaisia enimmäismääriä tai Internet-palveluntarjoajan rajoituksia.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.4">
+      <trans-unit id="vpn.onboarding.subtitle.4" xml:space="preserve">
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
+        <target>Olemme sitoutuneet olemaan seuraamatta tai lokittamatta selaus- tai verkkohistoriaasi.</target>
       </trans-unit>
     </body>
   </file>
@@ -1082,8 +1087,9 @@
         <source>Turn off VPN</source>
         <target>Sammuta VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.buttonTextPreActivation">
+      <trans-unit id="vpn.captivePortalAlert.buttonTextPreActivation" xml:space="preserve">
         <source>Okay</source>
+        <target>OK</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.header">
         <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
@@ -1697,8 +1703,9 @@
       <trans-unit id="vpn.telemetryPolicyView.question">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.actionNoUpdate">
+      <trans-unit id="vpn.updateButton.actionNoUpdate" xml:space="preserve">
         <source>Okay</source>
+        <target>OK</target>
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionOnUpdate" xml:space="preserve">
         <source>Update now</source>
@@ -1727,8 +1734,9 @@
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemBody">
         <source>Custom DNS settings allow for faster connection using local servers.</source>
       </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemHeader">
+      <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemHeader" xml:space="preserve">
         <source>Custom DNS</source>
+        <target>Mukautettu DNS</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalBodyTextNew">
         <source>Custom DNS servers allow for faster speed using local networks, features like ad-blocking and anti-tracking. You can find this feature in the “Network settings” section.</source>
@@ -1737,8 +1745,9 @@
         <source>Done</source>
         <target>Valmis</target>
       </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalHeader">
+      <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalHeader" xml:space="preserve">
         <source>Custom DNS</source>
+        <target>Mukautettu DNS</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.multiAccountContainersDescription">
         <source>You can now use different Mozilla VPN locations in multiple tabs simultaneously.</source>
