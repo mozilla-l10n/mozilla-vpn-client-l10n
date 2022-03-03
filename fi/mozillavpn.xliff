@@ -724,18 +724,21 @@
   </file>
   <file original="../src/ui/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.settings.lanAccess">
+      <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
         <source>Local network access</source>
+        <target>Paikallinen verkon jakaminen</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess.description">
+      <trans-unit id="vpn.settings.lanAccess.description" xml:space="preserve">
         <source>Access printers, streaming sticks and all other devices on your local network</source>
+        <target>Sallii tulostimet, suoratoistolaitteet ja muut laitteet paikallisessa verkossa</target>
       </trans-unit>
       <trans-unit id="vpn.settings.networking" xml:space="preserve">
         <source>Network settings</source>
         <target>Verkkoasetukset</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.networking.advancedDNSSettings">
+      <trans-unit id="vpn.settings.networking.advancedDNSSettings" xml:space="preserve">
         <source>Advanced DNS Settings</source>
+        <target>DNS:n lisäasetukset</target>
       </trans-unit>
     </body>
   </file>
@@ -773,11 +776,13 @@
   </file>
   <file original="../src/ui/settings/ViewPrivacySecurity.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.settings.dataCollection">
+      <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
         <source>Data collection and use</source>
+        <target>Tietojen keruu ja käyttö</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dataCollection.description">
+      <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical data to Mozilla</source>
+        <target>Salli Mozilla VPN:n lähettää teknisiä tietoja Mozillalle</target>
       </trans-unit>
     </body>
   </file>
@@ -791,25 +796,29 @@
         <source>Launch VPN app on startup</source>
         <target>Käynnistä VPN-sovellus käynnistyksen yhteydessä</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.user">
+      <trans-unit id="vpn.settings.user" xml:space="preserve">
         <source>VPN User</source>
+        <target>VPN-käyttäjä</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/states/StateAuthenticating.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.authenticating.waitForSignIn">
+      <trans-unit id="vpn.authenticating.waitForSignIn" xml:space="preserve">
         <source>Waiting for sign in and subscription confirmation…</source>
+        <target>Odotetaan sisäänkirjautumista ja tilausvahvistusta…</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/states/StateBackendFailure.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.errors.somethingWentWrong">
+      <trans-unit id="vpn.errors.somethingWentWrong" xml:space="preserve">
         <source>Something went wrong…</source>
+        <target>Jokin meni pieleen…</target>
       </trans-unit>
-      <trans-unit id="vpn.errors.tryAgain">
+      <trans-unit id="vpn.errors.tryAgain" xml:space="preserve">
         <source>Try Again</source>
+        <target>Yritä uudestaan</target>
       </trans-unit>
       <trans-unit id="vpn.errors.unableToEstablishConnection">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
@@ -850,8 +859,9 @@
   </file>
   <file original="../src/ui/states/StateTelemetryPolicy.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.telemetryPolicy.MozillaVPNPrivacyNotice">
+      <trans-unit id="vpn.telemetryPolicy.MozillaVPNPrivacyNotice" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Mozilla VPN:n tietosuojakäytäntö</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice" xml:space="preserve">
         <source>Allow on this device</source>
@@ -861,8 +871,9 @@
         <source>Don’t allow</source>
         <target>Älä salli</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData">
+      <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
+        <target>Lue lisää, mitä tietoja Mozilla kerää ja miten tietoja käytetään.</target>
       </trans-unit>
     </body>
   </file>
@@ -881,22 +892,25 @@
   </file>
   <file original="../src/ui/views/ViewErrorFullScreen.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.errors.checkOutageUpdates">
+      <trans-unit id="vpn.errors.checkOutageUpdates" xml:space="preserve">
         <source>Check outage updates</source>
+        <target>Tarkista käyttökatkospäivitykset</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewGetHelp.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.settings.developer">
+      <trans-unit id="vpn.settings.developer" xml:space="preserve">
         <source>Developer Options</source>
+        <target>Kehittäjävalinnat</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewInitialize.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.main.getStarted">
+      <trans-unit id="vpn.main.getStarted" xml:space="preserve">
         <source>Get started</source>
+        <target>Aloitetaan</target>
       </trans-unit>
       <trans-unit id="vpn.main.learnMore" xml:space="preserve">
         <source>Learn more</source>
@@ -1006,18 +1020,21 @@
         <source>Not now</source>
         <target>Ei nyt</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
+      <trans-unit id="vpn.updates.updateConnectionInsecureWarning" xml:space="preserve">
         <source>Your connection will not be secure while you update.</source>
+        <target>Yhteytesi ei ole suojattu päivityksen aikana.</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRecomended" xml:space="preserve">
         <source>Update recommended</source>
         <target>Päivitystä suositellaan</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRecomended.description">
+      <trans-unit id="vpn.updates.updateRecomended.description" xml:space="preserve">
         <source>Please update the app before you continue to use the VPN</source>
+        <target>Päivitä sovellus ennen kuin jatkat VPN:n käyttöä</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequire.reason">
+      <trans-unit id="vpn.updates.updateRequire.reason" xml:space="preserve">
         <source>We detected and fixed a serious bug. You must update your app.</source>
+        <target>Havaitsimme ja korjasimme vakavan virheen. Sinun on päivitettävä sovellus.</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
         <source>Update required</source>
@@ -1041,8 +1058,9 @@
       <trans-unit id="vpn.captivePortalAlert.actionPreActivation">
         <source>You can turn on your VPN once you have gained internet access by logging in to the portal.</source>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation">
+      <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation" xml:space="preserve">
         <source>Turn off VPN</source>
+        <target>Sammuta VPN</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPreActivation">
         <source>Okay</source>
@@ -1050,8 +1068,9 @@
       <trans-unit id="vpn.captivePortalAlert.header">
         <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.title">
+      <trans-unit id="vpn.captivePortalAlert.title" xml:space="preserve">
         <source>Captive portal detected!</source>
+        <target>Kirjautumisportaali havaittu!</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.errorMessage">
         <source>Looks like there was an unexpected error while trying to connect. Please try again or check your connection.</source>
@@ -1121,12 +1140,14 @@
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
         <source>Switching server locations</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo">
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
+        <target>Tarkistetaan Internet-yhteyttäsi</target>
         <source>Checking your internet connection</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.unitPing">
+      <trans-unit id="vpn.connectionInfo.unitPing" xml:space="preserve">
         <source>ms</source>
+        <target>ms</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody">
         <source>Block internet ads and harmful domains with VPN</source>
@@ -1134,8 +1155,9 @@
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioHeader">
         <source>Use adblock and anti-tracking DNS</source>
       </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioBody">
+      <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioBody" xml:space="preserve">
         <source>Block internet ads with VPN</source>
+        <target>Estä Internet-mainokset VPN:llä</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioHeader">
         <source>Use adblock DNS</source>
@@ -1144,8 +1166,9 @@
         <source>Advanced</source>
         <target>Lisäasetukset</target>
       </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioBody">
+      <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioBody" xml:space="preserve">
         <source>Block harmful domains with VPN</source>
+        <target>Estä haitalliset verkkotunnukset VPN:llä</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioHeader">
         <source>Use anti-tracking DNS</source>
@@ -1159,8 +1182,9 @@
       <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioBody">
         <source>Automatically use Mozilla VPN-protected DNS</source>
       </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioHeader">
+      <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioHeader" xml:space="preserve">
         <source>Use default DNS</source>
+        <target>Käytä oletusarvoista DNS:ää</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsDefaultToggle" xml:space="preserve">
         <source>Default</source>
@@ -1176,24 +1200,30 @@
         <source>DNS settings</source>
         <target>DNS-asetukset</target>
       </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.inlineCustomDNSError">
+      <trans-unit id="vpn.customDNSSettings.inlineCustomDNSError" xml:space="preserve">
         <source>Invalid DNS, please try a new one</source>
+        <target>Virheellinen DNS, kokeile toista</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.chooseCategory">
+      <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
         <source>Choose a category</source>
+        <target>Valitse luokka</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.excellentLabel">
+      <trans-unit id="vpn.feedbackForm.excellentLabel" xml:space="preserve">
         <note annotates="source" from="developer">One of the answers on the feedback question about the user experience with the VPN client.</note>
+        <target>Erinomainen</target>
         <source>Excellent</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.leaveReviewButton">
+      <trans-unit id="vpn.feedbackForm.leaveReviewButton" xml:space="preserve">
         <source>Leave a Review</source>
+        <target>Kirjoita arvio</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.reviewBody">
+      <trans-unit id="vpn.feedbackForm.reviewBody" xml:space="preserve">
         <source>If you enjoy using Mozilla VPN, would you review it? Thanks for your support!</source>
+        <target>Jos pidät Mozilla VPN:n käyttämisestä, arvostelisitko sen? Kiitos tuestasi!</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.reviewHeader">
+      <trans-unit id="vpn.feedbackForm.reviewHeader" xml:space="preserve">
         <source>Give us 5 stars!</source>
+        <target>Anna meille 5 tähteä!</target>
       </trans-unit>
       <trans-unit id="vpn.genericError.unexpected" xml:space="preserve">
         <source>Unexpected error</source>
@@ -1233,18 +1263,21 @@
         <source>Sign in</source>
         <target>Kirjaudu sisään</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.signInSubtitle">
+      <trans-unit id="vpn.inAppAuth.signInSubtitle" xml:space="preserve">
         <source>Continue to Mozilla VPN by signing in with your Firefox account</source>
+        <target>Jatka Mozilla VPN:ään kirjautumalla sisään Firefox-tililläsi</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem">
+      <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
+        <target>Tiliongelmat</target>
         <source>Account issues</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.disclaimerText">
         <source>When you submit, Mozilla VPN will collect technical and interaction data with your email to help our support team understand your issue.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel">
+      <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel" xml:space="preserve">
         <note annotates="source" from="developer">A user trying to submit feedback will use this dropdown to select the general topic related to the feedback.</note>
+        <target>Valitse luokka</target>
         <source>Choose a category</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.featureRequestDropdownListItem">
@@ -1265,8 +1298,9 @@
         <target>Maksut ja laskutus</target>
         <source>Payment and billing</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.privacyNoticeLinkText">
+      <trans-unit id="vpn.inAppSupportWorkflow.privacyNoticeLinkText" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Mozilla VPN:n tietosuojakäytäntö</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder" xml:space="preserve">
         <source>Subject (optional)</source>
@@ -1284,15 +1318,17 @@
         <source>Email address</source>
         <target>Sähköpostiosoite</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorBrowserButton">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorBrowserButton" xml:space="preserve">
         <source>Try opening in browser</source>
+        <target>Kokeile avata selaimessa</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorButton" xml:space="preserve">
         <source>Try Again</source>
         <target>Yritä uudestaan</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorHeader">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorHeader" xml:space="preserve">
         <source>Error submitting your support request</source>
+        <target>Virhe lähetettäessä tukipyyntöäsi</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText">
         <source>An unexpected error has occurred, please try again.</source>
