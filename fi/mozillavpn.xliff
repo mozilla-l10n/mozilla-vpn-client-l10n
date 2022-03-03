@@ -202,151 +202,180 @@
   </file>
   <file original="../../nebula/ui/components/VPNFeatureTour.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.main.back">
+      <trans-unit id="vpn.main.back" xml:space="preserve">
         <note annotates="source" from="developer">Go back</note>
+        <target>Edellinen</target>
         <source>Back</source>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.connectionInfo.accessibleName">
+      <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
+        <target>%1: %2 %3</target>
         <source>%1: %2 %3</source>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNLoader.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.authenticating.cancel">
+      <trans-unit id="vpn.authenticating.cancel" xml:space="preserve">
         <source>Cancel</source>
+        <target>Peruuta</target>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNPopup.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="menubar.file.close">
+      <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
+        <target>Sulje</target>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.devices.cancelDeviceRemoval">
+      <trans-unit id="vpn.devices.cancelDeviceRemoval" xml:space="preserve">
         <source>Cancel</source>
+        <target>Peruuta</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.deviceRemovalConfirm">
+      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
+        <target>Vahvista, että haluat poistaa laitteen %1.</target>
         <source>Please confirm you would like to remove
 %1.</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceButton">
+      <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
         <note annotates="source" from="developer">This is the “remove” device button.</note>
+        <target>Poista</target>
         <source>Remove</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceQuestion">
+      <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
         <source>Remove device?</source>
+        <target>Poistetaanko laite?</target>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNServerCountry.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="cities">
+      <trans-unit id="cities" xml:space="preserve">
         <note annotates="source" from="developer">The title for the list of cities.</note>
+        <target>Kaupungit</target>
         <source>Cities</source>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.main.signOut2">
+      <trans-unit id="vpn.main.signOut2" xml:space="preserve">
         <source>Sign out</source>
+        <target>Kirjaudu ulos</target>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.subscription.monthlyPlan">
+      <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
         <source>Monthly plan</source>
+        <target>Kuukausitilaus</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.multiMonthPlan">
+      <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>%1 kuukauden tilaus: %2</target>
         <source>%1-month plan: %2</source>
       </trans-unit>
-      <trans-unit id="vpn.subscription.price">
+      <trans-unit id="vpn.subscription.price" xml:space="preserve">
         <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
+        <target>%1/kuukausi</target>
         <source>%1/month</source>
       </trans-unit>
-      <trans-unit id="vpn.subscription.savePercent">
+      <trans-unit id="vpn.subscription.savePercent" xml:space="preserve">
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
+        <target>Säästä %1 %</target>
         <source>Save %1%</source>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNSystemAlert.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.alert.authenticationError">
+      <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
         <source>Authentication error</source>
+        <target>Todennusvirhe</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.backendServiceError">
+      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
         <source>Background service error</source>
+        <target>Taustapalveluvirhe</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout">
+      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
         <source>Signed out and device disconnected</source>
+        <target>Kirjauduttu ulos ja laitteen yhteys on katkaistu</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.getIPRestrictionError">
+      <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
         <source>Operation not allowed from current location</source>
+        <target>Toiminto ei ole sallittu nykyisestä sijainnista</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.noInternet">
+      <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
         <source>No internet connection</source>
+        <target>Ei Internet-yhteyttä</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.remoteServiceError">
+      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
+        <target>Etäpalveluvirhe</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.restore">
+      <trans-unit id="vpn.alert.restore" xml:space="preserve">
         <note annotates="source" from="developer">Restore a service in case of error.</note>
+        <target>Palauta</target>
         <source>Restore</source>
       </trans-unit>
-      <trans-unit id="vpn.alert.subscriptionFailureError">
+      <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
         <source>Subscription failed</source>
+        <target>Tilaus epäonnistui</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.tryAgain">
+      <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
         <source>Try again</source>
+        <target>Yritä uudestaan</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.unableToConnect">
+      <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
         <source>Unable to connect</source>
+        <target>Yhdistäminen ei onnistu</target>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.toggle.off">
+      <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
+        <target>Kytke VPN pois päältä</target>
       </trans-unit>
-      <trans-unit id="vpn.toggle.on">
+      <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
+        <target>Kytke VPN päälle</target>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNViewDNSSettings.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.settings.vpnMustBeOff">
+      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+        <target>VPN:n on oltava pois päältä, jotta näitä asetuksia on mahdollista muokata</target>
         <source>VPN must be off to edit these settings</source>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/inAppAuth/VPNInAppAuthenticationBase.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.main.getHelp2">
+      <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
         <source>Get help</source>
+        <target>Etsi ohjeita</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.connectionInfo.loading">
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
+        <target>Ladataan</target>
         <source>Loading</source>
       </trans-unit>
     </body>
@@ -357,8 +386,9 @@
         <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
         <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.dontSendButton">
+      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
         <note annotates="source" from="developer">User does not agree to send a crash report.</note>
+        <target>Ei kiitos</target>
         <source>No thanks</source>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.mainHeading">
@@ -368,8 +398,9 @@
       <trans-unit id="vpn.crashreporter.mainTitle">
         <source>Mozilla Crash Reporter</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.sendButtonLabel">
+      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">User agrees to send a crash report.</note>
+        <target>Lähetä raportti</target>
         <source>Send report</source>
       </trans-unit>
     </body>
@@ -385,23 +416,28 @@
       <trans-unit id="macosinstaller.conclusion.message3">
         <source>Get help.</source>
       </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.title">
+      <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
         <source>Success!</source>
+        <target>Onnistui!</target>
       </trans-unit>
       <trans-unit id="macosinstaller.previous_build.message">
         <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
       </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.title">
+      <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
         <source>Previous Installation Detected</source>
+        <target>Aiempi asennus havaittu</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.title">
+      <trans-unit id="macosinstaller.title" xml:space="preserve">
         <source>Mozilla VPN for macOS</source>
+        <target>Mozilla VPN macOS:lle</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.message">
+      <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
         <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
+        <target>Mozilla VPN vaatii Mac OS X 10.6:n tai uudemman.</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.title">
+      <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
         <source>Unable to install</source>
+        <target>Asennus ei onnistu</target>
       </trans-unit>
       <trans-unit id="macosinstaller.welcome.message1">
         <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
@@ -419,51 +455,61 @@
       <trans-unit id="feedback.category.bugError">
         <source>Product Bugs/Errors</source>
       </trans-unit>
-      <trans-unit id="feedback.category.compatibility">
+      <trans-unit id="feedback.category.compatibility" xml:space="preserve">
         <source>Compatibility</source>
+        <target>Yhteensopivuus</target>
       </trans-unit>
       <trans-unit id="feedback.category.easeToUse">
         <source>Ease of Use</source>
       </trans-unit>
-      <trans-unit id="feedback.category.networkSpeed">
+      <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
         <source>Network Connection/Speed</source>
+        <target>Verkkoyhteys/nopeus</target>
       </trans-unit>
-      <trans-unit id="feedback.category.other">
+      <trans-unit id="feedback.category.other" xml:space="preserve">
         <source>Other</source>
+        <target>Muu</target>
       </trans-unit>
-      <trans-unit id="feedback.category.productQuality">
+      <trans-unit id="feedback.category.productQuality" xml:space="preserve">
         <source>Product Quality</source>
+        <target>Tuotteen laatu</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="help.contactUs">
+      <trans-unit id="help.contactUs" xml:space="preserve">
         <source>Contact us</source>
+        <target>Ota yhteyttä</target>
       </trans-unit>
-      <trans-unit id="help.helpCenter2">
+      <trans-unit id="help.helpCenter2" xml:space="preserve">
         <source>Help center</source>
+        <target>Ohjekeskus</target>
       </trans-unit>
-      <trans-unit id="help.viewLog">
+      <trans-unit id="help.viewLog" xml:space="preserve">
         <source>View log</source>
+        <target>Näytä loki</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.systray.statusConnected.message">
+      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
+        <target>Yhdistetty kohteeseen %1, %2</target>
         <source>Connected to %1, %2</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.title">
+      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN yhdistetty</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusDisconnected.message">
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
         <source>Disconnected from %1, %2</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.title">
+      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
         <source>VPN Disconnected</source>
+        <target>VPN-yhteys katkaistu</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusSwitch.title">
         <source>VPN Switched Servers</source>
@@ -491,18 +537,21 @@
   </file>
   <file original="../src/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="menubar.file.title">
+      <trans-unit id="menubar.file.title" xml:space="preserve">
         <source>File</source>
+        <target>Tiedosto</target>
       </trans-unit>
-      <trans-unit id="menubar.help.title">
+      <trans-unit id="menubar.help.title" xml:space="preserve">
         <source>Help</source>
+        <target>Ohje</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.aboutUs.license">
+      <trans-unit id="vpn.aboutUs.license" xml:space="preserve">
         <source>License</source>
+        <target>Lisenssi</target>
       </trans-unit>
     </body>
   </file>
@@ -570,11 +619,13 @@
       <trans-unit id="vpn.feedbackForm.averageRatingResponse">
         <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.continue">
+      <trans-unit id="vpn.feedbackForm.continue" xml:space="preserve">
         <source>Continue</source>
+        <target>Jatka</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.good">
+      <trans-unit id="vpn.feedbackForm.good" xml:space="preserve">
         <source>Good</source>
+        <target>Hyvä</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.goodRatingResponse">
         <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
@@ -591,14 +642,16 @@
       <trans-unit id="vpn.feedbackForm.ratingHeadline">
         <source>How would you describe your Mozilla VPN experience so far?</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.skip">
+      <trans-unit id="vpn.feedbackForm.skip" xml:space="preserve">
         <source>Skip</source>
+        <target>Ohita</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.textAreaPlaceholder">
         <source>Enter feedback…</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.thankyou">
+      <trans-unit id="vpn.feedbackForm.thankyou" xml:space="preserve">
         <source>Thank you!</source>
+        <target>Kiitos!</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.thankyouSubtitle">
         <source>We appreciate your feedback. You’re helping us improve Mozilla VPN.</source>
@@ -619,11 +672,13 @@
   </file>
   <file original="../src/ui/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.settings.language">
+      <trans-unit id="vpn.settings.language" xml:space="preserve">
         <source>Language</source>
+        <target>Kieli</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.languageAccessibleName">
+      <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
+        <target>%1 %2</target>
         <source>%1 %2</source>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLangaugeSubtitle">
