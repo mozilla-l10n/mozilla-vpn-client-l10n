@@ -751,7 +751,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.lanAccess.description" xml:space="preserve">
         <source>Access printers, streaming sticks and all other devices on your local network</source>
-        <target>Sallii tulostimet, suoratoistolaitteet ja muut laitteet paikallisessa verkossa</target>
+        <target>Sallii pääsyn tulostimiin, suoratoistolaitteisiin ja muihin laitteisiin paikallisessa verkossa</target>
       </trans-unit>
       <trans-unit id="vpn.settings.networking" xml:space="preserve">
         <source>Network settings</source>
@@ -767,9 +767,11 @@
     <body>
       <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
         <source>Guest Wi-Fi portal alert</source>
+        <target>Vierasverkon wifi-portaalin hälytys</target>
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
+        <target>Saa ilmoitus, jos vierasverkon wifi-portaali on estetty VPN-yhteyden vuoksi</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
         <source>Get notified when the connection status changes</source>
@@ -1093,6 +1095,7 @@
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPreActivation" xml:space="preserve">
         <source>You can turn on your VPN once you have gained internet access by logging in to the portal.</source>
+        <target>Voit ottaa VPN:n käyttöön, kun olet saanut muodostettua Internet-yhteyden kirjautumalla sisään portaaliin.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation" xml:space="preserve">
         <source>Turn off VPN</source>
@@ -1546,6 +1549,7 @@
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
+        <target>Vierasverkon wifi-portaali estetty</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockMessage" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
@@ -1555,6 +1559,7 @@
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal detected</source>
+        <target>Vierasverkon wifi-portaali havaittu</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
@@ -1579,6 +1584,7 @@
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText" xml:space="preserve">
         <source>Another Firefox Account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
+        <target>Toinen Firefox-tili on jo tilannut tällä Apple ID:llä. Kirjaudu ulos ja yritä uudestaan, tai ota yhteyttä tukitiimiimme saadaksesi apua.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Choose a new location.</source>
@@ -1598,9 +1604,11 @@
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel" xml:space="preserve">
         <source>Server unavailable notification</source>
+        <target>Palvelin ei ole käytettävissä -ilmoitus</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel" xml:space="preserve">
         <source>Get notified when connecting to a server location failed</source>
+        <target>Saa ilmoitus, kun yhdistäminen palvelimen sijaintiin epäonnistui</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
@@ -1684,6 +1692,7 @@
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppMultiple" xml:space="preserve">
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
+        <target>%1 sovellusta puuttuu listalta.</target>
         <source>%1 apps missing from list.</source>
       </trans-unit>
       <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
@@ -1811,6 +1820,7 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.supportListItemBody" xml:space="preserve">
         <source>The in-app support form will streamline the process of getting your issues resolved.</source>
+        <target>Sovelluksen sisäinen tukilomake virtaviivaistaa ongelmien ratkaisemista.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.supportListItemHeader" xml:space="preserve">
         <source>In-app support form</source>
@@ -1829,9 +1839,11 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourModalBodyText" xml:space="preserve">
         <source>We’ve added a ton of cool features in this latest release. Take the tour to get a deeper dive into what we’ve added for you!</source>
+        <target>Olemme lisänneet tähän uusimpaan julkaisuun paljon hienoja ominaisuuksia. Tutustu esittelyyn ja siihen, mitä olemme lisänneet sinulle!</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourModalButtonText" xml:space="preserve">
         <source>Take the tour</source>
+        <target>Tutustu esittelyyn</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourModalHeader" xml:space="preserve">
         <source>What’s new in VPN?</source>
@@ -1843,6 +1855,7 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourSubHeader" xml:space="preserve">
         <source>Take the tour</source>
+        <target>Tutustu esittelyyn</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifBody" xml:space="preserve">
         <source>Check out all the new features available in the latest version of Mozilla VPN!</source>
@@ -1850,6 +1863,7 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifCTA" xml:space="preserve">
         <source>Take the tour</source>
+        <target>Tutustu esittelyyn</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifHeader" xml:space="preserve">
         <source>What’s new in VPN</source>
