@@ -1342,6 +1342,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription" xml:space="preserve">
         <note annotates="source" from="developer">User message prompting user to finish creating their account to use Mozilla VPN.</note>
+        <target>Ljúktu við að búa til Firefox-reikning til að halda áfram í Mozilla VPN</target>
         <source>Finish creating your Firefox account to continue to Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.forgotPasswordLink" xml:space="preserve">
@@ -1350,18 +1351,22 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.informationUsageDisclaimer" xml:space="preserve">
         <note annotates="source" from="developer">Non-op text that informs user about how Mozilla will not sell it to a third party.</note>
+        <target>Við notum aðeins tölvupóstfangið þitt til að búa til reikninginn þinn eða til innskráningar. Við munum aldrei selja það til utanaðkomandi aðila.</target>
         <source>We only use your email to create your account or sign in. We will never sell it to a third party.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidCodeErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">User provided did not provide a correct security code.</note>
+        <target>Ógildur kóði. Reyndu aftur</target>
         <source>Invalid code. Please try again</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidEmailErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">Generic message for when user submits incorrect email.</note>
+        <target>Ógilt tölvupóstfang. Reyndu aftur</target>
         <source>Invalid email. Please try again</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidEmailFormatErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">User is providing us an email that is not formatted correctly. Ex. jsmith&amp;gmail.com</note>
+        <target>Tölvupóstsniðið er ekki stutt. Reyndu aftur með öðru tölvupóstfangi</target>
         <source>Email format not supported. Please try again with a different email</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidPasswordErrorMessage" xml:space="preserve">
@@ -1370,14 +1375,17 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordHintCharacterLength" xml:space="preserve">
         <note annotates="source" from="developer">This is a hint for the user - they must provide a password with at least 8 characters</note>
+        <target>Verður að vera minnst 8 stafir</target>
         <source>Must be at least 8 characters</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordHintCommonPassword" xml:space="preserve">
         <note annotates="source" from="developer">This is a hint for the user - password they provide must not be a common password. Ex. password.</note>
+        <target>Má ekki vera algengt lykilorð</target>
         <source>Must not be a common password</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordHintEmailAddressAsPassword" xml:space="preserve">
         <note annotates="source" from="developer">This is a hint for the user - they must provide a password that does not match their email.</note>
+        <target>Má ekki vera tölvupóstfangið þitt</target>
         <source>Must not be your email address</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordInputLabel" xml:space="preserve">
@@ -1390,38 +1398,47 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSendingEmailErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error sending them their verification code email - this is the message.</note>
+        <target>Því miður gátum við ekki sent þér staðfestingarkóða.</target>
         <source>Sorry, we were unable to send you a verification code.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSendingEmailTitle" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error sending them their verification code email - this is the title.</note>
+        <target>Vandamál við að senda tölvupóst…</target>
         <source>Problem sending email…</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSigningInErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error signing them in - this is the message.</note>
+        <target>Því miður gátum við ekki skráð þig inn á reikninginn þinn.</target>
         <source>Sorry, we were unable to sign you in to your account.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSigningInTitle" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user we are having a problem signing them in - this is the title.</note>
+        <target>Vandamál við innskráningu…</target>
         <source>Problem signing in…</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.productUpdateOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">Checkbox label for users to opt in, when creating an account, to receive product update emails from Firefox.</note>
+        <target>Ég vil fá póst frá Firefox með nýjustu fréttum af hugbúnaði og þjónustum.</target>
         <source>I’d like to receive product update emails from Firefox.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.resendCodeLink" xml:space="preserve">
         <note annotates="source" from="developer">This link allows the user to request for another 6-digit verification code to be sent to their email.</note>
+        <target>Senda kóða aftur</target>
         <source>Resend code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.securityCodeLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for input asking user for their security code.</note>
+        <target>Öryggiskóði</target>
         <source>Security code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.securityCodeSubtitle" xml:space="preserve">
         <note annotates="source" from="developer">User is asked for a security code from their authentication app for verification.</note>
+        <target>Opnaðu auðkenningarforritið þitt og settu inn öryggiskóðann sem það gefur upp.</target>
         <source>Open your authentication app and enter the security code it provides.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.securityCodeTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for app screen asking user for their security code.</note>
+        <target>Settu inn öryggiskóða</target>
         <source>Enter security code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInButton" xml:space="preserve">
@@ -1430,10 +1447,12 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInFailedPopupDescription" xml:space="preserve">
         <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 15 minutes until they can try again.</note>
+        <target>Þú hefur gert of margar tilraunir til að skrá þig inn. Þú munt ekki geta reynt aftur með þessum reikningi í 15 mínútur.</target>
         <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 15 minutes.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInFailedPopupTitle" xml:space="preserve">
         <source>Sign-in failed</source>
+        <target>Innskráning mistókst</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInSubtitle" xml:space="preserve">
         <source>Continue to Mozilla VPN by signing in with your Firefox account</source>
@@ -1441,17 +1460,21 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.termsOfServiceAndPrivacyDisclaimer" xml:space="preserve">
         <note annotates="source" from="developer">Do not remove or translate the markup '&lt;a href="terms-of-service"&gt;', '&lt;a href="privacy-notice"&gt;', '&lt;/a&gt;'.</note>
+        <target>Með því að halda áfram samþykkir þú &lt;a href="terms-of-service"&gt;þjónustuskilmála&lt;/a&gt; og &lt;a href="privacy-notice"&gt;persónuverndarstefnu okkar&lt;/a&gt;.</target>
         <source>By continuing, you agree to the &lt;a href="terms-of-service"&gt;Terms of Service&lt;/a&gt; and the &lt;a href="privacy-notice"&gt;Privacy Notice&lt;/a&gt;.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verificationCodeInputPlaceholder" xml:space="preserve">
         <note annotates="source" from="developer">Placeholder text for input element asking user for 6-digit verification code from their email.</note>
+        <target>Settu inn 6-stafa kóða</target>
         <source>Enter 6-digit code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verificationCodeTitle" xml:space="preserve">
         <source>Enter verification code</source>
+        <target>Settu inn staðfestingarkóða</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verifySecurityCodeButton" xml:space="preserve">
         <source>Verify</source>
+        <target>Sannreyna</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
@@ -1749,6 +1772,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
+        <target>Leyfðu Mozilla VPN að senda sjálfvirkar hrunskýrslur til að hjálpa við að laga óvænt hrun</target>
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
       </trans-unit>
       <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
@@ -1912,12 +1936,15 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.connectionInfoDescription" xml:space="preserve">
         <source>You can now run speed tests in Mozilla VPN! Select the performance icon in the top left corner of your screen to test your connection speed while using VPN.</source>
+        <target>Þú getur nú keyrt hraðapróf í Mozilla VPN! Veldu afkastatáknið efst í vinstra horninu á skjánum þínum til að prófa tengihraða þinn við notkun VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.connectionInfoDescriptionShort" xml:space="preserve">
         <source>You can now run speed tests within the VPN to check your connection speed.</source>
+        <target>Þú getur nú keyrt hraðapróf innan VPN til að athuga tengihraðann þinn.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.connectionInfoDisplayName" xml:space="preserve">
         <source>Test your speed</source>
+        <target>Prófaðu hraðann þinn</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemBody" xml:space="preserve">
         <source>Custom DNS settings allow for faster connection using local servers.</source>
