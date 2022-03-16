@@ -1210,6 +1210,7 @@
       </trans-unit>
       <trans-unit id="vpn.crashreporter.crashOptInDialogDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is a description for a checkbox on the crash reporter dialog.</note>
+        <target>不要再問我，自動回報錯誤報告給 Mozilla。</target>
         <source>Don’t show this again. Autosend crash reports to Mozilla.</source>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody" xml:space="preserve">
@@ -1332,6 +1333,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.emailVerificationDescription" xml:space="preserve">
         <note annotates="source" from="developer">User has been sent a verification email containing a code.</note>
+        <target>請開啟驗證信，輸入當中的驗證碼。</target>
         <source>Open your email and enter the verification code that was sent.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.enterEmailAddressDescription" xml:space="preserve">
@@ -1441,10 +1443,12 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInFailedPopupDescription" xml:space="preserve">
         <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 15 minutes until they can try again.</note>
+        <target>您的登入次數太多，請稍等 15 分鐘後再試。</target>
         <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 15 minutes.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInFailedPopupTitle" xml:space="preserve">
         <source>Sign-in failed</source>
+        <target>登入失敗</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInSubtitle" xml:space="preserve">
         <source>Continue to Mozilla VPN by signing in with your Firefox account</source>
@@ -1456,13 +1460,16 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verificationCodeInputPlaceholder" xml:space="preserve">
         <note annotates="source" from="developer">Placeholder text for input element asking user for 6-digit verification code from their email.</note>
+        <target>請輸入六位數的安全碼</target>
         <source>Enter 6-digit code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verificationCodeTitle" xml:space="preserve">
         <source>Enter verification code</source>
+        <target>請輸入驗證碼</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verifySecurityCodeButton" xml:space="preserve">
         <source>Verify</source>
+        <target>驗證</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
@@ -1760,6 +1767,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
+        <target>允許 Mozilla VPN 自動傳送錯誤報告，幫助我們修正未預期的錯誤</target>
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
       </trans-unit>
       <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
@@ -1923,12 +1931,15 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.connectionInfoDescription" xml:space="preserve">
         <source>You can now run speed tests in Mozilla VPN! Select the performance icon in the top left corner of your screen to test your connection speed while using VPN.</source>
+        <target>現在起，您可以直接在 Mozilla VPN 當中測速！使用 VPN 時，請點擊畫面左上角的效能圖示，即可進行測速。</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.connectionInfoDescriptionShort" xml:space="preserve">
         <source>You can now run speed tests within the VPN to check your connection speed.</source>
+        <target>您現在可以直接在 VPN 程式當中測試網路連線速度。</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.connectionInfoDisplayName" xml:space="preserve">
         <source>Test your speed</source>
+        <target>測試網路速度</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemBody" xml:space="preserve">
         <source>Custom DNS settings allow for faster connection using local servers.</source>
