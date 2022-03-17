@@ -1323,10 +1323,12 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.createPasswordLabel" xml:space="preserve">
         <note annotates="source" from="developer">This is a label displayed on the password creation screen.</note>
+        <target>Wachtwurd oanmeitsje</target>
         <source>Create password</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.emailInputPlaceholder" xml:space="preserve">
         <source>Enter email</source>
+        <target>Fier e-mailadres yn</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.emailVerificationDescription" xml:space="preserve">
         <note annotates="source" from="developer">User has been sent a verification email containing a code.</note>
@@ -1349,10 +1351,12 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidCodeErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">User provided did not provide a correct security code.</note>
+        <target>Unjildige koade. Probearje it opnij</target>
         <source>Invalid code. Please try again</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidEmailErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">Generic message for when user submits incorrect email.</note>
+        <target>Unjildich e-mailadres. Probearje it opnij</target>
         <source>Invalid email. Please try again</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidEmailFormatErrorMessage" xml:space="preserve">
@@ -1365,14 +1369,17 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordHintCharacterLength" xml:space="preserve">
         <note annotates="source" from="developer">This is a hint for the user - they must provide a password with at least 8 characters</note>
+        <target>Moat op syn minst 8 tekens befetsje</target>
         <source>Must be at least 8 characters</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordHintCommonPassword" xml:space="preserve">
         <note annotates="source" from="developer">This is a hint for the user - password they provide must not be a common password. Ex. password.</note>
+        <target>Moat gjin algemien wachtwurd wêze</target>
         <source>Must not be a common password</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordHintEmailAddressAsPassword" xml:space="preserve">
         <note annotates="source" from="developer">This is a hint for the user - they must provide a password that does not match their email.</note>
+        <target>Mei net jo e-mailadres wêze</target>
         <source>Must not be your email address</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordInputLabel" xml:space="preserve">
@@ -1405,18 +1412,22 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.resendCodeLink" xml:space="preserve">
         <note annotates="source" from="developer">This link allows the user to request for another 6-digit verification code to be sent to their email.</note>
+        <target>Koade nochris ferstjoere</target>
         <source>Resend code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.securityCodeLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for input asking user for their security code.</note>
+        <target>Befeiligingskoade</target>
         <source>Security code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.securityCodeSubtitle" xml:space="preserve">
         <note annotates="source" from="developer">User is asked for a security code from their authentication app for verification.</note>
+        <target>Iepenje jo app foar autentikaasje en fier de oanbeane befeiligingskoade yn.</target>
         <source>Open your authentication app and enter the security code it provides.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.securityCodeTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for app screen asking user for their security code.</note>
+        <target>Fier befeiligingskoade yn</target>
         <source>Enter security code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInButton" xml:space="preserve">
@@ -1429,6 +1440,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInFailedPopupTitle" xml:space="preserve">
         <source>Sign-in failed</source>
+        <target>Oanmelding mislearre</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInSubtitle" xml:space="preserve">
         <source>Continue to Mozilla VPN by signing in with your Firefox account</source>
@@ -1436,17 +1448,21 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.termsOfServiceAndPrivacyDisclaimer" xml:space="preserve">
         <note annotates="source" from="developer">Do not remove or translate the markup '&lt;a href="terms-of-service"&gt;', '&lt;a href="privacy-notice"&gt;', '&lt;/a&gt;'.</note>
+        <target>Troch fierder te gean, geane jo akkoard mei de &lt;a href="terms-of-service"&gt;Servicebetingsten&lt;/a&gt; en &lt;a href="privacy-notice"&gt;Privacyferklearring&lt;/a&gt;.</target>
         <source>By continuing, you agree to the &lt;a href="terms-of-service"&gt;Terms of Service&lt;/a&gt; and the &lt;a href="privacy-notice"&gt;Privacy Notice&lt;/a&gt;.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verificationCodeInputPlaceholder" xml:space="preserve">
         <note annotates="source" from="developer">Placeholder text for input element asking user for 6-digit verification code from their email.</note>
+        <target>Fier 6-siferige koade yn</target>
         <source>Enter 6-digit code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verificationCodeTitle" xml:space="preserve">
         <source>Enter verification code</source>
+        <target>Fier ferifikaasjekoade yn</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verifySecurityCodeButton" xml:space="preserve">
         <source>Verify</source>
+        <target>Ferifiearje</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
@@ -1913,6 +1929,7 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.connectionInfoDisplayName" xml:space="preserve">
         <source>Test your speed</source>
+        <target>Test jo snelheid</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemBody" xml:space="preserve">
         <source>Custom DNS settings allow for faster connection using local servers.</source>
