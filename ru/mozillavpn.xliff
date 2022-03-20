@@ -1093,9 +1093,11 @@
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPostActivation" xml:space="preserve">
         <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
+        <target>Вы должны отключить VPN, чтобы увидеть портал, и снова включить его после входа в него.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPreActivation" xml:space="preserve">
         <source>You can turn on your VPN once you have gained internet access by logging in to the portal.</source>
+        <target>Вы можете включить VPN после того, как получите доступ в Интернет, войдя на портал.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation" xml:space="preserve">
         <source>Turn off VPN</source>
@@ -1107,6 +1109,7 @@
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.header" xml:space="preserve">
         <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
+        <target>Captive-портал — это когда используемый вами гостевой Wi-Fi требует от вас входа в портал, чтобы получить доступ в Интернет.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.title" xml:space="preserve">
         <source>Captive portal detected!</source>
@@ -1114,6 +1117,7 @@
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.errorMessage" xml:space="preserve">
         <source>Looks like there was an unexpected error while trying to connect. Please try again or check your connection.</source>
+        <target>Похоже, при попытке подключения произошла непредвиденная ошибка. Повторите попытку или проверьте подключение.</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.highBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
@@ -1167,14 +1171,17 @@
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.listHeaderSlow" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
+        <target>Похоже, соединение с этим сервером немного медленное, вы можете попробовать:</target>
         <source>It looks like the connection to this server location is a bit slow, you can try:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel" xml:space="preserve">
         <note annotates="source" from="developer">Shown to the user while waiting for the connection speed test results</note>
+        <target>Тест скорости…</target>
         <source>Testing speed…</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <target>Просмотр веб-сайтов</target>
         <source>Browsing the internet</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletThree" xml:space="preserve">
@@ -1189,6 +1196,7 @@
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
+        <target>Переключение серверов</target>
         <source>Switching server locations</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo" xml:space="preserve">
@@ -1423,6 +1431,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInSubtitle" xml:space="preserve">
         <source>Continue to Mozilla VPN by signing in with your Firefox account</source>
+        <target>Перейдите к Mozilla VPN, войдя в свою учётную запись Firefox</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.termsOfServiceAndPrivacyDisclaimer" xml:space="preserve">
         <note annotates="source" from="developer">Do not remove or translate the markup '&lt;a href="terms-of-service"&gt;', '&lt;a href="privacy-notice"&gt;', '&lt;/a&gt;'.</note>
@@ -1556,6 +1565,7 @@
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelFourTitle" xml:space="preserve">
         <source>More security with one tap</source>
+        <target>Больше безопасности одним касанием</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle" xml:space="preserve">
         <source>A safe, reliable and fast VPN. Built by the makers of Firefox.</source>
@@ -1567,6 +1577,7 @@
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelThreeSubtitle" xml:space="preserve">
         <source>Route your activity and location through servers in more than 30 countries.</source>
+        <target>Направляйте свою активность и местоположение через серверы в более чем 30 странах.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelThreeTitle" xml:space="preserve">
         <source>Protect your privacy</source>
@@ -1574,6 +1585,7 @@
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelTwoSubtitle" xml:space="preserve">
         <source>Mozilla VPN keeps your location and browsing safe from eavesdroppers.</source>
+        <target>Mozilla VPN защищает ваше местоположение и работу в Интернете от перехватчиков.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelTwoTitle" xml:space="preserve">
         <source>Encrypt your activity</source>
@@ -1687,12 +1699,15 @@
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText" xml:space="preserve">
         <source>Sorry, we are unable to connect your Firefox Account to a current subscription. Please try again or contact our support team for further assistance.</source>
+        <target>К сожалению, мы не можем связать ваш Аккаунт Firefox с текущей подпиской. Пожалуйста, попробуйте ещё раз или свяжитесь с нашей службой поддержки для получения дополнительной помощи.</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText" xml:space="preserve">
         <source>Sorry, we were unable to confirm your subscription. Please try again or contact our support team for help.</source>
+        <target>К сожалению, нам не удалось подтвердить вашу подписку. Пожалуйста, попробуйте ещё раз или обратитесь за помощью в нашу службу поддержки.</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText" xml:space="preserve">
         <source>Another Firefox Account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
+        <target>Другой Аккаунт Firefox уже подписался с использованием этого Apple ID. Выйдите из системы и повторите попытку, или обратитесь за помощью в нашу службу поддержки.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Choose a new location.</source>
@@ -1716,6 +1731,7 @@
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel" xml:space="preserve">
         <source>Get notified when connecting to a server location failed</source>
+        <target>Получать уведомления при сбое подключения к серверу</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
@@ -1752,10 +1768,12 @@
       </trans-unit>
       <trans-unit id="vpn.settings.tunnelPort53" xml:space="preserve">
         <note annotates="source" from="developer">Tunnel is used as a verb, as in to direct traffic through</note>
+        <target>Туннельный VPN через порт 53/DNS</target>
         <source>Tunnel VPN through port 53/DNS</source>
       </trans-unit>
       <trans-unit id="vpn.settings.tunnelPort53Description" xml:space="preserve">
         <source>Use port 53/DNS for Wireguard traffic, which may help evade firewalls</source>
+        <target>Используйте порт 53/DNS для трафика Wireguard, что может помочь обойти брандмауэры</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
         <source>VPN must be restarted to take effect</source>
