@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 jobs:
   update:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Install Linux packages
         run: |
@@ -13,19 +13,19 @@ jobs:
           sudo apt update
           sudo apt install git qt515tools -y
       - name: Clone l10n repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           path: "translationFiles"
       - name: Clone main code repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: "mozilla-mobile/mozilla-vpn-client"
           fetch-depth: 0
           path: "vpn"
       - name: Set up Python 3
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
-          python-version: '3.8'
+          python-version: '3.9'
       - name: Install Python dependencies
         run: |
           pip install -r translationFiles/.github/scripts/requirements.txt
@@ -65,7 +65,7 @@ jobs:
           python translationFiles/.github/scripts/extract_source_strings.py --input translations.ts --l10n translationFiles
           python translationFiles/.github/scripts/update_other_locales.py --reference en --xliff mozillavpn.xliff --path translationFiles/ --nofile
       - run : git config --global user.email 'flodolo@users.noreply.github.com'
-      - uses: peter-evans/create-pull-request@v3
+      - uses: peter-evans/create-pull-request@v4
         with:
           path: "translationFiles"
           commit-message: "Extract new strings and update all locales"
