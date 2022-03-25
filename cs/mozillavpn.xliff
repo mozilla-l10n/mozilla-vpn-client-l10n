@@ -467,43 +467,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.aboutUs.license" xml:space="preserve">
-        <source>License</source>
-        <target>Licence</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.connectioInfo.gBps" xml:space="preserve">
-        <note annotates="source" from="developer">Gigabytes per second</note>
-        <target>GB/s</target>
-        <source>GB/s</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectioInfo.mBps" xml:space="preserve">
-        <note annotates="source" from="developer">Megabytes per second</note>
-        <target>MB/s</target>
-        <source>MB/s</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.Bps" xml:space="preserve">
-        <note annotates="source" from="developer">Bytes per second</note>
-        <target>B/s</target>
-        <source>B/s</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.kBps" xml:space="preserve">
-        <note annotates="source" from="developer">Kilobytes per second</note>
-        <target>kB/s</target>
-        <source>kB/s</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.tBps" xml:space="preserve">
-        <note annotates="source" from="developer">Terabytes per second</note>
-        <target>TB/s</target>
-        <source>TB/s</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="cs">
     <body>
       <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
@@ -686,18 +649,12 @@
       <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
         <source>Data collection and use</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
-        <source>Allow Mozilla VPN to send technical data to Mozilla</source>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="cs">
     <body>
       <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot2" xml:space="preserve">
-        <source>Launch VPN app on startup</source>
       </trans-unit>
       <trans-unit id="vpn.settings.user" xml:space="preserve">
         <source>VPN User</source>
@@ -998,6 +955,9 @@
       <trans-unit id="vpn.connectionInfo.mediumBulletTwo" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
         <source>Streaming video</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.openButton" xml:space="preserve">
+        <source>Connection Info</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
@@ -1386,17 +1346,11 @@
       <trans-unit id="vpn.notSignedInGoogle.googleModalLinkText" xml:space="preserve">
         <source>Go to Play Store</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalBlockMessage" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
-      </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
-      </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalUnblockMessage" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
@@ -1453,9 +1407,6 @@
       </trans-unit>
       <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.preferences" xml:space="preserve">
-        <source>Preferences</source>
       </trans-unit>
       <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
         <source>Mozilla VPN will launch and connect when you start up your device</source>

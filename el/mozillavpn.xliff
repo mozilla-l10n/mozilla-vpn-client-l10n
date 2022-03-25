@@ -566,43 +566,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="el">
-    <body>
-      <trans-unit id="vpn.aboutUs.license" xml:space="preserve">
-        <source>License</source>
-        <target>Άδεια</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="el">
-    <body>
-      <trans-unit id="vpn.connectioInfo.gBps" xml:space="preserve">
-        <note annotates="source" from="developer">Gigabytes per second</note>
-        <target>GB/δ</target>
-        <source>GB/s</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectioInfo.mBps" xml:space="preserve">
-        <note annotates="source" from="developer">Megabytes per second</note>
-        <target>MB/δ</target>
-        <source>MB/s</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.Bps" xml:space="preserve">
-        <note annotates="source" from="developer">Bytes per second</note>
-        <target>B/δ</target>
-        <source>B/s</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.kBps" xml:space="preserve">
-        <note annotates="source" from="developer">Kilobytes per second</note>
-        <target>kB/δ</target>
-        <source>kB/s</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.tBps" xml:space="preserve">
-        <note annotates="source" from="developer">Terabytes per second</note>
-        <target>TB/δ</target>
-        <source>TB/s</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="el">
     <body>
       <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
@@ -809,10 +772,6 @@
         <source>Data collection and use</source>
         <target>Συλλογή και χρήση δεδομένων</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dataCollection.description" xml:space="preserve">
-        <source>Allow Mozilla VPN to send technical data to Mozilla</source>
-        <target>Να επιτρέπεται στο Mozilla VPN η αποστολή τεχνικών δεδομένων στη Mozilla</target>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="el">
@@ -820,10 +779,6 @@
       <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
         <target>Διαχείριση λογαριασμού</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.runOnBoot2" xml:space="preserve">
-        <source>Launch VPN app on startup</source>
-        <target>Εκτέλεση εφαρμογής VPN κατά την εκκίνηση</target>
       </trans-unit>
       <trans-unit id="vpn.settings.user" xml:space="preserve">
         <source>VPN User</source>
@@ -1193,6 +1148,9 @@
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
         <target>Ροή βίντεο</target>
         <source>Streaming video</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.openButton" xml:space="preserve">
+        <source>Connection Info</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
@@ -1694,10 +1652,6 @@
         <source>Go to Play Store</source>
         <target>Μετάβαση στο Play Store</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalBlockMessage" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to requires action. Click here to turn off VPN to see the portal.</source>
-        <target>Το δίκτυο Wi-Fi επισκεπτών που συνδεθήκατε απαιτεί κάποια ενέργεια. Κάντε κλικ εδώ για να απενεργοποιήσετε το VPN και να δείτε την πύλη.</target>
-      </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
         <target>Το δίκτυο Wi-Fi επισκεπτών που συνδεθήκατε απαιτεί κάποια ενέργεια. Κάντε κλικ για να απενεργοποιήσετε το VPN και να δείτε την πύλη.</target>
@@ -1705,10 +1659,6 @@
       <trans-unit id="vpn.notifications.captivePortalBlockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
         <target>Το δίκτυο Wi-Fi επισκεπτών αποκλείστηκε</target>
-      </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalUnblockMessage" xml:space="preserve">
-        <source>The guest Wi-Fi network you’re connected to may not be secure. Click here to turn on VPN to secure your device.</source>
-        <target>Το δίκτυο Wi-Fi επισκεπτών που συνδεθήκατε ενδέχεται να μην είναι ασφαλές. Κάντε κλικ εδώ για να ενεργοποιήσετε το VPN και να προστατέψετε τη συσκευή σας.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
@@ -1783,10 +1733,6 @@
       <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
         <target>Να επιτρέπεται στο Mozilla VPN η αποστολή τεχνικών δεδομένων, δεδομένων αλληλεπίδρασης, καμπανιών και παραπομπών στη Mozilla</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.preferences" xml:space="preserve">
-        <source>Preferences</source>
-        <target>Προτιμήσεις</target>
       </trans-unit>
       <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
         <source>Mozilla VPN will launch and connect when you start up your device</source>
