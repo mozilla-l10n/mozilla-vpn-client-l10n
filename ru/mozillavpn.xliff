@@ -1325,6 +1325,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidEmailFormatErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">User is providing us an email that is not formatted correctly. Ex. jsmith&amp;gmail.com</note>
+        <target>Формат электронной почты не поддерживается. Пожалуйста, попробуйте снова с другим адресом электронной почты</target>
         <source>Email format not supported. Please try again with a different email</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidPasswordErrorMessage" xml:space="preserve">
@@ -1338,6 +1339,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordHintCommonPassword" xml:space="preserve">
         <note annotates="source" from="developer">This is a hint for the user - password they provide must not be a common password. Ex. password.</note>
+        <target>Не должен быть типичным паролем</target>
         <source>Must not be a common password</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordHintEmailAddressAsPassword" xml:space="preserve">
@@ -1365,6 +1367,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSigningInErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error signing them in - this is the message.</note>
+        <target>К сожалению, не удалось войти в вашу учётную запись.</target>
         <source>Sorry, we were unable to sign you in to your account.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSigningInTitle" xml:space="preserve">
@@ -1374,6 +1377,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.productUpdateOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">Checkbox label for users to opt in, when creating an account, to receive product update emails from Firefox.</note>
+        <target>Я хочу получать электронные письма с новостями о продукте от Firefox.</target>
         <source>I’d like to receive product update emails from Firefox.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.resendCodeLink" xml:space="preserve">
@@ -1398,6 +1402,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInBlockedForOneMinute" xml:space="preserve">
         <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 1 minute until they can try again.</note>
+        <target>Вы сделали слишком много попыток входа. Вы не сможете повторить попытку с этой учётной записью в течение 1 минуты.</target>
         <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 1 minute.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInButton" xml:space="preserve">
@@ -1406,6 +1411,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInFailedPopupDescription" xml:space="preserve">
         <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 15 minutes until they can try again.</note>
+        <target>Вы сделали слишком много попыток входа. Вы не сможете повторить попытку с этой учётной записью в течение 15 минут.</target>
         <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 15 minutes.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInFailedPopupTitle" xml:space="preserve">
@@ -1418,6 +1424,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.termsOfServiceAndPrivacyDisclaimer" xml:space="preserve">
         <note annotates="source" from="developer">Do not remove or translate the markup '&lt;a href="terms-of-service"&gt;', '&lt;a href="privacy-notice"&gt;', '&lt;/a&gt;'.</note>
+        <target>Продолжив, вы принимаете &lt;a href="terms-of-service"&gt;Условия использования&lt;/a&gt; и &lt;a href="privacy-notice"&gt;Примечание о конфиденциальности&lt;/a&gt;.</target>
         <source>By continuing, you agree to the &lt;a href="terms-of-service"&gt;Terms of Service&lt;/a&gt; and the &lt;a href="privacy-notice"&gt;Privacy Notice&lt;/a&gt;.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verificationCodeInputPlaceholder" xml:space="preserve">
@@ -1721,6 +1728,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
+        <target>Разрешить Mozilla VPN автоматически отправлять отчеты о падениях, чтобы помочь устранить неожиданные падения</target>
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
       </trans-unit>
       <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
@@ -1880,9 +1888,11 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.connectionInfoDescription" xml:space="preserve">
         <source>You can now run speed tests in Mozilla VPN! Select the performance icon in the top left corner of your screen to test your connection speed while using VPN.</source>
+        <target>Теперь вы можете запускать тесты скорости в Mozilla VPN! Выберите значок производительности в верхнем левом углу экрана, чтобы проверить скорость соединения при использовании VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.connectionInfoDescriptionShort" xml:space="preserve">
         <source>You can now run speed tests within the VPN to check your connection speed.</source>
+        <target>Теперь вы можете запускать тесты скорости в VPN, чтобы проверить скорость вашего соединения.</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.connectionInfoDisplayName" xml:space="preserve">
         <source>Test your speed</source>
