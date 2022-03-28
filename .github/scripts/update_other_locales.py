@@ -23,6 +23,7 @@
   3. Store the updated content in existing locale files, without backup.
 """
 
+from argparse import RawTextHelpFormatter
 from copy import deepcopy
 from glob import glob
 from lxml import etree
@@ -36,7 +37,7 @@ NS = {"x": "urn:oasis:names:tc:xliff:document:1.2"}
 
 
 def main():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(formatter_class=RawTextHelpFormatter)
     parser.add_argument(
         "--reference",
         required=True,
@@ -56,19 +57,16 @@ def main():
         help="Name of the XLIFF file to process",
     )
     parser.add_argument(
-        "--nofile",
+        "--type",
         required=False,
-        dest="ignore_file",
-        action="store_true",
-        help="Ignore the 'file' element when storing existing translations, only use IDs and source string",
+        default="standard",
+        dest="update_type",
+        help="""Type of update. Existing translation is maintained if:
+    - 'standard': matches file, ID, and source text
+    - 'nofile': matches ID and source text, ignoring file
+    - 'matchid': matches ID""",
     )
-    parser.add_argument(
-        "--onlyid",
-        required=False,
-        dest="only_id",
-        action="store_true",
-        help="Ignore the source string when storing existing translations, only use IDs (implies --nofile)",
-    )
+
     parser.add_argument("locales", nargs="*", help="Locales to process")
     args = parser.parse_args()
 
@@ -154,11 +152,11 @@ def main():
                 file_name = trans_node.getparent().getparent().get("original")
                 source_string = trans_node.xpath("./x:source", namespaces=NS)[0].text
                 original_id = trans_node.get("id")
-                if args.only_id:
+                if args.update_type == "matchid":
                     # Ignore source text and file attribute
                     string_id = original_id
                 else:
-                    if args.ignore_file:
+                    if args.update_type == "nofile":
                         string_id = f"{original_id}:{hash(source_string)}"
                     else:
                         string_id = f"{file_name}:{original_id}:{hash(source_string)}"
@@ -177,11 +175,11 @@ def main():
             source_string = trans_node.xpath("./x:source", namespaces=NS)[0].text
             original_id = trans_node.get("id")
 
-            if args.only_id:
+            if args.update_type == "matchid":
                 # Ignore source text and file attribute
                 string_id = original_id
             else:
-                if args.ignore_file:
+                if args.update_type == "nofile":
                     string_id = f"{original_id}:{hash(source_string)}"
                 else:
                     string_id = f"{file_name}:{original_id}:{hash(source_string)}"

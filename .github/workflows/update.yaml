@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: '0 7 * * 1-5' # Run Mon-Fri at 7AM UTC
   workflow_dispatch:
+    inputs:
+      type:
+        description: Type of update (standard, nofile, matchid)
+        required: true
+        default: "standard"
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -64,9 +69,9 @@ jobs:
             rm branch.ts
           done
           python translationFiles/.github/scripts/extract_source_strings.py --input translations.ts --l10n translationFiles
-          python translationFiles/.github/scripts/update_other_locales.py --reference en --xliff mozillavpn.xliff --path translationFiles/
+          python translationFiles/.github/scripts/update_other_locales.py --reference en --xliff mozillavpn.xliff --path translationFiles/ --type "${{ github.event.inputs.type }}"
       - run : git config --global user.email 'flodolo@users.noreply.github.com'
-      - uses: peter-evans/create-pull-request@v3
+      - uses: peter-evans/create-pull-request@v4
         with:
           path: "translationFiles"
           commit-message: "Extract new strings and update all locales"
