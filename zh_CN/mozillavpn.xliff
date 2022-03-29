@@ -82,8 +82,9 @@
   </file>
   <file original="../../nebula/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.connectionStability.checkConnection">
+      <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
+        <target>检查连接状态</target>
         <source>Check Connection</source>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
@@ -814,21 +815,25 @@
       <trans-unit id="vpn.onboarding.headline.1">
         <source>Device-level encryption</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.2">
+      <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
         <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeeded.qml too.</note>
+        <target>30＋ 个国家/地区的服务器</target>
         <source>Servers in 30+ countries</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.3">
+      <trans-unit id="vpn.onboarding.headline.3" xml:space="preserve">
         <source>No bandwidth restrictions</source>
+        <target>无带宽限制</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.4">
         <source>No online activity logs</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.next">
+      <trans-unit id="vpn.onboarding.next" xml:space="preserve">
         <source>Next</source>
+        <target>下一步</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.skip">
+      <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
         <source>Skip</source>
+        <target>跳过</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.1">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
@@ -853,15 +858,17 @@
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
         <source>Connect up to %1 devices</source>
       </trans-unit>
-      <trans-unit id="vpn.updates.subscribeNow">
+      <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
+        <target>立即订阅</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/ui/views/ViewUpdate.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.updates.notNow">
+      <trans-unit id="vpn.updates.notNow" xml:space="preserve">
         <source>Not now</source>
+        <target>暂时不要</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
         <source>Your connection will not be secure while you update.</source>
@@ -886,8 +893,9 @@
         <note annotates="source" from="developer">A notification channel; so the user can subscribe to "General Notifications"</note>
         <source>General Notifications</source>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.licenses">
+      <trans-unit id="vpn.aboutUs.licenses" xml:space="preserve">
         <source>Licenses</source>
+        <target>许可协议</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPostActivation">
         <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
@@ -910,40 +918,48 @@
       <trans-unit id="vpn.connectionInfo.errorMessage">
         <source>Looks like there was an unexpected error while trying to connect. Please try again or check your connection.</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.highBulletOne">
+      <trans-unit id="vpn.connectionInfo.highBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
+        <target>4K 流媒体</target>
         <source>Streaming in 4K</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.highBulletThree">
+      <trans-unit id="vpn.connectionInfo.highBulletThree" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
+        <target>网络游戏</target>
         <source>Online gaming</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.highBulletTwo">
+      <trans-unit id="vpn.connectionInfo.highBulletTwo" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
+        <target>高速下载</target>
         <source>High-speed downloads</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.labelBitps">
+      <trans-unit id="vpn.connectionInfo.labelBitps" xml:space="preserve">
         <note annotates="source" from="developer">Bits per second</note>
+        <target>bit/s</target>
         <source>bit/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.labelGbitps">
+      <trans-unit id="vpn.connectionInfo.labelGbitps" xml:space="preserve">
         <note annotates="source" from="developer">Gigabits per second</note>
+        <target>Gbit/s</target>
         <source>Gbit/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.labelKbitps">
+      <trans-unit id="vpn.connectionInfo.labelKbitps" xml:space="preserve">
         <note annotates="source" from="developer">Kilobits per second</note>
+        <target>kbit/s</target>
         <source>kbit/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.labelMbitps">
+      <trans-unit id="vpn.connectionInfo.labelMbitps" xml:space="preserve">
         <note annotates="source" from="developer">Megabits per second</note>
+        <target>Mbit/s</target>
         <source>Mbit/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelPing">
         <note annotates="source" from="developer">Latency of the connection</note>
         <source>Ping</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.labelTbitps">
+      <trans-unit id="vpn.connectionInfo.labelTbitps" xml:space="preserve">
         <note annotates="source" from="developer">Terabits per second</note>
+        <target>Tbit/s</target>
         <source>Tbit/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.listHeaderDefault">
@@ -954,8 +970,9 @@
         <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
         <source>It looks like the connection to this server location is a bit slow, you can try:</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel">
+      <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel" xml:space="preserve">
         <note annotates="source" from="developer">Shown to the user while waiting for the connection speed test results</note>
+        <target>测速中…</target>
         <source>Testing speed…</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletOne">
@@ -1254,8 +1271,9 @@
       <trans-unit id="vpn.inAppSupportWorkflow.supportNavLinkText">
         <source>Contact support</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportPrimaryButtonText">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportPrimaryButtonText" xml:space="preserve">
         <source>Submit</source>
+        <target>提交</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody">
         <note annotates="source" from="developer">The %1 represents the email used to complete the form</note>
