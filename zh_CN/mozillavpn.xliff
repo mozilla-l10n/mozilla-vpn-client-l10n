@@ -110,6 +110,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
         <source>Turn on to protect your privacy</source>
+        <target>一键开启隐私保护</target>
       </trans-unit>
       <trans-unit id="vpn.controller.active" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
@@ -156,14 +157,17 @@
     <body>
       <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
+        <target>%1 天前添加</target>
         <source>Added %1 days ago</source>
       </trans-unit>
       <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the number of hours.</note>
+        <target>几小时前添加（%1）</target>
         <source>Added a few hours ago (%1)</source>
       </trans-unit>
       <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
         <source>Added less than an hour ago</source>
+        <target>不到 1 小时前添加</target>
       </trans-unit>
       <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
         <source>Current Device</source>
@@ -336,6 +340,7 @@
       </trans-unit>
       <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
+        <target>开启 VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -486,6 +491,7 @@
     <body>
       <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
+        <target>已连接到 %1，%2</target>
         <source>Connected to %1, %2</source>
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
@@ -494,6 +500,7 @@
       </trans-unit>
       <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
         <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
+        <target>已从 %1，%2 断开连接</target>
         <source>Disconnected from %1, %2</source>
       </trans-unit>
       <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
