@@ -496,9 +496,11 @@
       </trans-unit>
       <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>已切换 VPN 服务器</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
         <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
+        <target>已从 %1，%2 切换到 %3，%4</target>
         <source>Switched from %1, %2 to %3, %4</source>
       </trans-unit>
     </body>
@@ -1085,6 +1087,7 @@
       </trans-unit>
       <trans-unit id="vpn.crashreporter.crashOptInDialogDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is a description for a checkbox on the crash reporter dialog.</note>
+        <target>不要再询问我，自动向 Mozilla 发送崩溃报告。</target>
         <source>Don’t show this again. Autosend crash reports to Mozilla.</source>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody" xml:space="preserve">
@@ -1141,6 +1144,7 @@
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsInfoAlert" xml:space="preserve">
         <source>VPN must be off to change these settings</source>
+        <target>须先关闭 VPN，才可更改下列设置</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsNavItem" xml:space="preserve">
         <source>DNS settings</source>
@@ -1341,6 +1345,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
+        <target>账户问题</target>
         <source>Account issues</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.disclaimerText" xml:space="preserve">
@@ -1356,6 +1361,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.issueFieldPlaceholder" xml:space="preserve">
         <source>Describe issue</source>
+        <target>描述问题</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.otherDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to issues not covered under the other categories.</note>
