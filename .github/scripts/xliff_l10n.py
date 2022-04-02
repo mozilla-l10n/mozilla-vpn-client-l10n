@@ -1,12 +1,10 @@
 #! /usr/bin/env python3
+
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-"""
- check_locales.py --path <base_l10n_folder> --xliff <xliff_filename>
-"""
-
+from collections import defaultdict
 from glob import glob
 from lxml import etree
 import argparse
@@ -22,9 +20,9 @@ NS = {"x": "urn:oasis:names:tc:xliff:document:1.2"}
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--path",
+        "--l10n",
         required=True,
-        dest="base_folder",
+        dest="locales_path",
         help="Path to folder including subfolders for all locales",
     )
     parser.add_argument(
@@ -33,13 +31,24 @@ def main():
         dest="xliff_filename",
         help="Name of the XLIFF file to process",
     )
+    parser.add_argument(
+        "--dest",
+        dest="dest_file",
+        help="Save output to file",
+    )
+    parser.add_argument(
+        "--exceptions",
+        nargs="?",
+        dest="exceptions_file",
+        help="Path to JSON exceptions file",
+    )
     args = parser.parse_args()
 
     # Get a list of files to check (absolute paths)
-    base_folder = os.path.realpath(args.base_folder)
+    locales_path = os.path.realpath(args.locales_path)
 
     file_paths = []
-    for xliff_path in glob(base_folder + "/*/" + args.xliff_filename):
+    for xliff_path in glob(locales_path + "/*/" + args.xliff_filename):
         parts = xliff_path.split(os.sep)
         file_paths.append(xliff_path)
 
@@ -48,19 +57,19 @@ def main():
     else:
         file_paths.sort()
 
-    # Get path to check_exceptions.json from script path
-    exception_file = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "check_exceptions.json")
-    )
-    if os.path.isfile(exception_file):
-        with open(exception_file) as f:
-            exceptions = json.load(f)
+    # Load exceptions
+    if not args.exceptions_file:
+        exceptions = defaultdict(dict)
     else:
-        print(f"{exception_file} is missing")
-        exceptions = {}
+        exceptions_filename = os.path.basename(args.exceptions_file)
+        try:
+            with open(args.exceptions_file) as f:
+                exceptions = json.load(f)
+        except Exception as e:
+            sys.exit(e)
 
-    var_pattern = re.compile("(%[1-9])")
-    errors = []
+    placeables_pattern = re.compile("(%[1-9ds]?\$?@?)")
+    errors = defaultdict(list)
     for file_path in file_paths:
         locale_errors = {}
         locale = file_path.split(os.sep)[-2]
@@ -79,7 +88,8 @@ def main():
                 file_name = trans_node.getparent().getparent().get("original")
                 string_id = trans_node.get("id")
 
-                ref_string = trans_node.xpath("./x:source", namespaces=NS)[0].text
+                ref_string = trans_node.xpath(
+                    "./x:source", namespaces=NS)[0].text
                 l10n_string = child.text
 
                 # Check ellipsis
@@ -89,34 +99,53 @@ def main():
                         "excluded_locales", []
                     ) or string_id in tmp_exceptions.get(locale, []):
                         continue
-                    errors.append(
-                        f"{locale}: '…' missing in {string_id}\nText: {l10n_string}"
+                    errors[locale].append(
+                        f"'…' missing in {string_id}\nText: {l10n_string}"
                     )
 
-                # Check variables
-                ref_matches = var_pattern.findall(ref_string)
+                # Check placeholders
+                ref_matches = placeables_pattern.findall(ref_string)
                 if ref_matches:
-                    if string_id in exceptions.get("variables", {}).get(locale, []):
+                    if string_id in exceptions.get("placeholders", {}).get(locale, []):
                         continue
                     ref_matches.sort()
-                    l10n_matches = var_pattern.findall(l10n_string)
+                    l10n_matches = placeables_pattern.findall(l10n_string)
                     l10n_matches.sort()
 
                     if ref_matches != l10n_matches:
-                        errors.append(
-                            f"{locale}: variable mismatch in {string_id}\nText: {l10n_string}"
+                        errors[locale].append(
+                            f"Variable mismatch in {string_id}\nText: {l10n_string}\nReference: {ref_string}"
                         )
 
                 # Check pilcrow
                 if "¶" in l10n_string:
-                    errors.append(f"{locale}: '¶' in {string_id}\nText: {l10n_string}")
+                    errors[locale].append(
+                        f"'¶' in {string_id}\nText: {l10n_string}\nReference: {ref_string}"
+                    )
 
     if errors:
-        print("ERRORS:")
-        print("\n".join(errors))
+        locales = list(errors.keys())
+        locales.sort()
+
+        output = []
+        total_errors = 0
+        for locale in locales:
+            output.append(f"Locale: {locale} ({len(errors[locale])})")
+            total_errors += len(errors[locale])
+            for e in errors[locale]:
+                output.append(f"  {e}")
+        output.append(f"\nTotal errors: {total_errors}")
+
+        out_file = args.dest_file
+        if out_file:
+            print(f"Saving output to {out_file}")
+            with open(out_file, "w") as f:
+                f.write("\n".join(output))
+        # Print errors anyway on screen
+        print("\n".join(output))
         sys.exit(1)
     else:
-        print("No errors found.")
+        print("No issues found.")
 
 
 if __name__ == "__main__":

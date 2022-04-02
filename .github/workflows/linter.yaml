@@ -18,4 +18,4 @@ jobs:
           pip install -r .github/scripts/requirements.txt
       - name: Check strings
         run: |
-          python .github/scripts/check_locales.py --xliff mozillavpn.xliff --path .
+          python .github/scripts/xliff_l10n.py --l10n . --xliff mozillavpn.xliff --exceptions .github/scripts/exceptions.json
