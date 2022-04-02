@@ -343,6 +343,7 @@
     <body>
       <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+        <target>须先关闭 VPN 才可编辑下列设置</target>
         <source>VPN must be off to edit these settings</source>
       </trans-unit>
     </body>
@@ -359,6 +360,7 @@
     <body>
       <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
+        <target>正在加载</target>
         <source>Loading</source>
       </trans-unit>
     </body>
@@ -371,17 +373,21 @@
       </trans-unit>
       <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
         <note annotates="source" from="developer">User does not agree to send a crash report.</note>
+        <target>不了，谢谢</target>
         <source>No thanks</source>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
         <note annotates="source" from="developer">Label over description text section.</note>
+        <target>崩溃报告</target>
         <source>Crash reporting</source>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
         <source>Mozilla Crash Reporter</source>
+        <target>Mozilla 崩溃报告器</target>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">User agrees to send a crash report.</note>
+        <target>发送报告</target>
         <source>Send report</source>
       </trans-unit>
     </body>
@@ -560,7 +566,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
         <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-        <target>须先关闭 VPN，才可编辑应用程序权限</target>
+        <target>须先关闭 VPN 才可编辑应用程序权限</target>
         <source>VPN must be off to edit App Permissions</source>
       </trans-unit>
     </body>
@@ -1144,7 +1150,7 @@
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsInfoAlert" xml:space="preserve">
         <source>VPN must be off to change these settings</source>
-        <target>须先关闭 VPN，才可更改下列设置</target>
+        <target>须先关闭 VPN 才可更改下列设置</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsNavItem" xml:space="preserve">
         <source>DNS settings</source>
