@@ -136,8 +136,7 @@
         <target>断开中…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.info" xml:space="preserve">
-        <source>Close</source>
-        <target>关闭</target>
+        <source>Connection Information</source>
       </trans-unit>
       <trans-unit id="vpn.controller.switching" xml:space="preserve">
         <source>Switching…</source>
@@ -386,10 +385,6 @@
         <target>崩溃报告</target>
         <source>Crash reporting</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
-        <source>Mozilla Crash Reporter</source>
-        <target>Mozilla 崩溃报告器</target>
-      </trans-unit>
       <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">User agrees to send a crash report.</note>
         <target>发送报告</target>
@@ -543,6 +538,13 @@
       <trans-unit id="menubar.help.title" xml:space="preserve">
         <source>Help</source>
         <target>帮助</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/authenticationInApp/ViewAuthenticationStart.qml" datatype="plaintext" source-language="en" target-language="zh-CN">
+    <body>
+      <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
+        <source>Continue</source>
       </trans-unit>
     </body>
   </file>
@@ -774,10 +776,6 @@
       <trans-unit id="vpn.postAuthentication..quickAccess" xml:space="preserve">
         <source>Quick access</source>
         <target>快速访问</target>
-      </trans-unit>
-      <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
-        <source>Continue</source>
-        <target>继续</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.statusBarIntro" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
@@ -1103,6 +1101,10 @@
         <target>不要再询问我，自动向 Mozilla 发送崩溃报告。</target>
         <source>Don’t show this again. Autosend crash reports to Mozilla.</source>
       </trans-unit>
+      <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
+        <note annotates="source" from="developer">Main window title</note>
+        <source>Mozilla Crash Report</source>
+      </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody" xml:space="preserve">
         <source>Block internet ads and harmful domains with VPN</source>
         <target>通过 VPN 屏蔽互联网广告和有害网站</target>
@@ -1243,6 +1245,7 @@
         <source>Email format not supported. Please try again with a different email</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidPasswordErrorMessage" xml:space="preserve">
+        <note annotates="source" from="developer">User has submitted an invalid password.</note>
         <source>Invalid password. Please try again</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordHintCharacterLength" xml:space="preserve">
@@ -1266,6 +1269,10 @@
       <trans-unit id="vpn.inAppAuth.passwordInputPlaceholder" xml:space="preserve">
         <source>Enter password</source>
         <target>请输入密码</target>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.problemEmailTypeNotSupported" xml:space="preserve">
+        <note annotates="source" from="developer">App screen that informs the user there was an error signing them in - this is the message.</note>
+        <source>Primary account email required for sign-in</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSendingEmailErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error sending them their verification code email - this is the message.</note>
