@@ -6,18 +6,39 @@
 
 from collections import defaultdict
 from glob import glob
+from html.parser import HTMLParser
+from lxml import etree
 from lxml import etree
 import argparse
+import html
 import json
 import os
 import re
 import sys
 
 
-NS = {"x": "urn:oasis:names:tc:xliff:document:1.2"}
+class MyHTMLParser(HTMLParser):
+    def __init__(self):
+        self.clear()
+        super().__init__(convert_charrefs=True)
+
+    def clear(self):
+        self.tags = []
+
+    def handle_starttag(self, tag, attrs):
+        self.tags.append(tag)
+
+    def handle_endtag(self, tag):
+        self.tags.append(tag)
+
+    def get_tags(self):
+        self.tags.sort()
+        return self.tags
 
 
 def main():
+    NS = {"x": "urn:oasis:names:tc:xliff:document:1.2"}
+
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--l10n",
@@ -70,6 +91,7 @@ def main():
 
     placeables_pattern = re.compile("(%[1-9ds]?\$?@?)")
     errors = defaultdict(list)
+    html_parser = MyHTMLParser()
     for file_path in file_paths:
         locale_errors = {}
         # Extract and normalize locale code
@@ -115,6 +137,22 @@ def main():
                     if ref_matches != l10n_matches:
                         errors[locale].append(
                             f"Variable mismatch in {string_id}\n"
+                            f"  Translation: {l10n_string}\n"
+                            f"  Reference: {ref_string}"
+                        )
+
+                # Check HTML tags
+                html_parser.clear()
+                html_parser.feed(html.unescape(ref_string))
+                ref_tags = html_parser.get_tags()
+                if ref_tags:
+                    html_parser.clear()
+                    html_parser.feed(html.unescape(l10n_string))
+                    l10n_tags = html_parser.get_tags()
+
+                    if l10n_tags != ref_tags:
+                        errors[locale].append(
+                            f"Mismatched HTML elements in string ({string_id})\n"
                             f"  Translation: {l10n_string}\n"
                             f"  Reference: {ref_string}"
                         )
