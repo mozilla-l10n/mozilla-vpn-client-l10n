@@ -49,36 +49,22 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../../nebula/ui/components/VPNConnectionInfo.qml" datatype="plaintext" source-language="en" target-language="hsb">
+  <file original="../../nebula/ui/components/VPNConnectionInfoContent.qml" datatype="plaintext" source-language="en" target-language="hsb">
     <body>
-      <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
-        <source>Close</source>
-        <target>Začinić</target>
-      </trans-unit>
       <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
-        <note annotates="source" from="developer">The current download speed. The speed is shown on the next line.</note>
-        <target>Sćehnjenje</target>
         <source>Download</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.ip2" xml:space="preserve">
         <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
-        <target>IP:</target>
         <source>IP:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.ipv4" xml:space="preserve">
         <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IPv4 address.</note>
-        <target>IPv4:</target>
         <source>IPv4:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.ipv6" xml:space="preserve">
         <note annotates="source" from="developer">The abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
-        <target>IPv6:</target>
         <source>IPv6:</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.upload" xml:space="preserve">
-        <note annotates="source" from="developer">The current upload speed. The speed is shown on the next line.</note>
-        <target>Nahrać</target>
-        <source>Upload</source>
       </trans-unit>
     </body>
   </file>
@@ -102,6 +88,9 @@
   </file>
   <file original="../../nebula/ui/components/VPNControllerView.qml" datatype="plaintext" source-language="en" target-language="hsb">
     <body>
+      <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
+        <source>Close</source>
+      </trans-unit>
       <trans-unit id="vpn.controller.activated" xml:space="preserve">
         <source>VPN is on</source>
         <target>VPN je zmóžnjeny</target>
@@ -138,10 +127,6 @@
       <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
         <source>Disconnecting…</source>
         <target>Zwisk so dźěli…</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.info" xml:space="preserve">
-        <source>Close</source>
-        <target>Začinić</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switching" xml:space="preserve">
         <source>Switching…</source>
@@ -373,15 +358,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="hsb">
-    <body>
-      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
-        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
-        <target>Začituje so</target>
-        <source>Loading</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/crashreporter/crashui/main.qml" datatype="plaintext" source-language="en" target-language="hsb">
     <body>
       <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
@@ -399,14 +375,18 @@
         <target>Rozprawy wo spadach</target>
         <source>Crash reporting</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
-        <source>Mozilla Crash Reporter</source>
-        <target>Rozprawjak spadow Mozilla</target>
-      </trans-unit>
       <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">User agrees to send a crash report.</note>
         <target>Rozprawu pósłać</target>
         <source>Send report</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ipaddresslookup.cpp" datatype="cpp" source-language="en" target-language="hsb">
+    <body>
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
+        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
+        <source>Loading</source>
       </trans-unit>
     </body>
   </file>
@@ -563,6 +543,13 @@
       <trans-unit id="menubar.help.title" xml:space="preserve">
         <source>Help</source>
         <target>Pomoc</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/authenticationInApp/ViewAuthenticationStart.qml" datatype="plaintext" source-language="en" target-language="hsb">
+    <body>
+      <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
+        <source>Continue</source>
       </trans-unit>
     </body>
   </file>
@@ -815,10 +802,6 @@
       <trans-unit id="vpn.postAuthentication..quickAccess" xml:space="preserve">
         <source>Quick access</source>
         <target>Spěšny přistup</target>
-      </trans-unit>
-      <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
-        <source>Continue</source>
-        <target>Dale</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.statusBarIntro" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
@@ -1172,6 +1155,10 @@
         <target>To hižo znowa njepokazać. Spadowe rozprawy awtomatisce na Mozilla pósłać.</target>
         <source>Don’t show this again. Autosend crash reports to Mozilla.</source>
       </trans-unit>
+      <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
+        <note annotates="source" from="developer">Main window title</note>
+        <source>Mozilla Crash Report</source>
+      </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody" xml:space="preserve">
         <source>Block internet ads and harmful domains with VPN</source>
         <target>Internetne wabjenje a škódne domeny z VPN blokować</target>
@@ -1329,8 +1316,9 @@
         <source>Email format not supported. Please try again with a different email</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidPasswordErrorMessage" xml:space="preserve">
-        <source>Invalid password. Please try again</source>
+        <note annotates="source" from="developer">User has submitted an invalid password.</note>
         <target>Njepłaćiwe hesło. Prošu spytajće hišće raz</target>
+        <source>Invalid password. Please try again</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordHintCharacterLength" xml:space="preserve">
         <note annotates="source" from="developer">This is a hint for the user - they must provide a password with at least 8 characters</note>
@@ -1354,6 +1342,10 @@
       <trans-unit id="vpn.inAppAuth.passwordInputPlaceholder" xml:space="preserve">
         <source>Enter password</source>
         <target>Hesło zapodać</target>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.problemEmailTypeNotSupported" xml:space="preserve">
+        <note annotates="source" from="developer">App screen that informs the user there was an error signing them in - this is the message.</note>
+        <source>Primary account email required for sign-in</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSendingEmailErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error sending them their verification code email - this is the message.</note>
