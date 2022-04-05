@@ -56,11 +56,7 @@ jobs:
             # Ensure that the folder to store the .ts file exists, generate
             # strings from strings.yaml
             mkdir -p vpn/translations/en
-            if [ -f "vpn/scripts/utils/generate_strings.py" ]; then
-              python vpn/scripts/utils/generate_strings.py
-            else
-              python vpn/scripts/generate_strings.py
-            fi
+            python vpn/scripts/utils/generate_strings.py
             lupdate vpn/src/src.pro -ts
             # Older branches can have mozillavpn_en.ts in a different path
             mv vpn/translations/en/mozillavpn_en.ts branch.ts

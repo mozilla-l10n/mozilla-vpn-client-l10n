@@ -72,7 +72,8 @@ def main():
     errors = defaultdict(list)
     for file_path in file_paths:
         locale_errors = {}
-        locale = file_path.split(os.sep)[-2]
+        # Extract and normalize locale code
+        locale = file_path.split(os.sep)[-2].replace("_", "-")
 
         # Read localized XML file
         try:
@@ -88,8 +89,7 @@ def main():
                 file_name = trans_node.getparent().getparent().get("original")
                 string_id = trans_node.get("id")
 
-                ref_string = trans_node.xpath(
-                    "./x:source", namespaces=NS)[0].text
+                ref_string = trans_node.xpath("./x:source", namespaces=NS)[0].text
                 l10n_string = child.text
 
                 # Check ellipsis
@@ -97,16 +97,16 @@ def main():
                     tmp_exceptions = exceptions.get("ellipsis", {})
                     if locale in tmp_exceptions.get(
                         "excluded_locales", []
-                    ) or string_id in tmp_exceptions.get(locale, []):
+                    ) or string_id in tmp_exceptions.get("locales", {}).get(locale, []):
                         continue
                     errors[locale].append(
-                        f"'…' missing in {string_id}\nText: {l10n_string}"
+                        f"'…' missing in {string_id}\n  Translation: {l10n_string}"
                     )
 
-                # Check placeholders
+                # Check placeables
                 ref_matches = placeables_pattern.findall(ref_string)
                 if ref_matches:
-                    if string_id in exceptions.get("placeholders", {}).get(locale, []):
+                    if string_id in exceptions.get("placeables", {}).get(locale, []):
                         continue
                     ref_matches.sort()
                     l10n_matches = placeables_pattern.findall(l10n_string)
@@ -114,13 +114,15 @@ def main():
 
                     if ref_matches != l10n_matches:
                         errors[locale].append(
-                            f"Variable mismatch in {string_id}\nText: {l10n_string}\nReference: {ref_string}"
+                            f"Variable mismatch in {string_id}\n"
+                            f"  Translation: {l10n_string}\n"
+                            f"  Reference: {ref_string}"
                         )
 
                 # Check pilcrow
                 if "¶" in l10n_string:
                     errors[locale].append(
-                        f"'¶' in {string_id}\nText: {l10n_string}\nReference: {ref_string}"
+                        f"'¶' in {string_id}\n  Translation: {l10n_string}"
                     )
 
     if errors:
@@ -130,10 +132,10 @@ def main():
         output = []
         total_errors = 0
         for locale in locales:
-            output.append(f"Locale: {locale} ({len(errors[locale])})")
+            output.append(f"\nLocale: {locale} ({len(errors[locale])})")
             total_errors += len(errors[locale])
             for e in errors[locale]:
-                output.append(f"  {e}")
+                output.append(f"\n  {e}")
         output.append(f"\nTotal errors: {total_errors}")
 
         out_file = args.dest_file
