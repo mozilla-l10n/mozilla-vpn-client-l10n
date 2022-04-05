@@ -49,16 +49,11 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../../nebula/ui/components/VPNConnectionInfo.qml" datatype="plaintext" source-language="en" target-language="pa-IN">
+  <file original="../../nebula/ui/components/VPNConnectionInfoContent.qml" datatype="plaintext" source-language="en" target-language="pa-IN">
     <body>
-      <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
-        <source>Close</source>
-        <target>ਬੰਦ ਕਰੋ</target>
-      </trans-unit>
       <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
-        <note annotates="source" from="developer">The current download speed. The speed is shown on the next line.</note>
-        <target>ਡਾਉਨਲੋਡ ਕਰੋ</target>
         <source>Download</source>
+        <target>ਡਾਉਨਲੋਡ ਕਰੋ</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.ip2" xml:space="preserve">
         <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
@@ -74,11 +69,6 @@
         <note annotates="source" from="developer">The abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
         <target>IPv6:</target>
         <source>IPv6:</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.upload" xml:space="preserve">
-        <note annotates="source" from="developer">The current upload speed. The speed is shown on the next line.</note>
-        <target>ਅੱਪਲੋਡ ਕਰੋ</target>
-        <source>Upload</source>
       </trans-unit>
     </body>
   </file>
@@ -102,6 +92,10 @@
   </file>
   <file original="../../nebula/ui/components/VPNControllerView.qml" datatype="plaintext" source-language="en" target-language="pa-IN">
     <body>
+      <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
+        <source>Close</source>
+        <target>ਬੰਦ ਕਰੋ</target>
+      </trans-unit>
       <trans-unit id="vpn.controller.activated" xml:space="preserve">
         <source>VPN is on</source>
         <target>VPN ਚਾਲੂ ਹੈ</target>
@@ -138,10 +132,6 @@
       <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
         <source>Disconnecting…</source>
         <target>…ਕਨੈਕਸ਼ਨ ਤੋੜਿਆ ਜਾ ਰਿਹਾ ਹੈ</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.info" xml:space="preserve">
-        <source>Close</source>
-        <target>ਬੰਦ ਕਰੋ</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switching" xml:space="preserve">
         <source>Switching…</source>
@@ -373,15 +363,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/connectiondataholder.cpp" datatype="cpp" source-language="en" target-language="pa-IN">
-    <body>
-      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
-        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
-        <target>ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</target>
-        <source>Loading</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/crashreporter/crashui/main.qml" datatype="plaintext" source-language="en" target-language="pa-IN">
     <body>
       <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
@@ -398,14 +379,19 @@
         <target>ਕਰੈਸ਼ ਰਿਪੋਰਟਿੰਗ</target>
         <source>Crash reporting</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
-        <source>Mozilla Crash Reporter</source>
-        <target>Mozilla ਕਰੈਸ਼ ਰਿਪੋਰਟਰ</target>
-      </trans-unit>
       <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">User agrees to send a crash report.</note>
         <target>ਰਿਪੋਰਟ ਭੇਜੋ</target>
         <source>Send report</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ipaddresslookup.cpp" datatype="cpp" source-language="en" target-language="pa-IN">
+    <body>
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
+        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
+        <target>ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</target>
+        <source>Loading</source>
       </trans-unit>
     </body>
   </file>
@@ -558,6 +544,14 @@
       <trans-unit id="menubar.help.title" xml:space="preserve">
         <source>Help</source>
         <target>ਮਦਦ</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/authenticationInApp/ViewAuthenticationStart.qml" datatype="plaintext" source-language="en" target-language="pa-IN">
+    <body>
+      <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
+        <source>Continue</source>
+        <target>ਜਾਰੀ ਰੱਖੋ</target>
       </trans-unit>
     </body>
   </file>
@@ -804,10 +798,6 @@
       <trans-unit id="vpn.postAuthentication..quickAccess" xml:space="preserve">
         <source>Quick access</source>
         <target>ਫ਼ੌਰੀ ਪਹੁੰਚ</target>
-      </trans-unit>
-      <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
-        <source>Continue</source>
-        <target>ਜਾਰੀ ਰੱਖੋ</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.statusBarIntro" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
@@ -1147,6 +1137,10 @@
         <target>ਇਹ ਮੁੜ ਨਾ ਵੇਖਾਓ। ਕਰੈਸ਼ ਰਿਪੋਰਟਾਂ ਆਪਣੇ-ਆਪ Mozilla ਨੂੰ ਭੇਜੋ।</target>
         <source>Don’t show this again. Autosend crash reports to Mozilla.</source>
       </trans-unit>
+      <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
+        <note annotates="source" from="developer">Main window title</note>
+        <source>Mozilla Crash Report</source>
+      </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody" xml:space="preserve">
         <source>Block internet ads and harmful domains with VPN</source>
         <target>VPN ਨਾਲ ਇੰਟਰਨੈੱਟ ਇਸ਼ਤਿਹਾਰ ਅਤੇ ਨੁਕਸਾਨਦੇਹ ਡੋਮੇਨਾਂ ਉੱਤੇ ਪਾਬੰਦੀ</target>
@@ -1301,8 +1295,9 @@
         <source>Email format not supported. Please try again with a different email</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidPasswordErrorMessage" xml:space="preserve">
-        <source>Invalid password. Please try again</source>
+        <note annotates="source" from="developer">User has submitted an invalid password.</note>
         <target>ਪਾਸਵਰਡ ਗਲਤ ਹੈ। ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ</target>
+        <source>Invalid password. Please try again</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordHintCharacterLength" xml:space="preserve">
         <note annotates="source" from="developer">This is a hint for the user - they must provide a password with at least 8 characters</note>
@@ -1326,6 +1321,10 @@
       <trans-unit id="vpn.inAppAuth.passwordInputPlaceholder" xml:space="preserve">
         <source>Enter password</source>
         <target>ਪਾਸਵਰਡ ਦਿਓ</target>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.problemEmailTypeNotSupported" xml:space="preserve">
+        <note annotates="source" from="developer">App screen that informs the user there was an error signing them in - this is the message.</note>
+        <source>Primary account email required for sign-in</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSendingEmailErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error sending them their verification code email - this is the message.</note>
