@@ -1637,23 +1637,29 @@
       </trans-unit>
       <trans-unit id="vpn.settings.startAtBootTitle" xml:space="preserve">
         <note annotates="source" from="developer">Startup refers to a device's startup, not the VPN client's.</note>
+        <target>开机时自动连接 VPN</target>
         <source>Connect VPN on startup</source>
       </trans-unit>
       <trans-unit id="vpn.settings.systemPreferences" xml:space="preserve">
         <source>System preferences</source>
+        <target>系统首选项</target>
       </trans-unit>
       <trans-unit id="vpn.settings.tunnelPort53" xml:space="preserve">
         <note annotates="source" from="developer">Tunnel is used as a verb, as in to direct traffic through</note>
+        <target>通过 DNS 的 53 端口建立 VPN 隧道 </target>
         <source>Tunnel VPN through port 53/DNS</source>
       </trans-unit>
       <trans-unit id="vpn.settings.tunnelPort53Description" xml:space="preserve">
         <source>Use port 53/DNS for Wireguard traffic, which may help evade firewalls</source>
+        <target>使用 DNS 的 53 端口传输 Wireguard 流量，可能有助于规避防火墙检测</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
         <source>VPN must be restarted to take effect</source>
+        <target>必须重启 VPN 才能生效</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.showOptionSubtitle" xml:space="preserve">
         <source>Show or hide the developer options menu</source>
+        <target>显示或隐藏开发者选项菜单</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.showOptionTitle" xml:space="preserve">
         <source>Show Developer Options</source>
@@ -1679,6 +1685,7 @@
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppActionButton" xml:space="preserve">
         <note annotates="source" from="developer">Displayed in a notification as "call to action" when apps are missing from the split-tunnel settings.</note>
+        <target>手动添加应用程序</target>
         <source>Add apps manually</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppAddedOne" xml:space="preserve">
@@ -1702,10 +1709,12 @@
       </trans-unit>
       <trans-unit id="vpn.systray.location2" xml:space="preserve">
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
+        <target>%1，%2</target>
         <source>%1, %2</source>
       </trans-unit>
       <trans-unit id="vpn.systray.preferences" xml:space="preserve">
         <source>Preferences…</source>
+        <target>首选项…</target>
       </trans-unit>
       <trans-unit id="vpn.systray.quit" xml:space="preserve">
         <source>Quit Mozilla VPN</source>
