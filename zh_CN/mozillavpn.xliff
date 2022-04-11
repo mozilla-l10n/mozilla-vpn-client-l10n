@@ -713,10 +713,11 @@
     <body>
       <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
         <source>Guest Wi-Fi portal alert</source>
-        <target>访客 Wi-Fi 门户提示</target>
+        <target>Wi-Fi 登录页面提示</target>
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
+        <target>Wi-Fi 登录页面因 VPN 连接无法加载时通知您</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
         <source>Get notified when the connection status changes</source>
@@ -1012,11 +1013,11 @@
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPostActivation" xml:space="preserve">
         <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
-        <target>您须暂时关闭 VPN 才能看到门户登录页面，登录成功后再开启 VPN。</target>
+        <target>您须暂时关闭 VPN 才能看到网络登录页面，登录成功后再开启 VPN。</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPreActivation" xml:space="preserve">
         <source>You can turn on your VPN once you have gained internet access by logging in to the portal.</source>
-        <target>登录门户获得互联网访问权限后，重新开启 VPN。</target>
+        <target>登录网络获得互联网访问权限后，重新开启 VPN。</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation" xml:space="preserve">
         <source>Turn off VPN</source>
@@ -1032,7 +1033,7 @@
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.title" xml:space="preserve">
         <source>Captive portal detected!</source>
-        <target>检测到强制门户页面！</target>
+        <target>检测到网络登录页面！</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.errorMessage" xml:space="preserve">
         <source>Looks like there was an unexpected error while trying to connect. Please try again or check your connection.</source>
@@ -1608,6 +1609,7 @@
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal detected</source>
+        <target>检测到 Wi-Fi 登录页面</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
