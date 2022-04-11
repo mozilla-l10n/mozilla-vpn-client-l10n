@@ -717,7 +717,6 @@
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
-        <target>Wi-Fi 登录页面因 VPN 连接无法加载时通知您</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
         <source>Get notified when the connection status changes</source>
@@ -1508,7 +1507,7 @@
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber" xml:space="preserve">
         <source>Already a subscriber?</source>
-        <target>已经是订阅者？</target>
+        <target>已是订阅者？</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelFourSubtitle" xml:space="preserve">
         <source>Stream, download and game without limits, monthly caps or ISP throttling.</source>
@@ -1613,13 +1612,16 @@
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
+        <target>%1 网络不安全，请点此开启 VPN 保护您的设备。</target>
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkTitle" xml:space="preserve">
         <source>Unsecured Wi-Fi network detected</source>
+        <target>检测到不安全的 Wi-Fi 网络</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
         <source>Already a subscriber?</source>
+        <target>已是订阅者？</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText" xml:space="preserve">
         <source>Sorry, we are unable to connect your Firefox Account to a current subscription. Please try again or contact our support team for further assistance.</source>
@@ -1812,6 +1814,7 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.connectionInfoDisplayName" xml:space="preserve">
         <source>Test your speed</source>
+        <target>测试网络速度</target>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemBody" xml:space="preserve">
         <source>Custom DNS settings allow for faster connection using local servers.</source>
