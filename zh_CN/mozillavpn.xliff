@@ -528,6 +528,7 @@
     <body>
       <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
         <note annotates="source" from="developer">Refers to the app - which is currently running the background and waiting</note>
+        <target>已就绪，可连接</target>
         <source>Ready for you to connect</source>
       </trans-unit>
     </body>
@@ -720,6 +721,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
         <source>Get notified when the connection status changes</source>
+        <target>连接状态变更时通知您</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
         <source>Connection change notification</source>
@@ -1228,6 +1230,7 @@
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
+        <target>确认订阅信息时出现问题</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again. Visit our help center below to learn how to troubleshoot this issue or contact support.</source>
@@ -1308,18 +1311,22 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemEmailTypeNotSupported" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error signing them in - this is the message.</note>
+        <target>需要使用账户的主邮箱地址登录</target>
         <source>Primary account email required for sign-in</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSendingEmailErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error sending them their verification code email - this is the message.</note>
+        <target>抱歉，我们无法向您发送验证码。</target>
         <source>Sorry, we were unable to send you a verification code.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSendingEmailTitle" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error sending them their verification code email - this is the title.</note>
+        <target>发送邮件时出现问题...</target>
         <source>Problem sending email…</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSigningInErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error signing them in - this is the message.</note>
+        <target>抱歉，无法登录您的账户。</target>
         <source>Sorry, we were unable to sign you in to your account.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSigningInTitle" xml:space="preserve">
@@ -1542,6 +1549,7 @@
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
+        <target>确认订阅信息时出现问题</target>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorText" xml:space="preserve">
         <source>Your subscription is linked to another Firefox Account. You may need to sign in with a different email address.</source>
