@@ -1074,6 +1074,7 @@
       </trans-unit>
       <trans-unit id="guide.connecting_external_devices.block.c_1" xml:space="preserve">
         <note annotates="source" from="developer">Title in a guide block</note>
+        <target>ਮੈਂ ਆਪਣੇ ਪਰਿੰਟਰ ਜਾਂ ਫੈਕਸ ਨਾਲ ਕਿਵੇਂ ਕਨੈਕਟ ਕਰਾਂ?</target>
         <source>How do I connect to my printer or fax?</source>
       </trans-unit>
       <trans-unit id="guide.connecting_external_devices.block.c_2.l_1" xml:space="preserve">
@@ -1126,6 +1127,7 @@
       </trans-unit>
       <trans-unit id="guide.how_to_vpn.block.c_3" xml:space="preserve">
         <note annotates="source" from="developer">Title in a guide block</note>
+        <target>ਢਾਲ ਹਰ ਥਾਂ ਤੁਹਾਡੇ ਨਾਲ</target>
         <source>Defense on the go</source>
       </trans-unit>
       <trans-unit id="guide.how_to_vpn.block.c_4.l_1" xml:space="preserve">
@@ -1158,6 +1160,7 @@
       </trans-unit>
       <trans-unit id="guide.is_my_vpn_working_correctly.block.c_1" xml:space="preserve">
         <note annotates="source" from="developer">Title in a guide block</note>
+        <target>ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਵਿੱਚ ਖੋਜੋ</target>
         <source>Search in your browser</source>
       </trans-unit>
       <trans-unit id="guide.is_my_vpn_working_correctly.block.c_2" xml:space="preserve">
@@ -1509,22 +1512,27 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemEmailTypeNotSupported" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error signing them in - this is the message.</note>
+        <target>ਸਾਈਨ ਇਨ ਰਨ ਲਈ ਪ੍ਰਾਇਮਰੀ ਖਾਤਾ ਈਮੇਲ ਚਾਹੀਦਾ ਹੈ</target>
         <source>Primary account email required for sign-in</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSendingEmailErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error sending them their verification code email - this is the message.</note>
+        <target>ਅਫ਼ਸੋਸ, ਅਸੀਂ ਤੁਹਾਨੂੰ ਤਸਦੀਕੀ ਕੋਡ ਭੇਜਣ ਲਈ ਅਸਮਰੱਥ ਸਾਂ।</target>
         <source>Sorry, we were unable to send you a verification code.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSendingEmailTitle" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error sending them their verification code email - this is the title.</note>
+        <target>…ਈਮੇਲ ਭੇਜਣ ਦੌਰਾਨ ਸਮੱਸਿਆ</target>
         <source>Problem sending email…</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSigningInErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error signing them in - this is the message.</note>
+        <target>ਅਫ਼ਸੋਸ ਹੈ, ਅਸੀਂ ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਖਾਤੇ ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰਵਾਉਣ ਲਈ ਅਸਮਰੱਥ ਸਾਂ।</target>
         <source>Sorry, we were unable to sign you in to your account.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSigningInTitle" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user we are having a problem signing them in - this is the title.</note>
+        <target>…ਸਾਈਨ ਇਨ ਕਰਨ ਵਿੱਚ ਸਮੱਸਿਆ</target>
         <source>Problem signing in…</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.productUpdateOptInDescription" xml:space="preserve">
@@ -1538,6 +1546,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.securityCodeInputPlaceholder" xml:space="preserve">
         <note annotates="source" from="developer">Placeholder text for input element asking user for TOTP 6-digit verification code.</note>
+        <target>6-ਅੰਕਾਂ ਦਾ ਕੋਡ ਦਿਓ</target>
         <source>Enter 6-digit code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.securityCodeLabel" xml:space="preserve">
@@ -1547,6 +1556,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.securityCodeSubtitle" xml:space="preserve">
         <note annotates="source" from="developer">User is asked for a security code from their authentication app for verification.</note>
+        <target>ਆਪਣੀ ਪਰਮਾਣਕਿਤਾ ਐਪ ਖੋਲ੍ਹੋ ਅਤੇ ਇਸ ਵਲੋਂ ਦਿੱਤਾ ਸੁਰੱਖਿਆ ਕੋਡ ਦਿਓ।</target>
         <source>Open your authentication app and enter the security code it provides.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.securityCodeTitle" xml:space="preserve">
@@ -1556,10 +1566,12 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.sessionEmailCodeInputPlaceholder" xml:space="preserve">
         <note annotates="source" from="developer">Placeholder text for input element asking user for 6-digit verification code from their email.</note>
+        <target>6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ</target>
         <source>Enter 6-digit code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInBlockedForOneMinute" xml:space="preserve">
         <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 1 minute until they can try again.</note>
+        <target>ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਕਰਨ ਦੀਆਂ ਬਹੁਤ ਕੋਸ਼ਿਸ਼ਾਂ ਕਰ ਚੁੱਕੇ ਹੋ। ਇਸ ਖਾਤੇ ਲਈ ਤੁਸੀਂ 1 ਮਿੰਟ ਲਈ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਨਹੀਂ ਕਰ ਸਕੋਗੇ।</target>
         <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 1 minute.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInButton" xml:space="preserve">
@@ -1568,10 +1580,12 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInFailedPopupDescription" xml:space="preserve">
         <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 15 minutes until they can try again.</note>
+        <target>ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਕਰਨ ਦੀਆਂ ਬਹੁਤ ਕੋਸ਼ਿਸ਼ਾਂ ਕਰ ਚੁੱਕੇ ਹੋ। ਇਸ ਖਾਤੇ ਲਈ ਤੁਸੀਂ 15 ਮਿੰਟਾਂ ਲਈ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਨਹੀਂ ਕਰ ਸਕੋਗੇ।</target>
         <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 15 minutes.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInFailedPopupTitle" xml:space="preserve">
         <source>Sign-in failed</source>
+        <target>ਸਾਈਨ-ਇਨ ਅਸਫ਼ਲ ਹੈ</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInSubtitle" xml:space="preserve">
         <source>Continue to Mozilla VPN by signing in with your Firefox account</source>
@@ -1582,6 +1596,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.unblockCodeInputPlaceholder" xml:space="preserve">
         <note annotates="source" from="developer">Placeholder text for input element asking user for 8-digit verification code from their email.</note>
+        <target>8-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ</target>
         <source>Enter 8-digit code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verificationCodeInputPlaceholder" xml:space="preserve">
