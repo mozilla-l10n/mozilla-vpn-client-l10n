@@ -560,6 +560,15 @@
       </trans-unit>
     </body>
   </file>
+  <file original="../src/ui/gpucheck/main.qml" datatype="plaintext" source-language="en" target-language="cy">
+    <body>
+      <group restype="x-trolltech-linguist-context" resname="main">
+        <trans-unit id="_msg1" xml:space="preserve">
+        <source>Checking the graphical card</source>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
   <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="cy">
     <body>
       <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
@@ -1231,6 +1240,14 @@
         <source>Licenses</source>
         <target>Trwyddedau</target>
       </trans-unit>
+      <trans-unit id="vpn.accessibility.currentIndexFocusedOfTotalItemsInGroup" xml:space="preserve">
+        <note annotates="source" from="developer">Used by screen readers to explain to users which item they are currently focused on, and how many items there are total in a group. For example, given a list with 15 items. If a user selects the 3rd item, we want the screen reader to read out "3 of 15". The %1 represents the index of the currently focused item by the screen reader. The %2 represents the total number of items in the group.</note>
+        <source>%1 of %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.accessibility.selectedAndItemName" xml:space="preserve">
+        <note annotates="source" from="developer">Used by screen readers to denote that a particular item is currently selected. For example, given a segmented control with 2 items, where the first item is currently selected. We want the screen reader to read out "Selected, &lt;item name&gt;". The %1 represents the name of the selected item.</note>
+        <source>Selected item: %1</source>
+      </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPostActivation" xml:space="preserve">
         <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
         <target>Rhaid i chi ddiffodd eich VPN er mwyn gweld y porth, a'i droi yn ôl ymlaen unwaith y byddwch wedi mewngofnodi.</target>
@@ -1426,6 +1443,38 @@
         <source>Invalid DNS, please try a new one</source>
         <target>DNS annilys, rhowch gynnig ar un newydd</target>
       </trans-unit>
+      <trans-unit id="vpn.deleteAccount.authButtonLabel" xml:space="preserve">
+        <source>Continue</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.authSubheadline" xml:space="preserve">
+        <source>To delete your VPN account, please sign in with your Firefox account password.</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.buttonLabel" xml:space="preserve">
+        <source>Delete account</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.headline" xml:space="preserve">
+        <source>Delete Firefox account</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.optionDescriptionFour" xml:space="preserve">
+        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <source>Any extensions and themes that you’ve published to addons.mozilla.org will be deleted</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.optionDescriptionOne" xml:space="preserve">
+        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <source>Any paid subscriptions you have will be cancelled (Except Pocket)</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.optionDescriptionThree" xml:space="preserve">
+        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <source>Reactivating with this email may not restore your saved information</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.optionDescriptionTwo" xml:space="preserve">
+        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <source>You may lose saved information and features within Mozilla products</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.subheadline" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
+        <source>Your Firefox account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
+      </trans-unit>
       <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
         <source>Choose a category</source>
         <target>Dewiswch Gategori</target>
@@ -1471,6 +1520,18 @@
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again. Visit our help center below to learn how to troubleshoot this issue or contact support.</source>
         <target>Mae gwall annisgwyl wedi digwydd, ceisiwch eto. Ewch i'n canolfan gymorth isod i ddysgu sut i ddatrys y mater hwn neu gysylltu â chymorth.</target>
+      </trans-unit>
+      <trans-unit id="vpn.global.collapse" xml:space="preserve">
+        <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
+        <source>Collapse</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.expand" xml:space="preserve">
+        <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
+        <source>Expand</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.vpnUser" xml:space="preserve">
+        <note annotates="source" from="developer">Fallback string for users who have not specified a Display Name.</note>
+        <source>VPN User</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.changeEmailLink" xml:space="preserve">
         <source>Change email</source>
