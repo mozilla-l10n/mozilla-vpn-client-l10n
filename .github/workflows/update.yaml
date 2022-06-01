@@ -38,45 +38,9 @@ jobs:
           pip install -r translationFiles/.github/scripts/requirements.txt
       - name: Extract new strings
         run: |
-          # Manually add QT executables to path
           export PATH=/opt/$QTVERSION/gcc_64/bin:$PATH
-
-          # Extract strings for the default branch using a dummy project
-          (cd vpn && python scripts/utils/generate_strings.py -o translations/generated -g src/ui/guides -t src/ui/tutorials)
-          cp translationFiles/.github/scripts/dummy_project.pro vpn/translations/generated/dummy.pro
-          lupdate vpn/translations/generated/dummy.pro -ts translations.ts
-          mv translations.ts translations_superset.ts
-
-          # Store translations for each branch in branch.ts, then convert them
-          # from both main and branch, with precedence to the former.
-          for branch in $(cd vpn && git branch -r | grep origin/releases); do
-            echo Importing strings from $branch
-            (cd vpn && git checkout $branch)
-
-            if [[ ${branch#origin/releases/} == 2.8.* ]]
-            then
-              # Extraction for 2.8.x, using script without parameters
-
-              # Ensure that the folder to store the .ts file exists
-              mkdir -p vpn/translations/en
-
-              (cd vpn && python scripts/utils/generate_strings.py)
-              lupdate vpn/src/src.pro -ts branch.ts
-              lconvert -i translations_superset.ts branch.ts -o tmp.ts
-              mv tmp.ts translations_superset.ts
-              rm branch.ts
-            else
-              # Extract strings for the branch using a dummy project
-              (cd vpn && python scripts/utils/generate_strings.py -o translations/generated -g src/ui/guides -t src/ui/tutorials)
-              cp translationFiles/.github/scripts/dummy_project.pro vpn/translations/generated/dummy.pro
-              lupdate vpn/translations/generated/dummy.pro -ts translations.ts
-              lconvert -i translations_superset.ts translations.ts -o tmp.ts
-              mv tmp.ts translations_superset.ts
-              rm translations.ts
-            fi
-          done
-
-          python translationFiles/.github/scripts/extract_source_strings.py --input translations_superset.ts --l10n translationFiles
+          ./vpn/scripts/utils/generate_ts.sh
+          python translationFiles/.github/scripts/extract_source_strings.py --input vpn/translations.ts --l10n translationFiles
           python translationFiles/.github/scripts/update_other_locales.py --reference en --xliff mozillavpn.xliff --path translationFiles/ --type "${{ github.event.inputs.type }}"
       - run : git config --global user.email 'flodolo@users.noreply.github.com'
       - uses: peter-evans/create-pull-request@v4
