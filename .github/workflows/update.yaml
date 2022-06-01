@@ -39,31 +39,36 @@ jobs:
         run: |
           # Manually add QT executables to path
           export PATH=/opt/qt515/bin:$PATH
-          # Ensure that the folder to store the .ts file exists, generate
-          # strings from strings.yaml
-          mkdir -p vpn/translations/en
-          python vpn/scripts/utils/generate_strings.py
+          (cd vpn && python scripts/utils/generate_strings.py -o translations/generated -g src/ui/guides -t src/ui/tutorials)
+          echo '### DUMMY PRO FILE' > vpn/translations/generated/dummy.pro
+          echo 'HEADERS += l18nstrings.h' >> vpn/translations/generated/dummy.pro
+          echo 'SOURCES += l18nstrings_p.cpp' >> vpn/translations/generated/dummy.pro
+          echo 'SOURCES += ../l18nstrings.cpp' >> vpn/translations/generated/dummy.pro
+          echo 'TRANSLATIONS += translations.ts' >> vpn/translations/generated/dummy.pro
+          echo 'HEADERS += $$files(../../src/*.h, true)' >> vpn/translations/generated/dummy.pro
+          echo 'SOURCES += $$files(../../src/*.cpp, true)' >> vpn/translations/generated/dummy.pro
+          echo 'RESOURCES += $$files(../../src/*.qrc, true)' >> vpn/translations/generated/dummy.pro
+          echo 'HEADERS += $$files(../../nebula/*.h, true)' >> vpn/translations/generated/dummy.pro
+          echo 'SOURCES += $$files(../../nebula/*.cpp, true)' >> vpn/translations/generated/dummy.pro
+          echo 'RESOURCES += $$files(../../nebula/*.qrc, true)' >> vpn/translations/generated/dummy.pro
+
           lupdate -version
-          lupdate vpn/src/src.pro -ts
-          # Store translations from the "main" branch in translations.ts
-          mv vpn/translations/en/mozillavpn_en.ts translations.ts
+          lupdate vpn/translations/generated/dummy.pro -ts translations.ts
           # Store translations for each branch in branch.ts, then convert them
           # from both main and branch, with precedence to the former.
           for branch in $(cd vpn && git branch -r | grep origin/releases); do
             echo Importing strings from $branch
-            cd vpn && git checkout $branch
-            cd ..
+            (cd vpn && git checkout $branch)
             # Ensure that the folder to store the .ts file exists, generate
             # strings from strings.yaml
             mkdir -p vpn/translations/en
-            python vpn/scripts/utils/generate_strings.py
-            lupdate vpn/src/src.pro -ts
-            # Older branches can have mozillavpn_en.ts in a different path
-            mv vpn/translations/en/mozillavpn_en.ts branch.ts
+            (cd vpn && python scripts/utils/generate_strings.py)
+            lupdate vpn/src/src.pro -ts branch.ts
             lconvert -i translations.ts branch.ts -o tmp.ts
             mv tmp.ts translations.ts
             rm branch.ts
           done
+          (cd vpn && git checkout main)
           python translationFiles/.github/scripts/extract_source_strings.py --input translations.ts --l10n translationFiles
           python translationFiles/.github/scripts/update_other_locales.py --reference en --xliff mozillavpn.xliff --path translationFiles/ --type "${{ github.event.inputs.type }}"
       - run : git config --global user.email 'flodolo@users.noreply.github.com'
