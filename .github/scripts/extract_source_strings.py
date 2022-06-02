@@ -65,6 +65,11 @@ def main():
     for f in root.xpath("//x:file", namespaces=NS):
         if "original" in f.attrib:
             file_name = f.get("original").replace("../../src/", "../src/")
+            # Changes caused by https://github.com/mozilla-l10n/mozilla-vpn-client-l10n/pull/268
+            file_name = file_name.replace("vpn/nebula/", "../../nebula/")
+            file_name = file_name.replace("vpn/src/", "../src/")
+            if "generated/l18nstrings_p.cpp" in file_name:
+                file_name = "generated/l18nstrings_p.cpp"
             f.set("original", file_name)
 
     # Normalize path for strings generated from strings.yaml, removing "../"
@@ -96,6 +101,10 @@ def main():
     # Remove all <context-group> elements
     for context_group in root.xpath("//x:context-group", namespaces=NS):
         context_group.getparent().remove(context_group)
+
+    # Add target language
+    for file_node in root.xpath("//x:file", namespaces=NS):
+        file_node.set("target-language", "en-US")
 
     # Sort file elements by "original" attribute
     sort_children(root, "original")
