@@ -137,7 +137,8 @@ def main():
         locale_mapping = {
             "sv_SE": "sv",  # See bug 1713058
         }
-        locale_code = locale_mapping.get(locale_code, locale_code)
+        # Normaliza the locale code, using dashes instead of underscores
+        locale_code = locale_mapping.get(locale_code, locale_code).replace("_", "-")
 
         """
          Store existing localizations in a dictionary.
@@ -203,8 +204,7 @@ def main():
         # Update target-language where defined, replace underscores with
         # hyphens if necessary (e.g. en_GB => en-GB).
         for file_node in reference_root_copy.xpath("//x:file", namespaces=NS):
-            if file_node.get("target-language"):
-                file_node.set("target-language", locale_code.replace("_", "-"))
+            file_node.set("target-language", locale_code)
 
         # Replace the existing locale file with the new XML content
         with open(file_path, "w") as fp:
