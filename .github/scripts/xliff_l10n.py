@@ -124,7 +124,7 @@ def main():
                     ).get(locale, []):
                         continue
                     errors[locale].append(
-                        f"'…' in {string_id}\n  Translation: {l10n_string}"
+                        f"'...' in {string_id}\n  Translation: {l10n_string}"
                     )
 
                 # Check placeables
