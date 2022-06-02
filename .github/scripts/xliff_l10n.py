@@ -33,6 +33,10 @@ class MyHTMLParser(HTMLParser):
 
     def get_tags(self):
         self.tags.sort()
+
+        # Remove line breaks
+        self.tags = [t for t in self.tags if t != "br"]
+
         return self.tags
 
 
@@ -45,12 +49,6 @@ def main():
         required=True,
         dest="locales_path",
         help="Path to folder including subfolders for all locales",
-    )
-    parser.add_argument(
-        "--xliff",
-        required=True,
-        dest="xliff_filename",
-        help="Name of the XLIFF file to process",
     )
     parser.add_argument(
         "--dest",
@@ -69,7 +67,7 @@ def main():
     locales_path = os.path.realpath(args.locales_path)
 
     file_paths = []
-    for xliff_path in glob(locales_path + "/*/" + args.xliff_filename):
+    for xliff_path in glob(locales_path + "/**/*.xliff", recursive=True):
         parts = xliff_path.split(os.sep)
         file_paths.append(xliff_path)
 
@@ -93,9 +91,11 @@ def main():
     errors = defaultdict(list)
     html_parser = MyHTMLParser()
     for file_path in file_paths:
-        locale_errors = {}
-        # Extract and normalize locale code
-        locale = file_path.split(os.sep)[-2].replace("_", "-")
+        # Extract and normalize locale code, relative file path
+        rel_file_path = os.path.relpath(file_path, args.locales_path)
+        locale_folder = rel_file_path.split(os.sep)[0]
+        locale = locale_folder.replace("_", "-")
+        rel_file_path = rel_file_path.split(locale_folder)[1:][0].lstrip(os.path.sep)
 
         # Read localized XML file
         try:
@@ -106,23 +106,25 @@ def main():
             print(e)
             continue
 
+        ignore_ellipsis = locale in exceptions.get("ellipsis", {}).get(
+            "excluded_locales", []
+        )
+
         for trans_node in root.xpath("//x:trans-unit", namespaces=NS):
             for child in trans_node.xpath("./x:target", namespaces=NS):
-                file_name = trans_node.getparent().getparent().get("original")
-                string_id = trans_node.get("id")
+                string_id = f"{rel_file_path}:{trans_node.get('id')}"
 
                 ref_string = trans_node.xpath("./x:source", namespaces=NS)[0].text
                 l10n_string = child.text
 
                 # Check ellipsis
-                if "…" in ref_string and "…" not in l10n_string:
-                    tmp_exceptions = exceptions.get("ellipsis", {})
-                    if locale in tmp_exceptions.get(
-                        "excluded_locales", []
-                    ) or string_id in tmp_exceptions.get("locales", {}).get(locale, []):
+                if not ignore_ellipsis and "..." in l10n_string:
+                    if string_id in exceptions.get("ellipsis", {}).get(
+                        "locales", {}
+                    ).get(locale, []):
                         continue
                     errors[locale].append(
-                        f"'…' missing in {string_id}\n  Translation: {l10n_string}"
+                        f"'…' in {string_id}\n  Translation: {l10n_string}"
                     )
 
                 # Check placeables
