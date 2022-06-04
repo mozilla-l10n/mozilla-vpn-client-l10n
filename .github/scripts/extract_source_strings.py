@@ -39,6 +39,12 @@ def main():
         help="Path to folder including subfolders for all locales",
     )
     parser.add_argument(
+        "--output",
+        required=True,
+        dest="output_file",
+        help="Path to the output XLIFF file",
+    )
+    parser.add_argument(
         "--lib",
         required=False,
         default="",
@@ -47,7 +53,7 @@ def main():
     )
     args = parser.parse_args()
 
-    output_xliff_file = os.path.join(args.l10n_path, "en", "mozillavpn.xliff")
+    output_xliff_file = args.output_file
 
     # Update English XLIFF file
     print(f"Updating {output_xliff_file}")
