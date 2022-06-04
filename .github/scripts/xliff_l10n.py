@@ -68,7 +68,6 @@ def main():
 
     file_paths = []
     for xliff_path in glob(locales_path + "/**/*.xliff", recursive=True):
-        parts = xliff_path.split(os.sep)
         file_paths.append(xliff_path)
 
     if not file_paths:

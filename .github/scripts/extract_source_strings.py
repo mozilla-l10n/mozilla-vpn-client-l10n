@@ -56,7 +56,7 @@ def main():
     output_xliff_file = args.output_file
 
     # Update English XLIFF file
-    print(f"Updating {output_xliff_file}")
+    print(f"Extracting strings in {output_xliff_file}")
     exe_path = os.path.join(args.lib_path, "lconvert")
     os.system(f"{exe_path} -if ts -i {args.input_path} -of xlf -o {output_xliff_file}")
 

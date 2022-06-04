@@ -4,9 +4,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 """
- update_other_locales.py --reference <locale> --path <base_l10n_folder> --xliff <xliff_filename> [optional list of locales]
+ update_other_locales.py --reference <locale> --path <base_l10n_folder> [optional list of locales]
 
-  For each folder (locale) available in base_l10n_folder:
+  First, get a list of all XLIFF files in the reference locale. Then, for
+  each folder (locale) available in base_l10n_folder:
 
   1. Read existing translations, store them in an array: IDs use the structure
      file_name:string_id:source_hash. Using the hash of the source string
@@ -51,12 +52,6 @@ def main():
         help="Path to folder including subfolders for all locales",
     )
     parser.add_argument(
-        "--xliff",
-        required=True,
-        dest="xliff_filename",
-        help="Name of the XLIFF file to process",
-    )
-    parser.add_argument(
         "--type",
         required=False,
         default="standard",
@@ -75,84 +70,111 @@ def main():
 
     # Get a list of files to update (absolute paths)
     base_folder = os.path.realpath(args.base_folder)
+    reference_path = os.path.join(base_folder, reference_locale)
 
-    reference_file_path = os.path.join(
-        base_folder, reference_locale, args.xliff_filename
-    )
-    if not os.path.isfile(reference_file_path):
-        sys.exit(f"Requested reference file doesn't exist: {reference_file_path}")
+    # Get a list of all the reference XLIFF files
+    reference_files = []
+    for xliff_path in glob(reference_path + "/**/*.xliff", recursive=True):
+        reference_files.append(os.path.relpath(xliff_path, reference_path))
+    if not reference_files:
+        sys.exit(
+            f"No reference file found in {os.path.join(base_folder, reference_locale)}"
+        )
 
-    file_paths = []
-    if not args.locales:
-        for xliff_path in glob(base_folder + "/*/" + args.xliff_filename):
-            parts = xliff_path.split(os.sep)
-            if not parts[-2] in excluded_locales:
-                file_paths.append(xliff_path)
+    # Get the list of locales
+    if args.locales:
+        locales = args.locales
     else:
-        for locale in args.locales:
-            if locale in excluded_locales:
-                print(f"Requested locale is in the list of excluded locales: {locale}")
+        locales = [
+            d
+            for d in os.listdir(base_folder)
+            if os.path.isdir(os.path.join(base_folder, d)) and not d.startswith(".")
+        ]
+        locales.remove(reference_locale)
+        locales.sort()
+
+    updated_files = 0
+    for filename in reference_files:
+        # Read reference XML file
+        try:
+            reference_file_path = os.path.join(base_folder, reference_locale, filename)
+            reference_tree = etree.parse(reference_file_path)
+        except Exception as e:
+            sys.exit(f"ERROR: Can't parse reference file {filename}\n{e}")
+
+        for locale in locales:
+            l10n_file = os.path.join(base_folder, locale, filename)
+            if not os.path.isfile(l10n_file):
                 continue
 
-            if os.path.isdir(locale):
-                file_paths.append(
-                    os.path.join(base_folder, locale, args.xliff_filename)
-                )
-            else:
-                print(f"Requested locale doesn't exist: {locale}")
+            # Make a copy of the reference tree and root
+            reference_tree_copy = deepcopy(reference_tree)
+            reference_root_copy = reference_tree_copy.getroot()
 
-    if not file_paths:
-        sys.exit("No locales updated.")
-    else:
-        file_paths.sort()
+            print(f"Updating {l10n_file}")
 
-    # Read reference XML file
-    try:
-        reference_tree = etree.parse(reference_file_path)
-    except Exception as e:
-        sys.exit(f"ERROR: Can't parse reference {reference_locale} file\n{e}")
+            # Read localized XML file
+            try:
+                locale_tree = etree.parse(l10n_file)
+                locale_root = locale_tree.getroot()
+            except Exception as e:
+                print(f"ERROR: Can't parse {l10n_file}")
+                print(e)
+                continue
 
-    for file_path in file_paths:
-        print(f"Updating {file_path}")
+            """
+            Using locale folder as locale code for the target-language attribute.
+            This can be use to map a locale code to a different one.
+            Structure: "locale folder" -> "locale code"
+            """
+            locale_mapping = {
+                "sv_SE": "sv",  # See bug 1713058
+            }
+            # Normaliza the locale code, using dashes instead of underscores
+            locale_code = locale_mapping.get(locale, locale).replace("_", "-")
 
-        # Make a copy of the reference tree and root
-        reference_tree_copy = deepcopy(reference_tree)
-        reference_root_copy = reference_tree_copy.getroot()
+            """
+            Store existing localizations in a dictionary.
+            The key for each translation is a combination of the <file> "original"
+            attribute, the <trans-unit> "id", and the <source> text.
+            This allows to invalidate a translation if the source string
+            changed without using a new ID (can be bypassed with --onlyid).
+            """
+            translations = {}
+            for trans_node in locale_root.xpath("//x:trans-unit", namespaces=NS):
+                for child in trans_node.xpath("./x:target", namespaces=NS):
+                    file_name = trans_node.getparent().getparent().get("original")
+                    source_string = trans_node.xpath("./x:source", namespaces=NS)[
+                        0
+                    ].text
+                    original_id = trans_node.get("id")
+                    if args.update_type == "matchid":
+                        # Ignore source text and file attribute
+                        string_id = original_id
+                    else:
+                        if args.update_type == "nofile":
+                            string_id = f"{original_id}:{hash(source_string)}"
+                        else:
+                            string_id = (
+                                f"{file_name}:{original_id}:{hash(source_string)}"
+                            )
+                    translations[string_id] = child.text
 
-        # Read localized XML file
-        try:
-            locale_tree = etree.parse(file_path)
-            locale_root = locale_tree.getroot()
-        except Exception as e:
-            print(f"ERROR: Can't parse {file_path}")
-            print(e)
-            continue
+            # Inject available translations in the reference XML
+            for trans_node in reference_root_copy.xpath(
+                "//x:trans-unit", namespaces=NS
+            ):
+                # Add xml:space="preserve" to all trans-units, to avoid conflict
+                # with Pontoon
+                attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
+                xml_space = trans_node.get(attrib_name)
+                if xml_space is None:
+                    trans_node.set(attrib_name, "preserve")
 
-        """
-        Using locale folder as locale code for the target-language attribute.
-        This can be use to map a locale code to a different one.
-        Structure: "locale folder" -> "locale code"
-        """
-        locale_code = file_path.split(os.sep)[-2]
-        locale_mapping = {
-            "sv_SE": "sv",  # See bug 1713058
-        }
-        # Normaliza the locale code, using dashes instead of underscores
-        locale_code = locale_mapping.get(locale_code, locale_code).replace("_", "-")
-
-        """
-         Store existing localizations in a dictionary.
-         The key for each translation is a combination of the <file> "original"
-         attribute, the <trans-unit> "id", and the <source> text.
-         This allows to invalidate a translation if the source string
-         changed without using a new ID (can be bypassed with --onlyid).
-        """
-        translations = {}
-        for trans_node in locale_root.xpath("//x:trans-unit", namespaces=NS):
-            for child in trans_node.xpath("./x:target", namespaces=NS):
                 file_name = trans_node.getparent().getparent().get("original")
                 source_string = trans_node.xpath("./x:source", namespaces=NS)[0].text
                 original_id = trans_node.get("id")
+
                 if args.update_type == "matchid":
                     # Ignore source text and file attribute
                     string_id = original_id
@@ -161,62 +183,45 @@ def main():
                         string_id = f"{original_id}:{hash(source_string)}"
                     else:
                         string_id = f"{file_name}:{original_id}:{hash(source_string)}"
-                translations[string_id] = child.text
+                updated = False
+                translated = string_id in translations
+                for child in trans_node.xpath("./x:target", namespaces=NS):
+                    if translated:
+                        child.text = translations[string_id]
+                    else:
+                        # No translation available, remove the target
+                        child.getparent().remove(child)
+                    updated = True
 
-        # Inject available translations in the reference XML
-        for trans_node in reference_root_copy.xpath("//x:trans-unit", namespaces=NS):
-            # Add xml:space="preserve" to all trans-units, to avoid conflict
-            # with Pontoon
-            attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
-            xml_space = trans_node.get(attrib_name)
-            if xml_space is None:
-                trans_node.set(attrib_name, "preserve")
-
-            file_name = trans_node.getparent().getparent().get("original")
-            source_string = trans_node.xpath("./x:source", namespaces=NS)[0].text
-            original_id = trans_node.get("id")
-
-            if args.update_type == "matchid":
-                # Ignore source text and file attribute
-                string_id = original_id
-            else:
-                if args.update_type == "nofile":
-                    string_id = f"{original_id}:{hash(source_string)}"
-                else:
-                    string_id = f"{file_name}:{original_id}:{hash(source_string)}"
-            updated = False
-            translated = string_id in translations
-            for child in trans_node.xpath("./x:target", namespaces=NS):
-                if translated:
+                if translated and not updated:
+                    # Translation is available, but the refence XLIFF has no target.
+                    # Create a target node and insert it after source.
+                    child = etree.Element("target")
                     child.text = translations[string_id]
-                else:
-                    # No translation available, remove the target
-                    child.getparent().remove(child)
-                updated = True
+                    trans_node.insert(1, child)
 
-            if translated and not updated:
-                # Translation is available, but the refence XLIFF has no target.
-                # Create a target node and insert it after source.
-                child = etree.Element("target")
-                child.text = translations[string_id]
-                trans_node.insert(1, child)
+            # Update target-language where defined, replace underscores with
+            # hyphens if necessary (e.g. en_GB => en-GB).
+            for file_node in reference_root_copy.xpath("//x:file", namespaces=NS):
+                file_node.set("target-language", locale_code)
 
-        # Update target-language where defined, replace underscores with
-        # hyphens if necessary (e.g. en_GB => en-GB).
-        for file_node in reference_root_copy.xpath("//x:file", namespaces=NS):
-            file_node.set("target-language", locale_code)
+            # Replace the existing locale file with the new XML content
+            with open(l10n_file, "w") as fp:
+                # Fix identation of XML file
+                reindent(reference_root_copy)
+                xliff_content = etree.tostring(
+                    reference_tree_copy,
+                    encoding="UTF-8",
+                    xml_declaration=True,
+                    pretty_print=True,
+                )
+                fp.write(xliff_content.decode("utf-8"))
+            updated_files += 1
 
-        # Replace the existing locale file with the new XML content
-        with open(file_path, "w") as fp:
-            # Fix identation of XML file
-            reindent(reference_root_copy)
-            xliff_content = etree.tostring(
-                reference_tree_copy,
-                encoding="UTF-8",
-                xml_declaration=True,
-                pretty_print=True,
-            )
-            fp.write(xliff_content.decode("utf-8"))
+    if updated_files == 0:
+        sys.exit("No files updated.")
+    else:
+        print(f"{updated_files} updated files.")
 
 
 if __name__ == "__main__":
