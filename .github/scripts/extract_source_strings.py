@@ -9,6 +9,7 @@ from lxml import etree, objectify
 from translate.misc.xml_helpers import reindent
 import argparse
 import os
+import re
 
 
 def get_node_key(node, attr=None):
@@ -66,8 +67,7 @@ def main():
         if "original" in f.attrib:
             file_name = f.get("original").replace("../../src/", "../src/")
             # Changes caused by https://github.com/mozilla-l10n/mozilla-vpn-client-l10n/pull/268
-            file_name = file_name.replace("vpn/nebula/", "../../nebula/")
-            file_name = file_name.replace("vpn/src/", "../src/")
+            file_name = re.sub(r"((?:src|nebula)/)", "../../\g<1>", file_name)
             if "generated/l18nstrings_p.cpp" in file_name:
                 file_name = "generated/l18nstrings_p.cpp"
             f.set("original", file_name)
