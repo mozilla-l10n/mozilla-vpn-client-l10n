@@ -65,7 +65,7 @@ def main():
     # https://github.com/mozilla-mobile/mozilla-vpn-client/pull/1284
     for f in root.xpath("//x:file", namespaces=NS):
         if "original" in f.attrib:
-            file_name = f.get("original").replace("../../src/", "../src/")
+            file_name = f.get("original")
             # Changes caused by https://github.com/mozilla-l10n/mozilla-vpn-client-l10n/pull/268
             file_name = re.sub(r"^src/", "../src/", file_name)
             file_name = re.sub(r"^nebula/", "../../nebula/", file_name)
