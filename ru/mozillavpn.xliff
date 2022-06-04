@@ -1254,6 +1254,7 @@
       </trans-unit>
       <trans-unit id="vpn.accessibility.currentIndexFocusedOfTotalItemsInGroup" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen readers to explain to users which item they are currently focused on, and how many items there are total in a group. For example, given a list with 15 items. If a user selects the 3rd item, we want the screen reader to read out "3 of 15". The %1 represents the index of the currently focused item by the screen reader. The %2 represents the total number of items in the group.</note>
+        <target>%1 из %2</target>
         <source>%1 of %2</source>
       </trans-unit>
       <trans-unit id="vpn.accessibility.selectedAndItemName" xml:space="preserve">
@@ -1469,6 +1470,7 @@
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.headline" xml:space="preserve">
         <source>Delete Firefox account</source>
+        <target>Удаление аккаунта Firefox</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionFour" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
@@ -1536,14 +1538,17 @@
       </trans-unit>
       <trans-unit id="vpn.global.collapse" xml:space="preserve">
         <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
+        <target>Свернуть</target>
         <source>Collapse</source>
       </trans-unit>
       <trans-unit id="vpn.global.expand" xml:space="preserve">
         <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
+        <target>Развернуть</target>
         <source>Expand</source>
       </trans-unit>
       <trans-unit id="vpn.global.vpnUser" xml:space="preserve">
         <note annotates="source" from="developer">Fallback string for users who have not specified a Display Name.</note>
+        <target>Пользователь VPN</target>
         <source>VPN User</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.changeEmailLink" xml:space="preserve">
@@ -2160,15 +2165,19 @@
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.quickTipsGuideViewTitle" xml:space="preserve">
         <source>Quick tip</source>
+        <target>Быстрая подсказка</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.quickTipsTitle" xml:space="preserve">
         <source>Quick tips</source>
+        <target>Быстрые подсказки</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.settingsEntryLabel" xml:space="preserve">
         <source>VPN tips and tricks</source>
+        <target>Советы и рекомендации по VPN</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.tutorialLabel" xml:space="preserve">
         <source>Tutorial</source>
+        <target>Руководство</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.whatsNewDescription" xml:space="preserve">
         <source>We’ve added new features. Take a tour to get a deeper dive into what we’ve added for you!</source>
