@@ -66,7 +66,6 @@ def main():
     args = parser.parse_args()
 
     reference_locale = args.reference_locale
-    excluded_locales = [reference_locale]
 
     # Get a list of files to update (absolute paths)
     base_folder = os.path.realpath(args.base_folder)

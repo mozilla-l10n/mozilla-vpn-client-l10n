@@ -8,7 +8,6 @@ from collections import defaultdict
 from glob import glob
 from html.parser import HTMLParser
 from lxml import etree
-from lxml import etree
 import argparse
 import html
 import json
@@ -79,14 +78,13 @@ def main():
     if not args.exceptions_file:
         exceptions = defaultdict(dict)
     else:
-        exceptions_filename = os.path.basename(args.exceptions_file)
         try:
             with open(args.exceptions_file) as f:
                 exceptions = json.load(f)
         except Exception as e:
             sys.exit(e)
 
-    placeables_pattern = re.compile("(%[1-9ds]?\$?@?)")
+    placeables_pattern = re.compile(r"(%[1-9ds]?\$?@?)")
     errors = defaultdict(list)
     html_parser = MyHTMLParser()
     for file_path in file_paths:
