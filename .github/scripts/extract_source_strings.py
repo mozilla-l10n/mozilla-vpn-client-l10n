@@ -33,12 +33,6 @@ def main():
         help="Path to the .ts file to import strings from.",
     )
     parser.add_argument(
-        "--l10n",
-        required=True,
-        dest="l10n_path",
-        help="Path to folder including subfolders for all locales",
-    )
-    parser.add_argument(
         "--output",
         required=True,
         dest="output_file",

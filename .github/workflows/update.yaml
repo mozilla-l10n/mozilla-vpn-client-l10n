@@ -46,8 +46,22 @@ jobs:
           mv vpn/translations.ts .
 
           # Convert to XLIFF and update other locales
-          python translationFiles/.github/scripts/extract_source_strings.py --input translations.ts --l10n translationFiles --output translationFiles/en/mozillavpn.xliff
+          python translationFiles/.github/scripts/extract_source_strings.py --input translations.ts --output translationFiles/en/mozillavpn.xliff
           python translationFiles/.github/scripts/update_other_locales.py --reference en --path translationFiles/ --type "${{ github.event.inputs.type }}"
+
+          # Addons
+          if [ -f vpn/scripts/addon/generate_all.py ]; then
+            python "vpn/scripts/addon/generate_all.py"
+            mkdir -p "translationFiles/en/addons"
+            for i in "vpn/addons/generated/addons/*.ts; do
+              ADDONID=$(basename $i | sed "s/.ts$//")
+              echo "Generating language for addon $ADDONID"
+              mkdir -p "$TRANSLATIONS/en/addons/$ADDONID"
+              python "translationFiles/.github/scripts/extract_source_strings.py" --input "$i" --output "translationFiles/en/addons/$ADDONID/locale.xliff"
+              python "translationFiles/.github/scripts/update_other_locales.py" --reference en --xliff "addons/$ADDONID/locale.xliff" --path translationFiles/ --type "${{ github.event.inputs.type }}"
+            done
+          fi
+
       - run : git config --global user.email 'flodolo@users.noreply.github.com'
       - uses: peter-evans/create-pull-request@v4
         with:
