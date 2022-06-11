@@ -45,8 +45,22 @@ jobs:
           (cd vpn && ./scripts/utils/generate_ts.sh)
           mv vpn/translations.ts .
 
-          # Convert to XLIFF and update other locales
+          # Convert main strings to XLIFF
           python translationFiles/.github/scripts/extract_source_strings.py --input translations.ts --output translationFiles/en/mozillavpn.xliff
+
+          # Convert addon strings to XLIFF
+          if [ -d "vpn/addon_ts" ]; then
+            addon_files="vpn/addon_ts/*.ts"
+            for f in $addon_files
+            do
+              addon_name=$(basename "$f" .ts)
+              echo "Extracting strings for addon: ${addon_name}.ts"
+              mkdir -p "translationFiles/en/addons/${addon_name}"
+              python translationFiles/.github/scripts/extract_source_strings.py --input "vpn/addon_ts/${addon_name}.ts" --output "translationFiles/en/addons/${addon_name}/strings.xliff"
+            done
+          fi
+
+          # Update other locales
           python translationFiles/.github/scripts/update_other_locales.py --reference en --path translationFiles/ --type "${{ github.event.inputs.type }}"
       - run : git config --global user.email 'flodolo@users.noreply.github.com'
       - uses: peter-evans/create-pull-request@v4
