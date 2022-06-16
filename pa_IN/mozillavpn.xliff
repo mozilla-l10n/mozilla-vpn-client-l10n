@@ -1035,10 +1035,12 @@
       </trans-unit>
       <trans-unit id="vpn.accessibility.currentIndexFocusedOfTotalItemsInGroup" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen readers to explain to users which item they are currently focused on, and how many items there are total in a group. For example, given a list with 15 items. If a user selects the 3rd item, we want the screen reader to read out "3 of 15". The %1 represents the index of the currently focused item by the screen reader. The %2 represents the total number of items in the group.</note>
+        <target>%2 'ਚੋਂ %1</target>
         <source>%1 of %2</source>
       </trans-unit>
       <trans-unit id="vpn.accessibility.selectedAndItemName" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen readers to denote that a particular item is currently selected. For example, given a segmented control with 2 items, where the first item is currently selected. We want the screen reader to read out "Selected, &lt;item name&gt;". The %1 represents the name of the selected item.</note>
+        <target>ਚੁਣੀ ਆਈਟਮ: %1</target>
         <source>Selected item: %1</source>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPostActivation" xml:space="preserve">
@@ -1353,6 +1355,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.emailTokenResentAlert" xml:space="preserve">
         <note annotates="source" from="developer">User has requested to send a new email containing the 6-digit pin to confirm their email address.</note>
+        <target>ਅਸੀਂ ਤੁਹਾਡੇ ਈਮੇਲ ਉੱਤੇ ਤੁਹਾਡਾ ਕੋਡ ਫੇਰ ਭੇਜਿਆ ਹੈ।</target>
         <source>We’ve resent your code to your email.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.emailVerificationDescription" xml:space="preserve">
@@ -1654,6 +1657,7 @@
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelTwoSubtitle" xml:space="preserve">
         <source>Mozilla VPN keeps your location and browsing safe from eavesdroppers.</source>
+        <target>Mozilla VPN ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਅਤੇ ਬਰਾਊਜ਼ ਕਰਨ ਨੂੰ ਝਾਤੀਆਂ ਮਾਰਨ ਵਾਲਿਆਂ ਤੋਂ ਸੁਰੱਖਿਅਤ ਰੱਖਦਾ ਹੈ।</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelTwoTitle" xml:space="preserve">
         <source>Encrypt your activity</source>
@@ -1912,6 +1916,7 @@
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.featureTourLabel" xml:space="preserve">
         <source>Feature tour</source>
+        <target>ਫੀਚਰਾਂ ਦਾ ਦੌਰਾ</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.introModalDescription" xml:space="preserve">
         <source>Here’s a great list of useful tips and tricks to get the best out of your Mozilla VPN experience. Check it out now or find it anytime in the settings.</source>
