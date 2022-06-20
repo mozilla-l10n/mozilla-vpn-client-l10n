@@ -192,11 +192,10 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../../nebula/ui/components/VPNFeatureTour.qml" datatype="plaintext" source-language="en" target-language="oc">
+  <file original="../../nebula/ui/components/VPNFeatureTourPopup.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
       <trans-unit id="vpn.main.back" xml:space="preserve">
         <note annotates="source" from="developer">Go back</note>
-        <target>Tornar</target>
         <source>Back</source>
       </trans-unit>
     </body>
@@ -341,6 +340,13 @@
       <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
         <target>Activar lo VPN</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/VPNUserProfile.qml" datatype="plaintext" source-language="en" target-language="oc">
+    <body>
+      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
+        <source>Manage account</source>
       </trans-unit>
     </body>
   </file>
@@ -728,10 +734,6 @@
   </file>
   <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="oc">
     <body>
-      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
-        <source>Manage account</source>
-        <target>Gestion del compte</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.user" xml:space="preserve">
         <source>VPN User</source>
         <target>Utilizaire VPN</target>
@@ -1336,6 +1338,9 @@
         <note annotates="source" from="developer">Checkbox label for users to opt in, when creating an account, to receive product update emails from Firefox.</note>
         <source>I’d like to receive product update emails from Firefox.</source>
       </trans-unit>
+      <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle" xml:space="preserve">
+        <source>To continue, please confirm with your Firefox account password.</source>
+      </trans-unit>
       <trans-unit id="vpn.inAppAuth.resendCodeLink" xml:space="preserve">
         <note annotates="source" from="developer">This link allows the user to request for another 6-digit verification code to be sent to their email.</note>
         <source>Resend code</source>
@@ -1585,6 +1590,36 @@
         <source>Unsecured Wi-Fi network detected</source>
         <target>Ret Wi-Fi pas segur detectat</target>
       </trans-unit>
+      <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
+        <source>American Express</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.diners" xml:space="preserve">
+        <source>Diners Club</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.discover" xml:space="preserve">
+        <source>Discover</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.iapApple" xml:space="preserve">
+        <source>Apple subscription</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.iapGoogle" xml:space="preserve">
+        <source>Google subscription</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.jcb" xml:space="preserve">
+        <source>JCB</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.mastercard" xml:space="preserve">
+        <source>Mastercard</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.paypal" xml:space="preserve">
+        <source>PayPal</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.unionpay" xml:space="preserve">
+        <source>UnionPay</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.visa" xml:space="preserve">
+        <source>Visa</source>
+      </trans-unit>
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
         <source>Already a subscriber?</source>
       </trans-unit>
@@ -1684,6 +1719,74 @@
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
         <source>%1 apps missing from list.</source>
       </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.activatedLabel" xml:space="preserve">
+        <note annotates="source" from="developer">Label for the date on which the subscription was activated.</note>
+        <source>Active since</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.cardExpiresLabel" xml:space="preserve">
+        <note annotates="source" from="developer">Label for the date on which the payment method expires.</note>
+        <source>Expires</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.cardLast4" xml:space="preserve">
+        <note annotates="source" from="developer">The %1 represents the last four digits of a credit card.</note>
+        <source>Card ending in %1</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.expiresLabel" xml:space="preserve">
+        <note annotates="source" from="developer">Label for the upcoming date on which the subscription will expire.</note>
+        <source>Expires</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.manageSubscriptionButton" xml:space="preserve">
+        <note annotates="source" from="developer">Label for a button that will take the user to a view where they can manage their subscription.</note>
+        <source>Manage subscription</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.menuTitle" xml:space="preserve">
+        <note annotates="source" from="developer">Menu title for a view with details on the users account.</note>
+        <source>Profile</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.nextLabel" xml:space="preserve">
+        <note annotates="source" from="developer">Label for the upcoming date on which the user will be billed for their subscription.</note>
+        <source>Next billed</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.paymentHeadline" xml:space="preserve">
+        <note annotates="source" from="developer">Headline for a list with information on the payment information the user provided for their subscription.</note>
+        <source>Payment Information</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planLabel" xml:space="preserve">
+        <note annotates="source" from="developer">Label for the selected subscription plan the user currently is subscribed to.</note>
+        <source>Subscription plan</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly" xml:space="preserve">
+        <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <source>%1 Half-yearly</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planValueMonthly" xml:space="preserve">
+        <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <source>%1 Monthly</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planValueYearly" xml:space="preserve">
+        <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <source>%1 Yearly</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.statusActive" xml:space="preserve">
+        <note annotates="source" from="developer">Text for a label that indicates an active subscription.</note>
+        <source>Active</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.statusInactive" xml:space="preserve">
+        <note annotates="source" from="developer">Text for a label that indicates an inactive subscription.</note>
+        <source>Inactive</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.statusLabel" xml:space="preserve">
+        <note annotates="source" from="developer">Label for the current status of the subscription.</note>
+        <source>Status</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.subscriptionPlatformLabel" xml:space="preserve">
+        <note annotates="source" from="developer">The %1 represents the subscription platform. Values for %1 could be “Apple” or “Google” for example.</note>
+        <source>%1 subscription</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.summaryHeadline" xml:space="preserve">
+        <note annotates="source" from="developer">Headline for a list with information on the subscription plan of the user.</note>
+        <source>Subscription summary</source>
+      </trans-unit>
       <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
         <target>Desconnectar</target>
@@ -1735,8 +1838,11 @@
       <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
       </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.featureTourLabel" xml:space="preserve">
-        <source>Feature tour</source>
+      <trans-unit id="vpn.tipsAndTricks.featureTourCardDescription" xml:space="preserve">
+        <source>Take a tour of Mozilla VPN to learn how the latest features help you protect your online privacy.</source>
+      </trans-unit>
+      <trans-unit id="vpn.tipsAndTricks.featureTourCardTitle" xml:space="preserve">
+        <source>Tour the VPN</source>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.introModalDescription" xml:space="preserve">
         <source>Here’s a great list of useful tips and tricks to get the best out of your Mozilla VPN experience. Check it out now or find it anytime in the settings.</source>
@@ -1753,14 +1859,26 @@
       <trans-unit id="vpn.tipsAndTricks.settingsEntryLabel" xml:space="preserve">
         <source>VPN tips and tricks</source>
       </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.tutorialLabel" xml:space="preserve">
-        <source>Tutorial</source>
+      <trans-unit id="vpn.tutorialPopup.leaveTutorialButton" xml:space="preserve">
+        <source>Leave tutorial</source>
       </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.whatsNewDescription" xml:space="preserve">
-        <source>We’ve added new features. Take a tour to get a deeper dive into what we’ve added for you!</source>
+      <trans-unit id="vpn.tutorialPopup.secondaryButtonLabel" xml:space="preserve">
+        <source>Come back later</source>
       </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.whatsNewTitle" xml:space="preserve">
-        <source>What’s new?</source>
+      <trans-unit id="vpn.tutorialPopup.tutorialCompleteHeadline" xml:space="preserve">
+        <source>Well done!</source>
+      </trans-unit>
+      <trans-unit id="vpn.tutorialPopup.tutorialCompletePrimaryButtonLabel" xml:space="preserve">
+        <source>Let’s go!</source>
+      </trans-unit>
+      <trans-unit id="vpn.tutorialPopup.tutorialLeaveHeadline" xml:space="preserve">
+        <source>Leave tutorial?</source>
+      </trans-unit>
+      <trans-unit id="vpn.tutorialPopup.tutorialLeavePrimaryButtonLabel" xml:space="preserve">
+        <source>Resume tutorial</source>
+      </trans-unit>
+      <trans-unit id="vpn.tutorialPopup.tutorialLeaveSubtitle" xml:space="preserve">
+        <source>Looks like you haven’t finished the tutorial quite yet. Would you like to continue and finish now or quit and come back later?</source>
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionNoUpdate" xml:space="preserve">
         <source>Okay</source>
@@ -1806,6 +1924,12 @@
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalHeader" xml:space="preserve">
         <source>Custom DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.easyProfileDescription" xml:space="preserve">
+        <source>Now accessible from the VPN app, users can view their personal information, subscription summary and payment information within the subscription profile page.</source>
+      </trans-unit>
+      <trans-unit id="vpn.whatsNewReleaseNotes.easyProfileDisplayName" xml:space="preserve">
+        <source>Easier-to-use profile</source>
       </trans-unit>
       <trans-unit id="vpn.whatsNewReleaseNotes.multiAccountContainersDescription" xml:space="preserve">
         <source>You can now use different Mozilla VPN locations in multiple tabs simultaneously.</source>
