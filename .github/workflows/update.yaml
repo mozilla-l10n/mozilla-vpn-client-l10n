@@ -29,6 +29,7 @@ jobs:
           repository: "mozilla-mobile/mozilla-vpn-client"
           fetch-depth: 0
           path: "vpn"
+          ref: "frontend"
       - name: Set up Python 3
         uses: actions/setup-python@v3
         with:
