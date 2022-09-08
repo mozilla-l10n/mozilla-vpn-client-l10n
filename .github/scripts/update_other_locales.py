@@ -103,8 +103,6 @@ def main():
 
         for locale in locales:
             l10n_file = os.path.join(base_folder, locale, filename)
-            if not os.path.isfile(l10n_file):
-                continue
 
             # Make a copy of the reference tree and root
             reference_tree_copy = deepcopy(reference_tree)
@@ -112,14 +110,26 @@ def main():
 
             print(f"Updating {l10n_file}")
 
-            # Read localized XML file
-            try:
-                locale_tree = etree.parse(l10n_file)
+            # If the localized file doesn't exist, we still need to create it,
+            # because Pontoon will not make it available for translation.
+            if not os.path.isfile(l10n_file):
+                # Make a copy of the reference file, and remove translations
+                locale_tree = deepcopy(reference_tree)
                 locale_root = locale_tree.getroot()
-            except Exception as e:
-                print(f"ERROR: Can't parse {l10n_file}")
-                print(e)
-                continue
+                for target in locale_root.xpath("//x:target", namespaces=NS):
+                    if target is not None:
+                        target.getparent().remove(target)
+                # Make sure that the destination folder exists
+                os.makedirs(os.path.dirname(l10n_file), exist_ok=True)
+            else:
+                # Read localized XML file
+                try:
+                    locale_tree = etree.parse(l10n_file)
+                    locale_root = locale_tree.getroot()
+                except Exception as e:
+                    print(f"ERROR: Can't parse {l10n_file}")
+                    print(e)
+                    continue
 
             """
             Using locale folder as locale code for the target-language attribute.
@@ -129,7 +139,7 @@ def main():
             locale_mapping = {
                 "sv_SE": "sv",  # See bug 1713058
             }
-            # Normaliza the locale code, using dashes instead of underscores
+            # Normalize the locale code, using dashes instead of underscores
             locale_code = locale_mapping.get(locale, locale).replace("_", "-")
 
             """
@@ -204,8 +214,9 @@ def main():
             for file_node in reference_root_copy.xpath("//x:file", namespaces=NS):
                 file_node.set("target-language", locale_code)
 
-            # Replace the existing locale file with the new XML content
-            with open(l10n_file, "w") as fp:
+            # Replace the existing locale file with the new XML content,
+            # or create a new one if it's missing.
+            with open(l10n_file, "w+") as fp:
                 # Fix identation of XML file
                 reindent(reference_root_copy)
                 xliff_content = etree.tostring(
