@@ -1252,8 +1252,47 @@
       <trans-unit id="vpn.inAppAuth.verifySecurityCodeButton">
         <source>Verify</source>
       </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.criticalBadge">
+        <note annotates="source" from="developer">A badge shown in a message signifying that this is an important message</note>
+        <source>Critical</source>
+      </trans-unit>
       <trans-unit id="vpn.inAppMessaging.dateTimeYesterday">
         <source>Yesterday</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.deleteMessage">
+        <note annotates="source" from="developer">An action to delete a message from the users inbox</note>
+        <source>Delete message</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.editButton">
+        <source>Edit</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.emptyStateDescription">
+        <source>You’re up to date!</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.emptyStateTitle">
+        <source>No messages</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.menuTitle">
+        <source>Messages</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.newUpdateBadge">
+        <note annotates="source" from="developer">A badge shown in a message signifying an update to the app is available</note>
+        <source>New update</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.searchBarPlaceholderText">
+        <source>Search messages</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.surveyBadge">
+        <note annotates="source" from="developer">A badge shown in a message signifying that this message contains a survey</note>
+        <source>Survey</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.warningBadge">
+        <note annotates="source" from="developer">A badge shown in a message signifying that this is a warning message</note>
+        <source>Warning</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.whatsNewBadge">
+        <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about what is new in the product</note>
+        <source>What’s new</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
@@ -1405,6 +1444,18 @@
       <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA">
         <source>Single-hop</source>
       </trans-unit>
+      <trans-unit id="vpn.navBar.homeTab">
+        <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the home screen</note>
+        <source>Home</source>
+      </trans-unit>
+      <trans-unit id="vpn.navBar.messagesTab">
+        <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the messages inbox screen</note>
+        <source>Messages</source>
+      </trans-unit>
+      <trans-unit id="vpn.navBar.settingsTab">
+        <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the settings screen</note>
+        <source>Settings</source>
+      </trans-unit>
       <trans-unit id="vpn.networkSettings.multihopTitle">
         <source>Multi-hop tunnel</source>
       </trans-unit>
@@ -1489,6 +1540,9 @@
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyText">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
+        <source>The server has been blocked. Check your firewall settings.</source>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel">
         <source>Server unavailable notification</source>
@@ -1634,9 +1688,6 @@
       <trans-unit id="vpn.systray.disconnect">
         <source>Disconnect</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.getHelp">
-        <source>Get Help</source>
-      </trans-unit>
       <trans-unit id="vpn.systray.help">
         <source>Help</source>
       </trans-unit>
@@ -1689,6 +1740,12 @@
       <trans-unit id="vpn.tipsAndTricks.introModalDescription">
         <source>Here’s a great list of useful tips and tricks to get the best out of your Mozilla VPN experience. Check it out now or find it anytime in the settings.</source>
       </trans-unit>
+      <trans-unit id="vpn.tipsAndTricks.moreTutorialsDescription">
+        <source>Check out some of our other interactive tutorials</source>
+      </trans-unit>
+      <trans-unit id="vpn.tipsAndTricks.moreTutorialsTitle">
+        <source>More tutorials</source>
+      </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.quickTipsDescription">
         <source>Let us help you get the most out of Mozilla VPN</source>
       </trans-unit>
@@ -1712,6 +1769,12 @@
       <trans-unit id="vpn.tipsAndTricks.tabTitleTutorials">
         <note annotates="source" from="developer">Tab title for the tab of the Tips &amp; Tricks panels that only shows tutorials</note>
         <source>Tutorials</source>
+      </trans-unit>
+      <trans-unit id="vpn.tipsAndTricks.tutorialsDescription">
+        <source>Learn the basics of Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.tipsAndTricks.tutorialsTitle">
+        <source>Getting started</source>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.leaveTutorialButton">
         <source>Leave tutorial</source>

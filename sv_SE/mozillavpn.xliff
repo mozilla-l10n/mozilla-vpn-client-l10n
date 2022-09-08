@@ -1563,9 +1563,48 @@
         <source>Verify</source>
         <target>Verifiera</target>
       </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.criticalBadge" xml:space="preserve">
+        <note annotates="source" from="developer">A badge shown in a message signifying that this is an important message</note>
+        <source>Critical</source>
+      </trans-unit>
       <trans-unit id="vpn.inAppMessaging.dateTimeYesterday" xml:space="preserve">
         <source>Yesterday</source>
         <target>Igår</target>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.deleteMessage" xml:space="preserve">
+        <note annotates="source" from="developer">An action to delete a message from the users inbox</note>
+        <source>Delete message</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.editButton" xml:space="preserve">
+        <source>Edit</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.emptyStateDescription" xml:space="preserve">
+        <source>You’re up to date!</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.emptyStateTitle" xml:space="preserve">
+        <source>No messages</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.menuTitle" xml:space="preserve">
+        <source>Messages</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.newUpdateBadge" xml:space="preserve">
+        <note annotates="source" from="developer">A badge shown in a message signifying an update to the app is available</note>
+        <source>New update</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.searchBarPlaceholderText" xml:space="preserve">
+        <source>Search messages</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.surveyBadge" xml:space="preserve">
+        <note annotates="source" from="developer">A badge shown in a message signifying that this message contains a survey</note>
+        <source>Survey</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.warningBadge" xml:space="preserve">
+        <note annotates="source" from="developer">A badge shown in a message signifying that this is a warning message</note>
+        <source>Warning</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.whatsNewBadge" xml:space="preserve">
+        <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about what is new in the product</note>
+        <source>What’s new</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
@@ -1764,6 +1803,18 @@
         <source>Single-hop</source>
         <target>Singelhopp</target>
       </trans-unit>
+      <trans-unit id="vpn.navBar.homeTab" xml:space="preserve">
+        <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the home screen</note>
+        <source>Home</source>
+      </trans-unit>
+      <trans-unit id="vpn.navBar.messagesTab" xml:space="preserve">
+        <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the messages inbox screen</note>
+        <source>Messages</source>
+      </trans-unit>
+      <trans-unit id="vpn.navBar.settingsTab" xml:space="preserve">
+        <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the settings screen</note>
+        <source>Settings</source>
+      </trans-unit>
       <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
         <source>Multi-hop tunnel</source>
         <target>Multihopptunnel</target>
@@ -1876,6 +1927,9 @@
       <trans-unit id="vpn.serverUnavailableNotification.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
         <target>Denna serverplats är inte tillgänglig för tillfället. Öppna appen för att välja en ny plats.</target>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked" xml:space="preserve">
+        <source>The server has been blocked. Check your firewall settings.</source>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel" xml:space="preserve">
         <source>Server unavailable notification</source>
@@ -2061,10 +2115,6 @@
         <source>Disconnect</source>
         <target>Koppla från</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.getHelp" xml:space="preserve">
-        <source>Get Help</source>
-        <target>Få hjälp</target>
-      </trans-unit>
       <trans-unit id="vpn.systray.help" xml:space="preserve">
         <source>Help</source>
         <target>Hjälp</target>
@@ -2134,6 +2184,12 @@
         <source>Here’s a great list of useful tips and tricks to get the best out of your Mozilla VPN experience. Check it out now or find it anytime in the settings.</source>
         <target>Här är en bra lista med användbara tips och tricks för att få ut det bästa av din Mozilla VPN-upplevelse. Kolla in den nu eller hitta den när som helst i inställningarna.</target>
       </trans-unit>
+      <trans-unit id="vpn.tipsAndTricks.moreTutorialsDescription" xml:space="preserve">
+        <source>Check out some of our other interactive tutorials</source>
+      </trans-unit>
+      <trans-unit id="vpn.tipsAndTricks.moreTutorialsTitle" xml:space="preserve">
+        <source>More tutorials</source>
+      </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.quickTipsDescription" xml:space="preserve">
         <source>Let us help you get the most out of Mozilla VPN</source>
         <target>Låt oss hjälpa dig att få ut det mesta av Mozilla VPN</target>
@@ -2164,6 +2220,12 @@
         <note annotates="source" from="developer">Tab title for the tab of the Tips &amp; Tricks panels that only shows tutorials</note>
         <target>Handledningar</target>
         <source>Tutorials</source>
+      </trans-unit>
+      <trans-unit id="vpn.tipsAndTricks.tutorialsDescription" xml:space="preserve">
+        <source>Learn the basics of Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.tipsAndTricks.tutorialsTitle" xml:space="preserve">
+        <source>Getting started</source>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.leaveTutorialButton" xml:space="preserve">
         <source>Leave tutorial</source>
