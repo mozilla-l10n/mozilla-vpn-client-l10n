@@ -136,9 +136,7 @@ def main():
             This can be use to map a locale code to a different one.
             Structure: "locale folder" -> "locale code"
             """
-            locale_mapping = {
-                "sv_SE": "sv",  # See bug 1713058
-            }
+            locale_mapping = {}
             # Normalize the locale code, using dashes instead of underscores
             locale_code = locale_mapping.get(locale, locale).replace("_", "-")
 
