@@ -84,7 +84,7 @@ def main():
         except Exception as e:
             sys.exit(e)
 
-    placeables_pattern = re.compile(r"(%[1-9ds]?\$?@?)")
+    placeables_pattern = re.compile(r"(%[1-9ds]?\$?@|%[1-9])")
     errors = defaultdict(list)
     html_parser = MyHTMLParser()
     for file_path in file_paths:
