@@ -1,54 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="../../nebula/ui/components/VPNAboutUs.qml" datatype="plaintext" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="vpn.aboutUs.privacyNotice2" xml:space="preserve">
-        <source>Privacy notice</source>
-        <target>Adatvédelmi nyilatkozat</target>
-      </trans-unit>
-      <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
-        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
-        <target>Kiadási verzió</target>
-        <source>Release version</source>
-      </trans-unit>
-      <trans-unit id="vpn.aboutUs.tos2" xml:space="preserve">
-        <source>Terms of service</source>
-        <target>Szolgáltatás feltételei</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.productDescription" xml:space="preserve">
-        <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
-        <target>Gyors, biztonságos és könnyen használható VPN. A Firefox készítői által összeállítva.</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.productName" xml:space="preserve">
-        <source>Mozilla VPN</source>
-        <target>Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
-        <source>About us</source>
-        <target>Rólunk</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNAlerts.qml" datatype="plaintext" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="vpn.systray.survey.takeSurvey" xml:space="preserve">
-        <source>Take Survey</source>
-        <target>Kérdőív kitöltése</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.survey.wouldLoveYourFeedback" xml:space="preserve">
-        <source>We’d love your feedback!</source>
-        <target>Örülnénk a visszajelzésének!</target>
-      </trans-unit>
-      <trans-unit id="vpn.updates.newVersionAvailable" xml:space="preserve">
-        <source>New version is available.</source>
-        <target>Új verzió érhető el.</target>
-      </trans-unit>
-      <trans-unit id="vpn.updates.updateNow" xml:space="preserve">
-        <source>Update now</source>
-        <target>Frissítés most</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../../nebula/ui/components/VPNConnectionInfoContent.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
       <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
@@ -142,63 +93,6 @@
         <target>%1 → %2</target>
         <source>From %1 to %2</source>
       </trans-unit>
-      <trans-unit id="vpn.main.settings" xml:space="preserve">
-        <source>Settings</source>
-        <target>Beállítások</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
-        <target>%1 napja hozzáadva</target>
-        <source>Added %1 days ago</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the number of hours.</note>
-        <target>Néhány órája hozzáadva (%1)</target>
-        <source>Added a few hours ago (%1)</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
-        <source>Added less than an hour ago</source>
-        <target>Kevesebb, mint egy órája hozzáadva</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
-        <source>Current Device</source>
-        <target>Jelenlegi eszköz</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
-        <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
-        <target>%1 %2</target>
-        <source>%1 %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
-        <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
-        <target>%1 eltávolítása</target>
-        <source>Remove %1</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
-        <source>Remove a device</source>
-        <target>Eszköz eltávolítása</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
-        <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
-        <target>Elérte az eszközkorlátot. A VPN ezen az eszközön történő bekapcsolásához el kell távolítania egyet.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNFeatureTourPopup.qml" datatype="plaintext" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="vpn.main.back" xml:space="preserve">
-        <note annotates="source" from="developer">Go back</note>
-        <target>Vissza</target>
-        <source>Back</source>
-      </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="hu">
@@ -210,11 +104,11 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../../nebula/ui/components/VPNLoader.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../../nebula/ui/components/VPNMenu.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
-      <trans-unit id="vpn.authenticating.cancel" xml:space="preserve">
-        <source>Cancel</source>
-        <target>Mégse</target>
+      <trans-unit id="vpn.main.back" xml:space="preserve">
+        <note annotates="source" from="developer">Go back</note>
+        <source>Back</source>
       </trans-unit>
     </body>
   </file>
@@ -223,29 +117,6 @@
       <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
         <target>Bezárás</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="vpn.devices.cancelDeviceRemoval" xml:space="preserve">
-        <source>Cancel</source>
-        <target>Mégse</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
-        <target>Erősítse meg, hogy el akarja távolítani a következőt: %1.</target>
-        <source>Please confirm you would like to remove
-%1.</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
-        <note annotates="source" from="developer">This is the “remove” device button.</note>
-        <target>Eltávolítás</target>
-        <source>Remove</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
-        <source>Remove device?</source>
-        <target>Eltávolítja az eszközt?</target>
       </trans-unit>
     </body>
   </file>
@@ -351,15 +222,6 @@
       <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
         <target>Fiók kezelése</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNViewDNSSettings.qml" datatype="plaintext" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-        <target>Ezen beállítások szerkesztéséhez ki kell kapcsolni a VPN-t</target>
-        <source>VPN must be off to edit these settings</source>
       </trans-unit>
     </body>
   </file>
@@ -484,22 +346,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/models/helpmodel.cpp" datatype="cpp" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="help.contactUs" xml:space="preserve">
-        <source>Contact us</source>
-        <target>Kapcsolat</target>
-      </trans-unit>
-      <trans-unit id="help.helpCenter2" xml:space="preserve">
-        <source>Help center</source>
-        <target>Súgóközpont</target>
-      </trans-unit>
-      <trans-unit id="help.viewLog" xml:space="preserve">
-        <source>View log</source>
-        <target>Napló megtekintése</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="hu">
     <body>
       <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
@@ -531,14 +377,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/platforms/android/androidauthenticationview.qml" datatype="plaintext" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="vpn.android.authentication" xml:space="preserve">
-        <source>Authentication</source>
-        <target>Hitelesítés</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/platforms/android/androidnotificationhandler.cpp" datatype="cpp" source-language="en" target-language="hu">
     <body>
       <trans-unit id="vpn.android.notification.isIDLE" xml:space="preserve">
@@ -554,10 +392,6 @@
         <source>File</source>
         <target>Fájl</target>
       </trans-unit>
-      <trans-unit id="menubar.help.title" xml:space="preserve">
-        <source>Help</source>
-        <target>Súgó</target>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/ui/authenticationInApp/ViewAuthenticationStart.qml" datatype="plaintext" source-language="en" target-language="hu">
@@ -568,464 +402,466 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/settings/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../src/ui/main.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
-      <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
-        <note annotates="source" from="developer">Button label</note>
-        <target>Alkalmazás hozzáadása</target>
-        <source>Add application</source>
-      </trans-unit>
-      <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
-        <note annotates="source" from="developer">Search bar placeholder text</note>
-        <target>Alkalmazások keresése</target>
-        <source>Search apps</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.appPermissions2" xml:space="preserve">
-        <source>App permissions</source>
-        <target>Alkalmazásengedélyek</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.excludeTitle" xml:space="preserve">
-        <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
-        <target>Alkalmazások kizárása a VPN-védelemből</target>
-        <source>Exclude apps from VPN protection</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
-        <source>Protect all apps with VPN</source>
-        <target>Védje VPN-nel az összes alkalmazást</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectAllApps.description" xml:space="preserve">
-        <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
-        <target>A VPN alapértelmezés szerint minden alkalmazást véd. Kapcsolja ki, hogy kiválassza, mely alkalmazásokat ne védje a Mozilla VPN.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-        <target>A VPN-t ki kell kapcsolni az alkalmazásengedélyek szerkesztéséhez</target>
-        <source>VPN must be off to edit App Permissions</source>
+      <trans-unit id="vpn.main.productName" xml:space="preserve">
+        <source>Mozilla VPN</source>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/settings/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="vpn.feedback.privacyDisclaimer" xml:space="preserve">
-        <source>When you submit feedback, Mozilla VPN will collect technical and interaction data, including your IP address, to help us improve. This data won’t be associated with your Firefox account.</source>
-        <target>Amikor beküldi a visszajelzést, akkor a Mozilla VPN műszaki és interakciós adatokat gyűjt, köztük az IP-címét, hogy segítsen nekünk a fejlesztésben. Ezek az adatok nem lesznek összekötve a Firefox-fiókjával.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.average" xml:space="preserve">
-        <source>Average</source>
-        <target>Átlagos</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.averageRatingResponse" xml:space="preserve">
-        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
-        <target>Szeretnénk tudni, hogy miben fejleszthetünk a Mozilla VPN-en. Ossza meg, ha konkrét visszajelzése van.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.continue" xml:space="preserve">
-        <source>Continue</source>
-        <target>Folytatás</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.good" xml:space="preserve">
-        <source>Good</source>
-        <target>Jó</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.goodRatingResponse" xml:space="preserve">
-        <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
-        <target>Örülünk, hogy élvezi a Mozilla VPN-t! Kérjük, ossza meg velünk, hogyan tehetnénk még jobbá az élményét.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.lowRatingResponse" xml:space="preserve">
-        <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
-        <target>Sajnálattal halljuk, hogy rossz tapasztalatokat szerzett. Ossza meg velünk, hogyan javíthatunk.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.poor" xml:space="preserve">
-        <source>Poor</source>
-        <target>Rossz</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.privacyNoticeLink" xml:space="preserve">
-        <source>Mozilla VPN Privacy Notice</source>
-        <target>Mozilla VPN adatvédelmi irányelvek</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.ratingHeadline" xml:space="preserve">
-        <source>How would you describe your Mozilla VPN experience so far?</source>
-        <target>Hogyan jellemezné eddigi tapasztalatait a Mozilla VPN-nel?</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.skip" xml:space="preserve">
-        <source>Skip</source>
-        <target>Kihagyás</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.textAreaPlaceholder" xml:space="preserve">
-        <source>Enter feedback…</source>
-        <target>Visszajelzés megadása…</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.thankyou" xml:space="preserve">
-        <source>Thank you!</source>
-        <target>Köszönjük!</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.thankyouSubtitle" xml:space="preserve">
-        <source>We appreciate your feedback. You’re helping us improve Mozilla VPN.</source>
-        <target>Köszönjük visszajelzését. Ezzel segít nekünk a Mozilla VPN fejlesztésében.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.veryPoor" xml:space="preserve">
-        <source>Very poor</source>
-        <target>Nagyon rossz</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackform.done" xml:space="preserve">
-        <source>Done</source>
-        <target>Kész</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackform.submit" xml:space="preserve">
-        <source>Submit</source>
-        <target>Elküldés</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.giveFeedback" xml:space="preserve">
-        <source>Give feedback</source>
-        <target>Visszajelzés</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="vpn.settings.language" xml:space="preserve">
-        <source>Language</source>
-        <target>Nyelv</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
-        <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
-        <target>%1 %2</target>
-        <source>%1 %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.systemLangaugeSubtitle" xml:space="preserve">
-        <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
-        <target>A Mozilla VPN a rendszer alapértelmezett nyelvét fogja használni.</target>
-        <source>Mozilla VPN will use the default system language.</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.systemLanguageEnabled" xml:space="preserve">
-        <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
-        <target>Letiltás, hogy más nyelvet válasszon</target>
-        <source>Disable to select a different language</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.systemLanguageTitle" xml:space="preserve">
-        <note annotates="source" from="developer">Title for the language switcher toggle.</note>
-        <target>A rendszer nyelvének használata</target>
-        <source>Use system language</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
-        <source>Local network access</source>
-        <target>Helyi hálózati hozzáférés</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess.description" xml:space="preserve">
-        <source>Access printers, streaming sticks and all other devices on your local network</source>
-        <target>Érje el a nyomtatókat, videótovábbító és az egyéb, a helyi hálózaton lévő eszközökön</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.networking" xml:space="preserve">
-        <source>Network settings</source>
-        <target>Hálózati beállítások</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.networking.advancedDNSSettings" xml:space="preserve">
-        <source>Advanced DNS Settings</source>
-        <target>Speciális DNS-beállítások</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
-        <source>Guest Wi-Fi portal alert</source>
-        <target>Vendég Wi-Fi portál riasztás</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
-        <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
-        <target>Kapjon értesítést ha a VPN kapcsolat blokkolja a vendég Wi-Fi portált</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
-        <source>Get notified when the connection status changes</source>
-        <target>Kapjon értesítést, ha a kapcsolat állapota megváltozik</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
-        <source>Connection change notification</source>
-        <target>Kapcsolatváltozási értesítés</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
-        <source>Get notified when you successfully switched servers</source>
-        <target>Kapjon értesítést, ha sikeresen kiszolgálót váltott</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch2" xml:space="preserve">
-        <source>Server switching notification</source>
-        <target>Kiszolgálóváltási értesítés</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notifications" xml:space="preserve">
-        <source>Notifications</source>
-        <target>Értesítések</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unsecuredNetworkAlert" xml:space="preserve">
-        <source>Unsecured network alert</source>
-        <target>Nem védett hálózati riasztás</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description" xml:space="preserve">
-        <source>Get notified if you connect to an unsecured Wi-Fi network</source>
-        <target>Kapjon értesítést, ha nem biztonságos Wi-Fi hálózathoz kapcsolódik</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewPrivacySecurity.qml" datatype="plaintext" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
-        <source>Data collection and use</source>
-        <target>Adatgyűjtés és felhasználás</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="vpn.settings.user" xml:space="preserve">
-        <source>VPN User</source>
-        <target>VPN-felhasználó</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/states/StateAuthenticating.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../src/ui/screens/ScreenAuthenticating.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
       <trans-unit id="vpn.authenticating.waitForSignIn" xml:space="preserve">
         <source>Waiting for sign in and subscription confirmation…</source>
-        <target>Várakozás a bejelentkezésre és az előfizetés megerősítésére…</target>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/states/StateBackendFailure.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../src/ui/screens/ScreenBackendFailure.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
       <trans-unit id="vpn.errors.somethingWentWrong" xml:space="preserve">
         <source>Something went wrong…</source>
-        <target>Valami hiba történt…</target>
       </trans-unit>
       <trans-unit id="vpn.errors.tryAgain" xml:space="preserve">
         <source>Try Again</source>
-        <target>Próbálja újra</target>
       </trans-unit>
       <trans-unit id="vpn.errors.unableToEstablishConnection" xml:space="preserve">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
-        <target>A kapcsolat jelenleg nem hozható létre. Keményen dolgozunk a probléma megoldásán. Hamarosan próbálkozzon újra.</target>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/states/StatePostAuthentication.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../src/ui/screens/ScreenPostAuthentication.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
       <trans-unit id="vpn.postAuthentication..quickAccess" xml:space="preserve">
         <source>Quick access</source>
-        <target>Gyors hozzáférés</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.statusBarIntro" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
-        <target>Gyorsan elérheti a Mozilla VPN-t az állapotsávról.</target>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/states/StateSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../src/ui/screens/ScreenSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
       <trans-unit id="vpn.subscriptionBlocked.getHelp" xml:space="preserve">
         <source>Get Help</source>
-        <target>Segítség kérése</target>
       </trans-unit>
       <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
-        <target>Keresse fel a súgóközpontunkat, hogy többet tudjon meg az előfizetései kezeléséről.</target>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/states/StateSubscriptionInProgress.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../src/ui/screens/ScreenSubscriptionInProgress.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
       <trans-unit id="vpn.subscription.pleaseWait" xml:space="preserve">
         <source>Please wait…</source>
-        <target>Kis türelmet…</target>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/states/StateTelemetryPolicy.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../src/ui/screens/ScreenTelemetryPolicy.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
+      <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
+        <source>Data collection and use</source>
+      </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.MozillaVPNPrivacyNotice" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
-        <target>Mozilla VPN adatvédelmi irányelvek</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice" xml:space="preserve">
         <source>Allow on this device</source>
-        <target>Engedélyezés ezen az eszközön</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.doNotAllow" xml:space="preserve">
         <source>Don’t allow</source>
-        <target>Tiltás</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
-        <target>Tudjon meg többet arról, hogy a Mozilla milyen adatokat gyűjt, és hogyan használja fel azokat.</target>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/views/ViewDevices.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../src/ui/screens/ScreenViewLogs.qml" datatype="plaintext" source-language="en" target-language="hu">
+    <body>
+      <trans-unit id="vpn.logs.clear" xml:space="preserve">
+        <source>Clear</source>
+      </trans-unit>
+      <trans-unit id="vpn.logs.copied" xml:space="preserve">
+        <source>Copied!</source>
+      </trans-unit>
+      <trans-unit id="vpn.logs.copy" xml:space="preserve">
+        <source>Copy</source>
+      </trans-unit>
+      <trans-unit id="vpn.viewlogs.title" xml:space="preserve">
+        <source>View Logs</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/screens/devices/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="hu">
+    <body>
+      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
+        <source>Added %1 days ago</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the number of hours.</note>
+        <source>Added a few hours ago (%1)</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
+        <source>Added less than an hour ago</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
+        <source>Current Device</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
+        <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
+        <source>%1 %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
+        <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <source>Remove %1</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/screens/devices/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="hu">
+    <body>
+      <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
+        <source>Remove a device</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
+        <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/screens/devices/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="hu">
+    <body>
+      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
+        <source>Please confirm you would like to remove
+%1.</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
+        <note annotates="source" from="developer">This is the “remove” device button.</note>
+        <source>Remove</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
+        <source>Remove device?</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/screens/devices/ViewDevices.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
       <trans-unit id="vpn.devices.activeVsMaxDeviceCount" xml:space="preserve">
-        <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.</note>
-        <target>%1 / %2</target>
+        <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.
+----------
+Example: You have "x of y" devices in yor account, where y is the limit of allowed devices.</note>
         <source>%1 of %2</source>
       </trans-unit>
       <trans-unit id="vpn.devices.myDevices" xml:space="preserve">
         <source>My devices</source>
-        <target>Saját eszközök</target>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/views/ViewErrorFullScreen.qml" datatype="plaintext" source-language="en" target-language="hu">
-    <body>
-      <trans-unit id="vpn.errors.checkOutageUpdates" xml:space="preserve">
-        <source>Check outage updates</source>
-        <target>Leállási hírek keresése</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/views/ViewGetHelp.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../src/ui/screens/getHelp/ViewGetHelp.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
       <trans-unit id="vpn.settings.developer" xml:space="preserve">
         <source>Developer Options</source>
-        <target>Fejlesztői beállítások</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.giveFeedback" xml:space="preserve">
+        <source>Give feedback</source>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/views/ViewInitialize.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../src/ui/screens/getHelp/giveFeedback/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
-      <trans-unit id="vpn.main.getStarted" xml:space="preserve">
-        <source>Get started</source>
-        <target>Kezdő lépések</target>
+      <trans-unit id="vpn.feedbackForm.average" xml:space="preserve">
+        <source>Average</source>
       </trans-unit>
-      <trans-unit id="vpn.main.learnMore" xml:space="preserve">
-        <source>Learn more</source>
-        <target>További tudnivalók</target>
+      <trans-unit id="vpn.feedbackForm.continue" xml:space="preserve">
+        <source>Continue</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.good" xml:space="preserve">
+        <source>Good</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.poor" xml:space="preserve">
+        <source>Poor</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.ratingHeadline" xml:space="preserve">
+        <source>How would you describe your Mozilla VPN experience so far?</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.veryPoor" xml:space="preserve">
+        <source>Very poor</source>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/views/ViewLogs.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../src/ui/screens/getHelp/giveFeedback/ViewGiveFeedbackForm.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
-      <trans-unit id="vpn.logs.clear" xml:space="preserve">
-        <source>Clear</source>
-        <target>Törlés</target>
+      <trans-unit id="vpn.feedback.privacyDisclaimer" xml:space="preserve">
+        <source>When you submit feedback, Mozilla VPN will collect technical and interaction data, including your IP address, to help us improve. This data won’t be associated with your Firefox account.</source>
       </trans-unit>
-      <trans-unit id="vpn.logs.copied" xml:space="preserve">
-        <source>Copied!</source>
-        <target>Másolva!</target>
+      <trans-unit id="vpn.feedbackForm.averageRatingResponse" xml:space="preserve">
+        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
       </trans-unit>
-      <trans-unit id="vpn.logs.copy" xml:space="preserve">
-        <source>Copy</source>
-        <target>Másolás</target>
+      <trans-unit id="vpn.feedbackForm.goodRatingResponse" xml:space="preserve">
+        <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
       </trans-unit>
-      <trans-unit id="vpn.viewlogs.title" xml:space="preserve">
-        <source>View Logs</source>
-        <target>Naplók megtekintése</target>
+      <trans-unit id="vpn.feedbackForm.lowRatingResponse" xml:space="preserve">
+        <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.privacyNoticeLink" xml:space="preserve">
+        <source>Mozilla VPN Privacy Notice</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.skip" xml:space="preserve">
+        <source>Skip</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.textAreaPlaceholder" xml:space="preserve">
+        <source>Enter feedback…</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackform.submit" xml:space="preserve">
+        <source>Submit</source>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/views/ViewMain.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../src/ui/screens/getHelp/giveFeedback/ViewGiveFeedbackThankYou.qml" datatype="plaintext" source-language="en" target-language="hu">
+    <body>
+      <trans-unit id="vpn.feedbackForm.thankyou" xml:space="preserve">
+        <source>Thank you!</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackForm.thankyouSubtitle" xml:space="preserve">
+        <source>We appreciate your feedback. You’re helping us improve Mozilla VPN.</source>
+      </trans-unit>
+      <trans-unit id="vpn.feedbackform.done" xml:space="preserve">
+        <source>Done</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/screens/home/ViewHome.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
       <trans-unit id="MozillaVPN" xml:space="preserve">
         <source>Mozilla VPN</source>
-        <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
-        <target>jelenlegi hely – %1</target>
         <source>current location - %1</source>
       </trans-unit>
       <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
-        <target>Hely kiválasztása</target>
         <source>Select location</source>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/views/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../src/ui/screens/initialize/ViewInitialize.qml" datatype="plaintext" source-language="en" target-language="hu">
+    <body>
+      <trans-unit id="vpn.main.getStarted" xml:space="preserve">
+        <source>Get started</source>
+      </trans-unit>
+      <trans-unit id="vpn.main.learnMore" xml:space="preserve">
+        <source>Learn more</source>
+      </trans-unit>
+      <trans-unit id="vpn.main.productDescription" xml:space="preserve">
+        <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/screens/initialize/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
       <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
         <source>Device-level encryption</source>
-        <target>Eszközszintű titkosítás</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
         <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeeded.qml too.</note>
-        <target>Kiszolgálók 30+ országban</target>
         <source>Servers in 30+ countries</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.3" xml:space="preserve">
         <source>No bandwidth restrictions</source>
-        <target>Nincs sávszélesség-korlátozás</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
         <source>No online activity logs</source>
-        <target>Nincs online tevékenységnaplózás</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.next" xml:space="preserve">
         <source>Next</source>
-        <target>Következő</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
         <source>Skip</source>
-        <target>Kihagyás</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
-        <target>Titkosítsa a forgalmát, hogy az internetszolgáltatója vagy a lehallgatók ne olvashassák el.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.2" xml:space="preserve">
         <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
-        <target>Válasszon egy kiszolgálót bármely kívánt országban, hogy elrejtse a helyét, és lerázza a nyomkövetőket.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.3" xml:space="preserve">
         <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
-        <target>Nézzen közvetítést, töltsön le és játsszon havi forgalmi korlátok vagy internetszolgáltatói korlátozások nélkül.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.4" xml:space="preserve">
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
-        <target>Elkötelezettek vagyunk abban, hogy nem figyeljük és naplózzuk a böngészési vagy hálózati előzményeket.</target>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/views/ViewSubscriptionNeeded.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../src/ui/screens/settings/ViewAboutUs.qml" datatype="plaintext" source-language="en" target-language="hu">
+    <body>
+      <trans-unit id="vpn.aboutUs.privacyNotice2" xml:space="preserve">
+        <source>Privacy notice</source>
+      </trans-unit>
+      <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
+        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
+        <source>Release version</source>
+      </trans-unit>
+      <trans-unit id="vpn.aboutUs.tos2" xml:space="preserve">
+        <source>Terms of service</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
+        <source>About us</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/screens/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="hu">
+    <body>
+      <trans-unit id="vpn.settings.language" xml:space="preserve">
+        <source>Language</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
+        <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
+        <source>%1 %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.systemLangaugeSubtitle" xml:space="preserve">
+        <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
+        <source>Mozilla VPN will use the default system language.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.systemLanguageEnabled" xml:space="preserve">
+        <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
+        <source>Disable to select a different language</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.systemLanguageTitle" xml:space="preserve">
+        <note annotates="source" from="developer">Title for the language switcher toggle.</note>
+        <source>Use system language</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/screens/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="hu">
+    <body>
+      <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
+        <source>Local network access</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.lanAccess.description" xml:space="preserve">
+        <source>Access printers, streaming sticks and all other devices on your local network</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.networking" xml:space="preserve">
+        <source>Network settings</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.networking.advancedDNSSettings" xml:space="preserve">
+        <source>Advanced DNS Settings</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
+        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+        <source>VPN must be off to edit these settings</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/screens/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="hu">
+    <body>
+      <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
+        <source>Guest Wi-Fi portal alert</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
+        <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
+        <source>Get notified when the connection status changes</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
+        <source>Connection change notification</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
+        <source>Get notified when you successfully switched servers</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.serverSwitch2" xml:space="preserve">
+        <source>Server switching notification</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notifications" xml:space="preserve">
+        <source>Notifications</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert" xml:space="preserve">
+        <source>Unsecured network alert</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description" xml:space="preserve">
+        <source>Get notified if you connect to an unsecured Wi-Fi network</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/screens/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="hu">
+    <body>
+      <trans-unit id="vpn.main.settings" xml:space="preserve">
+        <source>Settings</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.appPermissions2" xml:space="preserve">
+        <source>App permissions</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/screens/settings/appPermissions/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="hu">
+    <body>
+      <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
+        <note annotates="source" from="developer">Button label</note>
+        <source>Add application</source>
+      </trans-unit>
+      <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
+        <note annotates="source" from="developer">Search bar placeholder text</note>
+        <source>Search apps</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.excludeTitle" xml:space="preserve">
+        <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
+        <source>Exclude apps from VPN protection</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
+        <source>Protect all apps with VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.protectAllApps.description" xml:space="preserve">
+        <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
+        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
+        <source>VPN must be off to edit App Permissions</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/screens/subscriptionNeeded/ViewSubscriptionNeeded.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
       <trans-unit id="vpn.subscription.featureTitle1" xml:space="preserve">
         <source>No activity logs</source>
-        <target>Nincs tevékenységnapló</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.featureTitle4" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
-        <target>Csatlakoztasson akár %1 eszközt</target>
         <source>Connect up to %1 devices</source>
       </trans-unit>
       <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
-        <target>Előfizetés most</target>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/views/ViewUpdate.qml" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="../src/ui/sharedViews/ViewErrorFullScreen.qml" datatype="plaintext" source-language="en" target-language="hu">
+    <body>
+      <trans-unit id="vpn.errors.checkOutageUpdates" xml:space="preserve">
+        <source>Check outage updates</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/ui/sharedViews/ViewUpdate.qml" datatype="plaintext" source-language="en" target-language="hu">
     <body>
       <trans-unit id="vpn.updates.notNow" xml:space="preserve">
         <source>Not now</source>
-        <target>Most nem</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateConnectionInsecureWarning" xml:space="preserve">
         <source>Your connection will not be secure while you update.</source>
-        <target>A frissítés közben a kapcsolata nem lesz biztonságos.</target>
+      </trans-unit>
+      <trans-unit id="vpn.updates.updateNow" xml:space="preserve">
+        <source>Update now</source>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRecomended" xml:space="preserve">
         <source>Update recommended</source>
-        <target>Frissítés javasolt</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRecomended.description" xml:space="preserve">
         <source>Please update the app before you continue to use the VPN</source>
-        <target>Frissítse az alkalmazást, mielőtt folytatná a VPN használatát</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRequire.reason" xml:space="preserve">
         <source>We detected and fixed a serious bug. You must update your app.</source>
-        <target>Súlyos hibát észleltünk és hárítottunk el. Frissítenie kell az alkalmazást.</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
         <source>Update required</source>
-        <target>Frissítés szükséges</target>
       </trans-unit>
     </body>
   </file>
@@ -1122,6 +958,10 @@
         <note annotates="source" from="developer">Terabits per second</note>
         <target>Tbit/s</target>
         <source>Tbit/s</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.labelUpload" xml:space="preserve">
+        <note annotates="source" from="developer">Label for the upload benchmark shown in the speed test view.</note>
+        <source>Upload</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.listHeaderDefault" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list of things that the current connection is capable of.</note>
@@ -1469,16 +1309,6 @@
         <target>Probléma az e-mail küldésekor…</target>
         <source>Problem sending email…</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.problemSigningInErrorMessage" xml:space="preserve">
-        <note annotates="source" from="developer">App screen that informs the user there was an error signing them in - this is the message.</note>
-        <target>Sajnáljuk, nem tudtuk bejelentkeztetni a fiókjába.</target>
-        <source>Sorry, we were unable to sign you in to your account.</source>
-      </trans-unit>
-      <trans-unit id="vpn.inAppAuth.problemSigningInTitle" xml:space="preserve">
-        <note annotates="source" from="developer">App screen that informs the user we are having a problem signing them in - this is the title.</note>
-        <target>Probléma a bejelentkezéssel…</target>
-        <source>Problem signing in…</source>
-      </trans-unit>
       <trans-unit id="vpn.inAppAuth.productUpdateOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">Checkbox label for users to opt in, when creating an account, to receive product update emails from Firefox.</note>
         <target>Szeretnék termékhíreket tartalmazó e-maileket kapni a Firefoxtól.</target>
@@ -1549,11 +1379,6 @@
         <note annotates="source" from="developer">Placeholder text for input element asking user for 8-digit verification code from their email.</note>
         <target>Adja meg a 8 számjegyű kódot</target>
         <source>Enter 8-digit code</source>
-      </trans-unit>
-      <trans-unit id="vpn.inAppAuth.verificationCodeInputPlaceholder" xml:space="preserve">
-        <note annotates="source" from="developer">Placeholder text for input element asking user for 6-digit verification code from their email.</note>
-        <target>Adja meg a 6 számjegyű kódot</target>
-        <source>Enter 6-digit code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verificationCodeTitle" xml:space="preserve">
         <source>Enter verification code</source>
@@ -1772,6 +1597,10 @@
       <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorText" xml:space="preserve">
         <source>Your subscription is linked to another Firefox Account. You may need to sign in with a different email address.</source>
         <target>Előfizetése egy másik Firefox-fiókkal van összekapcsolva. Előfordulhat, hogy másik e-mail-címmel kell bejelentkeznie.</target>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection" xml:space="preserve">
+        <note annotates="source" from="developer">Accessible label that is used for recent multi-hop server connections. “%1” represents the entry server and “%2” the exit server.</note>
+        <source>%1 to %2</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText" xml:space="preserve">
         <note annotates="source" from="developer">This is alt text for an arrow showing the multi-hop route between servers. e.g. Atlanta TO Copenhagen</note>
@@ -2197,14 +2026,6 @@
         <source>Advanced tips</source>
         <target>Tippek tapasztalt felhasználóknak</target>
       </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.featureTourCardDescription" xml:space="preserve">
-        <source>Take a tour of Mozilla VPN to learn how the latest features help you protect your online privacy.</source>
-        <target>Tekintse meg a Mozilla VPN ismertetőjét, és megtudja, hogy a legújabb funkciók hogyan segítenek megvédeni az online magánszféráját.</target>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.featureTourCardTitle" xml:space="preserve">
-        <source>Tour the VPN</source>
-        <target>A VPN bemutatása</target>
-      </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.introModalDescription" xml:space="preserve">
         <source>Here’s a great list of useful tips and tricks to get the best out of your Mozilla VPN experience. Check it out now or find it anytime in the settings.</source>
         <target>Íme egy hasznos tippeket és trükköket tartalmazó lista, amellyel a legtöbbet hozhatja ki Mozilla VPN-élményéből. Tekintse meg most, vagy bármikor megtalálja a beállítások között.</target>
@@ -2311,127 +2132,6 @@
       <trans-unit id="vpn.updateButton.titleOnUpdate" xml:space="preserve">
         <source>Updates available</source>
         <target>Frissítések érhetők el</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.connectionInfoDescription" xml:space="preserve">
-        <source>You can now run speed tests in Mozilla VPN! Select the performance icon in the top left corner of your screen to test your connection speed while using VPN.</source>
-        <target>Mostantól sebességteszteket futtathat a Mozilla VPN-ben. Válassza a teljesítmény ikont a képernyő bal felső sarkában, hogy tesztelje a kapcsolat sebességét VPN használata közben.</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.connectionInfoDescriptionShort" xml:space="preserve">
-        <source>You can now run speed tests within the VPN to check your connection speed.</source>
-        <target>Mostantól sebességteszteket futtathat a VPN-en belül a kapcsolat sebességének ellenőrzéséhez.</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.connectionInfoDisplayName" xml:space="preserve">
-        <source>Test your speed</source>
-        <target>Tesztelje a sebességét</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemBody" xml:space="preserve">
-        <source>Custom DNS settings allow for faster connection using local servers.</source>
-        <target>Az egyéni DNS-beállítások gyorsabb kapcsolatot tesznek lehetővé a helyi kiszolgálók használatával.</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.dnsListItemHeader" xml:space="preserve">
-        <source>Custom DNS</source>
-        <target>Egyéni DNS</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalBodyTextNew" xml:space="preserve">
-        <source>Custom DNS servers allow for faster speed using local networks, features like ad-blocking and anti-tracking. You can find this feature in the “Network settings” section.</source>
-        <target>Az egyéni DNS-kiszolgálók gyorsabb sebességet tesznek lehetővé a helyi hálózatok használatával, és az olyan funkcióknak köszönhetően, mint a reklámblokkolás és a nyomkövetés elleni védelem. Ezt a funkciót a „Hálózati beállítások” részben találja.</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalButtonText" xml:space="preserve">
-        <source>Done</source>
-        <target>Kész</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.dnsModalHeader" xml:space="preserve">
-        <source>Custom DNS</source>
-        <target>Egyéni DNS</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.easyProfileDescription" xml:space="preserve">
-        <source>Now accessible from the VPN app, users can view their personal information, subscription summary and payment information within the subscription profile page.</source>
-        <target>Mostantól érhető el a VPN-alkalmazásban: a felhasználók megtekinthetik személyes adataikat, előfizetési összefoglalóikat és a fizetési információikat az előfizetési profil oldalon.</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.easyProfileDisplayName" xml:space="preserve">
-        <source>Easier-to-use profile</source>
-        <target>Könnyebben használható profil</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.multiAccountContainersDescription" xml:space="preserve">
-        <source>You can now use different Mozilla VPN locations in multiple tabs simultaneously.</source>
-        <target>Mostantól eltérő Mozilla VPN-helyeket használhat egyidejűleg a különböző lapokon.</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.multiAccountContainersHeader" xml:space="preserve">
-        <source>Mozilla VPN in Firefox</source>
-        <target>Mozilla VPN a Firefoxban</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.multiAccountContainersShortDescription" xml:space="preserve">
-        <note annotates="source" from="developer">“Multi-Account Containers” is the name of the add-on and should not be translated.</note>
-        <target>A Mozilla VPN már integrálva van a Multi-Account Containers kiegészítővel a nagyobb adatvédelem és biztonság érdekében.</target>
-        <source>Mozilla VPN is now integrated with the Multi-Account Containers add-on for more privacy and security.</source>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.multiListItemBody" xml:space="preserve">
-        <source>Multi-hop VPN uses multiple VPN servers instead of one for extra security and privacy.</source>
-        <target>A több ugrásos VPN több VPN kiszolgálót használót a nagyobb biztonság és adatvédelem érdekében.</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.multiListItemHeader" xml:space="preserve">
-        <source>Multi-hop VPN</source>
-        <target>Több ugrásos VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.multiModalBodyText" xml:space="preserve">
-        <source>Multi-hop VPN will route your traffic through a second server for added protection. You can find this feature on the “Select location” screen.</source>
-        <target>A több ugrásos VPN egy második kiszolgálón keresztül vezeti át a forgalmat a nagyobb védelem érdekében. Ezt a funkciót a „Hely kiválasztása” képernyőn találja.</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.multiModalHeader" xml:space="preserve">
-        <source>Multi-hop VPN</source>
-        <target>Több ugrásos VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.supportListItemBody" xml:space="preserve">
-        <source>The in-app support form will streamline the process of getting your issues resolved.</source>
-        <target>Az alkalmazáson belüli támogatási űrlap leegyszerűsíti a problémamegoldás folyamatát.</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.supportListItemHeader" xml:space="preserve">
-        <source>In-app support form</source>
-        <target>Alkalmazáson belüli támogatási űrlap</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.supportModalBodyText" xml:space="preserve">
-        <source>The in-app support form will allow you to contact support from within the VPN app. You can find it in the “Get help” section.</source>
-        <target>Az alkalmazáson belüli támogatási űrlap lehetővé teszi, hogy kapcsolatba lépjen a támogatással a VPN alkalmazásban. A „Segítség kérése” részben találja.</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.supportModalButtonText" xml:space="preserve">
-        <source>Next</source>
-        <target>Következő</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.supportModalHeader" xml:space="preserve">
-        <source>In-app support form</source>
-        <target>Alkalmazáson belüli támogatási űrlap</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.tourModalBodyText" xml:space="preserve">
-        <source>We’ve added a ton of cool features in this latest release. Take the tour to get a deeper dive into what we’ve added for you!</source>
-        <target>Számos remek funkciót adtunk hozzá a legújabb kiadásban. Nézze meg a bemutatót, hogy jobban beleássa magát abba, hogy mik is kerültek bele.</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.tourModalButtonText" xml:space="preserve">
-        <source>Take the tour</source>
-        <target>Részvétel a bemutatón</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.tourModalHeader" xml:space="preserve">
-        <source>What’s new in VPN?</source>
-        <target>Mik a VPN újdonságai?</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.tourPageHeader" xml:space="preserve">
-        <source>What’s new</source>
-        <target>Újdonságok</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.tourSubHeader" xml:space="preserve">
-        <source>Take the tour</source>
-        <target>Részvétel a bemutatón</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifBody" xml:space="preserve">
-        <source>Check out all the new features available in the latest version of Mozilla VPN!</source>
-        <target>Nézze meg a Mozilla VPN legújabb verziójában elérhető összes új funkciót!</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifCTA" xml:space="preserve">
-        <source>Take the tour</source>
-        <target>Részvétel a bemutatón</target>
-      </trans-unit>
-      <trans-unit id="vpn.whatsNewReleaseNotes.tourSystemNotifHeader" xml:space="preserve">
-        <source>What’s new in VPN</source>
-        <target>Mik a VPN újdonságai?</target>
       </trans-unit>
     </body>
   </file>
