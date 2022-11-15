@@ -459,11 +459,10 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/screens/ScreenSubscriptionInProgress.qml" datatype="plaintext" source-language="en" target-language="uk">
+  <file original="../src/ui/screens/ScreenSubscriptionInProgressIAP.qml" datatype="plaintext" source-language="en" target-language="uk">
     <body>
       <trans-unit id="vpn.subscription.pleaseWait" xml:space="preserve">
         <source>Please wait…</source>
-        <target>Зачекайте, будь ласка…</target>
       </trans-unit>
     </body>
   </file>
@@ -722,7 +721,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Шифрування на рівні пристрою</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
-        <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeeded.qml too.</note>
+        <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeededIAP.qml too.</note>
         <target>Сервери в понад 30 країнах</target>
         <source>Servers in 30+ countries</source>
       </trans-unit>
@@ -918,20 +917,17 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/ui/screens/subscriptionNeeded/ViewSubscriptionNeeded.qml" datatype="plaintext" source-language="en" target-language="uk">
+  <file original="../src/ui/screens/subscriptionNeeded/ViewSubscriptionNeededIAP.qml" datatype="plaintext" source-language="en" target-language="uk">
     <body>
       <trans-unit id="vpn.subscription.featureTitle1" xml:space="preserve">
         <source>No activity logs</source>
-        <target>Немає журналів активности</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.featureTitle4" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
-        <target>Під'єднайте до %1 пристроїв</target>
         <source>Connect up to %1 devices</source>
       </trans-unit>
       <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
-        <target>Передплатити зараз</target>
       </trans-unit>
     </body>
   </file>
@@ -1297,6 +1293,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Згорнути</target>
         <source>Collapse</source>
       </trans-unit>
+      <trans-unit id="vpn.global.continue" xml:space="preserve">
+        <note annotates="source" from="developer">Label for button used to proceed with an action</note>
+        <source>Continue</source>
+      </trans-unit>
       <trans-unit id="vpn.global.discoverNow" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used in intro modals to discover new features.</note>
         <target>Ознайомитися</target>
@@ -1311,6 +1311,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Label for button used in intro modals to return to the app.</note>
         <target>Назад</target>
         <source>Go back</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.noThanks" xml:space="preserve">
+        <note annotates="source" from="developer">Label for button used to not proceed with an action</note>
+        <source>No thanks</source>
       </trans-unit>
       <trans-unit id="vpn.global.vpnUser" xml:space="preserve">
         <note annotates="source" from="developer">Fallback string for users who have not specified a Display Name.</note>
@@ -1851,6 +1855,16 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Visa</source>
         <target>Vіsa</target>
       </trans-unit>
+      <trans-unit id="vpn.purchaseWeb.inProgress" xml:space="preserve">
+        <source>Please complete your subscription in your web browser.</source>
+      </trans-unit>
+      <trans-unit id="vpn.purchaseWeb.message" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the user’s email address.</note>
+        <source>We couldn’t find a subscription for %1. Subscribe now to protect your connection.</source>
+      </trans-unit>
+      <trans-unit id="vpn.purchaseWeb.title" xml:space="preserve">
+        <source>Subscribe to Mozilla VPN</source>
+      </trans-unit>
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
         <source>Already a subscriber?</source>
         <target>Уже передплатили?</target>
@@ -2220,6 +2234,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.tutorialPopup.tutorialLeaveSubtitle" xml:space="preserve">
         <source>Looks like you haven’t finished the tutorial quite yet. Would you like to continue and finish now or quit and come back later?</source>
         <target>Схоже, ви ще не завершили ознайомлення. Бажаєте продовжити й завершити його зараз чи припинити й повернутися пізніше?</target>
+      </trans-unit>
+      <trans-unit id="vpn.tutorialPopup.tutorialWarningDescription" xml:space="preserve">
+        <source>By continuing this tutorial, you will be changing your VPN settings. These settings will revert to their original state upon completion or quitting of the tutorial.</source>
+      </trans-unit>
+      <trans-unit id="vpn.tutorialPopup.tutorialWarningTitle" xml:space="preserve">
+        <source>Continue tutorial?</source>
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionNoUpdate" xml:space="preserve">
         <source>Okay</source>
