@@ -108,6 +108,7 @@
     <body>
       <trans-unit id="vpn.main.back" xml:space="preserve">
         <note annotates="source" from="developer">Go back</note>
+        <target>Mbrapsht</target>
         <source>Back</source>
       </trans-unit>
     </body>
@@ -221,6 +222,7 @@
     <body>
       <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>Administroni llogarinë</target>
       </trans-unit>
     </body>
   </file>
@@ -986,10 +988,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.accessibility.currentIndexFocusedOfTotalItemsInGroup" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen readers to explain to users which item they are currently focused on, and how many items there are total in a group. For example, given a list with 15 items. If a user selects the 3rd item, we want the screen reader to read out "3 of 15". The %1 represents the index of the currently focused item by the screen reader. The %2 represents the total number of items in the group.</note>
+        <target>%1 nga %2</target>
         <source>%1 of %2</source>
       </trans-unit>
       <trans-unit id="vpn.accessibility.selectedAndItemName" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen readers to denote that a particular item is currently selected. For example, given a segmented control with 2 items, where the first item is currently selected. We want the screen reader to read out "Selected, &lt;item name&gt;". The %1 represents the name of the selected item.</note>
+        <target>Objekt i përzgjedhur: %1</target>
         <source>Selected item: %1</source>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPostActivation" xml:space="preserve">
@@ -1067,6 +1071,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelUpload" xml:space="preserve">
         <note annotates="source" from="developer">Label for the upload benchmark shown in the speed test view.</note>
+        <target>Ngarkim</target>
         <source>Upload</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.listHeaderDefault" xml:space="preserve">
@@ -1193,30 +1198,38 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.authButtonLabel" xml:space="preserve">
         <source>Continue</source>
+        <target>Vazhdo</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.authSubheadline" xml:space="preserve">
         <source>To delete your VPN account, please sign in with your Firefox account password.</source>
+        <target>Që të fshini llogarinë tuaj VPN, ju lutemi, bëni hyrjen me fjalëkalimin e Llogarisë tuaj Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.buttonLabel" xml:space="preserve">
         <source>Delete account</source>
+        <target>Fshijeni llogarinë</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.headline" xml:space="preserve">
         <source>Delete Firefox account</source>
+        <target>Fshini llogari Firefox</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionFour" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>Çfarëdo zgjerimi dhe teme që keni botuar te addons.mozilla.org do të fshihet</target>
         <source>Any extensions and themes that you’ve published to addons.mozilla.org will be deleted</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionOne" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>Do të anulohet çfarëdo pajtimi me pagesë që keni (Hiq Pocket-in)</target>
         <source>Any paid subscriptions you have will be cancelled (Except Pocket)</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionThree" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>Riaktivizimi me këtë email mund të mos rikthejë të dhënat tuaja të ruajtura</target>
         <source>Reactivating with this email may not restore your saved information</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionTwo" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>Mund të humbni të dhëna dhe veçori të ruajtura brenda produktesh Mozilla</target>
         <source>You may lose saved information and features within Mozilla products</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.subheadline" xml:space="preserve">
@@ -1269,37 +1282,46 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.getHelp.helpCenter" xml:space="preserve">
         <source>Help Center</source>
+        <target>Qendër Ndihme</target>
       </trans-unit>
       <trans-unit id="vpn.getHelp.viewLogs" xml:space="preserve">
         <note annotates="source" from="developer">Label for a clickable item in the Get-Help view</note>
+        <target>Shihni Regjistrat</target>
         <source>View Logs</source>
       </trans-unit>
       <trans-unit id="vpn.global.collapse" xml:space="preserve">
         <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
+        <target>Tkurre</target>
         <source>Collapse</source>
       </trans-unit>
       <trans-unit id="vpn.global.continue" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to proceed with an action</note>
+        <target>Vazhdo</target>
         <source>Continue</source>
       </trans-unit>
       <trans-unit id="vpn.global.discoverNow" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used in intro modals to discover new features.</note>
+        <target>Zbulojini që tani</target>
         <source>Discover now</source>
       </trans-unit>
       <trans-unit id="vpn.global.expand" xml:space="preserve">
         <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
+        <target>Zgjeroje</target>
         <source>Expand</source>
       </trans-unit>
       <trans-unit id="vpn.global.goBack" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used in intro modals to return to the app.</note>
+        <target>Kthehu mbrapsht</target>
         <source>Go back</source>
       </trans-unit>
       <trans-unit id="vpn.global.noThanks" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to not proceed with an action</note>
+        <target>Jo, faleminderit</target>
         <source>No thanks</source>
       </trans-unit>
       <trans-unit id="vpn.global.vpnUser" xml:space="preserve">
         <note annotates="source" from="developer">Fallback string for users who have not specified a Display Name.</note>
+        <target>Përdorues VPN-je</target>
         <source>VPN User</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.changeEmailLink" xml:space="preserve">
@@ -1484,44 +1506,56 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.criticalBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this is an important message</note>
+        <target>Kritike</target>
         <source>Critical</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.dateTimeYesterday" xml:space="preserve">
         <source>Yesterday</source>
+        <target>Dje</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.deleteMessage" xml:space="preserve">
         <note annotates="source" from="developer">An action to delete a message from the users inbox</note>
+        <target>Fshije mesazhin</target>
         <source>Delete message</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.editButton" xml:space="preserve">
         <source>Edit</source>
+        <target>Përpunoni</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.emptyStateDescription" xml:space="preserve">
         <source>You’re up to date!</source>
+        <target>Jeni të përditësuar!</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.emptyStateTitle" xml:space="preserve">
         <source>No messages</source>
+        <target>Pa mesazhe</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.menuTitle" xml:space="preserve">
         <source>Messages</source>
+        <target>Mesazhe</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.newUpdateBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying an update to the app is available</note>
+        <target>Përditësim i ri</target>
         <source>New update</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.searchBarPlaceholderText" xml:space="preserve">
         <source>Search messages</source>
+        <target>Kërkoni në mesazhe</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.surveyBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains a survey</note>
+        <target>Pyetësor</target>
         <source>Survey</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.warningBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this is a warning message</note>
+        <target>Sinjalizim</target>
         <source>Warning</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.whatsNewBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about what is new in the product</note>
+        <target>Ç’ka të re</target>
         <source>What’s new</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
@@ -1682,6 +1716,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label that is used for recent multi-hop server connections. “%1” represents the entry server and “%2” the exit server.</note>
+        <target>Nga %1 në %2</target>
         <source>%1 to %2</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText" xml:space="preserve">
@@ -1715,6 +1750,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA" xml:space="preserve">
         <source>Multi-hop</source>
+        <target>Shumëhopësh</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
@@ -1722,17 +1758,21 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA" xml:space="preserve">
         <source>Single-hop</source>
+        <target>Njëhopësh</target>
       </trans-unit>
       <trans-unit id="vpn.navBar.homeTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the home screen</note>
+        <target>Kreu</target>
         <source>Home</source>
       </trans-unit>
       <trans-unit id="vpn.navBar.messagesTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the messages inbox screen</note>
+        <target>Mesazhe</target>
         <source>Messages</source>
       </trans-unit>
       <trans-unit id="vpn.navBar.settingsTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the settings screen</note>
+        <target>Rregullime</target>
         <source>Settings</source>
       </trans-unit>
       <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
@@ -1778,12 +1818,15 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
         <source>American Express</source>
+        <target>American Express</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.diners" xml:space="preserve">
         <source>Diners Club</source>
+        <target>Diners Club</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.discover" xml:space="preserve">
         <source>Discover</source>
+        <target>Discover</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.iapApple" xml:space="preserve">
         <source>Apple subscription</source>
@@ -1793,18 +1836,23 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.jcb" xml:space="preserve">
         <source>JCB</source>
+        <target>JCB</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.mastercard" xml:space="preserve">
         <source>Mastercard</source>
+        <target>Mastercard</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.paypal" xml:space="preserve">
         <source>PayPal</source>
+        <target>PayPal</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.unionpay" xml:space="preserve">
         <source>UnionPay</source>
+        <target>UnionPay</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.visa" xml:space="preserve">
         <source>Visa</source>
+        <target>Visa</target>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.inProgress" xml:space="preserve">
         <source>Please complete your subscription in your web browser.</source>
@@ -1815,6 +1863,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.title" xml:space="preserve">
         <source>Subscribe to Mozilla VPN</source>
+        <target>Pajtohuni te Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
         <source>Already a subscriber?</source>
