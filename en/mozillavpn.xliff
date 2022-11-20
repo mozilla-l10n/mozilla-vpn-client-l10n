@@ -798,6 +798,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">A notification channel; so the user can subscribe to "General Notifications"</note>
         <source>General Notifications</source>
       </trans-unit>
+      <trans-unit id="vpn.aboutUs.copyVersionNumber">
+        <note annotates="source" from="developer">Accessible name for a button. %1 is the version number of the VPN client.</note>
+        <source>Copy %1</source>
+      </trans-unit>
       <trans-unit id="vpn.aboutUs.licenses">
         <source>Licenses</source>
       </trans-unit>
@@ -1045,6 +1049,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.global.continue">
         <note annotates="source" from="developer">Label for button used to proceed with an action</note>
         <source>Continue</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.copied">
+        <note annotates="source" from="developer">Confirmation banner displayed after clicking a button to copy something.</note>
+        <source>Copied!</source>
       </trans-unit>
       <trans-unit id="vpn.global.discoverNow">
         <note annotates="source" from="developer">Label for button used in intro modals to discover new features.</note>
@@ -1441,6 +1449,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.notifications.captivePortalUnblockTitle">
         <source>Guest Wi-Fi portal detected</source>
       </trans-unit>
+      <trans-unit id="vpn.notifications.subscriptionNotFound">
+        <source>Your Mozilla VPN subscription cannot be found. Please open the app to resolve this subscription issue.</source>
+      </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkMessage">
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
@@ -1478,8 +1489,8 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.paymentMethods.visa">
         <source>Visa</source>
       </trans-unit>
-      <trans-unit id="vpn.purchaseWeb.inProgress">
-        <source>Please complete your subscription in your web browser.</source>
+      <trans-unit id="vpn.purchaseWeb.inProgress2">
+        <source>Please continue subscribing in your browser…</source>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.message">
         <note annotates="source" from="developer">%1 is the user’s email address.</note>

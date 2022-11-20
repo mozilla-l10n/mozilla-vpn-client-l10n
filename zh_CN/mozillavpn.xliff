@@ -969,6 +969,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>常规通知</target>
         <source>General Notifications</source>
       </trans-unit>
+      <trans-unit id="vpn.aboutUs.copyVersionNumber" xml:space="preserve">
+        <note annotates="source" from="developer">Accessible name for a button. %1 is the version number of the VPN client.</note>
+        <source>Copy %1</source>
+      </trans-unit>
       <trans-unit id="vpn.aboutUs.licenses" xml:space="preserve">
         <source>Licenses</source>
         <target>许可协议</target>
@@ -1273,6 +1277,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.global.continue" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to proceed with an action</note>
         <source>Continue</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.copied" xml:space="preserve">
+        <note annotates="source" from="developer">Confirmation banner displayed after clicking a button to copy something.</note>
+        <source>Copied!</source>
       </trans-unit>
       <trans-unit id="vpn.global.discoverNow" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used in intro modals to discover new features.</note>
@@ -1751,6 +1759,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Guest Wi-Fi portal detected</source>
         <target>检测到 Wi-Fi 登录页面</target>
       </trans-unit>
+      <trans-unit id="vpn.notifications.subscriptionNotFound" xml:space="preserve">
+        <source>Your Mozilla VPN subscription cannot be found. Please open the app to resolve this subscription issue.</source>
+      </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
         <target>%1 网络不安全，请点此开启 VPN 保护您的设备。</target>
@@ -1800,8 +1811,8 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Visa</source>
         <target>维萨卡（Visa）</target>
       </trans-unit>
-      <trans-unit id="vpn.purchaseWeb.inProgress" xml:space="preserve">
-        <source>Please complete your subscription in your web browser.</source>
+      <trans-unit id="vpn.purchaseWeb.inProgress2" xml:space="preserve">
+        <source>Please continue subscribing in your browser…</source>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.message" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the user’s email address.</note>
