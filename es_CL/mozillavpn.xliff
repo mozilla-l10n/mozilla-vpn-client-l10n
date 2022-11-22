@@ -1928,6 +1928,18 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Get notified when connecting to a server location failed</source>
         <target>Recibe una notificación cuando falle la conexión a una ubicación de servidor</target>
       </trans-unit>
+      <trans-unit id="vpn.serversView.recommendedCardBody" xml:space="preserve">
+        <note annotates="source" from="developer">Body text of an expandable info card on the recommended servers list.</note>
+        <source>These locations are sorted by expected performance.</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.recommendedCardTitle" xml:space="preserve">
+        <note annotates="source" from="developer">Title of an expandable info card on the recommended servers list.</note>
+        <source>Why are these locations recommended?</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
+        <note annotates="source" from="developer">Accessible label for the button that triggers a refresh of the recommended servers list.</note>
+        <source>Refresh list</source>
+      </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
         <target>Sin resultados. Prueba una búsqueda diferente</target>
@@ -1935,6 +1947,14 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.serversView.searchPlaceholder" xml:space="preserve">
         <source>Search countries</source>
         <target>Buscar países</target>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.tabAllLabel" xml:space="preserve">
+        <note annotates="source" from="developer">Label for the “all” servers tab</note>
+        <source>All</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.tabRecommendedLabel" xml:space="preserve">
+        <note annotates="source" from="developer">Label for the “recommended” servers tab</note>
+        <source>Recommended</source>
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
