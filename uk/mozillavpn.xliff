@@ -1049,6 +1049,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.ipInfoButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the IP info button that shows the IP info panel when clicked.</note>
+        <target>Показати інформацію про IP</target>
         <source>Show IP info</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelBitps" xml:space="preserve">
@@ -1118,10 +1119,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.metricsTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the connection metrics view.</note>
+        <target>Відомості про з'єднання</target>
         <source>Connection information</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.multiHopCallout" xml:space="preserve">
         <note annotates="source" from="developer">Informational text that is shown for multi-hop connections.</note>
+        <target>Ви можете підвищити свою швидкість, повернувшись до з’єднання через один сервер</target>
         <source>You can improve your speed by switching back to a single-hop connection</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.openButton" xml:space="preserve">
@@ -1135,6 +1138,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section for multi-hop connections</note>
+        <target>Повернення до з’єднання через один сервер</target>
         <source>Switching back to a single-hop connection</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo" xml:space="preserve">
@@ -1353,6 +1357,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.paste" xml:space="preserve">
         <note annotates="source" from="developer">Label for button to paste value from clipboard into input</note>
+        <target>Вставити</target>
         <source>Paste</source>
       </trans-unit>
       <trans-unit id="vpn.global.vpnUser" xml:space="preserve">
@@ -1841,17 +1846,21 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
+        <target>Під'єднано до %1</target>
         <source>Connected to %1</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedTitle" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN під'єднано</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN disconnected from.</note>
+        <target>Від’єднано від %1</target>
         <source>Disconnected from %1</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNDisconnectedTitle" xml:space="preserve">
         <source>VPN Disconnected</source>
+        <target>VPN від’єднано</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the initial server, %2 is the name of the destination server.</note>
@@ -1859,6 +1868,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersTitle" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>Служба VPN перемкнула сервери</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
