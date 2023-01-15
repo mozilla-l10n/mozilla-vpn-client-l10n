@@ -1359,6 +1359,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.paste" xml:space="preserve">
         <note annotates="source" from="developer">Label for button to paste value from clipboard into input</note>
+        <target>Вставить</target>
         <source>Paste</source>
       </trans-unit>
       <trans-unit id="vpn.global.vpnUser" xml:space="preserve">
@@ -1780,7 +1781,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardBody" xml:space="preserve">
         <source>Multi-hop VPN routes your traffic through two servers instead of one for extra security and privacy. This may slow down your connection.</source>
-        <target>Multi-hop VPN направляет ваш трафик через два сервера вместо одного для дополнительной безопасности и конфиденциальности. Это может замедлить ваше соединение.</target>
+        <target>VPN-cоединение через несколько серверов направляет ваш трафик через два сервера вместо одного для дополнительной безопасности и конфиденциальности. Это может замедлить ваше соединение.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardHeader" xml:space="preserve">
         <source>What is multi-hop VPN?</source>
@@ -1847,24 +1848,30 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
+        <target>Подключено к %1</target>
         <source>Connected to %1</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedTitle" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN подключён</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN disconnected from.</note>
+        <target>Отключено от %1</target>
         <source>Disconnected from %1</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNDisconnectedTitle" xml:space="preserve">
         <source>VPN Disconnected</source>
+        <target>VPN отключён</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the initial server, %2 is the name of the destination server.</note>
+        <target>Переключено с %1 на %2</target>
         <source>Switched from %1 to %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersTitle" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>VPN переключило сервера</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
