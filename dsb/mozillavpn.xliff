@@ -1258,6 +1258,24 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
         <source>Your Firefox account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
       </trans-unit>
+      <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS" xml:space="preserve">
+        <source>Using these privacy features will override your custom DNS.</source>
+      </trans-unit>
+      <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy" xml:space="preserve">
+        <source>Using a custom DNS will override your preferences in the privacy features page.</source>
+      </trans-unit>
+      <trans-unit id="vpn.dnsOverwriteDialog.primaryButton" xml:space="preserve">
+        <source>Confirm</source>
+      </trans-unit>
+      <trans-unit id="vpn.dnsOverwriteDialog.secondaryButton" xml:space="preserve">
+        <source>Maybe later</source>
+      </trans-unit>
+      <trans-unit id="vpn.dnsOverwriteDialog.titleDNS" xml:space="preserve">
+        <source>Override DNS settings?</source>
+      </trans-unit>
+      <trans-unit id="vpn.dnsOverwriteDialog.titlePrivacy" xml:space="preserve">
+        <source>Override privacy features?</source>
+      </trans-unit>
       <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
         <source>Choose a category</source>
         <target>Wubjeŕśo kategoriju</target>
@@ -2001,6 +2019,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Label for the “recommended” servers tab</note>
         <source>Recommended</source>
       </trans-unit>
+      <trans-unit id="vpn.settings.appExclusionSettings" xml:space="preserve">
+        <source>App exclusions</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.appPreferences" xml:space="preserve">
+        <source>App preferences</source>
+      </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
         <target>Mozilla VPN zmóžnić, awtomatiski wowaleńske rozpšawy pósłaś, aby se njewótcakane wowalenja wótpórali</target>
@@ -2009,6 +2033,51 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
         <target>Mozilla VPN dowóliś, na Mozilla techniske, interakciske a kampanjowe a wótkazowańske daty słaś</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
+        <source>DNS settings</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody" xml:space="preserve">
+        <source>Resolve websites using a custom DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSError" xml:space="preserve">
+        <source>Invalid DNS, please try a new one</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle" xml:space="preserve">
+        <source>Use custom DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody" xml:space="preserve">
+        <source>Resolve websites using Mozilla VPN’s standard DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle" xml:space="preserve">
+        <source>Use standard DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettingsWarning" xml:space="preserve">
+        <source>These options may cause some websites to break or not display content correctly.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacyAdblockBody" xml:space="preserve">
+        <source>Reduces the number of ads you see when you’re using VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacyAdblockTitle" xml:space="preserve">
+        <source>Block ads</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacyCard" xml:space="preserve">
+        <source>These options may cause some websites to break or not display content correctly.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacyMalwareBody" xml:space="preserve">
+        <source>Helps protect you from ransomware, phishing, spyware, viruses, and malware</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacyMalwareTitle" xml:space="preserve">
+        <source>Block malware</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacySettings" xml:space="preserve">
+        <source>Privacy features</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacyTrackerBody" xml:space="preserve">
+        <source>Fewer harmful domains will be able to track you</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacyTrackerTitle" xml:space="preserve">
+        <source>Block trackers</source>
       </trans-unit>
       <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
         <source>Mozilla VPN will launch and connect when you start up your device</source>
@@ -2022,6 +2091,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.settings.systemPreferences" xml:space="preserve">
         <source>System preferences</source>
         <target>Systemowe nastajenja</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.tipsAndTricksSettings" xml:space="preserve">
+        <source>Tips and tricks</source>
       </trans-unit>
       <trans-unit id="vpn.settings.tunnelPort53" xml:space="preserve">
         <note annotates="source" from="developer">Tunnel is used as a verb, as in to direct traffic through</note>
