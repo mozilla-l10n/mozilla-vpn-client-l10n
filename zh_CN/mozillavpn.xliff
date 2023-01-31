@@ -1951,6 +1951,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.message" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the user’s email address.</note>
+        <target>我们找不到 %1 的订阅。立即订阅以保护您的连接。</target>
         <source>We couldn’t find a subscription for %1. Subscribe now to protect your connection.</source>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.title" xml:space="preserve">
@@ -1966,15 +1967,18 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText" xml:space="preserve">
         <source>Sorry, we were unable to confirm your subscription. Please try again or contact our support team for help.</source>
+        <target>抱歉，我们无法确认您的订阅。请重试或联系我们的支持团队寻求帮助。</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText" xml:space="preserve">
         <source>Another Firefox Account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
+        <target>另一个 Firefox 帐户已使用此 Apple ID 订阅。请退出并重试或联系我们的支持团队寻求帮助。</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Choose a new location.</source>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.buttonLabel" xml:space="preserve">
         <source>Choose a new location</source>
+        <target>选择一个新位置</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.headerText" xml:space="preserve">
         <source>Server unavailable</source>
@@ -1982,6 +1986,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
+        <target>此服务器位置暂时不可用。请打开应用程序以选择新位置。</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked" xml:space="preserve">
         <source>The server has been blocked. Check your firewall settings.</source>
@@ -1996,10 +2001,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedCardBody" xml:space="preserve">
         <note annotates="source" from="developer">Body text of an expandable info card on the recommended servers list.</note>
+        <target>这些位置按预期性能排序。</target>
         <source>These locations are sorted by expected performance.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedCardTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title of an expandable info card on the recommended servers list.</note>
+        <target>为什么推荐这些地点？</target>
         <source>Why are these locations recommended?</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
@@ -2033,10 +2040,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
+        <target>允许 Mozilla VPN 自动发送崩溃报告以帮助修复意外崩溃</target>
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
       </trans-unit>
       <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
+        <target>允许 Mozilla VPN 向 Mozilla 发送技术、交互、活动和推荐数据</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
         <source>DNS settings</source>
@@ -2148,10 +2157,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppAddedOne" xml:space="preserve">
         <note annotates="source" from="developer">Displayed in notification after the user added a missing app to the split-tunnel List; %1 is the name of the added application</note>
+        <target>成功！您已将 “%1” 添加到此列表中。</target>
         <source>Success! You added “%1” to this list.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppMultiple" xml:space="preserve">
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
+        <target>列表中缺少 %1 个应用程序。</target>
         <source>%1 apps missing from list.</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.activatedLabel" xml:space="preserve">
@@ -2169,6 +2180,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.cardLast4" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents the last four digits of a credit card.</note>
+        <target>以 %1 结尾的卡片</target>
         <source>Card ending in %1</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.expiresLabel" xml:space="preserve">
@@ -2197,6 +2209,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the selected subscription plan the user currently is subscribed to.</note>
+        <target>订阅计划</target>
         <source>Subscription plan</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly" xml:space="preserve">
@@ -2241,6 +2254,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
+        <target>断开连接</target>
       </trans-unit>
       <trans-unit id="vpn.systray.help" xml:space="preserve">
         <source>Help</source>
