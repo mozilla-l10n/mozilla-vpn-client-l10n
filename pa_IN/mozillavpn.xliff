@@ -234,40 +234,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/crashreporter/crashui/main.qml" datatype="plaintext" source-language="en" target-language="pa-IN">
-    <body>
-      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
-        <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
-        <target>Mozilla VPN ਐਪ ਅਚਾਨਕ  ਬੰਦ ਹੋ ਗਈ ਹੈ। ਕੀ ਤੁਸੀਂ ਮਸਲੇ ਨੂੰ ਠੀਕ ਕਰਨ ਲਈ ਮਦਦ ਵਾਸਤੇ ਕਰੈਸ਼ ਰਿਪੋਰਟ ਭੇਜਣੀ ਚਾਹੋਗੇ?</target>
-        <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
-        <note annotates="source" from="developer">User does not agree to send a crash report.</note>
-        <target>ਨਹੀਂ ਜੀ, ਧੰਨਵਾਦ</target>
-        <source>No thanks</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
-        <note annotates="source" from="developer">Label over description text section.</note>
-        <target>ਕਰੈਸ਼ ਰਿਪੋਰਟਿੰਗ</target>
-        <source>Crash reporting</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
-        <note annotates="source" from="developer">User agrees to send a crash report.</note>
-        <target>ਰਿਪੋਰਟ ਭੇਜੋ</target>
-        <source>Send report</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ipaddresslookup.cpp" datatype="cpp" source-language="en" target-language="pa-IN">
-    <body>
-      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
-        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
-        <target>ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</target>
-        <source>Loading</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/localizer.cpp" datatype="cpp" source-language="en" target-language="pa-IN">
+  <file original="../src/apps/template/extrastrings.h" datatype="c" source-language="en" target-language="pa-IN">
     <body>
       <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
         <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
@@ -310,6 +277,15 @@
       <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
         <source>Click “Continue” to continue the setup.</source>
         <target>ਸੈਟਅੱਪ ਜਾਰੀ ਰੱਖਣ ਲਈ “ਜਾਰੀ ਰੱਖੋ” ਨੂੰ ਕਲਿੱਕ ਕਰੋ।</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ipaddresslookup.cpp" datatype="cpp" source-language="en" target-language="pa-IN">
+    <body>
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
+        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
+        <target>ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</target>
+        <source>Loading</source>
       </trans-unit>
     </body>
   </file>
@@ -421,6 +397,30 @@
       <trans-unit id="vpn.errors.unableToEstablishConnection" xml:space="preserve">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
         <target>ਫਿਲਹਾਲ ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਬਣਾ ਸਕੇ। ਅਸੀਂ ਇਸ ਸਮੱਸਿਆ ਨੂੰ ਹੱਲ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹਾਂ। ਕੁਝ ਸਮੇਂ ਬਾਅਦ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/ScreenCrashReporting.qml" datatype="plaintext" source-language="en" target-language="pa-IN">
+    <body>
+      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
+        <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
+        <target>Mozilla VPN ਐਪ ਅਚਾਨਕ  ਬੰਦ ਹੋ ਗਈ ਹੈ। ਕੀ ਤੁਸੀਂ ਮਸਲੇ ਨੂੰ ਠੀਕ ਕਰਨ ਲਈ ਮਦਦ ਵਾਸਤੇ ਕਰੈਸ਼ ਰਿਪੋਰਟ ਭੇਜਣੀ ਚਾਹੋਗੇ?</target>
+        <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
+        <note annotates="source" from="developer">User does not agree to send a crash report.</note>
+        <target>ਨਹੀਂ ਜੀ, ਧੰਨਵਾਦ</target>
+        <source>No thanks</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
+        <note annotates="source" from="developer">Label over description text section.</note>
+        <target>ਕਰੈਸ਼ ਰਿਪੋਰਟਿੰਗ</target>
+        <source>Crash reporting</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
+        <note annotates="source" from="developer">User agrees to send a crash report.</note>
+        <target>ਰਿਪੋਰਟ ਭੇਜੋ</target>
+        <source>Send report</source>
       </trans-unit>
     </body>
   </file>
