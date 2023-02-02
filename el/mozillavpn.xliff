@@ -234,27 +234,40 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/crashreporter/crashui/main.qml" datatype="plaintext" source-language="en" target-language="el">
+  <file original="../src/apps/template/extrastrings.h" datatype="c" source-language="en" target-language="el">
     <body>
-      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
-        <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
-        <target>Το Mozilla VPN τερματίστηκε απροσδόκητα. Θέλετε να στείλετε μια αναφορά κατάρρευσης για να βοηθήσετε στην επίλυση του προβλήματος;</target>
-        <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
+      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
+        <source>The FooBar is successfully installed. You’re ready to start taking control of your online privacy.</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
-        <note annotates="source" from="developer">User does not agree to send a crash report.</note>
-        <target>Όχι, ευχαριστώ</target>
-        <source>No thanks</source>
+      <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
+        <source>Trouble with this installation?</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
-        <note annotates="source" from="developer">Label over description text section.</note>
-        <target>Αναφορά καταρρεύσεων</target>
-        <source>Crash reporting</source>
+      <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
+        <source>Get help.</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
-        <note annotates="source" from="developer">User agrees to send a crash report.</note>
-        <target>Αποστολή αναφοράς</target>
-        <source>Send report</source>
+      <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
+        <source>Success!</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
+        <source>A previous installation of FooBar exists at /Applications/FooBar.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
+        <source>Previous Installation Detected</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.title" xml:space="preserve">
+        <source>FooBar for macOS</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
+        <source>FooBar requires Mac OS X 10.6 or later.</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
+        <source>Unable to install</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
+        <source>You will now be guided through the installation steps for the FooBar. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
+        <source>Click “Continue” to continue the setup.</source>
       </trans-unit>
     </body>
   </file>
@@ -264,54 +277,6 @@
         <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
         <target>Φόρτωση</target>
         <source>Loading</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/localizer.cpp" datatype="cpp" source-language="en" target-language="el">
-    <body>
-      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
-        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
-        <target>Το Mozilla VPN έχει εγκατασταθεί επιτυχώς. Αποκτήστε τώρα τον έλεγχο του διαδικτυακού σας απορρήτου.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
-        <source>Trouble with this installation?</source>
-        <target>Αντιμετωπίζετε πρόβλημα με την εγκατάσταση;</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
-        <source>Get help.</source>
-        <target>Λάβετε βοήθεια.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
-        <source>Success!</source>
-        <target>Επιτυχία!</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
-        <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
-        <target>Μια προηγούμενη εγκατάσταση του Mozilla VPN υπάρχει στο /Applications/Mozilla VPN.app. Αυτό το πρόγραμμα εγκατάστασης θα καταργήσει την προηγούμενη έκδοση πριν από την εγκατάσταση της νέας. Παρακαλώ δημιουργήστε αντίγραφα ασφαλείας των δεδομένων πριν συνεχίσετε.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
-        <source>Previous Installation Detected</source>
-        <target>Εντοπίστηκε προηγούμενη εγκατάσταση</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.title" xml:space="preserve">
-        <source>Mozilla VPN for macOS</source>
-        <target>Mozilla VPN για macOS</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
-        <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
-        <target>Το Mozilla VPN απαιτεί Mac OS X 10.6 ή νεότερη έκδοση.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
-        <source>Unable to install</source>
-        <target>Δεν είναι δυνατή η εγκατάσταση</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
-        <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
-        <target>Τώρα, θα σας καθοδηγήσουμε στα βήματα εγκατάστασης του Mozilla VPN. Σας ευχαριστούμε που επιλέξατε το VPN σας από τους πιο αξιόπιστους πρωτοπόρους του απορρήτου στο διαδίκτυο.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
-        <source>Click “Continue” to continue the setup.</source>
-        <target>Κάντε κλικ στο «Συνέχεια» για να συνεχίσετε με την εγκατάσταση.</target>
       </trans-unit>
     </body>
   </file>
@@ -423,6 +388,26 @@
       <trans-unit id="vpn.errors.unableToEstablishConnection" xml:space="preserve">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
         <target>Δεν είναι δυνατή η σύνδεση αυτήν τη στιγμή. Εργαζόμαστε σκληρά για την επίλυση του προβλήματος. Παρακαλούμε δοκιμάστε αργότερα.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/ScreenCrashReporting.qml" datatype="plaintext" source-language="en" target-language="el">
+    <body>
+      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
+        <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
+        <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
+        <note annotates="source" from="developer">User does not agree to send a crash report.</note>
+        <source>No thanks</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
+        <note annotates="source" from="developer">Label over description text section.</note>
+        <source>Crash reporting</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
+        <note annotates="source" from="developer">User agrees to send a crash report.</note>
+        <source>Send report</source>
       </trans-unit>
     </body>
   </file>
