@@ -5,18 +5,6 @@
       <trans-unit id="vpn.connectionInfo.download">
         <source>Download</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.ip2">
-        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
-        <source>IP:</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.ipv4">
-        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IPv4 address.</note>
-        <source>IPv4:</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.ipv6">
-        <note annotates="source" from="developer">The abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
-        <source>IPv6:</source>
-      </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="en-US">
@@ -192,7 +180,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/template/extrastrings.h" datatype="c" source-language="en" target-language="en-US">
+  <file original="../src/apps/vpn/extrastrings.h" datatype="c" source-language="en" target-language="en-US">
     <body>
       <trans-unit id="macosinstaller.conclusion.message1_v2">
         <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
@@ -775,16 +763,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.updates.updateRequired">
         <source>Update required</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/screens/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="en-US">
-    <body>
-      <trans-unit id="vpn.settings.lanAccess">
-        <source>Local network access</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess.description">
-        <source>Access printers, streaming sticks and all other devices on your local network</source>
       </trans-unit>
     </body>
   </file>
@@ -1703,13 +1681,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.settings.tipsAndTricksSettings">
         <source>Tips and tricks</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.tunnelPort53">
-        <note annotates="source" from="developer">Tunnel is used as a verb, as in to direct traffic through</note>
-        <source>Tunnel VPN through port 53/DNS</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.tunnelPort53Description">
-        <source>Use port 53/DNS for Wireguard traffic, which may help evade firewalls</source>
-      </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired">
         <source>VPN must be restarted to take effect</source>
       </trans-unit>
@@ -1913,9 +1884,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.leaveTutorialButton">
         <source>Leave tutorial</source>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.secondaryButtonLabel">
-        <source>Come back later</source>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialCompleteHeadline">
         <source>Well done!</source>
