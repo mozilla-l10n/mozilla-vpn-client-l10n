@@ -6,21 +6,6 @@
         <source>Download</source>
         <target>Download</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.ip2" xml:space="preserve">
-        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IP address.</note>
-        <target>IP-adres:</target>
-        <source>IP:</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.ipv4" xml:space="preserve">
-        <note annotates="source" from="developer">The abbreviation for Internet Protocol. This is followed by the user’s IPv4 address.</note>
-        <target>IPv4-adres:</target>
-        <source>IPv4:</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.ipv6" xml:space="preserve">
-        <note annotates="source" from="developer">The abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
-        <target>IPv6-adres:</target>
-        <source>IPv6:</source>
-      </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="fy-NL">
@@ -234,51 +219,40 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/template/extrastrings.h" datatype="c" source-language="en" target-language="fy-NL">
+  <file original="../src/apps/vpn/extrastrings.h" datatype="c" source-language="en" target-language="fy-NL">
     <body>
       <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
         <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
-        <target>De Mozilla VPN is mei sukses ynstallearre. Jo binne ree om kontrôle te krijen oer jo online privacy.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
         <source>Trouble with this installation?</source>
-        <target>Problemen mei dizze ynstallaasje?</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
         <source>Get help.</source>
-        <target>Krij help.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
         <source>Success!</source>
-        <target>Slagge!</target>
       </trans-unit>
       <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
         <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
-        <target>In eardere ynstallaasje fan Mozilla VPN bestiet op /Applications/Mozilla VPN.app. Dizze ynstallaasje sil de foarige ynstallaasje foarôfgeand oan it ynstallearjen fuortsmite. Meitsje in reservekopy eardat jo trochgean.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
         <source>Previous Installation Detected</source>
-        <target>Foarige ynstallaasje detektearre</target>
       </trans-unit>
       <trans-unit id="macosinstaller.title" xml:space="preserve">
         <source>Mozilla VPN for macOS</source>
-        <target>Mozilla VPN foar macOS</target>
       </trans-unit>
       <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
         <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
-        <target>Mozilla VPN fereasket Mac OS X 10.6 of heger.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
         <source>Unable to install</source>
-        <target>Ynstallaasje net mooglik</target>
       </trans-unit>
       <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
         <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
-        <target>Jo wurde no troch de ynstallaasjestappen foar de Mozilla VPN laat. Tank foar it kiezen fan jo VPN fan de fertroude pionier fan ynternetprivacy.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
         <source>Click “Continue” to continue the setup.</source>
-        <target>Klik op ‘Trochgean’ om troch te gean mei de ynstallaasje.</target>
       </trans-unit>
     </body>
   </file>
@@ -955,18 +929,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
         <source>Update required</source>
         <target>Bywurkjen fereaske</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/ui/screens/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="fy-NL">
-    <body>
-      <trans-unit id="vpn.settings.lanAccess" xml:space="preserve">
-        <source>Local network access</source>
-        <target>Lokale netwurktagong</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.lanAccess.description" xml:space="preserve">
-        <source>Access printers, streaming sticks and all other devices on your local network</source>
-        <target>Benaderje printers, streamingsticks en alle oare apparaten op jo lokale netwurk</target>
       </trans-unit>
     </body>
   </file>
@@ -2154,15 +2116,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Tips and tricks</source>
         <target>Tips en trúks</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.tunnelPort53" xml:space="preserve">
-        <note annotates="source" from="developer">Tunnel is used as a verb, as in to direct traffic through</note>
-        <target>Stjoer VPN fia poarte 53/DNS</target>
-        <source>Tunnel VPN through port 53/DNS</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.tunnelPort53Description" xml:space="preserve">
-        <source>Use port 53/DNS for Wireguard traffic, which may help evade firewalls</source>
-        <target>Brûk poarte 53/DNS foar Wireguard-ferkear, wat helpe kin om om firewalls hinne te kommen</target>
-      </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
         <source>VPN must be restarted to take effect</source>
         <target>VPN moat opnij starten wurde om wizigingen troch te fieren</target>
@@ -2425,10 +2378,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.tutorialPopup.leaveTutorialButton" xml:space="preserve">
         <source>Leave tutorial</source>
         <target>Hantlieding ferlitte</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.secondaryButtonLabel" xml:space="preserve">
-        <source>Come back later</source>
-        <target>Letter weromkomme</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialCompleteHeadline" xml:space="preserve">
         <source>Well done!</source>
