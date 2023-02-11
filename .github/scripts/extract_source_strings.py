@@ -69,7 +69,7 @@ def main():
             # Changes caused by https://github.com/mozilla-l10n/mozilla-vpn-client-l10n/pull/268
             file_name = re.sub(r"^src/", "../src/", file_name)
             file_name = re.sub(r"^nebula/", "../../nebula/", file_name)
-            if "generated/l18nstrings_p.cpp" in file_name:
+            if "generated/i18nstrings_p.cpp" in file_name:
                 file_name = "generated/l18nstrings_p.cpp"
             f.set("original", file_name)
 
