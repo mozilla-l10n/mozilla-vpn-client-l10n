@@ -2235,18 +2235,22 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueMonthly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <target>%1 / 月</target>
         <source>%1 Monthly</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueYearly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <target>%1 / 年</target>
         <source>%1 Yearly</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.statusActive" xml:space="preserve">
         <note annotates="source" from="developer">Text for a label that indicates an active subscription.</note>
+        <target>生效中</target>
         <source>Active</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.statusInactive" xml:space="preserve">
         <note annotates="source" from="developer">Text for a label that indicates an inactive subscription.</note>
+        <target>未生效</target>
         <source>Inactive</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.statusLabel" xml:space="preserve">
@@ -2300,6 +2304,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnectTo" xml:space="preserve">
         <source>Connect to the last location:</source>
+        <target>继续使用上次的位置连接：</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnectedTo" xml:space="preserve">
         <source>Connected to:</source>
