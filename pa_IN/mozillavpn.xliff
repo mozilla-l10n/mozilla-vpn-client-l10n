@@ -1235,15 +1235,19 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.primaryButton" xml:space="preserve">
         <source>Confirm</source>
+        <target>ਤਸਦੀਕ</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.secondaryButton" xml:space="preserve">
         <source>Maybe later</source>
+        <target>ਸ਼ਾਇਦ ਬਾਦ 'ਚ</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titleDNS" xml:space="preserve">
         <source>Override DNS settings?</source>
+        <target>DNS ਸੈਟਿੰਗਾਂ ਨੂੰ ਅਣਡਿੱਠਾ ਕਰਨਾ ਹੈ?</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titlePrivacy" xml:space="preserve">
         <source>Override privacy features?</source>
+        <target>ਪਰਦੇਦਾਰੀ ਫ਼ੀਚਰਾਂ ਨੂੰ ਅਣਡਿੱਠਾ ਕਰਨਾ ਹੈ?</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
         <source>Choose a category</source>
@@ -1976,17 +1980,21 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel" xml:space="preserve">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated and instructions to re-enable the refresh button. Argument is the time or date/day</note>
+        <target>ਪਿਛਲਾ ਕੀਤਾ ਅੱਪਡੇਟ: %1। ਇਹ ਸੂਚੀ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਲਈ VPN ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਕਰੋ।</target>
         <source>Last updated: %1. To update this list please disconnect from the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabel" xml:space="preserve">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated. Argument is the time or date/day</note>
+        <target>ਆਖਰੀ ਕੀਤਾ ਅੱਪਡੇਟ: %1।</target>
         <source>Last updated: %1.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabelYesterday" xml:space="preserve">
         <source>yesterday</source>
+        <target>ਕੱਲ੍ਹ</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel" xml:space="preserve">
         <note annotates="source" from="developer">Loading string while recommended servers are being calculated. Argument is the percentage of completion as an integer (i.e. 25)</note>
+        <target>…ਜਾਂਚਿਆ ਜਾ ਰਿਹਾ ਹੈ (%1%)</target>
         <source>Checking (%1%)…</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
@@ -2009,13 +2017,16 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.appExclusionClearAllApps" xml:space="preserve">
         <note annotates="source" from="developer">Button label to clear all apps from the exclusions list</note>
+        <target>ਸਭ ਸਾਫ਼ ਕਰੋ</target>
         <source>Clear all</source>
       </trans-unit>
       <trans-unit id="vpn.settings.appExclusionSettings" xml:space="preserve">
         <source>App exclusions</source>
+        <target>ਐਪ ਅਲਹਿਦਗੀਆਂ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.appPreferences" xml:space="preserve">
         <source>App preferences</source>
+        <target>ਐਪ ਪਸੰਦਾਂ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
@@ -2028,21 +2039,26 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
         <source>DNS settings</source>
+        <target>DNS ਸੈਟਿੰਗਾਂ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody" xml:space="preserve">
         <source>Resolve websites using a custom DNS</source>
+        <target>ਪਸੰਦੀਦਾ DNS ਵਰਤ ਕੇ ਵੈੱਬਸਾਈਟਾਂ ਨੂੰ ਹੱਲ ਕਰੋ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSError" xml:space="preserve">
         <source>Invalid DNS, please try a new one</source>
+        <target>ਗਲਤ DNS, ਨਵਾਂ ਵਰਤ ਕੇ ਵੇਖੋ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle" xml:space="preserve">
         <source>Use custom DNS</source>
+        <target>ਪਸੰਦੀਦਾ DNS ਵਰਤੋਂ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning" xml:space="preserve">
         <source>Changing these settings will cause the VPN to disconnect and reconnect automatically.</source>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder" xml:space="preserve">
         <source>Enter custom DNS</source>
+        <target>ਪਸੰਦੀਦਾ DNS ਦਿਓ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody" xml:space="preserve">
         <source>Resolve websites using Mozilla VPN’s standard DNS</source>
