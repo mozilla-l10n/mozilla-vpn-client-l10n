@@ -1558,44 +1558,56 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.criticalBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this is an important message</note>
+        <target>重要</target>
         <source>Critical</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.dateTimeYesterday" xml:space="preserve">
         <source>Yesterday</source>
+        <target>昨日</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.deleteMessage" xml:space="preserve">
         <note annotates="source" from="developer">An action to delete a message from the users inbox</note>
+        <target>メッセージを削除</target>
         <source>Delete message</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.editButton" xml:space="preserve">
         <source>Edit</source>
+        <target>編集</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.emptyStateDescription" xml:space="preserve">
         <source>You’re up to date!</source>
+        <target>最新バージョンを使用しています</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.emptyStateTitle" xml:space="preserve">
         <source>No messages</source>
+        <target>メッセージはありません</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.menuTitle" xml:space="preserve">
         <source>Messages</source>
+        <target>メッセージ</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.newUpdateBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying an update to the app is available</note>
+        <target>新しいアップデート</target>
         <source>New update</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.searchBarPlaceholderText" xml:space="preserve">
         <source>Search messages</source>
+        <target>メッセージを検索</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.surveyBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains a survey</note>
+        <target>アンケート</target>
         <source>Survey</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.warningBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this is a warning message</note>
+        <target>警告</target>
         <source>Warning</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.whatsNewBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about what is new in the product</note>
+        <target>新着情報</target>
         <source>What’s new</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
@@ -1802,14 +1814,17 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.navBar.homeTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the home screen</note>
+        <target>ホーム</target>
         <source>Home</source>
       </trans-unit>
       <trans-unit id="vpn.navBar.messagesTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the messages inbox screen</note>
+        <target>メッセージ</target>
         <source>Messages</source>
       </trans-unit>
       <trans-unit id="vpn.navBar.settingsTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the settings screen</note>
+        <target>設定</target>
         <source>Settings</source>
       </trans-unit>
       <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
@@ -1830,24 +1845,30 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
+        <target>%1 に接続しました</target>
         <source>Connected to %1</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedTitle" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN に接続しました</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN disconnected from.</note>
+        <target>%1 との接続を解除しました</target>
         <source>Disconnected from %1</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNDisconnectedTitle" xml:space="preserve">
         <source>VPN Disconnected</source>
+        <target>VPN の接続を解除しました</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the initial server, %2 is the name of the destination server.</note>
+        <target>%1 から %2 に切り替えました</target>
         <source>Switched from %1 to %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersTitle" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>VPN がサーバーを切り替えました</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
@@ -1867,6 +1888,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.subscriptionNotFound" xml:space="preserve">
         <source>Your Mozilla VPN subscription cannot be found. Please open the app to resolve this subscription issue.</source>
+        <target>Mozilla VPN のサブスクリプションが見つかりません。このサブスクリプションの問題を解決するには、アプリを開いてください。</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
@@ -1879,39 +1901,51 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
         <source>American Express</source>
+        <target>American Express</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.diners" xml:space="preserve">
         <source>Diners Club</source>
+        <target>Diners Club</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.discover" xml:space="preserve">
         <source>Discover</source>
+        <target>Discover</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.iapApple" xml:space="preserve">
         <source>Apple subscription</source>
+        <target>Apple サブスクリプション</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.iapGoogle" xml:space="preserve">
         <source>Google subscription</source>
+        <target>Google サブスクリプション</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.jcb" xml:space="preserve">
         <source>JCB</source>
+        <target>JCB</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.mastercard" xml:space="preserve">
         <source>Mastercard</source>
+        <target>Mastercard</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.paypal" xml:space="preserve">
         <source>PayPal</source>
+        <target>PayPal</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.unionpay" xml:space="preserve">
         <source>UnionPay</source>
+        <target>UnionPay</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.visa" xml:space="preserve">
         <source>Visa</source>
+        <target>Visa</target>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.inProgress2" xml:space="preserve">
         <source>Please continue subscribing in your browser…</source>
+        <target>ブラウザーで購読を続けてください...</target>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.message" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the user’s email address.</note>
+        <target>%1 のサブスクリプションが見つかりませんでした。今すぐ登録して、接続を保護してください。</target>
         <source>We couldn’t find a subscription for %1. Subscribe now to protect your connection.</source>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.title" xml:space="preserve">
@@ -1951,6 +1985,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked" xml:space="preserve">
         <source>The server has been blocked. Check your firewall settings.</source>
+        <target>サーバーがブロックされています。ファイアウォールの設定を確認してください。</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel" xml:space="preserve">
         <source>Server unavailable notification</source>
