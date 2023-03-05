@@ -1950,6 +1950,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.title" xml:space="preserve">
         <source>Subscribe to Mozilla VPN</source>
+        <target>Mozilla VPN に登録する</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
         <source>Already a subscriber?</source>
@@ -1997,29 +1998,36 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedCardBody" xml:space="preserve">
         <note annotates="source" from="developer">Body text of an expandable info card on the recommended servers list.</note>
+        <target>これらの場所は、期待されるパフォーマンス順に並べられています。</target>
         <source>These locations are sorted by expected performance.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedCardTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title of an expandable info card on the recommended servers list.</note>
+        <target>なぜこれらの場所が推奨されるのか?</target>
         <source>Why are these locations recommended?</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that triggers a refresh of the recommended servers list.</note>
+        <target>リストを更新</target>
         <source>Refresh list</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel" xml:space="preserve">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated and instructions to re-enable the refresh button. Argument is the time or date/day</note>
+        <target>最終更新日: %1。 このリストを更新するには VPN との接続を解除してください。</target>
         <source>Last updated: %1. To update this list please disconnect from the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabel" xml:space="preserve">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated. Argument is the time or date/day</note>
+        <target>最終更新日: %1。</target>
         <source>Last updated: %1.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabelYesterday" xml:space="preserve">
         <source>yesterday</source>
+        <target>昨日</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel" xml:space="preserve">
         <note annotates="source" from="developer">Loading string while recommended servers are being calculated. Argument is the percentage of completion as an integer (i.e. 25)</note>
+        <target>確認中 (%1%)...</target>
         <source>Checking (%1%)…</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
@@ -2032,21 +2040,26 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.tabAllLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the “all” servers tab</note>
+        <target>すべて</target>
         <source>All</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.tabRecommendedLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the “recommended” servers tab</note>
+        <target>おすすめ</target>
         <source>Recommended</source>
       </trans-unit>
       <trans-unit id="vpn.settings.appExclusionClearAllApps" xml:space="preserve">
         <note annotates="source" from="developer">Button label to clear all apps from the exclusions list</note>
+        <target>すべて消去</target>
         <source>Clear all</source>
       </trans-unit>
       <trans-unit id="vpn.settings.appExclusionSettings" xml:space="preserve">
         <source>App exclusions</source>
+        <target>アプリの除外</target>
       </trans-unit>
       <trans-unit id="vpn.settings.appPreferences" xml:space="preserve">
         <source>App preferences</source>
+        <target>アプリの設定</target>
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
@@ -2059,54 +2072,71 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
         <source>DNS settings</source>
+        <target>DNS 設定</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody" xml:space="preserve">
         <source>Resolve websites using a custom DNS</source>
+        <target>カスタム DNS を使用してウェブサイトのアドレスを解決する</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSError" xml:space="preserve">
         <source>Invalid DNS, please try a new one</source>
+        <target>無効な DNS です。新しい DNS を入力してください</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle" xml:space="preserve">
         <source>Use custom DNS</source>
+        <target>カスタム DNS を使用する</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning" xml:space="preserve">
         <source>Changing these settings will cause the VPN to disconnect and reconnect automatically.</source>
+        <target>これらの設定を変更すると、自動的に VPN との接続が解除され、再接続されます。</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder" xml:space="preserve">
         <source>Enter custom DNS</source>
+        <target>カスタム DNS を入力</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody" xml:space="preserve">
         <source>Resolve websites using Mozilla VPN’s standard DNS</source>
+        <target>Mozilla VPN の標準 DNS を使用してウェブサイトのアドレスを解決する</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle" xml:space="preserve">
         <source>Use standard DNS</source>
+        <target>標準 DNS を使用する</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsWarning" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
+        <target>これらのオプションを使用すると、一部のウェブサイトが破損したり、コンテンツが正しく表示されなくなったりする可能性があります。</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyAdblockBody" xml:space="preserve">
         <source>Reduces the number of ads you see when you’re using VPN</source>
+        <target>VPN 利用時に表示される広告の数を減らします</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyAdblockTitle" xml:space="preserve">
         <source>Block ads</source>
+        <target>広告をブロック</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyCard" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
+        <target>これらのオプションを使用すると、一部のウェブサイトが破損したり、コンテンツが正しく表示されなくなったりする可能性があります。</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareBody" xml:space="preserve">
         <source>Helps protect you from ransomware, phishing, spyware, viruses, and malware</source>
+        <target>ランサムウェアやフィッシング詐欺、スパイウェア、ウイルス、マルウェアからユーザーを保護します</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareTitle" xml:space="preserve">
         <source>Block malware</source>
+        <target>マルウェアをブロック</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacySettings" xml:space="preserve">
         <source>Privacy features</source>
+        <target>プライバシー機能</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyTrackerBody" xml:space="preserve">
         <source>Fewer harmful domains will be able to track you</source>
+        <target>あなたを追跡する有害なドメインを少なくします</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyTrackerTitle" xml:space="preserve">
         <source>Block trackers</source>
+        <target>オンライン追跡をブロック</target>
       </trans-unit>
       <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
         <source>Mozilla VPN will launch and connect when you start up your device</source>
@@ -2123,6 +2153,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.tipsAndTricksSettings" xml:space="preserve">
         <source>Tips and tricks</source>
+        <target>ヒントと活用法</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
         <source>VPN must be restarted to take effect</source>
@@ -2159,6 +2190,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText2" xml:space="preserve">
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
+        <target>アプリの除外設定に関する質問については、ウェブサイトでいくつかの役立つヒントを提供しています。</target>
         <source>For any questions about setting app exclusions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppActionButton" xml:space="preserve">
@@ -2178,6 +2210,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.activatedLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the date on which the subscription was activated.</note>
+        <target>登録開始日</target>
         <source>Active since</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.addFirefoxRelay" xml:space="preserve">
