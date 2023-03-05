@@ -24,6 +24,8 @@ It’s possible to invoke [automation manually](https://github.com/mozilla-l10n/
 * `nofile` will copy translations if the ID and source text match, ignoring the file. This is useful to minimize the impact of code refactoring.
 * `matchid` will ignore both file and source text, copying translations if the ID matches. This is useful for source changes that don’t require invalidating existing translations.
 
+It’s also possible to provide a `branch` parameter, to use a non-default branch of `mozilla-vpn-client` as starting point. This is useful, for example, to check the impact of large code refactoring from a pull request. Note that the `releases` branch will be used in any case to extract strings.
+
 ## License
 
 Translations in this repository are available under the terms of the [Mozilla Public License v2.0](http://www.mozilla.org/MPL/2.0/).

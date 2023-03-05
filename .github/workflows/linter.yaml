@@ -1,7 +1,7 @@
 name: L10n Linter
 on:
   schedule:
-    - cron: '0 7 * * 1-5' # Run Mon-Fri at 7AM UTC
+    - cron: "0 7 * * 1-5" # Run Mon-Fri at 7AM UTC
   workflow_dispatch:
 jobs:
   update:
@@ -12,7 +12,7 @@ jobs:
       - name: Set up Python 3
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: "3.10"
       - name: Install Python dependencies
         run: |
           pip install -r .github/scripts/requirements.txt
