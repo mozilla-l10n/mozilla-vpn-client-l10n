@@ -93,6 +93,7 @@
     <body>
       <trans-unit id="vpn.main.back" xml:space="preserve">
         <note annotates="source" from="developer">Go back</note>
+        <target>戻る</target>
         <source>Back</source>
       </trans-unit>
     </body>
@@ -206,6 +207,7 @@
     <body>
       <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>アカウント管理</target>
       </trans-unit>
     </body>
   </file>
@@ -950,6 +952,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.aboutUs.copyVersionNumber" xml:space="preserve">
         <note annotates="source" from="developer">Accessible name for a button. %1 is the version number of the VPN client.</note>
+        <target>%1 をコピー</target>
         <source>Copy %1</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.licenses" xml:space="preserve">
@@ -963,6 +966,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.accessibility.selectedAndItemName" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen readers to denote that a particular item is currently selected. For example, given a segmented control with 2 items, where the first item is currently selected. We want the screen reader to read out "Selected, &lt;item name&gt;". The %1 represents the name of the selected item.</note>
+        <target>選択したアイテム: %1</target>
         <source>Selected item: %1</source>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPostActivation" xml:space="preserve">
@@ -995,10 +999,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.exitServerLabelIp" xml:space="preserve">
         <note annotates="source" from="developer">Exit server IP label for IPV4. IP is the abbreviation for Internet Procol. This is followed by the user’s IPv4 address.</note>
+        <target>出口サーバーの IP:</target>
         <source>Exit Server IP:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.exitServerLabelIpv6" xml:space="preserve">
         <note annotates="source" from="developer">Exit server IP label for IPv6. IPv6 is the abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
+        <target>出口サーバーの IPv6:</target>
         <source>Exit Server IPv6:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.highBulletOne" xml:space="preserve">
@@ -1018,6 +1024,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.ipInfoButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the IP info button that shows the IP info panel when clicked.</note>
+        <target>IP 情報を表示</target>
         <source>Show IP info</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelBitps" xml:space="preserve">
@@ -1052,6 +1059,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelUpload" xml:space="preserve">
         <note annotates="source" from="developer">Label for the upload benchmark shown in the speed test view.</note>
+        <target>アップロード</target>
         <source>Upload</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.listHeaderDefault" xml:space="preserve">
@@ -1086,10 +1094,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.metricsTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the connection metrics view.</note>
+        <target>接続情報</target>
         <source>Connection information</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.multiHopCallout" xml:space="preserve">
         <note annotates="source" from="developer">Informational text that is shown for multi-hop connections.</note>
+        <target>シングルホップ接続に戻すことで速度を改善できます</target>
         <source>You can improve your speed by switching back to a single-hop connection</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.openButton" xml:space="preserve">
@@ -1103,6 +1113,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section for multi-hop connections</note>
+        <target>シングルホップ接続に戻す</target>
         <source>Switching back to a single-hop connection</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo" xml:space="preserve">
@@ -1206,41 +1217,52 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionFour" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>addons.mozilla.org に公開されたすべての拡張機能とテーマは削除されます</target>
         <source>Any extensions and themes that you’ve published to addons.mozilla.org will be deleted</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionOne" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>有料の購読はすべてキャンセルされます (Pocket を除く)</target>
         <source>Any paid subscriptions you have will be cancelled (Except Pocket)</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionThree" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>このメールアドレスで再有効化しても、保存された情報が復元できない場合があります</target>
         <source>Reactivating with this email may not restore your saved information</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionTwo" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>Mozilla 製品内の保存された情報と機能が失われる可能性があります</target>
         <source>You may lose saved information and features within Mozilla products</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.subheadline" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
+        <target>あなたの Firefox アカウント (%1) はウェブ上の安全性と生産性を維持する Mozilla 製品に接続されています。アカウントの削除に際して、次のことをご了承ください:</target>
         <source>Your Firefox account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS" xml:space="preserve">
         <source>Using these privacy features will override your custom DNS.</source>
+        <target>これらのプライバシー機能を使用すると、カスタム DNS が上書きされます。</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy" xml:space="preserve">
         <source>Using a custom DNS will override your preferences in the privacy features page.</source>
+        <target>カスタム DNS を使用すると、プライバシー機能ページの設定が上書きされます。</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.primaryButton" xml:space="preserve">
         <source>Confirm</source>
+        <target>確認</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.secondaryButton" xml:space="preserve">
         <source>Maybe later</source>
+        <target>後で確認</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titleDNS" xml:space="preserve">
         <source>Override DNS settings?</source>
+        <target>DNS 設定を上書きしますか？</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titlePrivacy" xml:space="preserve">
         <source>Override privacy features?</source>
+        <target>プライバシー機能を上書きしますか?</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
         <source>Choose a category</source>
@@ -1290,45 +1312,56 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.getHelp.helpCenter" xml:space="preserve">
         <source>Help Center</source>
+        <target>ヘルプセンター</target>
       </trans-unit>
       <trans-unit id="vpn.getHelp.viewLogs" xml:space="preserve">
         <note annotates="source" from="developer">Label for a clickable item in the Get-Help view</note>
+        <target>ログを表示</target>
         <source>View Logs</source>
       </trans-unit>
       <trans-unit id="vpn.global.collapse" xml:space="preserve">
         <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
+        <target>折りたたむ</target>
         <source>Collapse</source>
       </trans-unit>
       <trans-unit id="vpn.global.continue" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to proceed with an action</note>
+        <target>続ける</target>
         <source>Continue</source>
       </trans-unit>
       <trans-unit id="vpn.global.copied" xml:space="preserve">
         <note annotates="source" from="developer">Confirmation banner displayed after clicking a button to copy something.</note>
+        <target>コピーしました</target>
         <source>Copied!</source>
       </trans-unit>
       <trans-unit id="vpn.global.discoverNow" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used in intro modals to discover new features.</note>
+        <target>新機能を見る</target>
         <source>Discover now</source>
       </trans-unit>
       <trans-unit id="vpn.global.expand" xml:space="preserve">
         <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
+        <target>展開する</target>
         <source>Expand</source>
       </trans-unit>
       <trans-unit id="vpn.global.goBack" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used in intro modals to return to the app.</note>
+        <target>戻る</target>
         <source>Go back</source>
       </trans-unit>
       <trans-unit id="vpn.global.noThanks" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to not proceed with an action</note>
+        <target>いいえ、結構です</target>
         <source>No thanks</source>
       </trans-unit>
       <trans-unit id="vpn.global.paste" xml:space="preserve">
         <note annotates="source" from="developer">Label for button to paste value from clipboard into input</note>
+        <target>貼り付け</target>
         <source>Paste</source>
       </trans-unit>
       <trans-unit id="vpn.global.vpnUser" xml:space="preserve">
         <note annotates="source" from="developer">Fallback string for users who have not specified a Display Name.</note>
+        <target>VPN ユーザー</target>
         <source>VPN User</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.changeEmailLink" xml:space="preserve">
@@ -1350,6 +1383,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.emailTokenResentAlert" xml:space="preserve">
         <note annotates="source" from="developer">User has requested to send a new email containing the 6-digit pin to confirm their email address.</note>
+        <target>コードをあなたのメールアドレスに再送信しました。</target>
         <source>We’ve resent your code to your email.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.emailVerificationDescription" xml:space="preserve">
@@ -1372,6 +1406,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.hidePassword" xml:space="preserve">
         <note annotates="source" from="developer">Tooltip label for the eye icon in password input</note>
+        <target>パスワードを隠す</target>
         <source>Hide password</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.informationUsageDisclaimer" xml:space="preserve">
@@ -1444,6 +1479,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle" xml:space="preserve">
         <source>To continue, please confirm with your Firefox account password.</source>
+        <target>続けるには、Firefox アカウントのパスワードで確認してください。</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.resendCodeLink" xml:space="preserve">
         <note annotates="source" from="developer">This link allows the user to request for another 6-digit verification code to be sent to their email.</note>
@@ -1477,6 +1513,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.showPassword" xml:space="preserve">
         <note annotates="source" from="developer">Tooltip label for the eye icon in password input</note>
+        <target>パスワードを表示</target>
         <source>Show password</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInBlockedForOneMinute" xml:space="preserve">
@@ -1719,6 +1756,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label that is used for recent multi-hop server connections. “%1” represents the entry server and “%2” the exit server.</note>
+        <target>%1 から %2 へ</target>
         <source>%1 to %2</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText" xml:space="preserve">
