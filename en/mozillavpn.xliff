@@ -1479,6 +1479,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.notifications.VPNDisconnectedTitle">
         <source>VPN Disconnected</source>
       </trans-unit>
+      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessage">
+        <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <source>Connected to %1, through %2</source>
+      </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersMessage">
         <note annotates="source" from="developer">%1 is the name of the initial server, %2 is the name of the destination server.</note>
         <source>Switched from %1 to %2</source>
@@ -1784,17 +1788,41 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Label for the selected subscription plan the user currently is subscribed to.</note>
         <source>Subscription plan</source>
       </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planMonthly">
+        <note annotates="source" from="developer">Price for a monthly subscription. %1 represents the localized currency string</note>
+        <source>Monthly plan: %1</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax">
+        <note annotates="source" from="developer">Price for a monthly subscription plus tax. %1 represents the localized currency string</note>
+        <source>%1/month + tax</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planMonthlyWithoutTax">
+        <note annotates="source" from="developer">Price for a monthly subscription without tax. %1 represents the localized currency string</note>
+        <source>%1/month</source>
+      </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
         <source>%1 Half-yearly</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearlyPlusTax">
+        <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <source>%1 Half-yearly + tax</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueMonthly">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
         <source>%1 Monthly</source>
       </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax">
+        <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <source>%1 Monthly + tax</source>
+      </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueYearly">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
         <source>%1 Yearly</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax">
+        <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <source>%1 Yearly + tax</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.statusActive">
         <note annotates="source" from="developer">Text for a label that indicates an active subscription.</note>
@@ -1819,6 +1847,18 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.subscriptionManagement.upgrade">
         <note annotates="source" from="developer">Label for a button that will take users into the upgrade to VPN / Relay bundle purchase flow.</note>
         <source>Upgrade</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.valueProp1">
+        <note annotates="source" from="developer">Value proposition used to promote the product</note>
+        <source>No logging of your network activity</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.valueProp2">
+        <note annotates="source" from="developer">Value proposition used to promote the product</note>
+        <source>No one can track you</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.valueProp3">
+        <note annotates="source" from="developer">Value proposition used to promote the product</note>
+        <source>500+ servers in 30+ countries</source>
       </trans-unit>
       <trans-unit id="vpn.systray.disconnect">
         <source>Disconnect</source>
