@@ -1,82 +1,91 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="../../nebula/ui/components/VPNConnectionInfoContent.qml" datatype="plaintext" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
-        <source>Download</source>
-        <target>ダウンロード</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNConnectionStability.qml" datatype="plaintext" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
-        <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
-        <target>接続を確認してください</target>
-        <source>Check Connection</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
-        <source>No Signal</source>
-        <target>信号なし</target>
-      </trans-unit>
-      <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
-        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
-        <target>不安定</target>
-        <source>Unstable</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNControllerView.qml" datatype="plaintext" source-language="en" target-language="ja">
+  <file original="../../nebula/ui/components/MZMenu.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
         <source>Close</source>
-        <target>閉じる</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.activated" xml:space="preserve">
-        <source>VPN is on</source>
-        <target>VPN はオンです</target>
+      <trans-unit id="vpn.main.back" xml:space="preserve">
+        <note annotates="source" from="developer">Go back</note>
+        <source>Back</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.activating" xml:space="preserve">
-        <source>Masking connection and location</source>
-        <target>接続と現在地を遮蔽する</target>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/MZPopup.qml" datatype="plaintext" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="menubar.file.close" xml:space="preserve">
+        <source>Close</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
-        <source>Turn on to protect your privacy</source>
-        <target>オンにしてプライバシーを保護する</target>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/MZSignOut.qml" datatype="plaintext" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="vpn.main.signOut2" xml:space="preserve">
+        <source>Sign out</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.active" xml:space="preserve">
-        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
-        <target>安全に保護</target>
-        <source>Secure and private</source>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/MZSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <source>%1-month plan: %2</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.attemptingToConfirm" xml:space="preserve">
-        <source>Attempting to confirm connection</source>
-        <target>接続を確認しています</target>
+      <trans-unit id="vpn.subscription.savePercent" xml:space="preserve">
+        <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
+        <source>Save %1%</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
-        <source>Connecting…</source>
-        <target>接続中...</target>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/MZSystemAlert.qml" datatype="plaintext" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
+        <source>Authentication error</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.deactivated" xml:space="preserve">
-        <source>VPN is off</source>
-        <target>VPN はオフです</target>
+      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
+        <source>Background service error</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
-        <source>Unmasking connection and location</source>
-        <target>接続と現在地の遮蔽を解く</target>
+      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
+        <source>Signed out and device disconnected</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
-        <source>Disconnecting…</source>
-        <target>接続を解除しています...</target>
+      <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
+        <source>Operation not allowed from current location</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.switching" xml:space="preserve">
-        <source>Switching…</source>
-        <target>切り替え中...</target>
+      <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
+        <source>No internet connection</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
-        <note annotates="source" from="developer">Switches from location 1 to location 2</note>
-        <target>%1 から %2 へ</target>
-        <source>From %1 to %2</source>
+      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
+        <source>Remote service error</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.restore" xml:space="preserve">
+        <note annotates="source" from="developer">Restore a service in case of error.</note>
+        <source>Restore</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
+        <source>Subscription failed</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
+        <source>Try again</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
+        <source>Unable to connect</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/MZToggle.qml" datatype="plaintext" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="vpn.toggle.off" xml:space="preserve">
+        <source>Turn VPN off</source>
+      </trans-unit>
+      <trans-unit id="vpn.toggle.on" xml:space="preserve">
+        <source>Turn VPN on</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../../nebula/ui/components/MZUserProfile.qml" datatype="plaintext" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
+        <source>Manage account</source>
       </trans-unit>
     </body>
   </file>
@@ -89,133 +98,23 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../../nebula/ui/components/VPNMenu.qml" datatype="plaintext" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.main.back" xml:space="preserve">
-        <note annotates="source" from="developer">Go back</note>
-        <target>戻る</target>
-        <source>Back</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNPopup.qml" datatype="plaintext" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="menubar.file.close" xml:space="preserve">
-        <source>Close</source>
-        <target>閉じる</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNServerCountry.qml" datatype="plaintext" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="cities" xml:space="preserve">
-        <note annotates="source" from="developer">The title for the list of cities.</note>
-        <target>都市</target>
-        <source>Cities</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNSignOut.qml" datatype="plaintext" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.main.signOut2" xml:space="preserve">
-        <source>Sign out</source>
-        <target>ログアウト</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../../nebula/ui/components/VPNSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
         <source>Monthly plan</source>
         <target>月額プラン</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
-        <target>%1か月プラン: %2</target>
-        <source>%1-month plan: %2</source>
-      </trans-unit>
       <trans-unit id="vpn.subscription.price" xml:space="preserve">
         <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
         <target>%1 / 月</target>
         <source>%1/month</source>
       </trans-unit>
-      <trans-unit id="vpn.subscription.savePercent" xml:space="preserve">
-        <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
-        <target>%1% 割安</target>
-        <source>Save %1%</source>
-      </trans-unit>
     </body>
   </file>
-  <file original="../../nebula/ui/components/VPNSystemAlert.qml" datatype="plaintext" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
-        <source>Authentication error</source>
-        <target>認証エラー</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
-        <source>Background service error</source>
-        <target>バックグラウンドサービスエラー</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
-        <source>Signed out and device disconnected</source>
-        <target>ログアウトして接続を解除しました</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
-        <source>Operation not allowed from current location</source>
-        <target>現在地からの操作は許可されていません</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
-        <source>No internet connection</source>
-        <target>インターネットに接続されていません</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
-        <source>Remote service error</source>
-        <target>リモートサービスエラー</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.restore" xml:space="preserve">
-        <note annotates="source" from="developer">Restore a service in case of error.</note>
-        <target>復元</target>
-        <source>Restore</source>
-      </trans-unit>
-      <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
-        <source>Subscription failed</source>
-        <target>サブスクリプションに失敗しました</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
-        <source>Try again</source>
-        <target>再試行</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
-        <source>Unable to connect</source>
-        <target>接続できませんでした</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.toggle.off" xml:space="preserve">
-        <source>Turn VPN off</source>
-        <target>VPN をオフにする</target>
-      </trans-unit>
-      <trans-unit id="vpn.toggle.on" xml:space="preserve">
-        <source>Turn VPN on</source>
-        <target>VPN をオンにする</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNUserProfile.qml" datatype="plaintext" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
-        <source>Manage account</source>
-        <target>アカウント管理</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/inAppAuth/VPNInAppAuthenticationBase.qml" datatype="plaintext" source-language="en" target-language="ja">
+  <file original="../../nebula/ui/components/inAppAuth/MZInAppAuthenticationBase.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
         <source>Get help</source>
-        <target>ヘルプを表示</target>
       </trans-unit>
     </body>
   </file>
@@ -672,6 +571,75 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
         <target>場所を選んでください</target>
         <source>Select location</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/home/controller/ConnectionStability.qml" datatype="plaintext" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
+        <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
+        <source>Check Connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
+        <source>No Signal</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
+        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <source>Unstable</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/home/controller/ControllerView.qml" datatype="plaintext" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="vpn.controller.activated" xml:space="preserve">
+        <source>VPN is on</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.activating" xml:space="preserve">
+        <source>Masking connection and location</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
+        <source>Turn on to protect your privacy</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.active" xml:space="preserve">
+        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <source>Secure and private</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.attemptingToConfirm" xml:space="preserve">
+        <source>Attempting to confirm connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
+        <source>Connecting…</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.deactivated" xml:space="preserve">
+        <source>VPN is off</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
+        <source>Unmasking connection and location</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
+        <source>Disconnecting…</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.switching" xml:space="preserve">
+        <source>Switching…</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
+        <note annotates="source" from="developer">Switches from location 1 to location 2</note>
+        <source>From %1 to %2</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/home/controller/connectionInfo/ConnectionInfoContent.qml" datatype="plaintext" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
+        <source>Download</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/home/servers/ServerCountry.qml" datatype="plaintext" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="cities" xml:space="preserve">
+        <note annotates="source" from="developer">The title for the list of cities.</note>
+        <source>Cities</source>
       </trans-unit>
     </body>
   </file>
