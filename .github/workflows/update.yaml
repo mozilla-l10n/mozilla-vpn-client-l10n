@@ -43,20 +43,23 @@ jobs:
       - name: Store ENV variables
         id: env-variables
         run: |
-          if [ "${{ github.event.inputs.branch }}" = "main" ]; then
+          vpn_branch=${{ github.event.inputs.branch || 'main' }}
+          echo "vpn_branch=${vpn_branch}" >> $GITHUB_OUTPUT
+          if [ "${vpn_branch}" = "main" ]; then
             echo "automation_branch=l10n_automation" >> $GITHUB_OUTPUT
           else
-            echo "automation_branch=l10n_automation_${{ github.event.inputs.branch }}" >> $GITHUB_OUTPUT
+            echo "automation_branch=l10n_automation_${vpn_branch}" >> $GITHUB_OUTPUT
           fi
       - name: Extract new strings
         run: |
           # Manually add QT executables to path
           export PATH=/opt/$QTVERSION/gcc_64/bin:$PATH
 
+          vpn_branch=${{ steps.env-variables.outputs.vpn_branch }}
           # Check out different branch if specified
-          if [ "${{ github.event.inputs.branch }}" != "main" ]; then
-            echo "Checking out branch: ${{ github.event.inputs.branch }}"
-            (cd vpn && git checkout ${{ github.event.inputs.branch }})
+          if [ "${vpn_branch}" != "main" ]; then
+            echo "Checking out branch: ${vpn_branch}"
+            (cd vpn && git checkout ${vpn_branch})
           fi
 
           # Extract strings for default and release branches
