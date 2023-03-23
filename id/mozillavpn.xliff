@@ -1,957 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="../../nebula/ui/components/MZMenu.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
-        <source>Close</source>
-        <target>Tutup</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.back" xml:space="preserve">
-        <note annotates="source" from="developer">Go back</note>
-        <target>Kembali</target>
-        <source>Back</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/MZPopup.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="menubar.file.close" xml:space="preserve">
-        <source>Close</source>
-        <target>Tutup</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/MZSignOut.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.main.signOut2" xml:space="preserve">
-        <source>Sign out</source>
-        <target>Keluar</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/MZSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
-        <target>Paket %1 bulan: %2</target>
-        <source>%1-month plan: %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.savePercent" xml:space="preserve">
-        <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
-        <target>Hemat %1%</target>
-        <source>Save %1%</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/MZSystemAlert.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
-        <source>Authentication error</source>
-        <target>Kesalahan otentikasi</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
-        <source>Background service error</source>
-        <target>Kesalahan layanan latar belakang</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
-        <source>Signed out and device disconnected</source>
-        <target>Keluar dan perangkat terputus</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
-        <source>Operation not allowed from current location</source>
-        <target>Operasi tidak diizinkan dari lokasi saat ini</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
-        <source>No internet connection</source>
-        <target>Tidak ada sambungan Internet</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
-        <source>Remote service error</source>
-        <target>Kesalahan layanan jarak jauh</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.restore" xml:space="preserve">
-        <note annotates="source" from="developer">Restore a service in case of error.</note>
-        <target>Kembalikan</target>
-        <source>Restore</source>
-      </trans-unit>
-      <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
-        <source>Subscription failed</source>
-        <target>Langganan gagal</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
-        <source>Try again</source>
-        <target>Coba lagi</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
-        <source>Unable to connect</source>
-        <target>Gagal tersambung</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/MZToggle.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.toggle.off" xml:space="preserve">
-        <source>Turn VPN off</source>
-        <target>Nonaktifkan VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.toggle.on" xml:space="preserve">
-        <source>Turn VPN on</source>
-        <target>Aktifkan VPN</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/MZUserProfile.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
-        <source>Manage account</source>
-        <target>Kelola akun</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
-        <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
-        <target>%1: %2 %3</target>
-        <source>%1: %2 %3</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
-        <source>Monthly plan</source>
-        <target>Paket bulanan</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.price" xml:space="preserve">
-        <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
-        <target>%1/month</target>
-        <source>%1/month</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/inAppAuth/MZInAppAuthenticationBase.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
-        <source>Get help</source>
-        <target>Dapatkan bantuan</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/extrastrings.h" datatype="c" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
-        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
-        <target>Mozilla VPN berhasil dipasang. Anda siap untuk mulai mengendalikan privasi daring Anda.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
-        <source>Trouble with this installation?</source>
-        <target>Ada masalah dengan instalasi ini?</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
-        <source>Get help.</source>
-        <target>Dapatkan bantuan.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
-        <source>Success!</source>
-        <target>Berhasil!</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
-        <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
-        <target>Instalasi Mozilla VPN sebelumnya ada di /Applications/Mozilla VPN.app. Pemasang ini akan menghapus instalasi yang ada sebelum memasang. Harap cadangkan data apa pun sebelum melanjutkan.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
-        <source>Previous Installation Detected</source>
-        <target>Instalasi Sebelumnya Terdeteksi</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.title" xml:space="preserve">
-        <source>Mozilla VPN for macOS</source>
-        <target>Mozilla VPN untuk macOS</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
-        <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
-        <target>Mozilla VPN membutuhkan Mac OS X 10.6 atau lebih baru.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
-        <source>Unable to install</source>
-        <target>Tidak dapat memasang</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
-        <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
-        <target>Anda sekarang akan dipandu melalui langkah pemasangan untuk Mozilla VPN. Terima kasih telah memilih VPN Anda dari perintis privasi internet tepercaya.</target>
-      </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
-        <source>Click “Continue” to continue the setup.</source>
-        <target>Klik "Lanjutkan" untuk melanjutkan pengaturan.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ipaddresslookup.cpp" datatype="cpp" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
-        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
-        <target>Memuat</target>
-        <source>Loading</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/models/feedbackcategorymodel.cpp" datatype="cpp" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="feedback.category.accessToService" xml:space="preserve">
-        <source>Access to service</source>
-        <target>Akses ke layanan</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.bugError" xml:space="preserve">
-        <source>Product Bugs/Errors</source>
-        <target>Kutu/Masalah Produk</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.compatibility" xml:space="preserve">
-        <source>Compatibility</source>
-        <target>Kompatibilitas</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.easeToUse" xml:space="preserve">
-        <source>Ease of Use</source>
-        <target>Kemudahan Penggunaan</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
-        <source>Network Connection/Speed</source>
-        <target>Sambungan/Kecepatan Jaringan</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.other" xml:space="preserve">
-        <source>Other</source>
-        <target>Lainnya</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.productQuality" xml:space="preserve">
-        <source>Product Quality</source>
-        <target>Kualitas Produk</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
-        <target>Tersambung ke %1, %2</target>
-        <source>Connected to %1, %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
-        <source>VPN Connected</source>
-        <target>VPN Tersambung</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
-        <target>Terputus dari %1, %2</target>
-        <source>Disconnected from %1, %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
-        <source>VPN Disconnected</source>
-        <target>VPN Terputus</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
-        <source>VPN Switched Servers</source>
-        <target>VPN Beralih Server</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
-        <target>Beralih dari %1, %2 ke %3, %4</target>
-        <source>Switched from %1, %2 to %3, %4</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="menubar.file.title" xml:space="preserve">
-        <source>File</source>
-        <target>Berkas</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/authenticationInApp/ViewAuthenticationStart.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
-        <source>Continue</source>
-        <target>Lanjutkan</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/main.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.main.productName" xml:space="preserve">
-        <source>Mozilla VPN</source>
-        <target>Mozilla VPN</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenAuthenticating.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.authenticating.waitForSignIn" xml:space="preserve">
-        <source>Waiting for sign in and subscription confirmation…</source>
-        <target>Menunggu konfirmasi masuk dan berlangganan…</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenBackendFailure.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.errors.somethingWentWrong" xml:space="preserve">
-        <source>Something went wrong…</source>
-        <target>Terjadi kesalahan…</target>
-      </trans-unit>
-      <trans-unit id="vpn.errors.tryAgain" xml:space="preserve">
-        <source>Try Again</source>
-        <target>Coba Lagi</target>
-      </trans-unit>
-      <trans-unit id="vpn.errors.unableToEstablishConnection" xml:space="preserve">
-        <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
-        <target>Gagal membuat sambungan pada saat ini. Kami bekerja keras untuk mengatasi masalah ini. Silakan coba lagi nanti.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenCrashReporting.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
-        <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
-        <target>Aplikasi Mozilla VPN berhenti tiba-tiba. Apakah Anda ingin mengirim laporan kerusakan untuk bantu memperbaiki masalah?</target>
-        <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
-        <note annotates="source" from="developer">User does not agree to send a crash report.</note>
-        <target>Tidak, terima kasih</target>
-        <source>No thanks</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
-        <note annotates="source" from="developer">Label over description text section.</note>
-        <target>Pelaporan mogok</target>
-        <source>Crash reporting</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
-        <note annotates="source" from="developer">User agrees to send a crash report.</note>
-        <target>Kirim laporan</target>
-        <source>Send report</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenPostAuthentication.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.postAuthentication..quickAccess" xml:space="preserve">
-        <source>Quick access</source>
-        <target>Akses cepat</target>
-      </trans-unit>
-      <trans-unit id="vpn.postAuthentication.statusBarIntro" xml:space="preserve">
-        <source>You can quickly access Mozilla VPN from your status bar.</source>
-        <target>Anda dapat mengakses Mozilla VPN dengan cepat dari bilah status Anda.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.subscriptionBlocked.getHelp" xml:space="preserve">
-        <source>Get Help</source>
-        <target>Dapatkan Bantuan</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter" xml:space="preserve">
-        <source>Visit our help center to learn more about managing your subscriptions.</source>
-        <target>Kunjungi pusat bantuan kami untuk mempelajari lebih lanjut tentang mengelola langganan Anda.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenSubscriptionInProgressIAP.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.subscription.pleaseWait" xml:space="preserve">
-        <source>Please wait…</source>
-        <target>Mohon tunggu…</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenTelemetryPolicy.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
-        <source>Data collection and use</source>
-        <target>Pengumpulan dan penggunaan data</target>
-      </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.MozillaVPNPrivacyNotice" xml:space="preserve">
-        <source>Mozilla VPN Privacy Notice</source>
-        <target>Pemberitahuan Privasi Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice" xml:space="preserve">
-        <source>Allow on this device</source>
-        <target>Izinkan pada perangkat ini</target>
-      </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.doNotAllow" xml:space="preserve">
-        <source>Don’t allow</source>
-        <target>Jangan izinkan</target>
-      </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData" xml:space="preserve">
-        <source>Learn more about what data Mozilla collects and how it’s used.</source>
-        <target>Pelajari lebih lanjut tentang data apa yang Mozilla kumpulkan dan bagaimana penggunaannya.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenViewLogs.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.logs.clear" xml:space="preserve">
-        <source>Clear</source>
-        <target>Hapus</target>
-      </trans-unit>
-      <trans-unit id="vpn.logs.copied" xml:space="preserve">
-        <source>Copied!</source>
-        <target>Tersalin!</target>
-      </trans-unit>
-      <trans-unit id="vpn.logs.copy" xml:space="preserve">
-        <source>Copy</source>
-        <target>Salin</target>
-      </trans-unit>
-      <trans-unit id="vpn.viewlogs.title" xml:space="preserve">
-        <source>View Logs</source>
-        <target>Lihat Log</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/devices/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
-        <target>Ditambahkan %1 hari yang lalu</target>
-        <source>Added %1 days ago</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the number of hours.</note>
-        <target>Ditambahkan beberapa jam yang lalu (%1)</target>
-        <source>Added a few hours ago (%1)</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
-        <source>Added less than an hour ago</source>
-        <target>Ditambahkan kurang dari satu jam yang lalu</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
-        <source>Current Device</source>
-        <target>Perangkat Saat Ini</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
-        <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
-        <target>%1 %2</target>
-        <source>%1 %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
-        <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
-        <target>Hapus %1</target>
-        <source>Remove %1</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/devices/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
-        <source>Remove a device</source>
-        <target>Hapus perangkat</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
-        <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
-        <target>Anda telah mencapai batas perangkat. Untuk mengaktifkan VPN di perangkat ini, Anda harus menghapus salah satu.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/devices/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
-        <target>Konfirmasikan bahwa Anda ingin menghapus %1.</target>
-        <source>Please confirm you would like to remove
-%1.</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
-        <note annotates="source" from="developer">This is the “remove” device button.</note>
-        <target>Hapus</target>
-        <source>Remove</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
-        <source>Remove device?</source>
-        <target>Hapus perangkat?</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/devices/ViewDevices.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.devices.activeVsMaxDeviceCount" xml:space="preserve">
-        <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.
-----------
-Example: You have "x of y" devices in yor account, where y is the limit of allowed devices.</note>
-        <target>%1 dari %2</target>
-        <source>%1 of %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.myDevices" xml:space="preserve">
-        <source>My devices</source>
-        <target>Perangkat saya</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/getHelp/ViewGetHelp.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.settings.developer" xml:space="preserve">
-        <source>Developer Options</source>
-        <target>Opsi Pengembang</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.giveFeedback" xml:space="preserve">
-        <source>Give feedback</source>
-        <target>Beri umpan balik</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/getHelp/giveFeedback/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.feedbackForm.average" xml:space="preserve">
-        <source>Average</source>
-        <target>Biasa</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.continue" xml:space="preserve">
-        <source>Continue</source>
-        <target>Lanjutkan</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.good" xml:space="preserve">
-        <source>Good</source>
-        <target>Bagus</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.poor" xml:space="preserve">
-        <source>Poor</source>
-        <target>Buruk</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.ratingHeadline" xml:space="preserve">
-        <source>How would you describe your Mozilla VPN experience so far?</source>
-        <target>Bagaimana gambaran Anda tentang pengalaman menggunakan Mozilla VPN sejauh ini?</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.veryPoor" xml:space="preserve">
-        <source>Very poor</source>
-        <target>Sangat buruk</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/getHelp/giveFeedback/ViewGiveFeedbackForm.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.feedback.privacyDisclaimer" xml:space="preserve">
-        <source>When you submit feedback, Mozilla VPN will collect technical and interaction data, including your IP address, to help us improve. This data won’t be associated with your Firefox account.</source>
-        <target>Saat Anda mengirimkan umpan balik, Mozilla VPN akan mengumpulkan data teknis dan interaksi, termasuk alamat IP Anda, untuk bantu kami meningkatkannya. Data ini tidak akan dikaitkan dengan akun Firefox Anda.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.averageRatingResponse" xml:space="preserve">
-        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
-        <target>Kami ingin mengetahui apa yang dapat kami lakukan untuk menjadikan Mozilla VPN lebih baik. Bagikan umpan balik spesifik apa pun di sini.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.goodRatingResponse" xml:space="preserve">
-        <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
-        <target>Kami senang Anda menikmati Mozilla VPN! Beri tahu kami bagaimana kami dapat membuat pengalaman Anda menjadi lebih baik.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.lowRatingResponse" xml:space="preserve">
-        <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
-        <target>Kami memohon maaf Anda mendapatkan pengalaman yang kurang baik. Harap beri tahu kami bagaimana kami dapat menjadikannya lebih baik.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.privacyNoticeLink" xml:space="preserve">
-        <source>Mozilla VPN Privacy Notice</source>
-        <target>Pemberitahuan Privasi Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.skip" xml:space="preserve">
-        <source>Skip</source>
-        <target>Lewati</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.textAreaPlaceholder" xml:space="preserve">
-        <source>Enter feedback…</source>
-        <target>Kirim umpan balik…</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackform.submit" xml:space="preserve">
-        <source>Submit</source>
-        <target>Kirim</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/getHelp/giveFeedback/ViewGiveFeedbackThankYou.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.feedbackForm.thankyou" xml:space="preserve">
-        <source>Thank you!</source>
-        <target>Terima kasih!</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.thankyouSubtitle" xml:space="preserve">
-        <source>We appreciate your feedback. You’re helping us improve Mozilla VPN.</source>
-        <target>Kami menghargai umpan balik Anda. Anda membantu kami tingkatkan Mozilla VPN.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackform.done" xml:space="preserve">
-        <source>Done</source>
-        <target>Selesai</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/home/ViewHome.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="MozillaVPN" xml:space="preserve">
-        <source>Mozilla VPN</source>
-        <target>Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
-        <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
-        <target>lokasi saat ini - %1</target>
-        <source>current location - %1</source>
-      </trans-unit>
-      <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
-        <note annotates="source" from="developer">Select the Location of the VPN server</note>
-        <target>Pilih lokasi</target>
-        <source>Select location</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/home/controller/ConnectionStability.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
-        <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
-        <target>Periksa Koneksi</target>
-        <source>Check Connection</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
-        <source>No Signal</source>
-        <target>Tidak Ada Sinyal</target>
-      </trans-unit>
-      <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
-        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
-        <target>Tidak stabil</target>
-        <source>Unstable</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/home/controller/ControllerView.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.controller.activated" xml:space="preserve">
-        <source>VPN is on</source>
-        <target>VPN aktif</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.activating" xml:space="preserve">
-        <source>Masking connection and location</source>
-        <target>Penopengan sambungan dan lokasi</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
-        <source>Turn on to protect your privacy</source>
-        <target>Aktifkan untuk melindungi privasi Anda</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.active" xml:space="preserve">
-        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
-        <target>Aman dan pribadi</target>
-        <source>Secure and private</source>
-      </trans-unit>
-      <trans-unit id="vpn.controller.attemptingToConfirm" xml:space="preserve">
-        <source>Attempting to confirm connection</source>
-        <target>Mencoba mengonfirmasi sambungan</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
-        <source>Connecting…</source>
-        <target>Menyambungkan…</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.deactivated" xml:space="preserve">
-        <source>VPN is off</source>
-        <target>VPN tidak aktif</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
-        <source>Unmasking connection and location</source>
-        <target>Mengungkap sambungan dan lokasi</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
-        <source>Disconnecting…</source>
-        <target>Memutuskan…</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.switching" xml:space="preserve">
-        <source>Switching…</source>
-        <target>Beralih…</target>
-      </trans-unit>
-      <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
-        <note annotates="source" from="developer">Switches from location 1 to location 2</note>
-        <target>Dari %1 sampai %2</target>
-        <source>From %1 to %2</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/home/controller/connectionInfo/ConnectionInfoContent.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
-        <source>Download</source>
-        <target>Unduh</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/home/servers/ServerCountry.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="cities" xml:space="preserve">
-        <note annotates="source" from="developer">The title for the list of cities.</note>
-        <target>Kota</target>
-        <source>Cities</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/initialize/ViewInitialize.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.main.getStarted" xml:space="preserve">
-        <source>Get started</source>
-        <target>Mulai</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.learnMore" xml:space="preserve">
-        <source>Learn more</source>
-        <target>Pelajari lebih lanjut</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.productDescription" xml:space="preserve">
-        <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
-        <target>VPN yang cepat, aman, dan mudah digunakan. Dibuat oleh pembuat Firefox.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/initialize/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
-        <source>Device-level encryption</source>
-        <target>Enkripsi tingkat perangkat</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
-        <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeededIAP.qml too.</note>
-        <target>Server di lebih dari 30 negara</target>
-        <source>Servers in 30+ countries</source>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.3" xml:space="preserve">
-        <source>No bandwidth restrictions</source>
-        <target>Tidak ada batasan bandwidth</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
-        <source>No online activity logs</source>
-        <target>Tidak ada log aktivitas daring</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.next" xml:space="preserve">
-        <source>Next</source>
-        <target>Selanjutnya</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
-        <source>Skip</source>
-        <target>Lewati</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
-        <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
-        <target>Enkripsi lalu lintas Anda sehingga tidak dapat dibaca oleh ISP atau penyadap Anda.</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.2" xml:space="preserve">
-        <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
-        <target>Pilih server di negara mana pun yang Anda inginkan dan sembunyikan lokasi Anda untuk menghentikan pelacak.</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.3" xml:space="preserve">
-        <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
-        <target>Streaming, unduh, dan bermain tanpa batas, kuota bulanan, atau pembatasan dari ISP.</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.4" xml:space="preserve">
-        <source>We are committed to not monitoring or logging your browsing or network history.</source>
-        <target>Kami berkomitmen untuk tidak memantau atau mencatat riwayat penjelajahan atau jaringan Anda.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/settings/ViewAboutUs.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.aboutUs.privacyNotice2" xml:space="preserve">
-        <source>Privacy notice</source>
-        <target>Pemberitahuan privasi</target>
-      </trans-unit>
-      <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
-        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
-        <target>Versi rilis</target>
-        <source>Release version</source>
-      </trans-unit>
-      <trans-unit id="vpn.aboutUs.tos2" xml:space="preserve">
-        <source>Terms of service</source>
-        <target>Persyaratan layanan</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
-        <source>About us</source>
-        <target>Tentang kami</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.settings.language" xml:space="preserve">
-        <source>Language</source>
-        <target>Bahasa</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
-        <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
-        <target>%1 %2</target>
-        <source>%1 %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.systemLangaugeSubtitle" xml:space="preserve">
-        <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
-        <target>Mozilla VPN akan menggunakan bahasa sistem baku.</target>
-        <source>Mozilla VPN will use the default system language.</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.systemLanguageEnabled" xml:space="preserve">
-        <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
-        <target>Nonaktifkan untuk memilih bahasa yang berbeda</target>
-        <source>Disable to select a different language</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.systemLanguageTitle" xml:space="preserve">
-        <note annotates="source" from="developer">Title for the language switcher toggle.</note>
-        <target>Gunakan bahasa sistem</target>
-        <source>Use system language</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.settings.networking" xml:space="preserve">
-        <source>Network settings</source>
-        <target>Pengaturan jaringan</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.networking.advancedDNSSettings" xml:space="preserve">
-        <source>Advanced DNS Settings</source>
-        <target>Pengaturan DNS Tingkat Lanjut</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-        <target>VPN harus dimatikan untuk mengubah pengaturan ini</target>
-        <source>VPN must be off to edit these settings</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
-        <source>Guest Wi-Fi portal alert</source>
-        <target>Peringatan portal Wi-Fi tamu</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
-        <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
-        <target>Dapatkan pemberitahuan jika portal Wi-Fi tamu diblokir karena sambungan VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
-        <source>Get notified when the connection status changes</source>
-        <target>Dapatkan pemberitahuan ketika status sambungan berubah</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
-        <source>Connection change notification</source>
-        <target>Pemberitahuan pengubahan koneksi</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
-        <source>Get notified when you successfully switched servers</source>
-        <target>Dapatkan pemberitahuan saat Anda berhasil berpindah server</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch2" xml:space="preserve">
-        <source>Server switching notification</source>
-        <target>Pemberitahuan pengalihan server</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.notifications" xml:space="preserve">
-        <source>Notifications</source>
-        <target>Notifikasi</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unsecuredNetworkAlert" xml:space="preserve">
-        <source>Unsecured network alert</source>
-        <target>Peringatan jaringan tidak aman</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description" xml:space="preserve">
-        <source>Get notified if you connect to an unsecured Wi-Fi network</source>
-        <target>Dapatkan pemberitahuan jika Anda terhubung ke jaringan Wi-Fi yang tidak aman</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.main.settings" xml:space="preserve">
-        <source>Settings</source>
-        <target>Pengaturan</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.appPermissions2" xml:space="preserve">
-        <source>App permissions</source>
-        <target>Izin aplikasi</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/settings/appPermissions/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
-        <note annotates="source" from="developer">Button label</note>
-        <target>Tambah aplikasi</target>
-        <source>Add application</source>
-      </trans-unit>
-      <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
-        <note annotates="source" from="developer">Search bar placeholder text</note>
-        <target>Cari aplikasi</target>
-        <source>Search apps</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.excludeTitle" xml:space="preserve">
-        <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
-        <target>Kecualikan aplikasi dari perlindungan VPN</target>
-        <source>Exclude apps from VPN protection</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
-        <source>Protect all apps with VPN</source>
-        <target>Lindungi semua aplikasi dengan VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectAllApps.description" xml:space="preserve">
-        <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
-        <target>VPN melindungi semua aplikasi secara baku. Matikan untuk memilih aplikasi mana saja yang tidak boleh dilindungi Mozilla VPN.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-        <target>VPN harus dimatikan untuk mengubah Izin Aplikasi</target>
-        <source>VPN must be off to edit App Permissions</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/subscriptionNeeded/ViewSubscriptionNeededIAP.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.subscription.featureTitle1" xml:space="preserve">
-        <source>No activity logs</source>
-        <target>Tidak ada log aktivitas</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.featureTitle4" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
-        <target>Sambungkan hingga %1 perangkat</target>
-        <source>Connect up to %1 devices</source>
-      </trans-unit>
-      <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
-        <source>Subscribe now</source>
-        <target>Berlangganan sekarang</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/sharedViews/ViewErrorFullScreen.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.errors.checkOutageUpdates" xml:space="preserve">
-        <source>Check outage updates</source>
-        <target>Periksa kabar gangguan terkini</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/sharedViews/ViewUpdate.qml" datatype="plaintext" source-language="en" target-language="id">
-    <body>
-      <trans-unit id="vpn.updates.notNow" xml:space="preserve">
-        <source>Not now</source>
-        <target>Jangan sekarang</target>
-      </trans-unit>
-      <trans-unit id="vpn.updates.updateConnectionInsecureWarning" xml:space="preserve">
-        <source>Your connection will not be secure while you update.</source>
-        <target>Sambungan Anda tidak akan aman saat Anda memperbarui.</target>
-      </trans-unit>
-      <trans-unit id="vpn.updates.updateNow" xml:space="preserve">
-        <source>Update now</source>
-        <target>Perbarui sekarang</target>
-      </trans-unit>
-      <trans-unit id="vpn.updates.updateRecomended" xml:space="preserve">
-        <source>Update recommended</source>
-        <target>Pembaruan disarankan</target>
-      </trans-unit>
-      <trans-unit id="vpn.updates.updateRecomended.description" xml:space="preserve">
-        <source>Please update the app before you continue to use the VPN</source>
-        <target>Harap perbarui aplikasi sebelum Anda terus menggunakan VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.updates.updateRequire.reason" xml:space="preserve">
-        <source>We detected and fixed a serious bug. You must update your app.</source>
-        <target>Kami telah mendeteksi dan memperbaiki masalah serius. Anda harus memperbarui aplikasi Anda.</target>
-      </trans-unit>
-      <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
-        <source>Update required</source>
-        <target>Pembaruan dibutuhkan</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="generated/l18nstrings_p.cpp" datatype="cpp" source-language="en" target-language="id">
+  <file original="translations/generated/vpn/i18nstrings_p.cpp" datatype="cpp" source-language="en" target-language="id">
     <body>
       <trans-unit id="vpn.AndroidNotifications.GeneralNotifications" xml:space="preserve">
         <note annotates="source" from="developer">A notification channel; so the user can subscribe to "General Notifications"</note>
-        <target>Notifikasi Umum</target>
         <source>General Notifications</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.copyVersionNumber" xml:space="preserve">
@@ -960,45 +12,35 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.aboutUs.licenses" xml:space="preserve">
         <source>Licenses</source>
-        <target>Lisensi</target>
       </trans-unit>
       <trans-unit id="vpn.accessibility.currentIndexFocusedOfTotalItemsInGroup" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen readers to explain to users which item they are currently focused on, and how many items there are total in a group. For example, given a list with 15 items. If a user selects the 3rd item, we want the screen reader to read out "3 of 15". The %1 represents the index of the currently focused item by the screen reader. The %2 represents the total number of items in the group.</note>
-        <target>%1 dari %2</target>
         <source>%1 of %2</source>
       </trans-unit>
       <trans-unit id="vpn.accessibility.selectedAndItemName" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen readers to denote that a particular item is currently selected. For example, given a segmented control with 2 items, where the first item is currently selected. We want the screen reader to read out "Selected, &lt;item name&gt;". The %1 represents the name of the selected item.</note>
-        <target>Item yang dipilih: %1</target>
         <source>Selected item: %1</source>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPostActivation" xml:space="preserve">
         <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
-        <target>Anda harus mematikan VPN Anda untuk dapat melihat portal, dan menyalakannya kembali setelah Anda masuk.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPreActivation" xml:space="preserve">
         <source>You can turn on your VPN once you have gained internet access by logging in to the portal.</source>
-        <target>Anda dapat menyalakan VPN Anda ketika Anda dapat mengakses Internet dengan masuk ke dalam portal.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation" xml:space="preserve">
         <source>Turn off VPN</source>
-        <target>Matikan VPN</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPreActivation" xml:space="preserve">
         <source>Okay</source>
-        <target>Oke</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.header" xml:space="preserve">
         <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
-        <target>Portal tawanan adalah ketika Wi-Fi tamu yang Anda gunakan mewajibkan Anda untuk masuk untuk mendapatkan akses internet.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.title" xml:space="preserve">
         <source>Captive portal detected!</source>
-        <target>Portal tawanan terdeteksi!</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.errorMessage" xml:space="preserve">
         <source>Looks like there was an unexpected error while trying to connect. Please try again or check your connection.</source>
-        <target>Sepertinya ada kesalahan tak terduga ketika mencoba tersambung. Silakan coba lagi atau periksa sambungan Anda.</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.exitServerLabelIp" xml:space="preserve">
         <note annotates="source" from="developer">Exit server IP label for IPV4. IP is the abbreviation for Internet Procol. This is followed by the user’s IPv4 address.</note>
@@ -1010,17 +52,14 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.highBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
-        <target>Streaming dalam 4K</target>
         <source>Streaming in 4K</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.highBulletThree" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
-        <target>Permainan daring</target>
         <source>Online gaming</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.highBulletTwo" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
-        <target>Unduhan berkecepatan tinggi</target>
         <source>High-speed downloads</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.ipInfoButtonLabel" xml:space="preserve">
@@ -1029,32 +68,26 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelBitps" xml:space="preserve">
         <note annotates="source" from="developer">Bits per second</note>
-        <target>bit/dtk</target>
         <source>bit/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelGbitps" xml:space="preserve">
         <note annotates="source" from="developer">Gigabits per second</note>
-        <target>Gbit/dtk</target>
         <source>Gbit/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelKbitps" xml:space="preserve">
         <note annotates="source" from="developer">Kilobits per second</note>
-        <target>kbit/dtk</target>
         <source>kbit/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelMbitps" xml:space="preserve">
         <note annotates="source" from="developer">Megabits per second</note>
-        <target>Mbit/dtk</target>
         <source>Mbit/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelPing" xml:space="preserve">
         <note annotates="source" from="developer">Latency of the connection</note>
-        <target>Ping</target>
         <source>Ping</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelTbitps" xml:space="preserve">
         <note annotates="source" from="developer">Terabits per second</note>
-        <target>Tbit/dtk</target>
         <source>Tbit/s</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelUpload" xml:space="preserve">
@@ -1063,32 +96,26 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.listHeaderDefault" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list of things that the current connection is capable of.</note>
-        <target>Dengan kecepatan Anda saat ini, inilah yang dioptimalkan untuk perangkat Anda:</target>
         <source>At your current speed, here’s what your device is optimized for:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.listHeaderSlow" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
-        <target>Sepertinya koneksi ke lokasi server ini agak lambat, Anda dapat mencoba:</target>
         <source>It looks like the connection to this server location is a bit slow, you can try:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel" xml:space="preserve">
         <note annotates="source" from="developer">Shown to the user while waiting for the connection speed test results</note>
-        <target>Menguji kecepatan…</target>
         <source>Testing speed…</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
-        <target>Menjelajah Internet</target>
         <source>Browsing the internet</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletThree" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
-        <target>Konferensi video</target>
         <source>Video conferencing</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletTwo" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
-        <target>Video streaming</target>
         <source>Streaming video</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.metricsTitle" xml:space="preserve">
@@ -1101,11 +128,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.openButton" xml:space="preserve">
         <source>Connection Info</source>
-        <target>Info Sambungan</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
-        <target>Mengganti lokasi server</target>
         <source>Switching server locations</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree" xml:space="preserve">
@@ -1114,126 +139,113 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
-        <target>Memeriksa koneksi internet Anda</target>
         <source>Checking your internet connection</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.unitPing" xml:space="preserve">
         <source>ms</source>
-        <target>md</target>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.crashOptInDialogDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is a description for a checkbox on the crash reporter dialog.</note>
-        <target>Jangan tampilkan lagi. Kirim otomatis laporan kerusakan ke Mozilla.</target>
         <source>Don’t show this again. Autosend crash reports to Mozilla.</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
+        <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
+        <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
+        <note annotates="source" from="developer">User does not agree to send a crash report.</note>
+        <source>No thanks</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
+        <note annotates="source" from="developer">Label over description text section.</note>
+        <source>Crash reporting</source>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
         <note annotates="source" from="developer">Main window title</note>
-        <target>Laporan Mogok Mozilla</target>
         <source>Mozilla Crash Report</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
+        <note annotates="source" from="developer">User agrees to send a crash report.</note>
+        <source>Send report</source>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody" xml:space="preserve">
         <source>Block internet ads and harmful domains with VPN</source>
-        <target>Blokir iklan internet dan domain berbahaya dengan VPN</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioHeader" xml:space="preserve">
         <source>Use adblock and anti-tracking DNS</source>
-        <target>Gunakan DNS pemblokir iklan dan anti pelacakan</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioBody" xml:space="preserve">
         <source>Block internet ads with VPN</source>
-        <target>Blokir iklan internet dengan VPN</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioHeader" xml:space="preserve">
         <source>Use adblock DNS</source>
-        <target>Gunakan DNS pemblokir iklan</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAdvancedToggle" xml:space="preserve">
         <source>Advanced</source>
-        <target>Tingkat Lanjut</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioBody" xml:space="preserve">
         <source>Block harmful domains with VPN</source>
-        <target>Blokir domain berbahaya dengan VPN</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioHeader" xml:space="preserve">
         <source>Use anti-tracking DNS</source>
-        <target>Gunakan DNS anti pelacakan</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsCustomDNSRadioBody" xml:space="preserve">
         <source>Resolve websites using a custom DNS</source>
-        <target>Atasi situs web dengan DNS khusus</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsCustomDNSRadioHeader" xml:space="preserve">
         <source>Use custom DNS</source>
-        <target>Gunakan DNS khusus</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioBody" xml:space="preserve">
         <source>Automatically use Mozilla VPN-protected DNS</source>
-        <target>Otomatis menggunakan DNS yang dilindungi Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioHeader" xml:space="preserve">
         <source>Use default DNS</source>
-        <target>Gunakan DNS baku</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsDefaultToggle" xml:space="preserve">
         <source>Default</source>
-        <target>Baku</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsFieldPlaceHolder" xml:space="preserve">
         <source>Enter custom DNS</source>
-        <target>Masukkan DNS khusus</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsInfoAlert" xml:space="preserve">
         <source>VPN must be off to change these settings</source>
-        <target>VPN harus dimatikan untuk mengubah pengaturan ini</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.dnsNavItem" xml:space="preserve">
         <source>DNS settings</source>
-        <target>Setelan DNS</target>
       </trans-unit>
       <trans-unit id="vpn.customDNSSettings.inlineCustomDNSError" xml:space="preserve">
         <source>Invalid DNS, please try a new one</source>
-        <target>DNS tidak valid, silakan coba yang lainnya</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.authButtonLabel" xml:space="preserve">
         <source>Continue</source>
-        <target>Lanjutkan</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.authSubheadline" xml:space="preserve">
         <source>To delete your VPN account, please sign in with your Firefox account password.</source>
-        <target>Untuk menghapus akun VPN Anda, silakan masuk dengan kata sandi akun Firefox Anda.</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.buttonLabel" xml:space="preserve">
         <source>Delete account</source>
-        <target>Hapus akun</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.headline" xml:space="preserve">
         <source>Delete Firefox account</source>
-        <target>Hapus akun Firefox</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionFour" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
-        <target>Ekstensi dan tema apa pun yang telah Anda terbitkan ke addons.mozilla.org akan dihapus</target>
         <source>Any extensions and themes that you’ve published to addons.mozilla.org will be deleted</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionOne" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
-        <target>Semua langganan berbayar yang Anda miliki akan dibatalkan (kecuali Pocket)</target>
         <source>Any paid subscriptions you have will be cancelled (Except Pocket)</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionThree" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
-        <target>Mengaktifkan kembali dengan surel ini mungkin tidak memulihkan informasi yang Anda simpan</target>
         <source>Reactivating with this email may not restore your saved information</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionTwo" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
-        <target>Anda mungkin kehilangan informasi dan fitur yang disimpan dalam produk Mozilla</target>
         <source>You may lose saved information and features within Mozilla products</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.subheadline" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
-        <target>Akun Firefox Anda (%1) terhubung ke produk Mozilla yang membuat Anda aman dan produktif di web. Harap mengetahui bahwa dengan menghapus akun Anda:</target>
         <source>Your Firefox account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS" xml:space="preserve">
@@ -1256,62 +268,48 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
         <source>Choose a category</source>
-        <target>Pilih Kategori</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.excellentLabel" xml:space="preserve">
         <note annotates="source" from="developer">One of the answers on the feedback question about the user experience with the VPN client.</note>
-        <target>Sangat baik</target>
         <source>Excellent</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.leaveReviewButton" xml:space="preserve">
         <source>Leave a Review</source>
-        <target>Tulis Ulasan</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.reviewBody" xml:space="preserve">
         <source>If you enjoy using Mozilla VPN, would you review it? Thanks for your support!</source>
-        <target>Jika Anda senang menggunakan Mozilla VPN, apakah Anda bersedia memberikan ulasan? Terima kasih atas dukungannya!</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.reviewHeader" xml:space="preserve">
         <source>Give us 5 stars!</source>
-        <target>Beri kami 5 bintang!</target>
       </trans-unit>
       <trans-unit id="vpn.freeTrials.freeTrialLabel" xml:space="preserve">
         <source>7-day free trial</source>
-        <target>Uji coba gratis selama 7 hari</target>
       </trans-unit>
       <trans-unit id="vpn.freeTrials.startYourFreeTrial" xml:space="preserve">
         <note annotates="source" from="developer">This string appears above the 'Sign up' button on mobile onboarding views</note>
-        <target>Daftar untuk memulai uji coba gratis selama 7 hari.</target>
         <source>Sign up to start your 7-day free trial.</source>
       </trans-unit>
       <trans-unit id="vpn.genericError.unexpected" xml:space="preserve">
         <source>Unexpected error</source>
-        <target>Kesalahan tak terduga</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton" xml:space="preserve">
         <source>Try Again</source>
-        <target>Coba Lagi</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
-        <target>Ada masalah saat mengonfirmasi langganan</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again. Visit our help center below to learn how to troubleshoot this issue or contact support.</source>
-        <target>Terjadi kesalahan tak terduga, harap coba lagi. Kunjungi pusat bantuan kami di bawah untuk mempelajari cara memecahkan masalah ini atau hubungi dukungan.</target>
       </trans-unit>
       <trans-unit id="vpn.getHelp.helpCenter" xml:space="preserve">
         <source>Help Center</source>
-        <target>Pusat Bantuan</target>
       </trans-unit>
       <trans-unit id="vpn.getHelp.viewLogs" xml:space="preserve">
         <note annotates="source" from="developer">Label for a clickable item in the Get-Help view</note>
-        <target>Lihat Log</target>
         <source>View Logs</source>
       </trans-unit>
       <trans-unit id="vpn.global.collapse" xml:space="preserve">
         <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
-        <target>Ciutkan</target>
         <source>Collapse</source>
       </trans-unit>
       <trans-unit id="vpn.global.continue" xml:space="preserve">
@@ -1324,17 +322,14 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.discoverNow" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used in intro modals to discover new features.</note>
-        <target>Temukan sekarang</target>
         <source>Discover now</source>
       </trans-unit>
       <trans-unit id="vpn.global.expand" xml:space="preserve">
         <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
-        <target>Bentangkan</target>
         <source>Expand</source>
       </trans-unit>
       <trans-unit id="vpn.global.goBack" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used in intro modals to return to the app.</note>
-        <target>Kembali</target>
         <source>Go back</source>
       </trans-unit>
       <trans-unit id="vpn.global.noThanks" xml:space="preserve">
@@ -1347,48 +342,38 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.vpnUser" xml:space="preserve">
         <note annotates="source" from="developer">Fallback string for users who have not specified a Display Name.</note>
-        <target>Pengguna VPN</target>
         <source>VPN User</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.changeEmailLink" xml:space="preserve">
         <source>Change email</source>
-        <target>Ubah surel</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.createAccountButton" xml:space="preserve">
         <source>Create account</source>
-        <target>Buat akun</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.createPasswordLabel" xml:space="preserve">
         <note annotates="source" from="developer">This is a label displayed on the password creation screen.</note>
-        <target>Buat sandi</target>
         <source>Create password</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.emailInputPlaceholder" xml:space="preserve">
         <source>Enter email</source>
-        <target>Masukkan surel</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.emailTokenResentAlert" xml:space="preserve">
         <note annotates="source" from="developer">User has requested to send a new email containing the 6-digit pin to confirm their email address.</note>
-        <target>Kami telah mengirim ulang kode ke surel Anda.</target>
         <source>We’ve resent your code to your email.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.emailVerificationDescription" xml:space="preserve">
         <note annotates="source" from="developer">User has been sent a verification email containing a code.</note>
-        <target>Buka surel Anda dan masukkan kode verifikasi yang dikirimkan.</target>
         <source>Open your email and enter the verification code that was sent.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.enterEmailAddressDescription" xml:space="preserve">
         <source>Enter your email address to continue using Mozilla VPN</source>
-        <target>Masukkan alamat surel Anda untuk lanjut menggunakan Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription" xml:space="preserve">
         <note annotates="source" from="developer">User message prompting user to finish creating their account to use Mozilla VPN.</note>
-        <target>Selesaikan pembuatan akun Firefox Anda untuk melanjutkan ke Mozilla VPN</target>
         <source>Finish creating your Firefox account to continue to Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.forgotPasswordLink" xml:space="preserve">
         <source>Forgot your password?</source>
-        <target>Lupa kata sandi Anda?</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.hidePassword" xml:space="preserve">
         <note annotates="source" from="developer">Tooltip label for the eye icon in password input</note>
@@ -1396,104 +381,83 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.informationUsageDisclaimer" xml:space="preserve">
         <note annotates="source" from="developer">Non-op text that informs user about how Mozilla will not sell it to a third party.</note>
-        <target>Kami hanya menggunakan surel Anda untuk membuat akun Anda atau masuk. Kami tidak pernah menjualnya ke pihak ketiga.</target>
         <source>We only use your email to create your account or sign in. We will never sell it to a third party.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidCodeErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">User provided did not provide a correct security code.</note>
-        <target>Kode salah. Silakan coba lagi</target>
         <source>Invalid code. Please try again</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidEmailErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">Generic message for when user submits incorrect email.</note>
-        <target>Surel tidak valid. Silakan coba lagi</target>
         <source>Invalid email. Please try again</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidEmailFormatErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">User is providing us an email that is not formatted correctly. Ex. jsmith&amp;gmail.com</note>
-        <target>Format surel tidak didukung. Silakan coba lagi denga surel yang berbeda</target>
         <source>Email format not supported. Please try again with a different email</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidPasswordErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">User has submitted an invalid password.</note>
-        <target>Sandi tidak valid. Silakan coba lagi</target>
         <source>Invalid password. Please try again</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordHintCharacterLength" xml:space="preserve">
         <note annotates="source" from="developer">This is a hint for the user - they must provide a password with at least 8 characters</note>
-        <target>Paling sedikit 8 karakter</target>
         <source>Must be at least 8 characters</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordHintCommonPassword" xml:space="preserve">
         <note annotates="source" from="developer">This is a hint for the user - password they provide must not be a common password. Ex. password.</note>
-        <target>Tidak boleh berupa kata sandi umum</target>
         <source>Must not be a common password</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordHintEmailAddressAsPassword" xml:space="preserve">
         <note annotates="source" from="developer">This is a hint for the user - they must provide a password that does not match their email.</note>
-        <target>Tidak boleh alamat surel Anda</target>
         <source>Must not be your email address</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordInputLabel" xml:space="preserve">
         <source>Password</source>
-        <target>Kata sandi</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordInputPlaceholder" xml:space="preserve">
         <source>Enter password</source>
-        <target>Masukkan kata sandi</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemEmailTypeNotSupported" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error signing them in - this is the message.</note>
-        <target>Surel akun utama diperlukan untuk masuk</target>
         <source>Primary account email required for sign-in</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSendingEmailErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error sending them their verification code email - this is the message.</note>
-        <target>Maaf, kami tidak dapat mengirimkan kode verifikasi.</target>
         <source>Sorry, we were unable to send you a verification code.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSendingEmailTitle" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error sending them their verification code email - this is the title.</note>
-        <target>Masalah pengiriman surel…</target>
         <source>Problem sending email…</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.productUpdateOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">Checkbox label for users to opt in, when creating an account, to receive product update emails from Firefox.</note>
-        <target>Saya ingin mendapatkan info produk terkini dari Firefox melalui surel.</target>
         <source>I’d like to receive product update emails from Firefox.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle" xml:space="preserve">
         <source>To continue, please confirm with your Firefox account password.</source>
-        <target>Untuk melanjutkan, harap konfirmasi dengan kata sandi akun Firefox Anda.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.resendCodeLink" xml:space="preserve">
         <note annotates="source" from="developer">This link allows the user to request for another 6-digit verification code to be sent to their email.</note>
-        <target>Kirim ulang kode</target>
         <source>Resend code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.securityCodeInputPlaceholder" xml:space="preserve">
         <note annotates="source" from="developer">Placeholder text for input element asking user for TOTP 6-digit verification code.</note>
-        <target>Masukkan kode 6 digit</target>
         <source>Enter 6-digit code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.securityCodeLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for input asking user for their security code.</note>
-        <target>Kode keamanan</target>
         <source>Security code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.securityCodeSubtitle" xml:space="preserve">
         <note annotates="source" from="developer">User is asked for a security code from their authentication app for verification.</note>
-        <target>Buka aplikasi otentikasi Anda dan masukkan kode keamanan yang disediakan.</target>
         <source>Open your authentication app and enter the security code it provides.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.securityCodeTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for app screen asking user for their security code.</note>
-        <target>Masukkan kode keamanan</target>
         <source>Enter security code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.sessionEmailCodeInputPlaceholder" xml:space="preserve">
         <note annotates="source" from="developer">Placeholder text for input element asking user for 6-digit verification code from their email.</note>
-        <target>Masukkan kode 6 digit</target>
         <source>Enter 6-digit code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.showPassword" xml:space="preserve">
@@ -1502,253 +466,195 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInBlockedForOneMinute" xml:space="preserve">
         <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 1 minute until they can try again.</note>
-        <target>Terlalu banyak percobaan untuk masuk. Anda tidak akan dapat mencoba lagi dengan akun ini selama 1 menit.</target>
         <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 1 minute.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInButton" xml:space="preserve">
         <source>Sign in</source>
-        <target>Masuk</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInFailedPopupDescription" xml:space="preserve">
         <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 15 minutes until they can try again.</note>
-        <target>Terlalu banyak percobaan untuk masuk. Anda tidak akan dapat mencoba lagi dengan akun ini selama 15 menit.</target>
         <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 15 minutes.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInFailedPopupTitle" xml:space="preserve">
         <source>Sign-in failed</source>
-        <target>Gagak masuk</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInSubtitle" xml:space="preserve">
         <source>Continue to Mozilla VPN by signing in with your Firefox account</source>
-        <target>Lanjutkan ke Mozilla VPN dengan masuk menggunakan akun Firefox Anda</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.termsOfServiceAndPrivacyDisclaimer" xml:space="preserve">
         <note annotates="source" from="developer">Do not remove or translate the markup '&lt;a href="terms-of-service"&gt;', '&lt;a href="privacy-notice"&gt;', '&lt;/a&gt;'.</note>
-        <target>Dengan melanjutkan, Anda menyetujui &lt;a href="terms-of-service"&gt;Persyaratan Layanan&lt;/a&gt; dan &lt;a href="privacy-notice"&gt;Pemberitahuan Privasi&lt;/a&gt;.</target>
         <source>By continuing, you agree to the &lt;a href="terms-of-service"&gt;Terms of Service&lt;/a&gt; and the &lt;a href="privacy-notice"&gt;Privacy Notice&lt;/a&gt;.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.unblockCodeInputPlaceholder" xml:space="preserve">
         <note annotates="source" from="developer">Placeholder text for input element asking user for 8-digit verification code from their email.</note>
-        <target>Masukkan kode 8 digit</target>
         <source>Enter 8-digit code</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verificationCodeTitle" xml:space="preserve">
         <source>Enter verification code</source>
-        <target>Masukkan kode verifikasi</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verifySecurityCodeButton" xml:space="preserve">
         <source>Verify</source>
-        <target>Verifikasi</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.criticalBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this is an important message</note>
-        <target>Sangat Penting</target>
         <source>Critical</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.dateTimeYesterday" xml:space="preserve">
         <source>Yesterday</source>
-        <target>Kemarin</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.deleteMessage" xml:space="preserve">
         <note annotates="source" from="developer">An action to delete a message from the users inbox</note>
-        <target>Hapus pesan</target>
         <source>Delete message</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.editButton" xml:space="preserve">
         <source>Edit</source>
-        <target>Ubah</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.emptyStateDescription" xml:space="preserve">
         <source>You’re up to date!</source>
-        <target>Aplikasi sudah terbaru!</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.emptyStateTitle" xml:space="preserve">
         <source>No messages</source>
-        <target>Tidak ada pesan</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.menuTitle" xml:space="preserve">
         <source>Messages</source>
-        <target>Pesan</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.newUpdateBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying an update to the app is available</note>
-        <target>Pemutakhiran baru</target>
         <source>New update</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.searchBarPlaceholderText" xml:space="preserve">
         <source>Search messages</source>
-        <target>Cari pesan</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.surveyBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains a survey</note>
-        <target>Survei</target>
         <source>Survey</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.warningBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this is a warning message</note>
-        <target>Peringatan</target>
         <source>Warning</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.whatsNewBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about what is new in the product</note>
-        <target>Apa yang baru</target>
         <source>What’s new</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
-        <target>Masalah akun</target>
         <source>Account issues</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.disclaimerText" xml:space="preserve">
         <source>When you submit, Mozilla VPN will collect technical and interaction data with your email to help our support team understand your issue.</source>
-        <target>Ketika Anda kirimkan, Mozilla VPN akan mengumpulkan data teknis dan interaksi dengan surel Anda untuk membantu tim dukungan kami memahami masalah Anda.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel" xml:space="preserve">
         <note annotates="source" from="developer">A user trying to submit feedback will use this dropdown to select the general topic related to the feedback.</note>
-        <target>Pilih kategori</target>
         <source>Choose a category</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.featureRequestDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to requesting new features.</note>
-        <target>Permintaan fitur</target>
         <source>Request features</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.issueFieldPlaceholder" xml:space="preserve">
         <source>Describe issue</source>
-        <target>Jelaskan masalah</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.otherDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to issues not covered under the other categories.</note>
-        <target>Lainnya</target>
         <source>Other</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.paymentDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to payment and billing.</note>
-        <target>Pembayaran dan penagihan</target>
         <source>Payment and billing</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.privacyNoticeLinkText" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
-        <target>Pemberitahuan Privasi Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder" xml:space="preserve">
         <source>Subject (optional)</source>
-        <target>Subyek (opsional)</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportConfirmEmailPlaceholder" xml:space="preserve">
         <source>Confirm email address</source>
-        <target>Konfirmasi alamat surel</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldLabel" xml:space="preserve">
         <source>Enter your email</source>
-        <target>Masukkan surel Anda</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldPlaceholder" xml:space="preserve">
         <source>Email address</source>
-        <target>Alamat surel</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorBrowserButton" xml:space="preserve">
         <source>Try opening in browser</source>
-        <target>Coba buka di peramban</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorButton" xml:space="preserve">
         <source>Try Again</source>
-        <target>Coba Lagi</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorHeader" xml:space="preserve">
         <source>Error submitting your support request</source>
-        <target>Terjadi kesalahan saat mengirimkan permintaan dukungan Anda</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again.</source>
-        <target>Terjadi kesalahan tak terduga, harap coba lagi.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportFieldHeader" xml:space="preserve">
         <source>How can we help you with Mozilla VPN?</source>
-        <target>Apa yang bisa kami bantu dengan Mozilla VPN?</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportNavLinkText" xml:space="preserve">
         <source>Contact support</source>
-        <target>Hubungi dukungan</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportPrimaryButtonText" xml:space="preserve">
         <source>Submit</source>
-        <target>Kirim</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents the email used to complete the form</note>
-        <target>Tim dukungan kami akan menghubungi Anda ke alamat %1 setelah kami dapat mengetahui masalah Anda.</target>
         <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseButton" xml:space="preserve">
         <source>Done</source>
-        <target>Selesai</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseHeader" xml:space="preserve">
         <source>Thank you!</source>
-        <target>Terima kasih!</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportSecondaryActionText" xml:space="preserve">
         <source>Cancel</source>
-        <target>Batal</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.technicaDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to technical issues.</note>
-        <target>Masalah teknis</target>
         <source>Technical issues</source>
       </trans-unit>
       <trans-unit id="vpn.languageView.searchPlaceholder" xml:space="preserve">
         <note annotates="source" from="developer">Placeholder text for a search field that can be used to search through a list of languages</note>
-        <target>Cari bahasa</target>
         <source>Search languages</source>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber" xml:space="preserve">
         <source>Already a subscriber?</source>
-        <target>Sudah menjadi pelanggan?</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelFourSubtitle" xml:space="preserve">
         <source>Stream, download and game without limits, monthly caps or ISP throttling.</source>
-        <target>Streaming, unduh, dan bermain tanpa batas, kuota bulanan atau pembatasan dari ISP.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelFourTitle" xml:space="preserve">
         <source>More security with one tap</source>
-        <target>Lebih aman dengan satu ketukan</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle" xml:space="preserve">
         <source>A safe, reliable and fast VPN. Built by the makers of Firefox.</source>
-        <target>VPN yang aman, andal, dan cepat. Dibangun oleh pembuat Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneTitle" xml:space="preserve">
         <source>Mozilla VPN</source>
-        <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelThreeSubtitle" xml:space="preserve">
         <source>Route your activity and location through servers in more than 30 countries.</source>
-        <target>Arahkan rute aktivitas dan lokasi Anda melalui server di lebih dari 30 negara.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelThreeTitle" xml:space="preserve">
         <source>Protect your privacy</source>
-        <target>Lindungi privasi Anda</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelTwoSubtitle" xml:space="preserve">
         <source>Mozilla VPN keeps your location and browsing safe from eavesdroppers.</source>
-        <target>Mozilla VPN menjaga lokasi dan penjelajahan Anda dari penyadap.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelTwoTitle" xml:space="preserve">
         <source>Encrypt your activity</source>
-        <target>Enkripsi aktivitas Anda</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.signUpBtn" xml:space="preserve">
         <source>Sign up</source>
-        <target>Daftar</target>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
-        <target>Ada masalah saat mengonfirmasi langganan</target>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorText" xml:space="preserve">
         <source>Your subscription is linked to another Firefox Account. You may need to sign in with a different email address.</source>
-        <target>Langganan Anda ditautkan dengan Firefox Account lainnya. Anda mungkin perlu masuk dengan alamat surel yang berbeda.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label that is used for recent multi-hop server connections. “%1” represents the entry server and “%2” the exit server.</note>
@@ -1756,75 +662,58 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText" xml:space="preserve">
         <note annotates="source" from="developer">This is alt text for an arrow showing the multi-hop route between servers. e.g. Atlanta TO Copenhagen</note>
-        <target>Ke</target>
         <source>To</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardBody" xml:space="preserve">
         <source>Multi-hop VPN routes your traffic through two servers instead of one for extra security and privacy. This may slow down your connection.</source>
-        <target>Multi-hop VPN mengarahkan lalu lintas Anda melalui dua server, bukan satu, untuk keamanan dan privasi tambahan. Ini dapat memperlambat koneksi Anda.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardHeader" xml:space="preserve">
         <source>What is multi-hop VPN?</source>
-        <target>Apa itu multi-hop VPN?</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader" xml:space="preserve">
         <source>Recent connections</source>
-        <target>Koneksi sebelumnya</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopEntryLocationHeader" xml:space="preserve">
         <source>Select entry location</source>
-        <target>Pilih lokasi entri</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopExitLocationHeader" xml:space="preserve">
         <source>Select exit location</source>
-        <target>Pilih lokasi keluar</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopInfoText" xml:space="preserve">
         <source>Exit location represents your main VPN server.</source>
-        <target>Lokasi keluar mewakili server VPN utama Anda.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA" xml:space="preserve">
         <source>Multi-hop</source>
-        <target>Multi-hop</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
-        <target>Tidak berhasil. Coba pencarian yang berbeda</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA" xml:space="preserve">
         <source>Single-hop</source>
-        <target>Hop-tunggal</target>
       </trans-unit>
       <trans-unit id="vpn.navBar.homeTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the home screen</note>
-        <target>Beranda</target>
         <source>Home</source>
       </trans-unit>
       <trans-unit id="vpn.navBar.messagesTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the messages inbox screen</note>
-        <target>Pesan</target>
         <source>Messages</source>
       </trans-unit>
       <trans-unit id="vpn.navBar.settingsTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the settings screen</note>
-        <target>Pengaturan</target>
         <source>Settings</source>
       </trans-unit>
       <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
         <source>Multi-hop tunnel</source>
-        <target>Terowongan multi-hop</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText" xml:space="preserve">
         <source>To continue subscribing, please sign in to your Google Account</source>
-        <target>Untuk terus berlangganan, silakan masuk ke Akun Google Anda</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalHeader" xml:space="preserve">
         <source>Sign in to Google Account</source>
-        <target>Masuk ke Akun Google</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalLinkText" xml:space="preserve">
         <source>Go to Play Store</source>
-        <target>Buka Play Store</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
@@ -1853,31 +742,25 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
-        <target>Jaringan Wi-Fi tamu yang tersambung dengan Anda memerlukan tindakan. Klik untuk mematikan VPN untuk melihat portal.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
-        <target>Portal Wi-Fi tamu diblokir</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
-        <target>Jaringan Wi-Fi tamu yang tersambung dengan Anda mungkin tidak aman. Klik untuk mengaktifkan VPN untuk mengamankan perangkat Anda.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal detected</source>
-        <target>Portal Wi-Fi tamu terdeteksi</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.subscriptionNotFound" xml:space="preserve">
         <source>Your Mozilla VPN subscription cannot be found. Please open the app to resolve this subscription issue.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
-        <target>%1 tidak aman. Klik di sini untuk mengaktifkan VPN dan mengamankan perangkat Anda.</target>
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkTitle" xml:space="preserve">
         <source>Unsecured Wi-Fi network detected</source>
-        <target>Jaringan Wi-Fi tidak aman terdeteksi</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
         <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
@@ -1899,43 +782,33 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
         <source>American Express</source>
-        <target>American Express</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.diners" xml:space="preserve">
         <source>Diners Club</source>
-        <target>Diners Club</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.discover" xml:space="preserve">
         <source>Discover</source>
-        <target>Discover</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.iapApple" xml:space="preserve">
         <source>Apple subscription</source>
-        <target>Langganan Apple</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.iapGoogle" xml:space="preserve">
         <source>Google subscription</source>
-        <target>Langganan Google</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.jcb" xml:space="preserve">
         <source>JCB</source>
-        <target>JCB</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.mastercard" xml:space="preserve">
         <source>Mastercard</source>
-        <target>Mastercard</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.paypal" xml:space="preserve">
         <source>PayPal</source>
-        <target>PayPal</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.unionpay" xml:space="preserve">
         <source>UnionPay</source>
-        <target>UnionPay</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.visa" xml:space="preserve">
         <source>Visa</source>
-        <target>Visa</target>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.inProgress2" xml:space="preserve">
         <source>Please continue subscribing in your browser…</source>
@@ -1949,47 +822,36 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
         <source>Already a subscriber?</source>
-        <target>Sudah menjadi pelanggan?</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText" xml:space="preserve">
         <source>Sorry, we are unable to connect your Firefox Account to a current subscription. Please try again or contact our support team for further assistance.</source>
-        <target>Maaf, kami tidak dapat menghubungkan Firefox Account Anda ke paket langganan saat ini. Silakan coba lagi atau hubungi tim dukungan kami untuk bantuan lebih lanjut.</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText" xml:space="preserve">
         <source>Sorry, we were unable to confirm your subscription. Please try again or contact our support team for help.</source>
-        <target>Maaf, kami tidak dapat mengonfirmasi langganan Anda. Silakan coba lagi atau hubungi tim dukungan kami untuk mendapatkan bantuan.</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText" xml:space="preserve">
         <source>Another Firefox Account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
-        <target>Firefox Account lain telah berlangganan menggunakan Apple ID ini. Harap keluar dan coba lagi atau hubungi tim dukungan kami untuk mendapatkan bantuan.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Choose a new location.</source>
-        <target>Lokasi server ini untuk sementara tidak tersedia. Pilih lokasi baru.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.buttonLabel" xml:space="preserve">
         <source>Choose a new location</source>
-        <target>Pilih lokasi baru</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.headerText" xml:space="preserve">
         <source>Server unavailable</source>
-        <target>Server tidak tersedia</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
-        <target>Lokasi server ini untuk sementara tidak tersedia. Silakan buka aplikasi untuk memilih lokasi baru.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked" xml:space="preserve">
         <source>The server has been blocked. Check your firewall settings.</source>
-        <target>Server telah diblokir. Periksa pengaturan firewall Anda.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel" xml:space="preserve">
         <source>Server unavailable notification</source>
-        <target>Notifikasi ketidaktersediaan server</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel" xml:space="preserve">
         <source>Get notified when connecting to a server location failed</source>
-        <target>Dapatkan notifikasi saat koneksi ke lokasi server gagal</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedCardBody" xml:space="preserve">
         <note annotates="source" from="developer">Body text of an expandable info card on the recommended servers list.</note>
@@ -2020,11 +882,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
-        <target>Tidak berhasil. Coba pencarian yang berbeda</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.searchPlaceholder" xml:space="preserve">
         <source>Search countries</source>
-        <target>Pilih negara</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.tabAllLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the “all” servers tab</note>
@@ -2046,12 +906,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
-        <target>Izinkan Mozilla VPN mengirim laporan kerusakan secara otomatis untuk membantu memperbaiki kerusakan yang tidak diharapkan</target>
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
       </trans-unit>
       <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
-        <target>Izinkan Mozilla VPN mengirim data teknis, interaksi, dan kampanye serta perujuk ke Mozilla</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
         <source>DNS settings</source>
@@ -2106,51 +964,40 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
         <source>Mozilla VPN will launch and connect when you start up your device</source>
-        <target>Mozilla VPN akan diluncurkan dan terhubung saat Anda memulai perangkat</target>
       </trans-unit>
       <trans-unit id="vpn.settings.startAtBootTitle" xml:space="preserve">
         <note annotates="source" from="developer">Startup refers to a device's startup, not the VPN client's.</note>
-        <target>Sambungkan VPN saat memulai</target>
         <source>Connect VPN on startup</source>
       </trans-unit>
       <trans-unit id="vpn.settings.systemPreferences" xml:space="preserve">
         <source>System preferences</source>
-        <target>Preferensi sistem</target>
       </trans-unit>
       <trans-unit id="vpn.settings.tipsAndTricksSettings" xml:space="preserve">
         <source>Tips and tricks</source>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
         <source>VPN must be restarted to take effect</source>
-        <target>VPN harus dimulai ulang untuk memberikan dampak</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.showOptionSubtitle" xml:space="preserve">
         <source>Show or hide the developer options menu</source>
-        <target>Tampil atau sembunyikan menu opsi pengembang</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.showOptionTitle" xml:space="preserve">
         <source>Show Developer Options</source>
-        <target>Tampilkan Opsi Pengembang</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.title" xml:space="preserve">
         <source>Developer Options</source>
-        <target>Opsi Pengembang</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.useStagingSubtitle" xml:space="preserve">
         <source>Staging services are used to test features before they go live to production</source>
-        <target>Layanan pentahapan digunakan untuk menguji fitur sebelum tayang di tahap produksi</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.useStagingTitle" xml:space="preserve">
         <source>Use Staging Servers</source>
-        <target>Gunakan Server Pentahapan</target>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
         <source>Learn more</source>
-        <target>Pelajari lebih lanjut</target>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText" xml:space="preserve">
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
-        <target>Untuk pertanyaan terkait pengaturan izin aplikasi, kami telah menyediakan beberapa tips bermanfaatkan di situs web kami.</target>
         <source>For any questions about setting app permissions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText2" xml:space="preserve">
@@ -2159,67 +1006,54 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppActionButton" xml:space="preserve">
         <note annotates="source" from="developer">Displayed in a notification as "call to action" when apps are missing from the split-tunnel settings.</note>
-        <target>Tambahkan aplikasi secara manual</target>
         <source>Add apps manually</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppAddedOne" xml:space="preserve">
         <note annotates="source" from="developer">Displayed in notification after the user added a missing app to the split-tunnel List; %1 is the name of the added application</note>
-        <target>Berhasil! Anda menambahkan “%1” ke dalam daftar ini.</target>
         <source>Success! You added “%1” to this list.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppMultiple" xml:space="preserve">
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
-        <target>%1 aplikasi hilang dari daftar.</target>
         <source>%1 apps missing from list.</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.activatedLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the date on which the subscription was activated.</note>
-        <target>Aktif sejak</target>
         <source>Active since</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.addFirefoxRelay" xml:space="preserve">
         <note annotates="source" from="developer">Block of text appearing above a link to learn more about the VPN / Relay bundle offering.</note>
-        <target>Tambahkan Firefox Relay</target>
         <source>Add Firefox Relay</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.cardExpiresLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the date on which the payment method expires.</note>
-        <target>Kedaluwarsa</target>
         <source>Expires</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.cardLast4" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents the last four digits of a credit card.</note>
-        <target>Kartu berakhir pada %1</target>
         <source>Card ending in %1</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.expiresLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the upcoming date on which the subscription will expire.</note>
-        <target>Kedaluwarsa</target>
         <source>Expires</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.manageSubscriptionButton" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will take the user to a view where they can manage their subscription.</note>
-        <target>Kelola langganan</target>
         <source>Manage subscription</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.menuTitle" xml:space="preserve">
         <note annotates="source" from="developer">Menu title for a view with details on the users account.</note>
-        <target>Profil</target>
         <source>Profile</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.nextLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the upcoming date on which the user will be billed for their subscription.</note>
-        <target>Penagihan berikutnya</target>
         <source>Next billed</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.paymentHeadline" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list with information on the payment information the user provided for their subscription.</note>
-        <target>Informasi Pembayaran</target>
         <source>Payment Information</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the selected subscription plan the user currently is subscribed to.</note>
-        <target>Paket langganan</target>
         <source>Subscription plan</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planMonthly" xml:space="preserve">
@@ -2236,7 +1070,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
-        <target>%1 Setengah tahunan</target>
         <source>%1 Half-yearly</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueHalfYearlyPlusTax" xml:space="preserve">
@@ -2245,7 +1078,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueMonthly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
-        <target>%1 Bulanan</target>
         <source>%1 Monthly</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax" xml:space="preserve">
@@ -2254,7 +1086,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueYearly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
-        <target>%1 Tahunan</target>
         <source>%1 Yearly</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax" xml:space="preserve">
@@ -2263,32 +1094,26 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.statusActive" xml:space="preserve">
         <note annotates="source" from="developer">Text for a label that indicates an active subscription.</note>
-        <target>Aktif</target>
         <source>Active</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.statusInactive" xml:space="preserve">
         <note annotates="source" from="developer">Text for a label that indicates an inactive subscription.</note>
-        <target>Tidak Aktif</target>
         <source>Inactive</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.statusLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the current status of the subscription.</note>
-        <target>Status</target>
         <source>Status</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.subscriptionPlatformLabel" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents the subscription platform. Values for %1 could be “Apple” or “Google” for example.</note>
-        <target>Langganan %1</target>
         <source>%1 subscription</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.summaryHeadline" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list with information on the subscription plan of the user.</note>
-        <target>Ringkasan langganan</target>
         <source>Subscription summary</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.upgrade" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will take users into the upgrade to VPN / Relay bundle purchase flow.</note>
-        <target>Tingkatkan</target>
         <source>Upgrade</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.valueProp1" xml:space="preserve">
@@ -2305,145 +1130,112 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
-        <target>Putuskan</target>
       </trans-unit>
       <trans-unit id="vpn.systray.help" xml:space="preserve">
         <source>Help</source>
-        <target>Bantuan</target>
       </trans-unit>
       <trans-unit id="vpn.systray.hide" xml:space="preserve">
         <source>Hide Mozilla VPN</source>
-        <target>Sembunyikan Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.systray.location2" xml:space="preserve">
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
-        <target>%1, %2</target>
         <source>%1, %2</source>
       </trans-unit>
       <trans-unit id="vpn.systray.preferences" xml:space="preserve">
         <source>Preferences…</source>
-        <target>Pengaturan…</target>
       </trans-unit>
       <trans-unit id="vpn.systray.quit" xml:space="preserve">
         <source>Quit Mozilla VPN</source>
-        <target>Keluar dari Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.systray.show" xml:space="preserve">
         <source>Show Mozilla VPN</source>
-        <target>Tampilkan Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnectTo" xml:space="preserve">
         <source>Connect to the last location:</source>
-        <target>Sambungkan ke lokasi terakhir:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnectedTo" xml:space="preserve">
         <source>Connected to:</source>
-        <target>Tersambung dengan:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnectingTo" xml:space="preserve">
         <source>Connecting to:</source>
-        <target>Menyambungkan ke:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusDisconnectingFrom" xml:space="preserve">
         <source>Disconnecting from:</source>
-        <target>Memutus sambungan dari:</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.description" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
-        <target>Kami berusaha memberikan Anda pilihan dan hanya mengumpulkan data yang kami butuhkan untuk meningkatkan Mozilla VPN. Membagikan data ini kepada Mozilla adalah opsional.</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
-        <target>Izinkan Mozilla VPN mengirim data teknis, interaksi, dan kampanye serta perujuk ke Mozilla</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.advancedTipsDescription" xml:space="preserve">
         <source>Let us help you learn more about Mozilla VPN</source>
-        <target>Izinkan kami membantu Anda mempelajari lebih lanjut tentang Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.advancedTipsGuideViewTitle" xml:space="preserve">
         <source>Advanced tip</source>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.advancedTipsTitle" xml:space="preserve">
         <source>Advanced tips</source>
-        <target>Kiat lanjutan</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.introModalDescription" xml:space="preserve">
         <source>Here’s a great list of useful tips and tricks to get the best out of your Mozilla VPN experience. Check it out now or find it anytime in the settings.</source>
-        <target>Berikut adalah daftar tips dan trik yang berguna agar mendapatkan pengalaman terbaik menggunakan Mozilla VPN. Cek sekarang atau lihat kapan saja di pengaturan.</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.moreTutorialsDescription2" xml:space="preserve">
         <source>Learn how to use Mozilla VPN’s advanced features</source>
-        <target>Pelajari bagaimana menggunakan fitur canggih Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.moreTutorialsTitle" xml:space="preserve">
         <source>More tutorials</source>
-        <target>Tutorial lainnya</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.quickTipsDescription" xml:space="preserve">
         <source>Let us help you get the most out of Mozilla VPN</source>
-        <target>Izinkan kami bantu Anda mendapatkan manfaat maksimal dari Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.quickTipsGuideViewTitle" xml:space="preserve">
         <source>Quick tip</source>
-        <target>Kiat cepat</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.quickTipsTitle" xml:space="preserve">
         <source>Quick tips</source>
-        <target>Kiat cepat</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.settingsEntryLabel" xml:space="preserve">
         <source>VPN tips and tricks</source>
-        <target>Kiat dan trik VPN</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.tabTitleAll" xml:space="preserve">
         <note annotates="source" from="developer">Tab title for the general tab of the Tips &amp; Tricks panels</note>
-        <target>Semua</target>
         <source>All</source>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.tabTitleTips" xml:space="preserve">
         <note annotates="source" from="developer">Tab title for the tab of the Tips &amp; Tricks panels that only shows guides</note>
-        <target>Kiat</target>
         <source>Tips</source>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.tabTitleTutorials" xml:space="preserve">
         <note annotates="source" from="developer">Tab title for the tab of the Tips &amp; Tricks panels that only shows tutorials</note>
-        <target>Tutorial</target>
         <source>Tutorials</source>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.tutorialsDescription" xml:space="preserve">
         <source>Learn the basics of Mozilla VPN</source>
-        <target>Pelajari dasar-dasar Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.tutorialsTitle" xml:space="preserve">
         <source>Getting started</source>
-        <target>Memulai</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.leaveTutorialButton" xml:space="preserve">
         <source>Leave tutorial</source>
-        <target>Tinggalkan tutorial</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialCompleteHeadline" xml:space="preserve">
         <source>Well done!</source>
-        <target>Bagus sekali!</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialCompletePrimaryButtonLabel" xml:space="preserve">
         <source>Let’s go!</source>
-        <target>Ayo!</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialFinishedSecondaryButtonLabel" xml:space="preserve">
         <source>Dismiss</source>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialLeaveHeadline" xml:space="preserve">
         <source>Leave tutorial?</source>
-        <target>Tinggalkan tutorial?</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialLeavePrimaryButtonLabel" xml:space="preserve">
         <source>Resume tutorial</source>
-        <target>Lanjutkan tutorial</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialLeaveSubtitle" xml:space="preserve">
         <source>Looks like you haven’t finished the tutorial quite yet. Would you like to continue and finish now or quit and come back later?</source>
-        <target>Sepertinya Anda belum menyelesaikan tutorialnya. Apakah Anda ingin melanjutkan dan menyelesaikan sekarang atau berhenti dan kembali lagi nanti?</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialWarningDescription" xml:space="preserve">
         <source>By continuing this tutorial, you will be changing your VPN settings. These settings will revert to their original state upon completion or quitting of the tutorial.</source>
@@ -2453,31 +1245,24 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionNoUpdate" xml:space="preserve">
         <source>Okay</source>
-        <target>Oke</target>
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionOnUpdate" xml:space="preserve">
         <source>Update now</source>
-        <target>Perbarui sekarang</target>
       </trans-unit>
       <trans-unit id="vpn.updateButton.checkForUpdateButtonText" xml:space="preserve">
         <source>Check for Updates</source>
-        <target>Periksa Versi Baru</target>
       </trans-unit>
       <trans-unit id="vpn.updateButton.descriptionNoUpdate2" xml:space="preserve">
         <source>You currently have the latest version of Mozilla VPN</source>
-        <target>Saat ini Anda memiliki Mozilla VPN versi terbaru</target>
       </trans-unit>
       <trans-unit id="vpn.updateButton.descriptionOnUpdate" xml:space="preserve">
         <source>Click to update to the latest version of the application</source>
-        <target>Klik untuk memperbarui aplikasi ke versi terbaru</target>
       </trans-unit>
       <trans-unit id="vpn.updateButton.titleNoUpdate" xml:space="preserve">
         <source>You are up to date</source>
-        <target>Aplikasi sudah terbaru</target>
       </trans-unit>
       <trans-unit id="vpn.updateButton.titleOnUpdate" xml:space="preserve">
         <source>Updates available</source>
-        <target>Pembaruan tersedia</target>
       </trans-unit>
     </body>
   </file>
