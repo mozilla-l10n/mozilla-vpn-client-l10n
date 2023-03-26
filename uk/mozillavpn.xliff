@@ -1406,6 +1406,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.noInternetConnection" xml:space="preserve">
         <note annotates="source" from="developer">Status alert text</note>
+        <target>Немає з'єднання з інтернетом</target>
         <source>No internet connection</source>
       </trans-unit>
       <trans-unit id="vpn.global.noThanks" xml:space="preserve">
@@ -1420,6 +1421,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.signOut" xml:space="preserve">
         <note annotates="source" from="developer">Link title</note>
+        <target>Вийти</target>
         <source>Sign out</source>
       </trans-unit>
       <trans-unit id="vpn.global.vpnUser" xml:space="preserve">
@@ -1522,6 +1524,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.pleaseWait" xml:space="preserve">
         <note annotates="source" from="developer">Headline on loading screen</note>
+        <target>Зачекайте, будь ласка…</target>
         <source>Please wait…</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemEmailTypeNotSupported" xml:space="preserve">
@@ -1625,6 +1628,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.waitingForSignIn" xml:space="preserve">
         <note annotates="source" from="developer">Headline on loading screen</note>
+        <target>Очікування входу та підтвердження передплати…</target>
         <source>Waiting for sign in and subscription confirmation…</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.criticalBadge" xml:space="preserve">
@@ -1839,6 +1843,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
+        <target>Відвідайте наш довідковий центр, щоб дізнатися більше про керування передплатами.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label that is used for recent multi-hop server connections. “%1” represents the entry server and “%2” the exit server.</note>
@@ -2044,26 +2049,33 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.headline" xml:space="preserve">
         <source>Quick access</source>
+        <target>Швидкий доступ</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.subtitle" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
+        <target>Ви можете швидко отримати доступ до Mozilla VPN з панелі стану.</target>
       </trans-unit>
       <trans-unit id="vpn.product.description" xml:space="preserve">
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
+        <target>Швидка, безпечна та проста у користуванні VPN. Створений виробниками Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.product.name" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.purchase.percentSaved" xml:space="preserve">
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan</note>
+        <target>Заощаджуйте %1%</target>
         <source>Save %1%</source>
       </trans-unit>
       <trans-unit id="vpn.purchase.subscribeNow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Передплатити зараз</target>
         <source>Subscribe now</source>
       </trans-unit>
       <trans-unit id="vpn.purchase.subscriptionOption" xml:space="preserve">
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>%1-місячний тарифний план: %2</target>
         <source>%1-month plan: %2</source>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.inProgress2" xml:space="preserve">
@@ -2362,6 +2374,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>Керувати обліковим записом</target>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.manageSubscriptionButton" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will take the user to a view where they can manage their subscription.</note>
@@ -2525,10 +2538,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.allow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Дозволити на цьому пристрої</target>
         <source>Allow on this device</source>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.dataCollectionAndUse" xml:space="preserve">
         <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
+        <target>Збір та використання даних</target>
         <source>Data collection and use</source>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.description" xml:space="preserve">
@@ -2537,10 +2552,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.doNotAllow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Не дозволяти</target>
         <source>Don’t allow</source>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.learnMore" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
+        <target>Дізнайтеся більше про те, які дані збирає Mozilla та як вони використовуються.</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
