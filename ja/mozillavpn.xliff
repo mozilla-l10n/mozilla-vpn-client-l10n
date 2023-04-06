@@ -227,37 +227,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.systray.statusConnected.message" xml:space="preserve">
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
-        <target>%1 %2 に接続しました</target>
-        <source>Connected to %1, %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.title" xml:space="preserve">
-        <source>VPN Connected</source>
-        <target>VPN の接続先</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.message" xml:space="preserve">
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
-        <target>%1 %2 との接続を解除しました</target>
-        <source>Disconnected from %1, %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.title" xml:space="preserve">
-        <source>VPN Disconnected</source>
-        <target>VPN の接続を解除しました</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusSwitch.title" xml:space="preserve">
-        <source>VPN Switched Servers</source>
-        <target>VPN のサーバー切り替え</target>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusSwtich.message" xml:space="preserve">
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
-        <target>%1 %2 から %3 %4 に切り替えました</target>
-        <source>Switched from %1, %2 to %3, %4</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/apps/vpn/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="ja">
     <body>
       <trans-unit id="menubar.file.title" xml:space="preserve">
@@ -789,23 +758,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.settings.networking" xml:space="preserve">
-        <source>Network settings</source>
-        <target>ネットワーク設定</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.networking.advancedDNSSettings" xml:space="preserve">
-        <source>Advanced DNS Settings</source>
-        <target>高度な DNS 設定</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.vpnMustBeOff" xml:space="preserve">
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-        <target>これらの設定を編集するには VPN をオフにする必要があります</target>
-        <source>VPN must be off to edit these settings</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/apps/vpn/ui/screens/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
@@ -846,18 +798,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="ja">
-    <body>
-      <trans-unit id="vpn.main.settings" xml:space="preserve">
-        <source>Settings</source>
-        <target>設定</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.appPermissions2" xml:space="preserve">
-        <source>App permissions</source>
-        <target>アプリの許可設定</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/apps/vpn/ui/screens/settings/appPermissions/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="ja">
     <body>
       <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
@@ -882,11 +822,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.settings.protectAllApps.description" xml:space="preserve">
         <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
         <target>VPN は既定ですべてのアプリを保護します。Mozilla VPN が保護しないアプリを選択するにはオフにしてください。</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff" xml:space="preserve">
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-        <target>アプリの許可設定を編集するには VPN をオフにする必要があります</target>
-        <source>VPN must be off to edit App Permissions</source>
       </trans-unit>
     </body>
   </file>
@@ -1118,11 +1053,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>接続情報</target>
         <source>Connection information</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.multiHopCallout" xml:space="preserve">
-        <note annotates="source" from="developer">Informational text that is shown for multi-hop connections.</note>
-        <target>シングルホップ接続に戻すことで速度を改善できます</target>
-        <source>You can improve your speed by switching back to a single-hop connection</source>
-      </trans-unit>
       <trans-unit id="vpn.connectionInfo.openButton" xml:space="preserve">
         <source>Connection Info</source>
         <target>接続情報</target>
@@ -1159,70 +1089,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Main window title</note>
         <target>Mozilla クラッシュレポート</target>
         <source>Mozilla Crash Report</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody" xml:space="preserve">
-        <source>Block internet ads and harmful domains with VPN</source>
-        <target>VPN でインターネット広告と有害なドメインをブロックする</target>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioHeader" xml:space="preserve">
-        <source>Use adblock and anti-tracking DNS</source>
-        <target>広告ブロックとトラッキング防止 DNS を使用する</target>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioBody" xml:space="preserve">
-        <source>Block internet ads with VPN</source>
-        <target>VPN でインターネット広告をブロックする</target>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioHeader" xml:space="preserve">
-        <source>Use adblock DNS</source>
-        <target>広告ブロック DNS を使用する</target>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAdvancedToggle" xml:space="preserve">
-        <source>Advanced</source>
-        <target>詳細設定</target>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioBody" xml:space="preserve">
-        <source>Block harmful domains with VPN</source>
-        <target>VPN で有害なドメインをブロックする</target>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioHeader" xml:space="preserve">
-        <source>Use anti-tracking DNS</source>
-        <target>トラッキング防止 DNS を使用する</target>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsCustomDNSRadioBody" xml:space="preserve">
-        <source>Resolve websites using a custom DNS</source>
-        <target>カスタム DNS を使用してウェブサイトのアドレスを解決する</target>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsCustomDNSRadioHeader" xml:space="preserve">
-        <source>Use custom DNS</source>
-        <target>カスタム DNS を使用する</target>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioBody" xml:space="preserve">
-        <source>Automatically use Mozilla VPN-protected DNS</source>
-        <target>Mozilla VPN で保護された DNS を自動的に使用する</target>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioHeader" xml:space="preserve">
-        <source>Use default DNS</source>
-        <target>既定の DNS を使用する</target>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsDefaultToggle" xml:space="preserve">
-        <source>Default</source>
-        <target>既定</target>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsFieldPlaceHolder" xml:space="preserve">
-        <source>Enter custom DNS</source>
-        <target>カスタム DNS を入力</target>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsInfoAlert" xml:space="preserve">
-        <source>VPN must be off to change these settings</source>
-        <target>これらの設定を変更するには VPN をオフにする必要があります</target>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsNavItem" xml:space="preserve">
-        <source>DNS settings</source>
-        <target>DNS 設定</target>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.inlineCustomDNSError" xml:space="preserve">
-        <source>Invalid DNS, please try a new one</source>
-        <target>無効な DNS です。新しい DNS を入力してください</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.authButtonLabel" xml:space="preserve">
         <source>Continue</source>
@@ -2275,10 +2141,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Startup refers to a device's startup, not the VPN client's.</note>
         <target>端末起動時に VPN 接続する</target>
         <source>Connect VPN on startup</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.systemPreferences" xml:space="preserve">
-        <source>System preferences</source>
-        <target>システム環境設定</target>
       </trans-unit>
       <trans-unit id="vpn.settings.tipsAndTricksSettings" xml:space="preserve">
         <source>Tips and tricks</source>
