@@ -185,31 +185,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/notificationhandler.cpp" datatype="cpp" source-language="en" target-language="en-US">
-    <body>
-      <trans-unit id="vpn.systray.statusConnected.message">
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
-        <source>Connected to %1, %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusConnected.title">
-        <source>VPN Connected</source>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.message">
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 is the country, %2 is the city.</note>
-        <source>Disconnected from %1, %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnected.title">
-        <source>VPN Disconnected</source>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusSwitch.title">
-        <source>VPN Switched Servers</source>
-      </trans-unit>
-      <trans-unit id="vpn.systray.statusSwtich.message">
-        <note annotates="source" from="developer">Shown as message body in a notification. %1 and %3 are countries, %2 and %4 are cities.</note>
-        <source>Switched from %1, %2 to %3, %4</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/apps/vpn/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
       <trans-unit id="menubar.file.title">
@@ -643,20 +618,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/settings/ViewNetworkSettings.qml" datatype="plaintext" source-language="en" target-language="en-US">
-    <body>
-      <trans-unit id="vpn.settings.networking">
-        <source>Network settings</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.networking.advancedDNSSettings">
-        <source>Advanced DNS Settings</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.vpnMustBeOff">
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-        <source>VPN must be off to edit these settings</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/apps/vpn/ui/screens/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
       <trans-unit id="vpn.settings.guestWifiAlert">
@@ -688,16 +649,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/settings/ViewSettingsMenu.qml" datatype="plaintext" source-language="en" target-language="en-US">
-    <body>
-      <trans-unit id="vpn.main.settings">
-        <source>Settings</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.appPermissions2">
-        <source>App permissions</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/apps/vpn/ui/screens/settings/appPermissions/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
       <trans-unit id="vpn.protectSelectedApps.addApplication">
@@ -717,10 +668,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps.description">
         <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectSelectedApps.vpnMustBeOff">
-        <note annotates="source" from="developer">Associated to a group of settings that require the VPN to be disconnected to change</note>
-        <source>VPN must be off to edit App Permissions</source>
       </trans-unit>
     </body>
   </file>
@@ -909,10 +856,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Title for the connection metrics view.</note>
         <source>Connection information</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.multiHopCallout">
-        <note annotates="source" from="developer">Informational text that is shown for multi-hop connections.</note>
-        <source>You can improve your speed by switching back to a single-hop connection</source>
-      </trans-unit>
       <trans-unit id="vpn.connectionInfo.openButton">
         <source>Connection Info</source>
       </trans-unit>
@@ -942,54 +885,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.crashreporter.mainTitle">
         <note annotates="source" from="developer">Main window title</note>
         <source>Mozilla Crash Report</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioBody">
-        <source>Block internet ads and harmful domains with VPN</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAdblockAntiTrackRadioHeader">
-        <source>Use adblock and anti-tracking DNS</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioBody">
-        <source>Block internet ads with VPN</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAdblockRadioHeader">
-        <source>Use adblock DNS</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAdvancedToggle">
-        <source>Advanced</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioBody">
-        <source>Block harmful domains with VPN</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsAntitrackRadioHeader">
-        <source>Use anti-tracking DNS</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsCustomDNSRadioBody">
-        <source>Resolve websites using a custom DNS</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsCustomDNSRadioHeader">
-        <source>Use custom DNS</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioBody">
-        <source>Automatically use Mozilla VPN-protected DNS</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsDefaultRadioHeader">
-        <source>Use default DNS</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsDefaultToggle">
-        <source>Default</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsFieldPlaceHolder">
-        <source>Enter custom DNS</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsInfoAlert">
-        <source>VPN must be off to change these settings</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.dnsNavItem">
-        <source>DNS settings</source>
-      </trans-unit>
-      <trans-unit id="vpn.customDNSSettings.inlineCustomDNSError">
-        <source>Invalid DNS, please try a new one</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.authButtonLabel">
         <source>Continue</source>
@@ -1825,9 +1720,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.settings.startAtBootTitle">
         <note annotates="source" from="developer">Startup refers to a device's startup, not the VPN client's.</note>
         <source>Connect VPN on startup</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.systemPreferences">
-        <source>System preferences</source>
       </trans-unit>
       <trans-unit id="vpn.settings.tipsAndTricksSettings">
         <source>Tips and tricks</source>
