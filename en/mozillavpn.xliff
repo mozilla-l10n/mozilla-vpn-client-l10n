@@ -1638,6 +1638,22 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.serversView.searchPlaceholder">
         <source>Search countries</source>
       </trans-unit>
+      <trans-unit id="vpn.serversView.serverCityWithGoodConnection">
+        <note annotates="source" from="developer">Button label that reads out a city name whose connection is good. Argument is the city name.</note>
+        <source>%1. Good connectivity</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.serverCityWithModerateConnection">
+        <note annotates="source" from="developer">Button label that reads out a city name whose connection is moderate. Argument is the city name.</note>
+        <source>%1. Moderate connectivity</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.serverCityWithNoConnection">
+        <note annotates="source" from="developer">Button label that reads out a city name whose connection is unavailable. Argument is the city name.</note>
+        <source>%1. No connectivity</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.serverCityWithPoorConnection">
+        <note annotates="source" from="developer">Button label that reads out a city name whose connection is poor. Argument is the city name.</note>
+        <source>%1. Poor connectivity</source>
+      </trans-unit>
       <trans-unit id="vpn.serversView.tabAllLabel">
         <note annotates="source" from="developer">Label for the “all” servers tab</note>
         <source>All</source>
