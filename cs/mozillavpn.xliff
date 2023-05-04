@@ -53,6 +53,7 @@
       </trans-unit>
       <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
         <source>No internet connection</source>
+        <target>Připojení k internetu není dostupné</target>
       </trans-unit>
       <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
@@ -70,6 +71,7 @@
       </trans-unit>
       <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
         <source>Unable to connect</source>
+        <target>Chyba spojení</target>
       </trans-unit>
     </body>
   </file>
@@ -102,9 +104,11 @@
     <body>
       <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
         <source>Monthly plan</source>
+        <target>Měsíční předplatné</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.price" xml:space="preserve">
         <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
+        <target>%1 měsíčně</target>
         <source>%1/month</source>
       </trans-unit>
     </body>
@@ -1047,6 +1051,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.noInternetConnection" xml:space="preserve">
         <note annotates="source" from="developer">Status alert text</note>
+        <target>Připojení k internetu není dostupné</target>
         <source>No internet connection</source>
       </trans-unit>
       <trans-unit id="vpn.global.noThanks" xml:space="preserve">
@@ -1854,6 +1859,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planMonthly" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription. %1 represents the localized currency string</note>
+        <target>Měsíční předplatné: %1</target>
         <source>Monthly plan: %1</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax" xml:space="preserve">
