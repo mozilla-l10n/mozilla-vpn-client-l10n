@@ -4,9 +4,11 @@
     <body>
       <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
         <source>Close</source>
+        <target>Zavřít</target>
       </trans-unit>
       <trans-unit id="vpn.main.back" xml:space="preserve">
         <note annotates="source" from="developer">Go back</note>
+        <target>Zpět</target>
         <source>Back</source>
       </trans-unit>
     </body>
@@ -15,6 +17,7 @@
     <body>
       <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
+        <target>Zavřít</target>
       </trans-unit>
     </body>
   </file>
@@ -22,6 +25,7 @@
     <body>
       <trans-unit id="vpn.main.signOut2" xml:space="preserve">
         <source>Sign out</source>
+        <target>Odhlásit se</target>
       </trans-unit>
     </body>
   </file>
@@ -29,10 +33,12 @@
     <body>
       <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>%1měsíční předplatné: %2</target>
         <source>%1-month plan: %2</source>
       </trans-unit>
       <trans-unit id="vpn.subscription.savePercent" xml:space="preserve">
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
+        <target>Ušetříte %1 %</target>
         <source>Save %1%</source>
       </trans-unit>
     </body>
@@ -41,9 +47,11 @@
     <body>
       <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
         <source>Authentication error</source>
+        <target>Chyba autentizace</target>
       </trans-unit>
       <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
         <source>Background service error</source>
+        <target>Chyba služby na pozadí</target>
       </trans-unit>
       <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
         <source>Signed out and device disconnected</source>
@@ -57,9 +65,11 @@
       </trans-unit>
       <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
+        <target>Chyba vzdálené služby</target>
       </trans-unit>
       <trans-unit id="vpn.alert.restore" xml:space="preserve">
         <note annotates="source" from="developer">Restore a service in case of error.</note>
+        <target>Obnovit</target>
         <source>Restore</source>
       </trans-unit>
       <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
@@ -68,6 +78,7 @@
       </trans-unit>
       <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
         <source>Try again</source>
+        <target>Zkusit znovu</target>
       </trans-unit>
       <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
         <source>Unable to connect</source>
@@ -79,9 +90,11 @@
     <body>
       <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
+        <target>Vypnout VPN</target>
       </trans-unit>
       <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
+        <target>Zapnout VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -89,6 +102,7 @@
     <body>
       <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>Správa účtu</target>
       </trans-unit>
     </body>
   </file>
@@ -96,6 +110,7 @@
     <body>
       <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
+        <target>%1: %2 %3</target>
         <source>%1: %2 %3</source>
       </trans-unit>
     </body>
@@ -117,6 +132,7 @@
     <body>
       <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
         <source>Get help</source>
+        <target>Získat pomoc</target>
       </trans-unit>
     </body>
   </file>
@@ -130,9 +146,11 @@
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
         <source>Get help.</source>
+        <target>Získat pomoc.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
         <source>Success!</source>
+        <target>Hotovo!</target>
       </trans-unit>
       <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
         <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
@@ -142,9 +160,11 @@
       </trans-unit>
       <trans-unit id="macosinstaller.title" xml:space="preserve">
         <source>Mozilla VPN for macOS</source>
+        <target>Mozilla VPN pro macOS</target>
       </trans-unit>
       <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
         <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
+        <target>Mozilla VPN vyžaduje Mac OS X 10.6 nebo novější.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
         <source>Unable to install</source>
@@ -170,24 +190,31 @@
     <body>
       <trans-unit id="feedback.category.accessToService" xml:space="preserve">
         <source>Access to service</source>
+        <target>Přístup ke službě</target>
       </trans-unit>
       <trans-unit id="feedback.category.bugError" xml:space="preserve">
         <source>Product Bugs/Errors</source>
+        <target>Chyba produktu</target>
       </trans-unit>
       <trans-unit id="feedback.category.compatibility" xml:space="preserve">
         <source>Compatibility</source>
+        <target>Kompatibilita</target>
       </trans-unit>
       <trans-unit id="feedback.category.easeToUse" xml:space="preserve">
         <source>Ease of Use</source>
+        <target>Jednoduchost používání</target>
       </trans-unit>
       <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
         <source>Network Connection/Speed</source>
+        <target>Síťové připojení nebo jeho rychlost</target>
       </trans-unit>
       <trans-unit id="feedback.category.other" xml:space="preserve">
         <source>Other</source>
+        <target>Jiné</target>
       </trans-unit>
       <trans-unit id="feedback.category.productQuality" xml:space="preserve">
         <source>Product Quality</source>
+        <target>Kvalita produktu</target>
       </trans-unit>
     </body>
   </file>
@@ -195,6 +222,7 @@
     <body>
       <trans-unit id="menubar.file.title" xml:space="preserve">
         <source>File</source>
+        <target>Soubor</target>
       </trans-unit>
     </body>
   </file>
@@ -210,6 +238,7 @@
     <body>
       <trans-unit id="vpn.main.productName" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -224,9 +253,11 @@
     <body>
       <trans-unit id="vpn.errors.somethingWentWrong" xml:space="preserve">
         <source>Something went wrong…</source>
+        <target>Něco se pokazilo…</target>
       </trans-unit>
       <trans-unit id="vpn.errors.tryAgain" xml:space="preserve">
         <source>Try Again</source>
+        <target>Zkusit znovu</target>
       </trans-unit>
       <trans-unit id="vpn.errors.unableToEstablishConnection" xml:space="preserve">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
@@ -241,14 +272,17 @@
       </trans-unit>
       <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
         <note annotates="source" from="developer">User does not agree to send a crash report.</note>
+        <target>Ne, děkuji</target>
         <source>No thanks</source>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
         <note annotates="source" from="developer">Label over description text section.</note>
+        <target>Hlášení pádů</target>
         <source>Crash reporting</source>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">User agrees to send a crash report.</note>
+        <target>Odeslat hlášení</target>
         <source>Send report</source>
       </trans-unit>
     </body>
@@ -257,6 +291,7 @@
     <body>
       <trans-unit id="vpn.postAuthentication..quickAccess" xml:space="preserve">
         <source>Quick access</source>
+        <target>Rychlý přístup</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.statusBarIntro" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
@@ -267,6 +302,7 @@
     <body>
       <trans-unit id="vpn.subscriptionBlocked.getHelp" xml:space="preserve">
         <source>Get Help</source>
+        <target>Získat pomoc</target>
       </trans-unit>
       <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
@@ -277,6 +313,7 @@
     <body>
       <trans-unit id="vpn.subscription.pleaseWait" xml:space="preserve">
         <source>Please wait…</source>
+        <target>Čekejte prosím…</target>
       </trans-unit>
     </body>
   </file>
@@ -284,15 +321,19 @@
     <body>
       <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
         <source>Data collection and use</source>
+        <target>Sběr dat a jejich použití</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.MozillaVPNPrivacyNotice" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Zásady ochrany osobních údajů službou Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice" xml:space="preserve">
         <source>Allow on this device</source>
+        <target>Povolit na tomto zařízení</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.doNotAllow" xml:space="preserve">
         <source>Don’t allow</source>
+        <target>Nepovolovat</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
@@ -303,15 +344,19 @@
     <body>
       <trans-unit id="vpn.logs.clear" xml:space="preserve">
         <source>Clear</source>
+        <target>Vymazat</target>
       </trans-unit>
       <trans-unit id="vpn.logs.copied" xml:space="preserve">
         <source>Copied!</source>
+        <target>Zkopírováno!</target>
       </trans-unit>
       <trans-unit id="vpn.logs.copy" xml:space="preserve">
         <source>Copy</source>
+        <target>Kopírovat</target>
       </trans-unit>
       <trans-unit id="vpn.viewlogs.title" xml:space="preserve">
         <source>View Logs</source>
+        <target>Zobrazit protokoly</target>
       </trans-unit>
     </body>
   </file>
@@ -331,13 +376,16 @@
       </trans-unit>
       <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
         <source>Current Device</source>
+        <target>Současné zařízení</target>
       </trans-unit>
       <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
         <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
+        <target>%1 %2</target>
         <source>%1 %2</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <target>Odstranit zařízení %1</target>
         <source>Remove %1</source>
       </trans-unit>
     </body>
@@ -346,9 +394,11 @@
     <body>
       <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
         <source>Remove a device</source>
+        <target>Odstranit zařízení</target>
       </trans-unit>
       <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
         <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
+        <target>Dosáhli jste maximálního počtu zařízení. Pro zapnutí VPN na tomto zařízení musíte nejdřív jedno odstranit.</target>
       </trans-unit>
     </body>
   </file>
@@ -356,15 +406,18 @@
     <body>
       <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
+        <target>Potvďte prosím odstranění zařízení %1.</target>
         <source>Please confirm you would like to remove
 %1.</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
         <note annotates="source" from="developer">This is the “remove” device button.</note>
+        <target>Odstranit</target>
         <source>Remove</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
         <source>Remove device?</source>
+        <target>Odstranit zařízení?</target>
       </trans-unit>
     </body>
   </file>
@@ -379,6 +432,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.devices.myDevices" xml:space="preserve">
         <source>My devices</source>
+        <target>Má zařízení</target>
       </trans-unit>
     </body>
   </file>
@@ -438,6 +492,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.privacyNoticeLink" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Zásady ochrany osobních údajů službou Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.skip" xml:space="preserve">
         <source>Skip</source>
@@ -449,6 +504,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.feedbackform.submit" xml:space="preserve">
         <source>Submit</source>
+        <target>Odeslat</target>
       </trans-unit>
     </body>
   </file>
@@ -456,6 +512,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.feedbackForm.thankyou" xml:space="preserve">
         <source>Thank you!</source>
+        <target>Děkujeme!</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.thankyouSubtitle" xml:space="preserve">
         <source>We appreciate your feedback. You’re helping us improve Mozilla VPN.</source>
@@ -470,6 +527,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="MozillaVPN" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
@@ -485,13 +543,16 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
+        <target>Kontrola spojení</target>
         <source>Check Connection</source>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
         <source>No Signal</source>
+        <target>Žádný signál</target>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>Nestabilní</target>
         <source>Unstable</source>
       </trans-unit>
     </body>
@@ -500,6 +561,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.controller.activated" xml:space="preserve">
         <source>VPN is on</source>
+        <target>VPN zapnuta</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activating" xml:space="preserve">
         <source>Masking connection and location</source>
@@ -516,18 +578,22 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
         <source>Connecting…</source>
+        <target>Připojování…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.deactivated" xml:space="preserve">
         <source>VPN is off</source>
+        <target>VPN vypnuta</target>
       </trans-unit>
       <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
         <source>Unmasking connection and location</source>
       </trans-unit>
       <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
         <source>Disconnecting…</source>
+        <target>Odpojování…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switching" xml:space="preserve">
         <source>Switching…</source>
+        <target>Přepínání…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
@@ -539,6 +605,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
         <source>Download</source>
+        <target>Stáhnout</target>
       </trans-unit>
     </body>
   </file>
@@ -546,6 +613,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="cities" xml:space="preserve">
         <note annotates="source" from="developer">The title for the list of cities.</note>
+        <target>Města</target>
         <source>Cities</source>
       </trans-unit>
     </body>
@@ -554,9 +622,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.main.getStarted" xml:space="preserve">
         <source>Get started</source>
+        <target>Začít</target>
       </trans-unit>
       <trans-unit id="vpn.main.learnMore" xml:space="preserve">
         <source>Learn more</source>
+        <target>Zjistit více</target>
       </trans-unit>
       <trans-unit id="vpn.main.productDescription" xml:space="preserve">
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
@@ -567,22 +637,27 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
         <source>Device-level encryption</source>
+        <target>Šifrování na úrovni zařízení</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
         <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeededIAP.qml too.</note>
+        <target>Servery ve více než 30 zemích</target>
         <source>Servers in 30+ countries</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.3" xml:space="preserve">
         <source>No bandwidth restrictions</source>
+        <target>Žádná omezení šířky pásma</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
         <source>No online activity logs</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.next" xml:space="preserve">
         <source>Next</source>
+        <target>Další</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
         <source>Skip</source>
+        <target>Přeskočit</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
@@ -602,6 +677,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.aboutUs.privacyNotice2" xml:space="preserve">
         <source>Privacy notice</source>
+        <target>Zásady ochrany osobních údajů</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
@@ -610,9 +686,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.aboutUs.tos2" xml:space="preserve">
         <source>Terms of service</source>
+        <target>Podmínky služby</target>
       </trans-unit>
       <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
         <source>About us</source>
+        <target>O nás</target>
       </trans-unit>
     </body>
   </file>
@@ -629,14 +707,17 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.systemLangaugeSubtitle" xml:space="preserve">
         <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
+        <target>Mozilla VPN použije výchozí jazyk systému.</target>
         <source>Mozilla VPN will use the default system language.</source>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageEnabled" xml:space="preserve">
         <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
+        <target>Vypněte pro výběr jiného jazyka</target>
         <source>Disable to select a different language</source>
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the language switcher toggle.</note>
+        <target>Použít jazyk systému</target>
         <source>Use system language</source>
       </trans-unit>
     </body>
@@ -645,30 +726,39 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
         <source>Guest Wi-Fi portal alert</source>
+        <target>Wi-Fi pro hosty</target>
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
+        <target>Zobrazí oznámení při zablokování portálu Wi-Fi pro hosty kvůli VPN spojení</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
         <source>Get notified when the connection status changes</source>
+        <target>Zobrazí oznámení při změně stavu spojení</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
         <source>Connection change notification</source>
+        <target>Změna spojení</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
         <source>Get notified when you successfully switched servers</source>
+        <target>Zobrazí oznámení, pokud úspěšné změníte server</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch2" xml:space="preserve">
         <source>Server switching notification</source>
+        <target>Změna serveru</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notifications" xml:space="preserve">
         <source>Notifications</source>
+        <target>Oznámení</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unsecuredNetworkAlert" xml:space="preserve">
         <source>Unsecured network alert</source>
+        <target>Nezabezpečená síť</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unsecuredNetworkAlert.description" xml:space="preserve">
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
+        <target>Zobrazí oznámení při připojení k nezabezpečení Wi-Fi síti</target>
       </trans-unit>
     </body>
   </file>
@@ -748,6 +838,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.AndroidNotifications.GeneralNotifications" xml:space="preserve">
         <note annotates="source" from="developer">A notification channel; so the user can subscribe to "General Notifications"</note>
+        <target>Obecná oznámení</target>
         <source>General Notifications</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.copyVersionNumber" xml:space="preserve">
@@ -1464,62 +1555,78 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
+        <target>Připojeno k %1</target>
         <source>Connected to %1</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
+        <target>Připojeno přes %1</target>
         <source>Connected through %1</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedTitle" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN připojena</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN disconnected from.</note>
+        <target>Odpojeno od %1</target>
         <source>Disconnected from %1</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNDisconnectedTitle" xml:space="preserve">
         <source>VPN Disconnected</source>
+        <target>VPN odpojena</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopConnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>Připojeno k %1 přes %2</target>
         <source>Connected to %1, through %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>Připojeno k %1 přes %2</target>
         <source>Connected through %1 via %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>Odpojeno od %1 a %2</target>
         <source>Disconnected from %1 and %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the initial server, %2 is the name of the destination server.</note>
+        <target>Přeponuto z %1 na %2</target>
         <source>Switched from %1 to %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersTitle" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>VPN změnila servery</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
+        <target>Wi-Fi pro hosty, ke které jste připojeni, vyžaduje akci. Klepněte pro vypnnutí VPN a zobrazení portálu.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
+        <target>Zablokován portál Wi-Fi pro hosty</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
+        <target>Wi-Fi pro hosty, ke které jste připojení, nemusí být bezpečná. Klepněte pro zapnutí VPN a zabezpečení vašeho zařízení.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal detected</source>
+        <target>Zjištěn portál Wi-Fi pro hosty</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.subscriptionNotFound" xml:space="preserve">
         <source>Your Mozilla VPN subscription cannot be found. Please open the app to resolve this subscription issue.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
+        <target>Síť %1 není zabezpečená. Klepněte zde pro zapnutí VPN a zabezepčení vašeho zařízení.</target>
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkTitle" xml:space="preserve">
         <source>Unsecured Wi-Fi network detected</source>
+        <target>Rozpoznána nezabezpečená Wi-Fi síť</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
         <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
