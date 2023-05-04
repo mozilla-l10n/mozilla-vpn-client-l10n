@@ -78,19 +78,24 @@ jobs:
           python translationFiles/.github/scripts/extract_source_strings.py --input translations.ts --output translationFiles/en/mozillavpn.xliff
 
           # Convert addon strings to XLIFF
-          if [ -d "vpn/addon_ts" ]; then
-            addon_files="vpn/addon_ts/*.ts"
-            for f in $addon_files
-            do
-              addon_name=$(basename "$f" .ts)
-              echo "Extracting strings for addon: ${addon_name}.ts"
-              mkdir -p "translationFiles/en/addons/${addon_name}"
-              python translationFiles/.github/scripts/extract_source_strings.py --input "vpn/addon_ts/${addon_name}.ts" --output "translationFiles/en/addons/${addon_name}/strings.xliff"
-            done
-          fi
+          addon_files="vpn/addon_ts/*.ts"
+
+          # Remove the addons folder and recreate it, to remove obsolete addons
+          rm -rf translationFiles/en/addons/
+
+          for f in $addon_files
+          do
+            addon_name=$(basename "$f" .ts)
+            echo "Extracting strings for addon: ${addon_name}.ts"
+            mkdir -p "translationFiles/en/addons/${addon_name}"
+            python translationFiles/.github/scripts/extract_source_strings.py --input "vpn/addon_ts/${addon_name}.ts" --output "translationFiles/en/addons/${addon_name}/strings.xliff"
+          done
 
           # Update other locales
           python translationFiles/.github/scripts/update_other_locales.py --reference en --path translationFiles/ --type "${{ github.event.inputs.type }}"
+
+          # Remove obsolete XLIFF files
+          python translationFiles/.github/scripts/remove_obsolete_files.py --reference en --path translationFiles/
       - uses: peter-evans/create-pull-request@v4
         with:
           path: translationFiles
