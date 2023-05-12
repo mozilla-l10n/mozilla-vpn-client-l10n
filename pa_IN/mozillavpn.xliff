@@ -1067,7 +1067,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section for multi-hop connections</note>
-        <target>ਇੱਕ-ਟਿਕਾਣਾ ਕਨੈਕਸ਼ਨ ਉੱਤੇ ਵਾਪਸ ਬਦਲਣਾ</target>
+        <target>ਇੱਕ-ਪੜਾਅ ਕਨੈਕਸ਼ਨ ਉੱਤੇ ਵਾਪਸ ਬਦਲਣਾ</target>
         <source>Switching back to a single-hop connection</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo" xml:space="preserve">
@@ -1700,9 +1700,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorText" xml:space="preserve">
         <source>Your subscription is linked to another Firefox Account. You may need to sign in with a different email address.</source>
+        <target>ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਹੋਰ Firefox ਖਾਤੇ ਨਾਲ ਕਨੈਕਟ ਹੈ। ਤੁਹਾਨੂੰ ਵੱਖਰੇ ਈਮੇਲ ਸਿਰਨਾਵੇਂ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰਨ ਦੀ ਲੋੜ ਹੋ ਸਕਦੀ ਹੈ।</target>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
+        <target>ਆਪਣੀ ਮੈਂਬਰੀ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰਨ ਬਾਰੇ ਜਾਣਨ ਲਈ ਸਾਡੇ ਮਦਦ ਕੇਂਦਰ ਨੂੰ ਖੋਲ੍ਹੋ।</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label that is used for recent multi-hop server connections. “%1” represents the entry server and “%2” the exit server.</note>
@@ -1719,7 +1721,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardHeader" xml:space="preserve">
         <source>What is multi-hop VPN?</source>
-        <target>ਕਈ-ਪੜਾਅ VPN ਕੀ ਹੈ?</target>
+        <target>ਬਹੁ-ਪੜਾਵੀ VPN ਕੀ ਹੈ?</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader" xml:space="preserve">
         <source>Recent connections</source>
@@ -1739,7 +1741,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA" xml:space="preserve">
         <source>Multi-hop</source>
-        <target>ਕਈ-ਪੜਾਅ</target>
+        <target>ਬਹੁ-ਪੜਾਵੀ</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
@@ -1766,7 +1768,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
         <source>Multi-hop tunnel</source>
-        <target>ਕਈ ਪੜਾਅਵੀ ਟਨਲ</target>
+        <target>ਬਹੁ-ਪੜਾਵੀ ਟਨਲ</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText" xml:space="preserve">
         <source>To continue subscribing, please sign in to your Google Account</source>
@@ -1787,6 +1789,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
+        <target>%1 ਰਾਹੀਂ ਕਨੈਕਟ ਹੈ</target>
         <source>Connected through %1</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedTitle" xml:space="preserve">
@@ -1804,14 +1807,17 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopConnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>%1 ਨਾਲ %2 ਰਾਹੀਂ ਕਨੈਕਟ ਹੈ</target>
         <source>Connected to %1, through %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>%2 ਤੋਂ ਲੈ ਕੇ %1 ਰਾਹੀਂ ਕਨੈਕਟ ਹੈ</target>
         <source>Connected through %1 via %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>%1 ਅਤੇ %2 ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਹੈ</target>
         <source>Disconnected from %1 and %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
@@ -1825,6 +1831,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
+        <target>ਗੈਸਟ Wi-Fi ਨੈੱਟਵਰਕ, ਜਿਸ ਨਾਲ ਤੁਸੀਂ ਕਨੈਕਟ ਹੈ, ਲਈ ਕਾਰਵਾਈ ਦੀ ਲੋੜ ਹੈ। ਪੋਰਟਲ ਨੂੰ ਵੇਖਣ ਲਈ VPN ਬੰਦ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
@@ -1832,6 +1839,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
+        <target>ਜਿਸ ਗੈਸਟ Wi-Fi  ਨਾਲ ਤੁਸੀਂ ਕਨੈਕਟ ਹੋ, ਉਹ ਸ਼ਾਇਦ ਸੁਰੱਖਿਅਤ ਨਾ ਹੋਵੇ। ਆਪਣੇ ਡਿਵਾਈਸ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ VPN ਨੂੰ ਚਾਲੂ ਕਰੋ।</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal detected</source>
@@ -1839,6 +1847,8 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.subscriptionNotFound" xml:space="preserve">
         <source>Your Mozilla VPN subscription cannot be found. Please open the app to resolve this subscription issue.</source>
+        <target>ਤੁਹਾਡੀ Mozilla VPN ਮੈਂਬਰੀ ਲੱਭੀ ਨਹੀਂ ਜਾ ਸਕਦੀ ਹੈ।
+ਇਸ ਮੈਂਬਰੀ ਮਸਲੇ ਨੂੰ ਹੱਲ਼ ਕਰਨ ਵਾਸਤੇ ਐਪ ਨੂੰ ਖੋਲ੍ਹੋ।</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
@@ -1851,21 +1861,25 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
         <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
+        <target>ਤੁਸੀਂ Mozilla VPN ਨੂੰ ਤੁਹਾਨੂੰ ਇਸ਼ਤਿਕਾਰਾਂ, ਟੋਹੀਆਂ ਤੇ ਮਾਲਵੇਅਰ ਤੋਂ ਬਚਾਉਣ ਲਈ ਸੈੱਟ ਕਰ ਸਕਦੇ ਹੋ। ਇਸ ਤੋਂ ਇਲਾਵਾ ਤੁਸੀਂ ਖਾਸ ਐਪਾਂ ਲਈ ਵੀ ਆਪਣੀ ਸੁਰੱਖਿਆ ਨਿਰਧਾਰਿਤ ਕਰ ਸਕਦੇ ਹੋ।</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourTitle" xml:space="preserve">
         <source>Add even more privacy</source>
+        <target>ਹੋਰ ਵੀ ਵੱਧ ਪਰਦੇਦਾਰੀ ਜੋੜੋ</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelThreeSubtitle" xml:space="preserve">
         <source>Protecting yourself is simple: tap to connect to the VPN and you’re ready to browse safely. Mozilla VPN will start automatically for seamless protection.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelThreeTitle" xml:space="preserve">
         <source>One tap to safety</source>
+        <target>ਸੁਰੱਖਿਆ ਵਾਸਤੇ ਇੱਕ ਛੋਹ</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelTwoSubtitle" xml:space="preserve">
         <source>With more than 500 servers in 60 cities around the world, Mozilla VPN protects your data, browsing activity, and your true location from network spies.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelTwoTitle" xml:space="preserve">
         <source>Protect your privacy</source>
+        <target>ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਦੀ ਸੁਰੱਖਿਆ</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
         <source>American Express</source>
@@ -1909,26 +1923,33 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.headline" xml:space="preserve">
         <source>Quick access</source>
+        <target>ਫ਼ੌਰੀ ਪਹੁੰਚ</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.subtitle" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
+        <target>ਤੁਸੀਂ ਸਟੇਟਸ ਬਾਰ ਤੋਂ Mozilla VPN ਨੂੰ ਤੁਰੰਤ ਵਰਤ ਸਕਦੇ ਹੋ।</target>
       </trans-unit>
       <trans-unit id="vpn.product.description" xml:space="preserve">
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
+        <target>ਤੇਜ਼, ਸੁਰੱਖਿਅਤ ਤੇ ਵਰਤੋਂ ਵਿੱਚ ਸੁਖਾਲਾ VPN ਹੈ। Firefox ਬਣਾਉਣ ਵਾਲਿਆਂ ਵੱਲੋਂ ਬਣਾਇਆ।</target>
       </trans-unit>
       <trans-unit id="vpn.product.name" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.purchase.percentSaved" xml:space="preserve">
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan</note>
+        <target>%1 % ਬੱਚਤ</target>
         <source>Save %1%</source>
       </trans-unit>
       <trans-unit id="vpn.purchase.subscribeNow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>ਹੁਣੇ ਮੈਂਬਰ ਬਣੋ</target>
         <source>Subscribe now</source>
       </trans-unit>
       <trans-unit id="vpn.purchase.subscriptionOption" xml:space="preserve">
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>%1-ਮਹੀਨਾ ਪਲਾਨ: %2</target>
         <source>%1-month plan: %2</source>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.inProgress2" xml:space="preserve">
@@ -2026,18 +2047,22 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithGoodConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is good. Argument is the city name.</note>
+        <target>%1। ਵਧੀਆ ਕਨੈਕਸ਼ਨ</target>
         <source>%1. Good connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithModerateConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is moderate. Argument is the city name.</note>
+        <target>%1। ਠੀਕ-ਠਾਕ ਕਨੈਕਸ਼ਨ</target>
         <source>%1. Moderate connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithNoConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is unavailable. Argument is the city name.</note>
+        <target>%1। ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ</target>
         <source>%1. No connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithPoorConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is poor. Argument is the city name.</note>
+        <target>%1। ਕਮਜ਼ੋਰ ਕਨੈਕਸ਼ਨ</target>
         <source>%1. Poor connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.tabAllLabel" xml:space="preserve">
@@ -2228,6 +2253,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ</target>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.manageSubscriptionButton" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will take the user to a view where they can manage their subscription.</note>
@@ -2256,14 +2282,17 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planMonthly" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription. %1 represents the localized currency string</note>
+        <target>ਮਹੀਨੇਵਾਰ ਪਲਾਨ: %1</target>
         <source>Monthly plan: %1</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription plus tax. %1 represents the localized currency string</note>
+        <target>%1/ਮਹੀਨਾ + ਟੈਕਸ</target>
         <source>%1/month + tax</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planMonthlyWithoutTax" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription without tax. %1 represents the localized currency string</note>
+        <target>%1/ਮਹੀਨਾ</target>
         <source>%1/month</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly" xml:space="preserve">
@@ -2273,6 +2302,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueHalfYearlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1 ਅੱਧਾ-ਸਾਲ + ਟੈਕਸ</target>
         <source>%1 Half-yearly + tax</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueMonthly" xml:space="preserve">
@@ -2282,6 +2312,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1 ਮਹੀਨੇਵਾਰ + ਟੈਕਸ</target>
         <source>%1 Monthly + tax</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueYearly" xml:space="preserve">
@@ -2291,6 +2322,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1 ਸਾਲਨਾ + ਟੈਕਸ</target>
         <source>%1 Yearly + tax</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.statusActive" xml:space="preserve">
@@ -2325,14 +2357,17 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.valueProp1" xml:space="preserve">
         <note annotates="source" from="developer">Value proposition used to promote the product</note>
+        <target>ਤੁਹਾਡੀ ਨੈੱਟਵਰਕ ਸਰਗਰਮੀ ਲਈ ਕੋਈ ਲਾਗ ਨਹੀਂ ਰੱਖਦੇ</target>
         <source>No logging of your network activity</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.valueProp2" xml:space="preserve">
         <note annotates="source" from="developer">Value proposition used to promote the product</note>
+        <target>ਕੋਈ ਵੀ ਤੁਹਾਡੀ ਟੋਹ ਨਹੀਂ ਲੈ ਸਕਦਾ</target>
         <source>No one can track you</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.valueProp3" xml:space="preserve">
         <note annotates="source" from="developer">Value proposition used to promote the product</note>
+        <target>30 ਤੋਂ ਵੱਧ ਦੇਸ਼ਾਂ ਵਿੱਚ 500 ਤੋਂ ਵੱਧ ਸਰਵਰ</target>
         <source>500+ servers in 30+ countries</source>
       </trans-unit>
       <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
@@ -2382,10 +2417,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.allow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>ਇਸ ਡਿਵਾਇਸ ਉੱਤੇ ਮਨਜ਼ੂਰੀ ਦਿਓ</target>
         <source>Allow on this device</source>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.dataCollectionAndUse" xml:space="preserve">
         <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
+        <target>ਡਾਟਾ ਇਕੱਤਰਤਾ ਅਤੇ ਵਰਤੋਂ</target>
         <source>Data collection and use</source>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.description" xml:space="preserve">
@@ -2393,10 +2430,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.doNotAllow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>ਇਜਾਜ਼ਤ ਨਾ ਦਿਓ</target>
         <source>Don’t allow</source>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.learnMore" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
+        <target>Mozilla ਵੱਲੋਂ ਕਿਹੜਾ ਡਾਟਾ ਇਕੱਠਾ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਤੇ ਉਸਨੂੰ ਕਿਵੇਂ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ, ਇਸ ਬਾਰੇ ਹੋਰ ਜਾਣੋ।</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
