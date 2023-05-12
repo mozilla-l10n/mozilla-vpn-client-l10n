@@ -4,9 +4,11 @@
     <body>
       <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
         <source>Close</source>
+        <target>ປິດ</target>
       </trans-unit>
       <trans-unit id="vpn.main.back" xml:space="preserve">
         <note annotates="source" from="developer">Go back</note>
+        <target>ກັບຄືນ</target>
         <source>Back</source>
       </trans-unit>
     </body>
@@ -15,6 +17,7 @@
     <body>
       <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
+        <target>ປິດ</target>
       </trans-unit>
     </body>
   </file>
@@ -22,6 +25,7 @@
     <body>
       <trans-unit id="vpn.main.signOut2" xml:space="preserve">
         <source>Sign out</source>
+        <target>ອອກ​ຈາກ​ລະ​ບົບ</target>
       </trans-unit>
     </body>
   </file>
@@ -29,10 +33,12 @@
     <body>
       <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>%1-ແຜນການເດືອນ: %2</target>
         <source>%1-month plan: %2</source>
       </trans-unit>
       <trans-unit id="vpn.subscription.savePercent" xml:space="preserve">
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
+        <target>ປະຢັດ %1%</target>
         <source>Save %1%</source>
       </trans-unit>
     </body>
@@ -41,18 +47,23 @@
     <body>
       <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
         <source>Authentication error</source>
+        <target>ການກວດສອບມີຄວາມຜິດພາດ</target>
       </trans-unit>
       <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
         <source>Background service error</source>
+        <target>Background service ມີຂໍ້ຜິດພາດ</target>
       </trans-unit>
       <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
         <source>Signed out and device disconnected</source>
+        <target>ອອກຈາກລະບົບ ແລະ ອຸປະກອນຖືກຕັດການເຊື່ອມຕໍ່</target>
       </trans-unit>
       <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
         <source>Operation not allowed from current location</source>
+        <target>ບໍ່ອະນຸຍາດໃຫ້ດໍາເນີນການຈາກສະຖານທີ່ປະຈຸບັນ</target>
       </trans-unit>
       <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
         <source>No internet connection</source>
+        <target>ບໍ່ມີການເຊື່ອມຕໍ່ກັບອິນເຕີເນັດ</target>
       </trans-unit>
       <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
