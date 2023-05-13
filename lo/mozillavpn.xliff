@@ -76,12 +76,15 @@
       </trans-unit>
       <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
         <source>Subscription failed</source>
+        <target>ການສະໝັກໃຊ້ລົ້ມເຫລວ</target>
       </trans-unit>
       <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
         <source>Try again</source>
+        <target>ລອງໃຫມ່ອີກຄັ້ງ</target>
       </trans-unit>
       <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
         <source>Unable to connect</source>
+        <target>ບໍ່ສາມາດເຊື່ອມຕໍ່</target>
       </trans-unit>
     </body>
   </file>
@@ -89,9 +92,11 @@
     <body>
       <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
+        <target>ປິດ VPN</target>
       </trans-unit>
       <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
+        <target>ເປີດ VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -99,6 +104,7 @@
     <body>
       <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>ຈັດການບັນຊີ</target>
       </trans-unit>
     </body>
   </file>
@@ -106,6 +112,7 @@
     <body>
       <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
+        <target>%1: %2 %3</target>
         <source>%1: %2 %3</source>
       </trans-unit>
     </body>
@@ -114,9 +121,11 @@
     <body>
       <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
         <source>Monthly plan</source>
+        <target>ແຜນປະຈໍາເດືອນ</target>
       </trans-unit>
       <trans-unit id="vpn.subscription.price" xml:space="preserve">
         <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
+        <target>%1/month</target>
         <source>%1/month</source>
       </trans-unit>
     </body>
@@ -125,6 +134,7 @@
     <body>
       <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
         <source>Get help</source>
+        <target>ຂໍຄວາມຊ່ວຍເຫລືອ</target>
       </trans-unit>
     </body>
   </file>
@@ -132,36 +142,47 @@
     <body>
       <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
         <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
+        <target>Mozilla VPN ຖືກຕິດຕັ້ງສຳເລັດແລ້ວ. ທ່ານພ້ອມທີ່ຈະເລີ່ມຄວບຄຸມຄວາມເປັນສ່ວນຕົວອອນໄລນ໌ຂອງທ່ານ.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
         <source>Trouble with this installation?</source>
+        <target>ມີບັນຫາກັບການຕິດຕັ້ງນີ້ບໍ?</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
         <source>Get help.</source>
+        <target>ຂໍຄວາມຊ່ວຍເຫລືອ.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
         <source>Success!</source>
+        <target>ສຳເລັດ!</target>
       </trans-unit>
       <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
         <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
+        <target>ການຕິດຕັ້ງທີ່ຜ່ານມາຂອງ Mozilla VPN ມີຢູ່ /Applications/Mozilla VPN.app. ຕົວຕິດຕັ້ງນີ້ຈະເອົາການຕິດຕັ້ງທີ່ຜ່ານມາອອກກ່ອນທີ່ຈະຕິດຕັ້ງ. ກະລຸນາສໍາຮອງຂໍ້ມູນໃດໆກ່ອນທີ່ຈະດໍາເນີນການ.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
         <source>Previous Installation Detected</source>
+        <target>ກວດພົບການຕິດຕັ້ງທີ່ຜ່ານມາ</target>
       </trans-unit>
       <trans-unit id="macosinstaller.title" xml:space="preserve">
         <source>Mozilla VPN for macOS</source>
+        <target>Mozilla VPN ສໍາລັບ macOS</target>
       </trans-unit>
       <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
         <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
+        <target>Mozilla VPN ຕ້ອງການ Mac OS X 10.6 ຫຼື ຫຼັງຈາກນັ້ນ.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
         <source>Unable to install</source>
+        <target>ບໍ່ສາມາດຕິດຕັ້ງໄດ້</target>
       </trans-unit>
       <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
         <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
+        <target>ໃນປັດຈຸບັນທ່ານຈະໄດ້ຮັບການແນະນຳໂດຍຜ່ານຂັ້ນຕອນການຕິດຕັ້ງສໍາລັບ Mozilla VPN. ຂອບໃຈທີ່ເລືອກ VPN ຂອງທ່ານຈາກຜູ້ບຸກເບີກທີ່ເຊື່ອຖືໄດ້ຂອງຄວາມເປັນສ່ວນຕົວທາງອິນເຕີເນັດ.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
         <source>Click “Continue” to continue the setup.</source>
+        <target>ກົດ "ສືບຕໍ່" ເພື່ອສືບຕໍ່ການຕັ້ງຄ່າ.</target>
       </trans-unit>
     </body>
   </file>
@@ -169,6 +190,7 @@
     <body>
       <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
+        <target>ກຳລັງໂຫລດ</target>
         <source>Loading</source>
       </trans-unit>
     </body>
@@ -177,24 +199,31 @@
     <body>
       <trans-unit id="feedback.category.accessToService" xml:space="preserve">
         <source>Access to service</source>
+        <target>ການເຂົ້າເຖິງການບໍລິການ</target>
       </trans-unit>
       <trans-unit id="feedback.category.bugError" xml:space="preserve">
         <source>Product Bugs/Errors</source>
+        <target>Bug / ຂໍ້ຜິດພາດຂອງຜະລິດຕະພັນ</target>
       </trans-unit>
       <trans-unit id="feedback.category.compatibility" xml:space="preserve">
         <source>Compatibility</source>
+        <target>ຄວາ​ມ​ເຂົ້າກັນ​ໄດ້</target>
       </trans-unit>
       <trans-unit id="feedback.category.easeToUse" xml:space="preserve">
         <source>Ease of Use</source>
+        <target>ຄວາມ​ງ່າຍ​ຂອງ​ການ​ການ​ນໍາ​ໃຊ້</target>
       </trans-unit>
       <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
         <source>Network Connection/Speed</source>
+        <target>ການເຊື່ອມຕໍ່ເຄືອຂ່າຍ / ຄວາມໄວ</target>
       </trans-unit>
       <trans-unit id="feedback.category.other" xml:space="preserve">
         <source>Other</source>
+        <target>ອື່ນໆ</target>
       </trans-unit>
       <trans-unit id="feedback.category.productQuality" xml:space="preserve">
         <source>Product Quality</source>
+        <target>ຄຸນນະພາບຜະລິດຕະພັນ</target>
       </trans-unit>
     </body>
   </file>
@@ -202,6 +231,7 @@
     <body>
       <trans-unit id="menubar.file.title" xml:space="preserve">
         <source>File</source>
+        <target>ໄຟລ໌</target>
       </trans-unit>
     </body>
   </file>
@@ -209,6 +239,7 @@
     <body>
       <trans-unit id="vpn.postAuthentication.continue" xml:space="preserve">
         <source>Continue</source>
+        <target>ສືບຕໍ່</target>
       </trans-unit>
     </body>
   </file>
@@ -216,6 +247,7 @@
     <body>
       <trans-unit id="vpn.main.productName" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
     </body>
   </file>
