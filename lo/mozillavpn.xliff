@@ -521,9 +521,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.textAreaPlaceholder" xml:space="preserve">
         <source>Enter feedback…</source>
+        <target>ໃສ່ຄຳຄິດເຫັນ…</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackform.submit" xml:space="preserve">
         <source>Submit</source>
+        <target>ສົ່ງ</target>
       </trans-unit>
     </body>
   </file>
@@ -531,12 +533,15 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.feedbackForm.thankyou" xml:space="preserve">
         <source>Thank you!</source>
+        <target>ຂອບ​ໃຈ!</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.thankyouSubtitle" xml:space="preserve">
         <source>We appreciate your feedback. You’re helping us improve Mozilla VPN.</source>
+        <target>ພວກເຮົາຂອບໃຈຄໍາຕິຊົມຂອງທ່ານ. ທ່ານກຳລັງຊ່ວຍພວກເຮົາປັບປຸງ Mozilla VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackform.done" xml:space="preserve">
         <source>Done</source>
+        <target>ສຳເລັດ</target>
       </trans-unit>
     </body>
   </file>
@@ -544,13 +549,16 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="MozillaVPN" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
+        <target>ສະຖານທີ່ປັດຈຸບັນ - %1</target>
         <source>current location - %1</source>
       </trans-unit>
       <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
+        <target>ເລືອກສະຖານທີ່</target>
         <source>Select location</source>
       </trans-unit>
     </body>
@@ -559,13 +567,16 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
+        <target>ກວດສອບການເຊື່ອມຕໍ່</target>
         <source>Check Connection</source>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
         <source>No Signal</source>
+        <target>ບໍ່ມີສັນຍານ</target>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>ບໍ່ສະຖຽນ</target>
         <source>Unstable</source>
       </trans-unit>
     </body>
@@ -574,37 +585,48 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.controller.activated" xml:space="preserve">
         <source>VPN is on</source>
+        <target>VPN ເປີດຢູ່</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activating" xml:space="preserve">
         <source>Masking connection and location</source>
+        <target>ການ mask ການ​ເຊື່ອມ​ຕໍ່​ ແລະ​ ສະ​ຖານ​ທີ່​</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
         <source>Turn on to protect your privacy</source>
+        <target>ເປີດໃຊ້ເພື່ອປົກປ້ອງຄວາມເປັນສ່ວນຕົວຂອງທ່ານ</target>
       </trans-unit>
       <trans-unit id="vpn.controller.active" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>ປອດໄພ ແລະ ເປັນສ່ວນຕົວ</target>
         <source>Secure and private</source>
       </trans-unit>
       <trans-unit id="vpn.controller.attemptingToConfirm" xml:space="preserve">
         <source>Attempting to confirm connection</source>
+        <target>ພະຍາຍາມຢືນຢັນການເຊື່ອມຕໍ່</target>
       </trans-unit>
       <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
         <source>Connecting…</source>
+        <target>ກຳລັງເຊື່ອມຕໍ່…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.deactivated" xml:space="preserve">
         <source>VPN is off</source>
+        <target>VPN ປິດຢູ່</target>
       </trans-unit>
       <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
         <source>Unmasking connection and location</source>
+        <target>ການປິດບັງການເຊື່ອມຕໍ່ ແລະ ສະຖານທີ່</target>
       </trans-unit>
       <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
         <source>Disconnecting…</source>
+        <target>ກຳລັງຍົກເລີກການເຊື່ອມຕໍ່…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switching" xml:space="preserve">
         <source>Switching…</source>
+        <target>ກຳລັງປ່ຽນ…</target>
       </trans-unit>
       <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
+        <target>ຈາກ %1 ຫາ %2</target>
         <source>From %1 to %2</source>
       </trans-unit>
     </body>
@@ -613,6 +635,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
         <source>Download</source>
+        <target>ດາວໂຫລດ</target>
       </trans-unit>
     </body>
   </file>
@@ -620,6 +643,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="cities" xml:space="preserve">
         <note annotates="source" from="developer">The title for the list of cities.</note>
+        <target>ເມືອງ</target>
         <source>Cities</source>
       </trans-unit>
     </body>
@@ -628,6 +652,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.main.getStarted" xml:space="preserve">
         <source>Get started</source>
+        <target>ເລີ່ມຕົ້ນໃຊ້ງານ</target>
       </trans-unit>
       <trans-unit id="vpn.main.learnMore" xml:space="preserve">
         <source>Learn more</source>
