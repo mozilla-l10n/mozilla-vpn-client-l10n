@@ -2,73 +2,88 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="../../nebula/ui/components/MZMenu.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.connectionInfo.close">
+      <trans-unit id="vpn.connectionInfo.close" xml:space="preserve">
         <source>Close</source>
+        <target>Kapat</target>
       </trans-unit>
-      <trans-unit id="vpn.main.back">
+      <trans-unit id="vpn.main.back" xml:space="preserve">
         <note annotates="source" from="developer">Go back</note>
+        <target>Geri</target>
         <source>Back</source>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/MZPopup.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="menubar.file.close">
+      <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
+        <target>Kapat</target>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/MZSignOut.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.main.signOut2">
+      <trans-unit id="vpn.main.signOut2" xml:space="preserve">
         <source>Sign out</source>
+        <target>Çıkış yap</target>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/MZSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.subscription.multiMonthPlan">
+      <trans-unit id="vpn.subscription.multiMonthPlan" xml:space="preserve">
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>%1 aylık paket: %2</target>
         <source>%1-month plan: %2</source>
       </trans-unit>
-      <trans-unit id="vpn.subscription.savePercent">
+      <trans-unit id="vpn.subscription.savePercent" xml:space="preserve">
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
+        <target>%1% tasarruf edin</target>
         <source>Save %1%</source>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/MZSystemAlert.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.alert.authenticationError">
+      <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
         <source>Authentication error</source>
+        <target>Kimlik doğrulama hatası</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.backendServiceError">
+      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
         <source>Background service error</source>
+        <target>Arka plan hizmeti hatası</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout">
+      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
         <source>Signed out and device disconnected</source>
+        <target>Oturum kapatıldı ve cihazın bağlantısı kesildi</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.getIPRestrictionError">
+      <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
         <source>Operation not allowed from current location</source>
+        <target>Geçerli konumdan bu işleme izin verilmiyor</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.noInternet">
+      <trans-unit id="vpn.alert.noInternet" xml:space="preserve">
         <source>No internet connection</source>
+        <target>İnternet bağlantısı yok</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.remoteServiceError">
+      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
+        <target>Uzak hizmet hatası</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.restore">
+      <trans-unit id="vpn.alert.restore" xml:space="preserve">
         <note annotates="source" from="developer">Restore a service in case of error.</note>
+        <target>Geri getir</target>
         <source>Restore</source>
       </trans-unit>
       <trans-unit id="vpn.alert.subscriptionFailureError">
         <source>Subscription failed</source>
       </trans-unit>
-      <trans-unit id="vpn.alert.tryAgain">
+      <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
         <source>Try again</source>
+        <target>Yeniden dene</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.unableToConnect">
+      <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
         <source>Unable to connect</source>
+        <target>Bağlanılamadı</target>
       </trans-unit>
     </body>
   </file>
@@ -84,47 +99,54 @@
   </file>
   <file original="../../nebula/ui/components/MZUserProfile.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.main.manageAccount">
+      <trans-unit id="vpn.main.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>Hesabı yönet</target>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.connectionInfo.accessibleName">
+      <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
         <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
+        <target>%1: %2 %3</target>
         <source>%1: %2 %3</source>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/VPNSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.subscription.monthlyPlan">
+      <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
         <source>Monthly plan</source>
+        <target>Aylık paket</target>
       </trans-unit>
-      <trans-unit id="vpn.subscription.price">
+      <trans-unit id="vpn.subscription.price" xml:space="preserve">
         <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
+        <target>Aylık %1</target>
         <source>%1/month</source>
       </trans-unit>
     </body>
   </file>
   <file original="../../nebula/ui/components/inAppAuth/MZInAppAuthenticationBase.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.main.getHelp2">
+      <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
         <source>Get help</source>
+        <target>Yardım al</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/extrastrings.h" datatype="c" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="macosinstaller.conclusion.message1_v2">
+      <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
         <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
+        <target>Mozilla VPN başarıyla yüklendi. İnternette gizliliğinizin kontrolünü ele almaya hazırsınız.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message2">
         <source>Trouble with this installation?</source>
       </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message3">
+      <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
         <source>Get help.</source>
+        <target>Yardım alın.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.title">
         <source>Success!</source>
@@ -154,16 +176,18 @@
   </file>
   <file original="../src/apps/vpn/ipaddresslookup.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.connectionInfo.loading">
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
+        <target>Yükleniyor</target>
         <source>Loading</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/models/feedbackcategorymodel.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="feedback.category.accessToService">
+      <trans-unit id="feedback.category.accessToService" xml:space="preserve">
         <source>Access to service</source>
+        <target>Hizmete erişim</target>
       </trans-unit>
       <trans-unit id="feedback.category.bugError">
         <source>Product Bugs/Errors</source>
@@ -1333,8 +1357,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">the title for the system language radio button</note>
         <source>System language</source>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber">
+      <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber" xml:space="preserve">
         <source>Already a subscriber?</source>
+        <target>Zaten abone misiniz?</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelFourSubtitle">
         <source>Stream, download and game without limits, monthly caps or ISP throttling.</source>
@@ -1342,8 +1367,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.mobileOnboarding.panelFourTitle">
         <source>More security with one tap</source>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle">
+      <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle" xml:space="preserve">
         <source>A safe, reliable and fast VPN. Built by the makers of Firefox.</source>
+        <target>Güvenli, sağlam ve hızlı bir VPN. Firefox’un yapımcılarından.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneTitle">
         <source>Mozilla VPN</source>
@@ -1360,8 +1386,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.mobileOnboarding.panelTwoTitle">
         <source>Encrypt your activity</source>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.signUpBtn">
+      <trans-unit id="vpn.mobileOnboarding.signUpBtn" xml:space="preserve">
         <source>Sign up</source>
+        <target>Kaydol</target>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader">
         <source>Problem confirming subscription</source>
@@ -1572,8 +1599,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.purchaseWeb.title">
         <source>Subscribe to Mozilla VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchase.restorePurchaseButton">
+      <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
         <source>Already a subscriber?</source>
+        <target>Zaten abone misiniz?</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText">
         <source>Sorry, we are unable to connect your Firefox Account to a current subscription. Please try again or contact our support team for further assistance.</source>
@@ -1581,8 +1609,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText">
         <source>Sorry, we were unable to confirm your subscription. Please try again or contact our support team for help.</source>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText">
+      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText" xml:space="preserve">
         <source>Another Firefox Account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
+        <target>Başka bir Firefox hesabı, bu Apple ID’yi kullanarak daha önce abone olmuş. Lütfen çıkış yapıp yeniden deneyin veya yardım almak için destek ekibimizle iletişime geçin.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyText">
         <source>This server location is temporarily unavailable. Choose a new location.</source>
