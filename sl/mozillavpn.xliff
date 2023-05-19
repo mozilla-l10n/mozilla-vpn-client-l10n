@@ -246,20 +246,24 @@
   </file>
   <file original="../src/apps/vpn/ui/screens/ScreenCrashReporting.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.crashreporter.description">
+      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
         <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
+        <target>Program Mozilla VPN se je nepričakovano zaprl. Ali želite poslati poročilo o sesutju in pomagati odpraviti težavo?</target>
         <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.dontSendButton">
+      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
         <note annotates="source" from="developer">User does not agree to send a crash report.</note>
+        <target>Ne, hvala</target>
         <source>No thanks</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainHeading">
+      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
         <note annotates="source" from="developer">Label over description text section.</note>
+        <target>Poročanje o sesutjih</target>
         <source>Crash reporting</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.sendButtonLabel">
+      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">User agrees to send a crash report.</note>
+        <target>Pošlji poročilo</target>
         <source>Send report</source>
       </trans-unit>
     </body>
@@ -299,11 +303,13 @@
       <trans-unit id="vpn.telemetryPolicy.MozillaVPNPrivacyNotice">
         <source>Mozilla VPN Privacy Notice</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice">
+      <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice" xml:space="preserve">
         <source>Allow on this device</source>
+        <target>Dovoli na tej napravi</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.doNotAllow">
+      <trans-unit id="vpn.telemetryPolicy.doNotAllow" xml:space="preserve">
         <source>Don’t allow</source>
+        <target>Ne dovoli</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
