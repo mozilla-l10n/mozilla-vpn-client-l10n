@@ -902,16 +902,18 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.connectionInfo.unitPing">
         <source>ms</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.crashOptInDialogDescription">
+      <trans-unit id="vpn.crashreporter.crashOptInDialogDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is a description for a checkbox on the crash reporter dialog.</note>
+        <target>Ne prikazuj več. Poročila o sesutju samodejno pošlji Mozilli.</target>
         <source>Don’t show this again. Autosend crash reports to Mozilla.</source>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.mainTitle">
         <note annotates="source" from="developer">Main window title</note>
         <source>Mozilla Crash Report</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.authButtonLabel">
+      <trans-unit id="vpn.deleteAccount.authButtonLabel" xml:space="preserve">
         <source>Continue</source>
+        <target>Nadaljuj</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.authSubheadline">
         <source>To delete your VPN account, please sign in with your Firefox account password.</source>
@@ -948,11 +950,13 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy">
         <source>Using a custom DNS will override your preferences in the privacy features page.</source>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.primaryButton">
+      <trans-unit id="vpn.dnsOverwriteDialog.primaryButton" xml:space="preserve">
         <source>Confirm</source>
+        <target>Potrdi</target>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.secondaryButton">
+      <trans-unit id="vpn.dnsOverwriteDialog.secondaryButton" xml:space="preserve">
         <source>Maybe later</source>
+        <target>Morda pozneje</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titleDNS">
         <source>Override DNS settings?</source>
