@@ -874,9 +874,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.updates.updateRequire.reason" xml:space="preserve">
         <source>We detected and fixed a serious bug. You must update your app.</source>
+        <target>ພວກເຮົາກວດພົບ ແລະ ແກ້ໄຂຂໍ້ຜິດພາດທີ່ຮ້າຍແຮງ. ທ່ານຕ້ອງອັບເດດແອັບຯຂອງທ່ານ.</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
         <source>Update required</source>
+        <target>ຕ້ອງການອັບເດດ</target>
       </trans-unit>
     </body>
   </file>
@@ -884,47 +886,60 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.AndroidNotifications.GeneralNotifications" xml:space="preserve">
         <note annotates="source" from="developer">A notification channel; so the user can subscribe to "General Notifications"</note>
+        <target>ແຈ້ງການທົ່ວໄປ</target>
         <source>General Notifications</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.copyVersionNumber" xml:space="preserve">
         <note annotates="source" from="developer">Accessible name for a button. %1 is the version number of the VPN client.</note>
+        <target>ສຳເນົາ %1</target>
         <source>Copy %1</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.licenses" xml:space="preserve">
         <source>Licenses</source>
+        <target>ໃບອະນຸຍາດ</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.privacyNotice" xml:space="preserve">
         <source>Privacy notice</source>
+        <target>ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
         <note annotates="source" from="developer">Refers to the installed version. For example: 'Release Version: 1.23'</note>
+        <target>ລຸ້ນທີ່ອອກ</target>
         <source>Release version</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.termsOfService" xml:space="preserve">
         <source>Terms of service</source>
+        <target>ເງື່ອນໄຂການໃຫ້ບໍລິການ</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.title" xml:space="preserve">
         <source>About us</source>
+        <target>ກ່ຽວກັບເຮົາ</target>
       </trans-unit>
       <trans-unit id="vpn.accessibility.currentIndexFocusedOfTotalItemsInGroup" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen readers to explain to users which item they are currently focused on, and how many items there are total in a group. For example, given a list with 15 items. If a user selects the 3rd item, we want the screen reader to read out "3 of 15". The %1 represents the index of the currently focused item by the screen reader. The %2 represents the total number of items in the group.</note>
+        <target>%1 ຈາກທັງໝົດ %2</target>
         <source>%1 of %2</source>
       </trans-unit>
       <trans-unit id="vpn.accessibility.selectedAndItemName" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen readers to denote that a particular item is currently selected. For example, given a segmented control with 2 items, where the first item is currently selected. We want the screen reader to read out "Selected, &lt;item name&gt;". The %1 represents the name of the selected item.</note>
+        <target>ລາຍການທີ່ເລືອກ: %1</target>
         <source>Selected item: %1</source>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPostActivation" xml:space="preserve">
         <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
+        <target>ທ່ານຕ້ອງປິດ VPN ຂອງທ່ານເພື່ອເຂົ້າໄປເບິ່ງປະຕູ, ແລະ ເປີດມັນຄືນມາເມື່ອທ່ານເຂົ້າສູ່ລະບົບແລ້ວ.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPreActivation" xml:space="preserve">
         <source>You can turn on your VPN once you have gained internet access by logging in to the portal.</source>
+        <target>ທ່ານສາມາດເປີດໃຊ້ VPN ຂອງທ່ານໄດ້ເມື່ອທ່ານເຂົ້າເຖິງອິນເຕີເນັດໂດຍການເຂົ້າສູ່ລະບົບປະຕູ.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation" xml:space="preserve">
         <source>Turn off VPN</source>
+        <target>ປິດ VPN</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPreActivation" xml:space="preserve">
         <source>Okay</source>
+        <target>ຕົກລົງ</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.header" xml:space="preserve">
         <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
