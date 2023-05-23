@@ -208,6 +208,7 @@
     <body>
       <trans-unit id="menubar.file.title" xml:space="preserve">
         <source>File</source>
+        <target>Datoteka</target>
       </trans-unit>
     </body>
   </file>
@@ -223,6 +224,7 @@
     <body>
       <trans-unit id="vpn.main.productName" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -240,6 +242,7 @@
       </trans-unit>
       <trans-unit id="vpn.errors.tryAgain" xml:space="preserve">
         <source>Try Again</source>
+        <target>Poskusi znova</target>
       </trans-unit>
       <trans-unit id="vpn.errors.unableToEstablishConnection" xml:space="preserve">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
@@ -537,6 +540,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.controller.deactivated" xml:space="preserve">
         <source>VPN is off</source>
+        <target>VPN je izklopljen</target>
       </trans-unit>
       <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
         <source>Unmasking connection and location</source>
@@ -587,6 +591,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
         <source>Device-level encryption</source>
+        <target>Šifriranje na ravni naprave</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
         <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeededIAP.qml too.</note>
@@ -622,13 +627,16 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.aboutUs.privacyNotice2" xml:space="preserve">
         <source>Privacy notice</source>
+        <target>Obvestilo o zasebnosti</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
+        <target>Različica</target>
         <source>Release version</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.tos2" xml:space="preserve">
         <source>Terms of service</source>
+        <target>Pogoji uporabe</target>
       </trans-unit>
       <trans-unit id="vpn.settings.aboutUs" xml:space="preserve">
         <source>About us</source>
@@ -657,6 +665,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.systemLanguageTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the language switcher toggle.</note>
+        <target>Uporabi jezik sistema</target>
         <source>Use system language</source>
       </trans-unit>
     </body>
@@ -683,6 +692,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.notifications" xml:space="preserve">
         <source>Notifications</source>
+        <target>Obvestila</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unsecuredNetworkAlert" xml:space="preserve">
         <source>Unsecured network alert</source>
@@ -775,12 +785,15 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.aboutUs.licenses" xml:space="preserve">
         <source>Licenses</source>
+        <target>Licence</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.privacyNotice" xml:space="preserve">
         <source>Privacy notice</source>
+        <target>Obvestilo o zasebnosti</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
         <note annotates="source" from="developer">Refers to the installed version. For example: 'Release Version: 1.23'</note>
+        <target>Različica</target>
         <source>Release version</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.termsOfService" xml:space="preserve">
@@ -793,6 +806,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.accessibility.currentIndexFocusedOfTotalItemsInGroup" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen readers to explain to users which item they are currently focused on, and how many items there are total in a group. For example, given a list with 15 items. If a user selects the 3rd item, we want the screen reader to read out "3 of 15". The %1 represents the index of the currently focused item by the screen reader. The %2 represents the total number of items in the group.</note>
+        <target>%1 od %2</target>
         <source>%1 of %2</source>
       </trans-unit>
       <trans-unit id="vpn.accessibility.selectedAndItemName" xml:space="preserve">
@@ -807,6 +821,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation" xml:space="preserve">
         <source>Turn off VPN</source>
+        <target>Izklopi VPN</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPreActivation" xml:space="preserve">
         <source>Okay</source>
@@ -887,6 +902,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel" xml:space="preserve">
         <note annotates="source" from="developer">Shown to the user while waiting for the connection speed test results</note>
+        <target>Preizkušanje hitrosti …</target>
         <source>Testing speed…</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletOne" xml:space="preserve">
@@ -910,6 +926,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.startSpeedTest" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that opens the speed test view and initiates a speed test</note>
+        <target>Začni preizkus hitrosti</target>
         <source>Start speed test</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne" xml:space="preserve">
@@ -1014,6 +1031,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.genericError.unexpected" xml:space="preserve">
         <source>Unexpected error</source>
+        <target>Nepričakovana napaka</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton" xml:space="preserve">
         <source>Try Again</source>
@@ -1074,6 +1092,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.goBack" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used in intro modals to return to the app.</note>
+        <target>Nazaj</target>
         <source>Go back</source>
       </trans-unit>
       <trans-unit id="vpn.global.noInternetConnection" xml:space="preserve">
@@ -1273,15 +1292,18 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.editButton" xml:space="preserve">
         <source>Edit</source>
+        <target>Uredi</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.emptyStateDescription" xml:space="preserve">
         <source>You’re up to date!</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.emptyStateTitle" xml:space="preserve">
         <source>No messages</source>
+        <target>Ni sporočil</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.menuTitle" xml:space="preserve">
         <source>Messages</source>
+        <target>Sporočila</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.newUpdateBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying an update to the app is available</note>
@@ -1300,6 +1322,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.whatsNewBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about what is new in the product</note>
+        <target>Novosti</target>
         <source>What’s new</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
@@ -1355,6 +1378,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again.</source>
+        <target>Prišlo je do nepričakovane napake. Poskusite znova.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportFieldHeader" xml:space="preserve">
         <source>How can we help you with Mozilla VPN?</source>
@@ -1476,6 +1500,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.navBar.messagesTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the messages inbox screen</note>
+        <target>Sporočila</target>
         <source>Messages</source>
       </trans-unit>
       <trans-unit id="vpn.navBar.settingsTab" xml:space="preserve">
@@ -1679,6 +1704,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that triggers a refresh of the recommended servers list.</note>
+        <target>Osveži seznam</target>
         <source>Refresh list</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel" xml:space="preserve">
@@ -1687,10 +1713,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabel" xml:space="preserve">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated. Argument is the time or date/day</note>
+        <target>Zadnja posodobitev: %1.</target>
         <source>Last updated: %1.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabelYesterday" xml:space="preserve">
         <source>yesterday</source>
+        <target>včeraj</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel" xml:space="preserve">
         <note annotates="source" from="developer">Loading string while recommended servers are being calculated. Argument is the percentage of completion as an integer (i.e. 25)</note>
