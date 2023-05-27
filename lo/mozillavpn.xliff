@@ -2008,116 +2008,149 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.headerText" xml:space="preserve">
         <source>Server unavailable</source>
+        <target>ເຊີບເວີບໍ່ສາມາດໃຊ້ໄດ້</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
+        <target>ສະຖານທີ່ເຊີບເວີນີ້ບໍ່ສາມາດໃຊ້ໄດ້ຊົ່ວຄາວ. ກະລຸນາເປີດແອັບເພື່ອເລືອກສະຖານທີ່ໃໝ່.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked" xml:space="preserve">
         <source>The server has been blocked. Check your firewall settings.</source>
+        <target>ເຊີບເວີຖືກບລັອກ. ກວດເບິ່ງການຕັ້ງຄ່າ Firewall ຂອງທ່ານ.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel" xml:space="preserve">
         <source>Server unavailable notification</source>
+        <target>ການແຈ້ງເຕືອນເຊີເວີບໍ່ພ້ອມໃຊ້ງານ</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel" xml:space="preserve">
         <source>Get notified when connecting to a server location failed</source>
+        <target>ໄດ້ຮັບການແຈ້ງເຕືອນເມື່ອເຊື່ອມຕໍ່ກັບສະຖານທີ່ເຊີບເວີລົ້ມເຫລວ</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedCardBody" xml:space="preserve">
         <note annotates="source" from="developer">Body text of an expandable info card on the recommended servers list.</note>
+        <target>ສະຖານທີ່ເຫຼົ່ານີ້ແມ່ນຈັດຮຽງຕາມການປະຕິບັດທີ່ຄາດໄວ້.</target>
         <source>These locations are sorted by expected performance.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedCardTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title of an expandable info card on the recommended servers list.</note>
+        <target>ເປັນຫຍັງສະຖານທີ່ເຫຼົ່ານີ້ຈຶ່ງຖືກແນະນຳ?</target>
         <source>Why are these locations recommended?</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that triggers a refresh of the recommended servers list.</note>
+        <target>ໂຫຼດລາຍຊື່ຄືນໃໝ່</target>
         <source>Refresh list</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel" xml:space="preserve">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated and instructions to re-enable the refresh button. Argument is the time or date/day</note>
+        <target>ອັບເດດຫຼ້າສຸດ: %1. ເພື່ອອັບເດດລາຍຊື່ນີ້, ກະລຸນາຕັດການເຊື່ອມຕໍ່ຈາກ VPN.</target>
         <source>Last updated: %1. To update this list please disconnect from the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabel" xml:space="preserve">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated. Argument is the time or date/day</note>
+        <target>ອັບເດດຫຼ້າສຸດ: %1.</target>
         <source>Last updated: %1.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabelYesterday" xml:space="preserve">
         <source>yesterday</source>
+        <target>ມື້ວານ</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel" xml:space="preserve">
         <note annotates="source" from="developer">Loading string while recommended servers are being calculated. Argument is the percentage of completion as an integer (i.e. 25)</note>
+        <target>ກຳລັງກວດສອບ (%1%)…</target>
         <source>Checking (%1%)…</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
+        <target>ບໍ່ມີຜົນໄດ້ຮັບ. ລອງຊອກຫາແບບອື່ນ</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.searchPlaceholder" xml:space="preserve">
         <source>Search countries</source>
+        <target>ຊອກຫາປະເທດ</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithGoodConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is good. Argument is the city name.</note>
+        <target>%1. ການເຊື່ອມຕໍ່ທີ່ດີ</target>
         <source>%1. Good connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithModerateConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is moderate. Argument is the city name.</note>
+        <target>%1. ການເຊື່ອມຕໍ່ປານກາງ</target>
         <source>%1. Moderate connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithNoConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is unavailable. Argument is the city name.</note>
+        <target>%1. ບໍ່ມີການເຊື່ອມຕໍ່</target>
         <source>%1. No connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithPoorConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is poor. Argument is the city name.</note>
+        <target>%1. ການເຊື່ອມຕໍ່ບໍ່ດີ</target>
         <source>%1. Poor connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.tabAllLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the “all” servers tab</note>
+        <target>ທັງໝົດ</target>
         <source>All</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.tabRecommendedLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the “recommended” servers tab</note>
+        <target>ແນະນຳ</target>
         <source>Recommended</source>
       </trans-unit>
       <trans-unit id="vpn.settings.appExclusionClearAllApps" xml:space="preserve">
         <note annotates="source" from="developer">Button label to clear all apps from the exclusions list</note>
+        <target>ລຶບລ້າງທັງໝົດ</target>
         <source>Clear all</source>
       </trans-unit>
       <trans-unit id="vpn.settings.appExclusionSettings" xml:space="preserve">
         <source>App exclusions</source>
+        <target>ການຍົກເວັ້ນແອັບ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.appPreferences" xml:space="preserve">
         <source>App preferences</source>
+        <target>ການຕັ້ງຄ່າແອັບ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
+        <target>ອະນຸຍາດໃຫ້ Mozilla VPN ສົ່ງລາຍງານການຂັດຂ້ອງໂດຍອັດຕະໂນມັດເພື່ອຊ່ວຍແກ້ໄຂການຂັດຂ້ອງທີ່ບໍ່ຄາດຄິດ</target>
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
       </trans-unit>
       <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
+        <target>ອະນຸຍາດໃຫ້ Mozilla VPN ສົ່ງຂໍ້ມູນດ້ານວິຊາການ, ການໂຕ້ຕອບ, ແລະແຄມເປນແລະການສົ່ງຕໍ່ໄປຫາ Mozilla</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
         <source>DNS settings</source>
+        <target>ການຕັ້ງຄ່າ DNS</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody" xml:space="preserve">
         <source>Resolve websites using a custom DNS</source>
+        <target>ແກ້ໄຂເວັບໄຊທ໌ໂດຍໃຊ້ DNS ແບບກຳນົດເອງ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSError" xml:space="preserve">
         <source>Invalid DNS, please try a new one</source>
+        <target>DNS ບໍ່ຖືກຕ້ອງ, ກະລຸນາລອງອັນໃໝ່</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle" xml:space="preserve">
         <source>Use custom DNS</source>
+        <target>ໃຊ້ DNS ແບບກຳນົດເອງ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning" xml:space="preserve">
         <source>Changing these settings will cause the VPN to disconnect and reconnect automatically.</source>
+        <target>ການປ່ຽນແປງການຕັ້ງຄ່າເຫຼົ່ານີ້ຈະເຮັດໃຫ້ VPN ຕັດການເຊື່ອມຕໍ່ ແລະ ເຊື່ອມຕໍ່ຄືນໃໝ່ໂດຍອັດຕະໂນມັດ.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder" xml:space="preserve">
         <source>Enter custom DNS</source>
+        <target>ໃສ່ DNS ແບບກຳນົດເອງ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody" xml:space="preserve">
         <source>Resolve websites using Mozilla VPN’s standard DNS</source>
+        <target>ແກ້ໄຂເວັບໄຊທ໌ໂດຍໃຊ້ DNS ມາດຕະຖານຂອງ Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle" xml:space="preserve">
         <source>Use standard DNS</source>
+        <target>ໃຊ້ DNS ມາດຕະຖານ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsWarning" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
