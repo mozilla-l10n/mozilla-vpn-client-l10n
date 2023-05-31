@@ -828,6 +828,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.updates.updateConnectionInsecureWarning" xml:space="preserve">
         <source>Your connection will not be secure while you update.</source>
+        <target>Güncelleme yapılırken bağlantınız güvenli olmayacaktır.</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateNow" xml:space="preserve">
         <source>Update now</source>
@@ -1748,6 +1749,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedTitle" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN bağlantısı kuruldu</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN disconnected from.</note>
@@ -1756,9 +1758,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNDisconnectedTitle" xml:space="preserve">
         <source>VPN Disconnected</source>
+        <target>VPN bağlantısı kesildi</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopConnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>%2 üzerinden %1 sunucusuna bağlanıldı</target>
         <source>Connected to %1, through %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages" xml:space="preserve">
@@ -1767,6 +1771,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>%1 ve %2 sunucularının bağlantısı kesildi</target>
         <source>Disconnected from %1 and %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
@@ -1803,6 +1808,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
         <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
+        <target>Mozilla VPN’i sizi reklamlardan, takip kodlarından ve kötü amaçlı yazılımlardan koruyacak şekilde ayarlayabilirsiniz. Ayrıca korumanızı belirli uygulamalar için özelleştirebilirsiniz.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourTitle" xml:space="preserve">
         <source>Add even more privacy</source>
@@ -1915,6 +1921,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText" xml:space="preserve">
         <source>Sorry, we were unable to confirm your subscription. Please try again or contact our support team for help.</source>
+        <target>Maalesef aboneliğinizi doğrulayamadık. Lütfen yeniden deneyin veya yardım almak için destek ekibimizle iletişime geçin.</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText" xml:space="preserve">
         <source>Another Firefox Account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
@@ -1922,6 +1929,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Choose a new location.</source>
+        <target>Bu sunucu konumu geçici olarak hizmet veremiyor. Başka bir konum seçin.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.buttonLabel" xml:space="preserve">
         <source>Choose a new location</source>
@@ -1933,6 +1941,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
+        <target>Bu sunucu konumu geçici olarak hizmet veremiyor. Yeni bir konum seçmek için lütfen uygulamayı açın.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked" xml:space="preserve">
         <source>The server has been blocked. Check your firewall settings.</source>
@@ -1944,6 +1953,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel" xml:space="preserve">
         <source>Get notified when connecting to a server location failed</source>
+        <target>Bir sunucu konumuna bağlanılamadığında bildirim alın</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedCardBody" xml:space="preserve">
         <note annotates="source" from="developer">Body text of an expandable info card on the recommended servers list.</note>
@@ -1989,18 +1999,22 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithGoodConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is good. Argument is the city name.</note>
+        <target>%1. İyi bağlantı</target>
         <source>%1. Good connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithModerateConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is moderate. Argument is the city name.</note>
+        <target>%1. Orta düzey bağlantı</target>
         <source>%1. Moderate connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithNoConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is unavailable. Argument is the city name.</note>
+        <target>%1. Bağlantı yok</target>
         <source>%1. No connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithPoorConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is poor. Argument is the city name.</note>
+        <target>%1. Zayıf bağlantı</target>
         <source>%1. Poor connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.tabAllLabel" xml:space="preserve">
@@ -2052,6 +2066,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder" xml:space="preserve">
         <source>Enter custom DNS</source>
+        <target>Özel DNS’i yazın</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody" xml:space="preserve">
         <source>Resolve websites using Mozilla VPN’s standard DNS</source>
@@ -2062,6 +2077,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsWarning" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
+        <target>Bu seçenekler bazı web sitelerinin bozulmasına veya içeriklerin düzgün görüntülenmemesine neden olabilir.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyAdblockBody" xml:space="preserve">
         <source>Reduces the number of ads you see when you’re using VPN</source>
@@ -2069,15 +2085,19 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.privacyAdblockTitle" xml:space="preserve">
         <source>Block ads</source>
+        <target>Reklamları engelle</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyCard" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
+        <target>Bu seçenekler bazı web sitelerinin bozulmasına veya içeriklerin düzgün görüntülenmemesine neden olabilir.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareBody" xml:space="preserve">
         <source>Helps protect you from ransomware, phishing, spyware, viruses, and malware</source>
+        <target>Fidye yazılımları, kimlik avı, casus yazılımlar, virüsler ve kötü amaçlı yazılımlardan korunmanıza yardımcı olur</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareTitle" xml:space="preserve">
         <source>Block malware</source>
+        <target>Kötü amaçlı yazılımları engelle</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacySettings" xml:space="preserve">
         <source>Privacy features</source>
@@ -2088,6 +2108,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.privacyTrackerTitle" xml:space="preserve">
         <source>Block trackers</source>
+        <target>Takip kodlarını engelle</target>
       </trans-unit>
       <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
         <source>Mozilla VPN will launch and connect when you start up your device</source>
@@ -2103,6 +2124,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
         <source>VPN must be restarted to take effect</source>
+        <target>Etkili olması için VPN’i yeniden başlatmanız gerekir</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.showOptionSubtitle" xml:space="preserve">
         <source>Show or hide the developer options menu</source>
@@ -2129,6 +2151,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
         <source>Learn more</source>
+        <target>Daha fazla bilgi al</target>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText" xml:space="preserve">
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
@@ -2141,6 +2164,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppActionButton" xml:space="preserve">
         <note annotates="source" from="developer">Displayed in a notification as "call to action" when apps are missing from the split-tunnel settings.</note>
+        <target>Uygulamaları elle ekle</target>
         <source>Add apps manually</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppAddedOne" xml:space="preserve">
@@ -2163,6 +2187,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.cardExpiresLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the date on which the payment method expires.</note>
+        <target>Son kullanma tarihi</target>
         <source>Expires</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.cardLast4" xml:space="preserve">
@@ -2172,6 +2197,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.expiresLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the upcoming date on which the subscription will expire.</note>
+        <target>Bitiş tarihi</target>
         <source>Expires</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.manageAccount" xml:space="preserve">
@@ -2190,6 +2216,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.nextLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the upcoming date on which the user will be billed for their subscription.</note>
+        <target>Bir sonraki fatura</target>
         <source>Next billed</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.paymentHeadline" xml:space="preserve">
