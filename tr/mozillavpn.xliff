@@ -699,6 +699,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion2" xml:space="preserve">
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
+        <target>Sürüm</target>
         <source>Release version</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.tos2" xml:space="preserve">
@@ -834,6 +835,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.updates.updateRecomended" xml:space="preserve">
         <source>Update recommended</source>
+        <target>Önerilen güncelleme</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRecomended.description" xml:space="preserve">
         <source>Please update the app before you continue to use the VPN</source>
@@ -871,6 +873,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
         <note annotates="source" from="developer">Refers to the installed version. For example: 'Release Version: 1.23'</note>
+        <target>Sürüm</target>
         <source>Release version</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.termsOfService" xml:space="preserve">
@@ -1051,6 +1054,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
         <note annotates="source" from="developer">Main window title</note>
+        <target>Mozilla Çökme Raporu</target>
         <source>Mozilla Crash Report</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.authButtonLabel" xml:space="preserve">
@@ -1165,6 +1169,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.getHelp.helpCenter" xml:space="preserve">
         <source>Help Center</source>
+        <target>Yardım Merkezi</target>
       </trans-unit>
       <trans-unit id="vpn.getHelp.linkTitle" xml:space="preserve">
         <source>Get help</source>
@@ -1241,6 +1246,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.vpnUser" xml:space="preserve">
         <note annotates="source" from="developer">Fallback string for users who have not specified a Display Name.</note>
+        <target>VPN Kullanıcısı</target>
         <source>VPN User</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.changeEmailLink" xml:space="preserve">
@@ -1267,13 +1273,16 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.emailVerificationDescription" xml:space="preserve">
         <note annotates="source" from="developer">User has been sent a verification email containing a code.</note>
+        <target>E-postanızı açıp gönderdiğimiz doğrulama kodunu yazın.</target>
         <source>Open your email and enter the verification code that was sent.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.enterEmailAddressDescription" xml:space="preserve">
         <source>Enter your email address to continue using Mozilla VPN</source>
+        <target>Mozilla VPN’i kullanmaya devam etmek için e-posta adresinizi yazın</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription" xml:space="preserve">
         <note annotates="source" from="developer">User message prompting user to finish creating their account to use Mozilla VPN.</note>
+        <target>Mozilla VPN’e devam etmek için Firefox hesabınızı oluşturmayı tamamlayın</target>
         <source>Finish creating your Firefox account to continue to Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.forgotPasswordLink" xml:space="preserve">
@@ -1287,6 +1296,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.informationUsageDisclaimer" xml:space="preserve">
         <note annotates="source" from="developer">Non-op text that informs user about how Mozilla will not sell it to a third party.</note>
+        <target>E-postanızı yalnızca hesabınızı oluşturmak veya giriş yapmak için kullanıyoruz. Asla üçüncü şahıslara satmıyoruz.</target>
         <source>We only use your email to create your account or sign in. We will never sell it to a third party.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.invalidCodeErrorMessage" xml:space="preserve">
@@ -1414,9 +1424,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInSubtitle" xml:space="preserve">
         <source>Continue to Mozilla VPN by signing in with your Firefox account</source>
+        <target>Mozilla VPN’e devam etmek için Firefox hesabınızla giriş yapın</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.termsOfServiceAndPrivacyDisclaimer" xml:space="preserve">
         <note annotates="source" from="developer">Do not remove or translate the markup '&lt;a href="terms-of-service"&gt;', '&lt;a href="privacy-notice"&gt;', '&lt;/a&gt;'.</note>
+        <target>Devam ederseniz &lt;a href="terms-of-service"&gt;Hizmet Koşulları&lt;/a&gt;’nı ve &lt;a href="privacy-notice"&gt;Gizlilik Bildirimi&lt;/a&gt;’ni kabul etmiş olursunuz.</target>
         <source>By continuing, you agree to the &lt;a href="terms-of-service"&gt;Terms of Service&lt;/a&gt; and the &lt;a href="privacy-notice"&gt;Privacy Notice&lt;/a&gt;.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.unblockCodeInputPlaceholder" xml:space="preserve">
@@ -1506,10 +1518,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.featureRequestDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to requesting new features.</note>
+        <target>Özellik isteği</target>
         <source>Request features</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.issueFieldPlaceholder" xml:space="preserve">
         <source>Describe issue</source>
+        <target>Sorununuzu açıklayın</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.otherDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to issues not covered under the other categories.</note>
@@ -1523,6 +1537,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.privacyNoticeLinkText" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Mozilla VPN Gizlilik Bildirimi</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder" xml:space="preserve">
         <source>Subject (optional)</source>
@@ -1542,9 +1557,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorBrowserButton" xml:space="preserve">
         <source>Try opening in browser</source>
+        <target>Tarayıcıda açmayı dene</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorButton" xml:space="preserve">
         <source>Try Again</source>
+        <target>Yeniden dene</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorHeader" xml:space="preserve">
         <source>Error submitting your support request</source>
@@ -1552,9 +1569,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again.</source>
+        <target>Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportFieldHeader" xml:space="preserve">
         <source>How can we help you with Mozilla VPN?</source>
+        <target>Mozilla VPN ile ilgili size nasıl yardımcı olabiliriz?</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportNavLinkText" xml:space="preserve">
         <source>Contact support</source>
@@ -1565,10 +1584,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents the email used to complete the form</note>
+        <target>Destek ekibimiz sorununuzu inceledikten sonra %1 e-posta adresinden sizinle iletişime geçecektir.</target>
         <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseButton" xml:space="preserve">
         <source>Done</source>
+        <target>Tamam</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseHeader" xml:space="preserve">
         <source>Thank you!</source>
@@ -1668,9 +1689,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopEntryLocationHeader" xml:space="preserve">
         <source>Select entry location</source>
+        <target>Giriş konumu seçin</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopExitLocationHeader" xml:space="preserve">
         <source>Select exit location</source>
+        <target>Çıkış konumu seçin</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopInfoText" xml:space="preserve">
         <source>Exit location represents your main VPN server.</source>
@@ -1681,12 +1704,14 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
+        <target>Sonuç bulunamadı. Başka bir arama yapmayı deneyin.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA" xml:space="preserve">
         <source>Single-hop</source>
       </trans-unit>
       <trans-unit id="vpn.navBar.homeTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the home screen</note>
+        <target>Giriş Sayfası</target>
         <source>Home</source>
       </trans-unit>
       <trans-unit id="vpn.navBar.messagesTab" xml:space="preserve">
@@ -1860,6 +1885,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.purchase.subscribeNow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Şimdi abone ol</target>
         <source>Subscribe now</source>
       </trans-unit>
       <trans-unit id="vpn.purchase.subscriptionOption" xml:space="preserve">
@@ -1869,9 +1895,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.inProgress2" xml:space="preserve">
         <source>Please continue subscribing in your browser…</source>
+        <target>Abonelik işlemine lütfen tarayıcınızda devam edin…</target>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.message" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the user’s email address.</note>
+        <target>%1 adresine ait bir abonelik bulamadık. Bağlantınızı korumak için şimdi abone olun.</target>
         <source>We couldn’t find a subscription for %1. Subscribe now to protect your connection.</source>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.title" xml:space="preserve">
@@ -1897,6 +1925,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.buttonLabel" xml:space="preserve">
         <source>Choose a new location</source>
+        <target>Yeni bir konum seç</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.headerText" xml:space="preserve">
         <source>Server unavailable</source>
@@ -1907,6 +1936,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked" xml:space="preserve">
         <source>The server has been blocked. Check your firewall settings.</source>
+        <target>Sunucu engellendi. Güvenlik duvarı ayarlarınızı kontrol edin.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel" xml:space="preserve">
         <source>Server unavailable notification</source>
@@ -1917,6 +1947,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedCardBody" xml:space="preserve">
         <note annotates="source" from="developer">Body text of an expandable info card on the recommended servers list.</note>
+        <target>Bu konumlar performans beklentisine göre sıralanmıştır.</target>
         <source>These locations are sorted by expected performance.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedCardTitle" xml:space="preserve">
@@ -1950,9 +1981,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
+        <target>Sonuç bulunamadı. Başka bir arama yapmayı deneyin.</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.searchPlaceholder" xml:space="preserve">
         <source>Search countries</source>
+        <target>Ülke ara</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithGoodConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is good. Argument is the city name.</note>
