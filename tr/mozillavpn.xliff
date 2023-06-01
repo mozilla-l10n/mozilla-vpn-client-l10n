@@ -313,7 +313,7 @@
     <body>
       <trans-unit id="vpn.subscriptionBlocked.getHelp" xml:space="preserve">
         <source>Get Help</source>
-        <target>Yardım alın</target>
+        <target>Yardım al</target>
       </trans-unit>
       <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
@@ -750,6 +750,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
         <source>Guest Wi-Fi portal alert</source>
+        <target>Misafir Wi-Fi portali uyarısı</target>
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
@@ -820,6 +821,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
+        <target>Şimdi abone ol</target>
       </trans-unit>
     </body>
   </file>
@@ -827,6 +829,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.errors.checkOutageUpdates" xml:space="preserve">
         <source>Check outage updates</source>
+        <target>Kesinti haberlerini kontrol et</target>
       </trans-unit>
     </body>
   </file>
@@ -854,7 +857,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.updates.updateRequire.reason" xml:space="preserve">
         <source>We detected and fixed a serious bug. You must update your app.</source>
-        <target>Ciddi bir hatayı tespit edip düzelttik. Uygulamanızı güncellemelisiniz.</target>
+        <target>Önemli bir hatayı tespit edip düzelttik. Uygulamanızı güncellemelisiniz.</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
         <source>Update required</source>
@@ -907,6 +910,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPostActivation" xml:space="preserve">
         <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
+        <target>Portali görebilmek için VPN’inizi kapatmalı ve giriş yaptıktan sonra tekrar açmalısınız.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPreActivation" xml:space="preserve">
         <source>You can turn on your VPN once you have gained internet access by logging in to the portal.</source>
@@ -924,6 +928,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.title" xml:space="preserve">
         <source>Captive portal detected!</source>
+        <target>Kısıtlama portali algılandı!</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.connectionInformation" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that shows the IP info panel when clicked.</note>
@@ -1801,12 +1806,15 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
+        <target>Misafir Wi-Fi portali engellendi</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
+        <target>Bağlandığınız misafir Wi-Fi ağı güvenli olmayabilir. VPN’i açarak cihazınızın güvenliğini sağlamak için tıklayın.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal detected</source>
+        <target>Misafir Wi-Fi portali algılandı</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.subscriptionNotFound" xml:space="preserve">
         <source>Your Mozilla VPN subscription cannot be found. Please open the app to resolve this subscription issue.</source>
@@ -1814,6 +1822,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
+        <target>%1 güvenli değil. VPN’i açarak cihazınızın güvenliğini sağlamak için burayı tıklayın.</target>
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkTitle" xml:space="preserve">
@@ -2051,6 +2060,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.appExclusionSettings" xml:space="preserve">
         <source>App exclusions</source>
+        <target>Uygulama istisnaları</target>
       </trans-unit>
       <trans-unit id="vpn.settings.appPreferences" xml:space="preserve">
         <source>App preferences</source>
@@ -2195,6 +2205,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.activatedLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the date on which the subscription was activated.</note>
+        <target>Abonelik başlangıcı</target>
         <source>Active since</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.addFirefoxRelay" xml:space="preserve">
@@ -2474,6 +2485,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialCompleteHeadline" xml:space="preserve">
         <source>Well done!</source>
+        <target>Tebrikler!</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialCompletePrimaryButtonLabel" xml:space="preserve">
         <source>Let’s go!</source>
