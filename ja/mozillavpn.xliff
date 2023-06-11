@@ -1218,6 +1218,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.getHelp.linkTitle" xml:space="preserve">
         <source>Get help</source>
+        <target>ヘルプ</target>
       </trans-unit>
       <trans-unit id="vpn.getHelp.viewLogs" xml:space="preserve">
         <note annotates="source" from="developer">Label for a clickable item in the Get-Help view</note>
@@ -1226,10 +1227,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.clear" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for clear button</note>
+        <target>消去</target>
         <source>Clear</source>
       </trans-unit>
       <trans-unit id="vpn.global.close" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for close button</note>
+        <target>閉じる</target>
         <source>Close</source>
       </trans-unit>
       <trans-unit id="vpn.global.collapse" xml:space="preserve">
@@ -1249,6 +1252,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.copy" xml:space="preserve">
         <note annotates="source" from="developer">Accessible button label</note>
+        <target>コピー</target>
         <source>Copy</source>
       </trans-unit>
       <trans-unit id="vpn.global.discoverNow" xml:space="preserve">
@@ -1268,6 +1272,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.noInternetConnection" xml:space="preserve">
         <note annotates="source" from="developer">Status alert text</note>
+        <target>インターネットに接続されていません</target>
         <source>No internet connection</source>
       </trans-unit>
       <trans-unit id="vpn.global.noThanks" xml:space="preserve">
@@ -1282,6 +1287,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.signOut" xml:space="preserve">
         <note annotates="source" from="developer">Link title</note>
+        <target>ログアウト</target>
         <source>Sign out</source>
       </trans-unit>
       <trans-unit id="vpn.global.vpnUser" xml:space="preserve">
@@ -1384,6 +1390,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.pleaseWait" xml:space="preserve">
         <note annotates="source" from="developer">Headline on loading screen</note>
+        <target>しばらくお待ちください...</target>
         <source>Please wait…</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemEmailTypeNotSupported" xml:space="preserve">
@@ -1487,6 +1494,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.waitingForSignIn" xml:space="preserve">
         <note annotates="source" from="developer">Headline on loading screen</note>
+        <target>ログインとサブスクリプションの確認を待っています...</target>
         <source>Waiting for sign in and subscription confirmation…</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.criticalBadge" xml:space="preserve">
@@ -1653,10 +1661,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.languageView.systemLanguageButtonDescription" xml:space="preserve">
         <note annotates="source" from="developer">the description for the system lagnague radio button</note>
+        <target>Mozilla VPN はシステムの既定の言語を使用します。</target>
         <source>Mozilla VPN will use the default system language.</source>
       </trans-unit>
       <trans-unit id="vpn.languageView.systemLanguageButtonTitle" xml:space="preserve">
         <note annotates="source" from="developer">the title for the system language radio button</note>
+        <target>システムの言語</target>
         <source>System language</source>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber" xml:space="preserve">
@@ -1709,6 +1719,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
+        <target>サブスクリプションの管理の詳細は、ヘルプセンターでご確認ください。</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label that is used for recent multi-hop server connections. “%1” represents the entry server and “%2” the exit server.</note>
@@ -1794,6 +1805,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
+        <target>%1 経由で接続しました</target>
         <source>Connected through %1</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedTitle" xml:space="preserve">
@@ -1811,14 +1823,17 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopConnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>%2 経由で %1 に接続しました</target>
         <source>Connected to %1, through %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>%2 から %1 経由で接続しました</target>
         <source>Connected through %1 via %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>%1 および %2 との接続を解除しました</target>
         <source>Disconnected from %1 and %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
@@ -1928,6 +1943,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.product.name" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.purchase.percentSaved" xml:space="preserve">
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan</note>
@@ -1935,6 +1951,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.purchase.subscribeNow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>今すぐ購読</target>
         <source>Subscribe now</source>
       </trans-unit>
       <trans-unit id="vpn.purchase.subscriptionOption" xml:space="preserve">
