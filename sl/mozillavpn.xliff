@@ -1151,6 +1151,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again. Visit our help center below to learn how to troubleshoot this issue or contact support.</source>
+        <target>Prišlo je do nepričakovane napake. Poskusite znova. Oglejte si nasvete za odpravljanje težav v našem središču za pomoč ali pa se obrnite na podporo.</target>
       </trans-unit>
       <trans-unit id="vpn.getHelp.developerOptions" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
@@ -1258,6 +1259,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.emailTokenResentAlert" xml:space="preserve">
         <note annotates="source" from="developer">User has requested to send a new email containing the 6-digit pin to confirm their email address.</note>
+        <target>Kodo smo vam znova poslali po e-pošti.</target>
         <source>We’ve resent your code to your email.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.emailVerificationDescription" xml:space="preserve">
@@ -1340,6 +1342,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSendingEmailErrorMessage" xml:space="preserve">
         <note annotates="source" from="developer">App screen that informs the user there was an error sending them their verification code email - this is the message.</note>
+        <target>Žal vam nismo mogli poslati potrditvene kode.</target>
         <source>Sorry, we were unable to send you a verification code.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemSendingEmailTitle" xml:space="preserve">
@@ -1393,6 +1396,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInBlockedForOneMinute" xml:space="preserve">
         <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 1 minute until they can try again.</note>
+        <target>Prevečkrat ste se poskusili prijaviti. S tem računom lahko znova poskusite čez 1 minuto.</target>
         <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 1 minute.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInButton" xml:space="preserve">
@@ -1401,6 +1405,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInFailedPopupDescription" xml:space="preserve">
         <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 15 minutes until they can try again.</note>
+        <target>Prevečkrat ste se poskusili prijaviti. S tem računom lahko znova poskusite čez 15 minut.</target>
         <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 15 minutes.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInFailedPopupTitle" xml:space="preserve">
@@ -1434,10 +1439,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.criticalBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this is an important message</note>
+        <target>Zelo pomembno</target>
         <source>Critical</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.dateTimeYesterday" xml:space="preserve">
         <source>Yesterday</source>
+        <target>Včeraj</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.deleteMessage" xml:space="preserve">
         <note annotates="source" from="developer">An action to delete a message from the users inbox</note>
@@ -1551,6 +1558,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportFieldHeader" xml:space="preserve">
         <source>How can we help you with Mozilla VPN?</source>
+        <target>Kako vam lahko pomagamo z Mozilla VPN?</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportNavLinkText" xml:space="preserve">
         <source>Contact support</source>
@@ -1715,10 +1723,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
+        <target>Povezan prek strežnika v mestu %1</target>
         <source>Connected through %1</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedTitle" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN je povezan</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN disconnected from.</note>
@@ -1743,6 +1753,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the initial server, %2 is the name of the destination server.</note>
+        <target>Preklop s strežnika v mestu %1 na strežnik v mestu %2</target>
         <source>Switched from %1 to %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersTitle" xml:space="preserve">
@@ -2013,6 +2024,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle" xml:space="preserve">
         <source>Use custom DNS</source>
+        <target>Uporabi DNS po meri</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning" xml:space="preserve">
         <source>Changing these settings will cause the VPN to disconnect and reconnect automatically.</source>
@@ -2020,12 +2032,14 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder" xml:space="preserve">
         <source>Enter custom DNS</source>
+        <target>Vnesite DNS po meri</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody" xml:space="preserve">
         <source>Resolve websites using Mozilla VPN’s standard DNS</source>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle" xml:space="preserve">
         <source>Use standard DNS</source>
+        <target>Uporabi standardni DNS</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsWarning" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
@@ -2328,6 +2342,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
+        <target>Ali dovolite, da Mozilla VPN pošilja Mozilli tehnične podatke, podatke o interakcijah, akcijah in priporočilih?</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.advancedTipsDescription" xml:space="preserve">
         <source>Let us help you learn more about Mozilla VPN</source>
@@ -2342,15 +2357,19 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.introModalDescription" xml:space="preserve">
         <source>Here’s a great list of useful tips and tricks to get the best out of your Mozilla VPN experience. Check it out now or find it anytime in the settings.</source>
+        <target>Pripravili smo seznam uporabnih nasvetov in namigov, s katerimi lahko kar najbolje izkoristite Mozilla VPN. Lahko si ga ogledate zdaj ali ga poiščete kadarkoli pozneje v nastavitvah.</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.moreTutorialsDescription2" xml:space="preserve">
         <source>Learn how to use Mozilla VPN’s advanced features</source>
+        <target>Naučite se uporabljati napredne možnosti Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.moreTutorialsTitle" xml:space="preserve">
         <source>More tutorials</source>
+        <target>Več vadnic</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.quickTipsDescription" xml:space="preserve">
         <source>Let us help you get the most out of Mozilla VPN</source>
+        <target>Naj vam pomagamo izkoristiti Mozilla VPN do konca</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.quickTipsGuideViewTitle" xml:space="preserve">
         <source>Quick tip</source>
@@ -2376,6 +2395,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.tabTitleTutorials" xml:space="preserve">
         <note annotates="source" from="developer">Tab title for the tab of the Tips &amp; Tricks panels that only shows tutorials</note>
+        <target>Vadnice</target>
         <source>Tutorials</source>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.tutorialsDescription" xml:space="preserve">
@@ -2388,9 +2408,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.leaveTutorialButton" xml:space="preserve">
         <source>Leave tutorial</source>
+        <target>Zapri vadnico</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialCompleteHeadline" xml:space="preserve">
         <source>Well done!</source>
+        <target>Odlično!</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialCompletePrimaryButtonLabel" xml:space="preserve">
         <source>Let’s go!</source>
@@ -2401,18 +2423,22 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialLeaveHeadline" xml:space="preserve">
         <source>Leave tutorial?</source>
+        <target>Želite zapustiti vadnico?</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialLeavePrimaryButtonLabel" xml:space="preserve">
         <source>Resume tutorial</source>
+        <target>Nadaljuj vadnico</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialLeaveSubtitle" xml:space="preserve">
         <source>Looks like you haven’t finished the tutorial quite yet. Would you like to continue and finish now or quit and come back later?</source>
+        <target>Videti je, da vadnice še niste dokončali. Želite nadaljevati in dokončati zdaj ali jo zapreti in se vrniti pozneje?</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialWarningDescription" xml:space="preserve">
         <source>By continuing this tutorial, you will be changing your VPN settings. These settings will revert to their original state upon completion or quitting of the tutorial.</source>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialWarningTitle" xml:space="preserve">
         <source>Continue tutorial?</source>
+        <target>Nadaljujem z vadnico?</target>
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionNoUpdate" xml:space="preserve">
         <source>Okay</source>
