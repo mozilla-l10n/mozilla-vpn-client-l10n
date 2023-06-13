@@ -141,6 +141,7 @@
     <body>
       <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
         <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
+        <target>Mozilla VPN je uspešno nameščen. Pripravljeni ste, da začnete prevzemati nadzor nad svojo zasebnostjo na spletu.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
         <source>Trouble with this installation?</source>
@@ -599,6 +600,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
+        <target>%1 → %2</target>
         <source>From %1 to %2</source>
       </trans-unit>
     </body>
@@ -607,6 +609,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
         <source>Download</source>
+        <target>Prenašanje</target>
       </trans-unit>
     </body>
   </file>
@@ -780,9 +783,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
         <source>Protect all apps with VPN</source>
+        <target>Zaščitite vse aplikacije z VPN</target>
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps.description" xml:space="preserve">
         <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
+        <target>VPN privzeto ščiti vse aplikacije. Izklopite, če želite izbrati, katerih aplikacij naj Mozilla VPN ne ščiti.</target>
       </trans-unit>
     </body>
   </file>
@@ -829,6 +834,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.updates.updateRecomended.description" xml:space="preserve">
         <source>Please update the app before you continue to use the VPN</source>
+        <target>Pred nadaljnjo uporabo VPN posodobite aplikacijo</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRequire.reason" xml:space="preserve">
         <source>We detected and fixed a serious bug. You must update your app.</source>
@@ -974,10 +980,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelUpload" xml:space="preserve">
         <note annotates="source" from="developer">Label for the upload benchmark shown in the speed test view.</note>
+        <target>Nalaganje</target>
         <source>Upload</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.listHeaderDefault" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list of things that the current connection is capable of.</note>
+        <target>Pri trenutni hitrosti je vaša naprava optimizirana za:</target>
         <source>At your current speed, here’s what your device is optimized for:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.listHeaderSlow" xml:space="preserve">
