@@ -1136,11 +1136,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titleDNS" xml:space="preserve">
         <source>Override DNS settings?</source>
-        <target>Preglasi nastavitve DNS?</target>
+        <target>Želite preglasiti nastavitve DNS?</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titlePrivacy" xml:space="preserve">
         <source>Override privacy features?</source>
-        <target>Preglasi možnosti zasebnosti?</target>
+        <target>Želite preglasiti možnosti zasebnosti?</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
         <source>Choose a category</source>
@@ -1148,13 +1148,16 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.excellentLabel" xml:space="preserve">
         <note annotates="source" from="developer">One of the answers on the feedback question about the user experience with the VPN client.</note>
+        <target>Odlično</target>
         <source>Excellent</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.leaveReviewButton" xml:space="preserve">
         <source>Leave a Review</source>
+        <target>Objavite oceno</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.reviewBody" xml:space="preserve">
         <source>If you enjoy using Mozilla VPN, would you review it? Thanks for your support!</source>
+        <target>Če ste zadovoljni z Mozilla VPN, bi ga ocenili? Hvala za vašo podporo!</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.reviewHeader" xml:space="preserve">
         <source>Give us 5 stars!</source>
@@ -1467,6 +1470,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.waitingForSignIn" xml:space="preserve">
         <note annotates="source" from="developer">Headline on loading screen</note>
+        <target>Čakanje na prijavo in potrditev naročnine …</target>
         <source>Waiting for sign in and subscription confirmation…</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.criticalBadge" xml:space="preserve">
@@ -1576,6 +1580,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorBrowserButton" xml:space="preserve">
         <source>Try opening in browser</source>
+        <target>Poskusi odpreti v brskalniku</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorButton" xml:space="preserve">
         <source>Try Again</source>
@@ -1595,6 +1600,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportNavLinkText" xml:space="preserve">
         <source>Contact support</source>
+        <target>Piši podpori</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportPrimaryButtonText" xml:space="preserve">
         <source>Submit</source>
@@ -1663,9 +1669,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelTwoSubtitle" xml:space="preserve">
         <source>Mozilla VPN keeps your location and browsing safe from eavesdroppers.</source>
+        <target>Mozilla VPN varuje vašo lokacijo in brskanje pred prisluškovanjem.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelTwoTitle" xml:space="preserve">
         <source>Encrypt your activity</source>
+        <target>Šifrirajte svojo dejavnost</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.signUpBtn" xml:space="preserve">
         <source>Sign up</source>
@@ -1725,6 +1733,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.navBar.homeTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the home screen</note>
+        <target>Domača stran</target>
         <source>Home</source>
       </trans-unit>
       <trans-unit id="vpn.navBar.messagesTab" xml:space="preserve">
@@ -1748,6 +1757,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalLinkText" xml:space="preserve">
         <source>Go to Play Store</source>
+        <target>Odpri Trgovino Play</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
@@ -1822,6 +1832,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourTitle" xml:space="preserve">
         <source>Add even more privacy</source>
+        <target>Dodajte še več zasebnosti</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelThreeSubtitle" xml:space="preserve">
         <source>Protecting yourself is simple: tap to connect to the VPN and you’re ready to browse safely. Mozilla VPN will start automatically for seamless protection.</source>
@@ -1909,6 +1920,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.inProgress2" xml:space="preserve">
         <source>Please continue subscribing in your browser…</source>
+        <target>Nadaljujte z naročanjem v brskalniku …</target>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.message" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the user’s email address.</note>
@@ -1917,6 +1929,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.title" xml:space="preserve">
         <source>Subscribe to Mozilla VPN</source>
+        <target>Naročanje na Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
         <source>Already a subscriber?</source>
@@ -2002,18 +2015,22 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithGoodConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is good. Argument is the city name.</note>
+        <target>%1. Dobra povezljivost</target>
         <source>%1. Good connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithModerateConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is moderate. Argument is the city name.</note>
+        <target>%1. Srednje dobra povezljivost</target>
         <source>%1. Moderate connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithNoConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is unavailable. Argument is the city name.</note>
+        <target>%1. Ni povezljivosti</target>
         <source>%1. No connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithPoorConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is poor. Argument is the city name.</note>
+        <target>%1. Slaba povezljivost</target>
         <source>%1. Poor connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.tabAllLabel" xml:space="preserve">
@@ -2150,6 +2167,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoCardDescription" xml:space="preserve">
         <note annotates="source" from="developer">Displays inside the information card at the top of the app exclusions screen when the VPN is on</note>
+        <target>Za urejanje izvzetih aplikacij mora biti VPN izklopljen</target>
         <source>VPN must be off to edit App exclusions</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
@@ -2184,6 +2202,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.addFirefoxRelay" xml:space="preserve">
         <note annotates="source" from="developer">Block of text appearing above a link to learn more about the VPN / Relay bundle offering.</note>
+        <target>Dodaj Firefox Relay</target>
         <source>Add Firefox Relay</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.cardExpiresLabel" xml:space="preserve">
@@ -2193,6 +2212,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.cardLast4" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents the last four digits of a credit card.</note>
+        <target>Kartica, ki se konča na %1</target>
         <source>Card ending in %1</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.expiresLabel" xml:space="preserve">
@@ -2230,6 +2250,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planMonthly" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription. %1 represents the localized currency string</note>
+        <target>Mesečna naročnina: %1</target>
         <source>Monthly plan: %1</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax" xml:space="preserve">
@@ -2244,10 +2265,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <target>%1/pol leta</target>
         <source>%1 Half-yearly</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueHalfYearlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1/pol leta + davek</target>
         <source>%1 Half-yearly + tax</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueMonthly" xml:space="preserve">
@@ -2287,6 +2310,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.subscriptionPlatformLabel" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents the subscription platform. Values for %1 could be “Apple” or “Google” for example.</note>
+        <target>Naročnina %1</target>
         <source>%1 subscription</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.summaryHeadline" xml:space="preserve">
@@ -2296,18 +2320,22 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.upgrade" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will take users into the upgrade to VPN / Relay bundle purchase flow.</note>
+        <target>Nadgradi</target>
         <source>Upgrade</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.valueProp1" xml:space="preserve">
         <note annotates="source" from="developer">Value proposition used to promote the product</note>
+        <target>Brez beleženja vaše omrežne dejavnosti</target>
         <source>No logging of your network activity</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.valueProp2" xml:space="preserve">
         <note annotates="source" from="developer">Value proposition used to promote the product</note>
+        <target>Nihče vam ne more slediti</target>
         <source>No one can track you</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.valueProp3" xml:space="preserve">
         <note annotates="source" from="developer">Value proposition used to promote the product</note>
+        <target>Več kot 500 strežnikov v preko 30 državah</target>
         <source>500+ servers in 30+ countries</source>
       </trans-unit>
       <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
@@ -2383,6 +2411,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.advancedTipsDescription" xml:space="preserve">
         <source>Let us help you learn more about Mozilla VPN</source>
+        <target>Naj vam pomagamo spoznati Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.advancedTipsGuideViewTitle" xml:space="preserve">
         <source>Advanced tip</source>
@@ -2453,6 +2482,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialCompletePrimaryButtonLabel" xml:space="preserve">
         <source>Let’s go!</source>
+        <target>Pa pojdimo!</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialFinishedSecondaryButtonLabel" xml:space="preserve">
         <source>Dismiss</source>
