@@ -547,8 +547,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Mozilla VPN</source>
         <target>Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.servers.currentLocation">
+      <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
+        <target>trenutna lokacija - %1</target>
         <source>current location - %1</source>
       </trans-unit>
       <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
@@ -661,12 +662,14 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Device-level encryption</source>
         <target>Šifriranje na ravni naprave</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.2">
+      <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
         <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeededIAP.qml too.</note>
+        <target>Strežniki v več kot 30 državah</target>
         <source>Servers in 30+ countries</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.3">
+      <trans-unit id="vpn.onboarding.headline.3" xml:space="preserve">
         <source>No bandwidth restrictions</source>
+        <target>Brez omejitev pasovne širine</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
         <source>No online activity logs</source>
@@ -1645,8 +1648,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Already a subscriber?</source>
         <target>Ste že naročnik?</target>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelFourSubtitle">
+      <trans-unit id="vpn.mobileOnboarding.panelFourSubtitle" xml:space="preserve">
         <source>Stream, download and game without limits, monthly caps or ISP throttling.</source>
+        <target>Pretakajte videe, prenašajte datoteke in igrajte igre brez omejitev, mesečnih limitov ali omejevanja s strani ponudnika internetnih storitev.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelFourTitle" xml:space="preserve">
         <source>More security with one tap</source>
