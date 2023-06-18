@@ -801,8 +801,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Search bar placeholder text</note>
         <source>Search apps</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.excludeTitle">
+      <trans-unit id="vpn.settings.excludeTitle" xml:space="preserve">
         <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
+        <target>Izvzemite aplikacije iz zaščite z VPN</target>
         <source>Exclude apps from VPN protection</source>
       </trans-unit>
       <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
@@ -1309,11 +1310,13 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Odprite e-pošto in vnesite potrditveno kodo, ki ste jo prejeli.</target>
         <source>Open your email and enter the verification code that was sent.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.enterEmailAddressDescription">
+      <trans-unit id="vpn.inAppAuth.enterEmailAddressDescription" xml:space="preserve">
         <source>Enter your email address to continue using Mozilla VPN</source>
+        <target>Vnesite svoj e-poštni naslov za nadaljnjo uporabo Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription">
+      <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription" xml:space="preserve">
         <note annotates="source" from="developer">User message prompting user to finish creating their account to use Mozilla VPN.</note>
+        <target>Za nadaljevanje v Mozilla VPN dokončajte ustvarjanje Firefox računa</target>
         <source>Finish creating your Firefox account to continue to Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.forgotPasswordLink" xml:space="preserve">
@@ -1539,8 +1542,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Težave z računom</target>
         <source>Account issues</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.disclaimerText">
+      <trans-unit id="vpn.inAppSupportWorkflow.disclaimerText" xml:space="preserve">
         <source>When you submit, Mozilla VPN will collect technical and interaction data with your email to help our support team understand your issue.</source>
+        <target>Ob pošiljanju bo Mozilla VPN zabeležil tehnične in interakcijske podatke ter vaš e-poštni naslov, da bo naša ekipa za podporo laže razumela vašo težavo.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel" xml:space="preserve">
         <note annotates="source" from="developer">A user trying to submit feedback will use this dropdown to select the general topic related to the feedback.</note>
@@ -1793,16 +1797,19 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>VPN Disconnected</source>
         <target>Povezava VPN prekinjena</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessage">
+      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>Povezan s strežnikom v mestu %1, skozi mesto %2</target>
         <source>Connected to %1, through %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages">
+      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>Povezan prek strežnika v mestu %1, skozi mesto %2</target>
         <source>Connected through %1 via %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage">
+      <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>Povezava s strežnika v mestih %1 in %2 prekinjena</target>
         <source>Disconnected from %1 and %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
@@ -1961,8 +1968,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>This server location is temporarily unavailable. Choose a new location.</source>
         <target>Ta lokacija strežnika trenutno ni na voljo. Izberite drugo lokacijo.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.buttonLabel">
+      <trans-unit id="vpn.serverUnavailableModal.buttonLabel" xml:space="preserve">
         <source>Choose a new location</source>
+        <target>Izberite novo lokacijo</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.headerText" xml:space="preserve">
         <source>Server unavailable</source>
@@ -2172,11 +2180,13 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Developer Options</source>
         <target>Možnosti za razvijalce</target>
       </trans-unit>
-      <trans-unit id="vpn.settingsDev.useStagingSubtitle">
+      <trans-unit id="vpn.settingsDev.useStagingSubtitle" xml:space="preserve">
         <source>Staging services are used to test features before they go live to production</source>
+        <target>Preizkusne storitve se uporabljajo za preizkušanje funkcij, preden so izdane</target>
       </trans-unit>
-      <trans-unit id="vpn.settingsDev.useStagingTitle">
+      <trans-unit id="vpn.settingsDev.useStagingTitle" xml:space="preserve">
         <source>Use Staging Servers</source>
+        <target>Uporabi preizkusne strežnike</target>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoCardDescription" xml:space="preserve">
         <note annotates="source" from="developer">Displays inside the information card at the top of the app exclusions screen when the VPN is on</note>
@@ -2204,8 +2214,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Uspelo je! Na seznam ste dodali "%1".</target>
         <source>Success! You added “%1” to this list.</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.missingAppMultiple">
+      <trans-unit id="vpn.splittunnel.missingAppMultiple" xml:space="preserve">
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
+        <target>Aplikacije, ki jih ni na seznamu: %1</target>
         <source>%1 apps missing from list.</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.activatedLabel" xml:space="preserve">
