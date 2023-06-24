@@ -1062,8 +1062,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Connection Info</source>
         <target>Infurmazione di cunnessione</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.startSpeedTest">
+      <trans-unit id="vpn.connectionInfo.startSpeedTest" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that opens the speed test view and initiates a speed test</note>
+        <target>Lancià una prova di vitezza</target>
         <source>Start speed test</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne" xml:space="preserve">
@@ -1206,28 +1207,32 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>An unexpected error has occurred, please try again. Visit our help center below to learn how to troubleshoot this issue or contact support.</source>
         <target>Un sbagliu inaspettatu hè accadutu, pruvate torna. Visitate u nostru centru d’assistenza quaghjò per sapè cumu lucalizà a cagione o cuntattà l’assistenza.</target>
       </trans-unit>
-      <trans-unit id="vpn.getHelp.developerOptions">
+      <trans-unit id="vpn.getHelp.developerOptions" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Ozzioni di sviluppu</target>
         <source>Developer options</source>
       </trans-unit>
       <trans-unit id="vpn.getHelp.helpCenter" xml:space="preserve">
         <source>Help Center</source>
         <target>Centru d’assistenza</target>
       </trans-unit>
-      <trans-unit id="vpn.getHelp.linkTitle">
+      <trans-unit id="vpn.getHelp.linkTitle" xml:space="preserve">
         <source>Get help</source>
+        <target>Ottene aiutu</target>
       </trans-unit>
       <trans-unit id="vpn.getHelp.viewLogs" xml:space="preserve">
         <note annotates="source" from="developer">Label for a clickable item in the Get-Help view</note>
         <target>Vista di u ghjurnale</target>
         <source>View Logs</source>
       </trans-unit>
-      <trans-unit id="vpn.global.clear">
+      <trans-unit id="vpn.global.clear" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for clear button</note>
+        <target>Squassà</target>
         <source>Clear</source>
       </trans-unit>
-      <trans-unit id="vpn.global.close">
+      <trans-unit id="vpn.global.close" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for close button</note>
+        <target>Chjode</target>
         <source>Close</source>
       </trans-unit>
       <trans-unit id="vpn.global.collapse" xml:space="preserve">
@@ -1245,8 +1250,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Cupiatu.</target>
         <source>Copied!</source>
       </trans-unit>
-      <trans-unit id="vpn.global.copy">
+      <trans-unit id="vpn.global.copy" xml:space="preserve">
         <note annotates="source" from="developer">Accessible button label</note>
+        <target>Cupià</target>
         <source>Copy</source>
       </trans-unit>
       <trans-unit id="vpn.global.discoverNow" xml:space="preserve">
@@ -1264,8 +1270,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Ritornu</target>
         <source>Go back</source>
       </trans-unit>
-      <trans-unit id="vpn.global.noInternetConnection">
+      <trans-unit id="vpn.global.noInternetConnection" xml:space="preserve">
         <note annotates="source" from="developer">Status alert text</note>
+        <target>Nisuna cunnessione Internet</target>
         <source>No internet connection</source>
       </trans-unit>
       <trans-unit id="vpn.global.noThanks" xml:space="preserve">
@@ -1278,8 +1285,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Incullà</target>
         <source>Paste</source>
       </trans-unit>
-      <trans-unit id="vpn.global.signOut">
+      <trans-unit id="vpn.global.signOut" xml:space="preserve">
         <note annotates="source" from="developer">Link title</note>
+        <target>Scunnettesi</target>
         <source>Sign out</source>
       </trans-unit>
       <trans-unit id="vpn.global.vpnUser" xml:space="preserve">
@@ -1380,8 +1388,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Enter password</source>
         <target>Stampittate a vostra parolla d’intesa</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.pleaseWait">
+      <trans-unit id="vpn.inAppAuth.pleaseWait" xml:space="preserve">
         <note annotates="source" from="developer">Headline on loading screen</note>
+        <target>Aspittate per piacè…</target>
         <source>Please wait…</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemEmailTypeNotSupported" xml:space="preserve">
@@ -1483,8 +1492,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Verify</source>
         <target>Verificà</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.waitingForSignIn">
+      <trans-unit id="vpn.inAppAuth.waitingForSignIn" xml:space="preserve">
         <note annotates="source" from="developer">Headline on loading screen</note>
+        <target>In attesa di l’iscrizzione è di a cunfirmazione di l’abbunamentu…</target>
         <source>Waiting for sign in and subscription confirmation…</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.criticalBadge" xml:space="preserve">
@@ -1649,12 +1659,14 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Ricercà una lingua</target>
         <source>Search languages</source>
       </trans-unit>
-      <trans-unit id="vpn.languageView.systemLanguageButtonDescription">
+      <trans-unit id="vpn.languageView.systemLanguageButtonDescription" xml:space="preserve">
         <note annotates="source" from="developer">the description for the system lagnague radio button</note>
+        <target>Mozilla VPN impiegherà a lingua predefinita di u sistema.</target>
         <source>Mozilla VPN will use the default system language.</source>
       </trans-unit>
-      <trans-unit id="vpn.languageView.systemLanguageButtonTitle">
+      <trans-unit id="vpn.languageView.systemLanguageButtonTitle" xml:space="preserve">
         <note annotates="source" from="developer">the title for the system language radio button</note>
+        <target>Lingua di u sistema</target>
         <source>System language</source>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber" xml:space="preserve">
@@ -1705,8 +1717,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Your subscription is linked to another Firefox Account. You may need to sign in with a different email address.</source>
         <target>U vostru abbunamentu hè assuciatu à un altru contu Firefox. Ci vuleria à cunnettevi cù un altru indirizzu elettronicu.</target>
       </trans-unit>
-      <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter">
+      <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
+        <target>Visitate u nostru centru d’assistenza per sapene di più apprupositu di a ghjestione di i vostri abbunamenti.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label that is used for recent multi-hop server connections. “%1” represents the entry server and “%2” the exit server.</note>
@@ -1790,8 +1803,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Cunnessu à %1</target>
         <source>Connected to %1</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNConnectedMessages">
+      <trans-unit id="vpn.notifications.VPNConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
+        <target>Cunnessu via %1</target>
         <source>Connected through %1</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedTitle" xml:space="preserve">
