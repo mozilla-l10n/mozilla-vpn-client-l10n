@@ -1826,12 +1826,14 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Cunnessu à %1, via %2</target>
         <source>Connected to %1, through %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages">
+      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>Cunnessu à %1 via %2</target>
         <source>Connected through %1 via %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage">
+      <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>Scunnessu da %1 è %2</target>
         <source>Disconnected from %1 and %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
@@ -1936,28 +1938,35 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Visa</source>
         <target>Visa</target>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.headline">
+      <trans-unit id="vpn.postAuthentication.headline" xml:space="preserve">
         <source>Quick access</source>
+        <target>Accessu prestu</target>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.subtitle">
+      <trans-unit id="vpn.postAuthentication.subtitle" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
+        <target>Hè pussibule d’accede più prestu à Mozilla VPN da a vostra barra di statu.</target>
       </trans-unit>
-      <trans-unit id="vpn.product.description">
+      <trans-unit id="vpn.product.description" xml:space="preserve">
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
+        <target>Una reta privata virtuale (VPN) rapida, assicurizata è faciule à impiegà. Cuncepita da l’autori di Firefox.</target>
       </trans-unit>
-      <trans-unit id="vpn.product.name">
+      <trans-unit id="vpn.product.name" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.purchase.percentSaved">
+      <trans-unit id="vpn.purchase.percentSaved" xml:space="preserve">
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan</note>
+        <target>Risparmià %1 %</target>
         <source>Save %1%</source>
       </trans-unit>
-      <trans-unit id="vpn.purchase.subscribeNow">
+      <trans-unit id="vpn.purchase.subscribeNow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Abbunassi subitu</target>
         <source>Subscribe now</source>
       </trans-unit>
-      <trans-unit id="vpn.purchase.subscriptionOption">
+      <trans-unit id="vpn.purchase.subscriptionOption" xml:space="preserve">
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>Accordu di %1 mesi : %2</target>
         <source>%1-month plan: %2</source>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.inProgress2" xml:space="preserve">
