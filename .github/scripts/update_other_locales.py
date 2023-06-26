@@ -171,15 +171,6 @@ def main():
             for trans_node in reference_root_copy.xpath(
                 "//x:trans-unit", namespaces=NS
             ):
-                # Add xml:space="preserve" to all trans-units, to avoid conflict
-                # with Pontoon
-                attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
-                if "space" in trans_node.attrib:
-                    trans_node.attrib.pop(attrib_name)
-                xml_space = trans_node.get(attrib_name)
-                if xml_space:
-                    trans_node.set(attrib_name, "preserve")
-
                 file_name = trans_node.getparent().getparent().get("original")
                 source_string = trans_node.xpath("./x:source", namespaces=NS)[0].text
                 original_id = trans_node.get("id")
