@@ -156,7 +156,7 @@
         <source>Success!</source>
         <target>Sucesso!</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.message">
+      <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
         <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
       </trans-unit>
       <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
@@ -175,10 +175,10 @@
         <source>Unable to install</source>
         <target>Não foi possível instalar</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message1">
+      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
         <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
       </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message2">
+      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
         <source>Click “Continue” to continue the setup.</source>
       </trans-unit>
     </body>
@@ -198,7 +198,7 @@
         <source>Access to service</source>
         <target>Acesso ao serviço</target>
       </trans-unit>
-      <trans-unit id="feedback.category.bugError">
+      <trans-unit id="feedback.category.bugError" xml:space="preserve">
         <source>Product Bugs/Errors</source>
       </trans-unit>
       <trans-unit id="feedback.category.compatibility" xml:space="preserve">
@@ -209,7 +209,7 @@
         <source>Ease of Use</source>
         <target>Fácil de Usar</target>
       </trans-unit>
-      <trans-unit id="feedback.category.networkSpeed">
+      <trans-unit id="feedback.category.networkSpeed" xml:space="preserve">
         <source>Network Connection/Speed</source>
       </trans-unit>
       <trans-unit id="feedback.category.other" xml:space="preserve">
@@ -264,7 +264,7 @@
         <source>Try Again</source>
         <target>Tentar novamente</target>
       </trans-unit>
-      <trans-unit id="vpn.errors.unableToEstablishConnection">
+      <trans-unit id="vpn.errors.unableToEstablishConnection" xml:space="preserve">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
       </trans-unit>
     </body>
@@ -371,15 +371,15 @@
   </file>
   <file original="../src/apps/vpn/ui/screens/devices/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="pt-PT">
     <body>
-      <trans-unit id="vpn.devices.addedXdaysAgo">
+      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
         <source>Added %1 days ago</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.addedXhoursAgo">
+      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the number of hours.</note>
         <source>Added a few hours ago (%1)</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.addedltHour">
+      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
         <source>Added less than an hour ago</source>
       </trans-unit>
       <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
@@ -404,14 +404,14 @@
         <source>Remove a device</source>
         <target>Remover um dispositivo</target>
       </trans-unit>
-      <trans-unit id="vpn.devices.maxDevicesHeader">
+      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
         <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/devices/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="pt-PT">
     <body>
-      <trans-unit id="vpn.devices.deviceRemovalConfirm">
+      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
         <source>Please confirm you would like to remove
 %1.</source>
@@ -472,26 +472,26 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Poor</source>
         <target>Fraco</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.ratingHeadline">
+      <trans-unit id="vpn.feedbackForm.ratingHeadline" xml:space="preserve">
         <source>How would you describe your Mozilla VPN experience so far?</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.veryPoor">
+      <trans-unit id="vpn.feedbackForm.veryPoor" xml:space="preserve">
         <source>Very poor</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/getHelp/giveFeedback/ViewGiveFeedbackForm.qml" datatype="plaintext" source-language="en" target-language="pt-PT">
     <body>
-      <trans-unit id="vpn.feedback.privacyDisclaimer">
+      <trans-unit id="vpn.feedback.privacyDisclaimer" xml:space="preserve">
         <source>When you submit feedback, Mozilla VPN will collect technical and interaction data, including your IP address, to help us improve. This data won’t be associated with your Firefox account.</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.averageRatingResponse">
+      <trans-unit id="vpn.feedbackForm.averageRatingResponse" xml:space="preserve">
         <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.goodRatingResponse">
+      <trans-unit id="vpn.feedbackForm.goodRatingResponse" xml:space="preserve">
         <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.lowRatingResponse">
+      <trans-unit id="vpn.feedbackForm.lowRatingResponse" xml:space="preserve">
         <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.privacyNoticeLink" xml:space="preserve">
@@ -674,16 +674,16 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Skip</source>
         <target>Ignorar</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.1">
+      <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
         <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.2">
+      <trans-unit id="vpn.onboarding.subtitle.2" xml:space="preserve">
         <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.3">
+      <trans-unit id="vpn.onboarding.subtitle.3" xml:space="preserve">
         <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.4">
+      <trans-unit id="vpn.onboarding.subtitle.4" xml:space="preserve">
         <source>We are committed to not monitoring or logging your browsing or network history.</source>
       </trans-unit>
     </body>
@@ -743,19 +743,19 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Guest Wi-Fi portal alert</source>
         <target>Alerta de portal Wi-Fi para convidado</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.guestWifiAlert.description">
+      <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange.description">
+      <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
         <source>Get notified when the connection status changes</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange2">
+      <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
         <source>Connection change notification</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch.description">
+      <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
         <source>Get notified when you successfully switched servers</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch2">
+      <trans-unit id="vpn.settings.notification.serverSwitch2" xml:space="preserve">
         <source>Server switching notification</source>
       </trans-unit>
       <trans-unit id="vpn.settings.notifications" xml:space="preserve">
@@ -766,7 +766,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Unsecured network alert</source>
         <target>Alerta de rede não segura</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description">
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description" xml:space="preserve">
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
       </trans-unit>
     </body>
@@ -792,28 +792,28 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Protect all apps with VPN</source>
         <target>Proteja todas as aplicações com a VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.protectAllApps.description">
+      <trans-unit id="vpn.settings.protectAllApps.description" xml:space="preserve">
         <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/subscriptionNeeded/ViewSubscriptionNeededIAP.qml" datatype="plaintext" source-language="en" target-language="pt-PT">
     <body>
-      <trans-unit id="vpn.subscription.featureTitle1">
+      <trans-unit id="vpn.subscription.featureTitle1" xml:space="preserve">
         <source>No activity logs</source>
       </trans-unit>
-      <trans-unit id="vpn.subscription.featureTitle4">
+      <trans-unit id="vpn.subscription.featureTitle4" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
         <source>Connect up to %1 devices</source>
       </trans-unit>
-      <trans-unit id="vpn.updates.subscribeNow">
+      <trans-unit id="vpn.updates.subscribeNow" xml:space="preserve">
         <source>Subscribe now</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/sharedViews/ViewErrorFullScreen.qml" datatype="plaintext" source-language="en" target-language="pt-PT">
     <body>
-      <trans-unit id="vpn.errors.checkOutageUpdates">
+      <trans-unit id="vpn.errors.checkOutageUpdates" xml:space="preserve">
         <source>Check outage updates</source>
       </trans-unit>
     </body>
@@ -857,7 +857,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Notificações gerais</target>
         <source>General Notifications</source>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.copyVersionNumber">
+      <trans-unit id="vpn.aboutUs.copyVersionNumber" xml:space="preserve">
         <note annotates="source" from="developer">Accessible name for a button. %1 is the version number of the VPN client.</note>
         <source>Copy %1</source>
       </trans-unit>
@@ -865,17 +865,17 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Licenses</source>
         <target>Licenças</target>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.privacyNotice">
+      <trans-unit id="vpn.aboutUs.privacyNotice" xml:space="preserve">
         <source>Privacy notice</source>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.releaseVersion">
+      <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
         <note annotates="source" from="developer">Refers to the installed version. For example: 'Release Version: 1.23'</note>
         <source>Release version</source>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.termsOfService">
+      <trans-unit id="vpn.aboutUs.termsOfService" xml:space="preserve">
         <source>Terms of service</source>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.title">
+      <trans-unit id="vpn.aboutUs.title" xml:space="preserve">
         <source>About us</source>
       </trans-unit>
       <trans-unit id="vpn.accessibility.currentIndexFocusedOfTotalItemsInGroup" xml:space="preserve">
@@ -888,10 +888,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Item selecionado: %1</target>
         <source>Selected item: %1</source>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.actionPostActivation">
+      <trans-unit id="vpn.captivePortalAlert.actionPostActivation" xml:space="preserve">
         <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.actionPreActivation">
+      <trans-unit id="vpn.captivePortalAlert.actionPreActivation" xml:space="preserve">
         <source>You can turn on your VPN once you have gained internet access by logging in to the portal.</source>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation" xml:space="preserve">
@@ -902,24 +902,24 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Okay</source>
         <target>Ok</target>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.header">
+      <trans-unit id="vpn.captivePortalAlert.header" xml:space="preserve">
         <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.title">
+      <trans-unit id="vpn.captivePortalAlert.title" xml:space="preserve">
         <source>Captive portal detected!</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.connectionInformation">
+      <trans-unit id="vpn.connectionInfo.connectionInformation" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that shows the IP info panel when clicked.</note>
         <source>Connection information</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.errorMessage">
+      <trans-unit id="vpn.connectionInfo.errorMessage" xml:space="preserve">
         <source>Looks like there was an unexpected error while trying to connect. Please try again or check your connection.</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.exitServerLabelIp">
+      <trans-unit id="vpn.connectionInfo.exitServerLabelIp" xml:space="preserve">
         <note annotates="source" from="developer">Exit server IP label for IPV4. IP is the abbreviation for Internet Procol. This is followed by the user’s IPv4 address.</note>
         <source>Exit Server IP:</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.exitServerLabelIpv6">
+      <trans-unit id="vpn.connectionInfo.exitServerLabelIpv6" xml:space="preserve">
         <note annotates="source" from="developer">Exit server IP label for IPv6. IPv6 is the abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
         <source>Exit Server IPv6:</source>
       </trans-unit>
@@ -938,7 +938,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Transferências de alta velocidade</target>
         <source>High-speed downloads</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.ipInfoButtonLabel">
+      <trans-unit id="vpn.connectionInfo.ipInfoButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the IP info button that shows the IP info panel when clicked.</note>
         <source>Show IP info</source>
       </trans-unit>
@@ -977,11 +977,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Envio</target>
         <source>Upload</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.listHeaderDefault">
+      <trans-unit id="vpn.connectionInfo.listHeaderDefault" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list of things that the current connection is capable of.</note>
         <source>At your current speed, here’s what your device is optimized for:</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.listHeaderSlow">
+      <trans-unit id="vpn.connectionInfo.listHeaderSlow" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
         <source>It looks like the connection to this server location is a bit slow, you can try:</source>
       </trans-unit>
@@ -1005,7 +1005,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Transmissão de vídeo</target>
         <source>Streaming video</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.metricsTitle">
+      <trans-unit id="vpn.connectionInfo.metricsTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the connection metrics view.</note>
         <source>Connection information</source>
       </trans-unit>
@@ -1013,7 +1013,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Connection Info</source>
         <target>Informação da ligação</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.startSpeedTest">
+      <trans-unit id="vpn.connectionInfo.startSpeedTest" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that opens the speed test view and initiates a speed test</note>
         <source>Start speed test</source>
       </trans-unit>
@@ -1022,7 +1022,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Alternar localizações de servidor</target>
         <source>Switching server locations</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree">
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section for multi-hop connections</note>
         <source>Switching back to a single-hop connection</source>
       </trans-unit>
@@ -1049,7 +1049,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Continue</source>
         <target>Continuar</target>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.authSubheadline">
+      <trans-unit id="vpn.deleteAccount.authSubheadline" xml:space="preserve">
         <source>To delete your VPN account, please sign in with your Firefox account password.</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.buttonLabel" xml:space="preserve">
@@ -1060,42 +1060,42 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Delete Firefox account</source>
         <target>Eliminar a conta do Firefox</target>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionFour">
+      <trans-unit id="vpn.deleteAccount.optionDescriptionFour" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
         <source>Any extensions and themes that you’ve published to addons.mozilla.org will be deleted</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionOne">
+      <trans-unit id="vpn.deleteAccount.optionDescriptionOne" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
         <source>Any paid subscriptions you have will be cancelled (Except Pocket)</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionThree">
+      <trans-unit id="vpn.deleteAccount.optionDescriptionThree" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
         <source>Reactivating with this email may not restore your saved information</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionTwo">
+      <trans-unit id="vpn.deleteAccount.optionDescriptionTwo" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
         <source>You may lose saved information and features within Mozilla products</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.subheadline">
+      <trans-unit id="vpn.deleteAccount.subheadline" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
         <source>Your Firefox account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS">
+      <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS" xml:space="preserve">
         <source>Using these privacy features will override your custom DNS.</source>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy">
+      <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy" xml:space="preserve">
         <source>Using a custom DNS will override your preferences in the privacy features page.</source>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.primaryButton">
+      <trans-unit id="vpn.dnsOverwriteDialog.primaryButton" xml:space="preserve">
         <source>Confirm</source>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.secondaryButton">
+      <trans-unit id="vpn.dnsOverwriteDialog.secondaryButton" xml:space="preserve">
         <source>Maybe later</source>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.titleDNS">
+      <trans-unit id="vpn.dnsOverwriteDialog.titleDNS" xml:space="preserve">
         <source>Override DNS settings?</source>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.titlePrivacy">
+      <trans-unit id="vpn.dnsOverwriteDialog.titlePrivacy" xml:space="preserve">
         <source>Override privacy features?</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.chooseCategory" xml:space="preserve">
@@ -1111,7 +1111,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Leave a Review</source>
         <target>Deixar um comentário</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.reviewBody">
+      <trans-unit id="vpn.feedbackForm.reviewBody" xml:space="preserve">
         <source>If you enjoy using Mozilla VPN, would you review it? Thanks for your support!</source>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.reviewHeader" xml:space="preserve">
@@ -1139,10 +1139,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Problem confirming subscription</source>
         <target>Problema ao confirmar a subscrição</target>
       </trans-unit>
-      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText">
+      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again. Visit our help center below to learn how to troubleshoot this issue or contact support.</source>
       </trans-unit>
-      <trans-unit id="vpn.getHelp.developerOptions">
+      <trans-unit id="vpn.getHelp.developerOptions" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
         <source>Developer options</source>
       </trans-unit>
@@ -1150,7 +1150,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Help Center</source>
         <target>Centro de ajuda</target>
       </trans-unit>
-      <trans-unit id="vpn.getHelp.linkTitle">
+      <trans-unit id="vpn.getHelp.linkTitle" xml:space="preserve">
         <source>Get help</source>
       </trans-unit>
       <trans-unit id="vpn.getHelp.viewLogs" xml:space="preserve">
@@ -1158,11 +1158,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Ver registos</target>
         <source>View Logs</source>
       </trans-unit>
-      <trans-unit id="vpn.global.clear">
+      <trans-unit id="vpn.global.clear" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for clear button</note>
         <source>Clear</source>
       </trans-unit>
-      <trans-unit id="vpn.global.close">
+      <trans-unit id="vpn.global.close" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for close button</note>
         <source>Close</source>
       </trans-unit>
@@ -1171,15 +1171,15 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Colapsar</target>
         <source>Collapse</source>
       </trans-unit>
-      <trans-unit id="vpn.global.continue">
+      <trans-unit id="vpn.global.continue" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to proceed with an action</note>
         <source>Continue</source>
       </trans-unit>
-      <trans-unit id="vpn.global.copied">
+      <trans-unit id="vpn.global.copied" xml:space="preserve">
         <note annotates="source" from="developer">Confirmation banner displayed after clicking a button to copy something.</note>
         <source>Copied!</source>
       </trans-unit>
-      <trans-unit id="vpn.global.copy">
+      <trans-unit id="vpn.global.copy" xml:space="preserve">
         <note annotates="source" from="developer">Accessible button label</note>
         <source>Copy</source>
       </trans-unit>
@@ -1198,19 +1198,19 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Voltar</target>
         <source>Go back</source>
       </trans-unit>
-      <trans-unit id="vpn.global.noInternetConnection">
+      <trans-unit id="vpn.global.noInternetConnection" xml:space="preserve">
         <note annotates="source" from="developer">Status alert text</note>
         <source>No internet connection</source>
       </trans-unit>
-      <trans-unit id="vpn.global.noThanks">
+      <trans-unit id="vpn.global.noThanks" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to not proceed with an action</note>
         <source>No thanks</source>
       </trans-unit>
-      <trans-unit id="vpn.global.paste">
+      <trans-unit id="vpn.global.paste" xml:space="preserve">
         <note annotates="source" from="developer">Label for button to paste value from clipboard into input</note>
         <source>Paste</source>
       </trans-unit>
-      <trans-unit id="vpn.global.signOut">
+      <trans-unit id="vpn.global.signOut" xml:space="preserve">
         <note annotates="source" from="developer">Link title</note>
         <source>Sign out</source>
       </trans-unit>
@@ -1250,7 +1250,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Enter your email address to continue using Mozilla VPN</source>
         <target>Insira o seu endereço de e-mail para continuar a usar a Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription">
+      <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription" xml:space="preserve">
         <note annotates="source" from="developer">User message prompting user to finish creating their account to use Mozilla VPN.</note>
         <source>Finish creating your Firefox account to continue to Mozilla VPN</source>
       </trans-unit>
@@ -1258,11 +1258,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Forgot your password?</source>
         <target>Esqueceu-se da sua palavra-passe?</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.hidePassword">
+      <trans-unit id="vpn.inAppAuth.hidePassword" xml:space="preserve">
         <note annotates="source" from="developer">Tooltip label for the eye icon in password input</note>
         <source>Hide password</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.informationUsageDisclaimer">
+      <trans-unit id="vpn.inAppAuth.informationUsageDisclaimer" xml:space="preserve">
         <note annotates="source" from="developer">Non-op text that informs user about how Mozilla will not sell it to a third party.</note>
         <source>We only use your email to create your account or sign in. We will never sell it to a third party.</source>
       </trans-unit>
@@ -1309,7 +1309,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Enter password</source>
         <target>Inserir palavra-passe</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.pleaseWait">
+      <trans-unit id="vpn.inAppAuth.pleaseWait" xml:space="preserve">
         <note annotates="source" from="developer">Headline on loading screen</note>
         <source>Please wait…</source>
       </trans-unit>
@@ -1328,11 +1328,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Problema ao enviar a mensagem…</target>
         <source>Problem sending email…</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.productUpdateOptInDescription">
+      <trans-unit id="vpn.inAppAuth.productUpdateOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">Checkbox label for users to opt in, when creating an account, to receive product update emails from Firefox.</note>
         <source>I’d like to receive product update emails from Firefox.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle">
+      <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle" xml:space="preserve">
         <source>To continue, please confirm with your Firefox account password.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.resendCodeLink" xml:space="preserve">
@@ -1365,11 +1365,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Inserir código de 6 dígitos</target>
         <source>Enter 6-digit code</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.showPassword">
+      <trans-unit id="vpn.inAppAuth.showPassword" xml:space="preserve">
         <note annotates="source" from="developer">Tooltip label for the eye icon in password input</note>
         <source>Show password</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.signInBlockedForOneMinute">
+      <trans-unit id="vpn.inAppAuth.signInBlockedForOneMinute" xml:space="preserve">
         <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 1 minute until they can try again.</note>
         <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 1 minute.</source>
       </trans-unit>
@@ -1377,7 +1377,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Sign in</source>
         <target>Iniciar sessão</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.signInFailedPopupDescription">
+      <trans-unit id="vpn.inAppAuth.signInFailedPopupDescription" xml:space="preserve">
         <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 15 minutes until they can try again.</note>
         <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 15 minutes.</source>
       </trans-unit>
@@ -1407,7 +1407,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Verify</source>
         <target>Verificar</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.waitingForSignIn">
+      <trans-unit id="vpn.inAppAuth.waitingForSignIn" xml:space="preserve">
         <note annotates="source" from="developer">Headline on loading screen</note>
         <source>Waiting for sign in and subscription confirmation…</source>
       </trans-unit>
@@ -1470,7 +1470,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Problemas com a conta</target>
         <source>Account issues</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.disclaimerText">
+      <trans-unit id="vpn.inAppSupportWorkflow.disclaimerText" xml:space="preserve">
         <source>When you submit, Mozilla VPN will collect technical and interaction data with your email to help our support team understand your issue.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel" xml:space="preserve">
@@ -1529,10 +1529,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Error submitting your support request</source>
         <target>Erro ao submeter o seu pedido de apoio</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportFieldHeader">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportFieldHeader" xml:space="preserve">
         <source>How can we help you with Mozilla VPN?</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportNavLinkText" xml:space="preserve">
@@ -1543,7 +1543,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Submit</source>
         <target>Submeter</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents the email used to complete the form</note>
         <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
       </trans-unit>
@@ -1569,11 +1569,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Pesquisar por idiomas</target>
         <source>Search languages</source>
       </trans-unit>
-      <trans-unit id="vpn.languageView.systemLanguageButtonDescription">
+      <trans-unit id="vpn.languageView.systemLanguageButtonDescription" xml:space="preserve">
         <note annotates="source" from="developer">the description for the system lagnague radio button</note>
         <source>Mozilla VPN will use the default system language.</source>
       </trans-unit>
-      <trans-unit id="vpn.languageView.systemLanguageButtonTitle">
+      <trans-unit id="vpn.languageView.systemLanguageButtonTitle" xml:space="preserve">
         <note annotates="source" from="developer">the title for the system language radio button</note>
         <source>System language</source>
       </trans-unit>
@@ -1581,28 +1581,28 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Already a subscriber?</source>
         <target>Já subscreveu?</target>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelFourSubtitle">
+      <trans-unit id="vpn.mobileOnboarding.panelFourSubtitle" xml:space="preserve">
         <source>Stream, download and game without limits, monthly caps or ISP throttling.</source>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelFourTitle" xml:space="preserve">
         <source>More security with one tap</source>
         <target>Mais segurança com um toque</target>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle">
+      <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle" xml:space="preserve">
         <source>A safe, reliable and fast VPN. Built by the makers of Firefox.</source>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneTitle" xml:space="preserve">
         <source>Mozilla VPN</source>
         <target>Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelThreeSubtitle">
+      <trans-unit id="vpn.mobileOnboarding.panelThreeSubtitle" xml:space="preserve">
         <source>Route your activity and location through servers in more than 30 countries.</source>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelThreeTitle" xml:space="preserve">
         <source>Protect your privacy</source>
         <target>Proteja a sua privacidade</target>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelTwoSubtitle">
+      <trans-unit id="vpn.mobileOnboarding.panelTwoSubtitle" xml:space="preserve">
         <source>Mozilla VPN keeps your location and browsing safe from eavesdroppers.</source>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelTwoTitle" xml:space="preserve">
@@ -1621,7 +1621,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Your subscription is linked to another Firefox Account. You may need to sign in with a different email address.</source>
         <target>A sua subscrição está associada a outra Conta Firefox. Pode ter de iniciar sessão com um endereço de e-mail diferente.</target>
       </trans-unit>
-      <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter">
+      <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection" xml:space="preserve">
@@ -1634,10 +1634,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Para</target>
         <source>To</source>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopCardBody">
+      <trans-unit id="vpn.multiHopFeature.multiHopCardBody" xml:space="preserve">
         <source>Multi-hop VPN routes your traffic through two servers instead of one for extra security and privacy. This may slow down your connection.</source>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopCardHeader">
+      <trans-unit id="vpn.multiHopFeature.multiHopCardHeader" xml:space="preserve">
         <source>What is multi-hop VPN?</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader" xml:space="preserve">
@@ -1652,17 +1652,17 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Select exit location</source>
         <target>Selecione uma localização de saída</target>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopInfoText">
+      <trans-unit id="vpn.multiHopFeature.multiHopInfoText" xml:space="preserve">
         <source>Exit location represents your main VPN server.</source>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA">
+      <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA" xml:space="preserve">
         <source>Multi-hop</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
         <target>Sem resultados. Tente uma pesquisa diferente</target>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA">
+      <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA" xml:space="preserve">
         <source>Single-hop</source>
       </trans-unit>
       <trans-unit id="vpn.navBar.homeTab" xml:space="preserve">
@@ -1680,10 +1680,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Definições</target>
         <source>Settings</source>
       </trans-unit>
-      <trans-unit id="vpn.networkSettings.multihopTitle">
+      <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
         <source>Multi-hop tunnel</source>
       </trans-unit>
-      <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText">
+      <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText" xml:space="preserve">
         <source>To continue subscribing, please sign in to your Google Account</source>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalHeader" xml:space="preserve">
@@ -1694,83 +1694,83 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Go to Play Store</source>
         <target>Ir para a Play Store</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNConnectedMessage">
+      <trans-unit id="vpn.notifications.VPNConnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
         <source>Connected to %1</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNConnectedMessages">
+      <trans-unit id="vpn.notifications.VPNConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
         <source>Connected through %1</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNConnectedTitle">
+      <trans-unit id="vpn.notifications.VPNConnectedTitle" xml:space="preserve">
         <source>VPN Connected</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNDisconnectedMessage">
+      <trans-unit id="vpn.notifications.VPNDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN disconnected from.</note>
         <source>Disconnected from %1</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNDisconnectedTitle">
+      <trans-unit id="vpn.notifications.VPNDisconnectedTitle" xml:space="preserve">
         <source>VPN Disconnected</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessage">
+      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
         <source>Connected to %1, through %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages">
+      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
         <source>Connected through %1 via %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage">
+      <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
         <source>Disconnected from %1 and %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNSwitchedServersMessage">
+      <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the initial server, %2 is the name of the destination server.</note>
         <source>Switched from %1 to %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNSwitchedServersTitle">
+      <trans-unit id="vpn.notifications.VPNSwitchedServersTitle" xml:space="preserve">
         <source>VPN Switched Servers</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalBlockMessage2">
+      <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
         <target>Portal de Wi-Fi convidado bloqueado</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalUnblockMessage2">
+      <trans-unit id="vpn.notifications.captivePortalUnblockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal detected</source>
         <target>Portal de Wi-Fi convidado detetado</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.subscriptionNotFound">
+      <trans-unit id="vpn.notifications.subscriptionNotFound" xml:space="preserve">
         <source>Your Mozilla VPN subscription cannot be found. Please open the app to resolve this subscription issue.</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.unsecuredNetworkMessage">
+      <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.unsecuredNetworkTitle">
+      <trans-unit id="vpn.notifications.unsecuredNetworkTitle" xml:space="preserve">
         <source>Unsecured Wi-Fi network detected</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelFourSubtitle">
+      <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
         <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelFourTitle">
+      <trans-unit id="vpn.onboarding.panelFourTitle" xml:space="preserve">
         <source>Add even more privacy</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelThreeSubtitle">
+      <trans-unit id="vpn.onboarding.panelThreeSubtitle" xml:space="preserve">
         <source>Protecting yourself is simple: tap to connect to the VPN and you’re ready to browse safely. Mozilla VPN will start automatically for seamless protection.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelThreeTitle">
+      <trans-unit id="vpn.onboarding.panelThreeTitle" xml:space="preserve">
         <source>One tap to safety</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelTwoSubtitle">
+      <trans-unit id="vpn.onboarding.panelTwoSubtitle" xml:space="preserve">
         <source>With more than 500 servers in 60 cities around the world, Mozilla VPN protects your data, browsing activity, and your true location from network spies.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelTwoTitle">
+      <trans-unit id="vpn.onboarding.panelTwoTitle" xml:space="preserve">
         <source>Protect your privacy</source>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
@@ -1813,54 +1813,54 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Visa</source>
         <target>Visa</target>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.headline">
+      <trans-unit id="vpn.postAuthentication.headline" xml:space="preserve">
         <source>Quick access</source>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.subtitle">
+      <trans-unit id="vpn.postAuthentication.subtitle" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
       </trans-unit>
-      <trans-unit id="vpn.product.description">
+      <trans-unit id="vpn.product.description" xml:space="preserve">
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
       </trans-unit>
-      <trans-unit id="vpn.product.name">
+      <trans-unit id="vpn.product.name" xml:space="preserve">
         <source>Mozilla VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.purchase.percentSaved">
+      <trans-unit id="vpn.purchase.percentSaved" xml:space="preserve">
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan</note>
         <source>Save %1%</source>
       </trans-unit>
-      <trans-unit id="vpn.purchase.subscribeNow">
+      <trans-unit id="vpn.purchase.subscribeNow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
         <source>Subscribe now</source>
       </trans-unit>
-      <trans-unit id="vpn.purchase.subscriptionOption">
+      <trans-unit id="vpn.purchase.subscriptionOption" xml:space="preserve">
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
         <source>%1-month plan: %2</source>
       </trans-unit>
-      <trans-unit id="vpn.purchaseWeb.inProgress2">
+      <trans-unit id="vpn.purchaseWeb.inProgress2" xml:space="preserve">
         <source>Please continue subscribing in your browser…</source>
       </trans-unit>
-      <trans-unit id="vpn.purchaseWeb.message">
+      <trans-unit id="vpn.purchaseWeb.message" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the user’s email address.</note>
         <source>We couldn’t find a subscription for %1. Subscribe now to protect your connection.</source>
       </trans-unit>
-      <trans-unit id="vpn.purchaseWeb.title">
+      <trans-unit id="vpn.purchaseWeb.title" xml:space="preserve">
         <source>Subscribe to Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
         <source>Already a subscriber?</source>
         <target>Já subscreveu?</target>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText">
+      <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText" xml:space="preserve">
         <source>Sorry, we are unable to connect your Firefox Account to a current subscription. Please try again or contact our support team for further assistance.</source>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText">
+      <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText" xml:space="preserve">
         <source>Sorry, we were unable to confirm your subscription. Please try again or contact our support team for help.</source>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText">
+      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText" xml:space="preserve">
         <source>Another Firefox Account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.bodyText">
+      <trans-unit id="vpn.serverUnavailableModal.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Choose a new location.</source>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.buttonLabel" xml:space="preserve">
@@ -1871,145 +1871,145 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Server unavailable</source>
         <target>Servidor indisponível</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
+      <trans-unit id="vpn.serverUnavailableNotification.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
+      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked" xml:space="preserve">
         <source>The server has been blocked. Check your firewall settings.</source>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel">
+      <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel" xml:space="preserve">
         <source>Server unavailable notification</source>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel">
+      <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel" xml:space="preserve">
         <source>Get notified when connecting to a server location failed</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedCardBody">
+      <trans-unit id="vpn.serversView.recommendedCardBody" xml:space="preserve">
         <note annotates="source" from="developer">Body text of an expandable info card on the recommended servers list.</note>
         <source>These locations are sorted by expected performance.</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedCardTitle">
+      <trans-unit id="vpn.serversView.recommendedCardTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title of an expandable info card on the recommended servers list.</note>
         <source>Why are these locations recommended?</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshLabel">
+      <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that triggers a refresh of the recommended servers list.</note>
         <source>Refresh list</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel">
+      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel" xml:space="preserve">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated and instructions to re-enable the refresh button. Argument is the time or date/day</note>
         <source>Last updated: %1. To update this list please disconnect from the VPN.</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabel">
+      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabel" xml:space="preserve">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated. Argument is the time or date/day</note>
         <source>Last updated: %1.</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabelYesterday">
+      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabelYesterday" xml:space="preserve">
         <source>yesterday</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel">
+      <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel" xml:space="preserve">
         <note annotates="source" from="developer">Loading string while recommended servers are being calculated. Argument is the percentage of completion as an integer (i.e. 25)</note>
         <source>Checking (%1%)…</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.searchNoResultsLabel">
+      <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.searchPlaceholder" xml:space="preserve">
         <source>Search countries</source>
         <target>Pesquisar por países</target>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithGoodConnection">
+      <trans-unit id="vpn.serversView.serverCityWithGoodConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is good. Argument is the city name.</note>
         <source>%1. Good connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithModerateConnection">
+      <trans-unit id="vpn.serversView.serverCityWithModerateConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is moderate. Argument is the city name.</note>
         <source>%1. Moderate connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithNoConnection">
+      <trans-unit id="vpn.serversView.serverCityWithNoConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is unavailable. Argument is the city name.</note>
         <source>%1. No connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithPoorConnection">
+      <trans-unit id="vpn.serversView.serverCityWithPoorConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is poor. Argument is the city name.</note>
         <source>%1. Poor connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.tabAllLabel">
+      <trans-unit id="vpn.serversView.tabAllLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the “all” servers tab</note>
         <source>All</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.tabRecommendedLabel">
+      <trans-unit id="vpn.serversView.tabRecommendedLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the “recommended” servers tab</note>
         <source>Recommended</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.appExclusionClearAllApps">
+      <trans-unit id="vpn.settings.appExclusionClearAllApps" xml:space="preserve">
         <note annotates="source" from="developer">Button label to clear all apps from the exclusions list</note>
         <source>Clear all</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.appExclusionSettings">
+      <trans-unit id="vpn.settings.appExclusionSettings" xml:space="preserve">
         <source>App exclusions</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.appPreferences">
+      <trans-unit id="vpn.settings.appPreferences" xml:space="preserve">
         <source>App preferences</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.crashOptInDescription">
+      <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dataCollectionDescription">
+      <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettings">
+      <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
         <source>DNS settings</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody">
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody" xml:space="preserve">
         <source>Resolve websites using a custom DNS</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsCustomDNSError">
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSError" xml:space="preserve">
         <source>Invalid DNS, please try a new one</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle">
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle" xml:space="preserve">
         <source>Use custom DNS</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning">
+      <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning" xml:space="preserve">
         <source>Changing these settings will cause the VPN to disconnect and reconnect automatically.</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder">
+      <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder" xml:space="preserve">
         <source>Enter custom DNS</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody">
+      <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody" xml:space="preserve">
         <source>Resolve websites using Mozilla VPN’s standard DNS</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle">
+      <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle" xml:space="preserve">
         <source>Use standard DNS</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsWarning">
+      <trans-unit id="vpn.settings.dnsSettingsWarning" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyAdblockBody">
+      <trans-unit id="vpn.settings.privacyAdblockBody" xml:space="preserve">
         <source>Reduces the number of ads you see when you’re using VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyAdblockTitle">
+      <trans-unit id="vpn.settings.privacyAdblockTitle" xml:space="preserve">
         <source>Block ads</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyCard">
+      <trans-unit id="vpn.settings.privacyCard" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyMalwareBody">
+      <trans-unit id="vpn.settings.privacyMalwareBody" xml:space="preserve">
         <source>Helps protect you from ransomware, phishing, spyware, viruses, and malware</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyMalwareTitle">
+      <trans-unit id="vpn.settings.privacyMalwareTitle" xml:space="preserve">
         <source>Block malware</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacySettings">
+      <trans-unit id="vpn.settings.privacySettings" xml:space="preserve">
         <source>Privacy features</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyTrackerBody">
+      <trans-unit id="vpn.settings.privacyTrackerBody" xml:space="preserve">
         <source>Fewer harmful domains will be able to track you</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyTrackerTitle">
+      <trans-unit id="vpn.settings.privacyTrackerTitle" xml:space="preserve">
         <source>Block trackers</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.startAtBootSubtitle">
+      <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
         <source>Mozilla VPN will launch and connect when you start up your device</source>
       </trans-unit>
       <trans-unit id="vpn.settings.startAtBootTitle" xml:space="preserve">
@@ -2017,7 +2017,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Ligar VPN no arranque</target>
         <source>Connect VPN on startup</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.tipsAndTricksSettings">
+      <trans-unit id="vpn.settings.tipsAndTricksSettings" xml:space="preserve">
         <source>Tips and tricks</source>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
@@ -2036,14 +2036,14 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Developer Options</source>
         <target>Opções do programador</target>
       </trans-unit>
-      <trans-unit id="vpn.settingsDev.useStagingSubtitle">
+      <trans-unit id="vpn.settingsDev.useStagingSubtitle" xml:space="preserve">
         <source>Staging services are used to test features before they go live to production</source>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.useStagingTitle" xml:space="preserve">
         <source>Use Staging Servers</source>
         <target>Usar servidores de teste</target>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoCardDescription">
+      <trans-unit id="vpn.splittunnel.infoCardDescription" xml:space="preserve">
         <note annotates="source" from="developer">Displays inside the information card at the top of the app exclusions screen when the VPN is on</note>
         <source>VPN must be off to edit App exclusions</source>
       </trans-unit>
@@ -2056,7 +2056,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Para quaisquer questões sobre como definir as permissões da aplicação, nós fornecemos algumas dicas úteis no nosso site.</target>
         <source>For any questions about setting app permissions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoText2">
+      <trans-unit id="vpn.splittunnel.infoText2" xml:space="preserve">
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
         <source>For any questions about setting app exclusions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
@@ -2065,27 +2065,27 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Adicionar aplicações manualmente</target>
         <source>Add apps manually</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.missingAppAddedOne">
+      <trans-unit id="vpn.splittunnel.missingAppAddedOne" xml:space="preserve">
         <note annotates="source" from="developer">Displayed in notification after the user added a missing app to the split-tunnel List; %1 is the name of the added application</note>
         <source>Success! You added “%1” to this list.</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.missingAppMultiple">
+      <trans-unit id="vpn.splittunnel.missingAppMultiple" xml:space="preserve">
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
         <source>%1 apps missing from list.</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.activatedLabel">
+      <trans-unit id="vpn.subscriptionManagement.activatedLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the date on which the subscription was activated.</note>
         <source>Active since</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.addFirefoxRelay">
+      <trans-unit id="vpn.subscriptionManagement.addFirefoxRelay" xml:space="preserve">
         <note annotates="source" from="developer">Block of text appearing above a link to learn more about the VPN / Relay bundle offering.</note>
         <source>Add Firefox Relay</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.cardExpiresLabel">
+      <trans-unit id="vpn.subscriptionManagement.cardExpiresLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the date on which the payment method expires.</note>
         <source>Expires</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.cardLast4">
+      <trans-unit id="vpn.subscriptionManagement.cardLast4" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents the last four digits of a credit card.</note>
         <source>Card ending in %1</source>
       </trans-unit>
@@ -2094,7 +2094,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Expira</target>
         <source>Expires</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.manageAccount">
+      <trans-unit id="vpn.subscriptionManagement.manageAccount" xml:space="preserve">
         <source>Manage account</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.manageSubscriptionButton" xml:space="preserve">
@@ -2122,39 +2122,39 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Plano de subscrição</target>
         <source>Subscription plan</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planMonthly">
+      <trans-unit id="vpn.subscriptionManagement.planMonthly" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription. %1 represents the localized currency string</note>
         <source>Monthly plan: %1</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription plus tax. %1 represents the localized currency string</note>
         <source>%1/month + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planMonthlyWithoutTax">
+      <trans-unit id="vpn.subscriptionManagement.planMonthlyWithoutTax" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription without tax. %1 represents the localized currency string</note>
         <source>%1/month</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly">
+      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
         <source>%1 Half-yearly</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
         <source>%1 Half-yearly + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueMonthly">
+      <trans-unit id="vpn.subscriptionManagement.planValueMonthly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
         <source>%1 Monthly</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
         <source>%1 Monthly + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueYearly">
+      <trans-unit id="vpn.subscriptionManagement.planValueYearly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
         <source>%1 Yearly</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
         <source>%1 Yearly + tax</source>
       </trans-unit>
@@ -2188,15 +2188,15 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Atualizar</target>
         <source>Upgrade</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.valueProp1">
+      <trans-unit id="vpn.subscriptionManagement.valueProp1" xml:space="preserve">
         <note annotates="source" from="developer">Value proposition used to promote the product</note>
         <source>No logging of your network activity</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.valueProp2">
+      <trans-unit id="vpn.subscriptionManagement.valueProp2" xml:space="preserve">
         <note annotates="source" from="developer">Value proposition used to promote the product</note>
         <source>No one can track you</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.valueProp3">
+      <trans-unit id="vpn.subscriptionManagement.valueProp3" xml:space="preserve">
         <note annotates="source" from="developer">Value proposition used to promote the product</note>
         <source>500+ servers in 30+ countries</source>
       </trans-unit>
@@ -2245,28 +2245,28 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Disconnecting from:</source>
         <target>A desligar de:</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.allow">
+      <trans-unit id="vpn.telemetryPolicyView.allow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
         <source>Allow on this device</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.dataCollectionAndUse">
+      <trans-unit id="vpn.telemetryPolicyView.dataCollectionAndUse" xml:space="preserve">
         <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
         <source>Data collection and use</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.description">
+      <trans-unit id="vpn.telemetryPolicyView.description" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.doNotAllow">
+      <trans-unit id="vpn.telemetryPolicyView.doNotAllow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
         <source>Don’t allow</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.learnMore">
+      <trans-unit id="vpn.telemetryPolicyView.learnMore" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.question">
+      <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
       </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.advancedTipsDescription">
+      <trans-unit id="vpn.tipsAndTricks.advancedTipsDescription" xml:space="preserve">
         <source>Let us help you learn more about Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.advancedTipsGuideViewTitle" xml:space="preserve">
@@ -2277,7 +2277,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Advanced tips</source>
         <target>Dicas avançadas</target>
       </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.introModalDescription">
+      <trans-unit id="vpn.tipsAndTricks.introModalDescription" xml:space="preserve">
         <source>Here’s a great list of useful tips and tricks to get the best out of your Mozilla VPN experience. Check it out now or find it anytime in the settings.</source>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.moreTutorialsDescription2" xml:space="preserve">
@@ -2331,14 +2331,14 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Leave tutorial</source>
         <target>Sair do tutorial</target>
       </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialCompleteHeadline">
+      <trans-unit id="vpn.tutorialPopup.tutorialCompleteHeadline" xml:space="preserve">
         <source>Well done!</source>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialCompletePrimaryButtonLabel" xml:space="preserve">
         <source>Let’s go!</source>
         <target>Vamos lá!</target>
       </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialFinishedSecondaryButtonLabel">
+      <trans-unit id="vpn.tutorialPopup.tutorialFinishedSecondaryButtonLabel" xml:space="preserve">
         <source>Dismiss</source>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialLeaveHeadline" xml:space="preserve">
@@ -2349,16 +2349,16 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Resume tutorial</source>
         <target>Retomar tutorial</target>
       </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialLeaveSubtitle">
+      <trans-unit id="vpn.tutorialPopup.tutorialLeaveSubtitle" xml:space="preserve">
         <source>Looks like you haven’t finished the tutorial quite yet. Would you like to continue and finish now or quit and come back later?</source>
       </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialWarningDescription">
+      <trans-unit id="vpn.tutorialPopup.tutorialWarningDescription" xml:space="preserve">
         <source>By continuing this tutorial, you will be changing your VPN settings. These settings will revert to their original state upon completion or quitting of the tutorial.</source>
       </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialWarningTitle">
+      <trans-unit id="vpn.tutorialPopup.tutorialWarningTitle" xml:space="preserve">
         <source>Continue tutorial?</source>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.actionNoUpdate">
+      <trans-unit id="vpn.updateButton.actionNoUpdate" xml:space="preserve">
         <source>Okay</source>
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionOnUpdate" xml:space="preserve">
