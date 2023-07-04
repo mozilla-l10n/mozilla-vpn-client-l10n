@@ -108,28 +108,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../../nebula/ui/components/VPNGraphLegendMarker.qml" datatype="plaintext" source-language="en" target-language="sl">
-    <body>
-      <trans-unit id="vpn.connectionInfo.accessibleName" xml:space="preserve">
-        <note annotates="source" from="developer">Used as accessibility description for the connection info: %1 is the localized label for “Upload” or “Download”, %2 is the speed value, %3 is the localized unit. Example: “Upload: 10 Mbps”.</note>
-        <target>%1: %2 %3</target>
-        <source>%1: %2 %3</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/VPNSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="sl">
-    <body>
-      <trans-unit id="vpn.subscription.monthlyPlan" xml:space="preserve">
-        <source>Monthly plan</source>
-        <target>Mesečna naročnina</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.price" xml:space="preserve">
-        <note annotates="source" from="developer">“/month” stands for “per month”. %1 is replaced by the monthly cost (including currency).</note>
-        <target>%1/mesec</target>
-        <source>%1/month</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../../nebula/ui/components/inAppAuth/MZInAppAuthenticationBase.qml" datatype="plaintext" source-language="en" target-language="sl">
     <body>
       <trans-unit id="vpn.main.getHelp2" xml:space="preserve">
@@ -646,14 +624,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
   </file>
   <file original="../src/apps/vpn/ui/screens/initialize/ViewInitialize.qml" datatype="plaintext" source-language="en" target-language="sl">
     <body>
-      <trans-unit id="vpn.main.getStarted" xml:space="preserve">
-        <source>Get started</source>
-        <target>Začnite</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.learnMore" xml:space="preserve">
-        <source>Learn more</source>
-        <target>Več o tem</target>
-      </trans-unit>
       <trans-unit id="vpn.main.productDescription" xml:space="preserve">
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
         <target>Hiter, varen in enostaven VPN. Izdelek izdelovalcev Firefoxa.</target>
@@ -678,30 +648,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
         <source>No online activity logs</source>
         <target>Ni dnevnikov spletne dejavnosti</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.next" xml:space="preserve">
-        <source>Next</source>
-        <target>Naprej</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.skip" xml:space="preserve">
-        <source>Skip</source>
-        <target>Preskoči</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.1" xml:space="preserve">
-        <source>Encrypt your traffic so that it can’t be read by your ISP or eavesdroppers.</source>
-        <target>Šifrirajte svoj promet, da ga ne bodo mogli prebrati niti ponudniki internetnih storitev niti prisluškovalci.</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.2" xml:space="preserve">
-        <source>Pick a server in any country you want and hide your location to throw off trackers.</source>
-        <target>Izberite strežnik v katerikoli državi, zakrijte svojo lokacijo in se otresite sledilcev.</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.3" xml:space="preserve">
-        <source>Stream, download, and game without limits, monthly caps or ISP throttling.</source>
-        <target>Pretakajte videe, prenašajte datoteke in igrajte igre brez omejitev, mesečnih limitov ali omejevanja s strani ponudnika internetnih storitev.</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.subtitle.4" xml:space="preserve">
-        <source>We are committed to not monitoring or logging your browsing or network history.</source>
-        <target>Zavezujemo se, da ne bomo nadzorovali ali shranjevali vaše zgodovine brskanja in omrežne zgodovine.</target>
       </trans-unit>
     </body>
   </file>
@@ -803,27 +749,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Search bar placeholder text</note>
         <source>Search apps</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.excludeTitle" xml:space="preserve">
-        <note annotates="source" from="developer">Header for the list of apps protected by VPN</note>
-        <target>Izvzemite aplikacije iz zaščite z VPN</target>
-        <source>Exclude apps from VPN protection</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectAllApps" xml:space="preserve">
-        <source>Protect all apps with VPN</source>
-        <target>Zaščitite vse aplikacije z VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.protectAllApps.description" xml:space="preserve">
-        <source>VPN protects all apps by default. Turn off to choose which apps Mozilla VPN should not protect.</source>
-        <target>VPN privzeto ščiti vse aplikacije. Izklopite, če želite izbrati, katerih aplikacij naj Mozilla VPN ne ščiti.</target>
-      </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/subscriptionNeeded/ViewSubscriptionNeededIAP.qml" datatype="plaintext" source-language="en" target-language="sl">
     <body>
-      <trans-unit id="vpn.subscription.featureTitle1" xml:space="preserve">
-        <source>No activity logs</source>
-        <target>Ni dnevnikov dejavnosti</target>
-      </trans-unit>
       <trans-unit id="vpn.subscription.featureTitle4" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
         <target>Povežite do %1 naprav</target>
@@ -1660,14 +1589,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Already a subscriber?</source>
         <target>Ste že naročnik?</target>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelFourSubtitle" xml:space="preserve">
-        <source>Stream, download and game without limits, monthly caps or ISP throttling.</source>
-        <target>Pretakajte videe, prenašajte datoteke in igrajte igre brez omejitev, mesečnih limitov ali omejevanja s strani ponudnika internetnih storitev.</target>
-      </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelFourTitle" xml:space="preserve">
-        <source>More security with one tap</source>
-        <target>Več varnosti z enim dotikom</target>
-      </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle" xml:space="preserve">
         <source>A safe, reliable and fast VPN. Built by the makers of Firefox.</source>
         <target>Varen, zanesljiv in hiter VPN. Delo izdelovalcev Firefoxa.</target>
@@ -1675,21 +1596,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.mobileOnboarding.panelOneTitle" xml:space="preserve">
         <source>Mozilla VPN</source>
         <target>Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelThreeSubtitle" xml:space="preserve">
-        <source>Route your activity and location through servers in more than 30 countries.</source>
-      </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelThreeTitle" xml:space="preserve">
-        <source>Protect your privacy</source>
-        <target>Zaščitite svojo zasebnost</target>
-      </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelTwoSubtitle" xml:space="preserve">
-        <source>Mozilla VPN keeps your location and browsing safe from eavesdroppers.</source>
-        <target>Mozilla VPN varuje vašo lokacijo in brskanje pred prisluškovanjem.</target>
-      </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelTwoTitle" xml:space="preserve">
-        <source>Encrypt your activity</source>
-        <target>Šifrirajte svojo dejavnost</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.signUpBtn" xml:space="preserve">
         <source>Sign up</source>
@@ -2202,10 +2108,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
         <source>Learn more</source>
         <target>Več o tem</target>
-      </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoText" xml:space="preserve">
-        <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
-        <source>For any questions about setting app permissions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText2" xml:space="preserve">
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
