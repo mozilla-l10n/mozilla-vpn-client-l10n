@@ -26,6 +26,7 @@ jobs:
       - name: Install Qt
         run: |
           python3 -m pip install aqtinstall
+          python3 -m aqt list-qt linux desktop
           python3 -m aqt install-qt -O /opt linux desktop $QTVERSION
       - name: Clone main code repository
         uses: actions/checkout@v3
