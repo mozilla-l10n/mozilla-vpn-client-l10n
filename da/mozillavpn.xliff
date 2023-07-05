@@ -446,8 +446,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.feedbackForm.ratingHeadline">
         <source>How would you describe your Mozilla VPN experience so far?</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.veryPoor">
+      <trans-unit id="vpn.feedbackForm.veryPoor" xml:space="preserve">
         <source>Very poor</source>
+        <target>Meget dårlig</target>
       </trans-unit>
     </body>
   </file>
@@ -468,34 +469,39 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.feedbackForm.privacyNoticeLink">
         <source>Mozilla VPN Privacy Notice</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.skip">
+      <trans-unit id="vpn.feedbackForm.skip" xml:space="preserve">
         <source>Skip</source>
+        <target>Spring over</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.textAreaPlaceholder">
         <source>Enter feedback…</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackform.submit">
+      <trans-unit id="vpn.feedbackform.submit" xml:space="preserve">
         <source>Submit</source>
+        <target>Indsend</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/getHelp/giveFeedback/ViewGiveFeedbackThankYou.qml" datatype="plaintext" source-language="en" target-language="da">
     <body>
-      <trans-unit id="vpn.feedbackForm.thankyou">
+      <trans-unit id="vpn.feedbackForm.thankyou" xml:space="preserve">
         <source>Thank you!</source>
+        <target>Tak!</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.thankyouSubtitle">
         <source>We appreciate your feedback. You’re helping us improve Mozilla VPN.</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackform.done">
+      <trans-unit id="vpn.feedbackform.done" xml:space="preserve">
         <source>Done</source>
+        <target>Færdig</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/home/ViewHome.qml" datatype="plaintext" source-language="en" target-language="da">
     <body>
-      <trans-unit id="MozillaVPN">
+      <trans-unit id="MozillaVPN" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.servers.currentLocation">
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
@@ -514,11 +520,13 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
         <source>Check Connection</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionStability.noSignal">
+      <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
         <source>No Signal</source>
+        <target>Intet signal</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionStability.unstable">
+      <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>Ustabil</target>
         <source>Unstable</source>
       </trans-unit>
     </body>
@@ -534,8 +542,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.controller.activationSloagan">
         <source>Turn on to protect your privacy</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.active">
+      <trans-unit id="vpn.controller.active" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>Sikker og privat</target>
         <source>Secure and private</source>
       </trans-unit>
       <trans-unit id="vpn.controller.attemptingToConfirm">
@@ -553,26 +562,30 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.controller.disconnecting">
         <source>Disconnecting…</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.switching">
+      <trans-unit id="vpn.controller.switching" xml:space="preserve">
         <source>Switching…</source>
+        <target>Skifter…</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.switchingDetail">
+      <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
+        <target>Fra %1 til %2</target>
         <source>From %1 to %2</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/home/controller/connectionInfo/ConnectionInfoContent.qml" datatype="plaintext" source-language="en" target-language="da">
     <body>
-      <trans-unit id="vpn.connectionInfo.download">
+      <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
         <source>Download</source>
+        <target>Download</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/home/servers/ServerCountry.qml" datatype="plaintext" source-language="en" target-language="da">
     <body>
-      <trans-unit id="cities">
+      <trans-unit id="cities" xml:space="preserve">
         <note annotates="source" from="developer">The title for the list of cities.</note>
+        <target>Byer</target>
         <source>Cities</source>
       </trans-unit>
     </body>
@@ -603,8 +616,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
   </file>
   <file original="../src/apps/vpn/ui/screens/settings/ViewAboutUs.qml" datatype="plaintext" source-language="en" target-language="da">
     <body>
-      <trans-unit id="vpn.aboutUs.privacyNotice2">
+      <trans-unit id="vpn.aboutUs.privacyNotice2" xml:space="preserve">
         <source>Privacy notice</source>
+        <target>Privatlivserklæring</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion2">
         <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
