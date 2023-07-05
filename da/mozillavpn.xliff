@@ -49,8 +49,9 @@
         <source>Authentication error</source>
         <target>Godkendelsesfejl</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.backendServiceError">
+      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
         <source>Background service error</source>
+        <target>Fejl med baggrundstjeneste</target>
       </trans-unit>
       <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
         <source>Signed out and device disconnected</source>
@@ -73,8 +74,9 @@
         <target>Gendan</target>
         <source>Restore</source>
       </trans-unit>
-      <trans-unit id="vpn.alert.subscriptionFailureError">
+      <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
         <source>Subscription failed</source>
+        <target>Oprettelse af abonnement mislykkedes</target>
       </trans-unit>
       <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
         <source>Try again</source>
@@ -140,8 +142,9 @@
         <source>Previous Installation Detected</source>
         <target>Tidligere installation fundet</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.title">
+      <trans-unit id="macosinstaller.title" xml:space="preserve">
         <source>Mozilla VPN for macOS</source>
+        <target>Mozilla VPN til macOS</target>
       </trans-unit>
       <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
         <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
@@ -302,8 +305,9 @@
   </file>
   <file original="../src/apps/vpn/ui/screens/ScreenTelemetryPolicy.qml" datatype="plaintext" source-language="en" target-language="da">
     <body>
-      <trans-unit id="vpn.settings.dataCollection">
+      <trans-unit id="vpn.settings.dataCollection" xml:space="preserve">
         <source>Data collection and use</source>
+        <target>Dataindsamling og -brug</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicy.MozillaVPNPrivacyNotice">
         <source>Mozilla VPN Privacy Notice</source>
@@ -321,17 +325,21 @@
   </file>
   <file original="../src/apps/vpn/ui/screens/ScreenViewLogs.qml" datatype="plaintext" source-language="en" target-language="da">
     <body>
-      <trans-unit id="vpn.logs.clear">
+      <trans-unit id="vpn.logs.clear" xml:space="preserve">
         <source>Clear</source>
+        <target>Ryd</target>
       </trans-unit>
-      <trans-unit id="vpn.logs.copied">
+      <trans-unit id="vpn.logs.copied" xml:space="preserve">
         <source>Copied!</source>
+        <target>Kopieret!</target>
       </trans-unit>
-      <trans-unit id="vpn.logs.copy">
+      <trans-unit id="vpn.logs.copy" xml:space="preserve">
         <source>Copy</source>
+        <target>Kopier</target>
       </trans-unit>
-      <trans-unit id="vpn.viewlogs.title">
+      <trans-unit id="vpn.viewlogs.title" xml:space="preserve">
         <source>View Logs</source>
+        <target>Vis logfil</target>
       </trans-unit>
     </body>
   </file>
@@ -351,20 +359,23 @@
       <trans-unit id="vpn.devices.currentDevice">
         <source>Current Device</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.deviceAccessibleName">
+      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
         <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
+        <target>%1 %2</target>
         <source>%1 %2</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeA11Y">
+      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <target>Fjern %1</target>
         <source>Remove %1</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/devices/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="da">
     <body>
-      <trans-unit id="vpn.devices.doDeviceRemoval">
+      <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
         <source>Remove a device</source>
+        <target>Fjern en enhed</target>
       </trans-unit>
       <trans-unit id="vpn.devices.maxDevicesHeader">
         <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
@@ -373,30 +384,35 @@
   </file>
   <file original="../src/apps/vpn/ui/screens/devices/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="da">
     <body>
-      <trans-unit id="vpn.devices.deviceRemovalConfirm">
+      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
+        <target>Bekræft, at du vil fjerne %1.</target>
         <source>Please confirm you would like to remove
 %1.</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceButton">
+      <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
         <note annotates="source" from="developer">This is the “remove” device button.</note>
+        <target>Fjern</target>
         <source>Remove</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceQuestion">
+      <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
         <source>Remove device?</source>
+        <target>Fjern enhed?</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/devices/ViewDevices.qml" datatype="plaintext" source-language="en" target-language="da">
     <body>
-      <trans-unit id="vpn.devices.activeVsMaxDeviceCount">
+      <trans-unit id="vpn.devices.activeVsMaxDeviceCount" xml:space="preserve">
         <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.
 ----------
 Example: You have "x of y" devices in yor account, where y is the limit of allowed devices.</note>
+        <target>%1 af %2</target>
         <source>%1 of %2</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.myDevices">
+      <trans-unit id="vpn.devices.myDevices" xml:space="preserve">
         <source>My devices</source>
+        <target>Mine enheder</target>
       </trans-unit>
     </body>
   </file>
@@ -415,14 +431,17 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.feedbackForm.average">
         <source>Average</source>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.continue">
+      <trans-unit id="vpn.feedbackForm.continue" xml:space="preserve">
         <source>Continue</source>
+        <target>Fortsæt</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.good">
+      <trans-unit id="vpn.feedbackForm.good" xml:space="preserve">
         <source>Good</source>
+        <target>God</target>
       </trans-unit>
-      <trans-unit id="vpn.feedbackForm.poor">
+      <trans-unit id="vpn.feedbackForm.poor" xml:space="preserve">
         <source>Poor</source>
+        <target>Dårlig</target>
       </trans-unit>
       <trans-unit id="vpn.feedbackForm.ratingHeadline">
         <source>How would you describe your Mozilla VPN experience so far?</source>
