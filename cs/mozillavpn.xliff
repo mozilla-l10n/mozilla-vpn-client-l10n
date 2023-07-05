@@ -1,48 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="../../nebula/ui/components/MZMenu.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.connectionInfo.close">
-        <source>Close</source>
-        <target>Zavřít</target>
-      </trans-unit>
-      <trans-unit id="vpn.main.back">
-        <note annotates="source" from="developer">Go back</note>
-        <target>Zpět</target>
-        <source>Back</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/MZPopup.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="menubar.file.close">
-        <source>Close</source>
-        <target>Zavřít</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/MZSignOut.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.main.signOut2">
-        <source>Sign out</source>
-        <target>Odhlásit se</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/MZSubscriptionOption.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.subscription.multiMonthPlan">
-        <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
-        <target>%1měsíční předplatné: %2</target>
-        <source>%1-month plan: %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.subscription.savePercent">
-        <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan.</note>
-        <target>Ušetříte %1 %</target>
-        <source>Save %1%</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../../nebula/ui/components/MZSystemAlert.qml" datatype="plaintext" source-language="en" target-language="cs">
     <body>
       <trans-unit id="vpn.alert.authenticationError">
@@ -60,10 +17,6 @@
       <trans-unit id="vpn.alert.getIPRestrictionError">
         <source>Operation not allowed from current location</source>
         <target>Tato operace není pro stávající umístění dovolena</target>
-      </trans-unit>
-      <trans-unit id="vpn.alert.noInternet">
-        <source>No internet connection</source>
-        <target>Připojení k internetu není dostupné</target>
       </trans-unit>
       <trans-unit id="vpn.alert.remoteServiceError">
         <source>Remote service error</source>
@@ -85,34 +38,6 @@
       <trans-unit id="vpn.alert.unableToConnect">
         <source>Unable to connect</source>
         <target>Chyba spojení</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/MZToggle.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.toggle.off">
-        <source>Turn VPN off</source>
-        <target>Vypnout VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.toggle.on">
-        <source>Turn VPN on</source>
-        <target>Zapnout VPN</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/MZUserProfile.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.main.manageAccount">
-        <source>Manage account</source>
-        <target>Správa účtu</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../../nebula/ui/components/inAppAuth/MZInAppAuthenticationBase.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.main.getHelp2">
-        <source>Get help</source>
-        <target>Získat pomoc</target>
       </trans-unit>
     </body>
   </file>
@@ -173,67 +98,14 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/models/feedbackcategorymodel.cpp" datatype="cpp" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="feedback.category.accessToService">
-        <source>Access to service</source>
-        <target>Přístup ke službě</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.bugError">
-        <source>Product Bugs/Errors</source>
-        <target>Chyba produktu</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.compatibility">
-        <source>Compatibility</source>
-        <target>Kompatibilita</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.easeToUse">
-        <source>Ease of Use</source>
-        <target>Jednoduchost používání</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.networkSpeed">
-        <source>Network Connection/Speed</source>
-        <target>Síťové připojení nebo jeho rychlost</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.other">
-        <source>Other</source>
-        <target>Jiné</target>
-      </trans-unit>
-      <trans-unit id="feedback.category.productQuality">
-        <source>Product Quality</source>
-        <target>Kvalita produktu</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/apps/vpn/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="cs">
     <body>
+      <trans-unit id="menubar.file.close">
+        <source>Close</source>
+      </trans-unit>
       <trans-unit id="menubar.file.title">
         <source>File</source>
         <target>Soubor</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/authenticationInApp/ViewAuthenticationStart.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.postAuthentication.continue">
-        <source>Continue</source>
-        <target>Pokračovat</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/main.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.main.productName">
-        <source>Mozilla VPN</source>
-        <target>Mozilla VPN</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenAuthenticating.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.authenticating.waitForSignIn">
-        <source>Waiting for sign in and subscription confirmation…</source>
-        <target>Čekání na přihlášení a potvrzení předplatného…</target>
       </trans-unit>
     </body>
   </file>
@@ -274,82 +146,6 @@
         <note annotates="source" from="developer">User agrees to send a crash report.</note>
         <target>Odeslat hlášení</target>
         <source>Send report</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenPostAuthentication.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.postAuthentication..quickAccess">
-        <source>Quick access</source>
-        <target>Rychlý přístup</target>
-      </trans-unit>
-      <trans-unit id="vpn.postAuthentication.statusBarIntro">
-        <source>You can quickly access Mozilla VPN from your status bar.</source>
-        <target>K Mozilla VPN můžete rychle přistupovat ze stavového řádku.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenSubscriptionBlocked.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.subscriptionBlocked.getHelp">
-        <source>Get Help</source>
-        <target>Získat pomoc</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionBlocked.visitHelpCenter">
-        <source>Visit our help center to learn more about managing your subscriptions.</source>
-        <target>Další informace o správě předplatných naleznete v našem centru nápovědy.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenSubscriptionInProgressIAP.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.subscription.pleaseWait">
-        <source>Please wait…</source>
-        <target>Čekejte prosím…</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenTelemetryPolicy.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.settings.dataCollection">
-        <source>Data collection and use</source>
-        <target>Sběr dat a jejich použití</target>
-      </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.MozillaVPNPrivacyNotice">
-        <source>Mozilla VPN Privacy Notice</source>
-        <target>Zásady ochrany osobních údajů službou Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.allowOnThisDevice">
-        <source>Allow on this device</source>
-        <target>Povolit na tomto zařízení</target>
-      </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.doNotAllow">
-        <source>Don’t allow</source>
-        <target>Nepovolovat</target>
-      </trans-unit>
-      <trans-unit id="vpn.telemetryPolicy.learnMoreAboutData">
-        <source>Learn more about what data Mozilla collects and how it’s used.</source>
-        <target>Přečtěte si další informace o tom, jaká data Mozilla shromažďuje a jak je používá.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenViewLogs.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.logs.clear">
-        <source>Clear</source>
-        <target>Vymazat</target>
-      </trans-unit>
-      <trans-unit id="vpn.logs.copied">
-        <source>Copied!</source>
-        <target>Zkopírováno!</target>
-      </trans-unit>
-      <trans-unit id="vpn.logs.copy">
-        <source>Copy</source>
-        <target>Kopírovat</target>
-      </trans-unit>
-      <trans-unit id="vpn.viewlogs.title">
-        <source>View Logs</source>
-        <target>Zobrazit protokoly</target>
       </trans-unit>
     </body>
   </file>
@@ -428,98 +224,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.devices.myDevices">
         <source>My devices</source>
         <target>Má zařízení</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/getHelp/ViewGetHelp.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.settings.developer">
-        <source>Developer Options</source>
-        <target>Možnosti pro vývojáře</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.giveFeedback">
-        <source>Give feedback</source>
-        <target>Poskytnout zpětnou vazbu</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/getHelp/giveFeedback/ViewGiveFeedback.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.feedbackForm.average">
-        <source>Average</source>
-        <target>Průměrné</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.continue">
-        <source>Continue</source>
-        <target>Pokračovat</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.good">
-        <source>Good</source>
-        <target>Dobré</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.poor">
-        <source>Poor</source>
-        <target>Špatné</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.ratingHeadline">
-        <source>How would you describe your Mozilla VPN experience so far?</source>
-        <target>Jak byste popsali své dosavadní zkušenosti s Mozilla VPN?</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.veryPoor">
-        <source>Very poor</source>
-        <target>Velmi špatné</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/getHelp/giveFeedback/ViewGiveFeedbackForm.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.feedback.privacyDisclaimer">
-        <source>When you submit feedback, Mozilla VPN will collect technical and interaction data, including your IP address, to help us improve. This data won’t be associated with your Firefox account.</source>
-        <target>Při odesílání zpětné vazby bude Mozilla VPN shromažďovat technické údaje a údaje o interakci, včetně vaší IP adresy, aby nám pomohla se zlepšovat. Tyto údaje nebudou spojeny s vaším účtem Firefox.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.averageRatingResponse">
-        <source>We’d love to know what we can do to improve Mozilla VPN. Please share any specific feedback here.</source>
-        <target>Rádi bychom věděli, co můžeme udělat pro zlepšení Mozilla VPN. Podělte se prosím o konkrétní připomínky zde.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.goodRatingResponse">
-        <source>We’re glad you’re enjoying Mozilla VPN! Please let us know how we can make your experience even better.</source>
-        <target>Jsme rádi, že si užíváte Mozilla VPN! Dejte nám prosím vědět, co můžeme ještě zlepšit.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.lowRatingResponse">
-        <source>We’re sorry to hear you’ve had a poor experience. Please let us know how we can improve.</source>
-        <target>Je nám líto, že máte špatnou zkušenost. Dejte nám, prosím, vědět, co můžeme zlepšit.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.privacyNoticeLink">
-        <source>Mozilla VPN Privacy Notice</source>
-        <target>Zásady ochrany osobních údajů službou Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.skip">
-        <source>Skip</source>
-        <target>Přeskočit</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.textAreaPlaceholder">
-        <source>Enter feedback…</source>
-        <target>Zadejte zpětnou vazbu…</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackform.submit">
-        <source>Submit</source>
-        <target>Odeslat</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/getHelp/giveFeedback/ViewGiveFeedbackThankYou.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.feedbackForm.thankyou">
-        <source>Thank you!</source>
-        <target>Děkujeme!</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.thankyouSubtitle">
-        <source>We appreciate your feedback. You’re helping us improve Mozilla VPN.</source>
-        <target>Vážíme si vaší zpětné vazby. Pomáháte nám zlepšovat Mozilla VPN.</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackform.done">
-        <source>Done</source>
-        <target>Hotovo</target>
       </trans-unit>
     </body>
   </file>
@@ -609,6 +313,16 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
+  <file original="../src/apps/vpn/ui/screens/home/controller/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="cs">
+    <body>
+      <trans-unit id="vpn.toggle.off">
+        <source>Turn VPN off</source>
+      </trans-unit>
+      <trans-unit id="vpn.toggle.on">
+        <source>Turn VPN on</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="../src/apps/vpn/ui/screens/home/controller/connectionInfo/ConnectionInfoContent.qml" datatype="plaintext" source-language="en" target-language="cs">
     <body>
       <trans-unit id="vpn.connectionInfo.download">
@@ -623,14 +337,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">The title for the list of cities.</note>
         <target>Města</target>
         <source>Cities</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/initialize/ViewInitialize.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.main.productDescription">
-        <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
-        <target>Rychlá, bezpečná a snadno použitelná VPN. Od tvůrců Firefoxu.</target>
       </trans-unit>
     </body>
   </file>
@@ -655,27 +361,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/settings/ViewAboutUs.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.aboutUs.privacyNotice2">
-        <source>Privacy notice</source>
-        <target>Zásady ochrany osobních údajů</target>
-      </trans-unit>
-      <trans-unit id="vpn.aboutUs.releaseVersion2">
-        <note annotates="source" from="developer">Refers to the installed version. For example: "Release Version: 1.23"</note>
-        <target>Verze vydání</target>
-        <source>Release version</source>
-      </trans-unit>
-      <trans-unit id="vpn.aboutUs.tos2">
-        <source>Terms of service</source>
-        <target>Podmínky služby</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.aboutUs">
-        <source>About us</source>
-        <target>O nás</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/apps/vpn/ui/screens/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="cs">
     <body>
       <trans-unit id="vpn.settings.language">
@@ -686,21 +371,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
         <target>%1 %2</target>
         <source>%1 %2</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.systemLangaugeSubtitle">
-        <note annotates="source" from="developer">Description for the language switcher toggle when "Use system language" is enabled.</note>
-        <target>Mozilla VPN použije výchozí jazyk systému.</target>
-        <source>Mozilla VPN will use the default system language.</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.systemLanguageEnabled">
-        <note annotates="source" from="developer">Tooltip for the language switcher toggle</note>
-        <target>Vypněte pro výběr jiného jazyka</target>
-        <source>Disable to select a different language</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.systemLanguageTitle">
-        <note annotates="source" from="developer">Title for the language switcher toggle.</note>
-        <target>Použít jazyk systému</target>
-        <source>Use system language</source>
       </trans-unit>
     </body>
   </file>
@@ -755,19 +425,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Search bar placeholder text</note>
         <target>Prohledat aplikace</target>
         <source>Search apps</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/subscriptionNeeded/ViewSubscriptionNeededIAP.qml" datatype="plaintext" source-language="en" target-language="cs">
-    <body>
-      <trans-unit id="vpn.subscription.featureTitle4">
-        <note annotates="source" from="developer">%1 is the number of devices. Note: there is currently no support for proper plurals</note>
-        <target>Můžete připojit až %1 zařízení</target>
-        <source>Connect up to %1 devices</source>
-      </trans-unit>
-      <trans-unit id="vpn.updates.subscribeNow">
-        <source>Subscribe now</source>
-        <target>Předplatit</target>
       </trans-unit>
     </body>
   </file>
@@ -912,11 +569,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Vysokorychlostní stahování</target>
         <source>High-speed downloads</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.ipInfoButtonLabel">
-        <note annotates="source" from="developer">Accessible label for the IP info button that shows the IP info panel when clicked.</note>
-        <target>Zobrazit informace o IP adrese</target>
-        <source>Show IP info</source>
-      </trans-unit>
       <trans-unit id="vpn.connectionInfo.labelBitps">
         <note annotates="source" from="developer">Bits per second</note>
         <target>bit/s</target>
@@ -986,10 +638,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Title for the connection metrics view.</note>
         <target>Informace o připojení</target>
         <source>Connection information</source>
-      </trans-unit>
-      <trans-unit id="vpn.connectionInfo.openButton">
-        <source>Connection Info</source>
-        <target>Informace o připojení</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.startSpeedTest">
         <note annotates="source" from="developer">Accessible label for the button that opens the speed test view and initiates a speed test</note>
@@ -1089,27 +737,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.dnsOverwriteDialog.titlePrivacy">
         <source>Override privacy features?</source>
         <target>Přepsat funkce ochrany soukromí?</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.chooseCategory">
-        <source>Choose a category</source>
-        <target>Výběr kategorie</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.excellentLabel">
-        <note annotates="source" from="developer">One of the answers on the feedback question about the user experience with the VPN client.</note>
-        <target>Výborné</target>
-        <source>Excellent</source>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.leaveReviewButton">
-        <source>Leave a Review</source>
-        <target>Napsat recenzi</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.reviewBody">
-        <source>If you enjoy using Mozilla VPN, would you review it? Thanks for your support!</source>
-        <target>Pokud Mozilla VPN používáte, chtěli byste ji ohodnotit? Děkujeme za vaši podporu!</target>
-      </trans-unit>
-      <trans-unit id="vpn.feedbackForm.reviewHeader">
-        <source>Give us 5 stars!</source>
-        <target>Dejte nám 5 hvězdiček!</target>
       </trans-unit>
       <trans-unit id="vpn.freeTrials.freeTrialLabel">
         <source>7-day free trial</source>
@@ -1703,11 +1330,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Go to Play Store</source>
         <target>Přejít do Obchodu Play</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNConnectedMessage">
-        <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
-        <target>Připojeno k %1</target>
-        <source>Connected to %1</source>
-      </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedMessages">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
         <target>Připojeno přes %1</target>
@@ -1725,11 +1347,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.notifications.VPNDisconnectedTitle">
         <source>VPN Disconnected</source>
         <target>VPN odpojena</target>
-      </trans-unit>
-      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessage">
-        <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
-        <target>Připojeno k %1 přes %2</target>
-        <source>Connected to %1, through %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
@@ -2287,21 +1904,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Label for a button that will take users into the upgrade to VPN / Relay bundle purchase flow.</note>
         <target>Aktualizovat</target>
         <source>Upgrade</source>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.valueProp1">
-        <note annotates="source" from="developer">Value proposition used to promote the product</note>
-        <target>Žádné protokolování vaší síťové aktivity</target>
-        <source>No logging of your network activity</source>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.valueProp2">
-        <note annotates="source" from="developer">Value proposition used to promote the product</note>
-        <target>Nikdo vás nemůže sledovat</target>
-        <source>No one can track you</source>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.valueProp3">
-        <note annotates="source" from="developer">Value proposition used to promote the product</note>
-        <target>500+ serverů ve více než 30 zemích</target>
-        <source>500+ servers in 30+ countries</source>
       </trans-unit>
       <trans-unit id="vpn.systray.disconnect">
         <source>Disconnect</source>
