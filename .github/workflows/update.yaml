@@ -1,7 +1,7 @@
 name: Update Strings
 on:
   schedule:
-    - cron: "0 7 * * 1-5" # Run Mon-Fri at 7AM UTC
+    - cron: "0 7 * * 1,4" # Run Mon-Thu at 7AM UTC
   workflow_dispatch:
     inputs:
       type:
