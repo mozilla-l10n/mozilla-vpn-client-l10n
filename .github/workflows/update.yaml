@@ -67,7 +67,7 @@ jobs:
           (cd vpn && ./scripts/utils/generate_ts.sh)
 
           # File is called translations_vpn.ts in 2.15 to 2.16, but translations.ts
-          # in other versions.
+          # in more recent versions.
           if [ -f "vpn/translations_vpn.ts" ]; then
             ts_file="translations_vpn.ts"
           else
