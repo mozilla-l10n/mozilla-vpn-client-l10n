@@ -126,30 +126,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenCrashReporting.qml" datatype="plaintext" source-language="en" target-language="ru">
-    <body>
-      <trans-unit id="vpn.crashreporter.description">
-        <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
-        <target>Приложение Mozilla VPN неожиданно прекратило работу. Вы хотите отправить сообщение о падении, чтобы помочь исправить эту проблему?</target>
-        <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.dontSendButton">
-        <note annotates="source" from="developer">User does not agree to send a crash report.</note>
-        <target>Нет, спасибо</target>
-        <source>No thanks</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainHeading">
-        <note annotates="source" from="developer">Label over description text section.</note>
-        <target>Сообщение о падении</target>
-        <source>Crash reporting</source>
-      </trans-unit>
-      <trans-unit id="vpn.crashreporter.sendButtonLabel">
-        <note annotates="source" from="developer">User agrees to send a crash report.</note>
-        <target>Отправить сообщение</target>
-        <source>Send report</source>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/apps/vpn/ui/screens/devices/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="ru">
     <body>
       <trans-unit id="vpn.devices.addedXdaysAgo">
@@ -671,10 +647,30 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Не показывать это снова. Автоматически отправлять отчеты о сбоях в Mozilla.</target>
         <source>Don’t show this again. Autosend crash reports to Mozilla.</source>
       </trans-unit>
+      <trans-unit id="vpn.crashreporter.description">
+        <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
+        <target>Приложение Mozilla VPN неожиданно прекратило работу. Вы хотите отправить сообщение о падении, чтобы помочь исправить эту проблему?</target>
+        <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.dontSendButton">
+        <note annotates="source" from="developer">User does not agree to send a crash report.</note>
+        <target>Нет, спасибо</target>
+        <source>No thanks</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.mainHeading">
+        <note annotates="source" from="developer">Label over description text section.</note>
+        <target>Сообщение о падении</target>
+        <source>Crash reporting</source>
+      </trans-unit>
       <trans-unit id="vpn.crashreporter.mainTitle">
         <note annotates="source" from="developer">Main window title</note>
         <target>Сообщение о падении в Mozilla</target>
         <source>Mozilla Crash Report</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.sendButtonLabel">
+        <note annotates="source" from="developer">User agrees to send a crash report.</note>
+        <target>Отправить сообщение</target>
+        <source>Send report</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.authButtonLabel">
         <source>Continue</source>
