@@ -411,8 +411,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Button label</note>
         <source>Add application</source>
       </trans-unit>
-      <trans-unit id="vpn.protectSelectedApps.searchApps">
+      <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
         <note annotates="source" from="developer">Search bar placeholder text</note>
+        <target>Søg efter apps</target>
         <source>Search apps</source>
       </trans-unit>
     </body>
@@ -426,17 +427,20 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
   </file>
   <file original="../src/apps/vpn/ui/sharedViews/ViewUpdate.qml" datatype="plaintext" source-language="en" target-language="da">
     <body>
-      <trans-unit id="vpn.updates.notNow">
+      <trans-unit id="vpn.updates.notNow" xml:space="preserve">
         <source>Not now</source>
+        <target>Ikke nu</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
         <source>Your connection will not be secure while you update.</source>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateNow">
+      <trans-unit id="vpn.updates.updateNow" xml:space="preserve">
         <source>Update now</source>
+        <target>Opdater nu</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRecomended">
+      <trans-unit id="vpn.updates.updateRecomended" xml:space="preserve">
         <source>Update recommended</source>
+        <target>Opdatering anbefales</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRecomended.description">
         <source>Please update the app before you continue to use the VPN</source>
@@ -444,8 +448,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.updates.updateRequire.reason">
         <source>We detected and fixed a serious bug. You must update your app.</source>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequired">
+      <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
         <source>Update required</source>
+        <target>Opdatering påkrævet</target>
       </trans-unit>
     </body>
   </file>
