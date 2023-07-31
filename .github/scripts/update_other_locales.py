@@ -171,7 +171,6 @@ def main():
             for trans_node in reference_root_copy.xpath(
                 "//x:trans-unit", namespaces=NS
             ):
-                """
                 # Add xml:space="preserve" to all trans-units, to avoid conflict
                 # with Pontoon
                 attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
@@ -179,6 +178,7 @@ def main():
                 if xml_space is None:
                     trans_node.set(attrib_name, "preserve")
 
+                """
                 # Remove xml:space="preserve"
                 attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
                 trans_node.attrib.pop(attrib_name, None)

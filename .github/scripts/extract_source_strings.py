@@ -107,14 +107,6 @@ def main():
     for file_node in root.xpath("//x:file", namespaces=NS):
         file_node.set("target-language", "en-US")
 
-    # Add xml:space="preserve" to all trans-units, to avoid conflict
-    # with Pontoon
-    for trans_node in root.xpath("//x:trans-unit", namespaces=NS):
-        attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
-        xml_space = trans_node.get(attrib_name)
-        if xml_space is None:
-            trans_node.set(attrib_name, "preserve")
-
     # Sort file elements by "original" attribute
     sort_children(root, "original")
     # Sort trans-unit elements by IDs within each file element
