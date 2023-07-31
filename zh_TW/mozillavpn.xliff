@@ -719,12 +719,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.devices.countLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label at the top of the "My devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
-        <target>已新增 %1 台裝置共 %2 台</target>
+        <target>已新增 %1 台裝置，最多可用 %2 台</target>
         <source>%1 out of %2 devices added</source>
       </trans-unit>
       <trans-unit id="vpn.devices.limitDescription" xml:space="preserve">
         <note annotates="source" from="developer">Description of the "device limit" view describing why the device has not yet been added to the list of active devices (because we are at the device limit)</note>
-        <target>您已經在 5 台裝置上使用 VPN。若要在此裝置使用 VPN請先移除某個裝置。</target>
+        <target>您已經在 5 台裝置上使用 VPN。若要在此裝置使用 VPN，請先移除其他裝置。</target>
         <source>You’re already using VPN on 5 devices. To use VPN on this device, please remove one.</source>
       </trans-unit>
       <trans-unit id="vpn.devices.limitTitle" xml:space="preserve">
@@ -764,7 +764,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupDescription" xml:space="preserve">
         <note annotates="source" from="developer">Description for the Remove Device popup. %1 is the name of the device being removed. The name is displayed on purpose on a new line."</note>
-        <target>請確認您是否要移除 %1。</target>
+        <target>請確認您是否要移除 %1？</target>
         <source>Please confirm you would like to remove %1.</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupPrimaryButtonLabel" xml:space="preserve">
@@ -774,7 +774,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the Remove Device popup</note>
-        <target>確定移除裝置？</target>
+        <target>確定要移除裝置？</target>
         <source>Remove device?</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removingTitle" xml:space="preserve">
