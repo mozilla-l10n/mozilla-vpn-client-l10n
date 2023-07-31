@@ -752,8 +752,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Jelenlegi eszköz</target>
         <source>Current Device</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.listItemRemoveDeviceAccessibility">
+      <trans-unit id="vpn.devices.listItemRemoveDeviceAccessibility" xml:space="preserve">
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <target>%1 eltávolítása</target>
         <source>Remove %1</source>
       </trans-unit>
       <trans-unit id="vpn.devices.menuTitle" xml:space="preserve">
