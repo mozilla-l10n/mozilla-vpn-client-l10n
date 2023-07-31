@@ -178,11 +178,11 @@ def main():
                 xml_space = trans_node.get(attrib_name)
                 if xml_space is None:
                     trans_node.set(attrib_name, "preserve")
-                """
 
                 # Remove xml:space="preserve"
                 attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
                 trans_node.attrib.pop(attrib_name, None)
+                """
 
                 file_name = trans_node.getparent().getparent().get("original")
                 source_string = trans_node.xpath("./x:source", namespaces=NS)[0].text

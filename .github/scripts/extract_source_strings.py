@@ -107,15 +107,23 @@ def main():
     for file_node in root.xpath("//x:file", namespaces=NS):
         file_node.set("target-language", "en-US")
 
+    # Add xml:space="preserve" to all trans-units, to avoid conflict
+    # with Pontoon
+    for trans_node in root.xpath("//x:trans-unit", namespaces=NS):
+        attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
+        xml_space = trans_node.get(attrib_name)
+        if xml_space is None:
+            trans_node.set(attrib_name, "preserve")
+
     # Sort file elements by "original" attribute
     sort_children(root, "original")
-    # Sort trans-unit elements by IDswithin each file element
+    # Sort trans-unit elements by IDs within each file element
     for f in root.xpath("//x:file", namespaces=NS):
         sort_children(f, "id")
 
-    # Replace the existing locale file with the new XML content
+    # Replace the existing local file with the new XML content
     with open(output_xliff_file, "w") as fp:
-        # Fix identation of XML file
+        # Fix indentation of XML file
         reindent(root)
         xliff_content = etree.tostring(
             tree, encoding="UTF-8", xml_declaration=True, pretty_print=True
