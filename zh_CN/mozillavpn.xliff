@@ -719,54 +719,67 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.devices.countLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label at the top of the "My devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
+        <target>已添加 %1 台设备，共 %2 台</target>
         <source>%1 out of %2 devices added</source>
       </trans-unit>
       <trans-unit id="vpn.devices.limitDescription" xml:space="preserve">
         <note annotates="source" from="developer">Description of the "device limit" view describing why the device has not yet been added to the list of active devices (because we are at the device limit)</note>
+        <target>您已在 5 台设备上使用了 VPN。如果要在此新设备上使用 VPN，请删除一台已用设备。</target>
         <source>You’re already using VPN on 5 devices. To use VPN on this device, please remove one.</source>
       </trans-unit>
       <trans-unit id="vpn.devices.limitTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title of the "device limit" view stating that the device has not yet been added to the list of active devices (because we are at the device limit)</note>
+        <target>设备未添加</target>
         <source>Device not added</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedDaysAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added days ago. %1 is the number of days.</note>
+        <target>%1 天前添加</target>
         <source>Added %1 days ago</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedFewHoursAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added a few hours ago. %1 is the number of hours.</note>
+        <target>几小时前添加（%1）</target>
         <source>Added a few hours ago (%1)</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedOneHourAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added less than 1 hour ago</note>
+        <target>不到 1 小时前添加</target>
         <source>Added less than an hour ago</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionCurrent" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for the current device</note>
+        <target>当前设备</target>
         <source>Current Device</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemRemoveDeviceAccessibility" xml:space="preserve">
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <target>移除 %1</target>
         <source>Remove %1</source>
       </trans-unit>
       <trans-unit id="vpn.devices.menuTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the menu bar when viewing the devices or device limit pages</note>
+        <target>我的设备</target>
         <source>My devices</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupDescription" xml:space="preserve">
         <note annotates="source" from="developer">Description for the Remove Device popup. %1 is the name of the device being removed. The name is displayed on purpose on a new line."</note>
+        <target>请确认您是否要移除 %1。</target>
         <source>Please confirm you would like to remove %1.</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupPrimaryButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the primary button for the Remove Device poup</note>
+        <target>移除</target>
         <source>Remove</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the Remove Device popup</note>
+        <target>确定移除设备？</target>
         <source>Remove device?</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removingTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for "Removing device" screen</note>
+        <target>正在移除设备...</target>
         <source>Removing device…</source>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS" xml:space="preserve">
