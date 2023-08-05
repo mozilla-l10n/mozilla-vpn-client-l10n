@@ -742,36 +742,44 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>%1 時間前に追加</target>
         <source>Added a few hours ago (%1)</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.listItemDescriptionAddedOneHourAgo">
+      <trans-unit id="vpn.devices.listItemDescriptionAddedOneHourAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added less than 1 hour ago</note>
+        <target>1 時間以内に追加</target>
         <source>Added less than an hour ago</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.listItemDescriptionCurrent">
+      <trans-unit id="vpn.devices.listItemDescriptionCurrent" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for the current device</note>
+        <target>現在の端末</target>
         <source>Current Device</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.listItemRemoveDeviceAccessibility">
+      <trans-unit id="vpn.devices.listItemRemoveDeviceAccessibility" xml:space="preserve">
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <target>%1 を削除</target>
         <source>Remove %1</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.menuTitle">
+      <trans-unit id="vpn.devices.menuTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the menu bar when viewing the devices or device limit pages</note>
+        <target>自分の端末</target>
         <source>My devices</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removePopupDescription">
+      <trans-unit id="vpn.devices.removePopupDescription" xml:space="preserve">
         <note annotates="source" from="developer">Description for the Remove Device popup. %1 is the name of the device being removed. The name is displayed on purpose on a new line."</note>
+        <target>%1 を削除してもよろしいですか？</target>
         <source>Please confirm you would like to remove %1.</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removePopupPrimaryButtonLabel">
+      <trans-unit id="vpn.devices.removePopupPrimaryButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the primary button for the Remove Device poup</note>
+        <target>削除</target>
         <source>Remove</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removePopupTitle">
+      <trans-unit id="vpn.devices.removePopupTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the Remove Device popup</note>
+        <target>端末を削除しますか？</target>
         <source>Remove device?</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removingTitle">
+      <trans-unit id="vpn.devices.removingTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for "Removing device" screen</note>
+        <target>端末を削除しています...</target>
         <source>Removing device…</source>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS" xml:space="preserve">
