@@ -722,8 +722,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Přidáno %1 z %2 zařízení</target>
         <source>%1 out of %2 devices added</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.limitDescription2">
+      <trans-unit id="vpn.devices.limitDescription2" xml:space="preserve">
         <note annotates="source" from="developer">Description of the "device limit" view describing why the device has not yet been added to the list of active devices (because we are at the device limit)</note>
+        <target>VPN používáte na 5 zařízeních. Chcete-li používat VPN na tomto zařízení, jedno odeberte.</target>
         <source>You’re using VPN on 5 devices. To add another device, please remove one.</source>
       </trans-unit>
       <trans-unit id="vpn.devices.limitTitle" xml:space="preserve">
@@ -1487,12 +1488,14 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Protect your privacy</source>
         <target>Chraňte své soukromí</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility read out for the completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
+        <target>Vstupní krok “%1” (%2 z %3). Výběrem se vrátíte k tomuto kroku.</target>
         <source>Onboarding step “%1” (%2 of %3). Select to go back to this step.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility read out for the current step in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
+        <target>Vstupní krok “%1” (%2 z %3). Právě se nacházíte na tomto kroku.</target>
         <source>Onboarding step “%1” (%2 of %3). You are currently on this step.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAddDevices" xml:space="preserve">
