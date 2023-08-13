@@ -719,53 +719,59 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.devices.countLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label at the top of the "My devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
+        <target>%1 de %2 dispositivos adicionados</target>
         <source>%1 out of %2 devices added</source>
       </trans-unit>
       <trans-unit id="vpn.devices.limitDescription2" xml:space="preserve">
         <note annotates="source" from="developer">Description of the "device limit" view describing why the device has not yet been added to the list of active devices (because we are at the device limit)</note>
+        <target>Está a utilizar a VPN em 5 dispositivos. Para adicionar outro dispositivo, remova um.</target>
         <source>You’re using VPN on 5 devices. To add another device, please remove one.</source>
       </trans-unit>
       <trans-unit id="vpn.devices.limitTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title of the "device limit" view stating that the device has not yet been added to the list of active devices (because we are at the device limit)</note>
+        <target>Dispositivo não adicionado</target>
         <source>Device not added</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedDaysAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added days ago. %1 is the number of days.</note>
+        <target>Adicionado há %1 dia</target>
         <source>Added %1 days ago</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.listItemDescriptionAddedFewHoursAgo" xml:space="preserve">
+      <trans-unit id="vpn.devices.listItemDescriptionAddedFewHoursAgo">
         <note annotates="source" from="developer">Device list item description for a device added a few hours ago. %1 is the number of hours.</note>
         <source>Added a few hours ago (%1)</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedOneHourAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added less than 1 hour ago</note>
+        <target>Adicionado há menos de uma hora</target>
         <source>Added less than an hour ago</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionCurrent" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for the current device</note>
+        <target>Dispositivo atual</target>
         <source>Current Device</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.listItemRemoveDeviceAccessibility" xml:space="preserve">
+      <trans-unit id="vpn.devices.listItemRemoveDeviceAccessibility">
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
         <source>Remove %1</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.menuTitle" xml:space="preserve">
+      <trans-unit id="vpn.devices.menuTitle">
         <note annotates="source" from="developer">Title for the menu bar when viewing the devices or device limit pages</note>
         <source>My devices</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removePopupDescription" xml:space="preserve">
+      <trans-unit id="vpn.devices.removePopupDescription">
         <note annotates="source" from="developer">Description for the Remove Device popup. %1 is the name of the device being removed. The name is displayed on purpose on a new line."</note>
         <source>Please confirm you would like to remove %1.</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removePopupPrimaryButtonLabel" xml:space="preserve">
+      <trans-unit id="vpn.devices.removePopupPrimaryButtonLabel">
         <note annotates="source" from="developer">Label for the primary button for the Remove Device poup</note>
         <source>Remove</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removePopupTitle" xml:space="preserve">
+      <trans-unit id="vpn.devices.removePopupTitle">
         <note annotates="source" from="developer">Title for the Remove Device popup</note>
         <source>Remove device?</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removingTitle" xml:space="preserve">
+      <trans-unit id="vpn.devices.removingTitle">
         <note annotates="source" from="developer">Title for "Removing device" screen</note>
         <source>Removing device…</source>
       </trans-unit>
@@ -1475,27 +1481,27 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Protect your privacy</source>
         <target>Proteja a sua privacidade</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete">
         <note annotates="source" from="developer">Accessibility read out for the completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3). Select to go back to this step.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent">
         <note annotates="source" from="developer">Accessibility read out for the current step in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3). You are currently on this step.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAddDevices" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAddDevices">
         <note annotates="source" from="developer">Label for onboarding progress bar step</note>
         <source>Devices</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarDataUse" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarDataUse">
         <note annotates="source" from="developer">Label for onboarding progress bar step</note>
         <source>Data</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarGetStarted" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarGetStarted">
         <note annotates="source" from="developer">Label for onboarding progress bar step. It's the final step in the progress, and indicates that the user can now start using the app.</note>
         <source>Start</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarMorePrivacy" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarMorePrivacy">
         <note annotates="source" from="developer">Label for onboarding progress bar step</note>
         <source>Privacy</source>
       </trans-unit>
