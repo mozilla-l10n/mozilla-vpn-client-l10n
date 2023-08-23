@@ -644,8 +644,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
         <source>Checking your internet connection</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.unitPing">
+      <trans-unit id="vpn.connectionInfo.unitPing" xml:space="preserve">
         <source>ms</source>
+        <target>ms</target>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.crashOptInDialogDescription">
         <note annotates="source" from="developer">This is a description for a checkbox on the crash reporter dialog.</note>
@@ -655,17 +656,20 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Main window title</note>
         <source>Mozilla Crash Report</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.authButtonLabel">
+      <trans-unit id="vpn.deleteAccount.authButtonLabel" xml:space="preserve">
         <source>Continue</source>
+        <target>Fortsæt</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.authSubheadline">
         <source>To delete your VPN account, please sign in with your Firefox account password.</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.buttonLabel">
+      <trans-unit id="vpn.deleteAccount.buttonLabel" xml:space="preserve">
         <source>Delete account</source>
+        <target>Slet konto</target>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.headline">
+      <trans-unit id="vpn.deleteAccount.headline" xml:space="preserve">
         <source>Delete Firefox account</source>
+        <target>Slet Firefox-konto</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionFour">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
@@ -745,11 +749,13 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy">
         <source>Using a custom DNS will override your preferences in the privacy features page.</source>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.primaryButton">
+      <trans-unit id="vpn.dnsOverwriteDialog.primaryButton" xml:space="preserve">
         <source>Confirm</source>
+        <target>Bekræft</target>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.secondaryButton">
+      <trans-unit id="vpn.dnsOverwriteDialog.secondaryButton" xml:space="preserve">
         <source>Maybe later</source>
+        <target>Måske senere</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titleDNS">
         <source>Override DNS settings?</source>
@@ -764,11 +770,13 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">This string appears above the 'Sign up' button on mobile onboarding views</note>
         <source>Sign up to start your 7-day free trial.</source>
       </trans-unit>
-      <trans-unit id="vpn.genericError.unexpected">
+      <trans-unit id="vpn.genericError.unexpected" xml:space="preserve">
         <source>Unexpected error</source>
+        <target>Uventet fejl</target>
       </trans-unit>
-      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton">
+      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton" xml:space="preserve">
         <source>Try Again</source>
+        <target>Prøv igen</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorHeader">
         <source>Problem confirming subscription</source>
@@ -783,67 +791,82 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.getHelp.helpCenter">
         <source>Help Center</source>
       </trans-unit>
-      <trans-unit id="vpn.getHelp.linkTitle">
+      <trans-unit id="vpn.getHelp.linkTitle" xml:space="preserve">
         <source>Get help</source>
+        <target>Få hjælp</target>
       </trans-unit>
-      <trans-unit id="vpn.getHelp.viewLogs">
+      <trans-unit id="vpn.getHelp.viewLogs" xml:space="preserve">
         <note annotates="source" from="developer">Label for a clickable item in the Get-Help view</note>
+        <target>Vis logfil</target>
         <source>View Logs</source>
       </trans-unit>
-      <trans-unit id="vpn.global.clear">
+      <trans-unit id="vpn.global.clear" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for clear button</note>
+        <target>Ryd</target>
         <source>Clear</source>
       </trans-unit>
-      <trans-unit id="vpn.global.close">
+      <trans-unit id="vpn.global.close" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for close button</note>
+        <target>Luk</target>
         <source>Close</source>
       </trans-unit>
-      <trans-unit id="vpn.global.collapse">
+      <trans-unit id="vpn.global.collapse" xml:space="preserve">
         <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
+        <target>Sammenfold</target>
         <source>Collapse</source>
       </trans-unit>
-      <trans-unit id="vpn.global.continue">
+      <trans-unit id="vpn.global.continue" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to proceed with an action</note>
+        <target>Fortsæt</target>
         <source>Continue</source>
       </trans-unit>
-      <trans-unit id="vpn.global.copied">
+      <trans-unit id="vpn.global.copied" xml:space="preserve">
         <note annotates="source" from="developer">Confirmation banner displayed after clicking a button to copy something.</note>
+        <target>Kopieret!</target>
         <source>Copied!</source>
       </trans-unit>
-      <trans-unit id="vpn.global.copy">
+      <trans-unit id="vpn.global.copy" xml:space="preserve">
         <note annotates="source" from="developer">Accessible button label</note>
+        <target>Kopier</target>
         <source>Copy</source>
       </trans-unit>
       <trans-unit id="vpn.global.discoverNow">
         <note annotates="source" from="developer">Label for button used in intro modals to discover new features.</note>
         <source>Discover now</source>
       </trans-unit>
-      <trans-unit id="vpn.global.expand">
+      <trans-unit id="vpn.global.expand" xml:space="preserve">
         <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
+        <target>Udvid</target>
         <source>Expand</source>
       </trans-unit>
-      <trans-unit id="vpn.global.goBack">
+      <trans-unit id="vpn.global.goBack" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used in intro modals to return to the app.</note>
+        <target>Gå tilbage</target>
         <source>Go back</source>
       </trans-unit>
-      <trans-unit id="vpn.global.noInternetConnection">
+      <trans-unit id="vpn.global.noInternetConnection" xml:space="preserve">
         <note annotates="source" from="developer">Status alert text</note>
+        <target>Ingen internetforbindelse</target>
         <source>No internet connection</source>
       </trans-unit>
-      <trans-unit id="vpn.global.noThanks">
+      <trans-unit id="vpn.global.noThanks" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to not proceed with an action</note>
+        <target>Nej tak</target>
         <source>No thanks</source>
       </trans-unit>
-      <trans-unit id="vpn.global.paste">
+      <trans-unit id="vpn.global.paste" xml:space="preserve">
         <note annotates="source" from="developer">Label for button to paste value from clipboard into input</note>
+        <target>Indsæt</target>
         <source>Paste</source>
       </trans-unit>
-      <trans-unit id="vpn.global.signOut">
+      <trans-unit id="vpn.global.signOut" xml:space="preserve">
         <note annotates="source" from="developer">Link title</note>
+        <target>Log ud</target>
         <source>Sign out</source>
       </trans-unit>
-      <trans-unit id="vpn.global.vpnUser">
+      <trans-unit id="vpn.global.vpnUser" xml:space="preserve">
         <note annotates="source" from="developer">Fallback string for users who have not specified a Display Name.</note>
+        <target>VPN-bruger</target>
         <source>VPN User</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.changeEmailLink">
