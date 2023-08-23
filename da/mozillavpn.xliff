@@ -529,26 +529,31 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Okay</source>
         <target>Okay</target>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.header">
+      <trans-unit id="vpn.captivePortalAlert.header" xml:space="preserve">
         <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
+        <target>En tvungen portal fungerer ved at et gæste-wi-fi kræver, at du logger ind før du kan bruge det til at oprette forbindelse til internettet.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.title" xml:space="preserve">
         <source>Captive portal detected!</source>
         <target>Tvungen portal detekteret!</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.connectionInformation">
+      <trans-unit id="vpn.connectionInfo.connectionInformation" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that shows the IP info panel when clicked.</note>
+        <target>Oplysninger om forbindelsen</target>
         <source>Connection information</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.errorMessage">
+      <trans-unit id="vpn.connectionInfo.errorMessage" xml:space="preserve">
         <source>Looks like there was an unexpected error while trying to connect. Please try again or check your connection.</source>
+        <target>Det ser ud til, at der opstod en uventet fejl under oprettelse af forbindelsen. Prøv igen eller kontroller din forbindelse.</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.exitServerLabelIp">
+      <trans-unit id="vpn.connectionInfo.exitServerLabelIp" xml:space="preserve">
         <note annotates="source" from="developer">Exit server IP label for IPV4. IP is the abbreviation for Internet Procol. This is followed by the user’s IPv4 address.</note>
+        <target>Exit-serverens IP:</target>
         <source>Exit Server IP:</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.exitServerLabelIpv6">
+      <trans-unit id="vpn.connectionInfo.exitServerLabelIpv6" xml:space="preserve">
         <note annotates="source" from="developer">Exit server IP label for IPv6. IPv6 is the abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
+        <target>IPv6 for exit-serveren:</target>
         <source>Exit Server IPv6:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.highBulletOne" xml:space="preserve">
@@ -606,8 +611,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Med din nuværende hastighed er din enhed optimeret til:</target>
         <source>At your current speed, here’s what your device is optimized for:</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.listHeaderSlow">
+      <trans-unit id="vpn.connectionInfo.listHeaderSlow" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
+        <target>Det ser ud til, at forbindelsen til denne server-placering er langsom. Du kan prøve at:</target>
         <source>It looks like the connection to this server location is a bit slow, you can try:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel">
@@ -637,36 +643,42 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Start hastighedstest</target>
         <source>Start speed test</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne">
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
+        <target>Ændre server-placering</target>
         <source>Switching server locations</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree">
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section for multi-hop connections</note>
+        <target>Skifte tilbage til forbindelse via en enkelt server</target>
         <source>Switching back to a single-hop connection</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo">
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
+        <target>Kontrollere din internetforbindelse</target>
         <source>Checking your internet connection</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.unitPing" xml:space="preserve">
         <source>ms</source>
         <target>ms</target>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.crashOptInDialogDescription">
+      <trans-unit id="vpn.crashreporter.crashOptInDialogDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is a description for a checkbox on the crash reporter dialog.</note>
+        <target>Vis ikke dette igen. Indsend automatisk rapporter om nedbrud til Mozilla.</target>
         <source>Don’t show this again. Autosend crash reports to Mozilla.</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainTitle">
+      <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
         <note annotates="source" from="developer">Main window title</note>
+        <target>Mozilla-fejlrapporter</target>
         <source>Mozilla Crash Report</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.authButtonLabel" xml:space="preserve">
         <source>Continue</source>
         <target>Fortsæt</target>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.authSubheadline">
+      <trans-unit id="vpn.deleteAccount.authSubheadline" xml:space="preserve">
         <source>To delete your VPN account, please sign in with your Firefox account password.</source>
+        <target>For at slette din VPN-konto skal du logge ind med adgangskoden til din Firefox-konto.</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.buttonLabel" xml:space="preserve">
         <source>Delete account</source>
@@ -676,32 +688,39 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Delete Firefox account</source>
         <target>Slet Firefox-konto</target>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionFour">
+      <trans-unit id="vpn.deleteAccount.optionDescriptionFour" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>Alle udvidelser og temaer, du har udgivet via addons.mozilla.org, vil blive slettet</target>
         <source>Any extensions and themes that you’ve published to addons.mozilla.org will be deleted</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionOne">
+      <trans-unit id="vpn.deleteAccount.optionDescriptionOne" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>Alle dine betalte abonnementer (bortset fra Pocket) vil blive annulleret</target>
         <source>Any paid subscriptions you have will be cancelled (Except Pocket)</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionThree">
+      <trans-unit id="vpn.deleteAccount.optionDescriptionThree" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>Genaktivering med denne mailadresse vil muligvis ikke gendanne dine gemte oplysninger</target>
         <source>Reactivating with this email may not restore your saved information</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionTwo">
+      <trans-unit id="vpn.deleteAccount.optionDescriptionTwo" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>Du kan miste gemte oplysninger og funktioner i Mozilla-produkter</target>
         <source>You may lose saved information and features within Mozilla products</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.subheadline">
+      <trans-unit id="vpn.deleteAccount.subheadline" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
+        <target>Din Firefox-konto (%1) er forbundet til Mozilla-produkter for at beskytte dig og gøre dig produktiv på nettet. Bemærk følgende konsekvenser ved at slette din konto:</target>
         <source>Your Firefox account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.countLabel">
+      <trans-unit id="vpn.devices.countLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label at the top of the "My devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
+        <target>%1 af %2 enheder tilføjet</target>
         <source>%1 out of %2 devices added</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.limitDescription2">
+      <trans-unit id="vpn.devices.limitDescription2" xml:space="preserve">
         <note annotates="source" from="developer">Description of the "device limit" view describing why the device has not yet been added to the list of active devices (because we are at the device limit)</note>
+        <target>Du bruger VPN på 5 enheder. Fjern en enhed for at kunne tilføje en ny.</target>
         <source>You’re using VPN on 5 devices. To add another device, please remove one.</source>
       </trans-unit>
       <trans-unit id="vpn.devices.limitTitle">
