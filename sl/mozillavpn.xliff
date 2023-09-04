@@ -379,10 +379,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
   </file>
   <file original="../src/apps/vpn/ui/screens/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="sl">
     <body>
-      <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
+      <trans-unit id="vpn.settings.guestWifiAlert">
         <source>Guest Wi-Fi portal alert</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
+      <trans-unit id="vpn.settings.guestWifiAlert.description">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
@@ -722,6 +722,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.devices.limitDescription2" xml:space="preserve">
         <note annotates="source" from="developer">Description of the "device limit" view describing why the device has not yet been added to the list of active devices (because we are at the device limit)</note>
+        <target>VPN uporabljate na 5 napravah. Če želite dodati novo, odstranite eno od dosedanjih.</target>
         <source>You’re using VPN on 5 devices. To add another device, please remove one.</source>
       </trans-unit>
       <trans-unit id="vpn.devices.limitTitle" xml:space="preserve">
@@ -1379,7 +1380,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Nastavitve</target>
         <source>Settings</source>
       </trans-unit>
-      <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
+      <trans-unit id="vpn.networkSettings.multihopTitle">
         <source>Multi-hop tunnel</source>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText" xml:space="preserve">
@@ -1431,16 +1432,16 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>VPN Switched Servers</source>
         <target>VPN je zamenjal strežnike</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
+      <trans-unit id="vpn.notifications.captivePortalBlockMessage2">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalBlockTitle" xml:space="preserve">
+      <trans-unit id="vpn.notifications.captivePortalBlockTitle">
         <source>Guest Wi-Fi portal blocked</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalUnblockMessage2" xml:space="preserve">
+      <trans-unit id="vpn.notifications.captivePortalUnblockMessage2">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalUnblockTitle" xml:space="preserve">
+      <trans-unit id="vpn.notifications.captivePortalUnblockTitle">
         <source>Guest Wi-Fi portal detected</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.subscriptionNotFound" xml:space="preserve">
@@ -1480,28 +1481,32 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Protect your privacy</source>
         <target>Zaščitite svojo zasebnost</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete">
         <note annotates="source" from="developer">Accessibility read out for the completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3). Select to go back to this step.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent">
         <note annotates="source" from="developer">Accessibility read out for the current step in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3). You are currently on this step.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAddDevices" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step</note>
+        <target>Naprave</target>
         <source>Devices</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarDataUse" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step</note>
+        <target>Podatki</target>
         <source>Data</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarGetStarted" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step. It's the final step in the progress, and indicates that the user can now start using the app.</note>
+        <target>Začni</target>
         <source>Start</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarMorePrivacy" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step</note>
+        <target>Zasebnost</target>
         <source>Privacy</source>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
@@ -1736,6 +1741,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSError" xml:space="preserve">
         <source>Invalid DNS, please try a new one</source>
+        <target>Neveljaven DNS, poskusite z drugim</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle" xml:space="preserve">
         <source>Use custom DNS</source>
@@ -1839,7 +1845,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Learn more</source>
         <target>Več o tem</target>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoText2" xml:space="preserve">
+      <trans-unit id="vpn.splittunnel.infoText2">
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
         <source>For any questions about setting app exclusions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
