@@ -379,10 +379,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
   </file>
   <file original="../src/apps/vpn/ui/screens/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="sl">
     <body>
-      <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
+      <trans-unit id="vpn.settings.guestWifiAlert">
         <source>Guest Wi-Fi portal alert</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
+      <trans-unit id="vpn.settings.guestWifiAlert.description">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
@@ -1380,7 +1380,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Nastavitve</target>
         <source>Settings</source>
       </trans-unit>
-      <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
+      <trans-unit id="vpn.networkSettings.multihopTitle">
         <source>Multi-hop tunnel</source>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText" xml:space="preserve">
@@ -1432,17 +1432,18 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>VPN Switched Servers</source>
         <target>VPN je zamenjal strežnike</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
+      <trans-unit id="vpn.notifications.captivePortalBlockMessage2">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalBlockTitle" xml:space="preserve">
+      <trans-unit id="vpn.notifications.captivePortalBlockTitle">
         <source>Guest Wi-Fi portal blocked</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalUnblockMessage2" xml:space="preserve">
+      <trans-unit id="vpn.notifications.captivePortalUnblockMessage2">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal detected</source>
+        <target>Zaznan portal Wi-Fi za goste</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.subscriptionNotFound" xml:space="preserve">
         <source>Your Mozilla VPN subscription cannot be found. Please open the app to resolve this subscription issue.</source>
@@ -1847,7 +1848,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Learn more</source>
         <target>Več o tem</target>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoText2" xml:space="preserve">
+      <trans-unit id="vpn.splittunnel.infoText2">
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
         <source>For any questions about setting app exclusions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
