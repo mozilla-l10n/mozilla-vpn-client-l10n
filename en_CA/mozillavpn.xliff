@@ -102,6 +102,7 @@
     <body>
       <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
+        <target>Close</target>
       </trans-unit>
       <trans-unit id="menubar.file.title" xml:space="preserve">
         <source>File</source>
@@ -317,9 +318,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
+        <target>Turn VPN off</target>
       </trans-unit>
       <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
+        <target>Turn VPN on</target>
       </trans-unit>
     </body>
   </file>
@@ -477,6 +480,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.aboutUs.copyVersionNumber" xml:space="preserve">
         <note annotates="source" from="developer">Accessible name for a button. %1 is the version number of the VPN client.</note>
+        <target>Copy %1</target>
         <source>Copy %1</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.licenses" xml:space="preserve">
@@ -485,16 +489,20 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.aboutUs.privacyNotice" xml:space="preserve">
         <source>Privacy notice</source>
+        <target>Privacy notice</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
         <note annotates="source" from="developer">Refers to the installed version. For example: 'Release Version: 1.23'</note>
+        <target>Release version</target>
         <source>Release version</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.termsOfService" xml:space="preserve">
         <source>Terms of service</source>
+        <target>Terms of service</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.title" xml:space="preserve">
         <source>About us</source>
+        <target>About us</target>
       </trans-unit>
       <trans-unit id="vpn.accessibility.currentIndexFocusedOfTotalItemsInGroup" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen readers to explain to users which item they are currently focused on, and how many items there are total in a group. For example, given a list with 15 items. If a user selects the 3rd item, we want the screen reader to read out "3 of 15". The %1 represents the index of the currently focused item by the screen reader. The %2 represents the total number of items in the group.</note>
@@ -532,6 +540,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.connectionInformation" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that shows the IP info panel when clicked.</note>
+        <target>Connection information</target>
         <source>Connection information</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.errorMessage" xml:space="preserve">
@@ -540,10 +549,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.exitServerLabelIp" xml:space="preserve">
         <note annotates="source" from="developer">Exit server IP label for IPV4. IP is the abbreviation for Internet Procol. This is followed by the user’s IPv4 address.</note>
+        <target>Exit Server IP:</target>
         <source>Exit Server IP:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.exitServerLabelIpv6" xml:space="preserve">
         <note annotates="source" from="developer">Exit server IP label for IPv6. IPv6 is the abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
+        <target>Exit Server IPv6:</target>
         <source>Exit Server IPv6:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.highBulletOne" xml:space="preserve">
@@ -628,10 +639,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.metricsTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the connection metrics view.</note>
+        <target>Connection information</target>
         <source>Connection information</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.startSpeedTest" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that opens the speed test view and initiates a speed test</note>
+        <target>Start speed test</target>
         <source>Start speed test</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne" xml:space="preserve">
@@ -641,6 +654,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section for multi-hop connections</note>
+        <target>Switching back to a single-hop connection</target>
         <source>Switching back to a single-hop connection</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo" xml:space="preserve">
@@ -705,73 +719,92 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.devices.countLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label at the top of the "My devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
+        <target>%1 out of %2 devices added</target>
         <source>%1 out of %2 devices added</source>
       </trans-unit>
       <trans-unit id="vpn.devices.limitDescription2" xml:space="preserve">
         <note annotates="source" from="developer">Description of the "device limit" view describing why the device has not yet been added to the list of active devices (because we are at the device limit)</note>
+        <target>You’re using VPN on 5 devices. To add another device, please remove one.</target>
         <source>You’re using VPN on 5 devices. To add another device, please remove one.</source>
       </trans-unit>
       <trans-unit id="vpn.devices.limitTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title of the "device limit" view stating that the device has not yet been added to the list of active devices (because we are at the device limit)</note>
+        <target>Device not added</target>
         <source>Device not added</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedDaysAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added days ago. %1 is the number of days.</note>
+        <target>Added %1 days ago</target>
         <source>Added %1 days ago</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedFewHoursAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added a few hours ago. %1 is the number of hours.</note>
+        <target>Added a few hours ago (%1)</target>
         <source>Added a few hours ago (%1)</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedOneHourAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added less than 1 hour ago</note>
+        <target>Added less than an hour ago</target>
         <source>Added less than an hour ago</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionCurrent" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for the current device</note>
+        <target>Current Device</target>
         <source>Current Device</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemRemoveDeviceAccessibility" xml:space="preserve">
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <target>Remove %1</target>
         <source>Remove %1</source>
       </trans-unit>
       <trans-unit id="vpn.devices.menuTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the menu bar when viewing the devices or device limit pages</note>
+        <target>My devices</target>
         <source>My devices</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupDescription" xml:space="preserve">
         <note annotates="source" from="developer">Description for the Remove Device popup. %1 is the name of the device being removed. The name is displayed on purpose on a new line."</note>
+        <target>Please confirm you would like to remove %1.</target>
         <source>Please confirm you would like to remove %1.</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupPrimaryButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the primary button for the Remove Device poup</note>
+        <target>Remove</target>
         <source>Remove</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the Remove Device popup</note>
+        <target>Remove device?</target>
         <source>Remove device?</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removingTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for "Removing device" screen</note>
+        <target>Removing device…</target>
         <source>Removing device…</source>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS" xml:space="preserve">
         <source>Using these privacy features will override your custom DNS.</source>
+        <target>Using these privacy features will override your custom DNS.</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy" xml:space="preserve">
         <source>Using a custom DNS will override your preferences in the privacy features page.</source>
+        <target>Using a custom DNS will override your preferences in the privacy features page.</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.primaryButton" xml:space="preserve">
         <source>Confirm</source>
+        <target>Confirm</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.secondaryButton" xml:space="preserve">
         <source>Maybe later</source>
+        <target>Maybe later</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titleDNS" xml:space="preserve">
         <source>Override DNS settings?</source>
+        <target>Override DNS settings?</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titlePrivacy" xml:space="preserve">
         <source>Override privacy features?</source>
+        <target>Override privacy features?</target>
       </trans-unit>
       <trans-unit id="vpn.freeTrials.freeTrialLabel" xml:space="preserve">
         <source>7-day free trial</source>
@@ -800,6 +833,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.getHelp.developerOptions" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Developer options</target>
         <source>Developer options</source>
       </trans-unit>
       <trans-unit id="vpn.getHelp.helpCenter" xml:space="preserve">
@@ -808,6 +842,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.getHelp.linkTitle" xml:space="preserve">
         <source>Get help</source>
+        <target>Get help</target>
       </trans-unit>
       <trans-unit id="vpn.getHelp.viewLogs" xml:space="preserve">
         <note annotates="source" from="developer">Label for a clickable item in the Get-Help view</note>
@@ -816,10 +851,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.clear" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for clear button</note>
+        <target>Clear</target>
         <source>Clear</source>
       </trans-unit>
       <trans-unit id="vpn.global.close" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for close button</note>
+        <target>Close</target>
         <source>Close</source>
       </trans-unit>
       <trans-unit id="vpn.global.collapse" xml:space="preserve">
@@ -839,6 +876,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.copy" xml:space="preserve">
         <note annotates="source" from="developer">Accessible button label</note>
+        <target>Copy</target>
         <source>Copy</source>
       </trans-unit>
       <trans-unit id="vpn.global.discoverNow" xml:space="preserve">
@@ -858,6 +896,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.noInternetConnection" xml:space="preserve">
         <note annotates="source" from="developer">Status alert text</note>
+        <target>No internet connection</target>
         <source>No internet connection</source>
       </trans-unit>
       <trans-unit id="vpn.global.noThanks" xml:space="preserve">
@@ -867,10 +906,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.paste" xml:space="preserve">
         <note annotates="source" from="developer">Label for button to paste value from clipboard into input</note>
+        <target>Paste</target>
         <source>Paste</source>
       </trans-unit>
       <trans-unit id="vpn.global.signOut" xml:space="preserve">
         <note annotates="source" from="developer">Link title</note>
+        <target>Sign out</target>
         <source>Sign out</source>
       </trans-unit>
       <trans-unit id="vpn.global.vpnUser" xml:space="preserve">
@@ -920,6 +961,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.hidePassword" xml:space="preserve">
         <note annotates="source" from="developer">Tooltip label for the eye icon in password input</note>
+        <target>Hide password</target>
         <source>Hide password</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.informationUsageDisclaimer" xml:space="preserve">
@@ -972,6 +1014,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.pleaseWait" xml:space="preserve">
         <note annotates="source" from="developer">Headline on loading screen</note>
+        <target>Please wait…</target>
         <source>Please wait…</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.problemEmailTypeNotSupported" xml:space="preserve">
@@ -1030,6 +1073,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.showPassword" xml:space="preserve">
         <note annotates="source" from="developer">Tooltip label for the eye icon in password input</note>
+        <target>Show password</target>
         <source>Show password</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInBlockedForOneMinute" xml:space="preserve">
@@ -1074,6 +1118,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.waitingForSignIn" xml:space="preserve">
         <note annotates="source" from="developer">Headline on loading screen</note>
+        <target>Waiting for sign in and subscription confirmation…</target>
         <source>Waiting for sign in and subscription confirmation…</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.criticalBadge" xml:space="preserve">
@@ -1240,10 +1285,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.languageView.systemLanguageButtonDescription" xml:space="preserve">
         <note annotates="source" from="developer">the description for the system lagnague radio button</note>
+        <target>Mozilla VPN will use the default system language.</target>
         <source>Mozilla VPN will use the default system language.</source>
       </trans-unit>
       <trans-unit id="vpn.languageView.systemLanguageButtonTitle" xml:space="preserve">
         <note annotates="source" from="developer">the title for the system language radio button</note>
+        <target>System language</target>
         <source>System language</source>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber" xml:space="preserve">
@@ -1272,6 +1319,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
+        <target>Visit our help centre to learn more about managing your subscriptions.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label that is used for recent multi-hop server connections. “%1” represents the entry server and “%2” the exit server.</note>
@@ -1352,32 +1400,40 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
+        <target>Connected through %1</target>
         <source>Connected through %1</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedTitle" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN Connected</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN disconnected from.</note>
+        <target>Disconnected from %1</target>
         <source>Disconnected from %1</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNDisconnectedTitle" xml:space="preserve">
         <source>VPN Disconnected</source>
+        <target>VPN Disconnected</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>Connected through %1 via %2</target>
         <source>Connected through %1 via %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>Disconnected from %1 and %2</target>
         <source>Disconnected from %1 and %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the initial server, %2 is the name of the destination server.</note>
+        <target>Switched from %1 to %2</target>
         <source>Switched from %1 to %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersTitle" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>VPN Switched Servers</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
@@ -1410,44 +1466,56 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
         <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
+        <target>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourTitle" xml:space="preserve">
         <source>Add even more privacy</source>
+        <target>Add even more privacy</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelThreeSubtitle" xml:space="preserve">
         <source>Protecting yourself is simple: tap to connect to the VPN and you’re ready to browse safely. Mozilla VPN will start automatically for seamless protection.</source>
+        <target>Protecting yourself is simple: tap to connect to the VPN and you’re ready to browse safely. Mozilla VPN will start automatically for seamless protection.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelThreeTitle" xml:space="preserve">
         <source>One tap to safety</source>
+        <target>One tap to safety</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelTwoSubtitle" xml:space="preserve">
         <source>With more than 500 servers in 60 cities around the world, Mozilla VPN protects your data, browsing activity, and your true location from network spies.</source>
+        <target>With more than 500 servers in 60 cities around the world, Mozilla VPN protects your data, browsing activity, and your true location from network spies.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelTwoTitle" xml:space="preserve">
         <source>Protect your privacy</source>
+        <target>Protect your privacy</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility read out for the completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
+        <target>Onboarding step “%1” (%2 of %3). Select to go back to this step.</target>
         <source>Onboarding step “%1” (%2 of %3). Select to go back to this step.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility read out for the current step in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
+        <target>Onboarding step “%1” (%2 of %3). You are currently on this step.</target>
         <source>Onboarding step “%1” (%2 of %3). You are currently on this step.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAddDevices" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step</note>
+        <target>Devices</target>
         <source>Devices</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarDataUse" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step</note>
+        <target>Data</target>
         <source>Data</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarGetStarted" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step. It's the final step in the progress, and indicates that the user can now start using the app.</note>
+        <target>Start</target>
         <source>Start</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarMorePrivacy" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step</note>
+        <target>Privacy</target>
         <source>Privacy</source>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
@@ -1492,26 +1560,33 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.headline" xml:space="preserve">
         <source>Quick access</source>
+        <target>Quick access</target>
       </trans-unit>
       <trans-unit id="vpn.postAuthentication.subtitle" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
+        <target>You can quickly access Mozilla VPN from your status bar.</target>
       </trans-unit>
       <trans-unit id="vpn.product.description" xml:space="preserve">
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
+        <target>A fast, secure and easy to use VPN. Built by the makers of Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.product.name" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.purchase.percentSaved" xml:space="preserve">
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan</note>
+        <target>Save %1%</target>
         <source>Save %1%</source>
       </trans-unit>
       <trans-unit id="vpn.purchase.subscribeNow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Subscribe now</target>
         <source>Subscribe now</source>
       </trans-unit>
       <trans-unit id="vpn.purchase.subscriptionOption" xml:space="preserve">
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>%1-month plan: %2</target>
         <source>%1-month plan: %2</source>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.inProgress2" xml:space="preserve">
@@ -1588,17 +1663,21 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel" xml:space="preserve">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated and instructions to re-enable the refresh button. Argument is the time or date/day</note>
+        <target>Last updated: %1. To update this list please disconnect from the VPN.</target>
         <source>Last updated: %1. To update this list please disconnect from the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabel" xml:space="preserve">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated. Argument is the time or date/day</note>
+        <target>Last updated: %1.</target>
         <source>Last updated: %1.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabelYesterday" xml:space="preserve">
         <source>yesterday</source>
+        <target>yesterday</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel" xml:space="preserve">
         <note annotates="source" from="developer">Loading string while recommended servers are being calculated. Argument is the percentage of completion as an integer (i.e. 25)</note>
+        <target>Checking (%1%)…</target>
         <source>Checking (%1%)…</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
@@ -1611,18 +1690,22 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithGoodConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is good. Argument is the city name.</note>
+        <target>%1. Good connectivity</target>
         <source>%1. Good connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithModerateConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is moderate. Argument is the city name.</note>
+        <target>%1. Moderate connectivity</target>
         <source>%1. Moderate connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithNoConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is unavailable. Argument is the city name.</note>
+        <target>%1. No connectivity</target>
         <source>%1. No connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithPoorConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is poor. Argument is the city name.</note>
+        <target>%1. Poor connectivity</target>
         <source>%1. Poor connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.tabAllLabel" xml:space="preserve">
@@ -1637,13 +1720,16 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.appExclusionClearAllApps" xml:space="preserve">
         <note annotates="source" from="developer">Button label to clear all apps from the exclusions list</note>
+        <target>Clear all</target>
         <source>Clear all</source>
       </trans-unit>
       <trans-unit id="vpn.settings.appExclusionSettings" xml:space="preserve">
         <source>App exclusions</source>
+        <target>App exclusions</target>
       </trans-unit>
       <trans-unit id="vpn.settings.appPreferences" xml:space="preserve">
         <source>App preferences</source>
+        <target>App preferences</target>
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
@@ -1656,54 +1742,71 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
         <source>DNS settings</source>
+        <target>DNS settings</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody" xml:space="preserve">
         <source>Resolve websites using a custom DNS</source>
+        <target>Resolve websites using a custom DNS</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSError" xml:space="preserve">
         <source>Invalid DNS, please try a new one</source>
+        <target>Invalid DNS, please try a new one</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle" xml:space="preserve">
         <source>Use custom DNS</source>
+        <target>Use custom DNS</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning" xml:space="preserve">
         <source>Changing these settings will cause the VPN to disconnect and reconnect automatically.</source>
+        <target>Changing these settings will cause the VPN to disconnect and reconnect automatically.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder" xml:space="preserve">
         <source>Enter custom DNS</source>
+        <target>Enter custom DNS</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody" xml:space="preserve">
         <source>Resolve websites using Mozilla VPN’s standard DNS</source>
+        <target>Resolve websites using Mozilla VPN’s standard DNS</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle" xml:space="preserve">
         <source>Use standard DNS</source>
+        <target>Use standard DNS</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsWarning" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
+        <target>These options may cause some websites to break or not display content correctly.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyAdblockBody" xml:space="preserve">
         <source>Reduces the number of ads you see when you’re using VPN</source>
+        <target>Reduces the number of ads you see when you’re using VPN</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyAdblockTitle" xml:space="preserve">
         <source>Block ads</source>
+        <target>Block ads</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyCard" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
+        <target>These options may cause some websites to break or not display content correctly.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareBody" xml:space="preserve">
         <source>Helps protect you from ransomware, phishing, spyware, viruses, and malware</source>
+        <target>Helps protect you from ransomware, phishing, spyware, viruses, and malware</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareTitle" xml:space="preserve">
         <source>Block malware</source>
+        <target>Block malware</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacySettings" xml:space="preserve">
         <source>Privacy features</source>
+        <target>Privacy features</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyTrackerBody" xml:space="preserve">
         <source>Fewer harmful domains will be able to track you</source>
+        <target>Fewer harmful domains will be able to track you</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyTrackerTitle" xml:space="preserve">
         <source>Block trackers</source>
+        <target>Block trackers</target>
       </trans-unit>
       <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
         <source>Mozilla VPN will launch and connect when you start up your device</source>
@@ -1716,6 +1819,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.settings.tipsAndTricksSettings" xml:space="preserve">
         <source>Tips and tricks</source>
+        <target>Tips and tricks</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
         <source>VPN must be restarted to take effect</source>
@@ -1743,6 +1847,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoCardDescription" xml:space="preserve">
         <note annotates="source" from="developer">Displays inside the information card at the top of the app exclusions screen when the VPN is on</note>
+        <target>VPN must be off to edit App exclusions</target>
         <source>VPN must be off to edit App exclusions</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
@@ -1751,6 +1856,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText2" xml:space="preserve">
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
+        <target>For any questions about setting app exclusions, we’ve provided some helpful tips on our website.</target>
         <source>For any questions about setting app exclusions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppActionButton" xml:space="preserve">
@@ -1795,6 +1901,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>Manage account</target>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.manageSubscriptionButton" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will take the user to a view where they can manage their subscription.</note>
@@ -1823,14 +1930,17 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planMonthly" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription. %1 represents the localized currency string</note>
+        <target>Monthly plan: %1</target>
         <source>Monthly plan: %1</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription plus tax. %1 represents the localized currency string</note>
+        <target>%1/month + tax</target>
         <source>%1/month + tax</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planMonthlyWithoutTax" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription without tax. %1 represents the localized currency string</note>
+        <target>%1/month</target>
         <source>%1/month</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly" xml:space="preserve">
@@ -1840,6 +1950,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueHalfYearlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1 Half-yearly + tax</target>
         <source>%1 Half-yearly + tax</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueMonthly" xml:space="preserve">
@@ -1849,6 +1960,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1 Monthly + tax</target>
         <source>%1 Monthly + tax</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueYearly" xml:space="preserve">
@@ -1858,6 +1970,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1 Yearly + tax</target>
         <source>%1 Yearly + tax</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.statusActive" xml:space="preserve">
@@ -1937,10 +2050,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.allow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Allow on this device</target>
         <source>Allow on this device</source>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.dataCollectionAndUse" xml:space="preserve">
         <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
+        <target>Data collection and use</target>
         <source>Data collection and use</source>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.description" xml:space="preserve">
@@ -1949,10 +2064,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.doNotAllow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Don’t allow</target>
         <source>Don’t allow</source>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.learnMore" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
+        <target>Learn more about what data Mozilla collects and how it’s used.</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
@@ -2035,6 +2152,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialFinishedSecondaryButtonLabel" xml:space="preserve">
         <source>Dismiss</source>
+        <target>Dismiss</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialLeaveHeadline" xml:space="preserve">
         <source>Leave tutorial?</source>
@@ -2050,6 +2168,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialWarningDescription" xml:space="preserve">
         <source>By continuing this tutorial, you will be changing your VPN settings. These settings will revert to their original state upon completion or quitting of the tutorial.</source>
+        <target>By continuing this tutorial, you will be changing your VPN settings. These settings will revert to their original state upon completion or quitting of the tutorial.</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialWarningTitle" xml:space="preserve">
         <source>Continue tutorial?</source>
