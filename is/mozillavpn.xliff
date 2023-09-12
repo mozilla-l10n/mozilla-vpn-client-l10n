@@ -891,6 +891,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.getStarted" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button used to begin something / proceed</note>
+        <target>Hefjumst handa</target>
         <source>Get started</source>
       </trans-unit>
       <trans-unit id="vpn.global.goBack" xml:space="preserve">
@@ -900,6 +901,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.next" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to proceed</note>
+        <target>Næsta</target>
         <source>Next</source>
       </trans-unit>
       <trans-unit id="vpn.global.noInternetConnection" xml:space="preserve">
@@ -1474,38 +1476,48 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideBody" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
+        <target>Við leitumst við að veita þér val og söfnum aðeins þeim tæknilegu gögnum sem við þurfum til að bæta Mozilla VPN. Það er valfrjálst að deila þessum gögnum með Mozilla.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideCheckboxLabel" xml:space="preserve">
         <source>Mozilla may collect technical data about my use of Mozilla VPN.</source>
+        <target>Mozilla má safna tæknilegum gögnum um notkun mína á Mozilla VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideHeader" xml:space="preserve">
         <source>Data collection and use</source>
+        <target>Gagnasöfnun og notkunarupplýsingar</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used</source>
+        <target>Lærðu meira um hvaða gögnum Mozilla safnar og hvernig þau eru notuð</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Persónuverndarstefna Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideBody" xml:space="preserve">
         <source>Scan this QR code using a tablet or mobile device’s camera to install the VPN on another device.</source>
+        <target>Skannaðu þennan QR-kóða með myndavél á spjaldtölvu eða farsíma til að setja upp VPN á öðru tæki.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeAndroid" xml:space="preserve">
         <source>Android</source>
+        <target>Android</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeApple" xml:space="preserve">
         <source>Apple</source>
+        <target>Apple</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeLabel" xml:space="preserve">
         <source>Select device type:</source>
+        <target>Veldu gerð tækis:</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideHeader" xml:space="preserve">
         <source>Install Mozilla VPN on up to 5 devices</source>
+        <target>Settu Mozilla VPN upp á allt að 5 tækjum</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid">
         <source>QR Code that links to the Mozilla VPN product page on the Google Play Store</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple">
         <source>QR Code that links to the Mozilla VPN product page on the iOS App Store</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
@@ -1532,11 +1544,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Protect your privacy</source>
         <target>Verndaðu friðhelgi þína</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.privacySlideBody" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.privacySlideBody">
         <source>Use these features for more protection. They may cause issues on some sites, so you can turn them off anytime in settings.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.privacySlideHeader" xml:space="preserve">
         <source>Get more privacy</source>
+        <target>Fáðu meira næði</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility read out for completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
@@ -1550,6 +1563,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility read out for incomplete future steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
+        <target>Kynning, skref “%1” (%2 af %3).</target>
         <source>Onboarding step “%1” (%2 of %3).</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAddDevices" xml:space="preserve">
@@ -1572,10 +1586,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Persónuvernd</target>
         <source>Privacy</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideBody" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.startSlideBody">
         <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideHeader" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.startSlideHeader">
         <source>Connect Mozilla VPN on startup</source>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
@@ -1716,7 +1730,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Af hverju er mælt með þessum staðsetningum?</target>
         <source>Why are these locations recommended?</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedEmptyLabel" xml:space="preserve">
+      <trans-unit id="vpn.serversView.recommendedEmptyLabel">
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
         <source>To see recommended server locations, turn off the VPN.</source>
       </trans-unit>
