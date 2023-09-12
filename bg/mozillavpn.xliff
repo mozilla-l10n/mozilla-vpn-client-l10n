@@ -41,7 +41,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/extrastrings.h" datatype="c" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/extrastrings.h" datatype="c" source-language="en" target-language="bg">
     <body>
       <trans-unit id="macosinstaller.conclusion.message1_v2" xml:space="preserve">
         <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
@@ -78,7 +78,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ipaddresslookup.cpp" datatype="cpp" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ipaddresslookup.cpp" datatype="cpp" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
@@ -86,7 +86,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="bg">
     <body>
       <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
@@ -96,7 +96,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenBackendFailure.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/ScreenBackendFailure.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.errors.somethingWentWrong" xml:space="preserve">
         <source>Something went wrong…</source>
@@ -110,7 +110,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/ScreenCrashReporting.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/ScreenCrashReporting.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
         <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
@@ -130,7 +130,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/devices/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/devices/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
@@ -162,7 +162,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/devices/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/devices/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
         <source>Remove a device</source>
@@ -172,7 +172,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/devices/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/devices/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
@@ -191,7 +191,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/devices/ViewDevices.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/devices/ViewDevices.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.devices.activeVsMaxDeviceCount" xml:space="preserve">
         <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.
@@ -206,7 +206,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/home/ViewHome.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/home/ViewHome.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="MozillaVPN" xml:space="preserve">
         <source>Mozilla VPN</source>
@@ -224,7 +224,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/home/controller/ConnectionStability.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/home/controller/ConnectionStability.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
@@ -242,7 +242,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/home/controller/ControllerView.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/home/controller/ControllerView.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.controller.activated" xml:space="preserve">
         <source>VPN is on</source>
@@ -292,7 +292,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/home/controller/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/home/controller/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
@@ -302,7 +302,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/home/controller/connectionInfo/ConnectionInfoContent.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/home/controller/connectionInfo/ConnectionInfoContent.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.connectionInfo.download" xml:space="preserve">
         <source>Download</source>
@@ -310,7 +310,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/home/servers/ServerCountry.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/home/servers/ServerCountry.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="cities" xml:space="preserve">
         <note annotates="source" from="developer">The title for the list of cities.</note>
@@ -319,7 +319,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/initialize/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/initialize/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
         <source>Device-level encryption</source>
@@ -337,7 +337,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.settings.language" xml:space="preserve">
         <source>Language</source>
@@ -350,7 +350,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
         <source>Guest Wi-Fi portal alert</source>
@@ -382,7 +382,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/settings/appPermissions/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/screens/settings/appPermissions/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
@@ -394,14 +394,14 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/sharedViews/ViewErrorFullScreen.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/sharedViews/ViewErrorFullScreen.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.errors.checkOutageUpdates" xml:space="preserve">
         <source>Check outage updates</source>
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/sharedViews/ViewUpdate.qml" datatype="plaintext" source-language="en" target-language="bg">
+  <file original="../src/apps/vpn/apps/vpn/ui/sharedViews/ViewUpdate.qml" datatype="plaintext" source-language="en" target-language="bg">
     <body>
       <trans-unit id="vpn.updates.notNow" xml:space="preserve">
         <source>Not now</source>
@@ -758,9 +758,17 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
         <source>Expand</source>
       </trans-unit>
+      <trans-unit id="vpn.global.getStarted" xml:space="preserve">
+        <note annotates="source" from="developer">Label for a button used to begin something / proceed</note>
+        <source>Get started</source>
+      </trans-unit>
       <trans-unit id="vpn.global.goBack" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used in intro modals to return to the app.</note>
         <source>Go back</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.next" xml:space="preserve">
+        <note annotates="source" from="developer">Label for button used to proceed</note>
+        <source>Next</source>
       </trans-unit>
       <trans-unit id="vpn.global.noInternetConnection" xml:space="preserve">
         <note annotates="source" from="developer">Status alert text</note>
@@ -1205,6 +1213,42 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.notifications.unsecuredNetworkTitle" xml:space="preserve">
         <source>Unsecured Wi-Fi network detected</source>
       </trans-unit>
+      <trans-unit id="vpn.onboarding.dataSlideBody" xml:space="preserve">
+        <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.dataSlideCheckboxLabel" xml:space="preserve">
+        <source>Mozilla may collect technical data about my use of Mozilla VPN.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.dataSlideHeader" xml:space="preserve">
+        <source>Data collection and use</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption" xml:space="preserve">
+        <source>Learn more about what data Mozilla collects and how it’s used</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel" xml:space="preserve">
+        <source>Mozilla VPN Privacy Notice</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.devicesSlideBody" xml:space="preserve">
+        <source>Scan this QR code using a tablet or mobile device’s camera to install the VPN on another device.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeAndroid" xml:space="preserve">
+        <source>Android</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeApple" xml:space="preserve">
+        <source>Apple</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeLabel" xml:space="preserve">
+        <source>Select device type:</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.devicesSlideHeader" xml:space="preserve">
+        <source>Install Mozilla VPN on up to 5 devices</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid" xml:space="preserve">
+        <source>QR Code that links to the Mozilla VPN product page on the Google Play Store</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple" xml:space="preserve">
+        <source>QR Code that links to the Mozilla VPN product page on the iOS App Store</source>
+      </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
         <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
       </trans-unit>
@@ -1223,13 +1267,23 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.onboarding.panelTwoTitle" xml:space="preserve">
         <source>Protect your privacy</source>
       </trans-unit>
+      <trans-unit id="vpn.onboarding.privacySlideBody" xml:space="preserve">
+        <source>Use these features for more protection. They may cause issues on some sites, so you can turn them off anytime in settings.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.privacySlideHeader" xml:space="preserve">
+        <source>Get more privacy</source>
+      </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete" xml:space="preserve">
-        <note annotates="source" from="developer">Accessibility read out for the completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
+        <note annotates="source" from="developer">Accessibility read out for completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3). Select to go back to this step.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility read out for the current step in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3). You are currently on this step.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete" xml:space="preserve">
+        <note annotates="source" from="developer">Accessibility read out for incomplete future steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
+        <source>Onboarding step “%1” (%2 of %3).</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAddDevices" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step</note>
@@ -1246,6 +1300,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.onboarding.progressBarMorePrivacy" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step</note>
         <source>Privacy</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.startSlideBody" xml:space="preserve">
+        <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.startSlideHeader" xml:space="preserve">
+        <source>Connect Mozilla VPN on startup</source>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
         <source>American Express</source>
@@ -1351,6 +1411,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.serversView.recommendedCardTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title of an expandable info card on the recommended servers list.</note>
         <source>Why are these locations recommended?</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.recommendedEmptyLabel" xml:space="preserve">
+        <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
+        <source>To see recommended server locations, turn off the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that triggers a refresh of the recommended servers list.</note>
