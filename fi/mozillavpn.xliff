@@ -1476,6 +1476,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideBody" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
+        <target>Pyrimme tarjoamaan sinulle valinnanvaraa ja keräämme vain niitä teknisiä tietoja, joita tarvitsemme parantaaksemme Mozilla VPN:ää. Näiden tietojen jakaminen Mozillan kanssa on vapaaehtoista.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideCheckboxLabel" xml:space="preserve">
         <source>Mozilla may collect technical data about my use of Mozilla VPN.</source>
@@ -1513,10 +1514,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Install Mozilla VPN on up to 5 devices</source>
         <target>Asenna Mozilla VPN jopa viiteen laitteeseen</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid">
         <source>QR Code that links to the Mozilla VPN product page on the Google Play Store</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple">
         <source>QR Code that links to the Mozilla VPN product page on the iOS App Store</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
@@ -1543,10 +1544,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Protect your privacy</source>
         <target>Suojaa yksityisyyttäsi</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.privacySlideBody" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.privacySlideBody">
         <source>Use these features for more protection. They may cause issues on some sites, so you can turn them off anytime in settings.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.privacySlideHeader" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.privacySlideHeader">
         <source>Get more privacy</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete" xml:space="preserve">
@@ -1559,7 +1560,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Käyttöönottovaihe “%1” (%2/%3). Olet parhaillaan tässä vaiheessa.</target>
         <source>Onboarding step “%1” (%2 of %3). You are currently on this step.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete">
         <note annotates="source" from="developer">Accessibility read out for incomplete future steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3).</source>
       </trans-unit>
@@ -1583,11 +1584,12 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Yksityisyys</target>
         <source>Privacy</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideBody" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.startSlideBody">
         <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideHeader" xml:space="preserve">
         <source>Connect Mozilla VPN on startup</source>
+        <target>Yhdistä Mozilla VPN käynnistyksen yhteydessä</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
         <source>American Express</source>
@@ -1729,6 +1731,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedEmptyLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
+        <target>Jos haluat nähdä suositellut palvelinsijainnit, sammuta VPN.</target>
         <source>To see recommended server locations, turn off the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
