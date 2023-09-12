@@ -891,6 +891,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.getStarted" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button used to begin something / proceed</note>
+        <target>開始使用</target>
         <source>Get started</source>
       </trans-unit>
       <trans-unit id="vpn.global.goBack" xml:space="preserve">
@@ -900,6 +901,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.next" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to proceed</note>
+        <target>下一步</target>
         <source>Next</source>
       </trans-unit>
       <trans-unit id="vpn.global.noInternetConnection" xml:space="preserve">
@@ -1474,39 +1476,51 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideBody" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
+        <target>我們努力提供您不同選擇，也只收集我們用來改善 Mozilla VPN 所必須的技術資料。與 Mozilla 分享資料不是必要的。</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideCheckboxLabel" xml:space="preserve">
         <source>Mozilla may collect technical data about my use of Mozilla VPN.</source>
+        <target>Mozilla 可能會收集我在使用 Mozilla VPN 時的技術資料。</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideHeader" xml:space="preserve">
         <source>Data collection and use</source>
+        <target>資料收集與使用</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used</source>
+        <target>了解 Mozilla 會收集使用哪些資料</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Mozilla VPN 隱私權公告</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideBody" xml:space="preserve">
         <source>Scan this QR code using a tablet or mobile device’s camera to install the VPN on another device.</source>
+        <target>使用平板電腦或行動裝置的攝影機掃描此 QR Code 即可在其他裝置安裝 VPN。</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeAndroid" xml:space="preserve">
         <source>Android</source>
+        <target>Android</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeApple" xml:space="preserve">
         <source>Apple</source>
+        <target>Apple</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeLabel" xml:space="preserve">
         <source>Select device type:</source>
+        <target>選擇裝置類型:</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideHeader" xml:space="preserve">
         <source>Install Mozilla VPN on up to 5 devices</source>
+        <target>在最多 5 台裝置上安裝 Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid" xml:space="preserve">
         <source>QR Code that links to the Mozilla VPN product page on the Google Play Store</source>
+        <target>能夠到 Google Play Store 上 Mozilla VPN 產品頁面連結的 QR Code</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple" xml:space="preserve">
         <source>QR Code that links to the Mozilla VPN product page on the iOS App Store</source>
+        <target>能夠到 iOS App Store 上 Mozilla VPN 產品頁面鏈結的 QR Code</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
         <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
@@ -1534,9 +1548,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.onboarding.privacySlideBody" xml:space="preserve">
         <source>Use these features for more protection. They may cause issues on some sites, so you can turn them off anytime in settings.</source>
+        <target>使用這些功能獲得更多保護。可能會影響某些網站的開啟問題可以隨時到設定中關閉。</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.privacySlideHeader" xml:space="preserve">
         <source>Get more privacy</source>
+        <target>更有隱私</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility read out for completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
@@ -1550,6 +1566,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility read out for incomplete future steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
+        <target>載入步驟「%1」%2 / %3。</target>
         <source>Onboarding step “%1” (%2 of %3).</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAddDevices" xml:space="preserve">
@@ -1574,9 +1591,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideBody" xml:space="preserve">
         <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
+        <target>開啟後即可在每次啟動裝置時啟動 VPN。將自動讓您連線到上次使用時的伺服器。</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideHeader" xml:space="preserve">
         <source>Connect Mozilla VPN on startup</source>
+        <target>啟動時連線至 Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
         <source>American Express</source>
@@ -1718,6 +1737,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedEmptyLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
+        <target>若要檢視推薦的伺服器位置請關閉 VPN。</target>
         <source>To see recommended server locations, turn off the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
