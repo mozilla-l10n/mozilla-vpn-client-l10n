@@ -1516,11 +1516,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid" xml:space="preserve">
         <source>QR Code that links to the Mozilla VPN product page on the Google Play Store</source>
-        <target>Cod QR sy'n cysylltu â thudalen cynnyrch Mozilla VPN ar y Google Play Store</target>
+        <target>Cod QR sy'n cysylltu â thudalen cynnyrch Mozilla VPN ar Play Store, Google</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple" xml:space="preserve">
         <source>QR Code that links to the Mozilla VPN product page on the iOS App Store</source>
-        <target>Cod QR sy'n cysylltu â thudalen cynnyrch Mozilla VPN ar yr iOS App Store</target>
+        <target>Cod QR sy'n cysylltu â thudalen cynnyrch Mozilla VPN ar App Store, iOS</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
         <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
@@ -1564,8 +1564,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Cam ymuno “%1” (%2 o %3). Rydych ar y cam hwn.</target>
         <source>Onboarding step “%1” (%2 of %3). You are currently on this step.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility read out for incomplete future steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
+        <target>Cam cyflwyno “%1” (%2 o %3).</target>
         <source>Onboarding step “%1” (%2 of %3).</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAddDevices" xml:space="preserve">
@@ -1588,11 +1589,13 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Preifatrwydd</target>
         <source>Privacy</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideBody">
+      <trans-unit id="vpn.onboarding.startSlideBody" xml:space="preserve">
         <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
+        <target>Trowch ef ymlaen i gychwyn y VPN pryd bynnag y byddwch chi'n cychwyn eich dyfais. Byddwn yn eich ailgysylltu'n awtomatig â'r un lleoliad gweinydd a ddefnyddiwyd gennych ddiwethaf.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideHeader">
+      <trans-unit id="vpn.onboarding.startSlideHeader" xml:space="preserve">
         <source>Connect Mozilla VPN on startup</source>
+        <target>Cysylltu'r VPN wrth gychwyn</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
         <source>American Express</source>
@@ -1732,8 +1735,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Pam mae'r lleoliadau hyn yn cael eu hargymell?</target>
         <source>Why are these locations recommended?</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedEmptyLabel">
+      <trans-unit id="vpn.serversView.recommendedEmptyLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
+        <target>I weld lleoliadau gweinydd sy'n cael eu hargymell, diffoddwch y VPN.</target>
         <source>To see recommended server locations, turn off the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
