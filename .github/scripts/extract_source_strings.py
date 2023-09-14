@@ -70,7 +70,8 @@ def main():
             file_name = re.sub(r"^src/", "../src/", file_name)
             file_name = re.sub(r"^nebula/", "../../nebula/", file_name)
             # Changes caused by https://github.com/mozilla-mobile/mozilla-vpn-client/pull/7924
-            file_name = re.sub(r"^../src/", "../src/apps/vpn/", file_name)
+            if not file_name.startswith("../src/apps/vpn/"):
+                file_name = re.sub(r"^../src/", "../src/apps/vpn/", file_name)
             if "i18nstrings_p.cpp" in file_name:
                 file_name = "generated/l18nstrings_p.cpp"
             f.set("original", file_name)
