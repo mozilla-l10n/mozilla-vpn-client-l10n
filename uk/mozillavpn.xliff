@@ -899,6 +899,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.getStarted" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button used to begin something / proceed</note>
+        <target>Розпочати</target>
         <source>Get started</source>
       </trans-unit>
       <trans-unit id="vpn.global.goBack" xml:space="preserve">
@@ -908,6 +909,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.next" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to proceed</note>
+        <target>Далі</target>
         <source>Next</source>
       </trans-unit>
       <trans-unit id="vpn.global.noInternetConnection" xml:space="preserve">
@@ -1480,41 +1482,52 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Unsecured Wi-Fi network detected</source>
         <target>Виявлено незахищену мережу Wi-Fi</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideBody" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.dataSlideBody">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideCheckboxLabel" xml:space="preserve">
         <source>Mozilla may collect technical data about my use of Mozilla VPN.</source>
+        <target>Я дозволяю Mozilla збирати технічні дані про моє користування Mozilla VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideHeader" xml:space="preserve">
         <source>Data collection and use</source>
+        <target>Збір і використання даних</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used</source>
+        <target>Дізнайтеся більше про те, які дані збирає Mozilla та як вони використовуються</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Повідомлення про приватність Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideBody" xml:space="preserve">
         <source>Scan this QR code using a tablet or mobile device’s camera to install the VPN on another device.</source>
+        <target>Скануйте цей QR-код за допомогою камери планшета або мобільного пристрою, щоб установити VPN на іншому пристрої.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeAndroid" xml:space="preserve">
         <source>Android</source>
+        <target>Android</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeApple" xml:space="preserve">
         <source>Apple</source>
+        <target>Apple</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeLabel" xml:space="preserve">
         <source>Select device type:</source>
+        <target>Виберіть тип пристрою:</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideHeader" xml:space="preserve">
         <source>Install Mozilla VPN on up to 5 devices</source>
+        <target>Ви можете встановити Mozilla VPN максимум на 5 пристроїв</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid" xml:space="preserve">
         <source>QR Code that links to the Mozilla VPN product page on the Google Play Store</source>
+        <target>QR-код, який спрямовує на сторінку продукту Mozilla VPN у Google Play Маркеті</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple" xml:space="preserve">
         <source>QR Code that links to the Mozilla VPN product page on the iOS App Store</source>
+        <target>QR-код, який спрямовує на сторінку продукту Mozilla VPN в iOS App Store</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
         <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
@@ -1542,9 +1555,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.onboarding.privacySlideBody" xml:space="preserve">
         <source>Use these features for more protection. They may cause issues on some sites, so you can turn them off anytime in settings.</source>
+        <target>Використовуйте ці функції для кращого захисту. Вони можуть спричиняти проблеми на деяких сайтах, тому ви можете будь-коли вимкнути їх у налаштуваннях.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.privacySlideHeader" xml:space="preserve">
         <source>Get more privacy</source>
+        <target>Отримайте більше приватності</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility read out for completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
@@ -1556,7 +1571,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Крок налаштування “%1” (%2 з %3). Зараз ви перебуваєте на цьому кроці.</target>
         <source>Onboarding step “%1” (%2 of %3). You are currently on this step.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete">
         <note annotates="source" from="developer">Accessibility read out for incomplete future steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3).</source>
       </trans-unit>
@@ -1582,9 +1597,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideBody" xml:space="preserve">
         <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
+        <target>Увімкніть, щоб запускати VPN за кожного запуску пристрою. Ми автоматично повторно під'єднаємо вас до того самого розташування сервера, яке ви використовували востаннє.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideHeader" xml:space="preserve">
         <source>Connect Mozilla VPN on startup</source>
+        <target>Під'єднувати Mozilla VPN під час запуску</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
         <source>American Express</source>
@@ -1726,6 +1743,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedEmptyLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
+        <target>Щоб переглянути рекомендовані розташування серверів, вимкніть VPN.</target>
         <source>To see recommended server locations, turn off the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
