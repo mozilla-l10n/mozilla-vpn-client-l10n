@@ -1554,11 +1554,13 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Protect your privacy</source>
         <target>Protege tu privacidad</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.privacySlideBody">
+      <trans-unit id="vpn.onboarding.privacySlideBody" xml:space="preserve">
         <source>Use these features for more protection. They may cause issues on some sites, so you can turn them off anytime in settings.</source>
+        <target>Utiliza estas funciones para obtener más protección. Pueden causar problemas en algunos sitios, por lo que puedes desactivarlos en cualquier momento en la configuración.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.privacySlideHeader">
+      <trans-unit id="vpn.onboarding.privacySlideHeader" xml:space="preserve">
         <source>Get more privacy</source>
+        <target>Consigue más privacidad</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility read out for completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
@@ -1570,8 +1572,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Paso de introducción “%1” (%2 de %3). Actualmente estás en este paso.</target>
         <source>Onboarding step “%1” (%2 of %3). You are currently on this step.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility read out for incomplete future steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
+        <target>Paso de introducción “%1” (%2 de %3).</target>
         <source>Onboarding step “%1” (%2 of %3).</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAddDevices" xml:space="preserve">
@@ -1594,11 +1597,13 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Privacidad</target>
         <source>Privacy</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideBody">
+      <trans-unit id="vpn.onboarding.startSlideBody" xml:space="preserve">
         <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
+        <target>Actívalo para iniciar la VPN cada vez que inicies tu dispositivo. Te reconectaremos automáticamente a la misma ubicación del servidor que usaste la última vez.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideHeader">
+      <trans-unit id="vpn.onboarding.startSlideHeader" xml:space="preserve">
         <source>Connect Mozilla VPN on startup</source>
+        <target>Conectar Mozilla VPN al inicio</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
         <source>American Express</source>
@@ -1738,8 +1743,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>¿Por qué se recomiendan estas ubicaciones?</target>
         <source>Why are these locations recommended?</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedEmptyLabel">
+      <trans-unit id="vpn.serversView.recommendedEmptyLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
+        <target>Para ver las ubicaciones de servidores recomendadas, desactiva la VPN.</target>
         <source>To see recommended server locations, turn off the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
