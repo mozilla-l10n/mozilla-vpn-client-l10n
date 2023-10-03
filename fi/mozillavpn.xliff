@@ -700,6 +700,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Delete Firefox account</source>
         <target>Poista Firefox-tili</target>
       </trans-unit>
+      <trans-unit id="vpn.deleteAccount.headline2" xml:space="preserve">
+        <source>Delete Mozilla account</source>
+      </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionFour" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
         <target>Kaikki addons.mozilla.org-palveluun julkaisemasi laajennukset ja teemat poistetaan</target>
@@ -724,6 +727,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
         <target>Firefox-tilisi (%1) on yhdistetty Mozilla-tuotteisiin, jotka pitävät sinut turvassa ja tuottavana verkossa. Tiedosta, että poistamalla tilisi:</target>
         <source>Your Firefox account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.subheadline2" xml:space="preserve">
+        <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
+        <source>Your Mozilla account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
       </trans-unit>
       <trans-unit id="vpn.devices.countLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label at the top of the "My devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
@@ -973,6 +980,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Viimeistele Firefox-tilisi luominen jatkaaksesi Mozilla VPN:ään</target>
         <source>Finish creating your Firefox account to continue to Mozilla VPN</source>
       </trans-unit>
+      <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription2" xml:space="preserve">
+        <note annotates="source" from="developer">User message prompting user to finish creating their account to use Mozilla VPN.</note>
+        <source>Finish creating your Mozilla account to continue to Mozilla VPN</source>
+      </trans-unit>
       <trans-unit id="vpn.inAppAuth.forgotPasswordLink" xml:space="preserve">
         <source>Forgot your password?</source>
         <target>Unohditko salasanan?</target>
@@ -1059,6 +1070,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>To continue, please confirm with your Firefox account password.</source>
         <target>Jatka vahvistamalla Firefox-tilisi salasanalla.</target>
       </trans-unit>
+      <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle2" xml:space="preserve">
+        <source>To continue, please confirm with your Mozilla account password.</source>
+      </trans-unit>
       <trans-unit id="vpn.inAppAuth.resendCodeLink" xml:space="preserve">
         <note annotates="source" from="developer">This link allows the user to request for another 6-digit verification code to be sent to their email.</note>
         <target>Lähetä koodi uudelleen</target>
@@ -1115,6 +1129,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.inAppAuth.signInSubtitle" xml:space="preserve">
         <source>Continue to Mozilla VPN by signing in with your Firefox account</source>
         <target>Jatka Mozilla VPN:ään kirjautumalla sisään Firefox-tililläsi</target>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.signInSubtitle2" xml:space="preserve">
+        <source>Continue to Mozilla VPN by signing in with your Mozilla account</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.termsOfServiceAndPrivacyDisclaimer" xml:space="preserve">
         <note annotates="source" from="developer">Do not remove or translate the markup '&lt;a href="terms-of-service"&gt;', '&lt;a href="privacy-notice"&gt;', '&lt;/a&gt;'.</note>
@@ -1334,6 +1351,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorText" xml:space="preserve">
         <source>Your subscription is linked to another Firefox Account. You may need to sign in with a different email address.</source>
         <target>Tilauksesi on linkitetty toiseen Firefox-tiliin. Sinun on ehkä kirjauduttava sisään toisella sähköpostiosoitteella.</target>
+      </trans-unit>
+      <trans-unit id="vpn.multiFxaAccountError.mozAccountErrorText" xml:space="preserve">
+        <source>Your subscription is linked to another Mozilla account. You may need to sign in with a different email address.</source>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
@@ -1697,6 +1717,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Sorry, we are unable to connect your Firefox Account to a current subscription. Please try again or contact our support team for further assistance.</source>
         <target>Valitettavasti emme voi yhdistää Firefox-tiliäsi nykyiseen tilaukseen. Yritä uudestaan tai ota yhteyttä tukitiimiimme saadaksesi apua.</target>
       </trans-unit>
+      <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText2" xml:space="preserve">
+        <source>Sorry, we are unable to connect your Mozilla account to a current subscription. Please try again or contact our support team for further assistance.</source>
+      </trans-unit>
       <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText" xml:space="preserve">
         <source>Sorry, we were unable to confirm your subscription. Please try again or contact our support team for help.</source>
         <target>Valitettavasti emme voineet vahvistaa tilaustasi. Yritä uudestaan tai ota yhteyttä tukitiimiimme saadaksesi apua.</target>
@@ -1704,6 +1727,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText" xml:space="preserve">
         <source>Another Firefox Account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
         <target>Toinen Firefox-tili on jo tilannut tällä Apple ID:llä. Kirjaudu ulos ja yritä uudestaan, tai ota yhteyttä tukitiimiimme saadaksesi apua.</target>
+      </trans-unit>
+      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText2" xml:space="preserve">
+        <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Choose a new location.</source>
