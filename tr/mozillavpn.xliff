@@ -1536,7 +1536,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>To install the VPN on another tablet or mobile device, scan the QR code.</source>
         <target>VPN’i başka bir tablete veya mobil cihaza yüklemek için QR kodunu okutun.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideBodyMobile">
+      <trans-unit id="vpn.onboarding.devicesSlideBodyMobile" xml:space="preserve">
         <source>To install the VPN on another tablet or mobile device, scan the QR code. To install on a desktop computer, visit the Download page on the Mozilla VPN website.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeAndroid" xml:space="preserve">
@@ -1652,7 +1652,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Connect Mozilla VPN on startup</source>
         <target>Başlangıçta Mozilla VPN’e bağlanın</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideMobileBody">
+      <trans-unit id="vpn.onboarding.startSlideMobileBody" xml:space="preserve">
         <source>Your mobile device will now ask you to allow Mozilla VPN to create a connection. Please allow this so that the VPN works correctly on your device.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideMobileHeader" xml:space="preserve">
@@ -2156,6 +2156,14 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Label for a button that will take users into the upgrade to VPN / Relay bundle purchase flow.</note>
         <target>Yükselt</target>
         <source>Upgrade</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual" xml:space="preserve">
+        <note annotates="source" from="developer">Block of text appearing beside a button to upgrade subscription.</note>
+        <source>Save 50% on an annual plan</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton" xml:space="preserve">
+        <note annotates="source" from="developer">Label for a button that will open the upgrade subscription flow.</note>
+        <source>Change plan</source>
       </trans-unit>
       <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
