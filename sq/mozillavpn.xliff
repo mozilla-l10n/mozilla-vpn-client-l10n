@@ -102,6 +102,7 @@
     <body>
       <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
+        <target>Mbylle</target>
       </trans-unit>
       <trans-unit id="menubar.file.title" xml:space="preserve">
         <source>File</source>
@@ -325,9 +326,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
     <body>
       <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
+        <target>Çaktivizo VPN</target>
       </trans-unit>
       <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
+        <target>Aktivizo VPN</target>
       </trans-unit>
     </body>
   </file>
@@ -699,6 +702,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.headline2" xml:space="preserve">
         <source>Delete Mozilla account</source>
+        <target>Fshini llogari Mozilla</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.optionDescriptionFour" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
@@ -727,58 +731,69 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.subheadline2" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
+        <target>Llogaria juaj Mozilla (%1) është e lidhur me produkte Mozilla që ju mbajnë të parrezik dhe prodhimtar në web. Ju lutemi, pranoni dijeninë e kësaj duke fshirë llogarinë tuaj:</target>
         <source>Your Mozilla account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.countLabel" xml:space="preserve">
+      <trans-unit id="vpn.devices.countLabel">
         <note annotates="source" from="developer">Label at the top of the "My devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
         <source>%1 out of %2 devices added</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.limitDescription2" xml:space="preserve">
+      <trans-unit id="vpn.devices.limitDescription2">
         <note annotates="source" from="developer">Description of the "device limit" view describing why the device has not yet been added to the list of active devices (because we are at the device limit)</note>
         <source>You’re using VPN on 5 devices. To add another device, please remove one.</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.limitTitle" xml:space="preserve">
+      <trans-unit id="vpn.devices.limitTitle">
         <note annotates="source" from="developer">Title of the "device limit" view stating that the device has not yet been added to the list of active devices (because we are at the device limit)</note>
         <source>Device not added</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedDaysAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added days ago. %1 is the number of days.</note>
+        <target>Shtuar %1 ditë më parë</target>
         <source>Added %1 days ago</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedFewHoursAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added a few hours ago. %1 is the number of hours.</note>
+        <target>Shtuar pak orë më parë (%1)</target>
         <source>Added a few hours ago (%1)</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedOneHourAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added less than 1 hour ago</note>
+        <target>Shtuar në më pak se një orë më parë</target>
         <source>Added less than an hour ago</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionCurrent" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for the current device</note>
+        <target>Pajisja e Tanishme</target>
         <source>Current Device</source>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemRemoveDeviceAccessibility" xml:space="preserve">
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <target>Hiqe %1</target>
         <source>Remove %1</source>
       </trans-unit>
       <trans-unit id="vpn.devices.menuTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the menu bar when viewing the devices or device limit pages</note>
+        <target>Pajisjet e mia</target>
         <source>My devices</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupDescription" xml:space="preserve">
         <note annotates="source" from="developer">Description for the Remove Device popup. %1 is the name of the device being removed. The name is displayed on purpose on a new line."</note>
+        <target>Ju lutemi, ripohoni se do të donit të hiqet %1.</target>
         <source>Please confirm you would like to remove %1.</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupPrimaryButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the primary button for the Remove Device poup</note>
+        <target>Hiqe</target>
         <source>Remove</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the Remove Device popup</note>
+        <target>Të hiqet pajisja?</target>
         <source>Remove device?</source>
       </trans-unit>
       <trans-unit id="vpn.devices.removingTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for "Removing device" screen</note>
+        <target>Po hiqet pajisja…</target>
         <source>Removing device…</source>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS" xml:space="preserve">
@@ -890,6 +905,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.getStarted" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button used to begin something / proceed</note>
+        <target>Fillojani</target>
         <source>Get started</source>
       </trans-unit>
       <trans-unit id="vpn.global.goBack" xml:space="preserve">
@@ -899,6 +915,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.global.next" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to proceed</note>
+        <target>Pasuesi</target>
         <source>Next</source>
       </trans-unit>
       <trans-unit id="vpn.global.noInternetConnection" xml:space="preserve">
@@ -964,6 +981,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription2" xml:space="preserve">
         <note annotates="source" from="developer">User message prompting user to finish creating their account to use Mozilla VPN.</note>
+        <target>Që të vazhdoni të përdorni Mozilla VPN, përfundoni krijimin e llogarisë tuaj Mozilla</target>
         <source>Finish creating your Mozilla account to continue to Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.forgotPasswordLink" xml:space="preserve">
@@ -1054,6 +1072,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle2" xml:space="preserve">
         <source>To continue, please confirm with your Mozilla account password.</source>
+        <target>Që të vazhdohet, ju lutemi, ripohojeni me fjalëkalimin e llogarisë tuaj Mozilla.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.resendCodeLink" xml:space="preserve">
         <note annotates="source" from="developer">This link allows the user to request for another 6-digit verification code to be sent to their email.</note>
@@ -1114,6 +1133,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInSubtitle2" xml:space="preserve">
         <source>Continue to Mozilla VPN by signing in with your Mozilla account</source>
+        <target>Vazhdoni te Mozilla VPN duke hyrë me llogarinë tuaj Mozilla</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.termsOfServiceAndPrivacyDisclaimer" xml:space="preserve">
         <note annotates="source" from="developer">Do not remove or translate the markup '&lt;a href="terms-of-service"&gt;', '&lt;a href="privacy-notice"&gt;', '&lt;/a&gt;'.</note>
@@ -1336,6 +1356,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.mozAccountErrorText" xml:space="preserve">
         <source>Your subscription is linked to another Mozilla account. You may need to sign in with a different email address.</source>
+        <target>Pajtimi juaj është i lidhur me një tjetër llogari Mozilla. Mund të duhet të bëni hyrjen me një tjetër adresë email.</target>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
@@ -1486,44 +1507,51 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideBody" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
+        <target>Përpiqemi t’ju japim mundësi zgjedhjeje dhe të grumbullojmë vetëm të dhënat teknike që na duhen për të përmirësuar Mozilla VPN. Dhënia e të dhënave Mozilla-s është opsionale.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideCheckboxLabel" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.dataSlideCheckboxLabel">
         <source>Mozilla may collect technical data about my use of Mozilla VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideHeader" xml:space="preserve">
         <source>Data collection and use</source>
+        <target>Grumbullim dhe përdorim të dhënash</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used</source>
+        <target>Mësoni më tepër se ç’të dhëna grumbullon Mozilla dhe se si i përdor</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Shënim Privatësie për Mozilla VPN-në</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideBody" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideBody">
         <source>Scan this QR code using a tablet or mobile device’s camera to install the VPN on another device.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideBody2" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideBody2">
         <source>To install the VPN on another tablet or mobile device, scan the QR code.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideBodyMobile" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideBodyMobile">
         <source>To install the VPN on another tablet or mobile device, scan the QR code. To install on a desktop computer, visit the Download page on the Mozilla VPN website.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeAndroid" xml:space="preserve">
         <source>Android</source>
+        <target>Android</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeApple" xml:space="preserve">
         <source>Apple</source>
+        <target>Apple</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeLabel" xml:space="preserve">
         <source>Select device type:</source>
+        <target>Përzgjidhni lloj pajisjesh:</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideHeader" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideHeader">
         <source>Install Mozilla VPN on up to 5 devices</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid">
         <source>QR Code that links to the Mozilla VPN product page on the Google Play Store</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple">
         <source>QR Code that links to the Mozilla VPN product page on the iOS App Store</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
@@ -1550,61 +1578,69 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Protect your privacy</source>
         <target>Mbroni privatësinë tuaj</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.privacySlideBody" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.privacySlideBody">
         <source>Use these features for more protection. They may cause issues on some sites, so you can turn them off anytime in settings.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.privacySlideHeader" xml:space="preserve">
         <source>Get more privacy</source>
+        <target>Kini më tepër privatësi</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete">
         <note annotates="source" from="developer">Accessibility read out for completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3). Select to go back to this step.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent">
         <note annotates="source" from="developer">Accessibility read out for the current step in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3). You are currently on this step.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete">
         <note annotates="source" from="developer">Accessibility read out for incomplete future steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3).</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAddDevices" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step</note>
+        <target>Pajisje</target>
         <source>Devices</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarConnect" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step where users can grant permission to create a VPN configuration with the system</note>
+        <target>Lidhe</target>
         <source>Connect</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarDataUse" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step</note>
+        <target>Të dhëna</target>
         <source>Data</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarGetStarted" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step. It's the final step in the progress, and indicates that the user can now start using the app.</note>
+        <target>Nise</target>
         <source>Start</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarMorePrivacy" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step</note>
+        <target>Privatësi</target>
         <source>Privacy</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarStartup" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step where users can select to enable VPN startup on device boot</note>
+        <target>Nisje</target>
         <source>Startup</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideAllowButtonLabel" xml:space="preserve">
         <source>Allow VPN connection</source>
+        <target>Lejo lidhje VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideBody" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.startSlideBody">
         <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideHeader" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.startSlideHeader">
         <source>Connect Mozilla VPN on startup</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideMobileBody" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.startSlideMobileBody">
         <source>Your mobile device will now ask you to allow Mozilla VPN to create a connection. Please allow this so that the VPN works correctly on your device.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideMobileHeader" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.startSlideMobileHeader">
         <source>Allow Mozilla VPN to create a VPN connection</source>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
@@ -1699,7 +1735,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Sorry, we are unable to connect your Firefox Account to a current subscription. Please try again or contact our support team for further assistance.</source>
         <target>Na ndjeni, s’jemi në gjendje të lidhim Llogarinë tuaj Firefox me pajtimin e tanishëm. Ju lutemi, riprovoni, ose lidhuni me ekipin tonë të asistencës për ndihmë të mëtejshme.</target>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText2" xml:space="preserve">
+      <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText2">
         <source>Sorry, we are unable to connect your Mozilla account to a current subscription. Please try again or contact our support team for further assistance.</source>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText" xml:space="preserve">
@@ -1710,7 +1746,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Another Firefox Account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
         <target>Është pajtuar tashmë një tjetër Llogari Firefox duke për dorur këtë Apple ID. Ju lutemi, bëni daljen prej saj dhe riprovoni, ose lidhuni me ekipin tonë të asistencës për ndihmë.</target>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText2" xml:space="preserve">
+      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText2">
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyText" xml:space="preserve">
@@ -1751,7 +1787,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Pse rekomandohen këto vendndodhje?</target>
         <source>Why are these locations recommended?</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedEmptyLabel" xml:space="preserve">
+      <trans-unit id="vpn.serversView.recommendedEmptyLabel">
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
         <source>To see recommended server locations, turn off the VPN.</source>
       </trans-unit>
@@ -1787,19 +1823,19 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Search countries</source>
         <target>Kërkoni te vendet</target>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithGoodConnection" xml:space="preserve">
+      <trans-unit id="vpn.serversView.serverCityWithGoodConnection">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is good. Argument is the city name.</note>
         <source>%1. Good connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithModerateConnection" xml:space="preserve">
+      <trans-unit id="vpn.serversView.serverCityWithModerateConnection">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is moderate. Argument is the city name.</note>
         <source>%1. Moderate connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithNoConnection" xml:space="preserve">
+      <trans-unit id="vpn.serversView.serverCityWithNoConnection">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is unavailable. Argument is the city name.</note>
         <source>%1. No connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithPoorConnection" xml:space="preserve">
+      <trans-unit id="vpn.serversView.serverCityWithPoorConnection">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is poor. Argument is the city name.</note>
         <source>%1. Poor connectivity</source>
       </trans-unit>
@@ -1942,6 +1978,7 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoCardDescription" xml:space="preserve">
         <note annotates="source" from="developer">Displays inside the information card at the top of the app exclusions screen when the VPN is on</note>
+        <target>VPN-ja duhet të jetë e fikur, që të përpunohen përjashtime Aplikacionesh</target>
         <source>VPN must be off to edit App exclusions</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
@@ -2097,12 +2134,13 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Përmirësojeni</target>
         <source>Upgrade</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual" xml:space="preserve">
+      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual">
         <note annotates="source" from="developer">Block of text appearing beside a button to upgrade subscription.</note>
         <source>Save 50% on an annual plan</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will open the upgrade subscription flow.</note>
+        <target>Ndryshoni plan</target>
         <source>Change plan</source>
       </trans-unit>
       <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
