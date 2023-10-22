@@ -734,8 +734,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Llogaria juaj Mozilla (%1) është e lidhur me produkte Mozilla që ju mbajnë të parrezik dhe prodhimtar në web. Ju lutemi, pranoni dijeninë e kësaj duke fshirë llogarinë tuaj:</target>
         <source>Your Mozilla account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.countLabel">
+      <trans-unit id="vpn.devices.countLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label at the top of the "My devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
+        <target>%1 pajisje të lidhura, nga %2</target>
         <source>%1 out of %2 devices added</source>
       </trans-unit>
       <trans-unit id="vpn.devices.limitDescription2" xml:space="preserve">
