@@ -1819,39 +1819,48 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Search countries</source>
         <target>Kraje přepytać</target>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithGoodConnection">
+      <trans-unit id="vpn.serversView.serverCityWithGoodConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is good. Argument is the city name.</note>
+        <target>%1. Dobry zwisk</target>
         <source>%1. Good connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithModerateConnection">
+      <trans-unit id="vpn.serversView.serverCityWithModerateConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is moderate. Argument is the city name.</note>
+        <target>%1. Srěni zwisk</target>
         <source>%1. Moderate connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithNoConnection">
+      <trans-unit id="vpn.serversView.serverCityWithNoConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is unavailable. Argument is the city name.</note>
+        <target>%1. Žadyn zwisk</target>
         <source>%1. No connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithPoorConnection">
+      <trans-unit id="vpn.serversView.serverCityWithPoorConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is poor. Argument is the city name.</note>
+        <target>%1. Słaby zwisk</target>
         <source>%1. Poor connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.tabAllLabel">
+      <trans-unit id="vpn.serversView.tabAllLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the “all” servers tab</note>
+        <target>Wšě</target>
         <source>All</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.tabRecommendedLabel">
+      <trans-unit id="vpn.serversView.tabRecommendedLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the “recommended” servers tab</note>
+        <target>Doporučeny</target>
         <source>Recommended</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.appExclusionClearAllApps">
+      <trans-unit id="vpn.settings.appExclusionClearAllApps" xml:space="preserve">
         <note annotates="source" from="developer">Button label to clear all apps from the exclusions list</note>
+        <target>Wšě zhašeć</target>
         <source>Clear all</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.appExclusionSettings">
+      <trans-unit id="vpn.settings.appExclusionSettings" xml:space="preserve">
         <source>App exclusions</source>
+        <target>Nałoženske wuwzaća</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.appPreferences">
+      <trans-unit id="vpn.settings.appPreferences" xml:space="preserve">
         <source>App preferences</source>
+        <target>Nałoženske nastajenja</target>
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
@@ -1862,29 +1871,36 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
         <target>Mozilla VPN dowolić, na Mozilla techniske, interakciske a kampanjowe a wotkazowanske daty słać</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettings">
+      <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
         <source>DNS settings</source>
+        <target>DNS-nastajenja</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody">
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody" xml:space="preserve">
         <source>Resolve websites using a custom DNS</source>
+        <target>Websydła z pomocu swójskeho DNS roztworić</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsCustomDNSError">
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSError" xml:space="preserve">
         <source>Invalid DNS, please try a new one</source>
+        <target>Njepłaćiwy DNS, spytajće nowy DNS</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle">
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle" xml:space="preserve">
         <source>Use custom DNS</source>
+        <target>Swójski DNS wužiwać</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning">
         <source>Changing these settings will cause the VPN to disconnect and reconnect automatically.</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder">
+      <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder" xml:space="preserve">
         <source>Enter custom DNS</source>
+        <target>Swójski DNS zapodać</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody">
+      <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody" xml:space="preserve">
         <source>Resolve websites using Mozilla VPN’s standard DNS</source>
+        <target>Websydła z pomocu standardneho DNS Mozilla VPN roztworić</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle">
+      <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle" xml:space="preserve">
         <source>Use standard DNS</source>
+        <target>Standardny DNS wužiwać</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
@@ -1892,8 +1908,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.settings.privacyAdblockBody">
         <source>Reduces the number of ads you see when you’re using VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyAdblockTitle">
+      <trans-unit id="vpn.settings.privacyAdblockTitle" xml:space="preserve">
         <source>Block ads</source>
+        <target>Wabjenje blokować</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyCard">
         <source>These options may cause some websites to break or not display content correctly.</source>
@@ -1904,14 +1921,16 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.settings.privacyMalwareTitle">
         <source>Block malware</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacySettings">
+      <trans-unit id="vpn.settings.privacySettings" xml:space="preserve">
         <source>Privacy features</source>
+        <target>Funkcije priwatnosće</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyTrackerBody">
         <source>Fewer harmful domains will be able to track you</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyTrackerTitle">
+      <trans-unit id="vpn.settings.privacyTrackerTitle" xml:space="preserve">
         <source>Block trackers</source>
+        <target>Přesćěhowaki blokować</target>
       </trans-unit>
       <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
         <source>Mozilla VPN will launch and connect when you start up your device</source>
@@ -1922,8 +1941,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>VPN při startowanju zwjazać</target>
         <source>Connect VPN on startup</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.tipsAndTricksSettings">
+      <trans-unit id="vpn.settings.tipsAndTricksSettings" xml:space="preserve">
         <source>Tips and tricks</source>
+        <target>Tipy a triki</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
         <source>VPN must be restarted to take effect</source>
@@ -1949,16 +1969,18 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Use Staging Servers</source>
         <target>Testowe serwery wužiwać</target>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoCardDescription">
+      <trans-unit id="vpn.splittunnel.infoCardDescription" xml:space="preserve">
         <note annotates="source" from="developer">Displays inside the information card at the top of the app exclusions screen when the VPN is on</note>
+        <target>VPN dyrbi znjemóžnjeny być, zo byšće móhł nałoženske wuwzaća wobdźěłać</target>
         <source>VPN must be off to edit App exclusions</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
         <source>Learn more</source>
         <target>Dalše informacije</target>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoText2">
+      <trans-unit id="vpn.splittunnel.infoText2" xml:space="preserve">
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
+        <target>Jeli prašenja wo nastajenju wuwzaćow nałoženja maće, mamy wužitne pokiwy na našim websydle za was.</target>
         <source>For any questions about setting app exclusions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppActionButton" xml:space="preserve">
@@ -2001,8 +2023,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Płaćiwy do</target>
         <source>Expires</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.manageAccount">
+      <trans-unit id="vpn.subscriptionManagement.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>Konto rjadować</target>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.manageSubscriptionButton" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will take the user to a view where they can manage their subscription.</note>
@@ -2029,16 +2052,19 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Abonementowy plan</target>
         <source>Subscription plan</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planMonthly">
+      <trans-unit id="vpn.subscriptionManagement.planMonthly" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription. %1 represents the localized currency string</note>
+        <target>Měsačny plan: %1</target>
         <source>Monthly plan: %1</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription plus tax. %1 represents the localized currency string</note>
+        <target>%1/měsac + dawk</target>
         <source>%1/month + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planMonthlyWithoutTax">
+      <trans-unit id="vpn.subscriptionManagement.planMonthlyWithoutTax" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription without tax. %1 represents the localized currency string</note>
+        <target>%1/měsac</target>
         <source>%1/month</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly" xml:space="preserve">
@@ -2055,8 +2081,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>%1 kóždy měsac</target>
         <source>%1 Monthly</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1/měsac + dawk</target>
         <source>%1 Monthly + tax</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planValueYearly" xml:space="preserve">
@@ -2064,8 +2091,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>%1 kóžde lěto</target>
         <source>%1 Yearly</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1/lěto + dawk</target>
         <source>%1 Yearly + tax</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.statusActive" xml:space="preserve">
@@ -2102,8 +2130,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Block of text appearing beside a button to upgrade subscription.</note>
         <source>Save 50% on an annual plan</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton">
+      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will open the upgrade subscription flow.</note>
+        <target>Plan změnić</target>
         <source>Change plan</source>
       </trans-unit>
       <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
@@ -2151,24 +2180,28 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Disconnecting from:</source>
         <target>Zwisk dźěli so wot:</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.allow">
+      <trans-unit id="vpn.telemetryPolicyView.allow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Tutón grat dowolić</target>
         <source>Allow on this device</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.dataCollectionAndUse">
+      <trans-unit id="vpn.telemetryPolicyView.dataCollectionAndUse" xml:space="preserve">
         <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
+        <target>Hromadźenje a wužiwanje datow</target>
         <source>Data collection and use</source>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.description" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
         <target>Prócujemy so, wam swobodu dać a jenož daty hromadźić, kotrež trjebamy, zo bychmy Mozilla VPN polěpšili. Dźělenje tutych datow z Mozilla je opcionalne.</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.doNotAllow">
+      <trans-unit id="vpn.telemetryPolicyView.doNotAllow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Njedowolić</target>
         <source>Don’t allow</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.learnMore">
+      <trans-unit id="vpn.telemetryPolicyView.learnMore" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
+        <target>Zhońće wjace wo tym, kotre daty Mozilla hromadźi a kak so wužiwaja.</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
@@ -2178,8 +2211,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Let us help you learn more about Mozilla VPN</source>
         <target>Pomhamy wam wjace wo Mozilla VPN zhonić</target>
       </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.advancedTipsGuideViewTitle">
+      <trans-unit id="vpn.tipsAndTricks.advancedTipsGuideViewTitle" xml:space="preserve">
         <source>Advanced tip</source>
+        <target>Rozšěrjeny pokiw</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.advancedTipsTitle" xml:space="preserve">
         <source>Advanced tips</source>
