@@ -879,8 +879,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Udvid</target>
         <source>Expand</source>
       </trans-unit>
-      <trans-unit id="vpn.global.getStarted">
+      <trans-unit id="vpn.global.getStarted" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button used to begin something / proceed</note>
+        <target>Kom i gang</target>
         <source>Get started</source>
       </trans-unit>
       <trans-unit id="vpn.global.goBack" xml:space="preserve">
@@ -888,8 +889,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Gå tilbage</target>
         <source>Go back</source>
       </trans-unit>
-      <trans-unit id="vpn.global.next">
+      <trans-unit id="vpn.global.next" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to proceed</note>
+        <target>Næste</target>
         <source>Next</source>
       </trans-unit>
       <trans-unit id="vpn.global.noInternetConnection" xml:space="preserve">
@@ -953,8 +955,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Afslut oprettelsen af din Firefox-konto for at fortsætte til Mozilla VPN</target>
         <source>Finish creating your Firefox account to continue to Mozilla VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription2">
+      <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription2" xml:space="preserve">
         <note annotates="source" from="developer">User message prompting user to finish creating their account to use Mozilla VPN.</note>
+        <target>Afslut oprettelsen af din Mozilla-konto for at fortsætte til Mozilla VPN</target>
         <source>Finish creating your Mozilla account to continue to Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.forgotPasswordLink" xml:space="preserve">
@@ -1042,8 +1045,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>To continue, please confirm with your Firefox account password.</source>
         <target>For at fortsætte, bekræft med adgangskoden til din Firefox-konto.</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle2">
+      <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle2" xml:space="preserve">
         <source>To continue, please confirm with your Mozilla account password.</source>
+        <target>For at fortsætte, bekræft med adgangskoden til din Mozilla-konto.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.resendCodeLink" xml:space="preserve">
         <note annotates="source" from="developer">This link allows the user to request for another 6-digit verification code to be sent to their email.</note>
@@ -1102,8 +1106,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Continue to Mozilla VPN by signing in with your Firefox account</source>
         <target>Fortsæt til Mozilla VPN ved at logge ind med din Firefox-konto</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.signInSubtitle2">
+      <trans-unit id="vpn.inAppAuth.signInSubtitle2" xml:space="preserve">
         <source>Continue to Mozilla VPN by signing in with your Mozilla account</source>
+        <target>Fortsæt til Mozilla VPN ved at logge ind med din Mozilla-konto</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.termsOfServiceAndPrivacyDisclaimer" xml:space="preserve">
         <note annotates="source" from="developer">Do not remove or translate the markup '&lt;a href="terms-of-service"&gt;', '&lt;a href="privacy-notice"&gt;', '&lt;/a&gt;'.</note>
@@ -1131,90 +1136,110 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">A badge shown in a message signifying that this is an important message</note>
         <source>Critical</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppMessaging.dateTimeYesterday">
+      <trans-unit id="vpn.inAppMessaging.dateTimeYesterday" xml:space="preserve">
         <source>Yesterday</source>
+        <target>I går</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppMessaging.deleteMessage">
+      <trans-unit id="vpn.inAppMessaging.deleteMessage" xml:space="preserve">
         <note annotates="source" from="developer">An action to delete a message from the users inbox</note>
+        <target>Slet meddelelse</target>
         <source>Delete message</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppMessaging.editButton">
+      <trans-unit id="vpn.inAppMessaging.editButton" xml:space="preserve">
         <source>Edit</source>
+        <target>Rediger</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.emptyStateDescription">
         <source>You’re up to date!</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppMessaging.emptyStateTitle">
+      <trans-unit id="vpn.inAppMessaging.emptyStateTitle" xml:space="preserve">
         <source>No messages</source>
+        <target>Ingen meddelelser</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppMessaging.menuTitle">
+      <trans-unit id="vpn.inAppMessaging.menuTitle" xml:space="preserve">
         <source>Messages</source>
+        <target>Meddelelser</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppMessaging.newUpdateBadge">
+      <trans-unit id="vpn.inAppMessaging.newUpdateBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying an update to the app is available</note>
+        <target>Ny opdatering</target>
         <source>New update</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppMessaging.searchBarPlaceholderText">
+      <trans-unit id="vpn.inAppMessaging.searchBarPlaceholderText" xml:space="preserve">
         <source>Search messages</source>
+        <target>Søg efter meddelelser</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppMessaging.surveyBadge">
+      <trans-unit id="vpn.inAppMessaging.surveyBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains a survey</note>
+        <target>Undersøgelse</target>
         <source>Survey</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppMessaging.warningBadge">
+      <trans-unit id="vpn.inAppMessaging.warningBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this is a warning message</note>
+        <target>Advarsel</target>
         <source>Warning</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.whatsNewBadge">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about what is new in the product</note>
         <source>What’s new</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem">
+      <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
+        <target>Kontoproblemer</target>
         <source>Account issues</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.disclaimerText">
         <source>When you submit, Mozilla VPN will collect technical and interaction data with your email to help our support team understand your issue.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel">
+      <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel" xml:space="preserve">
         <note annotates="source" from="developer">A user trying to submit feedback will use this dropdown to select the general topic related to the feedback.</note>
+        <target>Vælg en kategori</target>
         <source>Choose a category</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.featureRequestDropdownListItem">
+      <trans-unit id="vpn.inAppSupportWorkflow.featureRequestDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to requesting new features.</note>
+        <target>Foreslå funktioner</target>
         <source>Request features</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.issueFieldPlaceholder">
+      <trans-unit id="vpn.inAppSupportWorkflow.issueFieldPlaceholder" xml:space="preserve">
         <source>Describe issue</source>
+        <target>Beskriv problemet</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.otherDropdownListItem">
+      <trans-unit id="vpn.inAppSupportWorkflow.otherDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to issues not covered under the other categories.</note>
+        <target>Andet</target>
         <source>Other</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.paymentDropdownListItem">
+      <trans-unit id="vpn.inAppSupportWorkflow.paymentDropdownListItem" xml:space="preserve">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to payment and billing.</note>
+        <target>Betaling og fakturering</target>
         <source>Payment and billing</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.privacyNoticeLinkText">
         <source>Mozilla VPN Privacy Notice</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder">
+      <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder" xml:space="preserve">
         <source>Subject (optional)</source>
+        <target>Emne (valgfri)</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportConfirmEmailPlaceholder">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportConfirmEmailPlaceholder" xml:space="preserve">
         <source>Confirm email address</source>
+        <target>Bekræft mailadresse</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldLabel">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldLabel" xml:space="preserve">
         <source>Enter your email</source>
+        <target>Indtast din mailadresse</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldPlaceholder">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldPlaceholder" xml:space="preserve">
         <source>Email address</source>
+        <target>Mailadresse</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorBrowserButton">
         <source>Try opening in browser</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorButton">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorButton" xml:space="preserve">
         <source>Try Again</source>
+        <target>Prøv igen</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorHeader">
         <source>Error submitting your support request</source>
