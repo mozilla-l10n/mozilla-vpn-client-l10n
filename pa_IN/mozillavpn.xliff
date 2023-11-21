@@ -516,6 +516,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>%2 'ਚੋਂ %1</target>
         <source>%1 of %2</source>
       </trans-unit>
+      <trans-unit id="vpn.accessibility.selected" xml:space="preserve">
+        <note annotates="source" from="developer">Used by screen reader to indicate that a user action selected an item.</note>
+        <source>Selected</source>
+      </trans-unit>
       <trans-unit id="vpn.accessibility.selectedAndItemName" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen readers to denote that a particular item is currently selected. For example, given a segmented control with 2 items, where the first item is currently selected. We want the screen reader to read out "Selected, &lt;item name&gt;". The %1 represents the name of the selected item.</note>
         <target>ਚੁਣੀ ਆਈਟਮ: %1</target>
@@ -645,6 +649,10 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Title for the connection metrics view.</note>
         <target>ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਣਕਾਰੀ</target>
         <source>Connection information</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.restartSpeedTest" xml:space="preserve">
+        <note annotates="source" from="developer">Accessible label for the button to restart the speed test upon its completion.</note>
+        <source>Restart speed test</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.startSpeedTest" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that opens the speed test view and initiates a speed test</note>
@@ -1920,6 +1928,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.settings.privacyMalwareBody" xml:space="preserve">
         <source>Helps protect you from ransomware, phishing, spyware, viruses, and malware</source>
         <target>ਤੁਹਾਨੂੰ ਰੈਨਸਮਵੇਅਰ, ਫ਼ਿਸ਼ਿੰਗ, ਜਾਸੂਸੀ, ਵਾਈਰਸ ਅਤੇ ਮਾਲਵੇਅਰ ਤੋਂ ਬਚਾਅ ਕੇ ਰੱਖਣ ਲਈ ਮਦਦ ਕਰਦਾ ਹੈ</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacyMalwareBody2" xml:space="preserve">
+        <source>Helps protect you from ransomware, phishing, spyware, and viruses</source>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareTitle" xml:space="preserve">
         <source>Block malware</source>
