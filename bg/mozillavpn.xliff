@@ -432,8 +432,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Добавяне на приложение</target>
         <source>Add application</source>
       </trans-unit>
-      <trans-unit id="vpn.protectSelectedApps.searchApps">
+      <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
         <note annotates="source" from="developer">Search bar placeholder text</note>
+        <target>Приложения за търсене</target>
         <source>Search apps</source>
       </trans-unit>
     </body>
@@ -542,18 +543,22 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Okay</source>
         <target>Добре</target>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.header">
+      <trans-unit id="vpn.captivePortalAlert.header" xml:space="preserve">
         <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
+        <target>Портал за прихващане е, когато Wi-Fi за гости, който използвате, изисква да влезете, за да получите достъп до интернет.</target>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.title">
+      <trans-unit id="vpn.captivePortalAlert.title" xml:space="preserve">
         <source>Captive portal detected!</source>
+        <target>Портал за прихващане е открит!</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.connectionInformation">
+      <trans-unit id="vpn.connectionInfo.connectionInformation" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that shows the IP info panel when clicked.</note>
+        <target>Информация за връзката</target>
         <source>Connection information</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.errorMessage">
+      <trans-unit id="vpn.connectionInfo.errorMessage" xml:space="preserve">
         <source>Looks like there was an unexpected error while trying to connect. Please try again or check your connection.</source>
+        <target>Изглежда, че е възникнала неочаквана грешка при опит за свързване. Моля, опитайте отново или проверете връзката си.</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.exitServerLabelIp">
         <note annotates="source" from="developer">Exit server IP label for IPV4. IP is the abbreviation for Internet Procol. This is followed by the user’s IPv4 address.</note>
