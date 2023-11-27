@@ -1626,8 +1626,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Fasa d’accolta « %1 » (%2 nant’à %3).</target>
         <source>Onboarding step “%1” (%2 of %3).</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete2">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete2" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility read out for incomplete future steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
+        <target>Fasa d’accolta « %1 » (%2 nant’à %3)</target>
         <source>Onboarding step “%1” (%2 of %3)</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAddDevices" xml:space="preserve">
@@ -1635,8 +1636,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Apparechji</target>
         <source>Devices</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarConnect">
+      <trans-unit id="vpn.onboarding.progressBarConnect" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step where users can grant permission to create a VPN configuration with the system</note>
+        <target>Cunnettassi</target>
         <source>Connect</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarDataUse" xml:space="preserve">
@@ -1654,12 +1656,14 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Vita privata</target>
         <source>Privacy</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarStartup">
+      <trans-unit id="vpn.onboarding.progressBarStartup" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step where users can select to enable VPN startup on device boot</note>
+        <target>Avviu</target>
         <source>Startup</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideAllowButtonLabel">
+      <trans-unit id="vpn.onboarding.startSlideAllowButtonLabel" xml:space="preserve">
         <source>Allow VPN connection</source>
+        <target>Permette a cunnessione VPN</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideBody" xml:space="preserve">
         <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
@@ -1669,11 +1673,13 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Connect Mozilla VPN on startup</source>
         <target>Cunnette Mozilla VPN à l’avviu</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideMobileBody">
+      <trans-unit id="vpn.onboarding.startSlideMobileBody" xml:space="preserve">
         <source>Your mobile device will now ask you to allow Mozilla VPN to create a connection. Please allow this so that the VPN works correctly on your device.</source>
+        <target>U vostru apparechju mobile hà da dumandavvi di permette à Mozilla VPN di creà una cunnessione. Ci vole à permette què per chì a VPN funziuneghji currettamente nant’à u vostru apparechju.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideMobileHeader">
+      <trans-unit id="vpn.onboarding.startSlideMobileHeader" xml:space="preserve">
         <source>Allow Mozilla VPN to create a VPN connection</source>
+        <target>Permette à Mozilla VPN di creà una cunnessione</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
         <source>American Express</source>
