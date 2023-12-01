@@ -1457,30 +1457,37 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Zwězany z %1</target>
         <source>Connected through %1</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNConnectedTitle">
+      <trans-unit id="vpn.notifications.VPNConnectedTitle" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN jo zwězany</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNDisconnectedMessage">
+      <trans-unit id="vpn.notifications.VPNDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN disconnected from.</note>
+        <target>Wót %1 źělony</target>
         <source>Disconnected from %1</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNDisconnectedTitle">
+      <trans-unit id="vpn.notifications.VPNDisconnectedTitle" xml:space="preserve">
         <source>VPN Disconnected</source>
+        <target>VPN jo źělony</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages">
+      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>Zwězany z %1 pśez %2</target>
         <source>Connected through %1 via %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage">
+      <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>Wót %1 a %2 źělony</target>
         <source>Disconnected from %1 and %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNSwitchedServersMessage">
+      <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the initial server, %2 is the name of the destination server.</note>
+        <target>Wót %1 do %2 pśešaltowany</target>
         <source>Switched from %1 to %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNSwitchedServersTitle">
+      <trans-unit id="vpn.notifications.VPNSwitchedServersTitle" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>VPN jo pśešaltował serwery</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
@@ -1510,38 +1517,48 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Unsecured Wi-Fi network detected</source>
         <target>Njewěsta WLAN-seś jo se namakała</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideBody">
+      <trans-unit id="vpn.onboarding.dataSlideBody" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
+        <target>Procujomy se, wam wólnosć daś a jano techniske daty gromaźiś, kótarež trjebamy, aby Mozilla VPN pólěpšyli. Źělenje datow z Mozilla jo opcionalne.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideCheckboxLabel">
+      <trans-unit id="vpn.onboarding.dataSlideCheckboxLabel" xml:space="preserve">
         <source>Mozilla may collect technical data about my use of Mozilla VPN.</source>
+        <target>Mozilla móžo techniske daty wó mójom wužywanju Mozilla VPN gromaźiś.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideHeader">
+      <trans-unit id="vpn.onboarding.dataSlideHeader" xml:space="preserve">
         <source>Data collection and use</source>
+        <target>Gromaźenje a wužywanje datow</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption">
+      <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used</source>
+        <target>Zgóńśo wěcej wó tom, kótare daty Mozilla gromaźi a kak se wužywaju</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel">
+      <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Powěźeńku priwatnosći Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideBody2">
+      <trans-unit id="vpn.onboarding.devicesSlideBody2" xml:space="preserve">
         <source>To install the VPN on another tablet or mobile device, scan the QR code.</source>
+        <target>Aby VPN na drugem tableśe abo mobilnem rěźe instalěrował, scannujśo QR-kod.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideBodyMobile">
         <source>To install the VPN on another tablet or mobile device, scan the QR code. To install on a desktop computer, visit the Download page on the Mozilla VPN website.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeAndroid">
+      <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeAndroid" xml:space="preserve">
         <source>Android</source>
+        <target>Android</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeApple">
+      <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeApple" xml:space="preserve">
         <source>Apple</source>
+        <target>Apple</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeLabel">
+      <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeLabel" xml:space="preserve">
         <source>Select device type:</source>
+        <target>Rědowy typ wubraś:</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideHeader">
+      <trans-unit id="vpn.onboarding.devicesSlideHeader" xml:space="preserve">
         <source>Install Mozilla VPN on up to 5 devices</source>
+        <target>Instalěrujśo Mozilla VPN na až k 5 rědach</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid">
         <source>QR Code that links to the Mozilla VPN product page on the Google Play Store</source>
@@ -1552,8 +1569,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.onboarding.panelFourSubtitle">
         <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelFourTitle">
+      <trans-unit id="vpn.onboarding.panelFourTitle" xml:space="preserve">
         <source>Add even more privacy</source>
+        <target>Pśidajśo samo wěcej priwatnosći</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelThreeSubtitle">
         <source>Protecting yourself is simple: tap to connect to the VPN and you’re ready to browse safely. Mozilla VPN will start automatically for seamless protection.</source>
