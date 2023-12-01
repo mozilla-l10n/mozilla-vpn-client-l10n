@@ -2111,8 +2111,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>%1 kužde lěto</target>
         <source>%1 Yearly</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1/lěto + dank</target>
         <source>%1 Yearly + tax</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.statusActive" xml:space="preserve">
@@ -2149,8 +2150,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Block of text appearing beside a button to upgrade subscription.</note>
         <source>Save 50% on an annual plan</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton">
+      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will open the upgrade subscription flow.</note>
+        <target>Plan změniś</target>
         <source>Change plan</source>
       </trans-unit>
       <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
@@ -2198,24 +2200,28 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Disconnecting from:</source>
         <target>Zwisk źěli se wót:</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.allow">
+      <trans-unit id="vpn.telemetryPolicyView.allow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Toś ten rěd dowóliś</target>
         <source>Allow on this device</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.dataCollectionAndUse">
+      <trans-unit id="vpn.telemetryPolicyView.dataCollectionAndUse" xml:space="preserve">
         <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
+        <target>Gromaźenje a wužywanje datow</target>
         <source>Data collection and use</source>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.description" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
         <target>Procujomy se, wam wólnosć daś a jano daty gromaźiś, kótarež trjebamy, aby Mozilla VPN pólěpšyli. Źělenje toś tych datow z Mozilla jo opcionalne.</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.doNotAllow">
+      <trans-unit id="vpn.telemetryPolicyView.doNotAllow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Njedowóliś</target>
         <source>Don’t allow</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.learnMore">
+      <trans-unit id="vpn.telemetryPolicyView.learnMore" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
+        <target>Zgóńśo wěcej wó tom, kótare daty Mozilla gromaźi a kak se wužywaju.</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
@@ -2225,8 +2231,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Let us help you learn more about Mozilla VPN</source>
         <target>Pomagamy wam wěcej wó Mozilla VPN zgóniś</target>
       </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.advancedTipsGuideViewTitle">
+      <trans-unit id="vpn.tipsAndTricks.advancedTipsGuideViewTitle" xml:space="preserve">
         <source>Advanced tip</source>
+        <target>Rozšyrjony pokaz</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.advancedTipsTitle" xml:space="preserve">
         <source>Advanced tips</source>
@@ -2235,8 +2242,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.tipsAndTricks.introModalDescription">
         <source>Here’s a great list of useful tips and tricks to get the best out of your Mozilla VPN experience. Check it out now or find it anytime in the settings.</source>
       </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.moreTutorialsDescription2">
+      <trans-unit id="vpn.tipsAndTricks.moreTutorialsDescription2" xml:space="preserve">
         <source>Learn how to use Mozilla VPN’s advanced features</source>
+        <target>Zgóńśo, kak móžośo rozšyrjone funkcije Mozilla VPN wužywaś</target>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.moreTutorialsTitle" xml:space="preserve">
         <source>More tutorials</source>
@@ -2293,8 +2301,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Let’s go!</source>
         <target>Zachopmy!</target>
       </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialFinishedSecondaryButtonLabel">
+      <trans-unit id="vpn.tutorialPopup.tutorialFinishedSecondaryButtonLabel" xml:space="preserve">
         <source>Dismiss</source>
+        <target>Zachyśiś</target>
       </trans-unit>
       <trans-unit id="vpn.tutorialPopup.tutorialLeaveHeadline" xml:space="preserve">
         <source>Leave tutorial?</source>
@@ -2311,8 +2320,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.tutorialPopup.tutorialWarningDescription">
         <source>By continuing this tutorial, you will be changing your VPN settings. These settings will revert to their original state upon completion or quitting of the tutorial.</source>
       </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialWarningTitle">
+      <trans-unit id="vpn.tutorialPopup.tutorialWarningTitle" xml:space="preserve">
         <source>Continue tutorial?</source>
+        <target>Z rozpokazanim pókšacowaś?</target>
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionNoUpdate" xml:space="preserve">
         <source>Okay</source>
