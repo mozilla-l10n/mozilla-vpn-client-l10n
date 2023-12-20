@@ -1720,30 +1720,35 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
         <source>To see recommended server locations, turn off the VPN.</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshLabel">
+      <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that triggers a refresh of the recommended servers list.</note>
+        <target>Opdater listen</target>
         <source>Refresh list</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated and instructions to re-enable the refresh button. Argument is the time or date/day</note>
         <source>Last updated: %1. To update this list please disconnect from the VPN.</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabel">
+      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabel" xml:space="preserve">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated. Argument is the time or date/day</note>
+        <target>Senest opdateret: %1.</target>
         <source>Last updated: %1.</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabelYesterday">
+      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabelYesterday" xml:space="preserve">
         <source>yesterday</source>
+        <target>i går</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel">
         <note annotates="source" from="developer">Loading string while recommended servers are being calculated. Argument is the percentage of completion as an integer (i.e. 25)</note>
         <source>Checking (%1%)…</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.searchNoResultsLabel">
+      <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
+        <target>Ingen resultater. Prøv en anden søgning</target>
       </trans-unit>
-      <trans-unit id="vpn.serversView.searchPlaceholder">
+      <trans-unit id="vpn.serversView.searchPlaceholder" xml:space="preserve">
         <source>Search countries</source>
+        <target>Søg efter lande</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithGoodConnection">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is good. Argument is the city name.</note>
