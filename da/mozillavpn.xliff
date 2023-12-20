@@ -1338,8 +1338,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle">
         <source>A safe, reliable and fast VPN. Built by the makers of Firefox.</source>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelOneTitle">
+      <trans-unit id="vpn.mobileOnboarding.panelOneTitle" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.signUpBtn">
         <source>Sign up</source>
@@ -1353,25 +1354,30 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.multiFxaAccountError.mozAccountErrorText">
         <source>Your subscription is linked to another Mozilla account. You may need to sign in with a different email address.</source>
       </trans-unit>
-      <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter">
+      <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
+        <target>Besøg vores support-side for at læse mere om, hvordan du håndterer dine abonnementer.</target>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection">
+      <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label that is used for recent multi-hop server connections. “%1” represents the entry server and “%2” the exit server.</note>
+        <target>%1 til %2</target>
         <source>%1 to %2</source>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText">
+      <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText" xml:space="preserve">
         <note annotates="source" from="developer">This is alt text for an arrow showing the multi-hop route between servers. e.g. Atlanta TO Copenhagen</note>
+        <target>til</target>
         <source>To</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardBody">
         <source>Multi-hop VPN routes your traffic through two servers instead of one for extra security and privacy. This may slow down your connection.</source>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopCardHeader">
+      <trans-unit id="vpn.multiHopFeature.multiHopCardHeader" xml:space="preserve">
         <source>What is multi-hop VPN?</source>
+        <target>Hvad er multihop-VPN?</target>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader">
+      <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader" xml:space="preserve">
         <source>Recent connections</source>
+        <target>Seneste forbindelser</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopEntryLocationHeader">
         <source>Select entry location</source>
@@ -1382,11 +1388,13 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.multiHopFeature.multiHopInfoText">
         <source>Exit location represents your main VPN server.</source>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA">
+      <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA" xml:space="preserve">
         <source>Multi-hop</source>
+        <target>Multihop</target>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.serverSearchResultsError">
+      <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
+        <target>Ingen resultater. Prøv en anden søgning</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA">
         <source>Single-hop</source>
@@ -1399,12 +1407,14 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the messages inbox screen</note>
         <source>Messages</source>
       </trans-unit>
-      <trans-unit id="vpn.navBar.settingsTab">
+      <trans-unit id="vpn.navBar.settingsTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the settings screen</note>
+        <target>Indstillinger</target>
         <source>Settings</source>
       </trans-unit>
-      <trans-unit id="vpn.networkSettings.multihopTitle">
+      <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
         <source>Multi-hop tunnel</source>
+        <target>Multihop-tunnel</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText">
         <source>To continue subscribing, please sign in to your Google Account</source>
