@@ -1331,15 +1331,18 @@
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
         <source>Connected through %1</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNConnectedTitle">
+      <trans-unit id="vpn.notifications.VPNConnectedTitle" xml:space="preserve">
         <source>VPN Connected</source>
+        <target>VPN forbundet</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNDisconnectedMessage">
+      <trans-unit id="vpn.notifications.VPNDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN disconnected from.</note>
+        <target>Afbrudt forbindelse til %1</target>
         <source>Disconnected from %1</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNDisconnectedTitle">
+      <trans-unit id="vpn.notifications.VPNDisconnectedTitle" xml:space="preserve">
         <source>VPN Disconnected</source>
+        <target>VPN frakoblet</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
@@ -1355,11 +1358,13 @@
         <target>Skiftet fra %1 til %2</target>
         <source>Switched from %1 to %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNSwitchedServersTitle">
+      <trans-unit id="vpn.notifications.VPNSwitchedServersTitle" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>VPN'en skiftede servere</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalBlockMessage2">
+      <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
+        <target>Gæste-netværket, du er forbundet til, kræver en handling. Klik for at slå VPN fra for at se portalen.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockTitle">
         <source>Guest Wi-Fi portal blocked</source>
@@ -1370,31 +1375,37 @@
       <trans-unit id="vpn.notifications.captivePortalUnblockTitle">
         <source>Guest Wi-Fi portal detected</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.subscriptionNotFound">
+      <trans-unit id="vpn.notifications.subscriptionNotFound" xml:space="preserve">
         <source>Your Mozilla VPN subscription cannot be found. Please open the app to resolve this subscription issue.</source>
+        <target>Dit Mozilla VPN-abonnement blev ikke fundet. Åbn appen for at løse problemet.</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.unsecuredNetworkMessage">
+      <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
+        <target>%1 er ikke sikker. Klik her for at slå VPN til og gøre din enhed sikker.</target>
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkTitle">
         <source>Unsecured Wi-Fi network detected</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideBody">
+      <trans-unit id="vpn.onboarding.dataSlideBody" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
+        <target>Vi bestræber os på at give dig mulighed for at vælge og indsamler kun de tekniske data, vi har brug for til at forbedre Mozilla VPN. Det er valgfrit, om du vil dele data med Mozilla.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideCheckboxLabel">
+      <trans-unit id="vpn.onboarding.dataSlideCheckboxLabel" xml:space="preserve">
         <source>Mozilla may collect technical data about my use of Mozilla VPN.</source>
+        <target>Mozilla kan indsamle tekniske data om min brug af Mozilla VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideHeader" xml:space="preserve">
         <source>Data collection and use</source>
         <target>Dataindsamling og -brug</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption">
+      <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used</source>
+        <target>Læs mere om, hvilke data Mozilla indsamler, og hvordan de bruges</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel">
+      <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Privatlivserklæring for Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideBody2">
         <source>To install the VPN on another tablet or mobile device, scan the QR code.</source>
@@ -1418,29 +1429,37 @@
         <source>Install Mozilla VPN on up to 5 devices</source>
         <target>Installer Mozilla VPN på op til 5 enheder</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid">
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid" xml:space="preserve">
         <source>QR Code that links to the Mozilla VPN product page on the Google Play Store</source>
+        <target>QR-kode, der linker til produktsiden for Mozilla VPN på Google Play Store</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple">
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple" xml:space="preserve">
         <source>QR Code that links to the Mozilla VPN product page on the iOS App Store</source>
+        <target>QR-kode, der linker til produktsiden for Mozilla VPN på iOS App Store</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelFourSubtitle">
+      <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
         <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
+        <target>Du kan indstille Mozilla VPN til at beskytte dig mod reklamer, sporing og malware. Desuden kan du tilpasse beskyttelsen for specifikke apps.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelFourTitle">
+      <trans-unit id="vpn.onboarding.panelFourTitle" xml:space="preserve">
         <source>Add even more privacy</source>
+        <target>Tilføj endnu mere beskyttelse af dit privatliv</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelThreeSubtitle">
+      <trans-unit id="vpn.onboarding.panelThreeSubtitle" xml:space="preserve">
         <source>Protecting yourself is simple: tap to connect to the VPN and you’re ready to browse safely. Mozilla VPN will start automatically for seamless protection.</source>
+        <target>Det er nemt at beskytte dig selv: Tryk for at oprettelse forbindelse til VPN'en og så er du klar til at bruge internettet sikkert. Mozilla VPN starter automatisk for problemløs beskyttelse.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelThreeTitle">
+      <trans-unit id="vpn.onboarding.panelThreeTitle" xml:space="preserve">
         <source>One tap to safety</source>
+        <target>Et enkelt klik for sikkerhed</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelTwoSubtitle">
+      <trans-unit id="vpn.onboarding.panelTwoSubtitle" xml:space="preserve">
         <source>With more than 500 servers in 60 cities around the world, Mozilla VPN protects your data, browsing activity, and your true location from network spies.</source>
+        <target>Med mere end 500 servere i 60 byer rundt om i verden beskytter Mozilla VPN dine data, din aktivitet på nettet og skjuler din rigtige placering fra spioner på netværket.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelTwoTitle">
+      <trans-unit id="vpn.onboarding.panelTwoTitle" xml:space="preserve">
         <source>Protect your privacy</source>
+        <target>Beskyt dit privatliv</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.privacySlideBody">
         <source>Use these features for more protection. They may cause issues on some sites, so you can turn them off anytime in settings.</source>
