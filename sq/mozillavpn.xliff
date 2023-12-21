@@ -159,80 +159,11 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/devices/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="sq">
-    <body>
-      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
-        <target>Shtuar %1 ditë më parë</target>
-        <source>Added %1 days ago</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the number of hours.</note>
-        <target>Shtuar pak orë më parë (%1)</target>
-        <source>Added a few hours ago (%1)</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
-        <source>Added less than an hour ago</source>
-        <target>Shtuar në më pak se një orë më parë</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
-        <source>Current Device</source>
-        <target>Pajisja e Tanishme</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
-        <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
-        <target>Hiqe %1</target>
-        <source>Remove %1</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/devices/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="sq">
-    <body>
-      <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
-        <source>Remove a device</source>
-        <target>Hiqni një pajisje</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
-        <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
-        <target>Keni mbërritur kufirin për pajisje. Që të aktivizoni VPN në këtë pajisje, do t’ju duhet të hiqni një prej tyre.</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/devices/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="sq">
-    <body>
-      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
-        <target>Ju lutemi, ripohoni se do të donit të hiqet %1.</target>
-        <source>Please confirm you would like to remove
-%1.</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
-        <note annotates="source" from="developer">This is the “remove” device button.</note>
-        <target>Hiqe</target>
-        <source>Remove</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
-        <source>Remove device?</source>
-        <target>Të hiqet pajisja?</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/apps/vpn/ui/screens/devices/ViewDeviceLimit.qml" datatype="plaintext" source-language="en" target-language="sq">
     <body>
       <trans-unit id="vpn.devices.myDevices" xml:space="preserve">
         <source>My devices</source>
         <target>Pajisjet e mia</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/devices/ViewDevices.qml" datatype="plaintext" source-language="en" target-language="sq">
-    <body>
-      <trans-unit id="vpn.devices.activeVsMaxDeviceCount" xml:space="preserve">
-        <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.
-----------
-Example: You have "x of y" devices in yor account, where y is the limit of allowed devices.</note>
-        <target>%1 nga %2</target>
-        <source>%1 of %2</source>
       </trans-unit>
     </body>
   </file>
@@ -348,27 +279,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">The title for the list of cities.</note>
         <target>Qytete</target>
         <source>Cities</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/initialize/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="sq">
-    <body>
-      <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
-        <source>Device-level encryption</source>
-        <target>Fshehtëzim në nivel pajisjeje</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
-        <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeededIAP.qml too.</note>
-        <target>Shërbyes në mbi 30 vende</target>
-        <source>Servers in 30+ countries</source>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.3" xml:space="preserve">
-        <source>No bandwidth restrictions</source>
-        <target>Pa kufizime për sasi trafiku</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
-        <source>No online activity logs</source>
-        <target>Pa regjistra veprimtarie internetore</target>
       </trans-unit>
     </body>
   </file>
@@ -698,17 +608,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Continue</source>
         <target>Vazhdo</target>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.authSubheadline" xml:space="preserve">
-        <source>To delete your VPN account, please sign in with your Firefox account password.</source>
-        <target>Që të fshini llogarinë tuaj VPN, ju lutemi, bëni hyrjen me fjalëkalimin e Llogarisë tuaj Firefox.</target>
-      </trans-unit>
       <trans-unit id="vpn.deleteAccount.buttonLabel" xml:space="preserve">
         <source>Delete account</source>
         <target>Fshijeni llogarinë</target>
-      </trans-unit>
-      <trans-unit id="vpn.deleteAccount.headline" xml:space="preserve">
-        <source>Delete Firefox account</source>
-        <target>Fshini llogari Firefox</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.headline2" xml:space="preserve">
         <source>Delete Mozilla account</source>
@@ -733,11 +635,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
         <target>Mund të humbni të dhëna dhe veçori të ruajtura brenda produktesh Mozilla</target>
         <source>You may lose saved information and features within Mozilla products</source>
-      </trans-unit>
-      <trans-unit id="vpn.deleteAccount.subheadline" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
-        <target>Llogaria juaj Firefox (%1) është e lidhur me produkte Mozilla që ju mbajnë të parrezik dhe prodhimtar në web. Ju lutemi, pranoni dijeninë e kësaj duke fshirë llogarinë tuaj:</target>
-        <source>Your Firefox account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.subheadline2" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
@@ -987,11 +884,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Enter your email address to continue using Mozilla VPN</source>
         <target>Që të vazhdoni të përdorni Mozilla VPN, jepni adresën tuaj email</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription" xml:space="preserve">
-        <note annotates="source" from="developer">User message prompting user to finish creating their account to use Mozilla VPN.</note>
-        <target>Që të vazhdoni të përdorni Mozilla VPN, përfundoni krijimin e llogarisë tuaj Firefox</target>
-        <source>Finish creating your Firefox account to continue to Mozilla VPN</source>
-      </trans-unit>
       <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription2" xml:space="preserve">
         <note annotates="source" from="developer">User message prompting user to finish creating their account to use Mozilla VPN.</note>
         <target>Që të vazhdoni të përdorni Mozilla VPN, përfundoni krijimin e llogarisë tuaj Mozilla</target>
@@ -1079,10 +971,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Do të doja të merrja email-e përditësimesh produktesh nga Firefox-i.</target>
         <source>I’d like to receive product update emails from Firefox.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle" xml:space="preserve">
-        <source>To continue, please confirm with your Firefox account password.</source>
-        <target>Që të vazhdohet, ju lutemi, ripohojeni me fjalëkalimin e llogarisë tuaj Firefox.</target>
-      </trans-unit>
       <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle2" xml:space="preserve">
         <source>To continue, please confirm with your Mozilla account password.</source>
         <target>Që të vazhdohet, ju lutemi, ripohojeni me fjalëkalimin e llogarisë tuaj Mozilla.</target>
@@ -1139,10 +1027,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.inAppAuth.signInFailedPopupTitle" xml:space="preserve">
         <source>Sign-in failed</source>
         <target>Dështoi hyrja</target>
-      </trans-unit>
-      <trans-unit id="vpn.inAppAuth.signInSubtitle" xml:space="preserve">
-        <source>Continue to Mozilla VPN by signing in with your Firefox account</source>
-        <target>Vazhdoni te Mozilla VPN duke hyrë me llogarinë tuaj Firefox</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInSubtitle2" xml:space="preserve">
         <source>Continue to Mozilla VPN by signing in with your Mozilla account</source>
@@ -1367,10 +1251,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
         <target>Problem me ripohimin e pajtimit</target>
-      </trans-unit>
-      <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorText" xml:space="preserve">
-        <source>Your subscription is linked to another Firefox Account. You may need to sign in with a different email address.</source>
-        <target>Pajtimi juaj është i lidhur me një tjetër Llogari Firefox. Mund të duhet të bëni hyrjen me një tjetër adresë email.</target>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.mozAccountErrorText" xml:space="preserve">
         <source>Your subscription is linked to another Mozilla account. You may need to sign in with a different email address.</source>
@@ -1755,10 +1635,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Already a subscriber?</source>
         <target>Pajtimtar tashmë?</target>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText" xml:space="preserve">
-        <source>Sorry, we are unable to connect your Firefox Account to a current subscription. Please try again or contact our support team for further assistance.</source>
-        <target>Na ndjeni, s’jemi në gjendje të lidhim Llogarinë tuaj Firefox me pajtimin e tanishëm. Ju lutemi, riprovoni, ose lidhuni me ekipin tonë të asistencës për ndihmë të mëtejshme.</target>
-      </trans-unit>
       <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText2" xml:space="preserve">
         <source>Sorry, we are unable to connect your Mozilla account to a current subscription. Please try again or contact our support team for further assistance.</source>
         <target>Na ndjeni, s’jemi në gjendje të lidhim llogarinë tuaj Mozilla me një pajtim të tanishëm. Ju lutemi, riprovoni, ose lidhuni me ekipin tonë të asistencës për ndihmë të mëtejshme.</target>
@@ -1766,10 +1642,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText" xml:space="preserve">
         <source>Sorry, we were unable to confirm your subscription. Please try again or contact our support team for help.</source>
         <target>Na ndjeni, s’qemë në gjendje të ripohojmë pajtimin tuaj. Ju lutemi, riprovoni, ose lidhuni me ekipin tonë të asistencës për ndihmë.</target>
-      </trans-unit>
-      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText" xml:space="preserve">
-        <source>Another Firefox Account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
-        <target>Është pajtuar tashmë një tjetër Llogari Firefox duke për dorur këtë Apple ID. Ju lutemi, bëni daljen prej saj dhe riprovoni, ose lidhuni me ekipin tonë të asistencës për ndihmë.</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText2" xml:space="preserve">
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
@@ -1950,10 +1822,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>Këto mundësi mund të sjellin dëmtim të disa sajteve, ose mosshfaqje të tyre si duhet.</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyMalwareBody" xml:space="preserve">
-        <source>Helps protect you from ransomware, phishing, spyware, viruses, and malware</source>
-        <target>Ndihmon të mbroheni nga “ransomware”, karremëzime, “spyware”, viruse dhe “malware”</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareBody2" xml:space="preserve">
         <source>Helps protect you from ransomware, phishing, spyware, and viruses</source>
         <target>Ndihmon të mbroheni nga “ransomware”, karremëzime, “spyware” dhe viruse</target>
@@ -2044,11 +1912,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Label for the date on which the subscription was activated.</note>
         <target>Aktiv që nga</target>
         <source>Active since</source>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.addFirefoxRelay" xml:space="preserve">
-        <note annotates="source" from="developer">Block of text appearing above a link to learn more about the VPN / Relay bundle offering.</note>
-        <target>Shtoni Firefox Relay</target>
-        <source>Add Firefox Relay</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.cardExpiresLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the date on which the payment method expires.</note>
@@ -2164,11 +2027,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>Përmbledhje pajtimi</target>
         <source>Subscription summary</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.upgrade" xml:space="preserve">
-        <note annotates="source" from="developer">Label for a button that will take users into the upgrade to VPN / Relay bundle purchase flow.</note>
-        <target>Përmirësojeni</target>
-        <source>Upgrade</source>
-      </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual" xml:space="preserve">
         <note annotates="source" from="developer">Block of text appearing beside a button to upgrade subscription.</note>
         <target>Kurseni 50% në një plan vjetor</target>
@@ -2267,14 +2125,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Here’s a great list of useful tips and tricks to get the best out of your Mozilla VPN experience. Check it out now or find it anytime in the settings.</source>
         <target>Ja një listë e fuqishme ndihmëzash dhe marifetesh që të përfitoni më të mirën prej punës tuaj me Mozilla VPN-në. Shiheni tani, ose gjejeni më vonë, te rregullimet.</target>
       </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.moreTutorialsDescription2" xml:space="preserve">
-        <source>Learn how to use Mozilla VPN’s advanced features</source>
-        <target>Mësoni si të përdoren veçoritë e thelluara të Mozilla VPN-së</target>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.moreTutorialsTitle" xml:space="preserve">
-        <source>More tutorials</source>
-        <target>Më tepër përkujdesore</target>
-      </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.quickTipsDescription" xml:space="preserve">
         <source>Let us help you get the most out of Mozilla VPN</source>
         <target>Na lejoni t’ju ndihmojmë të përfitoni maksimumin prej Mozilla VPN-së</target>
@@ -2300,55 +2150,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Tab title for the tab of the Tips &amp; Tricks panels that only shows guides</note>
         <target>Ndihmëza</target>
         <source>Tips</source>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.tabTitleTutorials" xml:space="preserve">
-        <note annotates="source" from="developer">Tab title for the tab of the Tips &amp; Tricks panels that only shows tutorials</note>
-        <target>Përkujdesore</target>
-        <source>Tutorials</source>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.tutorialsDescription" xml:space="preserve">
-        <source>Learn the basics of Mozilla VPN</source>
-        <target>Mësoni bazat e Mozilla VPN-së</target>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.tutorialsTitle" xml:space="preserve">
-        <source>Getting started</source>
-        <target>Si t’ia fillohet</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.leaveTutorialButton" xml:space="preserve">
-        <source>Leave tutorial</source>
-        <target>Braktiseni përkujdesoren</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialCompleteHeadline" xml:space="preserve">
-        <source>Well done!</source>
-        <target>Ju lumtë!</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialCompletePrimaryButtonLabel" xml:space="preserve">
-        <source>Let’s go!</source>
-        <target>Oburra!</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialFinishedSecondaryButtonLabel" xml:space="preserve">
-        <source>Dismiss</source>
-        <target>Hidhe tej</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialLeaveHeadline" xml:space="preserve">
-        <source>Leave tutorial?</source>
-        <target>Të braktiset përkujdesorja?</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialLeavePrimaryButtonLabel" xml:space="preserve">
-        <source>Resume tutorial</source>
-        <target>Rikthejuni përkujdesores</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialLeaveSubtitle" xml:space="preserve">
-        <source>Looks like you haven’t finished the tutorial quite yet. Would you like to continue and finish now or quit and come back later?</source>
-        <target>Duket sikur se keni përfunduar ende përkujdesoren. Do të donit të vazhdoni dhe ta përfundoni tani, apo të dilet dhe të riktheheni më vonë?</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialWarningDescription" xml:space="preserve">
-        <source>By continuing this tutorial, you will be changing your VPN settings. These settings will revert to their original state upon completion or quitting of the tutorial.</source>
-        <target>Duke vazhduar këtë përkujdesore, do të ndryshoni rregullimet tuaja për VPN. Këto rregullime do të rikthehen te gjendja e tyre origjinale, pasi të plotësoni, ose braktisni përkujdesoren.</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialWarningTitle" xml:space="preserve">
-        <source>Continue tutorial?</source>
-        <target>Të vazhdohet përkujdesorja?</target>
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionNoUpdate" xml:space="preserve">
         <source>Okay</source>
