@@ -1180,8 +1180,9 @@
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText">
         <source>An unexpected error has occurred, please try again.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportFieldHeader">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportFieldHeader" xml:space="preserve">
         <source>How can we help you with Mozilla VPN?</source>
+        <target>Hvordan kan vi hjælpe dig med Mozilla VPN?</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportNavLinkText" xml:space="preserve">
         <source>Contact support</source>
@@ -1191,8 +1192,9 @@
         <source>Submit</source>
         <target>Indsend</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents the email used to complete the form</note>
+        <target>Vores support-hold skriver til dig på %1, når vi har fået mulighed for at kigge på dit problem.</target>
         <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseButton" xml:space="preserve">
@@ -1217,32 +1219,39 @@
         <target>Søg efter sprog</target>
         <source>Search languages</source>
       </trans-unit>
-      <trans-unit id="vpn.languageView.systemLanguageButtonDescription">
+      <trans-unit id="vpn.languageView.systemLanguageButtonDescription" xml:space="preserve">
         <note annotates="source" from="developer">the description for the system lagnague radio button</note>
+        <target>Mozilla VPN anvender systemets standardsprog.</target>
         <source>Mozilla VPN will use the default system language.</source>
       </trans-unit>
-      <trans-unit id="vpn.languageView.systemLanguageButtonTitle">
+      <trans-unit id="vpn.languageView.systemLanguageButtonTitle" xml:space="preserve">
         <note annotates="source" from="developer">the title for the system language radio button</note>
+        <target>Systemsprog</target>
         <source>System language</source>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber">
+      <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber" xml:space="preserve">
         <source>Already a subscriber?</source>
+        <target>Abonnerer du allerede?</target>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle">
+      <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle" xml:space="preserve">
         <source>A safe, reliable and fast VPN. Built by the makers of Firefox.</source>
+        <target>Sikker, pålidelig og hurtig VPN. Bygget af holdet bag Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneTitle" xml:space="preserve">
         <source>Mozilla VPN</source>
         <target>Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.signUpBtn">
+      <trans-unit id="vpn.mobileOnboarding.signUpBtn" xml:space="preserve">
         <source>Sign up</source>
+        <target>Tilmeld dig</target>
       </trans-unit>
-      <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader">
+      <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
+        <target>Problem med at bekræfte abonnement</target>
       </trans-unit>
-      <trans-unit id="vpn.multiFxaAccountError.mozAccountErrorText">
+      <trans-unit id="vpn.multiFxaAccountError.mozAccountErrorText" xml:space="preserve">
         <source>Your subscription is linked to another Mozilla account. You may need to sign in with a different email address.</source>
+        <target>Dit abonnement er knyttet til en anden Mozilla-konto. Du skal muligvis logge ind med en anden mailadresse.</target>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
@@ -1289,12 +1298,14 @@
       <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA">
         <source>Single-hop</source>
       </trans-unit>
-      <trans-unit id="vpn.navBar.homeTab">
+      <trans-unit id="vpn.navBar.homeTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the home screen</note>
+        <target>Hjem</target>
         <source>Home</source>
       </trans-unit>
-      <trans-unit id="vpn.navBar.messagesTab">
+      <trans-unit id="vpn.navBar.messagesTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the messages inbox screen</note>
+        <target>Meddelelser</target>
         <source>Messages</source>
       </trans-unit>
       <trans-unit id="vpn.navBar.settingsTab" xml:space="preserve">
@@ -1306,8 +1317,9 @@
         <source>Multi-hop tunnel</source>
         <target>Multihop-tunnel</target>
       </trans-unit>
-      <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText">
+      <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText" xml:space="preserve">
         <source>To continue subscribing, please sign in to your Google Account</source>
+        <target>Log ind med din Google-konto for at fortsætte med at abonnere</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalHeader">
         <source>Sign in to Google Account</source>
@@ -1333,12 +1345,14 @@
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
         <source>Connected through %1 via %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage">
+      <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <target>Afbrudt forbindelse til %1 og %2</target>
         <source>Disconnected from %1 and %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNSwitchedServersMessage">
+      <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the initial server, %2 is the name of the destination server.</note>
+        <target>Skiftet fra %1 til %2</target>
         <source>Switched from %1 to %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersTitle">
