@@ -1464,8 +1464,9 @@
         <source>Protect your privacy</source>
         <target>Beskyt dit privatliv</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.privacySlideBody">
+      <trans-unit id="vpn.onboarding.privacySlideBody" xml:space="preserve">
         <source>Use these features for more protection. They may cause issues on some sites, so you can turn them off anytime in settings.</source>
+        <target>Brug disse indstillinger for endnu mere beskyttelse. De kan muligvis medføre problemer på nogle websteder, så du kan slå dem fra når som helst i Indstillinger.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.privacySlideHeader" xml:space="preserve">
         <source>Get more privacy</source>
@@ -1637,15 +1638,17 @@
         <source>Choose a new location</source>
         <target>Vælg en ny placering</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.headerText">
+      <trans-unit id="vpn.serverUnavailableModal.headerText" xml:space="preserve">
         <source>Server unavailable</source>
+        <target>Serveren er ikke tilgængelig</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
         <target>Server-placeringen er midlertidigt utilgængelig. Åbn appen for at vælge en ny placering.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
+      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked" xml:space="preserve">
         <source>The server has been blocked. Check your firewall settings.</source>
+        <target>Serveren er blevet blokeret. Kontroller indstillingerne for din firewall.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel">
         <source>Server unavailable notification</source>
@@ -1653,16 +1656,19 @@
       <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel">
         <source>Get notified when connecting to a server location failed</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedCardBody">
+      <trans-unit id="vpn.serversView.recommendedCardBody" xml:space="preserve">
         <note annotates="source" from="developer">Body text of an expandable info card on the recommended servers list.</note>
+        <target>Disse placeringer er rangeret efter forventet ydelse.</target>
         <source>These locations are sorted by expected performance.</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedCardTitle">
+      <trans-unit id="vpn.serversView.recommendedCardTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title of an expandable info card on the recommended servers list.</note>
+        <target>Hvorfor er disse placeringer anbefalet?</target>
         <source>Why are these locations recommended?</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedEmptyLabel">
+      <trans-unit id="vpn.serversView.recommendedEmptyLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
+        <target>Slå VPN fra for at se anbefalede server-placeringer.</target>
         <source>To see recommended server locations, turn off the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
@@ -1670,8 +1676,9 @@
         <target>Opdater listen</target>
         <source>Refresh list</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel">
+      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel" xml:space="preserve">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated and instructions to re-enable the refresh button. Argument is the time or date/day</note>
+        <target>Senest opdateret: %1. Afbryd forbindelse til VPN'en for at opdatere listen.</target>
         <source>Last updated: %1. To update this list please disconnect from the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabel" xml:space="preserve">
@@ -1683,8 +1690,9 @@
         <source>yesterday</source>
         <target>i går</target>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel">
+      <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel" xml:space="preserve">
         <note annotates="source" from="developer">Loading string while recommended servers are being calculated. Argument is the percentage of completion as an integer (i.e. 25)</note>
+        <target>Kontrollerer (%1%)…</target>
         <source>Checking (%1%)…</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
@@ -1695,8 +1703,9 @@
         <source>Search countries</source>
         <target>Søg efter lande</target>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithGoodConnection">
+      <trans-unit id="vpn.serversView.serverCityWithGoodConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is good. Argument is the city name.</note>
+        <target>%1. God forbindelse</target>
         <source>%1. Good connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithModerateConnection">
