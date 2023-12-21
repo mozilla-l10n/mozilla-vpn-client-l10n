@@ -158,80 +158,11 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ui/screens/devices/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="pa-IN">
-    <body>
-      <trans-unit id="vpn.devices.addedXdaysAgo" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the number of days. Note: there is currently no support for proper plurals</note>
-        <target>%1 ਦਿਨ ਪਹਿਲਾਂ ਸ਼ਾਮਲ ਕੀਤਾ</target>
-        <source>Added %1 days ago</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedXhoursAgo" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the number of hours.</note>
-        <target>ਕੁਝ ਘੰਟੇ ਪਹਿਲਾਂ ਜੋੜਿਆ (%1)</target>
-        <source>Added a few hours ago (%1)</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.addedltHour" xml:space="preserve">
-        <source>Added less than an hour ago</source>
-        <target>ਘੰਟੇ ਤੋਂ ਘੱਟ ਪਹਿਲਾਂ ਜੋੜਿਆ</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.currentDevice" xml:space="preserve">
-        <source>Current Device</source>
-        <target>ਮੌਜੂਦਾ ਡਿਵਾਇਸ</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeA11Y" xml:space="preserve">
-        <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
-        <target>%1 ਨੂੰ ਹਟਾਓ</target>
-        <source>Remove %1</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/devices/VPNDevicesListHeader.qml" datatype="plaintext" source-language="en" target-language="pa-IN">
-    <body>
-      <trans-unit id="vpn.devices.doDeviceRemoval" xml:space="preserve">
-        <source>Remove a device</source>
-        <target>ਡਿਵਾਇਸ ਨੂੰ ਹਟਾਓ</target>
-      </trans-unit>
-      <trans-unit id="vpn.devices.maxDevicesHeader" xml:space="preserve">
-        <source>You’ve reached the device limit. To turn on the VPN on this device, you’ll need to remove one.</source>
-        <target>ਤੁਸੀਂ ਡਿਵਾਇਸਾਂ ਦੀ ਹੱਦ ਟੱਪ ਚੁੱਕੇ ਹੋ। ਇਸ ਡਿਵਾਇਸ ਉੱਤੇ VPN ਨੂੰ ਚਾਲੂ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਪਹਿਲਾਂ ਕਿਸੇ ਡਿਵਾਇਸ ਨੂੰ ਹਟਾਉਣਾ ਪਵੇਗਾ।</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/devices/VPNRemoveDevicePopup.qml" datatype="plaintext" source-language="en" target-language="pa-IN">
-    <body>
-      <trans-unit id="vpn.devices.deviceRemovalConfirm" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the name of the device being removed. The name is displayed on purpose on a new line.</note>
-        <target>%1 ਨੂੰ ਹਟਾਉਣ ਦੀ ਤਸਦੀਕ ਕਰੋ</target>
-        <source>Please confirm you would like to remove
-%1.</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceButton" xml:space="preserve">
-        <note annotates="source" from="developer">This is the “remove” device button.</note>
-        <target>ਹਟਾਓ</target>
-        <source>Remove</source>
-      </trans-unit>
-      <trans-unit id="vpn.devices.removeDeviceQuestion" xml:space="preserve">
-        <source>Remove device?</source>
-        <target>ਡਿਵਾਇਸ ਹਟਾਉਣਾ ਹੈ?</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/apps/vpn/ui/screens/devices/ViewDeviceLimit.qml" datatype="plaintext" source-language="en" target-language="pa-IN">
     <body>
       <trans-unit id="vpn.devices.myDevices" xml:space="preserve">
         <source>My devices</source>
         <target>ਮੇਰੇ ਡਿਵਾਇਸ</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/devices/ViewDevices.qml" datatype="plaintext" source-language="en" target-language="pa-IN">
-    <body>
-      <trans-unit id="vpn.devices.activeVsMaxDeviceCount" xml:space="preserve">
-        <note annotates="source" from="developer">Example: You have "x of y" devices in your account, where y is the limit of allowed devices.
-----------
-Example: You have "x of y" devices in yor account, where y is the limit of allowed devices.</note>
-        <target>%2 'ਚੋਂ %1</target>
-        <source>%1 of %2</source>
       </trans-unit>
     </body>
   </file>
@@ -347,27 +278,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">The title for the list of cities.</note>
         <target>ਸ਼ਹਿਰ</target>
         <source>Cities</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="../src/apps/vpn/ui/screens/initialize/ViewOnboarding.qml" datatype="plaintext" source-language="en" target-language="pa-IN">
-    <body>
-      <trans-unit id="vpn.onboarding.headline.1" xml:space="preserve">
-        <source>Device-level encryption</source>
-        <target>ਡਿਵਾਇਸ-ਪੱਧਰੀ ਇਨਕਰਿਪਸ਼ਨ</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.2" xml:space="preserve">
-        <note annotates="source" from="developer">The + after the number stands for “more than”. If you change the number of countries here, please update ViewSubscriptionNeededIAP.qml too.</note>
-        <target>30+ ਦੇਸ਼ਾਂ ਵਿੱਚ ਸਰਵਰ</target>
-        <source>Servers in 30+ countries</source>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.3" xml:space="preserve">
-        <source>No bandwidth restrictions</source>
-        <target>ਕੋਈ ਬੈਂਡਵਿੱਥ ਲਈ ਕੋਈ ਪਾਬੰਦੀ ਨਹੀਂ</target>
-      </trans-unit>
-      <trans-unit id="vpn.onboarding.headline.4" xml:space="preserve">
-        <source>No online activity logs</source>
-        <target>ਆਨਲਾਇਨ ਸਰਗਰਮੀਆਂ ਦਾ ਕੋਈ ਲਾਗ ਨਹੀਂ</target>
       </trans-unit>
     </body>
   </file>
@@ -694,17 +604,9 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Continue</source>
         <target>ਜਾਰੀ ਰੱਖੋ</target>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.authSubheadline" xml:space="preserve">
-        <source>To delete your VPN account, please sign in with your Firefox account password.</source>
-        <target>ਆਪਣਾ VPN ਖਾਤਾ ਹਟਾਉਣ ਲਈ ਆਪਣੇ Firefox ਖਾਤੇ ਦੇ ਪਾਸਵਰਡ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ।</target>
-      </trans-unit>
       <trans-unit id="vpn.deleteAccount.buttonLabel" xml:space="preserve">
         <source>Delete account</source>
         <target>ਖਾਤਾ ਹਟਾਓ</target>
-      </trans-unit>
-      <trans-unit id="vpn.deleteAccount.headline" xml:space="preserve">
-        <source>Delete Firefox account</source>
-        <target>Firefox ਖਾਤਾ ਹਟਾਓ</target>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.headline2" xml:space="preserve">
         <source>Delete Mozilla account</source>
@@ -726,10 +628,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
         <target>ਤੁਸੀਂ Mozilla ਉਤਪਾਦਾਂ ਵਿੱਚ ਸੰਭਾਲੀ ਜਾਣਕਾਰੀ ਅਤੇ ਫ਼ੀਚਰ ਗੁਆ ਸਕਦੇ ਹੋ</target>
         <source>You may lose saved information and features within Mozilla products</source>
-      </trans-unit>
-      <trans-unit id="vpn.deleteAccount.subheadline" xml:space="preserve">
-        <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
-        <source>Your Firefox account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.subheadline2" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
@@ -977,11 +875,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Enter your email address to continue using Mozilla VPN</source>
         <target>Mozilla VPN ਵਰਤਣਾ ਜਾਰੀ ਰੱਖਣ ਲਈ ਆਪਣਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਦਿਓ</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription" xml:space="preserve">
-        <note annotates="source" from="developer">User message prompting user to finish creating their account to use Mozilla VPN.</note>
-        <target>Mozilla VPN ਜਾਰੀ ਰੱਖਣ ਲਈ ਆਪਣਾ Firefox ਖਾਤਾ ਬਣਾਉਣਾ ਮੁਕੰਮਲ ਕਰੋ</target>
-        <source>Finish creating your Firefox account to continue to Mozilla VPN</source>
-      </trans-unit>
       <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription2" xml:space="preserve">
         <note annotates="source" from="developer">User message prompting user to finish creating their account to use Mozilla VPN.</note>
         <target>Mozilla VPN ਜਾਰੀ ਰੱਖਣ ਲਈ ਆਪਣਾ Mozilla ਖਾਤਾ ਬਣਾਉਣਾ ਪੂਰਾ ਕਰੋ</target>
@@ -1069,10 +962,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>ਮੈਂ Firefox ਤੋਂ ਉਤਪਾਦ ਅੱਪਡੇਟ ਬਾਰੇ ਈਮੇਲ ਲੈਣੀਆਂ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ।</target>
         <source>I’d like to receive product update emails from Firefox.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle" xml:space="preserve">
-        <source>To continue, please confirm with your Firefox account password.</source>
-        <target>ਜਾਰੀ ਰੱਖਣ ਲਈ ਆਪਣੇ Firefox ਖਾਤੇ ਦੇ ਪਾਸਵਰਡ ਨਾਲ ਤਸਦੀਕ ਕਰੋ।</target>
-      </trans-unit>
       <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle2" xml:space="preserve">
         <source>To continue, please confirm with your Mozilla account password.</source>
         <target>ਜਾਰੀ ਰੱਖਣ ਲਈ ਆਪਣੇ Mozilla ਖਾਤੇ ਦੇ ਪਾਸਵਰਡ ਦੀ ਤਸਦੀਕ ਕਰੋ।</target>
@@ -1129,10 +1018,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.inAppAuth.signInFailedPopupTitle" xml:space="preserve">
         <source>Sign-in failed</source>
         <target>ਸਾਈਨ-ਇਨ ਅਸਫ਼ਲ ਹੈ</target>
-      </trans-unit>
-      <trans-unit id="vpn.inAppAuth.signInSubtitle" xml:space="preserve">
-        <source>Continue to Mozilla VPN by signing in with your Firefox account</source>
-        <target>ਆਪਣੇ Firefox ਖਾਤੇ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰਕੇ Mozilla VPN ਨਾਲ ਜਾਰੀ ਰੱਖੋ</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.signInSubtitle2" xml:space="preserve">
         <source>Continue to Mozilla VPN by signing in with your Mozilla account</source>
@@ -1356,10 +1241,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
         <target>ਮੈਂਬਰੀ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਹੈ</target>
-      </trans-unit>
-      <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorText" xml:space="preserve">
-        <source>Your subscription is linked to another Firefox Account. You may need to sign in with a different email address.</source>
-        <target>ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਹੋਰ Firefox ਖਾਤੇ ਨਾਲ ਕਨੈਕਟ ਹੈ। ਤੁਹਾਨੂੰ ਵੱਖਰੇ ਈਮੇਲ ਸਿਰਨਾਵੇਂ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰਨ ਦੀ ਲੋੜ ਹੋ ਸਕਦੀ ਹੈ।</target>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.mozAccountErrorText" xml:space="preserve">
         <source>Your subscription is linked to another Mozilla account. You may need to sign in with a different email address.</source>
@@ -1732,17 +1613,11 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <source>Already a subscriber?</source>
         <target>ਪਹਿਲਾਂ ਹੀ ਗਾਹਕ ਹੋ?</target>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText" xml:space="preserve">
-        <source>Sorry, we are unable to connect your Firefox Account to a current subscription. Please try again or contact our support team for further assistance.</source>
-      </trans-unit>
       <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText2" xml:space="preserve">
         <source>Sorry, we are unable to connect your Mozilla account to a current subscription. Please try again or contact our support team for further assistance.</source>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText" xml:space="preserve">
         <source>Sorry, we were unable to confirm your subscription. Please try again or contact our support team for help.</source>
-      </trans-unit>
-      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText" xml:space="preserve">
-        <source>Another Firefox Account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText2" xml:space="preserve">
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
@@ -1919,10 +1794,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.settings.privacyCard" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyMalwareBody" xml:space="preserve">
-        <source>Helps protect you from ransomware, phishing, spyware, viruses, and malware</source>
-        <target>ਤੁਹਾਨੂੰ ਰੈਨਸਮਵੇਅਰ, ਫ਼ਿਸ਼ਿੰਗ, ਜਾਸੂਸੀ, ਵਾਈਰਸ ਅਤੇ ਮਾਲਵੇਅਰ ਤੋਂ ਬਚਾਅ ਕੇ ਰੱਖਣ ਲਈ ਮਦਦ ਕਰਦਾ ਹੈ</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareBody2" xml:space="preserve">
         <source>Helps protect you from ransomware, phishing, spyware, and viruses</source>
       </trans-unit>
@@ -2010,11 +1881,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Label for the date on which the subscription was activated.</note>
         <target>ਇਸ ਤੋਂ ਸਰਗਰਮ</target>
         <source>Active since</source>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.addFirefoxRelay" xml:space="preserve">
-        <note annotates="source" from="developer">Block of text appearing above a link to learn more about the VPN / Relay bundle offering.</note>
-        <target>Firefox Relay ਜੋੜੋ</target>
-        <source>Add Firefox Relay</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.cardExpiresLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the date on which the payment method expires.</note>
@@ -2130,11 +1996,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <target>ਮੈਂਬਰੀ ਸਾਰ</target>
         <source>Subscription summary</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.upgrade" xml:space="preserve">
-        <note annotates="source" from="developer">Label for a button that will take users into the upgrade to VPN / Relay bundle purchase flow.</note>
-        <target>ਅੱਪਗਰੇਡ ਕਰੋ</target>
-        <source>Upgrade</source>
-      </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual" xml:space="preserve">
         <note annotates="source" from="developer">Block of text appearing beside a button to upgrade subscription.</note>
         <target>ਸਲਾਨਾ ਪਲਾਨ ਉੱਤੇ 50% ਬਚਾਓ</target>
@@ -2231,14 +2092,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
       <trans-unit id="vpn.tipsAndTricks.introModalDescription" xml:space="preserve">
         <source>Here’s a great list of useful tips and tricks to get the best out of your Mozilla VPN experience. Check it out now or find it anytime in the settings.</source>
       </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.moreTutorialsDescription2" xml:space="preserve">
-        <source>Learn how to use Mozilla VPN’s advanced features</source>
-        <target>Mozilla VPN ਦੇ ਤਕਨੀਕੀ ਫ਼ੀਚਰਾਂ ਨੂੰ ਵਰਤਣਾ ਸਿੱਖੋ</target>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.moreTutorialsTitle" xml:space="preserve">
-        <source>More tutorials</source>
-        <target>ਹੋਰ ਸਿਖਲਾਈ</target>
-      </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.quickTipsDescription" xml:space="preserve">
         <source>Let us help you get the most out of Mozilla VPN</source>
         <target>ਆਓ Mozilla VPN ਤੋਂ ਜਿੰਨਾ ਸੰਭਵ ਹੋ ਸਕੇ ਫਾਇਦਾ ਲੈਣ ਲਈ ਤੁਹਾਡੀ ਮਦਦ ਕਰੀਏ</target>
@@ -2264,53 +2117,6 @@ Example: You have "x of y" devices in yor account, where y is the limit of allow
         <note annotates="source" from="developer">Tab title for the tab of the Tips &amp; Tricks panels that only shows guides</note>
         <target>ਟੋਟਕੇ</target>
         <source>Tips</source>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.tabTitleTutorials" xml:space="preserve">
-        <note annotates="source" from="developer">Tab title for the tab of the Tips &amp; Tricks panels that only shows tutorials</note>
-        <target>ਸਿਖਲਾਈ</target>
-        <source>Tutorials</source>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.tutorialsDescription" xml:space="preserve">
-        <source>Learn the basics of Mozilla VPN</source>
-        <target>Mozilla VPN ਬਾਰੇ ਮੁੱਢਲੀ ਜਾਣਕਾਰੀ ਲਵੋ</target>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.tutorialsTitle" xml:space="preserve">
-        <source>Getting started</source>
-        <target>ਸ਼ੁਰੂ ਕਰੀਏ</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.leaveTutorialButton" xml:space="preserve">
-        <source>Leave tutorial</source>
-        <target>ਸਿਖਲਾਈ ਛੱਡੋ</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialCompleteHeadline" xml:space="preserve">
-        <source>Well done!</source>
-        <target>ਬਹੁਤ ਖ਼ੂਬ!</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialCompletePrimaryButtonLabel" xml:space="preserve">
-        <source>Let’s go!</source>
-        <target>ਆਓ ਚੱਲੀਏ!</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialFinishedSecondaryButtonLabel" xml:space="preserve">
-        <source>Dismiss</source>
-        <target>ਖ਼ਾਰਜ ਕਰੋ</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialLeaveHeadline" xml:space="preserve">
-        <source>Leave tutorial?</source>
-        <target>ਸਿਖਲਾਈ ਛੱਡਣੀ ਹੈ?</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialLeavePrimaryButtonLabel" xml:space="preserve">
-        <source>Resume tutorial</source>
-        <target>ਸਿਖਲਾਈ ਮੁੜ ਕਰੋ</target>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialLeaveSubtitle" xml:space="preserve">
-        <source>Looks like you haven’t finished the tutorial quite yet. Would you like to continue and finish now or quit and come back later?</source>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialWarningDescription" xml:space="preserve">
-        <source>By continuing this tutorial, you will be changing your VPN settings. These settings will revert to their original state upon completion or quitting of the tutorial.</source>
-      </trans-unit>
-      <trans-unit id="vpn.tutorialPopup.tutorialWarningTitle" xml:space="preserve">
-        <source>Continue tutorial?</source>
-        <target>ਸਿਖਲਾਈ ਨਾਲ ਜਾਰੀ ਰੱਖਣਾ ਹੈ?</target>
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionNoUpdate" xml:space="preserve">
         <source>Okay</source>
