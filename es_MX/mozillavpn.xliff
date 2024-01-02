@@ -1613,8 +1613,9 @@
         <target>Suscribirse ahora</target>
         <source>Subscribe now</source>
       </trans-unit>
-      <trans-unit id="vpn.purchase.subscriptionOption">
+      <trans-unit id="vpn.purchase.subscriptionOption" xml:space="preserve">
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>Plan de %1 meses: %2</target>
         <source>%1-month plan: %2</source>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.inProgress2" xml:space="preserve">
@@ -1634,15 +1635,17 @@
         <source>Already a subscriber?</source>
         <target>¿Ya te has suscrito?</target>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText2">
+      <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText2" xml:space="preserve">
         <source>Sorry, we are unable to connect your Mozilla account to a current subscription. Please try again or contact our support team for further assistance.</source>
+        <target>Lo sentimos pero no hemos podido conectar tu cuenta de Mozilla a una suscripción actual. Vuelve a intentarlo o comunícate con nuestro equipo de ayuda.</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText" xml:space="preserve">
         <source>Sorry, we were unable to confirm your subscription. Please try again or contact our support team for help.</source>
         <target>Lo sentimos, no pudimos confirmar tu suscripción. Por favor, vuelve a intentarlo o ponte en contacto con nuestro equipo de soporte para obtener ayuda.</target>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText2">
+      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText2" xml:space="preserve">
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
+        <target>Otra cuenta de Mozilla ya se ha suscrito con este Apple ID. Cierra sesión e inténtalo de nuevo o comunícate con nuestro equipo de ayuda.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Choose a new location.</source>
@@ -1682,8 +1685,9 @@
         <target>¿Por qué se recomiendan estas ubicaciones?</target>
         <source>Why are these locations recommended?</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedEmptyLabel">
+      <trans-unit id="vpn.serversView.recommendedEmptyLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
+        <target>Para ver las ubicaciones de servidores recomendadas, desactiva la VPN.</target>
         <source>To see recommended server locations, turn off the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
@@ -1718,20 +1722,24 @@
         <source>Search countries</source>
         <target>Buscar países</target>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithGoodConnection">
+      <trans-unit id="vpn.serversView.serverCityWithGoodConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is good. Argument is the city name.</note>
+        <target>%1. Buena conectividad</target>
         <source>%1. Good connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithModerateConnection">
+      <trans-unit id="vpn.serversView.serverCityWithModerateConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is moderate. Argument is the city name.</note>
+        <target>%1. Conectividad moderada</target>
         <source>%1. Moderate connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithNoConnection">
+      <trans-unit id="vpn.serversView.serverCityWithNoConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is unavailable. Argument is the city name.</note>
+        <target>%1. Sin conectividad</target>
         <source>%1. No connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithPoorConnection">
+      <trans-unit id="vpn.serversView.serverCityWithPoorConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is poor. Argument is the city name.</note>
+        <target>%1. Mala conectividad</target>
         <source>%1. Poor connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.tabAllLabel" xml:space="preserve">
@@ -1814,8 +1822,9 @@
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>Estas opciones pueden hacer que algunos sitios web se interrumpan o no muestren el contenido correctamente.</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyMalwareBody2">
+      <trans-unit id="vpn.settings.privacyMalwareBody2" xml:space="preserve">
         <source>Helps protect you from ransomware, phishing, spyware, and viruses</source>
+        <target>Ayuda a protegerte contra ransomware, phishing, spyware y virus</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareTitle" xml:space="preserve">
         <source>Block malware</source>
@@ -1870,8 +1879,9 @@
         <source>Use Staging Servers</source>
         <target>Usar servidores de prueba</target>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoCardDescription">
+      <trans-unit id="vpn.splittunnel.infoCardDescription" xml:space="preserve">
         <note annotates="source" from="developer">Displays inside the information card at the top of the app exclusions screen when the VPN is on</note>
+        <target>La VPN debe estar desconectada para editar la exclusión de aplicaciones</target>
         <source>VPN must be off to edit App exclusions</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
@@ -2017,12 +2027,14 @@
         <target>Resumen de la suscripción</target>
         <source>Subscription summary</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual">
+      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual" xml:space="preserve">
         <note annotates="source" from="developer">Block of text appearing beside a button to upgrade subscription.</note>
+        <target>Ahorra 50% en un plan anual</target>
         <source>Save 50% on an annual plan</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton">
+      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will open the upgrade subscription flow.</note>
+        <target>Cambiar plan</target>
         <source>Change plan</source>
       </trans-unit>
       <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
@@ -2089,8 +2101,9 @@
         <target>No permitir</target>
         <source>Don’t allow</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.learnMore">
+      <trans-unit id="vpn.telemetryPolicyView.learnMore" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
+        <target>Saber más sobre los datos que recopila Mozilla y cómo se utilizan.</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
