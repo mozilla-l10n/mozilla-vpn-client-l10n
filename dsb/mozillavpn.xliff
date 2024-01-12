@@ -580,7 +580,7 @@
         <target>Serwerowe stojnišćo změniś</target>
         <source>Switching server locations</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree" xml:space="preserve">
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section for multi-hop connections</note>
         <source>Switching back to a single-hop connection</source>
       </trans-unit>
@@ -635,7 +635,7 @@
         <target>Móžośo skłaźone informacije a funkcije produktow Mozilla zgubiś</target>
         <source>You may lose saved information and features within Mozilla products</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.subheadline2" xml:space="preserve">
+      <trans-unit id="vpn.deleteAccount.subheadline2">
         <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
         <source>Your Mozilla account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
       </trans-unit>
@@ -704,10 +704,10 @@
         <target>Rěd se wótwónoźujo…</target>
         <source>Removing device…</source>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS" xml:space="preserve">
+      <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS">
         <source>Using these privacy features will override your custom DNS.</source>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy" xml:space="preserve">
+      <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy">
         <source>Using a custom DNS will override your preferences in the privacy features page.</source>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.primaryButton" xml:space="preserve">
@@ -855,6 +855,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.continueToSignIn" xml:space="preserve">
         <note annotates="source" from="developer">Button a user clicks after updating their Mozilla account settings so that they can re-attempt sign-in</note>
+        <target>Dalej k pśizjawjenjeju</target>
         <source>Continue to sign in</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.createAccountButton" xml:space="preserve">
@@ -1034,33 +1035,38 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.ssoInstructionHeader" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. This is the header on the error screen.</note>
+        <target>Gronidło napóraś</target>
         <source>Create a password</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine1" xml:space="preserve">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine1">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
         <source>To finish setting up your Mozilla account, create a password in your account settings:</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.ssoInstructionLine2" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. Do not remove or translate the markup '&lt;a href="open-account"&gt;'.</note>
+        <target>1. Źiśo k &lt;a href="open-account"&gt;Gronidło změniś&lt;/a&gt; w swójich kontowych nastajenjach Mozilla.</target>
         <source>1. Go to &lt;a href="open-account"&gt;Change password&lt;/a&gt; in your Mozilla account settings.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.ssoInstructionLine2a" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. Do not remove or translate the markup '&lt;a href="open-account"&gt;'.</note>
+        <target>1. Źiśo k &lt;a href="open-account"&gt;Gronidło napóraś&lt;/a&gt; w swójich kontowych nastajenjach Mozilla.</target>
         <source>1. Go to &lt;a href="open-account"&gt;Create password&lt;/a&gt; in your Mozilla account settings.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.ssoInstructionLine3" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
+        <target>2. Napórajśo gronidło.</target>
         <source>2. Create a password.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine4" xml:space="preserve">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine4">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
         <source>When your password is created, return to this screen and continue to sign in to Mozilla VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.stubAccountVerificationHeader" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log into a Mozilla account before setting their password, which happens after email verification. This is the header on the error screen.</note>
+        <target>Pséglědajśo swóju e-mail</target>
         <source>Check your email</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.stubAccountVerificationInstruction" xml:space="preserve">
+      <trans-unit id="vpn.inAppAuth.stubAccountVerificationInstruction">
         <note annotates="source" from="developer">User has tried to log into a Mozilla account before setting their password, which happens after email verification. %1 is the email address associated with the account.</note>
         <source>We’ve sent an email to %1 with the verification link. Please follow the directions to set up your password and finish setting up your account.</source>
       </trans-unit>
@@ -1422,7 +1428,7 @@
         <source>Guest Wi-Fi portal detected</source>
         <target>Góstny WLAN-portal jo se namakał</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.subscriptionNotFound" xml:space="preserve">
+      <trans-unit id="vpn.notifications.subscriptionNotFound">
         <source>Your Mozilla VPN subscription cannot be found. Please open the app to resolve this subscription issue.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
@@ -1458,7 +1464,7 @@
         <source>To install the VPN on another tablet or mobile device, scan the QR code.</source>
         <target>Aby VPN na drugem tableśe abo mobilnem rěźe instalěrował, scannujśo QR-kod.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideBodyMobile" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideBodyMobile">
         <source>To install the VPN on another tablet or mobile device, scan the QR code. To install on a desktop computer, visit the Download page on the Mozilla VPN website.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeAndroid" xml:space="preserve">
@@ -1477,34 +1483,34 @@
         <source>Install Mozilla VPN on up to 5 devices</source>
         <target>Instalěrujśo Mozilla VPN na až k 5 rědach</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid">
         <source>QR Code that links to the Mozilla VPN product page on the Google Play Store</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple">
         <source>QR Code that links to the Mozilla VPN product page on the iOS App Store</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.panelFourSubtitle">
         <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourTitle" xml:space="preserve">
         <source>Add even more privacy</source>
         <target>Pśidajśo samo wěcej priwatnosći</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelThreeSubtitle" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.panelThreeSubtitle">
         <source>Protecting yourself is simple: tap to connect to the VPN and you’re ready to browse safely. Mozilla VPN will start automatically for seamless protection.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelThreeTitle" xml:space="preserve">
         <source>One tap to safety</source>
         <target>Jadno dotyknjenje k wěstośe</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.panelTwoSubtitle" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.panelTwoSubtitle">
         <source>With more than 500 servers in 60 cities around the world, Mozilla VPN protects your data, browsing activity, and your true location from network spies.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelTwoTitle" xml:space="preserve">
         <source>Protect your privacy</source>
         <target>Šćitajśo swóju priwatnosć</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.privacySlideBody" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.privacySlideBody">
         <source>Use these features for more protection. They may cause issues on some sites, so you can turn them off anytime in settings.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.privacySlideHeader" xml:space="preserve">
@@ -1555,14 +1561,14 @@
         <source>Allow VPN connection</source>
         <target>Zwisk VPN dowóliś</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideBody" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.startSlideBody">
         <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideHeader" xml:space="preserve">
         <source>Connect Mozilla VPN on startup</source>
         <target>Mozilla VPN pśi startowanju zwězaś</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideMobileBody" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.startSlideMobileBody">
         <source>Your mobile device will now ask you to allow Mozilla VPN to create a connection. Please allow this so that the VPN works correctly on your device.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideMobileHeader" xml:space="preserve">
@@ -1717,7 +1723,7 @@
         <target>Lisćinu aktualizěrowaś</target>
         <source>Refresh list</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel" xml:space="preserve">
+      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated and instructions to re-enable the refresh button. Argument is the time or date/day</note>
         <source>Last updated: %1. To update this list please disconnect from the VPN.</source>
       </trans-unit>
@@ -1811,7 +1817,7 @@
         <source>Use custom DNS</source>
         <target>Swójski DNS wužywaś</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning" xml:space="preserve">
+      <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning">
         <source>Changing these settings will cause the VPN to disconnect and reconnect automatically.</source>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder" xml:space="preserve">
@@ -1826,20 +1832,20 @@
         <source>Use standard DNS</source>
         <target>Standardny DNS wužywaś</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsWarning" xml:space="preserve">
+      <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyAdblockBody" xml:space="preserve">
+      <trans-unit id="vpn.settings.privacyAdblockBody">
         <source>Reduces the number of ads you see when you’re using VPN</source>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyAdblockTitle" xml:space="preserve">
         <source>Block ads</source>
         <target>Wabjenje blokěrowaś</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyCard" xml:space="preserve">
+      <trans-unit id="vpn.settings.privacyCard">
         <source>These options may cause some websites to break or not display content correctly.</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyMalwareBody2" xml:space="preserve">
+      <trans-unit id="vpn.settings.privacyMalwareBody2">
         <source>Helps protect you from ransomware, phishing, spyware, and viruses</source>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareTitle" xml:space="preserve">
@@ -1850,7 +1856,7 @@
         <source>Privacy features</source>
         <target>Funkcije priwatnosći</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyTrackerBody" xml:space="preserve">
+      <trans-unit id="vpn.settings.privacyTrackerBody">
         <source>Fewer harmful domains will be able to track you</source>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyTrackerTitle" xml:space="preserve">
@@ -2044,6 +2050,7 @@
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual" xml:space="preserve">
         <note annotates="source" from="developer">Block of text appearing beside a button to upgrade subscription.</note>
+        <target>Zažaŕśo 50 % z lětnym planom</target>
         <source>Save 50% on an annual plan</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton" xml:space="preserve">
@@ -2135,7 +2142,7 @@
         <source>Advanced tips</source>
         <target>Rozšyrjone pokaze</target>
       </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.introModalDescription" xml:space="preserve">
+      <trans-unit id="vpn.tipsAndTricks.introModalDescription">
         <source>Here’s a great list of useful tips and tricks to get the best out of your Mozilla VPN experience. Check it out now or find it anytime in the settings.</source>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.quickTipsDescription" xml:space="preserve">
