@@ -825,10 +825,12 @@
       </trans-unit>
       <trans-unit id="vpn.global.help" xml:space="preserve">
         <note annotates="source" from="developer">Action taken that will help the user</note>
+        <target>帮助</target>
         <source>Help</source>
       </trans-unit>
       <trans-unit id="vpn.global.learnMore" xml:space="preserve">
         <note annotates="source" from="developer">Label for link to allow the user to learn more about a topic</note>
+        <target>详细了解</target>
         <source>Learn more</source>
       </trans-unit>
       <trans-unit id="vpn.global.next" xml:space="preserve">
@@ -863,90 +865,112 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
+        <target>在新设备上添加 Mozilla VPN 也很简单只需在该设备上下载并登录 Mozilla VPN 即可。</target>
         <source>Adding a new device to your subscription is easy: just download and log in to Mozilla VPN on that device.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
+        <target>若要移除已添加的设备请选择“编辑”并使用垃圾桶图标移除您不想再使用 Mozilla VPN 的设备。</target>
         <source>To remove one of your added devices, select “Edit” on this screen and use the trash icon to remove the device you no longer want to use Mozilla VPN on.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the devices help sheet</note>
+        <target>添加和移除设备</target>
         <source>Adding and removing devices</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the devices help sheet</note>
+        <target>设备管理</target>
         <source>Device management</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
+        <target>每当您连接到一个网站时DNS域名系统首先将域名例如 www.mozilla.org 转换为 IP 地址让您的互联网流量能够到达该地址。</target>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
+        <target>Mozilla VPN 允许您根据需要选择自定义 DNS 服务器。如果您使用了一个将无法使用 VPN 中的跟踪器拦截等其他隐私功能。</target>
         <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the custom dns help sheet</note>
+        <target>什么是自定义 DNS</target>
         <source>What is a custom DNS?</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the custom dns help sheet</note>
+        <target>自定义 DNS 设置</target>
         <source>Custom DNS settings</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>排除的应用程序让您无需关闭整个设备的 VPN 保护即可为特定应用关闭 VPN 保护。</target>
         <source>Excluded apps let you turn off VPN protection for specific apps, without turning off VPN protection for your entire device.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>当您排除某个应用时它仍将获取您的 IP 地址和大致位置。</target>
         <source>When you exclude an app, it will have access to your IP address and approximate location.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsBody3" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>你可以使用“设置”&gt;“隐私功能”下的设置来拦截广告、跟踪器和恶意软件甚至在已排除的应用上也是如此。</target>
         <source>You can use the settings under Settings &gt; Privacy features to block ads, block trackers, and block malware, even on excluded apps.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsCTA" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that opens the "Privacy features" view from the excluded apps help sheet</note>
+        <target>打开“隐私功能”</target>
         <source>Open “Privacy features”</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the excluded apps help sheet</note>
+        <target>什么是排除的应用</target>
         <source>What are excluded apps?</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the excluded apps help sheet</note>
+        <target>排除的应用</target>
         <source>Excluded apps</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
+        <target>如果您想要最大的速度和可靠性请在“单跳”切换中选择一个推荐的位置。我们已按预期表现对它们进行了排序。</target>
         <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
+        <target>如果您想要增加更多隐私请切换到“多跳”并添加一个额外的服务器位置。多跳 VPN 通过两个服务器位置而非一个路由您的流量可提供更高的安全性和隐私。这也可能会略微降低您的连接速度。</target>
         <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the location selection help sheet</note>
+        <target>单跳与多跳</target>
         <source>Single-hop vs multi-hop</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the location selection help sheet</note>
+        <target>位置选择</target>
         <source>Location selection</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
+        <target>隐私功能让您可以更好地控制看到的内容类型从而帮助您保持在线安全。</target>
         <source>Privacy features give you greater control over the types of content you see, helping you stay safe online.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
+        <target>启用这些功能将覆盖您正在使用的所有自定义 DNS。这些保护不能替代其他安全措施，例如即使已启用恶意软件拦截保护，您仍应避免下载陌生邮件中的附件。</target>
         <source>If you activate these features, they’ll overwrite any custom DNS you’re using. These protections are not a substitute for taking other security precautions — for example, while blocking malware you should still avoid downloading attachments in strange emails.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
+        <target>隐私功能有什么用</target>
         <source>What can privacy features do for me?</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the privacy features help sheet</note>
+        <target>隐私功能</target>
         <source>Privacy features</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.changeEmailLink" xml:space="preserve">
