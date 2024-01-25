@@ -883,56 +883,69 @@
         <target>Pryd bynnag y byddwch yn cysylltu â gwefan, mae DNS (system enw parth) yn troi'r enw parth (e.e. www.mozilla.org) yn gyfeiriad IP sy'n caniatáu i'ch traffig rhyngrwyd gyrraedd y gyrchfan honno.</target>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody2">
+      <trans-unit id="vpn.helpSheets.dnsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
+        <target>Mae Mozilla VPN yn caniatáu ichi ddewis gweinydd DNS cyfaddas os yw'n well gennych. Os ydych chi'n defnyddio un, fyddwch chi ddim yn gallu defnyddio nodweddion preifatrwydd eraill yn y VPN fel rhwystro traciwr.</target>
         <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsHeader">
+      <trans-unit id="vpn.helpSheets.dnsHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the custom dns help sheet</note>
+        <target>Beth yw DNS cyfaddas?</target>
         <source>What is a custom DNS?</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsTitle">
+      <trans-unit id="vpn.helpSheets.dnsTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the custom dns help sheet</note>
+        <target>Gosodiadau DNS cyfaddas</target>
         <source>Custom DNS settings</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody1">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>Mae apiau gwaharddedig yn gadael ichi ddiffodd diogelwch VPN ar gyfer apiau penodol, heb ddiffodd diogelwch VPN ar gyfer eich dyfais gyfan.</target>
         <source>Excluded apps let you turn off VPN protection for specific apps, without turning off VPN protection for your entire device.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody2">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>Pan fyddwch yn eithrio ap, bydd ganddo fynediad i'ch cyfeiriad IP a'ch lleoliad bras.</target>
         <source>When you exclude an app, it will have access to your IP address and approximate location.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody3">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody3" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>Gallwch ddefnyddio'r gosodiadau o dan Gosodiadau&gt; Nodweddion Preifatrwydd i rwystro hysbysebion, tracwyr, a meddalwedd maleisus, hyd yn oed ar apiau sydd wedi'u heithrio.</target>
         <source>You can use the settings under Settings &gt; Privacy features to block ads, block trackers, and block malware, even on excluded apps.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsCTA">
+      <trans-unit id="vpn.helpSheets.excludedAppsCTA" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that opens the "Privacy features" view from the excluded apps help sheet</note>
+        <target>Agor “Nodweddion preifatrwydd”</target>
         <source>Open “Privacy features”</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsHeader">
+      <trans-unit id="vpn.helpSheets.excludedAppsHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the excluded apps help sheet</note>
+        <target>Beth yw apiau wedi'u heithrio?</target>
         <source>What are excluded apps?</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsTitle">
+      <trans-unit id="vpn.helpSheets.excludedAppsTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the excluded apps help sheet</note>
+        <target>Apiau wedi'u heithrio</target>
         <source>Excluded apps</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody1">
+      <trans-unit id="vpn.helpSheets.locationBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
+        <target>Os ydych chi eisiau'r cyflymder a'r dibynadwyedd mwyaf, dewiswch un o'r lleoliadau sy'n cael eu hargymell yn y togl “Hwb sengl”. Rydym wedi eu didoli ar sail y perfformiad disgwyliedig.</target>
         <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody2">
+      <trans-unit id="vpn.helpSheets.locationBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
+        <target>Os ydych chi eisiau ychwanegu mwy o breifatrwydd, newidiwch i “Aml-hwb” ac ychwanegu lleoliad gweinydd ychwanegol. Mae VPN aml-hwb yn anfon eich traffig trwy ddau leoliad gweinydd yn lle un ar gyfer diogelwch a phreifatrwydd ychwanegol. Gall hyn hefyd arafu ychydig ar eich cysylltiad.</target>
         <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationHeader">
+      <trans-unit id="vpn.helpSheets.locationHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the location selection help sheet</note>
+        <target>Hwb-sengl neu aml-hwb</target>
         <source>Single-hop vs multi-hop</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationTitle">
+      <trans-unit id="vpn.helpSheets.locationTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the location selection help sheet</note>
+        <target>Dewis lleoliad</target>
         <source>Location selection</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyBody1">
