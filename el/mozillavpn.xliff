@@ -22,11 +22,6 @@
         <source>Remote service error</source>
         <target>Σφάλμα απομακρυσμένης υπηρεσίας</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.restore" xml:space="preserve">
-        <note annotates="source" from="developer">Restore a service in case of error.</note>
-        <target>Επαναφορά</target>
-        <source>Restore</source>
-      </trans-unit>
       <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
         <source>Subscription failed</source>
         <target>Αποτυχία συνδρομής</target>
@@ -883,11 +878,11 @@
         <target>Διαχείριση συσκευών</target>
         <source>Device management</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody1">
+      <trans-unit id="vpn.helpSheets.dnsBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody2">
+      <trans-unit id="vpn.helpSheets.dnsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
         <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
       </trans-unit>
@@ -901,15 +896,15 @@
         <target>Προσαρμοσμένες ρυθμίσεις DNS</target>
         <source>Custom DNS settings</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody1">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
         <source>Excluded apps let you turn off VPN protection for specific apps, without turning off VPN protection for your entire device.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody2">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
         <source>When you exclude an app, it will have access to your IP address and approximate location.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody3">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody3" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
         <source>You can use the settings under Settings &gt; Privacy features to block ads, block trackers, and block malware, even on excluded apps.</source>
       </trans-unit>
@@ -928,11 +923,11 @@
         <target>Εξαιρούμενες εφαρμογές</target>
         <source>Excluded apps</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody1">
+      <trans-unit id="vpn.helpSheets.locationBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
         <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody2">
+      <trans-unit id="vpn.helpSheets.locationBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
         <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
       </trans-unit>
@@ -946,11 +941,11 @@
         <target>Επιλογή τοποθεσίας</target>
         <source>Location selection</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyBody1">
+      <trans-unit id="vpn.helpSheets.privacyBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
         <source>Privacy features give you greater control over the types of content you see, helping you stay safe online.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyBody2">
+      <trans-unit id="vpn.helpSheets.privacyBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
         <source>If you activate these features, they’ll overwrite any custom DNS you’re using. These protections are not a substitute for taking other security precautions — for example, while blocking malware you should still avoid downloading attachments in strange emails.</source>
       </trans-unit>
@@ -1157,11 +1152,6 @@
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
         <target>Για να ολοκληρώσετε τη ρύθμιση του λογαριασμού Mozilla σας, δημιουργήστε έναν κωδικό πρόσβασης από τις ρυθμίσεις του λογαριασμού σας:</target>
         <source>To finish setting up your Mozilla account, create a password in your account settings:</source>
-      </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine2" xml:space="preserve">
-        <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. Do not remove or translate the markup '&lt;a href="open-account"&gt;'.</note>
-        <target>1. Μεταβείτε στην ενότητα &lt;a href="open-account"&gt;Αλλαγή κωδικού πρόσβασης&lt;/a&gt; στις ρυθμίσεις του λογαριασμού Mozilla σας.</target>
-        <source>1. Go to &lt;a href="open-account"&gt;Change password&lt;/a&gt; in your Mozilla account settings.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.ssoInstructionLine2a" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. Do not remove or translate the markup '&lt;a href="open-account"&gt;'.</note>

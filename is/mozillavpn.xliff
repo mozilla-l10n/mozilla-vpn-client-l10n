@@ -22,11 +22,6 @@
         <source>Remote service error</source>
         <target>Villa í fjarþjónustu</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.restore" xml:space="preserve">
-        <note annotates="source" from="developer">Restore a service in case of error.</note>
-        <target>Endurheimta</target>
-        <source>Restore</source>
-      </trans-unit>
       <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
         <source>Subscription failed</source>
         <target>Áskrift mistókst</target>
@@ -863,11 +858,11 @@
         <target>VPN-notandi</target>
         <source>VPN User</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.devicesBody1">
+      <trans-unit id="vpn.helpSheets.devicesBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
         <source>Adding a new device to your subscription is easy: just download and log in to Mozilla VPN on that device.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.devicesBody2">
+      <trans-unit id="vpn.helpSheets.devicesBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
         <source>To remove one of your added devices, select “Edit” on this screen and use the trash icon to remove the device you no longer want to use Mozilla VPN on.</source>
       </trans-unit>
@@ -881,11 +876,11 @@
         <target>Tækjastjórnun</target>
         <source>Device management</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody1">
+      <trans-unit id="vpn.helpSheets.dnsBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody2">
+      <trans-unit id="vpn.helpSheets.dnsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
         <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
       </trans-unit>
@@ -899,11 +894,11 @@
         <target>Sérsniðnar DNS-stillingar</target>
         <source>Custom DNS settings</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody1">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
         <source>Excluded apps let you turn off VPN protection for specific apps, without turning off VPN protection for your entire device.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody2">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
         <source>When you exclude an app, it will have access to your IP address and approximate location.</source>
       </trans-unit>
@@ -932,7 +927,7 @@
         <target>Ef þú vilt hámarkshraða og áreiðanleika skaltu velja einn af ráðlögðu stöðunum í „Eitt-hopp“ rofanum. Við höfum raðað þeim miðað við áætluð afköst.</target>
         <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody2">
+      <trans-unit id="vpn.helpSheets.locationBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
         <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
       </trans-unit>
@@ -1159,11 +1154,6 @@
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
         <target>Til að klára að setja upp Mozilla reikninginn þinn skaltu búa til lykilorð í reikningsstillingunum þínum:</target>
         <source>To finish setting up your Mozilla account, create a password in your account settings:</source>
-      </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine2" xml:space="preserve">
-        <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. Do not remove or translate the markup '&lt;a href="open-account"&gt;'.</note>
-        <target>1. Farðu í &lt;a href="open-account"&gt;Breyta lykilorði&lt;/a&gt; í Mozilla reikningsstillingunum þínum.</target>
-        <source>1. Go to &lt;a href="open-account"&gt;Change password&lt;/a&gt; in your Mozilla account settings.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.ssoInstructionLine2a" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. Do not remove or translate the markup '&lt;a href="open-account"&gt;'.</note>
