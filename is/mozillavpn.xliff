@@ -883,8 +883,9 @@
         <target>Alltaf þegar þú tengist vefsíðu breytir DNS (lénsnafnakerfi) fyrst léninu (t.d. www.mozilla.org) í IP-vistfang sem gerir internetumferð þinni kleift að ná þeim áfangastað.</target>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody2">
+      <trans-unit id="vpn.helpSheets.dnsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
+        <target>Mozilla VPN gerir þér kleift að velja sérsniðinn DNS-netþjón ef þú vilt. Ef þú notar einn slíkann, muntu ekki geta notað aðra persónuverndareiginleika í VPN eins og að útiloka rekjara.</target>
         <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsHeader" xml:space="preserve">
@@ -897,12 +898,14 @@
         <target>Sérsniðnar DNS-stillingar</target>
         <source>Custom DNS settings</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody1">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>Útilokun forrita gerir þér kleift að slökkva á VPN-vörn fyrir tiltekin forrit, án þess að slökkva á VPN-vörnum fyrir allt tækið þitt.</target>
         <source>Excluded apps let you turn off VPN protection for specific apps, without turning off VPN protection for your entire device.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody2">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>Þegar þú útilokar forrit mun það hafa aðgang að IP-vistfangi þínu og áætlaðri staðsetningu.</target>
         <source>When you exclude an app, it will have access to your IP address and approximate location.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsBody3" xml:space="preserve">
@@ -930,8 +933,9 @@
         <target>Ef þú vilt hámarkshraða og áreiðanleika skaltu velja einn af ráðlögðu stöðunum í „Eitt-hopp“ rofanum. Við höfum raðað þeim miðað við áætluð afköst.</target>
         <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody2">
+      <trans-unit id="vpn.helpSheets.locationBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
+        <target>Ef þú vilt enn meira næði, skaltu skipta yfir í „Marg-hoppa“ og bæta við aukastaðsetningu netþjóns. Marg-hoppa VPN beinir umferð þinni í gegnum tvo netþjóna í stað eins netþjóns til að auka öryggi og gagnaleynd. Það gæti reyndar einnig hægt örlítið á tengingunni þinni.</target>
         <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationHeader" xml:space="preserve">
