@@ -880,10 +880,12 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
+        <target>Κάθε φορά που συνδέεστε σε μια ιστοσελίδα, ένα DNS (σύστημα ονομάτων τομέα) μετατρέπει αρχικά το όνομα τομέα (π.χ. www.mozilla.org) σε μια διεύθυνση IP και επιτρέπει στη διαδικτυακή σας κίνηση να φτάσει στον προορισμό της.</target>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
+        <target>Το Mozilla VPN σάς επιτρέπει να επιλέξετε έναν προσαρμοσμένο διακομιστή DNS εάν το επιθυμείτε. Αν χρησιμοποιείτε κάποιο, δε θα μπορείτε να χρησιμοποιήσετε άλλες λειτουργίες απορρήτου στο VPN, όπως τη φραγή ιχνηλατών.</target>
         <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsHeader" xml:space="preserve">
@@ -898,14 +900,17 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>Οι εξαιρούμενες εφαρμογές σάς επιτρέπουν να απενεργοποιήσετε την προστασία VPN για συγκεκριμένες εφαρμογές, χωρίς να απενεργοποιήσετε την προστασία VPN σε ολόκληρη τη συσκευή σας.</target>
         <source>Excluded apps let you turn off VPN protection for specific apps, without turning off VPN protection for your entire device.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>Όταν εξαιρέσετε μια εφαρμογή, θα έχει πρόσβαση στη διεύθυνση IP και την τοποθεσία σας.</target>
         <source>When you exclude an app, it will have access to your IP address and approximate location.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsBody3" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>Μπορείτε να χρησιμοποιήσετε τις ρυθμίσεις στην ενότητα Ρυθμίσεις &gt; Λειτουργίες απορρήτου για να αποκλείσετε τις διαφημίσεις, τους ιχνηλάτες και το κακόβουλο λογισμικό, ακόμη και σε εξαιρούμενες εφαρμογές.</target>
         <source>You can use the settings under Settings &gt; Privacy features to block ads, block trackers, and block malware, even on excluded apps.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsCTA" xml:space="preserve">
@@ -923,11 +928,11 @@
         <target>Εξαιρούμενες εφαρμογές</target>
         <source>Excluded apps</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody1" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.locationBody1">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
         <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody2" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.locationBody2">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
         <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
       </trans-unit>
@@ -943,10 +948,12 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
+        <target>Οι λειτουργίες απορρήτου σάς δίνουν μεγαλύτερο έλεγχο σχετικά με τους τύπους περιεχομένου που βλέπετε, βοηθώντας να παραμείνετε ασφαλείς στο διαδίκτυο.</target>
         <source>Privacy features give you greater control over the types of content you see, helping you stay safe online.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
+        <target>Εάν ενεργοποιήσετε αυτές τις λειτουργίες, θα αντικαταστήσουν τυχόν ρυθμίσεις προσαρμοσμένου DNS. Αυτές οι προστασίες δεν υποκαθιστούν άλλα μέτρα προφύλαξης. Για παράδειγμα, ακόμα και με τη φραγή κακόβουλου λογισμικού, θα πρέπει να αποφεύγετε τη λήψη συνημμένων από περίεργα email.</target>
         <source>If you activate these features, they’ll overwrite any custom DNS you’re using. These protections are not a substitute for taking other security precautions — for example, while blocking malware you should still avoid downloading attachments in strange emails.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyHeader" xml:space="preserve">
