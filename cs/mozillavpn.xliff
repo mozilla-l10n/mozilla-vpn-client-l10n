@@ -860,10 +860,12 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
+        <target>Přidání nového zařízení k předplatnému je snadné: stačí stáhnout a přihlásit se do Mozilla VPN na daném zařízení.</target>
         <source>Adding a new device to your subscription is easy: just download and log in to Mozilla VPN on that device.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
+        <target>Chcete-li odebrat jedno z přidaných zařízení, vyberte na této obrazovce možnost “Upravit” a pomocí ikony koše odeberte zařízení, na kterém již nechcete Mozilla VPN používat.</target>
         <source>To remove one of your added devices, select “Edit” on this screen and use the trash icon to remove the device you no longer want to use Mozilla VPN on.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesHeader" xml:space="preserve">
@@ -878,10 +880,12 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
+        <target>Kdykoli se připojíte k webové stránce, systém DNS (systém doménových jmen) nejprve změní název domény (např. www.mozilla.org) na IP adresu, která umožní internetovému provozu dosáhnout daného cíle.</target>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
+        <target>Mozilla VPN umožňuje zvolit si vlastní server DNS, pokud si to přejete. Pokud jej použijete, nebudete moci využívat další funkce ochrany soukromí v síti VPN, jako je blokování sledování.</target>
         <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsHeader" xml:space="preserve">
@@ -896,18 +900,22 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>Vyloučené aplikace umožňují vypnout ochranu VPN pro konkrétní aplikace, aniž byste museli vypnout ochranu VPN pro celé vaše zařízení.</target>
         <source>Excluded apps let you turn off VPN protection for specific apps, without turning off VPN protection for your entire device.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>Když aplikaci vyloučíte, bude mít přístup k vaší IP adrese a přibližné poloze.</target>
         <source>When you exclude an app, it will have access to your IP address and approximate location.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsBody3" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>Pomocí nastavení v Nastavení &gt; Funkce ochrany soukromí můžete blokovat reklamy, sledovací prvky a malware, a to i ve vyloučených aplikacích.</target>
         <source>You can use the settings under Settings &gt; Privacy features to block ads, block trackers, and block malware, even on excluded apps.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsCTA" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that opens the "Privacy features" view from the excluded apps help sheet</note>
+        <target>Otevřete „Funkce ochrany soukromí“</target>
         <source>Open “Privacy features”</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsHeader" xml:space="preserve">
@@ -922,10 +930,12 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
+        <target>Pokud chcete maximální rychlost a spolehlivost, vyberte jedno z doporučených umístění v přepínači „Single-hop“. Seřadili jsme je na základě očekávaného výkonu.</target>
         <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
+        <target>Pokud chcete posílit soukromí, přejděte na „Multi-hop“ a přidejte další umístění serveru. Multi-hop VPN směruje váš provoz přes dvě umístění serveru místo jednoho, což zajišťuje vyšší bezpečnost a soukromí. To však může také trochu zpomalit vaše připojení.</target>
         <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationHeader" xml:space="preserve">
@@ -940,14 +950,17 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
+        <target>Funkce ochrany soukromí vám dávají větší kontrolu nad typy obsahu, který vidíte, a pomáhají vám zůstat na internetu v bezpečí.</target>
         <source>Privacy features give you greater control over the types of content you see, helping you stay safe online.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
+        <target>Pokud tyto funkce aktivujete, přepíší všechny používané vlastní DNS. Tyto ochrany nenahrazují další bezpečnostní opatření - například při blokování malwaru byste se měli vyvarovat stahování příloh v cizích e-mailech.</target>
         <source>If you activate these features, they’ll overwrite any custom DNS you’re using. These protections are not a substitute for taking other security precautions — for example, while blocking malware you should still avoid downloading attachments in strange emails.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
+        <target>K čemu jsou pro mě funkce ochrany osobních údajů užitečné?</target>
         <source>What can privacy features do for me?</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle" xml:space="preserve">
@@ -1146,9 +1159,10 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.ssoInstructionLine1" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
+        <target>Pro dokončení nastavení svého účtu Mozilla vytvořte v nastavení účtu heslo:</target>
         <source>To finish setting up your Mozilla account, create a password in your account settings:</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine2a" xml:space="preserve">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine2a">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. Do not remove or translate the markup '&lt;a href="open-account"&gt;'.</note>
         <source>1. Go to &lt;a href="open-account"&gt;Create password&lt;/a&gt; in your Mozilla account settings.</source>
       </trans-unit>
@@ -1157,7 +1171,7 @@
         <target>2. Vytvořte si heslo.</target>
         <source>2. Create a password.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine4" xml:space="preserve">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine4">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
         <source>When your password is created, return to this screen and continue to sign in to Mozilla VPN.</source>
       </trans-unit>
@@ -1166,7 +1180,7 @@
         <target>Zkontrolujte svou e-mailovou schránku</target>
         <source>Check your email</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.stubAccountVerificationInstruction" xml:space="preserve">
+      <trans-unit id="vpn.inAppAuth.stubAccountVerificationInstruction">
         <note annotates="source" from="developer">User has tried to log into a Mozilla account before setting their password, which happens after email verification. %1 is the email address associated with the account.</note>
         <source>We’ve sent an email to %1 with the verification link. Please follow the directions to set up your password and finish setting up your account.</source>
       </trans-unit>
