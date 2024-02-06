@@ -910,7 +910,7 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsBody3" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
-        <target>A Beállítások &gt; Adatvédelmi funkciók alatti beállításokat használhatja a hirdetések letiltására, a követők blokkolására, és a rosszindulatú programok blokkolására, még a kizárt alkalmazásokban is.</target>
+        <target>A Beállítások &gt; Adatvédelmi funkciók alatti beállításokat használhatja a hirdetések, a követők és a rosszindulatú programok blokkolására, még a kizárt alkalmazásokban is.</target>
         <source>You can use the settings under Settings &gt; Privacy features to block ads, block trackers, and block malware, even on excluded apps.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsCTA" xml:space="preserve">
@@ -930,12 +930,12 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
-        <target>Ha a legnagyobb sebességet és megbízhatóságot szeretné, válasszon egyet az ajánlott helyek közül az „Egy ugrás” kapcsolóban. A várt teljesítmény alapján rendeztük őket.</target>
+        <target>Ha a legnagyobb sebességet és megbízhatóságot szeretné, válasszon egyet az ajánlott helyek közül az „Egyugrásos” kapcsolóban. A várt teljesítmény alapján rendeztük őket.</target>
         <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
-        <target>Ha nagyobb adatvédelmet szeretne hozzáadni, váltson a „Többugrásos” módra, és adjon hozzá egy további kiszolgálóhelyet. A több ugrásos VPN egy helyett két kiszolgálóhelyen keresztül továbbítja a forgalmat a nagyobb biztonság és adatvédelem érdekében. Ez kissé lelassíthatja a kapcsolatát.</target>
+        <target>Ha nagyobb adatvédelmet szeretne, váltson a „Többugrásos” módra, és adjon hozzá egy további kiszolgálóhelyet. A többugrásos VPN egy helyett két kiszolgálóhelyen keresztül továbbítja a forgalmat a nagyobb biztonság és adatvédelem érdekében. Ez kissé lelassíthatja a kapcsolatát.</target>
         <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationHeader" xml:space="preserve">
@@ -1427,11 +1427,11 @@
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardBody" xml:space="preserve">
         <source>Multi-hop VPN routes your traffic through two servers instead of one for extra security and privacy. This may slow down your connection.</source>
-        <target>A több ugrásos VPN-ek a nagyobb biztonság és adatvédelem érdekében két kiszolgálón keresztül továbbítják a forgalmat egy helyett. Ez lelassíthatja a kapcsolatát.</target>
+        <target>A többugrásos VPN-ek a nagyobb biztonság és adatvédelem érdekében két kiszolgálón keresztül továbbítják a forgalmat egy helyett. Ez lelassíthatja a kapcsolatát.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardHeader" xml:space="preserve">
         <source>What is multi-hop VPN?</source>
-        <target>Mi az a több ugrásos VPN?</target>
+        <target>Mi az a többugrásos VPN?</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader" xml:space="preserve">
         <source>Recent connections</source>
@@ -1451,7 +1451,7 @@
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA" xml:space="preserve">
         <source>Multi-hop</source>
-        <target>Több ugrás</target>
+        <target>Többugrásos</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
@@ -1459,7 +1459,7 @@
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA" xml:space="preserve">
         <source>Single-hop</source>
-        <target>Egyetlen ugrás</target>
+        <target>Egyugrásos</target>
       </trans-unit>
       <trans-unit id="vpn.navBar.homeTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the home screen</note>
@@ -1478,7 +1478,7 @@
       </trans-unit>
       <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
         <source>Multi-hop tunnel</source>
-        <target>Több ugrásos alagút</target>
+        <target>Többugrásos alagút</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText" xml:space="preserve">
         <source>To continue subscribing, please sign in to your Google Account</source>
@@ -1517,7 +1517,7 @@
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
-        <target>Kapcsolódva bontva a következőkkel: %1 és %2</target>
+        <target>Kapcsolat bontva a következőkkel: %1 és %2</target>
         <source>Disconnected from %1 and %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
