@@ -1562,6 +1562,9 @@
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
         <target>Kami berusaha memberikan Anda pilihan dan hanya mengumpulkan data teknis yang kami butuhkan untuk meningkatkan Mozilla VPN. Berbagi data dengan Mozilla adalah opsional.</target>
       </trans-unit>
+      <trans-unit id="vpn.onboarding.dataSlideBody2" xml:space="preserve">
+        <source>Help us improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data. We never collect data about your online activity while using the VPN.</source>
+      </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideCheckboxLabel" xml:space="preserve">
         <source>Mozilla may collect technical data about my use of Mozilla VPN.</source>
         <target>Mozilla dapat mengumpulkan data teknis tentang penggunaan saya atas Mozilla VPN.</target>
@@ -1570,13 +1573,22 @@
         <source>Data collection and use</source>
         <target>Pengumpulan dan penggunaan data</target>
       </trans-unit>
+      <trans-unit id="vpn.onboarding.dataSlideHeader2" xml:space="preserve">
+        <source>Data collection</source>
+      </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used</source>
         <target>Pelajari lebih lanjut tentang data apa yang dikumpulkan Mozilla dan bagaimana data tersebut digunakan</target>
       </trans-unit>
+      <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption2" xml:space="preserve">
+        <source>Learn more about data collection</source>
+      </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
         <target>Pemberitahuan Privasi Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.dataSlideToggleLabel" xml:space="preserve">
+        <source>Share technical data</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideBody2" xml:space="preserve">
         <source>To install the VPN on another tablet or mobile device, scan the QR code.</source>
@@ -1785,6 +1797,42 @@
       <trans-unit id="vpn.purchaseWeb.title" xml:space="preserve">
         <source>Subscribe to Mozilla VPN</source>
         <target>Berlangganan Mozilla VPN</target>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.body1" xml:space="preserve">
+        <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
+        <source>This will reset all VPN settings, including:</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.body2" xml:space="preserve">
+        <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
+        <source>Resetting the VPN will sign you out, but your account will not be deleted.</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.confirmResetModalBody" xml:space="preserve">
+        <note annotates="source" from="developer">Body of the modal where users can confirm they want to restore back to factory settings</note>
+        <source>Reset Mozilla VPN settings? This can’t be undone.</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.confirmResetModalResetButtonLabel" xml:space="preserve">
+        <note annotates="source" from="developer">Label for button that finalizes a restore to factory settings</note>
+        <source>Reset and quit</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.confirmResetModalTitle" xml:space="preserve">
+        <note annotates="source" from="developer">Title of the modal where users can confirm they want to restore back to factory settings</note>
+        <source>Confirm reset</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.listItemPreferences" xml:space="preserve">
+        <note annotates="source" from="developer">Item in a bulleted list denoting what will be deleted if the user opts to factory reset the client</note>
+        <source>Preferences</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.resetButtonLabel" xml:space="preserve">
+        <note annotates="source" from="developer">Label for button that initiates a restore to factory settings</note>
+        <source>Reset VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.resetLabel" xml:space="preserve">
+        <note annotates="source" from="developer">Label for button that takes the user to the factory reset flow</note>
+        <source>Reset VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.title" xml:space="preserve">
+        <note annotates="source" from="developer">Title of the screen where users go to reset the VPN to factory settings</note>
+        <source>Reset Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
         <source>Already a subscriber?</source>
