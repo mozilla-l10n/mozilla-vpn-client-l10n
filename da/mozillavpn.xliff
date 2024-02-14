@@ -954,8 +954,9 @@
         <target>Hvis du aktiverer disse funktioner, så overskriver de brugertilpasset DNS, hvis du bruger sådan noget. Beskyttelsen, du får ved at aktivere funktionerne, er ikke en erstatning for at tage andre forholdsregler for at øge din sikkerhed. Det er fx stadig en dårlig idé at hente vedhæftede filer fra mistænkelige mails, selvom du blokerer malware.</target>
         <source>If you activate these features, they’ll overwrite any custom DNS you’re using. These protections are not a substitute for taking other security precautions — for example, while blocking malware you should still avoid downloading attachments in strange emails.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
+      <trans-unit id="vpn.helpSheets.privacyHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
+        <target>Hvad er fordelene ved privatlivs-funktioner?</target>
         <source>What can privacy features do for me?</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle">
@@ -966,8 +967,9 @@
         <source>Change email</source>
         <target>Skift mailadresse</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.continueToSignIn">
+      <trans-unit id="vpn.inAppAuth.continueToSignIn" xml:space="preserve">
         <note annotates="source" from="developer">Button a user clicks after updating their Mozilla account settings so that they can re-attempt sign-in</note>
+        <target>Fortsæt med at logge ind</target>
         <source>Continue to sign in</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.createAccountButton" xml:space="preserve">
@@ -1170,12 +1172,14 @@
         <target>Når din adgangskode er oprettet, så vend tilbage til denne skærm og fortsæt med at logge ind på Mozilla VPN.</target>
         <source>When your password is created, return to this screen and continue to sign in to Mozilla VPN.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.stubAccountVerificationHeader">
+      <trans-unit id="vpn.inAppAuth.stubAccountVerificationHeader" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log into a Mozilla account before setting their password, which happens after email verification. This is the header on the error screen.</note>
+        <target>Tjek din indbakke</target>
         <source>Check your email</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.stubAccountVerificationInstruction">
+      <trans-unit id="vpn.inAppAuth.stubAccountVerificationInstruction" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log into a Mozilla account before setting their password, which happens after email verification. %1 is the email address associated with the account.</note>
+        <target>Vi har sendt en mail til %1 med et bekræftelseslink. Følg instruktionerne for at oprette din adgangskode og gøre opsætningen af din konto færdig.</target>
         <source>We’ve sent an email to %1 with the verification link. Please follow the directions to set up your password and finish setting up your account.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.termsOfServiceAndPrivacyDisclaimer" xml:space="preserve">
@@ -1416,8 +1420,9 @@
         <target>til</target>
         <source>To</source>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopCardBody">
+      <trans-unit id="vpn.multiHopFeature.multiHopCardBody" xml:space="preserve">
         <source>Multi-hop VPN routes your traffic through two servers instead of one for extra security and privacy. This may slow down your connection.</source>
+        <target>Multihop-VPN sender din trafik gennem to servere i stedet for én. Det gør din forbindelse mere sikker og privat, men kan også gøre den langsommere.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopCardHeader" xml:space="preserve">
         <source>What is multi-hop VPN?</source>
