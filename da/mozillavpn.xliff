@@ -1542,15 +1542,17 @@
         <target>%1 er ikke sikker. Klik her for at slå VPN til og gøre din enhed sikker.</target>
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.unsecuredNetworkTitle">
+      <trans-unit id="vpn.notifications.unsecuredNetworkTitle" xml:space="preserve">
         <source>Unsecured Wi-Fi network detected</source>
+        <target>Usikkert wi-fi-netværk fundet</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideBody" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
         <target>Vi bestræber os på at give dig mulighed for at vælge og indsamler kun de tekniske data, vi har brug for til at forbedre Mozilla VPN. Det er valgfrit, om du vil dele data med Mozilla.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideBody2">
+      <trans-unit id="vpn.onboarding.dataSlideBody2" xml:space="preserve">
         <source>Help us improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data. We never collect data about your online activity while using the VPN.</source>
+        <target>Hjælp os med at gøre Mozilla VPN bedre ved at dele rapporter om nedbrud, diagnostiske data og data for brug af produktet. Vi indsamler aldrig data om dine aktiviteter på nettet, når du bruger VPN'en.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideCheckboxLabel" xml:space="preserve">
         <source>Mozilla may collect technical data about my use of Mozilla VPN.</source>
@@ -1560,22 +1562,25 @@
         <source>Data collection and use</source>
         <target>Dataindsamling og -brug</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideHeader2">
+      <trans-unit id="vpn.onboarding.dataSlideHeader2" xml:space="preserve">
         <source>Data collection</source>
+        <target>Indsamling af data</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used</source>
         <target>Læs mere om, hvilke data Mozilla indsamler, og hvordan de bruges</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption2">
+      <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption2" xml:space="preserve">
         <source>Learn more about data collection</source>
+        <target>Læs mere om indsamling af data</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
         <target>Privatlivserklæring for Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideToggleLabel">
+      <trans-unit id="vpn.onboarding.dataSlideToggleLabel" xml:space="preserve">
         <source>Share technical data</source>
+        <target>Del tekniske data</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideBody2" xml:space="preserve">
         <source>To install the VPN on another tablet or mobile device, scan the QR code.</source>
@@ -1623,7 +1628,7 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelThreeTitle" xml:space="preserve">
         <source>One tap to safety</source>
-        <target>Et enkelt klik for sikkerhed</target>
+        <target>Sikkerhed med et enkelt klik</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelTwoSubtitle" xml:space="preserve">
         <source>With more than 500 servers in 60 cities around the world, Mozilla VPN protects your data, browsing activity, and your true location from network spies.</source>
@@ -1767,12 +1772,14 @@
         <target>Abonner nu</target>
         <source>Subscribe now</source>
       </trans-unit>
-      <trans-unit id="vpn.purchase.subscriptionOption">
+      <trans-unit id="vpn.purchase.subscriptionOption" xml:space="preserve">
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>%1-måneders plan: %2</target>
         <source>%1-month plan: %2</source>
       </trans-unit>
-      <trans-unit id="vpn.purchaseWeb.inProgress2">
+      <trans-unit id="vpn.purchaseWeb.inProgress2" xml:space="preserve">
         <source>Please continue subscribing in your browser…</source>
+        <target>Fortsæt med abonnements-processen i din browser…</target>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.message" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the user’s email address.</note>
@@ -1783,40 +1790,49 @@
         <source>Subscribe to Mozilla VPN</source>
         <target>Abonner på Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.body1">
+      <trans-unit id="vpn.resetSettings.body1" xml:space="preserve">
         <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
+        <target>Dette nulstiller alle VPN-indstillinger, inklusive:</target>
         <source>This will reset all VPN settings, including:</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.body2">
+      <trans-unit id="vpn.resetSettings.body2" xml:space="preserve">
         <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
+        <target>Nulstilling af VPN'en medfører, at du bliver logget ud. Men din konto bliver ikke slettet.</target>
         <source>Resetting the VPN will sign you out, but your account will not be deleted.</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.confirmResetModalBody">
+      <trans-unit id="vpn.resetSettings.confirmResetModalBody" xml:space="preserve">
         <note annotates="source" from="developer">Body of the modal where users can confirm they want to restore back to factory settings</note>
+        <target>Vil du nulstille indstillingerne for Mozilla VPN? Dette kan ikke fortrydes.</target>
         <source>Reset Mozilla VPN settings? This can’t be undone.</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.confirmResetModalResetButtonLabel">
+      <trans-unit id="vpn.resetSettings.confirmResetModalResetButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that finalizes a restore to factory settings</note>
+        <target>Nulstil og afslut</target>
         <source>Reset and quit</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.confirmResetModalTitle">
+      <trans-unit id="vpn.resetSettings.confirmResetModalTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title of the modal where users can confirm they want to restore back to factory settings</note>
+        <target>Bekræft nulstilling</target>
         <source>Confirm reset</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.listItemPreferences">
+      <trans-unit id="vpn.resetSettings.listItemPreferences" xml:space="preserve">
         <note annotates="source" from="developer">Item in a bulleted list denoting what will be deleted if the user opts to factory reset the client</note>
+        <target>Indstillinger</target>
         <source>Preferences</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.resetButtonLabel">
+      <trans-unit id="vpn.resetSettings.resetButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that initiates a restore to factory settings</note>
+        <target>Nulstil VPN</target>
         <source>Reset VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.resetLabel">
+      <trans-unit id="vpn.resetSettings.resetLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that takes the user to the factory reset flow</note>
+        <target>Nulstil VPN</target>
         <source>Reset VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.title">
+      <trans-unit id="vpn.resetSettings.title" xml:space="preserve">
         <note annotates="source" from="developer">Title of the screen where users go to reset the VPN to factory settings</note>
+        <target>Nulstil Mozilla VPN</target>
         <source>Reset Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
