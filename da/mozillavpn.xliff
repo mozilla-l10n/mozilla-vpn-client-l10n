@@ -1967,19 +1967,22 @@
         <source>App preferences</source>
         <target>Indstillinger for app</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.crashOptInDescription">
+      <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
+        <target>Tillad at Mozilla VPN automatisk sender rapporter om nedbrud for at hjælpe med at undgå uventede nedbrud</target>
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dataCollectionDescription">
+      <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
+        <target>Tillad at Mozilla VPN sender tekniske data, data om interaktion, markedsføring og henvisninger til Mozilla</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
         <source>DNS settings</source>
         <target>DNS-indstillinger</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody">
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody" xml:space="preserve">
         <source>Resolve websites using a custom DNS</source>
+        <target>Slå adresser på websteder op med en tilpasset DNS-server</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSError" xml:space="preserve">
         <source>Invalid DNS, please try a new one</source>
@@ -1989,15 +1992,17 @@
         <source>Use custom DNS</source>
         <target>Brug tilpasset DNS</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning">
+      <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning" xml:space="preserve">
         <source>Changing these settings will cause the VPN to disconnect and reconnect automatically.</source>
+        <target>Hvis du ændrer disse indstillinger, så afbryder og genopretter VPN'en automatisk forbindelsen.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder" xml:space="preserve">
         <source>Enter custom DNS</source>
         <target>Indtast tilpasset DNS</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody">
+      <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody" xml:space="preserve">
         <source>Resolve websites using Mozilla VPN’s standard DNS</source>
+        <target>Slå adresser på websteder op med Mozilla VPN's standard-DNS</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle" xml:space="preserve">
         <source>Use standard DNS</source>
@@ -2089,16 +2094,19 @@
         <target>Hvis du har spørgsmål om at sætte app-undtagelser op, så har vi samlet nogle tips på vores websted.</target>
         <source>For any questions about setting app exclusions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.missingAppActionButton">
+      <trans-unit id="vpn.splittunnel.missingAppActionButton" xml:space="preserve">
         <note annotates="source" from="developer">Displayed in a notification as "call to action" when apps are missing from the split-tunnel settings.</note>
+        <target>Tilføj apps manuelt</target>
         <source>Add apps manually</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.missingAppAddedOne">
+      <trans-unit id="vpn.splittunnel.missingAppAddedOne" xml:space="preserve">
         <note annotates="source" from="developer">Displayed in notification after the user added a missing app to the split-tunnel List; %1 is the name of the added application</note>
+        <target>Du har føjet "%1" til denne liste.</target>
         <source>Success! You added “%1” to this list.</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.missingAppMultiple">
+      <trans-unit id="vpn.splittunnel.missingAppMultiple" xml:space="preserve">
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
+        <target>%1 apps mangler på listen.</target>
         <source>%1 apps missing from list.</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.activatedLabel" xml:space="preserve">
@@ -2135,8 +2143,9 @@
         <target>Profil</target>
         <source>Profile</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.nextLabel">
+      <trans-unit id="vpn.subscriptionManagement.nextLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the upcoming date on which the user will be billed for their subscription.</note>
+        <target>Næste fakturering</target>
         <source>Next billed</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.paymentHeadline" xml:space="preserve">
@@ -2149,40 +2158,49 @@
         <target>Abonnementsplan</target>
         <source>Subscription plan</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planMonthly">
+      <trans-unit id="vpn.subscriptionManagement.planMonthly" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription. %1 represents the localized currency string</note>
+        <target>Månedlig plan: %1</target>
         <source>Monthly plan: %1</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription plus tax. %1 represents the localized currency string</note>
+        <target>%1/måned + moms</target>
         <source>%1/month + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planMonthlyWithoutTax">
+      <trans-unit id="vpn.subscriptionManagement.planMonthlyWithoutTax" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription without tax. %1 represents the localized currency string</note>
+        <target>%1/måned</target>
         <source>%1/month</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly">
+      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <target>%1 halvårligt</target>
         <source>%1 Half-yearly</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1 halvårligt + moms</target>
         <source>%1 Half-yearly + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueMonthly">
+      <trans-unit id="vpn.subscriptionManagement.planValueMonthly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <target>%1 månedligt</target>
         <source>%1 Monthly</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1 månedligt + moms</target>
         <source>%1 Monthly + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueYearly">
+      <trans-unit id="vpn.subscriptionManagement.planValueYearly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <target>%1 årligt</target>
         <source>%1 Yearly</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1 årligt + moms</target>
         <source>%1 Yearly + tax</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.statusActive" xml:space="preserve">
@@ -2200,16 +2218,19 @@
         <target>Status</target>
         <source>Status</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.subscriptionPlatformLabel">
+      <trans-unit id="vpn.subscriptionManagement.subscriptionPlatformLabel" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents the subscription platform. Values for %1 could be “Apple” or “Google” for example.</note>
+        <target>%1-abonnement</target>
         <source>%1 subscription</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.summaryHeadline">
+      <trans-unit id="vpn.subscriptionManagement.summaryHeadline" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list with information on the subscription plan of the user.</note>
+        <target>Sammenfatning af abonnement</target>
         <source>Subscription summary</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual">
+      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual" xml:space="preserve">
         <note annotates="source" from="developer">Block of text appearing beside a button to upgrade subscription.</note>
+        <target>Spar 50% på en årlig plan</target>
         <source>Save 50% on an annual plan</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton" xml:space="preserve">
@@ -2217,8 +2238,9 @@
         <target>Skift abonnement</target>
         <source>Change plan</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.disconnect">
+      <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
+        <target>Afbryd forbindelse</target>
       </trans-unit>
       <trans-unit id="vpn.systray.help" xml:space="preserve">
         <source>Help</source>
@@ -2245,17 +2267,21 @@
         <source>Show Mozilla VPN</source>
         <target>Vis Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnectTo">
+      <trans-unit id="vpn.systray.statusConnectTo" xml:space="preserve">
         <source>Connect to the last location:</source>
+        <target>Opret forbindelse til den seneste placering:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnectedTo">
+      <trans-unit id="vpn.systray.statusConnectedTo" xml:space="preserve">
         <source>Connected to:</source>
+        <target>Forbundet til:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnectingTo">
+      <trans-unit id="vpn.systray.statusConnectingTo" xml:space="preserve">
         <source>Connecting to:</source>
+        <target>Opretter forbindelse til:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnectingFrom">
+      <trans-unit id="vpn.systray.statusDisconnectingFrom" xml:space="preserve">
         <source>Disconnecting from:</source>
+        <target>Afbryder forbindelse til:</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.allow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
