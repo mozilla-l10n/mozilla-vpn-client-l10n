@@ -1067,8 +1067,9 @@
         <target>Problem med at sende mail…</target>
         <source>Problem sending email…</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.productUpdateOptInDescription">
+      <trans-unit id="vpn.inAppAuth.productUpdateOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">Checkbox label for users to opt in, when creating an account, to receive product update emails from Firefox.</note>
+        <target>Jeg vil gerne modtage mails fra Firefox med nyheder om produkter.</target>
         <source>I’d like to receive product update emails from Firefox.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle2" xml:space="preserve">
@@ -1132,24 +1133,29 @@
         <source>Continue to Mozilla VPN by signing in with your Mozilla account</source>
         <target>Fortsæt til Mozilla VPN ved at logge ind med din Mozilla-konto</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionHeader">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionHeader" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. This is the header on the error screen.</note>
+        <target>Opret en adgangskode</target>
         <source>Create a password</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine1">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine1" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
+        <target>For at afslutte opsætningen af din Mozilla-konto skal du oprette en adgangskode i dine kontoindstillinger:</target>
         <source>To finish setting up your Mozilla account, create a password in your account settings:</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine2a">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine2a" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. Do not remove or translate the markup '&lt;a href="open-account"&gt;'.</note>
+        <target>1. Gå til &lt;a href="open-account"&gt;Opret adgangskode&lt;/a&gt; i indstillinger for din Mozilla-konto.</target>
         <source>1. Go to &lt;a href="open-account"&gt;Create password&lt;/a&gt; in your Mozilla account settings.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine3">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine3" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
+        <target>2. Opret en adgangskode.</target>
         <source>2. Create a password.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine4">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine4" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
+        <target>Når din adgangskode er oprettet, så vend tilbage til denne skærm og fortsæt med at logge ind på Mozilla VPN.</target>
         <source>When your password is created, return to this screen and continue to sign in to Mozilla VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.stubAccountVerificationHeader">
@@ -1307,8 +1313,9 @@
         <source>Error submitting your support request</source>
         <target>Der opstod en fejl med at indsende din support-forespørgsel</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText">
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again.</source>
+        <target>Der opstod en uventet fejl. Prøv igen.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportFieldHeader" xml:space="preserve">
         <source>How can we help you with Mozilla VPN?</source>
@@ -1553,11 +1560,13 @@
       <trans-unit id="vpn.onboarding.dataSlideToggleLabel">
         <source>Share technical data</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideBody2">
+      <trans-unit id="vpn.onboarding.devicesSlideBody2" xml:space="preserve">
         <source>To install the VPN on another tablet or mobile device, scan the QR code.</source>
+        <target>Skan QR-koden for at installere VPN'en på en anden tablet eller telefon.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideBodyMobile">
+      <trans-unit id="vpn.onboarding.devicesSlideBodyMobile" xml:space="preserve">
         <source>To install the VPN on another tablet or mobile device, scan the QR code. To install on a desktop computer, visit the Download page on the Mozilla VPN website.</source>
+        <target>Skan QR-koden for at installere VPN'en på en anden tablet eller telefon. Hvis du vil installere VPN'en på en computer, så skal du gå til download-siden på webstedet for Mozilla VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeAndroid" xml:space="preserve">
         <source>Android</source>
@@ -1575,8 +1584,9 @@
         <source>Install Mozilla VPN on up to 5 devices</source>
         <target>Installer Mozilla VPN på op til 5 enheder</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid">
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid" xml:space="preserve">
         <source>QR Code that links to the Mozilla VPN product page on the Google Play Store</source>
+        <target>QR-kode, der linker til produktsiden for Mozilla VPN på Google Play Butik</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple" xml:space="preserve">
         <source>QR Code that links to the Mozilla VPN product page on the iOS App Store</source>
