@@ -863,7 +863,7 @@
         <target>Aboneliğinize yeni bir cihaz eklemek çok kolay: Mozilla VPN’i indirip eklemek istediğiniz cihazda giriş yapmanız yeterli.</target>
         <source>Adding a new device to your subscription is easy: just download and log in to Mozilla VPN on that device.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.devicesBody2" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.devicesBody2">
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
         <source>To remove one of your added devices, select “Edit” on this screen and use the trash icon to remove the device you no longer want to use Mozilla VPN on.</source>
       </trans-unit>
@@ -877,11 +877,11 @@
         <target>Cihaz yöneticisi</target>
         <source>Device management</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody1" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.dnsBody1">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody2" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.dnsBody2">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
         <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
       </trans-unit>
@@ -895,7 +895,7 @@
         <target>Özel DNS ayarları</target>
         <source>Custom DNS settings</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody1" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody1">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
         <source>Excluded apps let you turn off VPN protection for specific apps, without turning off VPN protection for your entire device.</source>
       </trans-unit>
@@ -924,11 +924,11 @@
         <target>Hariç tutulan uygulamalar</target>
         <source>Excluded apps</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody1" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.locationBody1">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
         <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody2" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.locationBody2">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
         <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
       </trans-unit>
@@ -1556,7 +1556,7 @@
         <source>We strive to provide you with choices and collect only the technical data we need to improve Mozilla VPN. Sharing data with Mozilla is optional.</source>
         <target>Yalnızca Mozilla VPN’i geliştirmek için ihtiyaç duyduğumuz teknik verileri toplamaya ve size veri toplamayla ilgili seçenekler sunmaya çalışıyoruz. Bu verileri Mozilla ile paylaşmanız isteğe bağlıdır.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideBody2" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.dataSlideBody2">
         <source>Help us improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data. We never collect data about your online activity while using the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideCheckboxLabel" xml:space="preserve">
@@ -1569,6 +1569,7 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideHeader2" xml:space="preserve">
         <source>Data collection</source>
+        <target>Veri toplama</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used</source>
@@ -1576,6 +1577,7 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption2" xml:space="preserve">
         <source>Learn more about data collection</source>
+        <target>Veri toplama hakkında daha fazla bilgi alın</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
@@ -1583,6 +1585,7 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideToggleLabel" xml:space="preserve">
         <source>Share technical data</source>
+        <target>Teknik verileri paylaş</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideBody2" xml:space="preserve">
         <source>To install the VPN on another tablet or mobile device, scan the QR code.</source>
@@ -1792,40 +1795,48 @@
         <source>Subscribe to Mozilla VPN</source>
         <target>Mozilla VPN’e abone olun</target>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.body1" xml:space="preserve">
+      <trans-unit id="vpn.resetSettings.body1">
         <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
         <source>This will reset all VPN settings, including:</source>
       </trans-unit>
       <trans-unit id="vpn.resetSettings.body2" xml:space="preserve">
         <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
+        <target>VPN’i sıfırlamak oturumunuzu kapatır ama hesabınız silinmez.</target>
         <source>Resetting the VPN will sign you out, but your account will not be deleted.</source>
       </trans-unit>
       <trans-unit id="vpn.resetSettings.confirmResetModalBody" xml:space="preserve">
         <note annotates="source" from="developer">Body of the modal where users can confirm they want to restore back to factory settings</note>
+        <target>Mozilla VPN ayarları sıfırlansın mı? Bu işlem geri alınamaz.</target>
         <source>Reset Mozilla VPN settings? This can’t be undone.</source>
       </trans-unit>
       <trans-unit id="vpn.resetSettings.confirmResetModalResetButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that finalizes a restore to factory settings</note>
+        <target>Sıfırla ve çık</target>
         <source>Reset and quit</source>
       </trans-unit>
       <trans-unit id="vpn.resetSettings.confirmResetModalTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title of the modal where users can confirm they want to restore back to factory settings</note>
+        <target>Sıfırlamayı onaylayın</target>
         <source>Confirm reset</source>
       </trans-unit>
       <trans-unit id="vpn.resetSettings.listItemPreferences" xml:space="preserve">
         <note annotates="source" from="developer">Item in a bulleted list denoting what will be deleted if the user opts to factory reset the client</note>
+        <target>Tercihler</target>
         <source>Preferences</source>
       </trans-unit>
       <trans-unit id="vpn.resetSettings.resetButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that initiates a restore to factory settings</note>
+        <target>VPN’i sıfırla</target>
         <source>Reset VPN</source>
       </trans-unit>
       <trans-unit id="vpn.resetSettings.resetLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that takes the user to the factory reset flow</note>
+        <target>VPN’i sıfırla</target>
         <source>Reset VPN</source>
       </trans-unit>
       <trans-unit id="vpn.resetSettings.title" xml:space="preserve">
         <note annotates="source" from="developer">Title of the screen where users go to reset the VPN to factory settings</note>
+        <target>Mozilla VPN’i sıfırla</target>
         <source>Reset Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
