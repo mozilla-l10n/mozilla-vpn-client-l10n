@@ -386,7 +386,7 @@
   </file>
   <file original="generated/l18nstrings_p.cpp" datatype="cpp" source-language="en" target-language="da">
     <body>
-      <trans-unit id="vpn.AndroidNotifications.GeneralNotifications">
+      <trans-unit id="vpn.AndroidNotifications.GeneralNotifications" xml:space="preserve">
         <note annotates="source" from="developer">A notification channel; so the user can subscribe to "General Notifications"</note>
         <source>General Notifications</source>
       </trans-unit>
@@ -882,7 +882,7 @@
         <target>Når du opretter forbindelse til et websted laver en DNS (domain name system) først domænet (fx www.mozilla.org) om til en IP-adresse, sådan at din internettrafik kan nå denne destination.</target>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody2">
+      <trans-unit id="vpn.helpSheets.dnsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
         <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
       </trans-unit>
@@ -906,7 +906,7 @@
         <target>Når du udelukker en app har den adgang til din IP-adresse og anslåede placering.</target>
         <source>When you exclude an app, it will have access to your IP address and approximate location.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody3">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody3" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
         <source>You can use the settings under Settings &gt; Privacy features to block ads, block trackers, and block malware, even on excluded apps.</source>
       </trans-unit>
@@ -930,7 +930,7 @@
         <target>Hvis du vil have den bedste hastighed og driftsikkerhed, så skal du vælge én af de anbefalede placeringer under sektionen "Enkelthop". Serverne er sorteret på baggrund af deres forventede ydelse.</target>
         <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody2">
+      <trans-unit id="vpn.helpSheets.locationBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
         <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
       </trans-unit>
@@ -959,7 +959,7 @@
         <target>Hvad er fordelene ved privatlivs-funktioner?</target>
         <source>What can privacy features do for me?</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyTitle">
+      <trans-unit id="vpn.helpSheets.privacyTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the privacy features help sheet</note>
         <source>Privacy features</source>
       </trans-unit>
@@ -1440,7 +1440,7 @@
         <source>Select exit location</source>
         <target>Vælg udgangs-placering</target>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopInfoText">
+      <trans-unit id="vpn.multiHopFeature.multiHopInfoText" xml:space="preserve">
         <source>Exit location represents your main VPN server.</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA" xml:space="preserve">
@@ -1482,10 +1482,10 @@
         <source>Sign in to Google Account</source>
         <target>Log ind med din Google-konto</target>
       </trans-unit>
-      <trans-unit id="vpn.notSignedInGoogle.googleModalLinkText">
+      <trans-unit id="vpn.notSignedInGoogle.googleModalLinkText" xml:space="preserve">
         <source>Go to Play Store</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNConnectedMessages">
+      <trans-unit id="vpn.notifications.VPNConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
         <source>Connected through %1</source>
       </trans-unit>
@@ -1502,7 +1502,7 @@
         <source>VPN Disconnected</source>
         <target>VPN frakoblet</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages">
+      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
         <source>Connected through %1 via %2</source>
       </trans-unit>
@@ -1524,13 +1524,13 @@
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
         <target>Gæste-netværket, du er forbundet til, kræver en handling. Klik for at slå VPN fra for at se portalen.</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalBlockTitle">
+      <trans-unit id="vpn.notifications.captivePortalBlockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalUnblockMessage2">
+      <trans-unit id="vpn.notifications.captivePortalUnblockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.captivePortalUnblockTitle">
+      <trans-unit id="vpn.notifications.captivePortalUnblockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal detected</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.subscriptionNotFound" xml:space="preserve">
@@ -1871,10 +1871,10 @@
         <source>The server has been blocked. Check your firewall settings.</source>
         <target>Serveren er blevet blokeret. Kontroller indstillingerne for din firewall.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel">
+      <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel" xml:space="preserve">
         <source>Server unavailable notification</source>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel">
+      <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel" xml:space="preserve">
         <source>Get notified when connecting to a server location failed</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedCardBody" xml:space="preserve">
@@ -2024,7 +2024,7 @@
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>Disse indstillinger kan medføre, at nogen websteder ikke fungerer som de skal eller at indhold ikke vises korrekt.</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyMalwareBody2">
+      <trans-unit id="vpn.settings.privacyMalwareBody2" xml:space="preserve">
         <source>Helps protect you from ransomware, phishing, spyware, and viruses</source>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareTitle" xml:space="preserve">
@@ -2306,7 +2306,7 @@
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
         <target>Læs mere om, hvilke data Mozilla indsamler, og hvordan de bruges.</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.question">
+      <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
       </trans-unit>
       <trans-unit id="vpn.tipsAndTricks.advancedTipsDescription" xml:space="preserve">
