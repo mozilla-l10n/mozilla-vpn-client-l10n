@@ -306,7 +306,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
         <source>Connection change notification</source>
-        <target>Underretning om ændring af forbindelsen</target>
+        <target>Meddelelse om ændring af forbindelsen</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
         <source>Get notified when you successfully switched servers</source>
@@ -314,15 +314,15 @@
       </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch2" xml:space="preserve">
         <source>Server switching notification</source>
-        <target>Underretning om skift af server</target>
+        <target>Meddelelse om skift af server</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notifications" xml:space="preserve">
         <source>Notifications</source>
-        <target>Underretninger</target>
+        <target>Meddelelser</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unsecuredNetworkAlert" xml:space="preserve">
         <source>Unsecured network alert</source>
-        <target>Underretning om usikkert netværk</target>
+        <target>Meddelelse om usikkert netværk</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unsecuredNetworkAlert.description" xml:space="preserve">
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
@@ -386,8 +386,9 @@
   </file>
   <file original="generated/l18nstrings_p.cpp" datatype="cpp" source-language="en" target-language="da">
     <body>
-      <trans-unit id="vpn.AndroidNotifications.GeneralNotifications">
+      <trans-unit id="vpn.AndroidNotifications.GeneralNotifications" xml:space="preserve">
         <note annotates="source" from="developer">A notification channel; so the user can subscribe to "General Notifications"</note>
+        <target>Generelle meddelelser</target>
         <source>General Notifications</source>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.copyVersionNumber" xml:space="preserve">
@@ -1877,8 +1878,9 @@
         <source>The server has been blocked. Check your firewall settings.</source>
         <target>Serveren er blevet blokeret. Kontroller indstillingerne for din firewall.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel">
+      <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel" xml:space="preserve">
         <source>Server unavailable notification</source>
+        <target>Meddelelse om utilgængelig server</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel">
         <source>Get notified when connecting to a server location failed</source>
