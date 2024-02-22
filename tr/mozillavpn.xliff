@@ -863,8 +863,9 @@
         <target>Aboneliğinize yeni bir cihaz eklemek çok kolay: Mozilla VPN’i indirip eklemek istediğiniz cihazda giriş yapmanız yeterli.</target>
         <source>Adding a new device to your subscription is easy: just download and log in to Mozilla VPN on that device.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.devicesBody2">
+      <trans-unit id="vpn.helpSheets.devicesBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
+        <target>Eklediğiniz cihazları kaldırmak isterseniz bu ekrandan “Düzenle”yi seçin, ardından Mozilla VPN’i kullanmasını istemediğiniz cihazın yanındaki çöp kutusu simgesine dokunun.</target>
         <source>To remove one of your added devices, select “Edit” on this screen and use the trash icon to remove the device you no longer want to use Mozilla VPN on.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesHeader" xml:space="preserve">
@@ -881,8 +882,9 @@
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody2">
+      <trans-unit id="vpn.helpSheets.dnsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
+        <target>Mozilla VPN’de isterseniz kendi seçtiğiniz özel bir DNS sunucusunu kullanabilirsiniz. Özel DNS sunucusu kullanırsanız takip kodlarını engelleme gibi diğer gizlilik özellikleri çalışmayacaktır.</target>
         <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsHeader" xml:space="preserve">
@@ -1525,7 +1527,7 @@
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
-        <target>Bağlandığınız misafir Wi-Fi ağı eylem gerektiriyor. Portalı açmak için VPN'i kapatmak üzere tıklayın.</target>
+        <target>Bağlandığınız misafir Wi-Fi ağı eylem gerektiriyor. VPN’i kapatıp portalı görmek için tıklayın.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockTitle" xml:space="preserve">
         <source>Guest Wi-Fi portal blocked</source>
