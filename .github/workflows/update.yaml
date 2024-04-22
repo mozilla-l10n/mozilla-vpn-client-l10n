@@ -81,6 +81,9 @@ jobs:
           # Convert addon strings to XLIFF
           addon_files="vpn/addon_ts/*.ts"
 
+          # Copy the extras.xliff file over
+          cp vpn/src/translations/extras/extras.xliff translationFiles/en/extras.xliff
+
           # Remove the addons folder and recreate it, to remove obsolete addons
           rm -rf translationFiles/en/addons/
 
