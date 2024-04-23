@@ -78,6 +78,11 @@ jobs:
           # Convert main strings to XLIFF
           python translationFiles/.github/scripts/extract_source_strings.py --input translations.ts --output translationFiles/en/mozillavpn.xliff
 
+          # Copy the extras.xliff file over
+          if [ -d "vpn/src/translations/extras/extras.xliff" ]; then
+            cp vpn/src/translations/extras/extras.xliff translationFiles/en/extras.xliff
+          fi
+
           # Convert addon strings to XLIFF
           addon_files="vpn/addon_ts/*.ts"
 
