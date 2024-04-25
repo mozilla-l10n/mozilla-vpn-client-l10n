@@ -66,14 +66,7 @@ jobs:
           # Extract strings for default and release branches
           (cd vpn && ./scripts/utils/generate_ts.sh)
 
-          # File is called translations_vpn.ts in 2.15 to 2.16, but translations.ts
-          # in more recent versions.
-          if [ -f "vpn/translations_vpn.ts" ]; then
-            ts_file="translations_vpn.ts"
-          else
-            ts_file="translations.ts"
-          fi
-          mv vpn/${ts_file} ./translations.ts
+          mv vpn/translations.ts ./translations.ts
 
           # Convert main strings to XLIFF
           python translationFiles/.github/scripts/extract_source_strings.py --input translations.ts --output translationFiles/en/mozillavpn.xliff
