@@ -870,8 +870,9 @@
         <target>端末の管理</target>
         <source>Device management</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody1">
+      <trans-unit id="vpn.helpSheets.dnsBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
+        <target>ウェブサイトに接続するたびに、まず DNS (ドメインネームシステム) がドメイン名 (例: www.mozilla.org) を IP アドレスに変換して、インターネット通信がその宛先に到達できるようにします。</target>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody2">
@@ -1541,21 +1542,25 @@
         <source>Unsecured Wi-Fi network detected</source>
         <target>安全でない Wi-Fi ネットワークが検出されました</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideBody2">
+      <trans-unit id="vpn.onboarding.dataSlideBody2" xml:space="preserve">
         <source>Help us improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data. We never collect data about your online activity while using the VPN.</source>
+        <target>クラッシュレポート、診断情報、製品使用データを共有して Mozilla VPN の改善にご協力ください。VPN 使用中のオンライン行動に関するデータは収集しません。</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideHeader2">
+      <trans-unit id="vpn.onboarding.dataSlideHeader2" xml:space="preserve">
         <source>Data collection</source>
+        <target>データ収集</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption2">
+      <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption2" xml:space="preserve">
         <source>Learn more about data collection</source>
+        <target>データ収集についての詳細情報</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
         <target>Mozilla VPN プライバシー通知</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideToggleLabel">
+      <trans-unit id="vpn.onboarding.dataSlideToggleLabel" xml:space="preserve">
         <source>Share technical data</source>
+        <target>技術データを共有する</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideBody2" xml:space="preserve">
         <source>To install the VPN on another tablet or mobile device, scan the QR code.</source>
@@ -1765,8 +1770,9 @@
         <source>Subscribe to Mozilla VPN</source>
         <target>Mozilla VPN に登録する</target>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.body1">
+      <trans-unit id="vpn.resetSettings.body1" xml:space="preserve">
         <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
+        <target>この操作は、次のものを含むすべての VPN 設定がリセットされます:</target>
         <source>This will reset all VPN settings, including:</source>
       </trans-unit>
       <trans-unit id="vpn.resetSettings.body2" xml:space="preserve">
