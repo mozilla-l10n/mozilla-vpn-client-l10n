@@ -884,8 +884,9 @@
         <target>ウェブサイトに接続するたびに、まず DNS (ドメインネームシステム) がドメイン名 (例: www.mozilla.org) を IP アドレスに変換して、インターネット通信がその宛先に到達できるようにします。</target>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody2">
+      <trans-unit id="vpn.helpSheets.dnsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
+        <target>Mozilla VPN は必要に応じてカスタム DNS サーバーを選択できます。カスタム DNS サーバーを使用すると、トラッカーブロックなど VPN の他のプライバシー機能が使用できなくなります。</target>
         <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsHeader">
@@ -916,8 +917,9 @@
         <note annotates="source" from="developer">Header label for the excluded apps help sheet</note>
         <source>What are excluded apps?</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsTitle">
+      <trans-unit id="vpn.helpSheets.excludedAppsTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the excluded apps help sheet</note>
+        <target>除外されたアプリ</target>
         <source>Excluded apps</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationBody1">
@@ -2007,8 +2009,9 @@
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>これらのオプションを使用すると、一部のウェブサイトが破損したり、コンテンツが正しく表示されなくなったりする可能性があります。</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.preferencesSettings">
+      <trans-unit id="vpn.settings.preferencesSettings" xml:space="preserve">
         <source>Preferences</source>
+        <target>設定</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyAdblockBody" xml:space="preserve">
         <source>Reduces the number of ads you see when you’re using VPN</source>
@@ -2202,8 +2205,9 @@
         <target>年額 %1 + 税</target>
         <source>%1 Yearly + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.sectionTitle">
+      <trans-unit id="vpn.subscriptionManagement.sectionTitle" xml:space="preserve">
         <note annotates="source" from="developer">Menu title for a view with details on the user's account.</note>
+        <target>アカウント</target>
         <source>Account</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.statusActive" xml:space="preserve">
