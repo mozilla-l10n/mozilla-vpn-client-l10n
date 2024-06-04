@@ -47,8 +47,7 @@
         <target>Imate težave s to namestitvijo?</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
-        <source>Get help.</source>
-        <target>Poiščite pomoč.</target>
+        <source>Help.</source>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
         <source>Success!</source>
@@ -157,8 +156,7 @@
   <file original="../src/apps/vpn/ui/screens/devices/ViewDeviceLimit.qml" datatype="plaintext" source-language="en" target-language="sl">
     <body>
       <trans-unit id="vpn.devices.myDevices" xml:space="preserve">
-        <source>My devices</source>
-        <target>Moje naprave</target>
+        <source>Devices</source>
       </trans-unit>
     </body>
   </file>
@@ -629,7 +627,7 @@
         <source>Your Mozilla account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
       </trans-unit>
       <trans-unit id="vpn.devices.countLabel" xml:space="preserve">
-        <note annotates="source" from="developer">Label at the top of the "My devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
+        <note annotates="source" from="developer">Label at the top of the "Devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
         <target>Dodane naprave: %1 od %2</target>
         <source>%1 out of %2 devices added</source>
       </trans-unit>
@@ -1438,14 +1436,6 @@
         <target>→</target>
         <source>To</source>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopCardBody" xml:space="preserve">
-        <source>Multi-hop VPN routes your traffic through two servers instead of one for extra security and privacy. This may slow down your connection.</source>
-        <target>VPN z več preskoki usmeri internetni promet čez dva strežnika namesto enega. S tem se poveča varnost in zasebnost, lahko pa upočasni povezavo.</target>
-      </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopCardHeader" xml:space="preserve">
-        <source>What is multi-hop VPN?</source>
-        <target>Kaj je VPN z več preskoki?</target>
-      </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader" xml:space="preserve">
         <source>Recent connections</source>
         <target>Nedavne povezave</target>
@@ -1888,16 +1878,6 @@
         <source>Get notified when connecting to a server location failed</source>
         <target>Prejmite obvestilo, ko povezava s strežnikom ne uspe</target>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedCardBody" xml:space="preserve">
-        <note annotates="source" from="developer">Body text of an expandable info card on the recommended servers list.</note>
-        <target>Lokacije so razvrščene po pričakovani zmogljivosti.</target>
-        <source>These locations are sorted by expected performance.</source>
-      </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedCardTitle" xml:space="preserve">
-        <note annotates="source" from="developer">Title of an expandable info card on the recommended servers list.</note>
-        <target>Zakaj so te lokacije priporočene?</target>
-        <source>Why are these locations recommended?</source>
-      </trans-unit>
       <trans-unit id="vpn.serversView.recommendedEmptyLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
         <target>Za ogled priporočenih lokacij strežnikov izklopite VPN.</target>
@@ -2067,10 +2047,6 @@
         <note annotates="source" from="developer">Startup refers to a device's startup, not the VPN client's.</note>
         <target>Poveži VPN ob zagonu</target>
         <source>Connect VPN on startup</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.tipsAndTricksSettings" xml:space="preserve">
-        <source>Tips and tricks</source>
-        <target>Nasveti in zvijače</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
         <source>VPN must be restarted to take effect</source>
@@ -2330,48 +2306,6 @@
       <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
         <target>Ali dovolite, da Mozilla VPN pošilja Mozilli tehnične podatke, podatke o interakcijah, akcijah in priporočilih?</target>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.advancedTipsDescription" xml:space="preserve">
-        <source>Let us help you learn more about Mozilla VPN</source>
-        <target>Naj vam pomagamo spoznati Mozilla VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.advancedTipsGuideViewTitle" xml:space="preserve">
-        <source>Advanced tip</source>
-        <target>Nasvet za napredne uporabnike</target>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.advancedTipsTitle" xml:space="preserve">
-        <source>Advanced tips</source>
-        <target>Nasveti za napredne uporabnike</target>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.introModalDescription" xml:space="preserve">
-        <source>Here’s a great list of useful tips and tricks to get the best out of your Mozilla VPN experience. Check it out now or find it anytime in the settings.</source>
-        <target>Pripravili smo seznam uporabnih nasvetov in namigov, s katerimi lahko kar najbolje izkoristite Mozilla VPN. Lahko si ga ogledate zdaj ali ga poiščete kadarkoli pozneje v nastavitvah.</target>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.quickTipsDescription" xml:space="preserve">
-        <source>Let us help you get the most out of Mozilla VPN</source>
-        <target>Naj vam pomagamo izkoristiti Mozilla VPN do konca</target>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.quickTipsGuideViewTitle" xml:space="preserve">
-        <source>Quick tip</source>
-        <target>Hiter nasvet</target>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.quickTipsTitle" xml:space="preserve">
-        <source>Quick tips</source>
-        <target>Hitri nasveti</target>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.settingsEntryLabel" xml:space="preserve">
-        <source>VPN tips and tricks</source>
-        <target>Nasveti in zvijače za VPN</target>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.tabTitleAll" xml:space="preserve">
-        <note annotates="source" from="developer">Tab title for the general tab of the Tips &amp; Tricks panels</note>
-        <target>Vse</target>
-        <source>All</source>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.tabTitleTips" xml:space="preserve">
-        <note annotates="source" from="developer">Tab title for the tab of the Tips &amp; Tricks panels that only shows guides</note>
-        <target>Nasveti</target>
-        <source>Tips</source>
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionNoUpdate" xml:space="preserve">
         <source>Okay</source>

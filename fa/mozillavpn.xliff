@@ -37,7 +37,7 @@
         <source>Trouble with this installation?</source>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
-        <source>Get help.</source>
+        <source>Help.</source>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
         <source>Success!</source>
@@ -127,7 +127,7 @@
   <file original="../src/apps/vpn/ui/screens/devices/ViewDeviceLimit.qml" datatype="plaintext" source-language="en" target-language="fa">
     <body>
       <trans-unit id="vpn.devices.myDevices" xml:space="preserve">
-        <source>My devices</source>
+        <source>Devices</source>
       </trans-unit>
     </body>
   </file>
@@ -504,7 +504,7 @@
         <source>Your Mozilla account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
       </trans-unit>
       <trans-unit id="vpn.devices.countLabel" xml:space="preserve">
-        <note annotates="source" from="developer">Label at the top of the "My devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
+        <note annotates="source" from="developer">Label at the top of the "Devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
         <source>%1 out of %2 devices added</source>
       </trans-unit>
       <trans-unit id="vpn.devices.limitDescription2" xml:space="preserve">
@@ -1139,12 +1139,6 @@
         <note annotates="source" from="developer">This is alt text for an arrow showing the multi-hop route between servers. e.g. Atlanta TO Copenhagen</note>
         <source>To</source>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopCardBody" xml:space="preserve">
-        <source>Multi-hop VPN routes your traffic through two servers instead of one for extra security and privacy. This may slow down your connection.</source>
-      </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopCardHeader" xml:space="preserve">
-        <source>What is multi-hop VPN?</source>
-      </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader" xml:space="preserve">
         <source>Recent connections</source>
       </trans-unit>
@@ -1484,14 +1478,6 @@
       <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel" xml:space="preserve">
         <source>Get notified when connecting to a server location failed</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedCardBody" xml:space="preserve">
-        <note annotates="source" from="developer">Body text of an expandable info card on the recommended servers list.</note>
-        <source>These locations are sorted by expected performance.</source>
-      </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedCardTitle" xml:space="preserve">
-        <note annotates="source" from="developer">Title of an expandable info card on the recommended servers list.</note>
-        <source>Why are these locations recommended?</source>
-      </trans-unit>
       <trans-unit id="vpn.serversView.recommendedEmptyLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
         <source>To see recommended server locations, turn off the VPN.</source>
@@ -1622,9 +1608,6 @@
       <trans-unit id="vpn.settings.startAtBootTitle" xml:space="preserve">
         <note annotates="source" from="developer">Startup refers to a device's startup, not the VPN client's.</note>
         <source>Connect VPN on startup</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.tipsAndTricksSettings" xml:space="preserve">
-        <source>Tips and tricks</source>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
         <source>VPN must be restarted to take effect</source>
@@ -1828,38 +1811,6 @@
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.advancedTipsDescription" xml:space="preserve">
-        <source>Let us help you learn more about Mozilla VPN</source>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.advancedTipsGuideViewTitle" xml:space="preserve">
-        <source>Advanced tip</source>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.advancedTipsTitle" xml:space="preserve">
-        <source>Advanced tips</source>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.introModalDescription" xml:space="preserve">
-        <source>Here’s a great list of useful tips and tricks to get the best out of your Mozilla VPN experience. Check it out now or find it anytime in the settings.</source>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.quickTipsDescription" xml:space="preserve">
-        <source>Let us help you get the most out of Mozilla VPN</source>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.quickTipsGuideViewTitle" xml:space="preserve">
-        <source>Quick tip</source>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.quickTipsTitle" xml:space="preserve">
-        <source>Quick tips</source>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.settingsEntryLabel" xml:space="preserve">
-        <source>VPN tips and tricks</source>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.tabTitleAll" xml:space="preserve">
-        <note annotates="source" from="developer">Tab title for the general tab of the Tips &amp; Tricks panels</note>
-        <source>All</source>
-      </trans-unit>
-      <trans-unit id="vpn.tipsAndTricks.tabTitleTips" xml:space="preserve">
-        <note annotates="source" from="developer">Tab title for the tab of the Tips &amp; Tricks panels that only shows guides</note>
-        <source>Tips</source>
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionNoUpdate" xml:space="preserve">
         <source>Okay</source>
