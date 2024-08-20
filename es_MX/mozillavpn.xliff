@@ -928,44 +928,53 @@
         <target>Aplicaciones excluidas</target>
         <source>Excluded apps</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody1">
+      <trans-unit id="vpn.helpSheets.locationBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
+        <target>Si quieres máxima velocidad y confiabilidad, elige una de las ubicaciones recomendadas en la opción “Salto único”. Las hemos ordenado según el rendimiento esperado.</target>
         <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody2">
+      <trans-unit id="vpn.helpSheets.locationBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
+        <target>Si quieres agregar más privacidad, cambia a “Multi salto” y añade una ubicación de servidor adicional. La VPN de múltiples saltos enruta tu tráfico a través de dos ubicaciones de servidores en lugar de una para mayor seguridad y privacidad. Esto también puede ralentizar un poco tu conexión.</target>
         <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationHeader">
+      <trans-unit id="vpn.helpSheets.locationHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the location selection help sheet</note>
+        <target>Salto único vs multi-salto</target>
         <source>Single-hop vs multi-hop</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationTitle">
+      <trans-unit id="vpn.helpSheets.locationTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the location selection help sheet</note>
+        <target>Selección de ubicación</target>
         <source>Location selection</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyBody1">
+      <trans-unit id="vpn.helpSheets.privacyBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
+        <target>Las funcionalidades de privacidad te brindan un mayor control sobre los tipos de contenido que ves, lo que te ayuda a mantener la seguridad en línea.</target>
         <source>Privacy features give you greater control over the types of content you see, helping you stay safe online.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyBody2">
+      <trans-unit id="vpn.helpSheets.privacyBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
+        <target>Si activas estas funcionalidades, sobrescribirán cualquier DNS personalizado que estés utilizando. Estas protecciones no reemplazan la adopción de otras precauciones de seguridad; por ejemplo, aunque estés bloqueando el malware, debes evitar descargar archivos adjuntos en correos electrónicos extraños.</target>
         <source>If you activate these features, they’ll overwrite any custom DNS you’re using. These protections are not a substitute for taking other security precautions — for example, while blocking malware you should still avoid downloading attachments in strange emails.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
+      <trans-unit id="vpn.helpSheets.privacyHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
+        <target>¿Qué pueden hacer por mi las funciones de privacidad?</target>
         <source>What can privacy features do for me?</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyTitle">
+      <trans-unit id="vpn.helpSheets.privacyTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the privacy features help sheet</note>
+        <target>Funciones de privacidad</target>
         <source>Privacy features</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.changeEmailLink" xml:space="preserve">
         <source>Change email</source>
         <target>Cambiar correo</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.continueToSignIn">
+      <trans-unit id="vpn.inAppAuth.continueToSignIn" xml:space="preserve">
         <note annotates="source" from="developer">Button a user clicks after updating their Mozilla account settings so that they can re-attempt sign-in</note>
+        <target>Continúa para iniciar sesión</target>
         <source>Continue to sign in</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.createAccountButton" xml:space="preserve">
@@ -1143,32 +1152,39 @@
         <source>Continue to Mozilla VPN by signing in with your Mozilla account</source>
         <target>Continúa a Mozilla VPN conectándote con tu cuenta de Mozilla</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionHeader">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionHeader" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. This is the header on the error screen.</note>
+        <target>Crear una contraseña</target>
         <source>Create a password</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine1">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine1" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
+        <target>Para terminar de configurar tu cuenta Mozilla, crea una contraseña en la configuración de su cuenta:</target>
         <source>To finish setting up your Mozilla account, create a password in your account settings:</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine2a">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine2a" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. Do not remove or translate the markup '&lt;a href="open-account"&gt;'.</note>
+        <target>1. Ve a &lt;a href="open-account"&gt;Crear contraseña&lt;/a&gt; en la configuración de tu cuenta de Mozilla.</target>
         <source>1. Go to &lt;a href="open-account"&gt;Create password&lt;/a&gt; in your Mozilla account settings.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine3">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine3" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
+        <target>2. Crear una contraseña.</target>
         <source>2. Create a password.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine4">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine4" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
+        <target>Una vez creada tu contraseña, vuelve a esta pantalla y continúa para iniciar sesión en Mozilla VPN.</target>
         <source>When your password is created, return to this screen and continue to sign in to Mozilla VPN.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.stubAccountVerificationHeader">
+      <trans-unit id="vpn.inAppAuth.stubAccountVerificationHeader" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log into a Mozilla account before setting their password, which happens after email verification. This is the header on the error screen.</note>
+        <target>Verifica tu correo electrónico</target>
         <source>Check your email</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.stubAccountVerificationInstruction">
+      <trans-unit id="vpn.inAppAuth.stubAccountVerificationInstruction" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log into a Mozilla account before setting their password, which happens after email verification. %1 is the email address associated with the account.</note>
+        <target>Hemos enviado un correo electrónico a %1 con el enlace de verificación. Sigue las instrucciones para configurar tu contraseña y terminar de configurar tu cuenta.</target>
         <source>We’ve sent an email to %1 with the verification link. Please follow the directions to set up your password and finish setting up your account.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.termsOfServiceAndPrivacyDisclaimer" xml:space="preserve">
@@ -1549,21 +1565,25 @@
         <source>Unsecured Wi-Fi network detected</source>
         <target>Se detectó una red Wi-Fi insegura</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideBody2">
+      <trans-unit id="vpn.onboarding.dataSlideBody2" xml:space="preserve">
         <source>Help us improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data. We never collect data about your online activity while using the VPN.</source>
+        <target>Ayúdanos a mejorar Mozilla VPN compartiendo informes de fallos, diagnósticos y datos de uso del producto. Nunca recopilamos datos sobre tu actividad en línea mientras usas la VPN.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideHeader2">
+      <trans-unit id="vpn.onboarding.dataSlideHeader2" xml:space="preserve">
         <source>Data collection</source>
+        <target>Recopilación de datos</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption2">
+      <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption2" xml:space="preserve">
         <source>Learn more about data collection</source>
+        <target>Obtén más información sobre la recopilación de datos</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
         <target>Aviso de privacidad de Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideToggleLabel">
+      <trans-unit id="vpn.onboarding.dataSlideToggleLabel" xml:space="preserve">
         <source>Share technical data</source>
+        <target>Compartir datos técnicos</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideBody2" xml:space="preserve">
         <source>To install the VPN on another tablet or mobile device, scan the QR code.</source>
@@ -1773,40 +1793,49 @@
         <source>Subscribe to Mozilla VPN</source>
         <target>Suscríbete a Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.body1">
+      <trans-unit id="vpn.resetSettings.body1" xml:space="preserve">
         <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
+        <target>Esto restablecerá todas las configuraciones de VPN, incluyendo:</target>
         <source>This will reset all VPN settings, including:</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.body2">
+      <trans-unit id="vpn.resetSettings.body2" xml:space="preserve">
         <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
+        <target>Restablecer la VPN cerrará tu sesión, pero tu cuenta no se eliminará.</target>
         <source>Resetting the VPN will sign you out, but your account will not be deleted.</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.confirmResetModalBody">
+      <trans-unit id="vpn.resetSettings.confirmResetModalBody" xml:space="preserve">
         <note annotates="source" from="developer">Body of the modal where users can confirm they want to restore back to factory settings</note>
+        <target>¿Restablecer las configuraciones de Mozilla VPN? Esto no se puede deshacer.</target>
         <source>Reset Mozilla VPN settings? This can’t be undone.</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.confirmResetModalResetButtonLabel">
+      <trans-unit id="vpn.resetSettings.confirmResetModalResetButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that finalizes a restore to factory settings</note>
+        <target>Restablecer y salir</target>
         <source>Reset and quit</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.confirmResetModalTitle">
+      <trans-unit id="vpn.resetSettings.confirmResetModalTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title of the modal where users can confirm they want to restore back to factory settings</note>
+        <target>Confirmar restablecimiento</target>
         <source>Confirm reset</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.listItemPreferences">
+      <trans-unit id="vpn.resetSettings.listItemPreferences" xml:space="preserve">
         <note annotates="source" from="developer">Item in a bulleted list denoting what will be deleted if the user opts to factory reset the client</note>
+        <target>Preferencias</target>
         <source>Preferences</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.resetButtonLabel">
+      <trans-unit id="vpn.resetSettings.resetButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that initiates a restore to factory settings</note>
+        <target>Restablecer VPN</target>
         <source>Reset VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.resetLabel">
+      <trans-unit id="vpn.resetSettings.resetLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that takes the user to the factory reset flow</note>
+        <target>Restablecer VPN</target>
         <source>Reset VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.title">
+      <trans-unit id="vpn.resetSettings.title" xml:space="preserve">
         <note annotates="source" from="developer">Title of the screen where users go to reset the VPN to factory settings</note>
+        <target>Restablecer Mozilla VPN</target>
         <source>Reset Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
