@@ -90,6 +90,9 @@ jobs:
             python translationFiles/.github/scripts/extract_source_strings.py --input "vpn/addon_ts/${addon_name}.ts" --output "translationFiles/en/addons/${addon_name}/strings.xliff"
           done
 
+          # Create the addons shared strings file
+          (cd vpn && python ./scripts/utils/generate_shared_addon_xliff.py -i ./addons/strings.yaml -o ../translationFiles/en/addons/strings.xliff)
+
           # Update other locales
           python translationFiles/.github/scripts/update_other_locales.py --reference en --path translationFiles/ --type "${{ github.event.inputs.type }}"
 
