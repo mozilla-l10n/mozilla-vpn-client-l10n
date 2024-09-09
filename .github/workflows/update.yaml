@@ -92,6 +92,7 @@ jobs:
 
           # Create the addons shared strings file
           (cd vpn && python ./scripts/utils/generate_shared_addon_xliff.py -i ./addons/strings.yaml -o ../translationFiles/en/addons/strings.xliff)
+          (cd translationFiles && python ./scripts/utils/clean_xliff_targets.py en/addons/strings.xliff)
 
           # Update other locales
           python translationFiles/.github/scripts/update_other_locales.py --reference en --path translationFiles/ --type "${{ github.event.inputs.type }}"
