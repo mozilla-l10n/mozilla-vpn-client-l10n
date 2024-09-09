@@ -6,7 +6,6 @@
 # This script must be executed at the root of the repository.
 
 from lxml import etree, objectify
-from translate.misc.xml_helpers import reindent
 import argparse
 
 
@@ -52,7 +51,7 @@ def main():
     # Replace the existing local file with the new XML content
     with open(xliff_file, "w") as fp:
         # Fix indentation of XML file
-        reindent(root)
+        etree.indent(root)
         xliff_content = etree.tostring(
             tree, encoding="UTF-8", xml_declaration=True, pretty_print=True
         )

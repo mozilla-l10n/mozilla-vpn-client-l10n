@@ -28,7 +28,6 @@ from argparse import RawTextHelpFormatter
 from copy import deepcopy
 from glob import glob
 from lxml import etree
-from translate.misc.xml_helpers import reindent
 import argparse
 import os
 import sys
@@ -222,7 +221,7 @@ def main():
             # or create a new one if it's missing.
             with open(l10n_file, "w+") as fp:
                 # Fix identation of XML file
-                reindent(reference_root_copy)
+                etree.indent(reference_root_copy)
                 xliff_content = etree.tostring(
                     reference_tree_copy,
                     encoding="UTF-8",
