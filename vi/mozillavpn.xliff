@@ -697,7 +697,7 @@
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS" xml:space="preserve">
         <source>Using these privacy features will override your custom DNS.</source>
-        <target>Việc sử dụng các tính năng quyền riêng tư này sẽ ghi đè DNS tùy chỉnh của bạn.</target>
+        <target>Việc sử dụng tính năng quyền riêng tư này sẽ ghi đè DNS tùy chỉnh của bạn.</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy" xml:space="preserve">
         <source>Using a custom DNS will override your preferences in the privacy features page.</source>
@@ -711,8 +711,9 @@
         <source>Maybe later</source>
         <target>Có lẽ để sau</target>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.titleDNS">
+      <trans-unit id="vpn.dnsOverwriteDialog.titleDNS" xml:space="preserve">
         <source>Override DNS settings?</source>
+        <target>Ghi đè cài đặt DNS?</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titlePrivacy" xml:space="preserve">
         <source>Override privacy features?</source>
@@ -879,40 +880,49 @@
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody2">
+      <trans-unit id="vpn.helpSheets.dnsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
+        <target>Mozilla VPN cho phép bạn chọn máy chủ DNS tùy chỉnh nếu bạn muốn. Nếu sử dụng nó, bạn sẽ không thể sử dụng tính năng quyền riêng tư khác trong VPN như chặn trình theo dõi.</target>
         <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsHeader">
+      <trans-unit id="vpn.helpSheets.dnsHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the custom dns help sheet</note>
+        <target>DNS tùy chỉnh là gì?</target>
         <source>What is a custom DNS?</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsTitle">
+      <trans-unit id="vpn.helpSheets.dnsTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the custom dns help sheet</note>
+        <target>Cài đặt DNS tùy chỉnh</target>
         <source>Custom DNS settings</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody1">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>Ứng dụng bị loại trừ cho phép bạn tắt bảo vệ VPN cho các ứng dụng cụ thể mà không cần tắt bảo vệ VPN cho toàn bộ thiết bị của bạn.</target>
         <source>Excluded apps let you turn off VPN protection for specific apps, without turning off VPN protection for your entire device.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody2">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>Khi bạn loại trừ một ứng dụng, ứng dụng đó sẽ có quyền truy cập vào địa chỉ IP và vị trí gần đúng của bạn.</target>
         <source>When you exclude an app, it will have access to your IP address and approximate location.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody3">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody3" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <target>Bạn có thể sử dụng cài đặt trong Cài đặt &gt; Tính năng quyền riêng tư để chặn quảng cáo, chặn trình theo dõi và chặn phần mềm độc hại, ngay cả trên các ứng dụng bị loại trừ.</target>
         <source>You can use the settings under Settings &gt; Privacy features to block ads, block trackers, and block malware, even on excluded apps.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsCTA">
+      <trans-unit id="vpn.helpSheets.excludedAppsCTA" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that opens the "Privacy features" view from the excluded apps help sheet</note>
+        <target>Mở “Tính năng quyền riêng tư”</target>
         <source>Open “Privacy features”</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsHeader">
+      <trans-unit id="vpn.helpSheets.excludedAppsHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the excluded apps help sheet</note>
+        <target>Loại trừ ứng dụng là gì?</target>
         <source>What are excluded apps?</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsTitle">
+      <trans-unit id="vpn.helpSheets.excludedAppsTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the excluded apps help sheet</note>
+        <target>Loại trừ ứng dụng</target>
         <source>Excluded apps</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationBody1">
@@ -927,53 +937,66 @@
         <note annotates="source" from="developer">Header label for the location selection help sheet</note>
         <source>Single-hop vs multi-hop</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationTitle">
+      <trans-unit id="vpn.helpSheets.locationTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the location selection help sheet</note>
+        <target>Lựa chọn vị trí</target>
         <source>Location selection</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyBody1">
+      <trans-unit id="vpn.helpSheets.privacyBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
+        <target>Tính năng quyền riêng tư giúp bạn kiểm soát tốt hơn các loại nội dung bạn xem, giúp bạn luôn an toàn khi trực tuyến.</target>
         <source>Privacy features give you greater control over the types of content you see, helping you stay safe online.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyBody2">
+      <trans-unit id="vpn.helpSheets.privacyBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
+        <target>Nếu bạn kích hoạt các tính năng này, chúng sẽ ghi đè bất kỳ DNS tùy chỉnh nào bạn đang sử dụng. Những biện pháp bảo vệ này không thay thế cho việc thực hiện các biện pháp phòng ngừa bảo mật khác — ví dụ, trong khi chặn phần mềm độc hại, bạn vẫn nên tránh tải xuống tập tin đính kèm trong email lạ.</target>
         <source>If you activate these features, they’ll overwrite any custom DNS you’re using. These protections are not a substitute for taking other security precautions — for example, while blocking malware you should still avoid downloading attachments in strange emails.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
+      <trans-unit id="vpn.helpSheets.privacyHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
+        <target>Tính năng quyền riêng tư có thể giúp gì cho tôi?</target>
         <source>What can privacy features do for me?</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyTitle">
+      <trans-unit id="vpn.helpSheets.privacyTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the privacy features help sheet</note>
+        <target>Tính năng quyền riêng tư</target>
         <source>Privacy features</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.changeEmailLink">
+      <trans-unit id="vpn.inAppAuth.changeEmailLink" xml:space="preserve">
         <source>Change email</source>
+        <target>Thay đổi email</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.continueToSignIn">
+      <trans-unit id="vpn.inAppAuth.continueToSignIn" xml:space="preserve">
         <note annotates="source" from="developer">Button a user clicks after updating their Mozilla account settings so that they can re-attempt sign-in</note>
+        <target>Tiếp tục để đăng nhập</target>
         <source>Continue to sign in</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.createAccountButton">
+      <trans-unit id="vpn.inAppAuth.createAccountButton" xml:space="preserve">
         <source>Create account</source>
+        <target>Tạo tài khoản</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.createPasswordLabel">
+      <trans-unit id="vpn.inAppAuth.createPasswordLabel" xml:space="preserve">
         <note annotates="source" from="developer">This is a label displayed on the password creation screen.</note>
+        <target>Tạo mật khẩu</target>
         <source>Create password</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.emailInputPlaceholder">
+      <trans-unit id="vpn.inAppAuth.emailInputPlaceholder" xml:space="preserve">
         <source>Enter email</source>
+        <target>Nhập email</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.emailTokenResentAlert">
+      <trans-unit id="vpn.inAppAuth.emailTokenResentAlert" xml:space="preserve">
         <note annotates="source" from="developer">User has requested to send a new email containing the 6-digit pin to confirm their email address.</note>
+        <target>Chúng tôi đã gửi lại mã tới email của bạn.</target>
         <source>We’ve resent your code to your email.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.emailVerificationDescription">
+      <trans-unit id="vpn.inAppAuth.emailVerificationDescription" xml:space="preserve">
         <note annotates="source" from="developer">User has been sent a verification email containing a code.</note>
+        <target>Mở email của bạn và nhập mã xác minh đã được gửi trong đó.</target>
         <source>Open your email and enter the verification code that was sent.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.enterEmailAddressDescription">
+      <trans-unit id="vpn.inAppAuth.enterEmailAddressDescription" xml:space="preserve">
         <source>Enter your email address to continue using Mozilla VPN</source>
+        <target>Nhập địa chỉ email của bạn để tiếp tục sử dụng Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription2">
         <note annotates="source" from="developer">User message prompting user to finish creating their account to use Mozilla VPN.</note>
@@ -1782,8 +1805,9 @@
       <trans-unit id="vpn.settings.privacyMalwareTitle">
         <source>Block malware</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacySettings">
+      <trans-unit id="vpn.settings.privacySettings" xml:space="preserve">
         <source>Privacy features</source>
+        <target>Tính năng quyền riêng tư</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyTrackerBody">
         <source>Fewer harmful domains will be able to track you</source>
