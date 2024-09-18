@@ -2,29 +2,37 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="../../nebula/ui/components/MZSystemAlert.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.alert.authenticationError">
+      <trans-unit id="vpn.alert.authenticationError" xml:space="preserve">
         <source>Authentication error</source>
+        <target>Lỗi khi xác thực</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.backendServiceError">
+      <trans-unit id="vpn.alert.backendServiceError" xml:space="preserve">
         <source>Background service error</source>
+        <target>Lỗi dịch vụ nền</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout">
+      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout" xml:space="preserve">
         <source>Signed out and device disconnected</source>
+        <target>Đã đăng xuất và đã ngắt kết nối thiết bị</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.getIPRestrictionError">
+      <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
         <source>Operation not allowed from current location</source>
+        <target>Thao tác không được phép từ vị trí hiện tại</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.remoteServiceError">
+      <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
+        <target>Lỗi dịch vụ từ xa</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.subscriptionFailureError">
+      <trans-unit id="vpn.alert.subscriptionFailureError" xml:space="preserve">
         <source>Subscription failed</source>
+        <target>Đăng ký không thành công</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.tryAgain">
+      <trans-unit id="vpn.alert.tryAgain" xml:space="preserve">
         <source>Try again</source>
+        <target>Thử lại</target>
       </trans-unit>
-      <trans-unit id="vpn.alert.unableToConnect">
+      <trans-unit id="vpn.alert.unableToConnect" xml:space="preserve">
         <source>Unable to connect</source>
+        <target>Không thể kết nối</target>
       </trans-unit>
     </body>
   </file>
@@ -33,145 +41,175 @@
       <trans-unit id="macosinstaller.conclusion.message1_v2">
         <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
       </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message2">
+      <trans-unit id="macosinstaller.conclusion.message2" xml:space="preserve">
         <source>Trouble with this installation?</source>
+        <target>Gặp sự cố với trình cài đặt này?</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message3">
+      <trans-unit id="macosinstaller.conclusion.message3" xml:space="preserve">
         <source>Help.</source>
+        <target>Trợ giúp.</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.message31">
+      <trans-unit id="macosinstaller.conclusion.message31" xml:space="preserve">
         <source>Help</source>
+        <target>Trợ giúp</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.conclusion.title">
+      <trans-unit id="macosinstaller.conclusion.title" xml:space="preserve">
         <source>Success!</source>
+        <target>Thành công!</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.message">
+      <trans-unit id="macosinstaller.previous_build.message" xml:space="preserve">
         <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
+        <target>Bản cài đặt trước đó của Mozilla VPN tồn tại ở /Applications/Mozilla VPN.app. Trình cài đặt này sẽ xóa ứng dụng trước đó để cài đặt. Vui lòng sao lưu mọi dữ liệu trước khi tiếp tục.</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.previous_build.title">
+      <trans-unit id="macosinstaller.previous_build.title" xml:space="preserve">
         <source>Previous Installation Detected</source>
+        <target>Đã phát hiện bản cài đặt trước đó</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.title">
+      <trans-unit id="macosinstaller.title" xml:space="preserve">
         <source>Mozilla VPN for macOS</source>
+        <target>Mozilla VPN cho macOS</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.message">
+      <trans-unit id="macosinstaller.unsupported_version.message" xml:space="preserve">
         <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
+        <target>Mozilla VPN yêu cầu Mac OS X 10.6 trở lên.</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.unsupported_version.title">
+      <trans-unit id="macosinstaller.unsupported_version.title" xml:space="preserve">
         <source>Unable to install</source>
+        <target>Không thể cài đặt</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message1">
+      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
         <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
+        <target>Bây giờ bạn sẽ được hướng dẫn các bước cài đặt cho Mozilla VPN. Cảm ơn bạn đã chọn VPN từ nhà tiên phong đáng tin cậy về quyền riêng tư trên Internet.</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message2">
+      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
         <source>Click “Continue” to continue the setup.</source>
+        <target>Nhấp “Tiếp tục” để tiếp tục cài đặt.</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ipaddresslookup.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.connectionInfo.loading">
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
+        <target>Đang tải</target>
         <source>Loading</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="menubar.file.close">
+      <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
+        <target>Đóng</target>
       </trans-unit>
-      <trans-unit id="menubar.file.title">
+      <trans-unit id="menubar.file.title" xml:space="preserve">
         <source>File</source>
+        <target>Tập tin</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/ScreenBackendFailure.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.errors.somethingWentWrong">
+      <trans-unit id="vpn.errors.somethingWentWrong" xml:space="preserve">
         <source>Something went wrong…</source>
+        <target>Có gì đó không ổn…</target>
       </trans-unit>
-      <trans-unit id="vpn.errors.tryAgain">
+      <trans-unit id="vpn.errors.tryAgain" xml:space="preserve">
         <source>Try Again</source>
+        <target>Thử lại</target>
       </trans-unit>
-      <trans-unit id="vpn.errors.unableToEstablishConnection">
+      <trans-unit id="vpn.errors.unableToEstablishConnection" xml:space="preserve">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
+        <target>Không thể thiết lập kết nối vào lúc này. Chúng tôi đang nỗ lực để giải quyết sự cố. Vui lòng thử lại trong chốc lát.</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/ScreenCrashReporting.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.crashreporter.description">
+      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
         <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
+        <target>Ứng dụng Mozilla VPN đã thoát đột ngột. Bạn có muốn gửi báo cáo sự cố để giúp khắc phục sự cố không?</target>
         <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.dontSendButton">
+      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
         <note annotates="source" from="developer">User does not agree to send a crash report.</note>
+        <target>Không, cảm ơn</target>
         <source>No thanks</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainHeading">
+      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
         <note annotates="source" from="developer">Label over description text section.</note>
+        <target>Báo cáo lỗi</target>
         <source>Crash reporting</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.sendButtonLabel">
+      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">User agrees to send a crash report.</note>
+        <target>Gửi báo cáo</target>
         <source>Send report</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/devices/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.devices.deviceAccessibleName">
+      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
         <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
+        <target>%1 %2</target>
         <source>%1 %2</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/devices/ViewDeviceLimit.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.devices.myDevices">
+      <trans-unit id="vpn.devices.myDevices" xml:space="preserve">
         <source>Devices</source>
+        <target>Thiết bị</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/home/ViewHome.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="MozillaVPN">
+      <trans-unit id="MozillaVPN" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.servers.currentLocation">
+      <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
+        <target>vị trí hiện tại - %1</target>
         <source>current location - %1</source>
       </trans-unit>
-      <trans-unit id="vpn.servers.selectLocation">
+      <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
+        <target>Chọn vị trí</target>
         <source>Select location</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/home/controller/ConnectionStability.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.connectionStability.checkConnection">
+      <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
+        <target>Kiểm tra kết nối</target>
         <source>Check Connection</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionStability.noSignal">
+      <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
         <source>No Signal</source>
+        <target>Không có tín hiệu</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionStability.unstable">
+      <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>Không ổn định</target>
         <source>Unstable</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/home/controller/ControllerView.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.controller.activated">
+      <trans-unit id="vpn.controller.activated" xml:space="preserve">
         <source>VPN is on</source>
+        <target>VPN đã bật</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activating" xml:space="preserve">
         <source>Masking connection and location</source>
-        <target>Che giấu kết nối và vị trí</target>
+        <target>Đang che giấu kết nối và vị trí</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
         <source>Turn on to protect your privacy</source>
@@ -194,8 +232,9 @@
         <source>VPN is off</source>
         <target>VPN đã tắt</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.deactivating">
+      <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
         <source>Unmasking connection and location</source>
+        <target>Đang bỏ che giấu kết nối và vị trí</target>
       </trans-unit>
       <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
         <source>Disconnecting…</source>
@@ -658,11 +697,11 @@
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS" xml:space="preserve">
         <source>Using these privacy features will override your custom DNS.</source>
-        <target>Việc sử dụng các tính năng bảo mật này sẽ ghi đè DNS tùy chỉnh của bạn.</target>
+        <target>Việc sử dụng các tính năng quyền riêng tư này sẽ ghi đè DNS tùy chỉnh của bạn.</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy" xml:space="preserve">
         <source>Using a custom DNS will override your preferences in the privacy features page.</source>
-        <target>Sử dụng DNS tùy chỉnh sẽ ghi đè tùy chọn của bạn trong trang tính năng bảo mật.</target>
+        <target>Sử dụng DNS tùy chỉnh sẽ ghi đè tùy chọn của bạn trong trang tính năng quyền riêng tư.</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.primaryButton" xml:space="preserve">
         <source>Confirm</source>
@@ -675,11 +714,13 @@
       <trans-unit id="vpn.dnsOverwriteDialog.titleDNS">
         <source>Override DNS settings?</source>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.titlePrivacy">
+      <trans-unit id="vpn.dnsOverwriteDialog.titlePrivacy" xml:space="preserve">
         <source>Override privacy features?</source>
+        <target>Ghi đè tính năng riêng tư?</target>
       </trans-unit>
-      <trans-unit id="vpn.freeTrials.freeTrialLabel">
+      <trans-unit id="vpn.freeTrials.freeTrialLabel" xml:space="preserve">
         <source>7-day free trial</source>
+        <target>Dùng thử miễn phí 7 ngày</target>
       </trans-unit>
       <trans-unit id="vpn.freeTrials.startYourFreeTrial" xml:space="preserve">
         <note annotates="source" from="developer">This string appears above the 'Sign up' button on mobile onboarding views</note>
