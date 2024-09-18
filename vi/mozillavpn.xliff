@@ -169,108 +169,133 @@
       <trans-unit id="vpn.controller.activated">
         <source>VPN is on</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.activating">
+      <trans-unit id="vpn.controller.activating" xml:space="preserve">
         <source>Masking connection and location</source>
+        <target>Che giấu kết nối và vị trí</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.activationSloagan">
+      <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
         <source>Turn on to protect your privacy</source>
+        <target>Bật để bảo vệ quyền riêng tư của bạn</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.active">
+      <trans-unit id="vpn.controller.active" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>An toàn và riêng tư</target>
         <source>Secure and private</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.attemptingToConfirm">
+      <trans-unit id="vpn.controller.attemptingToConfirm" xml:space="preserve">
         <source>Attempting to confirm connection</source>
+        <target>Đang thử xác nhận kết nối</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.connectingState">
+      <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
         <source>Connecting…</source>
+        <target>Đang kết nối…</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.deactivated">
+      <trans-unit id="vpn.controller.deactivated" xml:space="preserve">
         <source>VPN is off</source>
+        <target>VPN đã tắt</target>
       </trans-unit>
       <trans-unit id="vpn.controller.deactivating">
         <source>Unmasking connection and location</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.disconnecting">
+      <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
         <source>Disconnecting…</source>
+        <target>Đang ngắt kết nối…</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.switching">
+      <trans-unit id="vpn.controller.switching" xml:space="preserve">
         <source>Switching…</source>
+        <target>Đang chuyển…</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.switchingDetail">
+      <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
+        <target>Từ %1 sang %2</target>
         <source>From %1 to %2</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/home/controller/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.toggle.off">
+      <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
+        <target>Tắt VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.toggle.on">
+      <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
+        <target>Bật VPN</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/home/servers/ServerCountry.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="cities">
+      <trans-unit id="cities" xml:space="preserve">
         <note annotates="source" from="developer">The title for the list of cities.</note>
+        <target>Thành phố</target>
         <source>Cities</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.settings.language">
+      <trans-unit id="vpn.settings.language" xml:space="preserve">
         <source>Language</source>
+        <target>Ngôn ngữ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.languageAccessibleName">
+      <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
+        <target>%1 %2</target>
         <source>%1 %2</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.settings.guestWifiAlert">
+      <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
         <source>Guest Wi-Fi portal alert</source>
+        <target>Cảnh báo cổng Wi-Fi khách</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.guestWifiAlert.description">
+      <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
+        <target>Nhận thông báo nếu cổng Wi-Fi khách bị chặn do kết nối VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange.description">
+      <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
         <source>Get notified when the connection status changes</source>
+        <target>Nhận thông báo khi trạng thái kết nối thay đổi</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.connectionChange2">
+      <trans-unit id="vpn.settings.notification.connectionChange2" xml:space="preserve">
         <source>Connection change notification</source>
+        <target>Thông báo thay đổi kết nối</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch.description">
+      <trans-unit id="vpn.settings.notification.serverSwitch.description" xml:space="preserve">
         <source>Get notified when you successfully switched servers</source>
+        <target>Nhận thông báo khi bạn chuyển đổi máy chủ thành công</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.notification.serverSwitch2">
+      <trans-unit id="vpn.settings.notification.serverSwitch2" xml:space="preserve">
         <source>Server switching notification</source>
+        <target>Thông báo chuyển đổi máy chủ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.notifications">
+      <trans-unit id="vpn.settings.notifications" xml:space="preserve">
         <source>Notifications</source>
+        <target>Thông báo</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.unsecuredNetworkAlert">
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert" xml:space="preserve">
         <source>Unsecured network alert</source>
+        <target>Cảnh báo mạng không an toàn</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description">
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description" xml:space="preserve">
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
+        <target>Nhận thông báo nếu bạn kết nối với mạng Wi-Fi không an toàn</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/settings/appPermissions/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.protectSelectedApps.addApplication">
+      <trans-unit id="vpn.protectSelectedApps.addApplication" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Thêm ứng dụng</target>
         <source>Add application</source>
       </trans-unit>
-      <trans-unit id="vpn.protectSelectedApps.searchApps">
+      <trans-unit id="vpn.protectSelectedApps.searchApps" xml:space="preserve">
         <note annotates="source" from="developer">Search bar placeholder text</note>
+        <target>Tìm kiếm ứng dụng</target>
         <source>Search apps</source>
       </trans-unit>
     </body>
@@ -284,91 +309,116 @@
   </file>
   <file original="../src/apps/vpn/ui/sharedViews/ViewUpdate.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.updates.notNow">
+      <trans-unit id="vpn.updates.notNow" xml:space="preserve">
         <source>Not now</source>
+        <target>Không phải bây giờ</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
+      <trans-unit id="vpn.updates.updateConnectionInsecureWarning" xml:space="preserve">
         <source>Your connection will not be secure while you update.</source>
+        <target>Kết nối của bạn sẽ không được an toàn trong khi bạn cập nhật.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateNow">
+      <trans-unit id="vpn.updates.updateNow" xml:space="preserve">
         <source>Update now</source>
+        <target>Cập nhật ngay</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRecomended">
+      <trans-unit id="vpn.updates.updateRecomended" xml:space="preserve">
         <source>Update recommended</source>
+        <target>Khuyến nghị cập nhật</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRecomended.description">
+      <trans-unit id="vpn.updates.updateRecomended.description" xml:space="preserve">
         <source>Please update the app before you continue to use the VPN</source>
+        <target>Vui lòng cập nhật ứng dụng trước khi bạn tiếp tục sử dụng VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequire.reason">
+      <trans-unit id="vpn.updates.updateRequire.reason" xml:space="preserve">
         <source>We detected and fixed a serious bug. You must update your app.</source>
+        <target>Chúng tôi đã phát hiện và sửa một lỗi nghiêm trọng. Bạn phải cập nhật ứng dụng của mình.</target>
       </trans-unit>
-      <trans-unit id="vpn.updates.updateRequired">
+      <trans-unit id="vpn.updates.updateRequired" xml:space="preserve">
         <source>Update required</source>
+        <target>Bắt buộc cập nhật</target>
       </trans-unit>
     </body>
   </file>
   <file original="generated/l18nstrings_p.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.AndroidNotifications.GeneralNotifications">
+      <trans-unit id="vpn.AndroidNotifications.GeneralNotifications" xml:space="preserve">
         <note annotates="source" from="developer">A notification channel; so the user can subscribe to "General Notifications"</note>
+        <target>Thông báo chung</target>
         <source>General Notifications</source>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.copyVersionNumber">
+      <trans-unit id="vpn.aboutUs.copyVersionNumber" xml:space="preserve">
         <note annotates="source" from="developer">Accessible name for a button. %1 is the version number of the VPN client.</note>
+        <target>Sao chép %1</target>
         <source>Copy %1</source>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.licenses">
+      <trans-unit id="vpn.aboutUs.licenses" xml:space="preserve">
         <source>Licenses</source>
+        <target>Giấy phép</target>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.privacyNotice">
+      <trans-unit id="vpn.aboutUs.privacyNotice" xml:space="preserve">
         <source>Privacy notice</source>
+        <target>Thông báo về quyền riêng tư</target>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.releaseVersion">
+      <trans-unit id="vpn.aboutUs.releaseVersion" xml:space="preserve">
         <note annotates="source" from="developer">Refers to the installed version. For example: 'Release Version: 1.23'</note>
+        <target>Phiên bản phát hành</target>
         <source>Release version</source>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.termsOfService">
+      <trans-unit id="vpn.aboutUs.termsOfService" xml:space="preserve">
         <source>Terms of service</source>
+        <target>Điều khoản dịch vụ</target>
       </trans-unit>
-      <trans-unit id="vpn.aboutUs.title">
+      <trans-unit id="vpn.aboutUs.title" xml:space="preserve">
         <source>About us</source>
+        <target>Về chúng tôi</target>
       </trans-unit>
-      <trans-unit id="vpn.accessibility.currentIndexFocusedOfTotalItemsInGroup">
+      <trans-unit id="vpn.accessibility.currentIndexFocusedOfTotalItemsInGroup" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen readers to explain to users which item they are currently focused on, and how many items there are total in a group. For example, given a list with 15 items. If a user selects the 3rd item, we want the screen reader to read out "3 of 15". The %1 represents the index of the currently focused item by the screen reader. The %2 represents the total number of items in the group.</note>
+        <target>%1 của %2</target>
         <source>%1 of %2</source>
       </trans-unit>
-      <trans-unit id="vpn.accessibility.selected">
+      <trans-unit id="vpn.accessibility.selected" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen reader to indicate that a user action selected an item.</note>
+        <target>Đã chọn</target>
         <source>Selected</source>
       </trans-unit>
-      <trans-unit id="vpn.accessibility.selectedAndItemName">
+      <trans-unit id="vpn.accessibility.selectedAndItemName" xml:space="preserve">
         <note annotates="source" from="developer">Used by screen readers to denote that a particular item is currently selected. For example, given a segmented control with 2 items, where the first item is currently selected. We want the screen reader to read out "Selected, &lt;item name&gt;". The %1 represents the name of the selected item.</note>
+        <target>Mục đã chọn: %1</target>
         <source>Selected item: %1</source>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.actionPostActivation">
+      <trans-unit id="vpn.captivePortalAlert.actionPostActivation" xml:space="preserve">
         <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
+        <target>Bạn phải tắt VPN để xem cổng thông tin, và bật lại sau khi bạn đã đăng nhập.</target>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.actionPreActivation">
+      <trans-unit id="vpn.captivePortalAlert.actionPreActivation" xml:space="preserve">
         <source>You can turn on your VPN once you have gained internet access by logging in to the portal.</source>
+        <target>Bạn có thể bật VPN của mình sau khi có được quyền truy cập Internet bằng cách đăng nhập vào cổng.</target>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation">
+      <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation" xml:space="preserve">
         <source>Turn off VPN</source>
+        <target>Tắt VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.buttonTextPreActivation">
+      <trans-unit id="vpn.captivePortalAlert.buttonTextPreActivation" xml:space="preserve">
         <source>Okay</source>
+        <target>OK</target>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.header">
+      <trans-unit id="vpn.captivePortalAlert.header" xml:space="preserve">
         <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
+        <target>Cổng bị khóa là khi Wi-Fi khách bạn đang sử dụng yêu cầu bạn đăng nhập để truy cập Internet.</target>
       </trans-unit>
-      <trans-unit id="vpn.captivePortalAlert.title">
+      <trans-unit id="vpn.captivePortalAlert.title" xml:space="preserve">
         <source>Captive portal detected!</source>
+        <target>Đã phát hiện cổng bị khoá!</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.connectionInformation">
+      <trans-unit id="vpn.connectionInfo.connectionInformation" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that shows the IP info panel when clicked.</note>
+        <target>Thông tin kết nối</target>
         <source>Connection information</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.errorMessage">
+      <trans-unit id="vpn.connectionInfo.errorMessage" xml:space="preserve">
         <source>Looks like there was an unexpected error while trying to connect. Please try again or check your connection.</source>
+        <target>Có vẻ như đã xảy ra lỗi không mong muốn khi cố gắng kết nối. Vui lòng thử lại hoặc kiểm tra kết nối của bạn.</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.exitServerLabelIp">
         <note annotates="source" from="developer">Exit server IP label for IPV4. IP is the abbreviation for Internet Procol. This is followed by the user’s IPv4 address.</note>
@@ -378,80 +428,98 @@
         <note annotates="source" from="developer">Exit server IP label for IPv6. IPv6 is the abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
         <source>Exit Server IPv6:</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.highBulletOne">
+      <trans-unit id="vpn.connectionInfo.highBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
+        <target>Phát trực tuyến ở 4K</target>
         <source>Streaming in 4K</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.highBulletThree">
+      <trans-unit id="vpn.connectionInfo.highBulletThree" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
+        <target>Trò chơi trực tuyến</target>
         <source>Online gaming</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.highBulletTwo">
+      <trans-unit id="vpn.connectionInfo.highBulletTwo" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
+        <target>Tải xuống tốc độ cao</target>
         <source>High-speed downloads</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.labelBitps">
+      <trans-unit id="vpn.connectionInfo.labelBitps" xml:space="preserve">
         <note annotates="source" from="developer">Bits per second</note>
+        <target>bit/s</target>
         <source>bit/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.labelGbitps">
+      <trans-unit id="vpn.connectionInfo.labelGbitps" xml:space="preserve">
         <note annotates="source" from="developer">Gigabits per second</note>
+        <target>Gbit/s</target>
         <source>Gbit/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.labelKbitps">
+      <trans-unit id="vpn.connectionInfo.labelKbitps" xml:space="preserve">
         <note annotates="source" from="developer">Kilobits per second</note>
+        <target>kbit/s</target>
         <source>kbit/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.labelMbitps">
+      <trans-unit id="vpn.connectionInfo.labelMbitps" xml:space="preserve">
         <note annotates="source" from="developer">Megabits per second</note>
+        <target>Mbit/s</target>
         <source>Mbit/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.labelPing">
+      <trans-unit id="vpn.connectionInfo.labelPing" xml:space="preserve">
         <note annotates="source" from="developer">Latency of the connection</note>
+        <target>Ping</target>
         <source>Ping</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.labelTbitps">
+      <trans-unit id="vpn.connectionInfo.labelTbitps" xml:space="preserve">
         <note annotates="source" from="developer">Terabits per second</note>
+        <target>Tbit/s</target>
         <source>Tbit/s</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.labelUpload">
+      <trans-unit id="vpn.connectionInfo.labelUpload" xml:space="preserve">
         <note annotates="source" from="developer">Label for the upload benchmark shown in the speed test view.</note>
+        <target>Tải lên</target>
         <source>Upload</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.listHeaderDefault">
+      <trans-unit id="vpn.connectionInfo.listHeaderDefault" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list of things that the current connection is capable of.</note>
+        <target>Với tốc độ hiện tại của bạn, đây là mục đích thiết bị của bạn được tối ưu hóa:</target>
         <source>At your current speed, here’s what your device is optimized for:</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.listHeaderSlow">
+      <trans-unit id="vpn.connectionInfo.listHeaderSlow" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
+        <target>Có vẻ như kết nối đến vị trí máy chủ này hơi chậm, bạn có thể thử:</target>
         <source>It looks like the connection to this server location is a bit slow, you can try:</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel">
+      <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel" xml:space="preserve">
         <note annotates="source" from="developer">Shown to the user while waiting for the connection speed test results</note>
+        <target>Kiểm tra tốc độ…</target>
         <source>Testing speed…</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.mediumBulletOne">
+      <trans-unit id="vpn.connectionInfo.mediumBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <target>Duyệt internet</target>
         <source>Browsing the internet</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletThree">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
         <source>Video conferencing</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.mediumBulletTwo">
+      <trans-unit id="vpn.connectionInfo.mediumBulletTwo" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <target>Phát video trực tuyến</target>
         <source>Streaming video</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.metricsTitle">
+      <trans-unit id="vpn.connectionInfo.metricsTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the connection metrics view.</note>
+        <target>Thông tin kết nối</target>
         <source>Connection information</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.restartSpeedTest">
+      <trans-unit id="vpn.connectionInfo.restartSpeedTest" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button to restart the speed test upon its completion.</note>
+        <target>Kiểm tra lại tốc độ</target>
         <source>Restart speed test</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.startSpeedTest">
+      <trans-unit id="vpn.connectionInfo.startSpeedTest" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that opens the speed test view and initiates a speed test</note>
+        <target>Bắt đầu kiểm tra tốc độ</target>
         <source>Start speed test</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne">
@@ -462,117 +530,147 @@
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section for multi-hop connections</note>
         <source>Switching back to a single-hop connection</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo">
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
+        <target>Đang kiểm tra kết nối internet của bạn</target>
         <source>Checking your internet connection</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.unitPing">
+      <trans-unit id="vpn.connectionInfo.unitPing" xml:space="preserve">
         <source>ms</source>
+        <target>ms</target>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.crashOptInDialogDescription">
+      <trans-unit id="vpn.crashreporter.crashOptInDialogDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is a description for a checkbox on the crash reporter dialog.</note>
+        <target>Đừng hiển thị điều này nữa. Tự động gửi báo cáo sự cố tới Mozilla.</target>
         <source>Don’t show this again. Autosend crash reports to Mozilla.</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainTitle">
+      <trans-unit id="vpn.crashreporter.mainTitle" xml:space="preserve">
         <note annotates="source" from="developer">Main window title</note>
+        <target>Báo cáo sự cố Mozilla</target>
         <source>Mozilla Crash Report</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.authButtonLabel">
+      <trans-unit id="vpn.deleteAccount.authButtonLabel" xml:space="preserve">
         <source>Continue</source>
+        <target>Tiếp tục</target>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.buttonLabel">
+      <trans-unit id="vpn.deleteAccount.buttonLabel" xml:space="preserve">
         <source>Delete account</source>
+        <target>Xóa tài khoản</target>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.headline2">
+      <trans-unit id="vpn.deleteAccount.headline2" xml:space="preserve">
         <source>Delete Mozilla account</source>
+        <target>Xoá tài khoản Mozilla</target>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionFour">
+      <trans-unit id="vpn.deleteAccount.optionDescriptionFour" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>Mọi tiện ích mở rộng và chủ đề mà bạn đã xuất bản lên addons.mozilla.org sẽ bị xoá</target>
         <source>Any extensions and themes that you’ve published to addons.mozilla.org will be deleted</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionOne">
+      <trans-unit id="vpn.deleteAccount.optionDescriptionOne" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>Mọi đăng ký trả phí mà bạn có sẽ bị hủy (trừ Pocket)</target>
         <source>Any paid subscriptions you have will be cancelled (Except Pocket)</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionThree">
+      <trans-unit id="vpn.deleteAccount.optionDescriptionThree" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>Kích hoạt lại với email này có thể không khôi phục thông tin đã lưu của bạn</target>
         <source>Reactivating with this email may not restore your saved information</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionTwo">
+      <trans-unit id="vpn.deleteAccount.optionDescriptionTwo" xml:space="preserve">
         <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <target>Bạn có thể sẽ mất thông tin và tính năng đã lưu trong các sản phẩm của Mozilla</target>
         <source>You may lose saved information and features within Mozilla products</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.subheadline2">
+      <trans-unit id="vpn.deleteAccount.subheadline2" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
+        <target>Tài khoản Mozilla của bạn (%1) được kết nối với các sản phẩm của Mozilla giúp bạn an toàn và làm việc hiệu quả trên web. Vui lòng hiểu rõ rằng việc xóa tài khoản của bạn:</target>
         <source>Your Mozilla account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.countLabel">
+      <trans-unit id="vpn.devices.countLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label at the top of the "Devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
+        <target>%1 trong số %2 thiết bị đã được thêm</target>
         <source>%1 out of %2 devices added</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.limitDescription2">
+      <trans-unit id="vpn.devices.limitDescription2" xml:space="preserve">
         <note annotates="source" from="developer">Description of the "device limit" view describing why the device has not yet been added to the list of active devices (because we are at the device limit)</note>
+        <target>Bạn đang sử dụng VPN với 5 thiết bị. Để thêm thiết bị khác, vui lòng xóa một thiết bị cũ.</target>
         <source>You’re using VPN on 5 devices. To add another device, please remove one.</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.limitTitle">
+      <trans-unit id="vpn.devices.limitTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title of the "device limit" view stating that the device has not yet been added to the list of active devices (because we are at the device limit)</note>
+        <target>Thiết bị chưa được thêm vào</target>
         <source>Device not added</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.listItemDescriptionAddedDaysAgo">
+      <trans-unit id="vpn.devices.listItemDescriptionAddedDaysAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added days ago. %1 is the number of days.</note>
+        <target>Đã thêm %1 ngày trước</target>
         <source>Added %1 days ago</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.listItemDescriptionAddedFewHoursAgo">
+      <trans-unit id="vpn.devices.listItemDescriptionAddedFewHoursAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added a few hours ago. %1 is the number of hours.</note>
+        <target>Đã thêm vài giờ trước (%1)</target>
         <source>Added a few hours ago (%1)</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.listItemDescriptionAddedOneHourAgo">
+      <trans-unit id="vpn.devices.listItemDescriptionAddedOneHourAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added less than 1 hour ago</note>
+        <target>Đã thêm chưa đầy một giờ trước</target>
         <source>Added less than an hour ago</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.listItemDescriptionCurrent">
+      <trans-unit id="vpn.devices.listItemDescriptionCurrent" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for the current device</note>
+        <target>Thiết bị hiện tại</target>
         <source>Current Device</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.listItemRemoveDeviceAccessibility">
+      <trans-unit id="vpn.devices.listItemRemoveDeviceAccessibility" xml:space="preserve">
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <target>Xoá %1</target>
         <source>Remove %1</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.menuTitle">
+      <trans-unit id="vpn.devices.menuTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the menu bar when viewing the devices or device limit pages</note>
+        <target>Thiết bị của tôi</target>
         <source>My devices</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removePopupDescription">
+      <trans-unit id="vpn.devices.removePopupDescription" xml:space="preserve">
         <note annotates="source" from="developer">Description for the Remove Device popup. %1 is the name of the device being removed. The name is displayed on purpose on a new line."</note>
+        <target>Vui lòng xác nhận bạn muốn xóa %1.</target>
         <source>Please confirm you would like to remove %1.</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removePopupPrimaryButtonLabel">
+      <trans-unit id="vpn.devices.removePopupPrimaryButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the primary button for the Remove Device poup</note>
+        <target>Xóa</target>
         <source>Remove</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removePopupTitle">
+      <trans-unit id="vpn.devices.removePopupTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the Remove Device popup</note>
+        <target>Xoá thiết bị?</target>
         <source>Remove device?</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removingTitle">
+      <trans-unit id="vpn.devices.removingTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for "Removing device" screen</note>
+        <target>Đang xoá thiết bị…</target>
         <source>Removing device…</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.sectionTitle">
+      <trans-unit id="vpn.devices.sectionTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for the menu bar when viewing the devices or device limit pages</note>
+        <target>Thiết bị</target>
         <source>Devices</source>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS">
+      <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS" xml:space="preserve">
         <source>Using these privacy features will override your custom DNS.</source>
+        <target>Việc sử dụng các tính năng bảo mật này sẽ ghi đè DNS tùy chỉnh của bạn.</target>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy">
+      <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy" xml:space="preserve">
         <source>Using a custom DNS will override your preferences in the privacy features page.</source>
+        <target>Sử dụng DNS tùy chỉnh sẽ ghi đè tùy chọn của bạn trong trang tính năng bảo mật.</target>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.primaryButton">
+      <trans-unit id="vpn.dnsOverwriteDialog.primaryButton" xml:space="preserve">
         <source>Confirm</source>
+        <target>Xác nhận</target>
       </trans-unit>
-      <trans-unit id="vpn.dnsOverwriteDialog.secondaryButton">
+      <trans-unit id="vpn.dnsOverwriteDialog.secondaryButton" xml:space="preserve">
         <source>Maybe later</source>
+        <target>Có lẽ để sau</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titleDNS">
         <source>Override DNS settings?</source>
@@ -583,125 +681,157 @@
       <trans-unit id="vpn.freeTrials.freeTrialLabel">
         <source>7-day free trial</source>
       </trans-unit>
-      <trans-unit id="vpn.freeTrials.startYourFreeTrial">
+      <trans-unit id="vpn.freeTrials.startYourFreeTrial" xml:space="preserve">
         <note annotates="source" from="developer">This string appears above the 'Sign up' button on mobile onboarding views</note>
+        <target>Đăng ký để bắt đầu dùng thử miễn phí 7 ngày.</target>
         <source>Sign up to start your 7-day free trial.</source>
       </trans-unit>
-      <trans-unit id="vpn.genericError.unexpected">
+      <trans-unit id="vpn.genericError.unexpected" xml:space="preserve">
         <source>Unexpected error</source>
+        <target>Lỗi không xác định</target>
       </trans-unit>
-      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton">
+      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton" xml:space="preserve">
         <source>Try Again</source>
+        <target>Thử lại</target>
       </trans-unit>
-      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorHeader">
+      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
+        <target>Sự cố khi xác nhận đăng ký</target>
       </trans-unit>
-      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText">
+      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText" xml:space="preserve">
         <source>An unexpected error has occurred, please try again. Visit our help center below to learn how to troubleshoot this issue or contact support.</source>
+        <target>Đã xảy ra lỗi không mong muốn, vui lòng thử lại. Hãy truy cập trung tâm trợ giúp của chúng tôi bên dưới để tìm hiểu cách khắc phục sự cố này hoặc liên hệ với bộ phận hỗ trợ.</target>
       </trans-unit>
-      <trans-unit id="vpn.getHelp.developerOptions">
+      <trans-unit id="vpn.getHelp.developerOptions" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Tùy chọn nhà phát triển</target>
         <source>Developer options</source>
       </trans-unit>
-      <trans-unit id="vpn.getHelp.helpCenter">
+      <trans-unit id="vpn.getHelp.helpCenter" xml:space="preserve">
         <source>Help Center</source>
+        <target>Trung tâm trợ giúp</target>
       </trans-unit>
-      <trans-unit id="vpn.getHelp.linkText">
+      <trans-unit id="vpn.getHelp.linkText" xml:space="preserve">
         <source>Help</source>
+        <target>Trợ giúp</target>
       </trans-unit>
-      <trans-unit id="vpn.getHelp.linkTitle">
+      <trans-unit id="vpn.getHelp.linkTitle" xml:space="preserve">
         <source>Get help</source>
+        <target>Nhận trợ giúp</target>
       </trans-unit>
-      <trans-unit id="vpn.getHelp.viewLogs">
+      <trans-unit id="vpn.getHelp.viewLogs" xml:space="preserve">
         <note annotates="source" from="developer">Label for a clickable item in the Get-Help view</note>
+        <target>Xem nhật ký</target>
         <source>View Logs</source>
       </trans-unit>
-      <trans-unit id="vpn.global.clear">
+      <trans-unit id="vpn.global.clear" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for clear button</note>
+        <target>Xóa</target>
         <source>Clear</source>
       </trans-unit>
-      <trans-unit id="vpn.global.close">
+      <trans-unit id="vpn.global.close" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for close button</note>
+        <target>Đóng</target>
         <source>Close</source>
       </trans-unit>
-      <trans-unit id="vpn.global.collapse">
+      <trans-unit id="vpn.global.collapse" xml:space="preserve">
         <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
+        <target>Thu gọn</target>
         <source>Collapse</source>
       </trans-unit>
-      <trans-unit id="vpn.global.continue">
+      <trans-unit id="vpn.global.continue" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to proceed with an action</note>
+        <target>Tiếp tục</target>
         <source>Continue</source>
       </trans-unit>
-      <trans-unit id="vpn.global.copied">
+      <trans-unit id="vpn.global.copied" xml:space="preserve">
         <note annotates="source" from="developer">Confirmation banner displayed after clicking a button to copy something.</note>
+        <target>Đã sao chép!</target>
         <source>Copied!</source>
       </trans-unit>
-      <trans-unit id="vpn.global.copy">
+      <trans-unit id="vpn.global.copy" xml:space="preserve">
         <note annotates="source" from="developer">Accessible button label</note>
+        <target>Sao chép</target>
         <source>Copy</source>
       </trans-unit>
-      <trans-unit id="vpn.global.discoverNow">
+      <trans-unit id="vpn.global.discoverNow" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used in intro modals to discover new features.</note>
+        <target>Khám phá ngay</target>
         <source>Discover now</source>
       </trans-unit>
-      <trans-unit id="vpn.global.expand">
+      <trans-unit id="vpn.global.expand" xml:space="preserve">
         <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
+        <target>Mở rộng</target>
         <source>Expand</source>
       </trans-unit>
-      <trans-unit id="vpn.global.getStarted">
+      <trans-unit id="vpn.global.getStarted" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button used to begin something / proceed</note>
+        <target>Bắt đầu</target>
         <source>Get started</source>
       </trans-unit>
-      <trans-unit id="vpn.global.goBack">
+      <trans-unit id="vpn.global.goBack" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used in intro modals to return to the app.</note>
+        <target>Quay lại</target>
         <source>Go back</source>
       </trans-unit>
-      <trans-unit id="vpn.global.help">
+      <trans-unit id="vpn.global.help" xml:space="preserve">
         <note annotates="source" from="developer">Action taken that will help the user</note>
+        <target>Trợ giúp</target>
         <source>Help</source>
       </trans-unit>
-      <trans-unit id="vpn.global.learnMore">
+      <trans-unit id="vpn.global.learnMore" xml:space="preserve">
         <note annotates="source" from="developer">Label for link to allow the user to learn more about a topic</note>
+        <target>Tìm hiểu thêm</target>
         <source>Learn more</source>
       </trans-unit>
-      <trans-unit id="vpn.global.next">
+      <trans-unit id="vpn.global.next" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to proceed</note>
+        <target>Tiếp</target>
         <source>Next</source>
       </trans-unit>
-      <trans-unit id="vpn.global.noInternetConnection">
+      <trans-unit id="vpn.global.noInternetConnection" xml:space="preserve">
         <note annotates="source" from="developer">Status alert text</note>
+        <target>Không có kết nối internet</target>
         <source>No internet connection</source>
       </trans-unit>
-      <trans-unit id="vpn.global.noThanks">
+      <trans-unit id="vpn.global.noThanks" xml:space="preserve">
         <note annotates="source" from="developer">Label for button used to not proceed with an action</note>
+        <target>Không, cảm ơn</target>
         <source>No thanks</source>
       </trans-unit>
-      <trans-unit id="vpn.global.paste">
+      <trans-unit id="vpn.global.paste" xml:space="preserve">
         <note annotates="source" from="developer">Label for button to paste value from clipboard into input</note>
+        <target>Dán</target>
         <source>Paste</source>
       </trans-unit>
-      <trans-unit id="vpn.global.signOut">
+      <trans-unit id="vpn.global.signOut" xml:space="preserve">
         <note annotates="source" from="developer">Link title</note>
+        <target>Đăng xuất</target>
         <source>Sign out</source>
       </trans-unit>
-      <trans-unit id="vpn.global.vpnUser">
+      <trans-unit id="vpn.global.vpnUser" xml:space="preserve">
         <note annotates="source" from="developer">Fallback string for users who have not specified a Display Name.</note>
+        <target>Người dùng VPN</target>
         <source>VPN User</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.devicesBody1">
+      <trans-unit id="vpn.helpSheets.devicesBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
+        <target>Thêm một thiết bị mới vào thuê bao của bạn thật dễ dàng: chỉ cần tải xuống và đăng nhập vào Mozilla VPN trên thiết bị đó.</target>
         <source>Adding a new device to your subscription is easy: just download and log in to Mozilla VPN on that device.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.devicesBody2">
+      <trans-unit id="vpn.helpSheets.devicesBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
+        <target>Để xóa một trong các thiết bị đã thêm của bạn, hãy chọn “Chỉnh sửa” trên màn hình này và sử dụng biểu tượng thùng rác để xóa thiết bị mà bạn không muốn sử dụng Mozilla VPN nữa.</target>
         <source>To remove one of your added devices, select “Edit” on this screen and use the trash icon to remove the device you no longer want to use Mozilla VPN on.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.devicesHeader">
+      <trans-unit id="vpn.helpSheets.devicesHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the devices help sheet</note>
+        <target>Thêm và xóa thiết bị</target>
         <source>Adding and removing devices</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.devicesTitle">
+      <trans-unit id="vpn.helpSheets.devicesTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the devices help sheet</note>
+        <target>Quản lý thiết bị</target>
         <source>Device management</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody1">
