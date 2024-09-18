@@ -2064,215 +2064,271 @@
       <trans-unit id="vpn.settingsDev.useStagingTitle">
         <source>Use Staging Servers</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoCardDescription">
+      <trans-unit id="vpn.splittunnel.infoCardDescription" xml:space="preserve">
         <note annotates="source" from="developer">Displays inside the information card at the top of the app exclusions screen when the VPN is on</note>
+        <target>Phải tắt VPN để chỉnh sửa Loại trừ ứng dụng</target>
         <source>VPN must be off to edit App exclusions</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoLinkText">
+      <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
         <source>Learn more</source>
+        <target>Tìm hiểu thêm</target>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoText2">
+      <trans-unit id="vpn.splittunnel.infoText2" xml:space="preserve">
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
+        <target>Đối với bất kỳ câu hỏi nào về cách cài đặt loại trừ ứng dụng, chúng tôi đã cung cấp một số mẹo hữu ích trên trang web của mình.</target>
         <source>For any questions about setting app exclusions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.missingAppActionButton">
+      <trans-unit id="vpn.splittunnel.missingAppActionButton" xml:space="preserve">
         <note annotates="source" from="developer">Displayed in a notification as "call to action" when apps are missing from the split-tunnel settings.</note>
+        <target>Thêm ứng dụng thủ công</target>
         <source>Add apps manually</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.missingAppAddedOne">
+      <trans-unit id="vpn.splittunnel.missingAppAddedOne" xml:space="preserve">
         <note annotates="source" from="developer">Displayed in notification after the user added a missing app to the split-tunnel List; %1 is the name of the added application</note>
+        <target>Thành công! Bạn đã thêm “%1” vào danh sách này.</target>
         <source>Success! You added “%1” to this list.</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.missingAppMultiple">
+      <trans-unit id="vpn.splittunnel.missingAppMultiple" xml:space="preserve">
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
+        <target>%1 ứng dụng không tìm thấy trong danh sách.</target>
         <source>%1 apps missing from list.</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.activatedLabel">
+      <trans-unit id="vpn.subscriptionManagement.activatedLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the date on which the subscription was activated.</note>
+        <target>Hoạt động từ</target>
         <source>Active since</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.cardExpiresLabel">
+      <trans-unit id="vpn.subscriptionManagement.cardExpiresLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the date on which the payment method expires.</note>
+        <target>Hết hạn</target>
         <source>Expires</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.cardLast4">
+      <trans-unit id="vpn.subscriptionManagement.cardLast4" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents the last four digits of a credit card.</note>
+        <target>Thẻ kết thúc bằng %1</target>
         <source>Card ending in %1</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.expiresLabel">
+      <trans-unit id="vpn.subscriptionManagement.expiresLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the upcoming date on which the subscription will expire.</note>
+        <target>Hết hạn</target>
         <source>Expires</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.manageAccount">
+      <trans-unit id="vpn.subscriptionManagement.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>Quản lý tài khoản</target>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.manageSubscriptionButton">
+      <trans-unit id="vpn.subscriptionManagement.manageSubscriptionButton" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will take the user to a view where they can manage their subscription.</note>
+        <target>Quản lí thuê bao</target>
         <source>Manage subscription</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.menuTitle">
+      <trans-unit id="vpn.subscriptionManagement.menuTitle" xml:space="preserve">
         <note annotates="source" from="developer">Menu title for a view with details on the users account.</note>
+        <target>Hồ sơ</target>
         <source>Profile</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.nextLabel">
+      <trans-unit id="vpn.subscriptionManagement.nextLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the upcoming date on which the user will be billed for their subscription.</note>
+        <target>Hóa đơn tiếp theo</target>
         <source>Next billed</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.paymentHeadline">
+      <trans-unit id="vpn.subscriptionManagement.paymentHeadline" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list with information on the payment information the user provided for their subscription.</note>
+        <target>Thông tin thanh toán</target>
         <source>Payment Information</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planLabel">
+      <trans-unit id="vpn.subscriptionManagement.planLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the selected subscription plan the user currently is subscribed to.</note>
+        <target>Gói thuê bao</target>
         <source>Subscription plan</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planMonthly">
+      <trans-unit id="vpn.subscriptionManagement.planMonthly" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription. %1 represents the localized currency string</note>
+        <target>Gói tháng: %1</target>
         <source>Monthly plan: %1</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription plus tax. %1 represents the localized currency string</note>
+        <target>%1/tháng + thuế</target>
         <source>%1/month + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planMonthlyWithoutTax">
+      <trans-unit id="vpn.subscriptionManagement.planMonthlyWithoutTax" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription without tax. %1 represents the localized currency string</note>
+        <target>%1/tháng</target>
         <source>%1/month</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly">
+      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <target>%1 nửa năm</target>
         <source>%1 Half-yearly</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1 nửa năm + thuế</target>
         <source>%1 Half-yearly + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueMonthly">
+      <trans-unit id="vpn.subscriptionManagement.planValueMonthly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <target>%1 hàng tháng</target>
         <source>%1 Monthly</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1 hàng tháng + thuế</target>
         <source>%1 Monthly + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueYearly">
+      <trans-unit id="vpn.subscriptionManagement.planValueYearly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <target>%1 hàng năm</target>
         <source>%1 Yearly</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1 hàng năm + thuế</target>
         <source>%1 Yearly + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.sectionTitle">
+      <trans-unit id="vpn.subscriptionManagement.sectionTitle" xml:space="preserve">
         <note annotates="source" from="developer">Menu title for a view with details on the user's account.</note>
+        <target>Tài khoản</target>
         <source>Account</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.statusActive">
+      <trans-unit id="vpn.subscriptionManagement.statusActive" xml:space="preserve">
         <note annotates="source" from="developer">Text for a label that indicates an active subscription.</note>
+        <target>Hoạt động</target>
         <source>Active</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.statusInactive">
+      <trans-unit id="vpn.subscriptionManagement.statusInactive" xml:space="preserve">
         <note annotates="source" from="developer">Text for a label that indicates an inactive subscription.</note>
+        <target>Không hoạt động</target>
         <source>Inactive</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.statusLabel">
+      <trans-unit id="vpn.subscriptionManagement.statusLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the current status of the subscription.</note>
+        <target>Trạng thái</target>
         <source>Status</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.subscriptionPlatformLabel">
         <note annotates="source" from="developer">The %1 represents the subscription platform. Values for %1 could be “Apple” or “Google” for example.</note>
         <source>%1 subscription</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.summaryHeadline">
+      <trans-unit id="vpn.subscriptionManagement.summaryHeadline" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list with information on the subscription plan of the user.</note>
+        <target>Tóm tắt thuê bao</target>
         <source>Subscription summary</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual">
+      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual" xml:space="preserve">
         <note annotates="source" from="developer">Block of text appearing beside a button to upgrade subscription.</note>
+        <target>Tiết kiệm 50% cho gói hàng năm</target>
         <source>Save 50% on an annual plan</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton">
+      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will open the upgrade subscription flow.</note>
+        <target>Thay đổi gói</target>
         <source>Change plan</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.disconnect">
+      <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
+        <target>Ngắt kết nối</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.help">
+      <trans-unit id="vpn.systray.help" xml:space="preserve">
         <source>Help</source>
+        <target>Trợ giúp</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.hide">
+      <trans-unit id="vpn.systray.hide" xml:space="preserve">
         <source>Hide Mozilla VPN</source>
+        <target>Ẩn Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.location2">
+      <trans-unit id="vpn.systray.location2" xml:space="preserve">
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
+        <target>%1, %2</target>
         <source>%1, %2</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.preferences">
+      <trans-unit id="vpn.systray.preferences" xml:space="preserve">
         <source>Preferences…</source>
+        <target>Tùy chỉnh…</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.quit">
+      <trans-unit id="vpn.systray.quit" xml:space="preserve">
         <source>Quit Mozilla VPN</source>
+        <target>Thoát Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.show">
+      <trans-unit id="vpn.systray.show" xml:space="preserve">
         <source>Show Mozilla VPN</source>
+        <target>Hiện Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnectTo">
+      <trans-unit id="vpn.systray.statusConnectTo" xml:space="preserve">
         <source>Connect to the last location:</source>
+        <target>Kết nối đến vị trí cuối cùng:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnectedTo">
+      <trans-unit id="vpn.systray.statusConnectedTo" xml:space="preserve">
         <source>Connected to:</source>
+        <target>Đã kết nối đến:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnectingTo">
+      <trans-unit id="vpn.systray.statusConnectingTo" xml:space="preserve">
         <source>Connecting to:</source>
+        <target>Đang kết nối đến:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnectingFrom">
+      <trans-unit id="vpn.systray.statusDisconnectingFrom" xml:space="preserve">
         <source>Disconnecting from:</source>
+        <target>Đang ngắt kết nối khỏi:</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.allow">
+      <trans-unit id="vpn.telemetryPolicyView.allow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Cho phép trên thiết bị này</target>
         <source>Allow on this device</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.dataCollectionAndUse">
+      <trans-unit id="vpn.telemetryPolicyView.dataCollectionAndUse" xml:space="preserve">
         <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
+        <target>Thu thập và sử dụng dữ liệu</target>
         <source>Data collection and use</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.description">
+      <trans-unit id="vpn.telemetryPolicyView.description" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
+        <target>Chúng tôi nỗ lực cung cấp cho bạn các lựa chọn và chỉ thu thập dữ liệu chúng tôi cần để cải thiện Mozilla VPN. Chia sẻ dữ liệu này với Mozilla là không bắt buộc.</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.doNotAllow">
+      <trans-unit id="vpn.telemetryPolicyView.doNotAllow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Không cho phép</target>
         <source>Don’t allow</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.learnMore">
+      <trans-unit id="vpn.telemetryPolicyView.learnMore" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
+        <target>Tìm hiểu thêm về dữ liệu Mozilla thu thập và cách sử dụng dữ liệu đó.</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.question">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.shareTechnicalData">
+      <trans-unit id="vpn.telemetryPolicyView.shareTechnicalData" xml:space="preserve">
         <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
+        <target>Chia sẻ dữ liệu kỹ thuật</target>
         <source>Share technical data</source>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.actionNoUpdate">
+      <trans-unit id="vpn.updateButton.actionNoUpdate" xml:space="preserve">
         <source>Okay</source>
+        <target>OK</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.actionOnUpdate">
+      <trans-unit id="vpn.updateButton.actionOnUpdate" xml:space="preserve">
         <source>Update now</source>
+        <target>Cập nhật ngay</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.checkForUpdateButtonText">
+      <trans-unit id="vpn.updateButton.checkForUpdateButtonText" xml:space="preserve">
         <source>Check for Updates</source>
+        <target>Kiểm tra cập nhật</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.descriptionNoUpdate2">
+      <trans-unit id="vpn.updateButton.descriptionNoUpdate2" xml:space="preserve">
         <source>You currently have the latest version of Mozilla VPN</source>
+        <target>Bạn đang sử dụng phiên bản Mozilla VPN mới nhất</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.descriptionOnUpdate">
+      <trans-unit id="vpn.updateButton.descriptionOnUpdate" xml:space="preserve">
         <source>Click to update to the latest version of the application</source>
+        <target>Nhấp để cập nhật phiên bản mới nhất của ứng dụng</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.titleNoUpdate">
+      <trans-unit id="vpn.updateButton.titleNoUpdate" xml:space="preserve">
         <source>You are up to date</source>
+        <target>Bạn đã được cập nhật</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.titleOnUpdate">
+      <trans-unit id="vpn.updateButton.titleOnUpdate" xml:space="preserve">
         <source>Updates available</source>
+        <target>Đã có bản cập nhật</target>
       </trans-unit>
     </body>
   </file>
