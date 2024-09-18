@@ -1636,7 +1636,7 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.privacySlideHeader" xml:space="preserve">
         <source>Get more privacy</source>
-        <target>Sự riêng tư tốt hơn</target>
+        <target>Quyền riêng tư tốt hơn</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete">
         <note annotates="source" from="developer">Accessibility read out for completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
@@ -1650,52 +1650,66 @@
         <note annotates="source" from="developer">Accessibility read out for incomplete future steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3)</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAddDevices">
+      <trans-unit id="vpn.onboarding.progressBarAddDevices" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step where users find out how to install Mozilla VPN on other devices</note>
+        <target>Thiết bị</target>
         <source>Devices</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarConnect">
+      <trans-unit id="vpn.onboarding.progressBarConnect" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step where users can grant permission to create a VPN configuration with the system</note>
+        <target>Kết nối</target>
         <source>Connect</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarDataUse">
+      <trans-unit id="vpn.onboarding.progressBarDataUse" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step where users can select to enable data collection</note>
+        <target>Dữ liệu</target>
         <source>Data</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarMorePrivacy">
+      <trans-unit id="vpn.onboarding.progressBarMorePrivacy" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step where users can select to enable various privacy settings</note>
+        <target>Riêng tư</target>
         <source>Privacy</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarStartup">
+      <trans-unit id="vpn.onboarding.progressBarStartup" xml:space="preserve">
         <note annotates="source" from="developer">Label for onboarding progress bar step where users can select to enable VPN startup on device boot</note>
+        <target>Khởi động</target>
         <source>Startup</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideAllowButtonLabel">
+      <trans-unit id="vpn.onboarding.startSlideAllowButtonLabel" xml:space="preserve">
         <source>Allow VPN connection</source>
+        <target>Cho phép kết nối VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideBody">
+      <trans-unit id="vpn.onboarding.startSlideBody" xml:space="preserve">
         <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
+        <target>Bật để khởi chạy VPN bất cứ khi nào bạn khởi động thiết bị của mình. Chúng tôi sẽ tự động kết nối lại bạn với cùng vị trí máy chủ mà bạn sử dụng lần cuối.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideBody2">
+      <trans-unit id="vpn.onboarding.startSlideBody2" xml:space="preserve">
         <source>Launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
+        <target>Khởi động VPN bất cứ khi nào bạn khởi động thiết bị của mình. Chúng tôi sẽ tự động kết nối lại bạn với cùng vị trí máy chủ mà bạn sử dụng lần cuối.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideHeader">
+      <trans-unit id="vpn.onboarding.startSlideHeader" xml:space="preserve">
         <source>Connect Mozilla VPN on startup</source>
+        <target>Kết nối Mozilla VPN khi khởi động</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideMobileBody">
+      <trans-unit id="vpn.onboarding.startSlideMobileBody" xml:space="preserve">
         <source>Your mobile device will now ask you to allow Mozilla VPN to create a connection. Please allow this so that the VPN works correctly on your device.</source>
+        <target>Thiết bị di động của bạn bây giờ sẽ yêu cầu bạn cho phép Mozilla VPN tạo kết nối. Vui lòng cho phép điều này để VPN hoạt động chính xác trên thiết bị của bạn.</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideMobileHeader">
+      <trans-unit id="vpn.onboarding.startSlideMobileHeader" xml:space="preserve">
         <source>Allow Mozilla VPN to create a VPN connection</source>
+        <target>Cho phép Mozilla VPN tạo kết nối VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.paymentMethods.amex">
+      <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
         <source>American Express</source>
+        <target>American Express</target>
       </trans-unit>
-      <trans-unit id="vpn.paymentMethods.diners">
+      <trans-unit id="vpn.paymentMethods.diners" xml:space="preserve">
         <source>Diners Club</source>
+        <target>Diners Club</target>
       </trans-unit>
-      <trans-unit id="vpn.paymentMethods.discover">
+      <trans-unit id="vpn.paymentMethods.discover" xml:space="preserve">
         <source>Discover</source>
+        <target>Discover</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.iapApple">
         <source>Apple subscription</source>
@@ -1703,89 +1717,113 @@
       <trans-unit id="vpn.paymentMethods.iapGoogle">
         <source>Google subscription</source>
       </trans-unit>
-      <trans-unit id="vpn.paymentMethods.jcb">
+      <trans-unit id="vpn.paymentMethods.jcb" xml:space="preserve">
         <source>JCB</source>
+        <target>JCB</target>
       </trans-unit>
-      <trans-unit id="vpn.paymentMethods.mastercard">
+      <trans-unit id="vpn.paymentMethods.mastercard" xml:space="preserve">
         <source>Mastercard</source>
+        <target>Mastercard</target>
       </trans-unit>
-      <trans-unit id="vpn.paymentMethods.paypal">
+      <trans-unit id="vpn.paymentMethods.paypal" xml:space="preserve">
         <source>PayPal</source>
+        <target>PayPal</target>
       </trans-unit>
-      <trans-unit id="vpn.paymentMethods.unionpay">
+      <trans-unit id="vpn.paymentMethods.unionpay" xml:space="preserve">
         <source>UnionPay</source>
+        <target>UnionPay</target>
       </trans-unit>
-      <trans-unit id="vpn.paymentMethods.visa">
+      <trans-unit id="vpn.paymentMethods.visa" xml:space="preserve">
         <source>Visa</source>
+        <target>Visa</target>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.headline">
+      <trans-unit id="vpn.postAuthentication.headline" xml:space="preserve">
         <source>Quick access</source>
+        <target>Truy cập nhanh</target>
       </trans-unit>
-      <trans-unit id="vpn.postAuthentication.subtitle">
+      <trans-unit id="vpn.postAuthentication.subtitle" xml:space="preserve">
         <source>You can quickly access Mozilla VPN from your status bar.</source>
+        <target>Bạn có thể nhanh chóng truy cập Mozilla VPN từ thanh trạng thái của mình.</target>
       </trans-unit>
-      <trans-unit id="vpn.product.description">
+      <trans-unit id="vpn.product.description" xml:space="preserve">
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
+        <target>Một VPN nhanh, an toàn và dễ sử dụng. Được xây dựng bởi các nhà sản xuất Firefox.</target>
       </trans-unit>
-      <trans-unit id="vpn.product.name">
+      <trans-unit id="vpn.product.name" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.purchase.percentSaved">
+      <trans-unit id="vpn.purchase.percentSaved" xml:space="preserve">
         <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan</note>
+        <target>Tiết kiệm %1%</target>
         <source>Save %1%</source>
       </trans-unit>
-      <trans-unit id="vpn.purchase.subscribeNow">
+      <trans-unit id="vpn.purchase.subscribeNow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>Đăng ký ngay</target>
         <source>Subscribe now</source>
       </trans-unit>
-      <trans-unit id="vpn.purchase.subscriptionOption">
+      <trans-unit id="vpn.purchase.subscriptionOption" xml:space="preserve">
         <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <target>Gói %1 tháng: %2</target>
         <source>%1-month plan: %2</source>
       </trans-unit>
-      <trans-unit id="vpn.purchaseWeb.inProgress2">
+      <trans-unit id="vpn.purchaseWeb.inProgress2" xml:space="preserve">
         <source>Please continue subscribing in your browser…</source>
+        <target>Vui lòng tiếp tục đăng ký trong trình duyệt của bạn…</target>
       </trans-unit>
-      <trans-unit id="vpn.purchaseWeb.message">
+      <trans-unit id="vpn.purchaseWeb.message" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the user’s email address.</note>
+        <target>Chúng tôi không thể tìm thấy thuê bao cho %1. Đăng ký ngay để bảo vệ kết nối của bạn.</target>
         <source>We couldn’t find a subscription for %1. Subscribe now to protect your connection.</source>
       </trans-unit>
-      <trans-unit id="vpn.purchaseWeb.title">
+      <trans-unit id="vpn.purchaseWeb.title" xml:space="preserve">
         <source>Subscribe to Mozilla VPN</source>
+        <target>Đăng ký Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.body1">
+      <trans-unit id="vpn.resetSettings.body1" xml:space="preserve">
         <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
+        <target>Thao tác này sẽ đặt lại tất cả cài đặt VPN, bao gồm:</target>
         <source>This will reset all VPN settings, including:</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.body2">
+      <trans-unit id="vpn.resetSettings.body2" xml:space="preserve">
         <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
+        <target>Việc đặt lại VPN sẽ đăng xuất tài khoản của bạn, nhưng sẽ không bị xóa.</target>
         <source>Resetting the VPN will sign you out, but your account will not be deleted.</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.confirmResetModalBody">
+      <trans-unit id="vpn.resetSettings.confirmResetModalBody" xml:space="preserve">
         <note annotates="source" from="developer">Body of the modal where users can confirm they want to restore back to factory settings</note>
+        <target>Đặt lại cài đặt Mozilla VPN? Không thể hoàn tác việc này.</target>
         <source>Reset Mozilla VPN settings? This can’t be undone.</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.confirmResetModalResetButtonLabel">
+      <trans-unit id="vpn.resetSettings.confirmResetModalResetButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that finalizes a restore to factory settings</note>
+        <target>Đặt lại và thoát</target>
         <source>Reset and quit</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.confirmResetModalTitle">
+      <trans-unit id="vpn.resetSettings.confirmResetModalTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title of the modal where users can confirm they want to restore back to factory settings</note>
+        <target>Xác nhận đặt lại</target>
         <source>Confirm reset</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.listItemPreferences">
+      <trans-unit id="vpn.resetSettings.listItemPreferences" xml:space="preserve">
         <note annotates="source" from="developer">Item in a bulleted list denoting what will be deleted if the user opts to factory reset the client</note>
+        <target>Tùy chỉnh</target>
         <source>Preferences</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.resetButtonLabel">
+      <trans-unit id="vpn.resetSettings.resetButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that initiates a restore to factory settings</note>
+        <target>Đặt lại VPN</target>
         <source>Reset VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.resetLabel">
+      <trans-unit id="vpn.resetSettings.resetLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for button that takes the user to the factory reset flow</note>
+        <target>Đặt lại VPN</target>
         <source>Reset VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.title">
+      <trans-unit id="vpn.resetSettings.title" xml:space="preserve">
         <note annotates="source" from="developer">Title of the screen where users go to reset the VPN to factory settings</note>
+        <target>Đặt lại Mozilla VPN</target>
         <source>Reset Mozilla VPN</source>
       </trans-unit>
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton">
