@@ -1829,182 +1829,234 @@
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton">
         <source>Already a subscriber?</source>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText2">
+      <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText2" xml:space="preserve">
         <source>Sorry, we are unable to connect your Mozilla account to a current subscription. Please try again or contact our support team for further assistance.</source>
+        <target>Rất tiếc, chúng tôi không thể kết nối tài khoản Mozilla của bạn với gói thuê bao hiện tại. Vui lòng thử lại hoặc liên hệ với nhóm hỗ trợ của chúng tôi để được hỗ trợ thêm.</target>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText">
+      <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText" xml:space="preserve">
         <source>Sorry, we were unable to confirm your subscription. Please try again or contact our support team for help.</source>
+        <target>Rất tiếc, chúng tôi không thể xác nhận thuê bao của bạn. Vui lòng thử lại hoặc liên hệ với nhóm hỗ trợ của chúng tôi để được trợ giúp.</target>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText2">
+      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText2" xml:space="preserve">
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
+        <target>Một tài khoản Mozilla khác đã đăng ký bằng ID Apple này. Vui lòng đăng xuất và thử lại hoặc liên hệ với nhóm hỗ trợ của chúng tôi để được trợ giúp.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.bodyText">
+      <trans-unit id="vpn.serverUnavailableModal.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Choose a new location.</source>
+        <target>Vị trí máy chủ này tạm thời không khả dụng. Hãy chọn một vị trí mới.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.buttonLabel">
+      <trans-unit id="vpn.serverUnavailableModal.buttonLabel" xml:space="preserve">
         <source>Choose a new location</source>
+        <target>Chọn một vị trí mới</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.headerText">
+      <trans-unit id="vpn.serverUnavailableModal.headerText" xml:space="preserve">
         <source>Server unavailable</source>
+        <target>Máy chủ không khả dụng</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
+      <trans-unit id="vpn.serverUnavailableNotification.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
+        <target>Vị trí máy chủ này tạm thời không khả dụng. Vui lòng mở ứng dụng để chọn vị trí mới.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
+      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked" xml:space="preserve">
         <source>The server has been blocked. Check your firewall settings.</source>
+        <target>Máy chủ đã bị chặn. Hãy kiểm tra cài đặt tường lửa của bạn.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel">
+      <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel" xml:space="preserve">
         <source>Server unavailable notification</source>
+        <target>Thông báo máy chủ không khả dụng</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel">
+      <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel" xml:space="preserve">
         <source>Get notified when connecting to a server location failed</source>
+        <target>Nhận thông báo khi kết nối đến vị trí máy chủ không thành công</target>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedEmptyLabel">
+      <trans-unit id="vpn.serversView.recommendedEmptyLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
+        <target>Để xem các vị trí máy chủ được đề xuất, hãy tắt VPN.</target>
         <source>To see recommended server locations, turn off the VPN.</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshLabel">
+      <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that triggers a refresh of the recommended servers list.</note>
+        <target>Làm mới danh sách</target>
         <source>Refresh list</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel">
+      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel" xml:space="preserve">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated and instructions to re-enable the refresh button. Argument is the time or date/day</note>
+        <target>Cập nhật lần cuối: %1. Để cập nhật danh sách này, vui lòng ngắt kết nối khỏi VPN.</target>
         <source>Last updated: %1. To update this list please disconnect from the VPN.</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabel">
+      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabel" xml:space="preserve">
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated. Argument is the time or date/day</note>
+        <target>Cập nhật lần cuối: %1.</target>
         <source>Last updated: %1.</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabelYesterday">
+      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabelYesterday" xml:space="preserve">
         <source>yesterday</source>
+        <target>hôm qua</target>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel">
+      <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel" xml:space="preserve">
         <note annotates="source" from="developer">Loading string while recommended servers are being calculated. Argument is the percentage of completion as an integer (i.e. 25)</note>
+        <target>Đang kiểm tra (%1%)…</target>
         <source>Checking (%1%)…</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.searchNoResultsLabel">
+      <trans-unit id="vpn.serversView.searchNoResultsLabel" xml:space="preserve">
         <source>No results. Try a different search</source>
+        <target>Không có kết quả. Hãy thử tìm kiếm khác</target>
       </trans-unit>
-      <trans-unit id="vpn.serversView.searchPlaceholder">
+      <trans-unit id="vpn.serversView.searchPlaceholder" xml:space="preserve">
         <source>Search countries</source>
+        <target>Tìm kiếm quốc gia</target>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithGoodConnection">
+      <trans-unit id="vpn.serversView.serverCityWithGoodConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is good. Argument is the city name.</note>
+        <target>%1. Kết nối tốt</target>
         <source>%1. Good connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithModerateConnection">
+      <trans-unit id="vpn.serversView.serverCityWithModerateConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is moderate. Argument is the city name.</note>
+        <target>%1. Kết nối trung bình</target>
         <source>%1. Moderate connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithNoConnection">
+      <trans-unit id="vpn.serversView.serverCityWithNoConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is unavailable. Argument is the city name.</note>
+        <target>%1. Không có kết nối</target>
         <source>%1. No connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithPoorConnection">
+      <trans-unit id="vpn.serversView.serverCityWithPoorConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is poor. Argument is the city name.</note>
+        <target>%1. Kết nối kém</target>
         <source>%1. Poor connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.tabAllLabel">
+      <trans-unit id="vpn.serversView.tabAllLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the “all” servers tab</note>
+        <target>Tất cả</target>
         <source>All</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.tabRecommendedLabel">
+      <trans-unit id="vpn.serversView.tabRecommendedLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the “recommended” servers tab</note>
+        <target>Được đề xuất</target>
         <source>Recommended</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.appExclusionClearAllApps">
+      <trans-unit id="vpn.settings.appExclusionClearAllApps" xml:space="preserve">
         <note annotates="source" from="developer">Button label to clear all apps from the exclusions list</note>
+        <target>Xóa tất cả</target>
         <source>Clear all</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.appExclusionSettings">
+      <trans-unit id="vpn.settings.appExclusionSettings" xml:space="preserve">
         <source>App exclusions</source>
+        <target>Loại trừ ứng dụng</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.appPreferences">
+      <trans-unit id="vpn.settings.appPreferences" xml:space="preserve">
         <source>App preferences</source>
+        <target>Tùy chỉnh ứng dụng</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.crashOptInDescription">
+      <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
+        <target>Cho phép Mozilla VPN tự động gửi báo cáo sự cố để giúp khắc phục sự cố không mong muốn</target>
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
       </trans-unit>
       <trans-unit id="vpn.settings.dataCollectionDescription">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettings">
+      <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
         <source>DNS settings</source>
+        <target>Cài đặt DNS</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody">
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody" xml:space="preserve">
         <source>Resolve websites using a custom DNS</source>
+        <target>Giải quyết trang web sử dụng DNS tùy chỉnh</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsCustomDNSError">
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSError" xml:space="preserve">
         <source>Invalid DNS, please try a new one</source>
+        <target>DNS không hợp lệ, hãy thử DNS mới</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle">
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle" xml:space="preserve">
         <source>Use custom DNS</source>
+        <target>Sử dụng DNS tùy chỉnh</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning">
+      <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning" xml:space="preserve">
         <source>Changing these settings will cause the VPN to disconnect and reconnect automatically.</source>
+        <target>Việc thay đổi cài đặt này sẽ khiến VPN ngắt kết nối và tự động kết nối lại.</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder">
+      <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder" xml:space="preserve">
         <source>Enter custom DNS</source>
+        <target>Nhập DNS tùy chỉnh</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody">
+      <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody" xml:space="preserve">
         <source>Resolve websites using Mozilla VPN’s standard DNS</source>
+        <target>Giải quyết trang web sử dụng DNS tiêu chuẩn của Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle">
+      <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle" xml:space="preserve">
         <source>Use standard DNS</source>
+        <target>Sử dụng DNS tiêu chuẩn</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsWarning">
+      <trans-unit id="vpn.settings.dnsSettingsWarning" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
+        <target>Tùy chọn này có thể khiến một số trang web bị hỏng hoặc không hiển thị nội dung chính xác.</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.preferencesSettings">
+      <trans-unit id="vpn.settings.preferencesSettings" xml:space="preserve">
         <source>Preferences</source>
+        <target>Tùy chỉnh</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyAdblockBody">
+      <trans-unit id="vpn.settings.privacyAdblockBody" xml:space="preserve">
         <source>Reduces the number of ads you see when you’re using VPN</source>
+        <target>Giảm số lượng quảng cáo bạn nhìn thấy khi sử dụng VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyAdblockTitle">
+      <trans-unit id="vpn.settings.privacyAdblockTitle" xml:space="preserve">
         <source>Block ads</source>
+        <target>Chặn quảng cáo</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyCard">
+      <trans-unit id="vpn.settings.privacyCard" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
+        <target>Các tùy chọn này có thể khiến một số trang web bị hỏng hoặc không hiển thị nội dung chính xác.</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyMalwareBody2">
+      <trans-unit id="vpn.settings.privacyMalwareBody2" xml:space="preserve">
         <source>Helps protect you from ransomware, phishing, spyware, and viruses</source>
+        <target>Giúp bảo vệ bạn khỏi phần mềm tống tiền, lừa đảo, phần mềm gián điệp và virus</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyMalwareTitle">
+      <trans-unit id="vpn.settings.privacyMalwareTitle" xml:space="preserve">
         <source>Block malware</source>
+        <target>Chặn phần mềm độc hại</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacySettings" xml:space="preserve">
         <source>Privacy features</source>
         <target>Tính năng quyền riêng tư</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyTrackerBody">
+      <trans-unit id="vpn.settings.privacyTrackerBody" xml:space="preserve">
         <source>Fewer harmful domains will be able to track you</source>
+        <target>Sẽ có ít tên miền độc hại hơn có thể theo dõi bạn</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyTrackerTitle">
+      <trans-unit id="vpn.settings.privacyTrackerTitle" xml:space="preserve">
         <source>Block trackers</source>
+        <target>Chặn theo dõi</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.shareTechnicalDataDescription">
+      <trans-unit id="vpn.settings.shareTechnicalDataDescription" xml:space="preserve">
         <source>Help improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data.</source>
+        <target>Giúp cải thiện Mozilla VPN bằng cách chia sẻ báo cáo sự cố, chẩn đoán và dữ liệu sử dụng sản phẩm.</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.startAtBootSubtitle">
+      <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
         <source>Mozilla VPN will launch and connect when you start up your device</source>
+        <target>Mozilla VPN sẽ khởi chạy và kết nối khi bạn khởi động thiết bị của mình</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.startAtBootTitle">
+      <trans-unit id="vpn.settings.startAtBootTitle" xml:space="preserve">
         <note annotates="source" from="developer">Startup refers to a device's startup, not the VPN client's.</note>
+        <target>Kết nối VPN khi khởi động</target>
         <source>Connect VPN on startup</source>
       </trans-unit>
-      <trans-unit id="vpn.settingsDev.restartRequired">
+      <trans-unit id="vpn.settingsDev.restartRequired" xml:space="preserve">
         <source>VPN must be restarted to take effect</source>
+        <target>VPN phải được khởi động lại để có hiệu lực</target>
       </trans-unit>
-      <trans-unit id="vpn.settingsDev.showOptionSubtitle">
+      <trans-unit id="vpn.settingsDev.showOptionSubtitle" xml:space="preserve">
         <source>Show or hide the developer options menu</source>
+        <target>Hiển thị hoặc ẩn menu tùy chọn nhà phát triển</target>
       </trans-unit>
-      <trans-unit id="vpn.settingsDev.showOptionTitle">
+      <trans-unit id="vpn.settingsDev.showOptionTitle" xml:space="preserve">
         <source>Show Developer Options</source>
+        <target>Hiển thị tùy chọn nhà phát triển</target>
       </trans-unit>
-      <trans-unit id="vpn.settingsDev.title">
+      <trans-unit id="vpn.settingsDev.title" xml:space="preserve">
         <source>Developer Options</source>
+        <target>Tùy chọn nhà phát triển</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.useStagingSubtitle">
         <source>Staging services are used to test features before they go live to production</source>
