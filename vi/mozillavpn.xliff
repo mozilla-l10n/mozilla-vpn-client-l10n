@@ -1104,69 +1104,86 @@
         <target>Mã bảo mật</target>
         <source>Security code</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.securityCodeSubtitle">
+      <trans-unit id="vpn.inAppAuth.securityCodeSubtitle" xml:space="preserve">
         <note annotates="source" from="developer">User is asked for a security code from their authentication app for verification.</note>
+        <target>Mở ứng dụng xác thực của bạn và nhập mã bảo mật mà ứng dụng cung cấp.</target>
         <source>Open your authentication app and enter the security code it provides.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.securityCodeTitle">
+      <trans-unit id="vpn.inAppAuth.securityCodeTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title for app screen asking user for their security code.</note>
+        <target>Nhập mã bảo mật</target>
         <source>Enter security code</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.sessionEmailCodeInputPlaceholder">
+      <trans-unit id="vpn.inAppAuth.sessionEmailCodeInputPlaceholder" xml:space="preserve">
         <note annotates="source" from="developer">Placeholder text for input element asking user for 6-digit verification code from their email.</note>
+        <target>Nhập mã gồm 6 chữ số</target>
         <source>Enter 6-digit code</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.showPassword">
+      <trans-unit id="vpn.inAppAuth.showPassword" xml:space="preserve">
         <note annotates="source" from="developer">Tooltip label for the eye icon in password input</note>
+        <target>Hiện mật khẩu</target>
         <source>Show password</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.signInBlockedForOneMinute">
+      <trans-unit id="vpn.inAppAuth.signInBlockedForOneMinute" xml:space="preserve">
         <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 1 minute until they can try again.</note>
+        <target>Bạn đã thử đăng nhập quá nhiều lần. Bạn sẽ không thể thử lại bằng tài khoản này trong 1 phút.</target>
         <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 1 minute.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.signInButton">
+      <trans-unit id="vpn.inAppAuth.signInButton" xml:space="preserve">
         <source>Sign in</source>
+        <target>Đăng nhập</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.signInFailedPopupDescription">
+      <trans-unit id="vpn.inAppAuth.signInFailedPopupDescription" xml:space="preserve">
         <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 15 minutes until they can try again.</note>
+        <target>Bạn đã thử đăng nhập quá nhiều lần. Bạn sẽ không thể thử lại bằng tài khoản này trong 15 phút.</target>
         <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 15 minutes.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.signInFailedPopupTitle">
+      <trans-unit id="vpn.inAppAuth.signInFailedPopupTitle" xml:space="preserve">
         <source>Sign-in failed</source>
+        <target>Đăng nhập không thành công</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.signInSubtitle2">
+      <trans-unit id="vpn.inAppAuth.signInSubtitle2" xml:space="preserve">
         <source>Continue to Mozilla VPN by signing in with your Mozilla account</source>
+        <target>Tiếp tục với Mozilla VPN bằng cách đăng nhập bằng tài khoản Mozilla của bạn</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionHeader">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionHeader" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. This is the header on the error screen.</note>
+        <target>Tạo một mật khẩu</target>
         <source>Create a password</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine1">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine1" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
+        <target>Để hoàn tất thiết lập tài khoản Mozilla của bạn, hãy tạo mật khẩu trong cài đặt tài khoản của bạn:</target>
         <source>To finish setting up your Mozilla account, create a password in your account settings:</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine2a">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine2a" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. Do not remove or translate the markup '&lt;a href="open-account"&gt;'.</note>
+        <target>1. Đi đến &lt;a href="open-account"&gt;Tạo mật khẩu&lt;/a&gt; irong cài đặt tài khoản Mozilla của bạn.</target>
         <source>1. Go to &lt;a href="open-account"&gt;Create password&lt;/a&gt; in your Mozilla account settings.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine3">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine3" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
+        <target>2. Tạo mật khẩu.</target>
         <source>2. Create a password.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine4">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine4" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
+        <target>Khi mật khẩu của bạn được tạo, hãy quay lại màn hình này và tiếp tục đăng nhập vào Mozilla VPN.</target>
         <source>When your password is created, return to this screen and continue to sign in to Mozilla VPN.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.stubAccountVerificationHeader">
+      <trans-unit id="vpn.inAppAuth.stubAccountVerificationHeader" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log into a Mozilla account before setting their password, which happens after email verification. This is the header on the error screen.</note>
+        <target>Kiểm tra email của bạn</target>
         <source>Check your email</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.stubAccountVerificationInstruction">
+      <trans-unit id="vpn.inAppAuth.stubAccountVerificationInstruction" xml:space="preserve">
         <note annotates="source" from="developer">User has tried to log into a Mozilla account before setting their password, which happens after email verification. %1 is the email address associated with the account.</note>
+        <target>Chúng tôi đã gửi email tới %1 kèm theo liên kết xác minh. Vui lòng làm theo hướng dẫn để thiết lập mật khẩu và hoàn tất việc thiết lập tài khoản của bạn.</target>
         <source>We’ve sent an email to %1 with the verification link. Please follow the directions to set up your password and finish setting up your account.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.termsOfServiceAndPrivacyDisclaimer">
+      <trans-unit id="vpn.inAppAuth.termsOfServiceAndPrivacyDisclaimer" xml:space="preserve">
         <note annotates="source" from="developer">Do not remove or translate the markup '&lt;a href="terms-of-service"&gt;', '&lt;a href="privacy-notice"&gt;', '&lt;/a&gt;'.</note>
+        <target>Bằng cách tiếp tục, bạn đồng ý với &lt;a href="terms-of-service"&gt;điều khoản dịch vụ&lt;/a&gt; và &lt;a href="privacy-notice"&gt;thông báo về quyền riêng tư&lt;/a&gt;.</target>
         <source>By continuing, you agree to the &lt;a href="terms-of-service"&gt;Terms of Service&lt;/a&gt; and the &lt;a href="privacy-notice"&gt;Privacy Notice&lt;/a&gt;.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.unblockCodeInputPlaceholder" xml:space="preserve">
@@ -1360,20 +1377,25 @@
         <target>Ngôn ngữ hệ thống</target>
         <source>System language</source>
       </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.disabledSubLabel">
+      <trans-unit id="vpn.localNetworkAccess.disabledSubLabel" xml:space="preserve">
         <source>Access Apple CarPlay, AirDrop, AirPlay and local network devices like printers. The VPN must be off to edit this setting.</source>
+        <target>Truy cập Apple CarPlay, AirDrop, AirPlay và các thiết bị mạng cục bộ như máy in. Phải tắt VPN để chỉnh sửa cài đặt này.</target>
       </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.label">
+      <trans-unit id="vpn.localNetworkAccess.label" xml:space="preserve">
         <source>Local network access</source>
+        <target>Truy cập mạng cục bộ</target>
       </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.labelTitle">
+      <trans-unit id="vpn.localNetworkAccess.labelTitle" xml:space="preserve">
         <source>Exclude local network traffic</source>
+        <target>Loại trừ lưu lượng truy cập mạng cục bộ</target>
       </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.subLabel">
+      <trans-unit id="vpn.localNetworkAccess.subLabel" xml:space="preserve">
         <source>Access Apple CarPlay, AirDrop, AirPlay and local network devices like printers.</source>
+        <target>Truy cập Apple CarPlay, AirDrop, AirPlay và các thiết bị mạng cục bộ như máy in.</target>
       </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.vpnMustBeOff">
+      <trans-unit id="vpn.localNetworkAccess.vpnMustBeOff" xml:space="preserve">
         <source>VPN must be off to edit “Local network access”</source>
+        <target>Phải tắt VPN để chỉnh sửa “Truy cập mạng cục bộ”</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber">
         <source>Already a subscriber?</source>
@@ -1382,17 +1404,21 @@
         <source>A safe, reliable and fast VPN. Built by the makers of Firefox.</source>
         <target>VPN an toàn, đáng tin cậy và nhanh chóng. Được xây dựng bởi các nhà sản xuất Firefox.</target>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.panelOneTitle">
+      <trans-unit id="vpn.mobileOnboarding.panelOneTitle" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.signUpBtn">
+      <trans-unit id="vpn.mobileOnboarding.signUpBtn" xml:space="preserve">
         <source>Sign up</source>
+        <target>Đăng ký</target>
       </trans-unit>
-      <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader">
+      <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
+        <target>Sự cố khi xác nhận thuê bao</target>
       </trans-unit>
-      <trans-unit id="vpn.multiFxaAccountError.mozAccountErrorText">
+      <trans-unit id="vpn.multiFxaAccountError.mozAccountErrorText" xml:space="preserve">
         <source>Your subscription is linked to another Mozilla account. You may need to sign in with a different email address.</source>
+        <target>Thuê bao của bạn được liên kết với một tài khoản Mozilla khác. Bạn có thể cần phải đăng nhập bằng địa chỉ email khác.</target>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
@@ -1401,12 +1427,14 @@
         <note annotates="source" from="developer">Accessible label that is used for recent multi-hop server connections. “%1” represents the entry server and “%2” the exit server.</note>
         <source>%1 to %2</source>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText">
+      <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText" xml:space="preserve">
         <note annotates="source" from="developer">This is alt text for an arrow showing the multi-hop route between servers. e.g. Atlanta TO Copenhagen</note>
+        <target>Đến</target>
         <source>To</source>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader">
+      <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader" xml:space="preserve">
         <source>Recent connections</source>
+        <target>Kết nối gần đây</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopEntryLocationHeader">
         <source>Select entry location</source>
