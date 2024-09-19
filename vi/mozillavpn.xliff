@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="vpn.alert.getIPRestrictionError" xml:space="preserve">
         <source>Operation not allowed from current location</source>
-        <target>Thao tác không được phép từ vị trí hiện tại</target>
+        <target>Thao tác không được phép từ địa điểm hiện tại</target>
       </trans-unit>
       <trans-unit id="vpn.alert.remoteServiceError" xml:space="preserve">
         <source>Remote service error</source>
@@ -174,12 +174,12 @@
       </trans-unit>
       <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
-        <target>vị trí hiện tại - %1</target>
+        <target>địa điểm hiện tại - %1</target>
         <source>current location - %1</source>
       </trans-unit>
       <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
-        <target>Chọn vị trí</target>
+        <target>Chọn địa điểm</target>
         <source>Select location</source>
       </trans-unit>
     </body>
@@ -210,7 +210,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.activating" xml:space="preserve">
         <source>Masking connection and location</source>
-        <target>Đang che giấu kết nối và vị trí</target>
+        <target>Đang che giấu kết nối và địa điểm</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
         <source>Turn on to protect your privacy</source>
@@ -235,7 +235,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
         <source>Unmasking connection and location</source>
-        <target>Đang bỏ che giấu kết nối và vị trí</target>
+        <target>Đang bỏ che giấu kết nối và địa điểm</target>
       </trans-unit>
       <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
         <source>Disconnecting…</source>
@@ -461,11 +461,11 @@
         <source>Looks like there was an unexpected error while trying to connect. Please try again or check your connection.</source>
         <target>Có vẻ như đã xảy ra lỗi không mong muốn khi cố gắng kết nối. Vui lòng thử lại hoặc kiểm tra kết nối của bạn.</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.exitServerLabelIp" xml:space="preserve">
+      <trans-unit id="vpn.connectionInfo.exitServerLabelIp">
         <note annotates="source" from="developer">Exit server IP label for IPV4. IP is the abbreviation for Internet Procol. This is followed by the user’s IPv4 address.</note>
         <source>Exit Server IP:</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.exitServerLabelIpv6" xml:space="preserve">
+      <trans-unit id="vpn.connectionInfo.exitServerLabelIpv6">
         <note annotates="source" from="developer">Exit server IP label for IPv6. IPv6 is the abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
         <source>Exit Server IPv6:</source>
       </trans-unit>
@@ -526,7 +526,7 @@
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.listHeaderSlow" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
-        <target>Có vẻ như kết nối đến vị trí máy chủ này hơi chậm, bạn có thể thử:</target>
+        <target>Có vẻ như kết nối đến địa điểm máy chủ này hơi chậm, bạn có thể thử:</target>
         <source>It looks like the connection to this server location is a bit slow, you can try:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel" xml:space="preserve">
@@ -539,7 +539,7 @@
         <target>Duyệt internet</target>
         <source>Browsing the internet</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.mediumBulletThree" xml:space="preserve">
+      <trans-unit id="vpn.connectionInfo.mediumBulletThree">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
         <source>Video conferencing</source>
       </trans-unit>
@@ -563,11 +563,11 @@
         <target>Bắt đầu kiểm tra tốc độ</target>
         <source>Start speed test</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne" xml:space="preserve">
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
         <source>Switching server locations</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree" xml:space="preserve">
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section for multi-hop connections</note>
         <source>Switching back to a single-hop connection</source>
       </trans-unit>
@@ -878,7 +878,7 @@
         <target>Quản lý thiết bị</target>
         <source>Device management</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody1" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.dnsBody1">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
@@ -927,21 +927,21 @@
         <target>Loại trừ ứng dụng</target>
         <source>Excluded apps</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody1" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.locationBody1">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
         <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody2" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.locationBody2">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
         <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationHeader" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.locationHeader">
         <note annotates="source" from="developer">Header label for the location selection help sheet</note>
         <source>Single-hop vs multi-hop</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationTitle" xml:space="preserve">
         <note annotates="source" from="developer">Title label for the location selection help sheet</note>
-        <target>Lựa chọn vị trí</target>
+        <target>Lựa chọn địa điểm</target>
         <source>Location selection</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyBody1" xml:space="preserve">
@@ -1403,7 +1403,7 @@
         <source>VPN must be off to edit “Local network access”</source>
         <target>Phải tắt VPN để chỉnh sửa “Truy cập mạng cục bộ”</target>
       </trans-unit>
-      <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber" xml:space="preserve">
+      <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber">
         <source>Already a subscriber?</source>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle" xml:space="preserve">
@@ -1430,7 +1430,7 @@
         <source>Visit our help center to learn more about managing your subscriptions.</source>
         <target>Hãy truy cập trung tâm trợ giúp của chúng tôi để tìm hiểu thêm về cách quản lý thuê bao của bạn.</target>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection" xml:space="preserve">
+      <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection">
         <note annotates="source" from="developer">Accessible label that is used for recent multi-hop server connections. “%1” represents the entry server and “%2” the exit server.</note>
         <source>%1 to %2</source>
       </trans-unit>
@@ -1443,23 +1443,23 @@
         <source>Recent connections</source>
         <target>Kết nối gần đây</target>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopEntryLocationHeader" xml:space="preserve">
+      <trans-unit id="vpn.multiHopFeature.multiHopEntryLocationHeader">
         <source>Select entry location</source>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopExitLocationHeader" xml:space="preserve">
+      <trans-unit id="vpn.multiHopFeature.multiHopExitLocationHeader">
         <source>Select exit location</source>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopInfoText" xml:space="preserve">
+      <trans-unit id="vpn.multiHopFeature.multiHopInfoText">
         <source>Exit location represents your main VPN server.</source>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA" xml:space="preserve">
+      <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA">
         <source>Multi-hop</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
         <target>Không có kết quả. Hãy thử tìm kiếm khác</target>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA" xml:space="preserve">
+      <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA">
         <source>Single-hop</source>
       </trans-unit>
       <trans-unit id="vpn.navBar.homeTab" xml:space="preserve">
@@ -1467,7 +1467,7 @@
         <target>Trang chủ</target>
         <source>Home</source>
       </trans-unit>
-      <trans-unit id="vpn.navBar.messagesTab" xml:space="preserve">
+      <trans-unit id="vpn.navBar.messagesTab">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the messages inbox screen</note>
         <source>Messages</source>
       </trans-unit>
@@ -1476,7 +1476,7 @@
         <target>Cài đặt</target>
         <source>Settings</source>
       </trans-unit>
-      <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
+      <trans-unit id="vpn.networkSettings.multihopTitle">
         <source>Multi-hop tunnel</source>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText" xml:space="preserve">
@@ -1509,19 +1509,19 @@
         <source>VPN Disconnected</source>
         <target>Đã ngắt kết nối VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages" xml:space="preserve">
+      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
         <source>Connected through %1 via %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage" xml:space="preserve">
+      <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
         <source>Disconnected from %1 and %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
+      <trans-unit id="vpn.notifications.VPNSwitchedServersMessage">
         <note annotates="source" from="developer">%1 is the name of the initial server, %2 is the name of the destination server.</note>
         <source>Switched from %1 to %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNSwitchedServersTitle" xml:space="preserve">
+      <trans-unit id="vpn.notifications.VPNSwitchedServersTitle">
         <source>VPN Switched Servers</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
@@ -1645,15 +1645,15 @@
         <source>Get more privacy</source>
         <target>Quyền riêng tư tốt hơn</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete">
         <note annotates="source" from="developer">Accessibility read out for completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3). Select to go back to this step.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent">
         <note annotates="source" from="developer">Accessibility read out for the current step in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3). You are currently on this step.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete2" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete2">
         <note annotates="source" from="developer">Accessibility read out for incomplete future steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3)</source>
       </trans-unit>
@@ -1688,11 +1688,11 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideBody" xml:space="preserve">
         <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
-        <target>Bật để khởi chạy VPN bất cứ khi nào bạn khởi động thiết bị của mình. Chúng tôi sẽ tự động kết nối lại bạn với cùng vị trí máy chủ mà bạn sử dụng lần cuối.</target>
+        <target>Bật để khởi chạy VPN bất cứ khi nào bạn khởi động thiết bị của mình. Chúng tôi sẽ tự động kết nối lại bạn với cùng địa điểm máy chủ mà bạn sử dụng lần cuối.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideBody2" xml:space="preserve">
         <source>Launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
-        <target>Khởi động VPN bất cứ khi nào bạn khởi động thiết bị của mình. Chúng tôi sẽ tự động kết nối lại bạn với cùng vị trí máy chủ mà bạn sử dụng lần cuối.</target>
+        <target>Khởi động VPN bất cứ khi nào bạn khởi động thiết bị của mình. Chúng tôi sẽ tự động kết nối lại bạn với cùng địa điểm máy chủ mà bạn sử dụng lần cuối.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideHeader" xml:space="preserve">
         <source>Connect Mozilla VPN on startup</source>
@@ -1718,10 +1718,10 @@
         <source>Discover</source>
         <target>Discover</target>
       </trans-unit>
-      <trans-unit id="vpn.paymentMethods.iapApple" xml:space="preserve">
+      <trans-unit id="vpn.paymentMethods.iapApple">
         <source>Apple subscription</source>
       </trans-unit>
-      <trans-unit id="vpn.paymentMethods.iapGoogle" xml:space="preserve">
+      <trans-unit id="vpn.paymentMethods.iapGoogle">
         <source>Google subscription</source>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.jcb" xml:space="preserve">
@@ -1833,7 +1833,7 @@
         <target>Đặt lại Mozilla VPN</target>
         <source>Reset Mozilla VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
+      <trans-unit id="vpn.restorePurchase.restorePurchaseButton">
         <source>Already a subscriber?</source>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText2" xml:space="preserve">
@@ -1850,11 +1850,11 @@
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Choose a new location.</source>
-        <target>Vị trí máy chủ này tạm thời không khả dụng. Hãy chọn một vị trí mới.</target>
+        <target>Địa điểm máy chủ này tạm thời không khả dụng. Hãy chọn một địa điểm mới.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.buttonLabel" xml:space="preserve">
         <source>Choose a new location</source>
-        <target>Chọn một vị trí mới</target>
+        <target>Chọn một địa điểm mới</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.headerText" xml:space="preserve">
         <source>Server unavailable</source>
@@ -1862,7 +1862,7 @@
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyText" xml:space="preserve">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
-        <target>Vị trí máy chủ này tạm thời không khả dụng. Vui lòng mở ứng dụng để chọn vị trí mới.</target>
+        <target>Địa điểm máy chủ này tạm thời không khả dụng. Vui lòng mở ứng dụng để chọn địa điểm mới.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked" xml:space="preserve">
         <source>The server has been blocked. Check your firewall settings.</source>
@@ -1874,11 +1874,11 @@
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel" xml:space="preserve">
         <source>Get notified when connecting to a server location failed</source>
-        <target>Nhận thông báo khi kết nối đến vị trí máy chủ không thành công</target>
+        <target>Nhận thông báo khi kết nối đến địa điểm máy chủ không thành công</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedEmptyLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
-        <target>Để xem các vị trí máy chủ được đề xuất, hãy tắt VPN.</target>
+        <target>Để xem các địa điểm máy chủ được đề xuất, hãy tắt VPN.</target>
         <source>To see recommended server locations, turn off the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLabel" xml:space="preserve">
@@ -1952,7 +1952,7 @@
         <source>App exclusions</source>
         <target>Loại trừ ứng dụng</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.appExclusionTitle" xml:space="preserve">
+      <trans-unit id="vpn.settings.appExclusionTitle">
         <source>Excluded apps</source>
       </trans-unit>
       <trans-unit id="vpn.settings.appPreferences" xml:space="preserve">
@@ -1964,7 +1964,7 @@
         <target>Cho phép Mozilla VPN tự động gửi báo cáo sự cố để giúp khắc phục sự cố không mong muốn</target>
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
+      <trans-unit id="vpn.settings.dataCollectionDescription">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
@@ -2068,10 +2068,10 @@
         <source>Developer Options</source>
         <target>Tùy chọn nhà phát triển</target>
       </trans-unit>
-      <trans-unit id="vpn.settingsDev.useStagingSubtitle" xml:space="preserve">
+      <trans-unit id="vpn.settingsDev.useStagingSubtitle">
         <source>Staging services are used to test features before they go live to production</source>
       </trans-unit>
-      <trans-unit id="vpn.settingsDev.useStagingTitle" xml:space="preserve">
+      <trans-unit id="vpn.settingsDev.useStagingTitle">
         <source>Use Staging Servers</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoCardDescription" xml:space="preserve">
@@ -2079,7 +2079,7 @@
         <target>Phải tắt VPN để chỉnh sửa Loại trừ ứng dụng</target>
         <source>VPN must be off to edit App exclusions</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoCardDescription2" xml:space="preserve">
+      <trans-unit id="vpn.splittunnel.infoCardDescription2">
         <note annotates="source" from="developer">Displays inside the information card at the top of the Excluded apps screen when the VPN is on</note>
         <source>VPN must be off to edit Excluded apps</source>
       </trans-unit>
@@ -2221,7 +2221,7 @@
         <target>Trạng thái</target>
         <source>Status</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.subscriptionPlatformLabel" xml:space="preserve">
+      <trans-unit id="vpn.subscriptionManagement.subscriptionPlatformLabel">
         <note annotates="source" from="developer">The %1 represents the subscription platform. Values for %1 could be “Apple” or “Google” for example.</note>
         <source>%1 subscription</source>
       </trans-unit>
@@ -2271,7 +2271,7 @@
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnectTo" xml:space="preserve">
         <source>Connect to the last location:</source>
-        <target>Kết nối đến vị trí cuối cùng:</target>
+        <target>Kết nối đến địa điểm cuối cùng:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnectedTo" xml:space="preserve">
         <source>Connected to:</source>
@@ -2308,7 +2308,7 @@
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
         <target>Tìm hiểu thêm về dữ liệu Mozilla thu thập và cách sử dụng dữ liệu đó.</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
+      <trans-unit id="vpn.telemetryPolicyView.question">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.shareTechnicalData" xml:space="preserve">
