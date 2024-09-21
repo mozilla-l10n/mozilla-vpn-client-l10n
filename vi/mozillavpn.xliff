@@ -461,12 +461,14 @@
         <source>Looks like there was an unexpected error while trying to connect. Please try again or check your connection.</source>
         <target>Có vẻ như đã xảy ra lỗi không mong muốn khi cố gắng kết nối. Vui lòng thử lại hoặc kiểm tra kết nối của bạn.</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.exitServerLabelIp">
+      <trans-unit id="vpn.connectionInfo.exitServerLabelIp" xml:space="preserve">
         <note annotates="source" from="developer">Exit server IP label for IPV4. IP is the abbreviation for Internet Procol. This is followed by the user’s IPv4 address.</note>
+        <target>IP máy chủ đích:</target>
         <source>Exit Server IP:</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.exitServerLabelIpv6">
+      <trans-unit id="vpn.connectionInfo.exitServerLabelIpv6" xml:space="preserve">
         <note annotates="source" from="developer">Exit server IP label for IPv6. IPv6 is the abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
+        <target>IPv6 máy chủ đích:</target>
         <source>Exit Server IPv6:</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.highBulletOne" xml:space="preserve">
@@ -1446,11 +1448,13 @@
         <source>Recent connections</source>
         <target>Kết nối gần đây</target>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopEntryLocationHeader">
+      <trans-unit id="vpn.multiHopFeature.multiHopEntryLocationHeader" xml:space="preserve">
         <source>Select entry location</source>
+        <target>Chọn địa điểm trung gian</target>
       </trans-unit>
-      <trans-unit id="vpn.multiHopFeature.multiHopExitLocationHeader">
+      <trans-unit id="vpn.multiHopFeature.multiHopExitLocationHeader" xml:space="preserve">
         <source>Select exit location</source>
+        <target>Chọn địa điểm đích</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopInfoText">
         <source>Exit location represents your main VPN server.</source>
@@ -1973,8 +1977,9 @@
         <target>Cho phép Mozilla VPN tự động gửi báo cáo sự cố để giúp khắc phục sự cố không mong muốn</target>
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dataCollectionDescription">
+      <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
+        <target>Cho phép Mozilla VPN gửi dữ liệu kỹ thuật, tương tác, dữ liệu chiến dịch và giới thiệu tới Mozilla</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
         <source>DNS settings</source>
@@ -2321,8 +2326,9 @@
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
         <target>Tìm hiểu thêm về dữ liệu Mozilla thu thập và cách sử dụng dữ liệu đó.</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.question">
+      <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
+        <target>Cho phép Mozilla VPN gửi dữ liệu kỹ thuật, tương tác, dữ liệu chiến dịch và giới thiệu tới Mozilla?</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.shareTechnicalData" xml:space="preserve">
         <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
