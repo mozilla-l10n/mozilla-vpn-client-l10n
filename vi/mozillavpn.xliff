@@ -563,8 +563,9 @@
         <target>Bắt đầu kiểm tra tốc độ</target>
         <source>Start speed test</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne">
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
+        <target>Đang chuyển đổi địa điểm máy chủ</target>
         <source>Switching server locations</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree">
@@ -860,7 +861,7 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
-        <target>Thêm một thiết bị mới vào thuê bao của bạn thật dễ dàng: chỉ cần tải xuống và đăng nhập vào Mozilla VPN trên thiết bị đó.</target>
+        <target>Thêm một thiết bị mới vào gói đăng ký của bạn thật dễ dàng: chỉ cần tải xuống và đăng nhập vào Mozilla VPN trên thiết bị đó.</target>
         <source>Adding a new device to your subscription is easy: just download and log in to Mozilla VPN on that device.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesBody2" xml:space="preserve">
@@ -878,8 +879,9 @@
         <target>Quản lý thiết bị</target>
         <source>Device management</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody1">
+      <trans-unit id="vpn.helpSheets.dnsBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
+        <target>Khi bạn kết nối đến một trang web, DNS (hệ thống phân giải tên miền) trước tiên sẽ biến tên miền (ví dụ: www.mozilla.org) thành một địa chỉ IP cho phép lưu lượng truy cập internet của bạn đến đó.</target>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody2" xml:space="preserve">
@@ -1247,7 +1249,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.subscriptionBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about the user's subscription</note>
-        <target>Thuê bao</target>
+        <target>Gói đăng ký</target>
         <source>Subscription</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.surveyBadge" xml:space="preserve">
@@ -1405,7 +1407,7 @@
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber" xml:space="preserve">
         <source>Already a subscriber?</source>
-        <target>Đã có thuê bao?</target>
+        <target>Đã có gói đăng ký?</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle" xml:space="preserve">
         <source>A safe, reliable and fast VPN. Built by the makers of Firefox.</source>
@@ -1421,15 +1423,15 @@
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader" xml:space="preserve">
         <source>Problem confirming subscription</source>
-        <target>Sự cố khi xác nhận thuê bao</target>
+        <target>Sự cố khi xác nhận gói đăng ký</target>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.mozAccountErrorText" xml:space="preserve">
         <source>Your subscription is linked to another Mozilla account. You may need to sign in with a different email address.</source>
-        <target>Thuê bao của bạn được liên kết với một tài khoản Mozilla khác. Bạn có thể cần phải đăng nhập bằng địa chỉ email khác.</target>
+        <target>Gói đăng ký của bạn được liên kết với một tài khoản Mozilla khác. Bạn có thể cần phải đăng nhập bằng địa chỉ email khác.</target>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter" xml:space="preserve">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
-        <target>Hãy truy cập trung tâm trợ giúp của chúng tôi để tìm hiểu thêm về cách quản lý thuê bao của bạn.</target>
+        <target>Hãy truy cập trung tâm trợ giúp của chúng tôi để tìm hiểu thêm về cách quản lý gói đăng ký của bạn.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection">
         <note annotates="source" from="developer">Accessible label that is used for recent multi-hop server connections. “%1” represents the entry server and “%2” the exit server.</note>
@@ -1468,8 +1470,9 @@
         <target>Trang chủ</target>
         <source>Home</source>
       </trans-unit>
-      <trans-unit id="vpn.navBar.messagesTab">
+      <trans-unit id="vpn.navBar.messagesTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the messages inbox screen</note>
+        <target>Tin nhắn</target>
         <source>Messages</source>
       </trans-unit>
       <trans-unit id="vpn.navBar.settingsTab" xml:space="preserve">
@@ -1518,8 +1521,9 @@
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
         <source>Disconnected from %1 and %2</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.VPNSwitchedServersMessage">
+      <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the initial server, %2 is the name of the destination server.</note>
+        <target>Đã chuyển từ %1 sang %2</target>
         <source>Switched from %1 to %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersTitle">
@@ -1551,7 +1555,7 @@
       </trans-unit>
       <trans-unit id="vpn.notifications.subscriptionNotFound" xml:space="preserve">
         <source>Your Mozilla VPN subscription cannot be found. Please open the app to resolve this subscription issue.</source>
-        <target>Không thể tìm thấy thuê bao Mozilla VPN của bạn. Vui lòng mở ứng dụng để giải quyết vấn đề thuê bao này.</target>
+        <target>Không thể tìm thấy gói đăng ký Mozilla VPN của bạn. Vui lòng mở ứng dụng để giải quyết vấn đề gói đăng ký này.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
@@ -1719,11 +1723,13 @@
         <source>Discover</source>
         <target>Discover</target>
       </trans-unit>
-      <trans-unit id="vpn.paymentMethods.iapApple">
+      <trans-unit id="vpn.paymentMethods.iapApple" xml:space="preserve">
         <source>Apple subscription</source>
+        <target>Gói đăng ký tại Apple</target>
       </trans-unit>
-      <trans-unit id="vpn.paymentMethods.iapGoogle">
+      <trans-unit id="vpn.paymentMethods.iapGoogle" xml:space="preserve">
         <source>Google subscription</source>
+        <target>Gói đăng ký tại Google</target>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.jcb" xml:space="preserve">
         <source>JCB</source>
@@ -1782,7 +1788,7 @@
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.message" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the user’s email address.</note>
-        <target>Chúng tôi không thể tìm thấy thuê bao cho %1. Đăng ký ngay để bảo vệ kết nối của bạn.</target>
+        <target>Chúng tôi không thể tìm thấy gói đăng ký của %1. Đăng ký ngay để bảo vệ kết nối của bạn.</target>
         <source>We couldn’t find a subscription for %1. Subscribe now to protect your connection.</source>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.title" xml:space="preserve">
@@ -1834,16 +1840,17 @@
         <target>Đặt lại Mozilla VPN</target>
         <source>Reset Mozilla VPN</source>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchase.restorePurchaseButton">
+      <trans-unit id="vpn.restorePurchase.restorePurchaseButton" xml:space="preserve">
         <source>Already a subscriber?</source>
+        <target>Đã có gói đăng ký?</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText2" xml:space="preserve">
         <source>Sorry, we are unable to connect your Mozilla account to a current subscription. Please try again or contact our support team for further assistance.</source>
-        <target>Rất tiếc, chúng tôi không thể kết nối tài khoản Mozilla của bạn với gói thuê bao hiện tại. Vui lòng thử lại hoặc liên hệ với nhóm hỗ trợ của chúng tôi để được hỗ trợ thêm.</target>
+        <target>Rất tiếc, chúng tôi không thể kết nối tài khoản Mozilla của bạn với gói đăng ký hiện tại. Vui lòng thử lại hoặc liên hệ với nhóm hỗ trợ của chúng tôi để được hỗ trợ thêm.</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText" xml:space="preserve">
         <source>Sorry, we were unable to confirm your subscription. Please try again or contact our support team for help.</source>
-        <target>Rất tiếc, chúng tôi không thể xác nhận thuê bao của bạn. Vui lòng thử lại hoặc liên hệ với nhóm hỗ trợ của chúng tôi để được trợ giúp.</target>
+        <target>Rất tiếc, chúng tôi không thể xác nhận gói đăng ký của bạn. Vui lòng thử lại hoặc liên hệ với nhóm hỗ trợ của chúng tôi để được trợ giúp.</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText2" xml:space="preserve">
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
@@ -1953,8 +1960,9 @@
         <source>App exclusions</source>
         <target>Loại trừ ứng dụng</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.appExclusionTitle">
+      <trans-unit id="vpn.settings.appExclusionTitle" xml:space="preserve">
         <source>Excluded apps</source>
+        <target>Loại trừ ứng dụng</target>
       </trans-unit>
       <trans-unit id="vpn.settings.appPreferences" xml:space="preserve">
         <source>App preferences</source>
@@ -2080,8 +2088,9 @@
         <target>Phải tắt VPN để chỉnh sửa Loại trừ ứng dụng</target>
         <source>VPN must be off to edit App exclusions</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoCardDescription2">
+      <trans-unit id="vpn.splittunnel.infoCardDescription2" xml:space="preserve">
         <note annotates="source" from="developer">Displays inside the information card at the top of the Excluded apps screen when the VPN is on</note>
+        <target>Phải tắt VPN để chỉnh sửa Loại trừ ứng dụng</target>
         <source>VPN must be off to edit Excluded apps</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
@@ -2134,7 +2143,7 @@
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.manageSubscriptionButton" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will take the user to a view where they can manage their subscription.</note>
-        <target>Quản lí thuê bao</target>
+        <target>Quản lí gói đăng ký</target>
         <source>Manage subscription</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.menuTitle" xml:space="preserve">
@@ -2154,7 +2163,7 @@
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the selected subscription plan the user currently is subscribed to.</note>
-        <target>Gói thuê bao</target>
+        <target>Gói đăng ký</target>
         <source>Subscription plan</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planMonthly" xml:space="preserve">
@@ -2222,13 +2231,14 @@
         <target>Trạng thái</target>
         <source>Status</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.subscriptionPlatformLabel">
+      <trans-unit id="vpn.subscriptionManagement.subscriptionPlatformLabel" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents the subscription platform. Values for %1 could be “Apple” or “Google” for example.</note>
+        <target>Gói đăng ký tại %1</target>
         <source>%1 subscription</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.summaryHeadline" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list with information on the subscription plan of the user.</note>
-        <target>Tóm tắt thuê bao</target>
+        <target>Tóm tắt gói đăng ký</target>
         <source>Subscription summary</source>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual" xml:space="preserve">
