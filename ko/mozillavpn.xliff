@@ -1725,7 +1725,7 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideMobileBody" xml:space="preserve">
         <source>Your mobile device will now ask you to allow Mozilla VPN to create a connection. Please allow this so that the VPN works correctly on your device.</source>
-        <target>모바일 기기가 Mozilla VPN이 연결을 할 수 있도록 허용할지 묻습니다. 기기에서 VPN이 제대로 작동하도록 허용해 주세요.</target>
+        <target>모바일 기기가 Mozilla VPN에 연결을 할 수 있도록 허용할지 묻습니다. 기기에서 VPN이 제대로 작동하도록 허용해 주세요.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideMobileHeader" xml:space="preserve">
         <source>Allow Mozilla VPN to create a VPN connection</source>
@@ -1953,12 +1953,12 @@
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithNoConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is unavailable. Argument is the city name.</note>
-        <target>%1. 연결되지 않음</target>
+        <target>%1. 연결 할 수 없음</target>
         <source>%1. No connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.serverCityWithPoorConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is poor. Argument is the city name.</note>
-        <target>%1. 열악한 연결</target>
+        <target>%1. 나쁜 연결 상태</target>
         <source>%1. Poor connectivity</source>
       </trans-unit>
       <trans-unit id="vpn.serversView.tabAllLabel" xml:space="preserve">
@@ -1968,7 +1968,7 @@
       </trans-unit>
       <trans-unit id="vpn.serversView.tabRecommendedLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the “recommended” servers tab</note>
-        <target>추천</target>
+        <target>추천됨</target>
         <source>Recommended</source>
       </trans-unit>
       <trans-unit id="vpn.settings.appExclusionClearAllApps" xml:space="preserve">
@@ -1995,7 +1995,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
-        <target>Mozilla VPN이 기술, 상호 작용, 캠페인 및 추천 데이터를 Mozilla에 보내도록 허용</target>
+        <target>Mozilla VPN이 기술, 상호 작용, 캠페인 및 참조 데이터를 Mozilla에 보내도록 허용</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
         <source>DNS settings</source>
@@ -2003,11 +2003,11 @@
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody" xml:space="preserve">
         <source>Resolve websites using a custom DNS</source>
-        <target>사용자 지정 DNS를 사용하여 웹 사이트 확인</target>
+        <target>사용자 지정 DNS를 사용하여 웹 사이트 처리</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSError" xml:space="preserve">
         <source>Invalid DNS, please try a new one</source>
-        <target>유효하지 않은 DNS, 새로운 것으로 시도하세요</target>
+        <target>유효하지 않은 DNS입니다. 다른 것으로 시도해 보세요.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle" xml:space="preserve">
         <source>Use custom DNS</source>
@@ -2023,7 +2023,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody" xml:space="preserve">
         <source>Resolve websites using Mozilla VPN’s standard DNS</source>
-        <target>Mozilla VPN의 표준 DNS를 사용하여 웹사이트 확인</target>
+        <target>Mozilla VPN의 표준 DNS를 사용하여 웹사이트 처리</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle" xml:space="preserve">
         <source>Use standard DNS</source>
@@ -2031,7 +2031,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsWarning" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
-        <target>이러한 옵션으로 인해 일부 웹 사이트가 손상되거나 콘텐츠가 올바르게 표시되지 않을 수 있습니다.</target>
+        <target>이 옵션으로 인해 일부 웹 사이트가 깨지되거나 콘텐츠가 올바르게 표시되지 않을 수 있습니다.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.preferencesSettings" xml:space="preserve">
         <source>Preferences</source>
@@ -2039,7 +2039,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.privacyAdblockBody" xml:space="preserve">
         <source>Reduces the number of ads you see when you’re using VPN</source>
-        <target>VPN을 사용할 때 표시되는 광고 수를 줄입니다</target>
+        <target>VPN을 사용할 때 표시되는 광고 수를 줄입니다.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyAdblockTitle" xml:space="preserve">
         <source>Block ads</source>
@@ -2047,7 +2047,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.privacyCard" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
-        <target>이러한 옵션으로 인해 일부 웹 사이트가 손상되거나 콘텐츠가 올바르게 표시되지 않을 수 있습니다.</target>
+        <target>이 옵션으로 인해 일부 웹 사이트가 깨지되거나 콘텐츠가 올바르게 표시되지 않을 수 있습니다.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareBody2" xml:space="preserve">
         <source>Helps protect you from ransomware, phishing, spyware, and viruses</source>
