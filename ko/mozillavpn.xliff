@@ -1217,7 +1217,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.criticalBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this is an important message</note>
-        <target>결정적임</target>
+        <target>중요</target>
         <source>Critical</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.dateTimeYesterday" xml:space="preserve">
@@ -1226,7 +1226,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.deleteMessage" xml:space="preserve">
         <note annotates="source" from="developer">An action to delete a message from the users inbox</note>
-        <target>메시지 지우기</target>
+        <target>메시지 삭제</target>
         <source>Delete message</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.editButton" xml:space="preserve">
@@ -1261,7 +1261,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.surveyBadge" xml:space="preserve">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains a survey</note>
-        <target>조사</target>
+        <target>설문 조사</target>
         <source>Survey</source>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.warningBadge" xml:space="preserve">
@@ -1281,7 +1281,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.disclaimerText" xml:space="preserve">
         <source>When you submit, Mozilla VPN will collect technical and interaction data with your email to help our support team understand your issue.</source>
-        <target>제출하면 Mozilla VPN은 기술 및 상호 작용 데이터를 이메일로 수집하여 지원 팀이 문제를 이해할 수 있도록 합니다.</target>
+        <target>제출하면 Mozilla VPN은 기술 및 상호 작용 데이터를 이메일과 함께 수집하여 지원 팀이 문제를 이해할 수 있도록 합니다.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel" xml:space="preserve">
         <note annotates="source" from="developer">A user trying to submit feedback will use this dropdown to select the general topic related to the feedback.</note>
@@ -1309,7 +1309,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.privacyNoticeLinkText" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
-        <target>Mozilla VPN 개인정보처리방침</target>
+        <target>Mozilla VPN 개인정보 보호정책</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder" xml:space="preserve">
         <source>Subject (optional)</source>
@@ -1529,17 +1529,17 @@
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
-        <target>%1을(를) 통해 %2를 통해 연결함</target>
+        <target>%2 서버를 통해 %1 서버를 거치게 연결함</target>
         <source>Connected through %1 via %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
-        <target>%1 과 %2 연결 끊김</target>
+        <target>%1 서버와 %2 서버 연결 끊김</target>
         <source>Disconnected from %1 and %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersMessage" xml:space="preserve">
         <note annotates="source" from="developer">%1 is the name of the initial server, %2 is the name of the destination server.</note>
-        <target>%1에서 %2(으)로 전환됨</target>
+        <target>%1 서버에서 %2 서버로 전환됨</target>
         <source>Switched from %1 to %2</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersTitle" xml:space="preserve">
@@ -1585,7 +1585,7 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideBody2" xml:space="preserve">
         <source>Help us improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data. We never collect data about your online activity while using the VPN.</source>
-        <target>충돌 보고서, 진단 및 제품 사용 데이터를 공유하여 Mozilla VPN을 개선하는 데 도움을 주세요. 우리는 VPN을 사용하는 동안 온라인 활동에 대한 데이터를 수집하지 않습니다.</target>
+        <target>충돌 보고서, 진단 및 제품 사용 데이터를 공유하여 Mozilla VPN을 개선하는 데 도움을 주세요. VPN을 사용하는 동안 온라인 활동에 대한 데이터는 절대로 수집하지 않습니다.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideHeader2" xml:space="preserve">
         <source>Data collection</source>
@@ -1597,7 +1597,7 @@
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel" xml:space="preserve">
         <source>Mozilla VPN Privacy Notice</source>
-        <target>Mozilla VPN 개인정보처리방침</target>
+        <target>Mozilla VPN 개인정보 보호정책</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideToggleLabel" xml:space="preserve">
         <source>Share technical data</source>
