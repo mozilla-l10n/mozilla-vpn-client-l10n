@@ -573,6 +573,7 @@
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section for multi-hop connections</note>
+        <target>Chuyển sang kết nối single-hop</target>
         <source>Switching back to a single-hop connection</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo" xml:space="preserve">
@@ -925,14 +926,17 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationBody1" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
+        <target>Nếu bạn muốn tốc độ và độ tin cậy tối đa, hãy chọn một trong những địa điểm được đề xuất trong công tắc “Single-hop”. Chúng tôi đã sắp xếp chúng dựa trên hiệu suất dự kiến.</target>
         <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationBody2" xml:space="preserve">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
+        <target>Nếu bạn muốn thêm tính riêng tư, hãy chuyển sang “Multi-hop” và thêm vị trí đặt máy chủ bổ sung. Multi-hop VPN định tuyến lưu lượng truy cập của bạn qua hai vị trí đặt máy chủ thay vì một để tăng cường bảo mật và tính riêng tư. Điều này cũng có thể làm chậm kết nối của bạn đôi chút.</target>
         <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationHeader" xml:space="preserve">
         <note annotates="source" from="developer">Header label for the location selection help sheet</note>
+        <target>Single-hop với multi-hop</target>
         <source>Single-hop vs multi-hop</source>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.locationTitle" xml:space="preserve">
@@ -1429,6 +1433,7 @@
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label that is used for recent multi-hop server connections. “%1” represents the entry server and “%2” the exit server.</note>
+        <target>%1 sang %2</target>
         <source>%1 to %2</source>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText" xml:space="preserve">
@@ -1454,6 +1459,7 @@
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA" xml:space="preserve">
         <source>Multi-hop</source>
+        <target>Multi-hop</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError" xml:space="preserve">
         <source>No results. Try a different search</source>
@@ -1461,6 +1467,7 @@
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA" xml:space="preserve">
         <source>Single-hop</source>
+        <target>Single-hop</target>
       </trans-unit>
       <trans-unit id="vpn.navBar.homeTab" xml:space="preserve">
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the home screen</note>
@@ -1479,6 +1486,7 @@
       </trans-unit>
       <trans-unit id="vpn.networkSettings.multihopTitle" xml:space="preserve">
         <source>Multi-hop tunnel</source>
+        <target>Đường hầm multi-hop</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText" xml:space="preserve">
         <source>To continue subscribing, please sign in to your Google Account</source>
@@ -1527,6 +1535,7 @@
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersTitle" xml:space="preserve">
         <source>VPN Switched Servers</source>
+        <target>Máy chủ chuyển đổi VPN</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage2" xml:space="preserve">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
