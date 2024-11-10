@@ -627,7 +627,7 @@
         <target>ທ່ານອາດຈະສູນເສຍຂໍ້ມູນ ແລະ ຄຸນສົມບັດທີ່ບັນທຶກໄວ້ພາຍໃນຜະລິດຕະພັນ Mozilla</target>
         <source>You may lose saved information and features within Mozilla products</source>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.subheadline2" xml:space="preserve">
+      <trans-unit id="vpn.deleteAccount.subheadline2">
         <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
         <source>Your Mozilla account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
       </trans-unit>
@@ -636,7 +636,7 @@
         <target>ເພີ່ມ %1 ຈາກ %2 ອຸປະກອນທັງໝົດແລ້ວ</target>
         <source>%1 out of %2 devices added</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.limitDescription2" xml:space="preserve">
+      <trans-unit id="vpn.devices.limitDescription2">
         <note annotates="source" from="developer">Description of the "device limit" view describing why the device has not yet been added to the list of active devices (because we are at the device limit)</note>
         <source>You’re using VPN on 5 devices. To add another device, please remove one.</source>
       </trans-unit>
@@ -647,13 +647,14 @@
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedDaysAgo" xml:space="preserve">
         <note annotates="source" from="developer">Device list item description for a device added days ago. %1 is the number of days.</note>
+        <target>ເພີ່ມ %1 ມື້ກ່ອນ</target>
         <source>Added %1 days ago</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.listItemDescriptionAddedFewHoursAgo" xml:space="preserve">
+      <trans-unit id="vpn.devices.listItemDescriptionAddedFewHoursAgo">
         <note annotates="source" from="developer">Device list item description for a device added a few hours ago. %1 is the number of hours.</note>
         <source>Added a few hours ago (%1)</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.listItemDescriptionAddedOneHourAgo" xml:space="preserve">
+      <trans-unit id="vpn.devices.listItemDescriptionAddedOneHourAgo">
         <note annotates="source" from="developer">Device list item description for a device added less than 1 hour ago</note>
         <source>Added less than an hour ago</source>
       </trans-unit>
@@ -664,9 +665,10 @@
       </trans-unit>
       <trans-unit id="vpn.devices.listItemRemoveDeviceAccessibility" xml:space="preserve">
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <target>ເອົາ %1 ອອກ</target>
         <source>Remove %1</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removePopupDescription" xml:space="preserve">
+      <trans-unit id="vpn.devices.removePopupDescription">
         <note annotates="source" from="developer">Description for the Remove Device popup. %1 is the name of the device being removed. The name is displayed on purpose on a new line."</note>
         <source>Please confirm you would like to remove %1.</source>
       </trans-unit>
@@ -675,11 +677,11 @@
         <target>ເອົາອອກ</target>
         <source>Remove</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removePopupTitle" xml:space="preserve">
+      <trans-unit id="vpn.devices.removePopupTitle">
         <note annotates="source" from="developer">Title for the Remove Device popup</note>
         <source>Remove device?</source>
       </trans-unit>
-      <trans-unit id="vpn.devices.removingTitle" xml:space="preserve">
+      <trans-unit id="vpn.devices.removingTitle">
         <note annotates="source" from="developer">Title for "Removing device" screen</note>
         <source>Removing device…</source>
       </trans-unit>
@@ -845,55 +847,55 @@
         <target>ຜູ້ໃຊ້ VPN</target>
         <source>VPN User</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.devicesBody1" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.devicesBody1">
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
         <source>Adding a new device to your subscription is easy: just download and log in to Mozilla VPN on that device.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.devicesBody2" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.devicesBody2">
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
         <source>To remove one of your added devices, select “Edit” on this screen and use the trash icon to remove the device you no longer want to use Mozilla VPN on.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.devicesHeader" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.devicesHeader">
         <note annotates="source" from="developer">Header label for the devices help sheet</note>
         <source>Adding and removing devices</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.devicesTitle" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.devicesTitle">
         <note annotates="source" from="developer">Title label for the devices help sheet</note>
         <source>Device management</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody1" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.dnsBody1">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsBody2" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.dnsBody2">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
         <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsHeader" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.dnsHeader">
         <note annotates="source" from="developer">Header label for the custom dns help sheet</note>
         <source>What is a custom DNS?</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.dnsTitle" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.dnsTitle">
         <note annotates="source" from="developer">Title label for the custom dns help sheet</note>
         <source>Custom DNS settings</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody1" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody1">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
         <source>Excluded apps let you turn off VPN protection for specific apps, without turning off VPN protection for your entire device.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody2" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody2">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
         <source>When you exclude an app, it will have access to your IP address and approximate location.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody3" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody3">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
         <source>You can use the settings under Settings &gt; Privacy features to block ads, block trackers, and block malware, even on excluded apps.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsCTA" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.excludedAppsCTA">
         <note annotates="source" from="developer">Label for button that opens the "Privacy features" view from the excluded apps help sheet</note>
         <source>Open “Privacy features”</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsHeader" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.excludedAppsHeader">
         <note annotates="source" from="developer">Header label for the excluded apps help sheet</note>
         <source>What are excluded apps?</source>
       </trans-unit>
@@ -902,35 +904,35 @@
         <target>ແອັບທີ່ຍົກເວັ້ນ</target>
         <source>Excluded apps</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody1" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.locationBody1">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
         <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody2" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.locationBody2">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
         <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationHeader" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.locationHeader">
         <note annotates="source" from="developer">Header label for the location selection help sheet</note>
         <source>Single-hop vs multi-hop</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationTitle" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.locationTitle">
         <note annotates="source" from="developer">Title label for the location selection help sheet</note>
         <source>Location selection</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyBody1" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.privacyBody1">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
         <source>Privacy features give you greater control over the types of content you see, helping you stay safe online.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyBody2" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.privacyBody2">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
         <source>If you activate these features, they’ll overwrite any custom DNS you’re using. These protections are not a substitute for taking other security precautions — for example, while blocking malware you should still avoid downloading attachments in strange emails.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.privacyHeader">
         <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
         <source>What can privacy features do for me?</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyTitle" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.privacyTitle">
         <note annotates="source" from="developer">Title label for the privacy features help sheet</note>
         <source>Privacy features</source>
       </trans-unit>
@@ -938,7 +940,7 @@
         <source>Change email</source>
         <target>ປ່ຽນອີເມວ</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.continueToSignIn" xml:space="preserve">
+      <trans-unit id="vpn.inAppAuth.continueToSignIn">
         <note annotates="source" from="developer">Button a user clicks after updating their Mozilla account settings so that they can re-attempt sign-in</note>
         <source>Continue to sign in</source>
       </trans-unit>
@@ -969,7 +971,7 @@
         <source>Enter your email address to continue using Mozilla VPN</source>
         <target>ໃສ່ທີ່ຢູ່ອີເມວຂອງທ່ານເພື່ອສືບຕໍ່ນຳໃຊ້ Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription2" xml:space="preserve">
+      <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription2">
         <note annotates="source" from="developer">User message prompting user to finish creating their account to use Mozilla VPN.</note>
         <source>Finish creating your Mozilla account to continue to Mozilla VPN</source>
       </trans-unit>
@@ -1055,7 +1057,7 @@
         <target>ຂ້ອຍຢາກໄດ້ຮັບອີເມວອັບເດດຜະລິດຕະພັນຈາກ Firefox.</target>
         <source>I’d like to receive product update emails from Firefox.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle2" xml:space="preserve">
+      <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle2">
         <source>To continue, please confirm with your Mozilla account password.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.resendCodeLink" xml:space="preserve">
@@ -1111,7 +1113,7 @@
         <source>Sign-in failed</source>
         <target>ເຂົ້າສູ່ລະບົບບໍ່ສຳເລັດ</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.signInSubtitle2" xml:space="preserve">
+      <trans-unit id="vpn.inAppAuth.signInSubtitle2">
         <source>Continue to Mozilla VPN by signing in with your Mozilla account</source>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.ssoInstructionHeader" xml:space="preserve">
@@ -1119,19 +1121,19 @@
         <target>ສ້າງ​ລະ​ຫັດ​ຜ່ານ</target>
         <source>Create a password</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine1" xml:space="preserve">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine1">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
         <source>To finish setting up your Mozilla account, create a password in your account settings:</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine2a" xml:space="preserve">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine2a">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. Do not remove or translate the markup '&lt;a href="open-account"&gt;'.</note>
         <source>1. Go to &lt;a href="open-account"&gt;Create password&lt;/a&gt; in your Mozilla account settings.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine3" xml:space="preserve">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine3">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
         <source>2. Create a password.</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.ssoInstructionLine4" xml:space="preserve">
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine4">
         <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
         <source>When your password is created, return to this screen and continue to sign in to Mozilla VPN.</source>
       </trans-unit>
@@ -1140,7 +1142,7 @@
         <target>ກວດເບິ່ງອີເມວຂອງທ່ານ</target>
         <source>Check your email</source>
       </trans-unit>
-      <trans-unit id="vpn.inAppAuth.stubAccountVerificationInstruction" xml:space="preserve">
+      <trans-unit id="vpn.inAppAuth.stubAccountVerificationInstruction">
         <note annotates="source" from="developer">User has tried to log into a Mozilla account before setting their password, which happens after email verification. %1 is the email address associated with the account.</note>
         <source>We’ve sent an email to %1 with the verification link. Please follow the directions to set up your password and finish setting up your account.</source>
       </trans-unit>
@@ -1206,7 +1208,7 @@
         <source>Search messages</source>
         <target>ຊອກຫາຂໍ້ຄວາມ</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppMessaging.subscriptionBadge" xml:space="preserve">
+      <trans-unit id="vpn.inAppMessaging.subscriptionBadge">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about the user's subscription</note>
         <source>Subscription</source>
       </trans-unit>
@@ -1343,19 +1345,19 @@
         <target>ພາສາລະບົບ</target>
         <source>System language</source>
       </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.disabledSubLabel" xml:space="preserve">
+      <trans-unit id="vpn.localNetworkAccess.disabledSubLabel">
         <source>Access Apple CarPlay, AirDrop, AirPlay and local network devices like printers. The VPN must be off to edit this setting.</source>
       </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.label" xml:space="preserve">
+      <trans-unit id="vpn.localNetworkAccess.label">
         <source>Local network access</source>
       </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.labelTitle" xml:space="preserve">
+      <trans-unit id="vpn.localNetworkAccess.labelTitle">
         <source>Exclude local network traffic</source>
       </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.subLabel" xml:space="preserve">
+      <trans-unit id="vpn.localNetworkAccess.subLabel">
         <source>Access Apple CarPlay, AirDrop, AirPlay and local network devices like printers.</source>
       </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.vpnMustBeOff" xml:space="preserve">
+      <trans-unit id="vpn.localNetworkAccess.vpnMustBeOff">
         <source>VPN must be off to edit “Local network access”</source>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber" xml:space="preserve">
@@ -1378,7 +1380,7 @@
         <source>Problem confirming subscription</source>
         <target>ເກີດບັນຫາໃນການຢືນຢັນການສະໝັກສະມາຊິກ</target>
       </trans-unit>
-      <trans-unit id="vpn.multiFxaAccountError.mozAccountErrorText" xml:space="preserve">
+      <trans-unit id="vpn.multiFxaAccountError.mozAccountErrorText">
         <source>Your subscription is linked to another Mozilla account. You may need to sign in with a different email address.</source>
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter" xml:space="preserve">
@@ -1507,7 +1509,7 @@
         <source>Guest Wi-Fi portal detected</source>
         <target>ກວດພົບ Guest Wi-Fi portal</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.connectionFailedMessage" xml:space="preserve">
+      <trans-unit id="vpn.notifications.connectionFailedMessage">
         <source>Sorry, something went wrong with your VPN connection.</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.connectionFailedTitle" xml:space="preserve">
@@ -1527,26 +1529,26 @@
         <source>Unsecured Wi-Fi network detected</source>
         <target>ກວດພົບເຄືອຂ່າຍ Wi-Fi ທີ່ບໍ່ປອດໄພ</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideBody2" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.dataSlideBody2">
         <source>Help us improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data. We never collect data about your online activity while using the VPN.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideHeader2" xml:space="preserve">
         <source>Data collection</source>
         <target>ການເກັບກຳຂໍ້ມູນ</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption2" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption2">
         <source>Learn more about data collection</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel">
         <source>Mozilla VPN Privacy Notice</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.dataSlideToggleLabel" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.dataSlideToggleLabel">
         <source>Share technical data</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideBody2" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideBody2">
         <source>To install the VPN on another tablet or mobile device, scan the QR code.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideBodyMobile" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideBodyMobile">
         <source>To install the VPN on another tablet or mobile device, scan the QR code. To install on a desktop computer, visit the Download page on the Mozilla VPN website.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeAndroid" xml:space="preserve">
@@ -1557,16 +1559,16 @@
         <source>Apple</source>
         <target>Apple</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeLabel" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeLabel">
         <source>Select device type:</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideHeader" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideHeader">
         <source>Install Mozilla VPN on up to 5 devices</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid">
         <source>QR Code that links to the Mozilla VPN product page on the Google Play Store</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple">
         <source>QR Code that links to the Mozilla VPN product page on the iOS App Store</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourSubtitle" xml:space="preserve">
@@ -1593,21 +1595,21 @@
         <source>Protect your privacy</source>
         <target>ຮັກສາຄວາມເປັນສ່ວນໂຕຂອງທ່ານ</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.privacySlideBody" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.privacySlideBody">
         <source>Use these features for more protection. They may cause issues on some sites, so you can turn them off anytime in settings.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.privacySlideHeader" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.privacySlideHeader">
         <source>Get more privacy</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete">
         <note annotates="source" from="developer">Accessibility read out for completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3). Select to go back to this step.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent">
         <note annotates="source" from="developer">Accessibility read out for the current step in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3). You are currently on this step.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete2" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete2">
         <note annotates="source" from="developer">Accessibility read out for incomplete future steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
         <source>Onboarding step “%1” (%2 of %3)</source>
       </trans-unit>
@@ -1616,7 +1618,7 @@
         <target>ອຸປະກອນ</target>
         <source>Devices</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.progressBarConnect" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.progressBarConnect">
         <note annotates="source" from="developer">Label for onboarding progress bar step where users can grant permission to create a VPN configuration with the system</note>
         <source>Connect</source>
       </trans-unit>
@@ -1639,19 +1641,19 @@
         <source>Allow VPN connection</source>
         <target>ອະນຸຍາດໃຫ້ເຊື່ອມຕໍ່ VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideBody" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.startSlideBody">
         <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideBody2" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.startSlideBody2">
         <source>Launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideHeader" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.startSlideHeader">
         <source>Connect Mozilla VPN on startup</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideMobileBody" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.startSlideMobileBody">
         <source>Your mobile device will now ask you to allow Mozilla VPN to create a connection. Please allow this so that the VPN works correctly on your device.</source>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideMobileHeader" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.startSlideMobileHeader">
         <source>Allow Mozilla VPN to create a VPN connection</source>
       </trans-unit>
       <trans-unit id="vpn.paymentMethods.amex" xml:space="preserve">
@@ -1730,15 +1732,15 @@
         <source>Subscribe to Mozilla VPN</source>
         <target>ສະໝັກໃຊ້ Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.body1" xml:space="preserve">
+      <trans-unit id="vpn.resetSettings.body1">
         <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
         <source>This will reset all VPN settings, including:</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.body2" xml:space="preserve">
+      <trans-unit id="vpn.resetSettings.body2">
         <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
         <source>Resetting the VPN will sign you out, but your account will not be deleted.</source>
       </trans-unit>
-      <trans-unit id="vpn.resetSettings.confirmResetModalBody" xml:space="preserve">
+      <trans-unit id="vpn.resetSettings.confirmResetModalBody">
         <note annotates="source" from="developer">Body of the modal where users can confirm they want to restore back to factory settings</note>
         <source>Reset Mozilla VPN settings? This can’t be undone.</source>
       </trans-unit>
@@ -1776,14 +1778,14 @@
         <source>Already a subscriber?</source>
         <target>ເປັນຜູ້ສະໝັກໃຊ້ແລ້ວບໍ?</target>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText2" xml:space="preserve">
+      <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText2">
         <source>Sorry, we are unable to connect your Mozilla account to a current subscription. Please try again or contact our support team for further assistance.</source>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText" xml:space="preserve">
         <source>Sorry, we were unable to confirm your subscription. Please try again or contact our support team for help.</source>
         <target>ຂໍອະໄພ, ພວກເຮົາບໍ່ສາມາດຢືນຢັນການສະໝັກສະມາຊິກຂອງທ່ານໄດ້. ກະລຸນາລອງອີກຄັ້ງ ຫຼືຕິດຕໍ່ທີມງານຊ່ວຍເຫຼືອຂອງພວກເຮົາເພື່ອຂໍຄວາມຊ່ວຍເຫຼືອ.</target>
       </trans-unit>
-      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText2" xml:space="preserve">
+      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText2">
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyText" xml:space="preserve">
@@ -1814,7 +1816,7 @@
         <source>Get notified when connecting to a server location failed</source>
         <target>ໄດ້ຮັບການແຈ້ງເຕືອນເມື່ອເຊື່ອມຕໍ່ກັບສະຖານທີ່ເຊີບເວີລົ້ມເຫລວ</target>
       </trans-unit>
-      <trans-unit id="vpn.serversView.recommendedEmptyLabel" xml:space="preserve">
+      <trans-unit id="vpn.serversView.recommendedEmptyLabel">
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
         <source>To see recommended server locations, turn off the VPN.</source>
       </trans-unit>
@@ -1889,7 +1891,7 @@
         <source>App exclusions</source>
         <target>ການຍົກເວັ້ນແອັບ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.appExclusionTitle" xml:space="preserve">
+      <trans-unit id="vpn.settings.appExclusionTitle">
         <source>Excluded apps</source>
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
@@ -1953,7 +1955,7 @@
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>ທາງເລືອກເຫຼົ່ານີ້ອາດຈະເຮັດໃຫ້ບາງເວັບໄຊທ໌ທໍາລາຍ ຫຼື ບໍ່ສະແດງເນື້ອຫາຢ່າງຖືກຕ້ອງ.</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyMalwareBody2" xml:space="preserve">
+      <trans-unit id="vpn.settings.privacyMalwareBody2">
         <source>Helps protect you from ransomware, phishing, spyware, and viruses</source>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareTitle" xml:space="preserve">
@@ -1972,7 +1974,7 @@
         <source>Block trackers</source>
         <target>ບັອກຕົວຕິດຕາມ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.shareTechnicalDataDescription" xml:space="preserve">
+      <trans-unit id="vpn.settings.shareTechnicalDataDescription">
         <source>Help improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data.</source>
       </trans-unit>
       <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
@@ -2008,7 +2010,7 @@
         <source>Use Staging Servers</source>
         <target>ໃຊ້ Staging Servers</target>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.errorActivating" xml:space="preserve">
+      <trans-unit id="vpn.splittunnel.errorActivating">
         <source>Error activating App exclusions</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoCardDescription" xml:space="preserve">
@@ -2016,7 +2018,7 @@
         <target>VPN ຕ້ອງປິດເພື່ອແກ້ໄຂການຍົກເວັ້ນແອັບ</target>
         <source>VPN must be off to edit App exclusions</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoCardDescription2" xml:space="preserve">
+      <trans-unit id="vpn.splittunnel.infoCardDescription2">
         <note annotates="source" from="developer">Displays inside the information card at the top of the Excluded apps screen when the VPN is on</note>
         <source>VPN must be off to edit Excluded apps</source>
       </trans-unit>
@@ -2245,7 +2247,7 @@
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
         <target>ອະນຸຍາດໃຫ້ Mozilla VPN ສົ່ງຂໍ້ມູນດ້ານວິຊາການ, ການໂຕ້ຕອບ, ແລະ ແຄມເປນແລະການສົ່ງຕໍ່ໄປຫາ Mozilla ບໍ?</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.shareTechnicalData" xml:space="preserve">
+      <trans-unit id="vpn.telemetryPolicyView.shareTechnicalData">
         <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
         <source>Share technical data</source>
       </trans-unit>
