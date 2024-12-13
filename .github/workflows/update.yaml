@@ -94,6 +94,9 @@ jobs:
           (cd vpn && python ./scripts/utils/generate_shared_addon_xliff.py -i ./addons/strings.yaml -o ../translationFiles/en/addons/strings.xliff)
           (cd translationFiles && python .github/scripts/clean_xliff_targets.py en/addons/strings.xliff)
 
+          # Ensure files in the en folder have target-language set to en-US
+          (cd translationFiles && python .github/scripts/set_target_language_en.py en)
+
           # Update other locales
           python translationFiles/.github/scripts/update_other_locales.py --reference en --path translationFiles/ --type "${{ github.event.inputs.type }}"
 
