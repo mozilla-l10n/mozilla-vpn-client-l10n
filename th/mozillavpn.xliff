@@ -278,11 +278,11 @@
     <body>
       <trans-unit id="vpn.settings.guestWifiAlert" xml:space="preserve">
         <source>Guest Wi-Fi portal alert</source>
-        <target>การแจ้งเตือนพอร์ทัล Wi-Fi ผู้มาเยือน</target>
+        <target>การแจ้งเตือนพอร์ทัล Wi-Fi สำหรับผู้เยี่ยมชม</target>
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert.description" xml:space="preserve">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
-        <target>รับการแจ้งเตือนถ้าพอร์ทัล Wi-Fi ผู้มาเยือนถูกปิดกั้นเนื่องจากการเชื่อมต่อ VPN</target>
+        <target>รับการแจ้งเตือนถ้าพอร์ทัล Wi-Fi สำหรับผู้เยี่ยมชมถูกปิดกั้นเนื่องจากการเชื่อมต่อ VPN</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange.description" xml:space="preserve">
         <source>Get notified when the connection status changes</source>
@@ -434,11 +434,11 @@
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.header" xml:space="preserve">
         <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
-        <target>Captive portal คือตอนที่ Wi-Fi ผู้มาเยือนที่คุณใช้อยู่นั้นร้องขอให้คุณเข้าสู่ระบบเพื่อเข้าถึงอินเทอร์เน็ต</target>
+        <target>พอร์ทัลคัดกรองคือหน้าที่แสดงตอนที่ Wi-Fi สำหรับผู้เยี่ยมที่คุณใช้อยู่นั้นต้องการให้คุณเข้าสู่ระบบเพื่อเข้าถึงอินเทอร์เน็ต</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.title" xml:space="preserve">
         <source>Captive portal detected!</source>
-        <target>ตรวจพบ Captive portal!</target>
+        <target>ตรวจพบพอร์ทัลคัดกรอง!</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.connectionInformation" xml:space="preserve">
         <note annotates="source" from="developer">Accessible label for the button that shows the IP info panel when clicked.</note>
@@ -524,8 +524,9 @@
         <target>กำลังทดสอบความเร็ว…</target>
         <source>Testing speed…</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionInfo.mediumBulletOne">
+      <trans-unit id="vpn.connectionInfo.mediumBulletOne" xml:space="preserve">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <target>การเรียกดูอินเทอร์เน็ต</target>
         <source>Browsing the internet</source>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletThree">
