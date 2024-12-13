@@ -66,7 +66,7 @@ def main():
     locales_path = os.path.realpath(args.locales_path)
 
     file_paths = []
-    for xliff_path in glob(locales_path + "/**/*.xliff", recursive=True):
+    for xliff_path in glob(f"{locales_path}/**/*.xliff", recursive=True):
         file_paths.append(xliff_path)
 
     if not file_paths:
