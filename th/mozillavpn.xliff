@@ -74,167 +74,202 @@
         <source>Unable to install</source>
         <target>ไม่สามารถติดตั้งได้</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message1">
+      <trans-unit id="macosinstaller.welcome.message1" xml:space="preserve">
         <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
+        <target>ตอนนี้คุณจะได้รับคำแนะนำเกี่ยวกับขั้นตอนการติดตั้งสำหรับ Mozilla VPN ขอบคุณที่เลือก VPN จากผู้บุกเบิกด้านความเป็นส่วนตัวบนอินเทอร์เน็ตที่เชื่อถือได้</target>
       </trans-unit>
-      <trans-unit id="macosinstaller.welcome.message2">
+      <trans-unit id="macosinstaller.welcome.message2" xml:space="preserve">
         <source>Click “Continue” to continue the setup.</source>
+        <target>คลิก “ดำเนินการต่อ” เพื่อทำการตั้งค่าต่อไป</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ipaddresslookup.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.connectionInfo.loading">
+      <trans-unit id="vpn.connectionInfo.loading" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
+        <target>กำลังโหลด</target>
         <source>Loading</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="menubar.file.close">
+      <trans-unit id="menubar.file.close" xml:space="preserve">
         <source>Close</source>
+        <target>ปิด</target>
       </trans-unit>
-      <trans-unit id="menubar.file.title">
+      <trans-unit id="menubar.file.title" xml:space="preserve">
         <source>File</source>
+        <target>ไฟล์</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/ScreenBackendFailure.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.errors.somethingWentWrong">
+      <trans-unit id="vpn.errors.somethingWentWrong" xml:space="preserve">
         <source>Something went wrong…</source>
+        <target>มีบางอย่างผิดพลาด…</target>
       </trans-unit>
-      <trans-unit id="vpn.errors.tryAgain">
+      <trans-unit id="vpn.errors.tryAgain" xml:space="preserve">
         <source>Try Again</source>
+        <target>ลองอีกครั้ง</target>
       </trans-unit>
-      <trans-unit id="vpn.errors.unableToEstablishConnection">
+      <trans-unit id="vpn.errors.unableToEstablishConnection" xml:space="preserve">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
+        <target>ไม่สามารถสร้างการเชื่อมต่อได้ในขณะนี้ เรากำลังทำงานอย่างหนักเพื่อแก้ไขปัญหานี้ โปรดลองอีกครั้งในภายหลัง</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/ScreenCrashReporting.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.crashreporter.description">
+      <trans-unit id="vpn.crashreporter.description" xml:space="preserve">
         <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
+        <target>แอป Mozilla VPN หยุดทำงานโดยไม่คาดคิด คุณต้องการส่งรายงานข้อขัดข้องเพื่อช่วยแก้ไขปัญหานี้หรือไม่?</target>
         <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.dontSendButton">
+      <trans-unit id="vpn.crashreporter.dontSendButton" xml:space="preserve">
         <note annotates="source" from="developer">User does not agree to send a crash report.</note>
+        <target>ไม่ ขอบคุณ</target>
         <source>No thanks</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.mainHeading">
+      <trans-unit id="vpn.crashreporter.mainHeading" xml:space="preserve">
         <note annotates="source" from="developer">Label over description text section.</note>
+        <target>การรายงานข้อขัดข้อง</target>
         <source>Crash reporting</source>
       </trans-unit>
-      <trans-unit id="vpn.crashreporter.sendButtonLabel">
+      <trans-unit id="vpn.crashreporter.sendButtonLabel" xml:space="preserve">
         <note annotates="source" from="developer">User agrees to send a crash report.</note>
+        <target>ส่งรายงาน</target>
         <source>Send report</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/devices/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.devices.deviceAccessibleName">
+      <trans-unit id="vpn.devices.deviceAccessibleName" xml:space="preserve">
         <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
+        <target>%1 %2</target>
         <source>%1 %2</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/home/ViewHome.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="MozillaVPN">
+      <trans-unit id="MozillaVPN" xml:space="preserve">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.servers.currentLocation">
+      <trans-unit id="vpn.servers.currentLocation" xml:space="preserve">
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
+        <target>ตำแหน่งปัจจุบัน - %1</target>
         <source>current location - %1</source>
       </trans-unit>
-      <trans-unit id="vpn.servers.selectLocation">
+      <trans-unit id="vpn.servers.selectLocation" xml:space="preserve">
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
+        <target>เลือกตำแหน่ง</target>
         <source>Select location</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/home/controller/ConnectionStability.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.connectionStability.checkConnection">
+      <trans-unit id="vpn.connectionStability.checkConnection" xml:space="preserve">
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
+        <target>ตรวจสอบการเชื่อมต่อ</target>
         <source>Check Connection</source>
       </trans-unit>
-      <trans-unit id="vpn.connectionStability.noSignal">
+      <trans-unit id="vpn.connectionStability.noSignal" xml:space="preserve">
         <source>No Signal</source>
+        <target>ไม่มีสัญญาณ</target>
       </trans-unit>
-      <trans-unit id="vpn.connectionStability.unstable">
+      <trans-unit id="vpn.connectionStability.unstable" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>ไม่เสถียร</target>
         <source>Unstable</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/home/controller/ControllerView.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.controller.activated">
+      <trans-unit id="vpn.controller.activated" xml:space="preserve">
         <source>VPN is on</source>
+        <target>VPN เปิดอยู่</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.activating">
+      <trans-unit id="vpn.controller.activating" xml:space="preserve">
         <source>Masking connection and location</source>
+        <target>ปกปิดการเชื่อมต่อและตำแหน่ง</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.activationSloagan">
+      <trans-unit id="vpn.controller.activationSloagan" xml:space="preserve">
         <source>Turn on to protect your privacy</source>
+        <target>เปิดเพื่อปกป้องความเป็นส่วนตัวของคุณ</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.active">
+      <trans-unit id="vpn.controller.active" xml:space="preserve">
         <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <target>ปลอดภัยและเป็นส่วนตัว</target>
         <source>Secure and private</source>
       </trans-unit>
-      <trans-unit id="vpn.controller.attemptingToConfirm">
+      <trans-unit id="vpn.controller.attemptingToConfirm" xml:space="preserve">
         <source>Attempting to confirm connection</source>
+        <target>กำลังพยายามยืนยันการเชื่อมต่อ</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.connectingState">
+      <trans-unit id="vpn.controller.connectingState" xml:space="preserve">
         <source>Connecting…</source>
+        <target>กำลังเชื่อมต่อ…</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.deactivated">
+      <trans-unit id="vpn.controller.deactivated" xml:space="preserve">
         <source>VPN is off</source>
+        <target>VPN ปิดอยู่</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.deactivating">
+      <trans-unit id="vpn.controller.deactivating" xml:space="preserve">
         <source>Unmasking connection and location</source>
+        <target>เลิกปกปิดการเชื่อมต่อและตำแหน่ง</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.disconnecting">
+      <trans-unit id="vpn.controller.disconnecting" xml:space="preserve">
         <source>Disconnecting…</source>
+        <target>กำลังตัดการเชื่อมต่อ…</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.switching">
+      <trans-unit id="vpn.controller.switching" xml:space="preserve">
         <source>Switching…</source>
+        <target>กำลังสลับ…</target>
       </trans-unit>
-      <trans-unit id="vpn.controller.switchingDetail">
+      <trans-unit id="vpn.controller.switchingDetail" xml:space="preserve">
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
+        <target>จาก %1 ไปยัง %2</target>
         <source>From %1 to %2</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/home/controller/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.toggle.off">
+      <trans-unit id="vpn.toggle.off" xml:space="preserve">
         <source>Turn VPN off</source>
+        <target>ปิด VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.toggle.on">
+      <trans-unit id="vpn.toggle.on" xml:space="preserve">
         <source>Turn VPN on</source>
+        <target>เปิด VPN</target>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/home/servers/ServerCountry.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="cities">
+      <trans-unit id="cities" xml:space="preserve">
         <note annotates="source" from="developer">The title for the list of cities.</note>
+        <target>เมือง</target>
         <source>Cities</source>
       </trans-unit>
     </body>
   </file>
   <file original="../src/apps/vpn/ui/screens/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="en-US">
     <body>
-      <trans-unit id="vpn.settings.language">
+      <trans-unit id="vpn.settings.language" xml:space="preserve">
         <source>Language</source>
+        <target>ภาษา</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.languageAccessibleName">
+      <trans-unit id="vpn.settings.languageAccessibleName" xml:space="preserve">
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
+        <target>%1 %2</target>
         <source>%1 %2</source>
       </trans-unit>
     </body>
