@@ -1917,105 +1917,136 @@
         <target>%1 คุณภาพการเชื่อมต่อดี</target>
         <source>%1. Good connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithModerateConnection">
+      <trans-unit id="vpn.serversView.serverCityWithModerateConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is moderate. Argument is the city name.</note>
+        <target>%1 คุณภาพการเชื่อมต่อปานกลาง</target>
         <source>%1. Moderate connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithNoConnection">
+      <trans-unit id="vpn.serversView.serverCityWithNoConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is unavailable. Argument is the city name.</note>
+        <target>%1 ไม่สามารถเชื่อมต่อได้</target>
         <source>%1. No connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.serverCityWithPoorConnection">
+      <trans-unit id="vpn.serversView.serverCityWithPoorConnection" xml:space="preserve">
         <note annotates="source" from="developer">Button label that reads out a city name whose connection is poor. Argument is the city name.</note>
+        <target>%1 คุณภาพการเชื่อมต่อแย่</target>
         <source>%1. Poor connectivity</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.tabAllLabel">
+      <trans-unit id="vpn.serversView.tabAllLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the “all” servers tab</note>
+        <target>ทั้งหมด</target>
         <source>All</source>
       </trans-unit>
-      <trans-unit id="vpn.serversView.tabRecommendedLabel">
+      <trans-unit id="vpn.serversView.tabRecommendedLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the “recommended” servers tab</note>
+        <target>แนะนำ</target>
         <source>Recommended</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.appExclusionClearAllApps">
+      <trans-unit id="vpn.settings.appExclusionClearAllApps" xml:space="preserve">
         <note annotates="source" from="developer">Button label to clear all apps from the exclusions list</note>
+        <target>ล้างทั้งหมด</target>
         <source>Clear all</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.appExclusionSettings">
+      <trans-unit id="vpn.settings.appExclusionSettings" xml:space="preserve">
         <source>App exclusions</source>
+        <target>การยกเว้นแอป</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.appExclusionTitle">
+      <trans-unit id="vpn.settings.appExclusionTitle" xml:space="preserve">
         <source>Excluded apps</source>
+        <target>แอปที่ยกเว้น</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.crashOptInDescription">
+      <trans-unit id="vpn.settings.crashOptInDescription" xml:space="preserve">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
+        <target>อนุญาตให้ Mozilla VPN ส่งรายงานข้อขัดข้องโดยอัตโนมัติเพื่อช่วยแก้ไขข้อขัดข้องที่ไม่คาดคิด</target>
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.dataCollectionDescription">
+      <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
+        <target>อนุญาตให้ Mozilla VPN ส่งข้อมูลด้านเทคนิค การโต้ตอบ และแคมเปญ รวมทั้งข้อมูลการแนะนำผลิตภัณฑ์ไปยัง Mozilla</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettings">
+      <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
         <source>DNS settings</source>
+        <target>การตั้งค่า DNS</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody">
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody" xml:space="preserve">
         <source>Resolve websites using a custom DNS</source>
+        <target>แปลงที่อยู่เว็บไซต์โดยใช้ DNS กำหนดเอง</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsCustomDNSError">
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSError" xml:space="preserve">
         <source>Invalid DNS, please try a new one</source>
+        <target>DNS ไม่ถูกต้อง โปรดลองใช้ DNS ตัวใหม่</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle">
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle" xml:space="preserve">
         <source>Use custom DNS</source>
+        <target>ใช้ DNS กำหนดเอง</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning">
+      <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning" xml:space="preserve">
         <source>Changing these settings will cause the VPN to disconnect and reconnect automatically.</source>
+        <target>การเปลี่ยนแปลงการตั้งค่าเหล่านี้จะทำให้ VPN ตัดการเชื่อมต่อและเชื่อมต่อใหม่โดยอัตโนมัติ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder">
+      <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder" xml:space="preserve">
         <source>Enter custom DNS</source>
+        <target>ใส่ DNS กำหนดเอง</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody">
+      <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody" xml:space="preserve">
         <source>Resolve websites using Mozilla VPN’s standard DNS</source>
+        <target>แปลงที่อยู่เว็บไซต์โดยใช้ DNS มาตรฐานของ Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle">
+      <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle" xml:space="preserve">
         <source>Use standard DNS</source>
+        <target>ใช้ DNS มาตรฐาน</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.dnsSettingsWarning">
+      <trans-unit id="vpn.settings.dnsSettingsWarning" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
+        <target>ตัวเลือกเหล่านี้อาจทำให้บางเว็บไซต์ใช้งานไม่ได้หรือแสดงผลเนื้อหาไม่ถูกต้อง</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.preferencesSettings">
+      <trans-unit id="vpn.settings.preferencesSettings" xml:space="preserve">
         <source>Preferences</source>
+        <target>การกำหนดลักษณะ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyAdblockBody">
+      <trans-unit id="vpn.settings.privacyAdblockBody" xml:space="preserve">
         <source>Reduces the number of ads you see when you’re using VPN</source>
+        <target>ให้คุณเห็นโฆษณาน้อยลงในระหว่างที่กำลังใช้ VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyAdblockTitle">
+      <trans-unit id="vpn.settings.privacyAdblockTitle" xml:space="preserve">
         <source>Block ads</source>
+        <target>ปิดกั้นโฆษณา</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyCard">
+      <trans-unit id="vpn.settings.privacyCard" xml:space="preserve">
         <source>These options may cause some websites to break or not display content correctly.</source>
+        <target>ตัวเลือกเหล่านี้อาจทำให้บางเว็บไซต์ใช้งานไม่ได้หรือแสดงผลเนื้อหาไม่ถูกต้อง</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyMalwareBody2">
+      <trans-unit id="vpn.settings.privacyMalwareBody2" xml:space="preserve">
         <source>Helps protect you from ransomware, phishing, spyware, and viruses</source>
+        <target>ช่วยปกป้องคุณจากแรนซัมแวร์ ฟิชชิ่ง สปายแวร์ และไวรัส</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyMalwareTitle">
+      <trans-unit id="vpn.settings.privacyMalwareTitle" xml:space="preserve">
         <source>Block malware</source>
+        <target>ปิดกั้นมัลแวร์</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacySettings">
+      <trans-unit id="vpn.settings.privacySettings" xml:space="preserve">
         <source>Privacy features</source>
+        <target>คุณลักษณะความเป็นส่วนตัว</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyTrackerBody">
+      <trans-unit id="vpn.settings.privacyTrackerBody" xml:space="preserve">
         <source>Fewer harmful domains will be able to track you</source>
+        <target>ให้โดเมนอันตรายติดตามคุณได้น้อยลง</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.privacyTrackerTitle">
+      <trans-unit id="vpn.settings.privacyTrackerTitle" xml:space="preserve">
         <source>Block trackers</source>
+        <target>ปิดกั้นตัวติดตาม</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.shareTechnicalDataDescription">
+      <trans-unit id="vpn.settings.shareTechnicalDataDescription" xml:space="preserve">
         <source>Help improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data.</source>
+        <target>ช่วยปรับปรุง Mozilla VPN ด้วยการแบ่งปันรายงานข้อขัดข้อง การวินิจฉัย และข้อมูลการใช้งานผลิตภัณฑ์</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.startAtBootSubtitle">
+      <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
         <source>Mozilla VPN will launch and connect when you start up your device</source>
+        <target>Mozilla VPN จะเริ่มทำงานและเชื่อมต่อเมื่อคุณเริ่มอุปกรณ์ของคุณ</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.startAtBootTitle">
+      <trans-unit id="vpn.settings.startAtBootTitle" xml:space="preserve">
         <note annotates="source" from="developer">Startup refers to a device's startup, not the VPN client's.</note>
+        <target>เชื่อมต่อ VPN เมื่อเริ่มการทำงาน</target>
         <source>Connect VPN on startup</source>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired">
@@ -2036,19 +2067,23 @@
       <trans-unit id="vpn.settingsDev.useStagingTitle">
         <source>Use Staging Servers</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.errorActivating">
+      <trans-unit id="vpn.splittunnel.errorActivating" xml:space="preserve">
         <source>Error activating App exclusions</source>
+        <target>เกิดข้อผิดพลาดขณะเปิดใช้งานการยกเว้นแอป</target>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoCardDescription">
+      <trans-unit id="vpn.splittunnel.infoCardDescription" xml:space="preserve">
         <note annotates="source" from="developer">Displays inside the information card at the top of the app exclusions screen when the VPN is on</note>
+        <target>คุณต้องปิด VPN เพื่อแก้ไขการยกเว้นแอป</target>
         <source>VPN must be off to edit App exclusions</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoCardDescription2">
+      <trans-unit id="vpn.splittunnel.infoCardDescription2" xml:space="preserve">
         <note annotates="source" from="developer">Displays inside the information card at the top of the Excluded apps screen when the VPN is on</note>
+        <target>คุณต้องปิด VPN เพื่อแก้ไขแอปที่ยกเว้น</target>
         <source>VPN must be off to edit Excluded apps</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoLinkText">
+      <trans-unit id="vpn.splittunnel.infoLinkText" xml:space="preserve">
         <source>Learn more</source>
+        <target>เรียนรู้เพิ่มเติม</target>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoText2">
         <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
