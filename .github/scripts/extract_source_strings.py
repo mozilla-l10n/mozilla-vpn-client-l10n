@@ -5,6 +5,7 @@
 
 # This script must be executed at the root of the repository.
 
+from functions import write_xliff
 from lxml import etree, objectify
 import argparse
 import os
@@ -116,13 +117,7 @@ def main():
         sort_children(f, "id")
 
     # Replace the existing local file with the new XML content
-    with open(output_xliff_file, "w") as fp:
-        # Fix indentation of XML file
-        etree.indent(root)
-        xliff_content = etree.tostring(
-            tree, encoding="UTF-8", xml_declaration=True, pretty_print=True
-        )
-        fp.write(xliff_content.decode("utf-8"))
+    write_xliff(root, output_xliff_file)
 
 
 if __name__ == "__main__":
