@@ -1962,7 +1962,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.dataCollectionDescription" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
-        <target>อนุญาตให้ Mozilla VPN ส่งข้อมูลด้านเทคนิค การโต้ตอบ และแคมเปญ รวมทั้งข้อมูลการแนะนำผลิตภัณฑ์ไปยัง Mozilla</target>
+        <target>อนุญาตให้ Mozilla VPN ส่งข้อมูลทางเทคนิค การโต้ตอบ และแคมเปญ รวมทั้งข้อมูลการแนะนำผลิตภัณฑ์ไปยัง Mozilla</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings" xml:space="preserve">
         <source>DNS settings</source>
@@ -2121,180 +2121,229 @@
         <target>หมดอายุ</target>
         <source>Expires</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.cardLast4">
+      <trans-unit id="vpn.subscriptionManagement.cardLast4" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents the last four digits of a credit card.</note>
+        <target>บัตรที่ลงท้ายด้วย %1</target>
         <source>Card ending in %1</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.expiresLabel">
+      <trans-unit id="vpn.subscriptionManagement.expiresLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the upcoming date on which the subscription will expire.</note>
+        <target>หมดอายุ</target>
         <source>Expires</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.manageAccount">
+      <trans-unit id="vpn.subscriptionManagement.manageAccount" xml:space="preserve">
         <source>Manage account</source>
+        <target>จัดการบัญชี</target>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.manageSubscriptionButton">
+      <trans-unit id="vpn.subscriptionManagement.manageSubscriptionButton" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will take the user to a view where they can manage their subscription.</note>
+        <target>จัดการการสมัครสมาชิก</target>
         <source>Manage subscription</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.nextLabel">
+      <trans-unit id="vpn.subscriptionManagement.nextLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the upcoming date on which the user will be billed for their subscription.</note>
+        <target>เรียกเก็บเงินรอบถัดไป</target>
         <source>Next billed</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.paymentHeadline">
+      <trans-unit id="vpn.subscriptionManagement.paymentHeadline" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list with information on the payment information the user provided for their subscription.</note>
+        <target>ข้อมูลการชำระเงิน</target>
         <source>Payment Information</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planLabel">
+      <trans-unit id="vpn.subscriptionManagement.planLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the selected subscription plan the user currently is subscribed to.</note>
+        <target>แผนการสมัครสมาชิก</target>
         <source>Subscription plan</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planMonthly">
+      <trans-unit id="vpn.subscriptionManagement.planMonthly" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription. %1 represents the localized currency string</note>
+        <target>แผนรายเดือน: %1</target>
         <source>Monthly plan: %1</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription plus tax. %1 represents the localized currency string</note>
+        <target>%1/เดือน + ภาษี</target>
         <source>%1/month + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planMonthlyWithoutTax">
+      <trans-unit id="vpn.subscriptionManagement.planMonthlyWithoutTax" xml:space="preserve">
         <note annotates="source" from="developer">Price for a monthly subscription without tax. %1 represents the localized currency string</note>
+        <target>%1/เดือน</target>
         <source>%1/month</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly">
+      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <target>%1 ต่อครึ่งปี</target>
         <source>%1 Half-yearly</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1 ต่อครึ่งปี + ภาษี</target>
         <source>%1 Half-yearly + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueMonthly">
+      <trans-unit id="vpn.subscriptionManagement.planValueMonthly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <target>%1 ต่อเดือน</target>
         <source>%1 Monthly</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1 ต่อเดือน</target>
         <source>%1 Monthly + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueYearly">
+      <trans-unit id="vpn.subscriptionManagement.planValueYearly" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <target>%1 ต่อปี</target>
         <source>%1 Yearly</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax">
+      <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <target>%1 ต่อปี + ภาษี</target>
         <source>%1 Yearly + tax</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.sectionTitle">
+      <trans-unit id="vpn.subscriptionManagement.sectionTitle" xml:space="preserve">
         <note annotates="source" from="developer">Menu title for a view with details on the user's account.</note>
+        <target>บัญชี</target>
         <source>Account</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.statusActive">
+      <trans-unit id="vpn.subscriptionManagement.statusActive" xml:space="preserve">
         <note annotates="source" from="developer">Text for a label that indicates an active subscription.</note>
+        <target>ใช้งานอยู่</target>
         <source>Active</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.statusInactive">
+      <trans-unit id="vpn.subscriptionManagement.statusInactive" xml:space="preserve">
         <note annotates="source" from="developer">Text for a label that indicates an inactive subscription.</note>
+        <target>ไม่ได้ใช้งาน</target>
         <source>Inactive</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.statusLabel">
+      <trans-unit id="vpn.subscriptionManagement.statusLabel" xml:space="preserve">
         <note annotates="source" from="developer">Label for the current status of the subscription.</note>
+        <target>สถานะ</target>
         <source>Status</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.subscriptionPlatformLabel">
+      <trans-unit id="vpn.subscriptionManagement.subscriptionPlatformLabel" xml:space="preserve">
         <note annotates="source" from="developer">The %1 represents the subscription platform. Values for %1 could be “Apple” or “Google” for example.</note>
+        <target>การสมัครสมาชิกผ่าน %1</target>
         <source>%1 subscription</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.summaryHeadline">
+      <trans-unit id="vpn.subscriptionManagement.summaryHeadline" xml:space="preserve">
         <note annotates="source" from="developer">Headline for a list with information on the subscription plan of the user.</note>
+        <target>สรุปการสมัครสมาชิก</target>
         <source>Subscription summary</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual">
+      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual" xml:space="preserve">
         <note annotates="source" from="developer">Block of text appearing beside a button to upgrade subscription.</note>
+        <target>ประหยัด 50% สำหรับแผนรายปี</target>
         <source>Save 50% on an annual plan</source>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton">
+      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton" xml:space="preserve">
         <note annotates="source" from="developer">Label for a button that will open the upgrade subscription flow.</note>
+        <target>เปลี่ยนแผน</target>
         <source>Change plan</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.disconnect">
+      <trans-unit id="vpn.systray.disconnect" xml:space="preserve">
         <source>Disconnect</source>
+        <target>ตัดการเชื่อมต่อ</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.help">
+      <trans-unit id="vpn.systray.help" xml:space="preserve">
         <source>Help</source>
+        <target>ช่วยเหลือ</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.hide">
+      <trans-unit id="vpn.systray.hide" xml:space="preserve">
         <source>Hide Mozilla VPN</source>
+        <target>ซ่อน Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.location2">
+      <trans-unit id="vpn.systray.location2" xml:space="preserve">
         <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
+        <target>%1 %2</target>
         <source>%1, %2</source>
       </trans-unit>
-      <trans-unit id="vpn.systray.preferences">
+      <trans-unit id="vpn.systray.preferences" xml:space="preserve">
         <source>Preferences…</source>
+        <target>กำหนดลักษณะ…</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.quit">
+      <trans-unit id="vpn.systray.quit" xml:space="preserve">
         <source>Quit Mozilla VPN</source>
+        <target>ออกจาก Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.show">
+      <trans-unit id="vpn.systray.show" xml:space="preserve">
         <source>Show Mozilla VPN</source>
+        <target>แสดง Mozilla VPN</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnectTo">
+      <trans-unit id="vpn.systray.statusConnectTo" xml:space="preserve">
         <source>Connect to the last location:</source>
+        <target>เชื่อมต่อกับตำแหน่งล่าสุด:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnectedTo">
+      <trans-unit id="vpn.systray.statusConnectedTo" xml:space="preserve">
         <source>Connected to:</source>
+        <target>เชื่อมต่อแล้วกับ:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusConnectingTo">
+      <trans-unit id="vpn.systray.statusConnectingTo" xml:space="preserve">
         <source>Connecting to:</source>
+        <target>กำลังเชื่อมต่อกับ:</target>
       </trans-unit>
-      <trans-unit id="vpn.systray.statusDisconnectingFrom">
+      <trans-unit id="vpn.systray.statusDisconnectingFrom" xml:space="preserve">
         <source>Disconnecting from:</source>
+        <target>กำลังตัดการเชื่อมต่อกับ:</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.allow">
+      <trans-unit id="vpn.telemetryPolicyView.allow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>อนุญาตบนอุปกรณ์นี้</target>
         <source>Allow on this device</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.dataCollectionAndUse">
+      <trans-unit id="vpn.telemetryPolicyView.dataCollectionAndUse" xml:space="preserve">
         <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
+        <target>การเก็บรวบรวมและใช้ข้อมูล</target>
         <source>Data collection and use</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.description">
+      <trans-unit id="vpn.telemetryPolicyView.description" xml:space="preserve">
         <source>We strive to provide you with choices and collect only the data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
+        <target>เราพยายามมอบทางเลือกต่างๆ ให้กับคุณและรวบรวมเฉพาะข้อมูลที่จำเป็นเพื่อปรับปรุง Mozilla VPN การแบ่งปันข้อมูลนี้กับ Mozilla เป็นเพียงตัวเลือกเท่านั้น</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.doNotAllow">
+      <trans-unit id="vpn.telemetryPolicyView.doNotAllow" xml:space="preserve">
         <note annotates="source" from="developer">Button label</note>
+        <target>ไม่อนุญาต</target>
         <source>Don’t allow</source>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.learnMore">
+      <trans-unit id="vpn.telemetryPolicyView.learnMore" xml:space="preserve">
         <source>Learn more about what data Mozilla collects and how it’s used.</source>
+        <target>เรียนรู้เพิ่มเติมเกี่ยวกับข้อมูลที่ Mozilla รวบรวมและการใช้งานข้อมูลดังกล่าว</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.question">
+      <trans-unit id="vpn.telemetryPolicyView.question" xml:space="preserve">
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
+        <target>อนุญาตให้ Mozilla VPN ส่งข้อมูลทางเทคนิค การโต้ตอบ และแคมเปญ รวมทั้งข้อมูลการแนะนำผลิตภัณฑ์ไปยัง Mozilla หรือไม่?</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.shareTechnicalData">
+      <trans-unit id="vpn.telemetryPolicyView.shareTechnicalData" xml:space="preserve">
         <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
+        <target>แบ่งปันข้อมูลทางเทคนิค</target>
         <source>Share technical data</source>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.actionNoUpdate">
+      <trans-unit id="vpn.updateButton.actionNoUpdate" xml:space="preserve">
         <source>Okay</source>
+        <target>ตกลง</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.actionOnUpdate">
+      <trans-unit id="vpn.updateButton.actionOnUpdate" xml:space="preserve">
         <source>Update now</source>
+        <target>อัปเดตตอนนี้</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.checkForUpdateButtonText">
+      <trans-unit id="vpn.updateButton.checkForUpdateButtonText" xml:space="preserve">
         <source>Check for Updates</source>
+        <target>ตรวจสอบการอัปเดต</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.descriptionNoUpdate2">
+      <trans-unit id="vpn.updateButton.descriptionNoUpdate2" xml:space="preserve">
         <source>You currently have the latest version of Mozilla VPN</source>
+        <target>ขณะนี้คุณกำลังใช้ Mozilla VPN รุ่นล่าสุดอยู่แล้ว</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.descriptionOnUpdate">
+      <trans-unit id="vpn.updateButton.descriptionOnUpdate" xml:space="preserve">
         <source>Click to update to the latest version of the application</source>
+        <target>คลิกเพื่ออัปเดตแอปพลิเคชันให้เป็นรุ่นล่าสุด</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.titleNoUpdate">
+      <trans-unit id="vpn.updateButton.titleNoUpdate" xml:space="preserve">
         <source>You are up to date</source>
+        <target>คุณอัปเดตเป็นรุ่นล่าสุดแล้ว</target>
       </trans-unit>
-      <trans-unit id="vpn.updateButton.titleOnUpdate">
+      <trans-unit id="vpn.updateButton.titleOnUpdate" xml:space="preserve">
         <source>Updates available</source>
+        <target>มีการอัปเดต</target>
       </trans-unit>
     </body>
   </file>
