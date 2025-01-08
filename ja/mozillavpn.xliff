@@ -892,7 +892,7 @@
         <target>アプリを除外すると、そのアプリはあなたの IP アドレスとおおよその位置情報にアクセスできるようになります。</target>
         <source>When you exclude an app, it will have access to your IP address and approximate location.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.excludedAppsBody3" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.excludedAppsBody3">
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
         <source>You can use the settings under Settings &gt; Privacy features to block ads, block trackers, and block malware, even on excluded apps.</source>
       </trans-unit>
@@ -911,11 +911,11 @@
         <target>除外アプリ</target>
         <source>Excluded apps</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody1" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.locationBody1">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
         <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.locationBody2" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.locationBody2">
         <note annotates="source" from="developer">Body label for the location selection help sheet</note>
         <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
       </trans-unit>
@@ -929,11 +929,11 @@
         <target>場所の選択</target>
         <source>Location selection</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyBody1" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.privacyBody1">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
         <source>Privacy features give you greater control over the types of content you see, helping you stay safe online.</source>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyBody2" xml:space="preserve">
+      <trans-unit id="vpn.helpSheets.privacyBody2">
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
         <source>If you activate these features, they’ll overwrite any custom DNS you’re using. These protections are not a substitute for taking other security precautions — for example, while blocking malware you should still avoid downloading attachments in strange emails.</source>
       </trans-unit>
@@ -1215,7 +1215,7 @@
         <source>No messages</source>
         <target>メッセージはありません</target>
       </trans-unit>
-      <trans-unit id="vpn.inAppMessaging.extensionBadge" xml:space="preserve">
+      <trans-unit id="vpn.inAppMessaging.extensionBadge">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about a Firefox browser extension</note>
         <source>Extension</source>
       </trans-unit>
@@ -1370,14 +1370,14 @@
         <target>システムの言語</target>
         <source>System language</source>
       </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.disabledSubLabel" xml:space="preserve">
+      <trans-unit id="vpn.localNetworkAccess.disabledSubLabel">
         <source>Access Apple CarPlay, AirDrop, AirPlay and local network devices like printers. The VPN must be off to edit this setting.</source>
       </trans-unit>
       <trans-unit id="vpn.localNetworkAccess.label" xml:space="preserve">
         <source>Local network access</source>
         <target>ローカルネットワークアクセス</target>
       </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.labelTitle" xml:space="preserve">
+      <trans-unit id="vpn.localNetworkAccess.labelTitle">
         <source>Exclude local network traffic</source>
       </trans-unit>
       <trans-unit id="vpn.localNetworkAccess.subLabel" xml:space="preserve">
@@ -1538,10 +1538,10 @@
         <source>Guest Wi-Fi portal detected</source>
         <target>ゲスト Wi-Fi ポータルを検出しました</target>
       </trans-unit>
-      <trans-unit id="vpn.notifications.connectionFailedMessage" xml:space="preserve">
+      <trans-unit id="vpn.notifications.connectionFailedMessage">
         <source>Sorry, something went wrong with your VPN connection.</source>
       </trans-unit>
-      <trans-unit id="vpn.notifications.connectionFailedTitle" xml:space="preserve">
+      <trans-unit id="vpn.notifications.connectionFailedTitle">
         <source>Connection failed</source>
       </trans-unit>
       <trans-unit id="vpn.notifications.subscriptionNotFound" xml:space="preserve">
@@ -1689,7 +1689,7 @@
         <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
         <target>オンにすると、端末を起動するたびに VPN が起動します。最後に使用したのと同じサーバーの場所に自動的に再接続されます。</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideBody2" xml:space="preserve">
+      <trans-unit id="vpn.onboarding.startSlideBody2">
         <source>Launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideHeader" xml:space="preserve">
@@ -2030,13 +2030,13 @@
         <source>Block trackers</source>
         <target>オンライン追跡をブロック</target>
       </trans-unit>
-      <trans-unit id="vpn.settings.reauthDescription" xml:space="preserve">
+      <trans-unit id="vpn.settings.reauthDescription">
         <source>For your security, please sign in again to access your account information. You’ll complete this process on Mozilla’s website.</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.reauthTitle" xml:space="preserve">
+      <trans-unit id="vpn.settings.reauthTitle">
         <source>Sign In Again</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.shareTechnicalDataDescription" xml:space="preserve">
+      <trans-unit id="vpn.settings.shareTechnicalDataDescription">
         <source>Help improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data.</source>
       </trans-unit>
       <trans-unit id="vpn.settings.startAtBootSubtitle" xml:space="preserve">
@@ -2072,7 +2072,7 @@
         <source>Use Staging Servers</source>
         <target>ステージングサーバーを利用する</target>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.errorActivating" xml:space="preserve">
+      <trans-unit id="vpn.splittunnel.errorActivating">
         <source>Error activating App exclusions</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoCardDescription" xml:space="preserve">
@@ -2310,7 +2310,7 @@
         <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
         <target>Mozilla VPN が技術データ、対話データ、キャンペーンおよび参照データを Mozilla に送信することを許可しますか？</target>
       </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.shareTechnicalData" xml:space="preserve">
+      <trans-unit id="vpn.telemetryPolicyView.shareTechnicalData">
         <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
         <source>Share technical data</source>
       </trans-unit>
