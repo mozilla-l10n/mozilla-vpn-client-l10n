@@ -173,12 +173,12 @@ def main():
             ):
                 # Add xml:space="preserve" to all trans-units, to avoid conflict
                 # with Pontoon
+                """
                 attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
                 xml_space = trans_node.get(attrib_name)
                 if xml_space is None:
                     trans_node.set(attrib_name, "preserve")
 
-                """
                 # Remove xml:space="preserve"
                 attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
                 trans_node.attrib.pop(attrib_name, None)
