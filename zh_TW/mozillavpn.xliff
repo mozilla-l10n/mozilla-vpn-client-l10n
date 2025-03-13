@@ -1380,10 +1380,6 @@
         <source>Access Apple CarPlay, AirDrop, AirPlay and local network devices like printers. The VPN must be off to edit this setting.</source>
         <target>使用 Apple CarPlay、AirDrop、Airplay 以及印表機等區域網路裝置。必須先中斷 VPN 才能編輯此設定。</target>
       </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.label">
-        <source>Local network access</source>
-        <target>存取區域網路</target>
-      </trans-unit>
       <trans-unit id="vpn.localNetworkAccess.labelTitle">
         <source>Exclude local network traffic</source>
         <target>排除本機網路流量</target>
@@ -1391,10 +1387,6 @@
       <trans-unit id="vpn.localNetworkAccess.subLabel">
         <source>Access Apple CarPlay, AirDrop, AirPlay and local network devices like printers.</source>
         <target>存取 Apple CarPlay、AirDrop、Airplay 以及印表機等區域網路裝置。</target>
-      </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.vpnMustBeOff">
-        <source>VPN must be off to edit “Local network access”</source>
-        <target>必須先中斷 VPN 才能編輯「存取區域網路」</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber">
         <source>Already a subscriber?</source>
@@ -1695,10 +1687,6 @@
         <source>Allow VPN connection</source>
         <target>允許 VPN 連線</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideBody">
-        <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
-        <target>開啟後，即可在每次啟動裝置時，自動開啟 VPN。我們會自動為您連線到上次使用的伺服器。</target>
-      </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideBody2">
         <source>Launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
         <target>在每次啟動裝置時自動開啟 VPN。我們會自動為您連線到上次使用的伺服器。</target>
@@ -1952,10 +1940,6 @@
         <target>全部清除</target>
         <source>Clear all</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.appExclusionSettings">
-        <source>App exclusions</source>
-        <target>排除應用程式</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.appExclusionTitle">
         <source>Excluded apps</source>
         <target>排除的應用程式</target>
@@ -1964,10 +1948,6 @@
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
         <target>允許 Mozilla VPN 自動傳送錯誤報告，幫助我們修正未預期的錯誤</target>
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.dataCollectionDescription">
-        <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
-        <target>允許 Mozilla VPN 向 Mozilla 回報技術、使用、促銷活動與導購資料</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings">
         <source>DNS settings</source>
@@ -2090,11 +2070,6 @@
         <source>Error activating App exclusions</source>
         <target>開啟「排除應用程式」功能時發生錯誤</target>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoCardDescription">
-        <note annotates="source" from="developer">Displays inside the information card at the top of the app exclusions screen when the VPN is on</note>
-        <target>必須先中斷 VPN 才能編輯應用程式排除項目</target>
-        <source>VPN must be off to edit App exclusions</source>
-      </trans-unit>
       <trans-unit id="vpn.splittunnel.infoCardDescription2">
         <note annotates="source" from="developer">Displays inside the information card at the top of the Excluded apps screen when the VPN is on</note>
         <target>必須先關閉 VPN 才能編輯排除的應用程式</target>
@@ -2103,11 +2078,6 @@
       <trans-unit id="vpn.splittunnel.infoLinkText">
         <source>Learn more</source>
         <target>了解更多</target>
-      </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoText2">
-        <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
-        <target>若有關於設定應用程式排除功能的任何問題，我們在網站中提供一些有用的小撇步。</target>
-        <source>For any questions about setting app exclusions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppActionButton">
         <note annotates="source" from="developer">Displayed in a notification as "call to action" when apps are missing from the split-tunnel settings.</note>
@@ -2302,11 +2272,6 @@
         <note annotates="source" from="developer">Button label</note>
         <target>在此裝置允許</target>
         <source>Allow on this device</source>
-      </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.dataCollectionAndUse">
-        <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
-        <target>資料收集與使用</target>
-        <source>Data collection and use</source>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.description">
         <source>We strive to provide you with choices and collect only the data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
