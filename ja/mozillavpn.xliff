@@ -1373,20 +1373,12 @@
       <trans-unit id="vpn.localNetworkAccess.disabledSubLabel">
         <source>Access Apple CarPlay, AirDrop, AirPlay and local network devices like printers. The VPN must be off to edit this setting.</source>
       </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.label">
-        <source>Local network access</source>
-        <target>ローカルネットワークアクセス</target>
-      </trans-unit>
       <trans-unit id="vpn.localNetworkAccess.labelTitle">
         <source>Exclude local network traffic</source>
       </trans-unit>
       <trans-unit id="vpn.localNetworkAccess.subLabel">
         <source>Access Apple CarPlay, AirDrop, AirPlay and local network devices like printers.</source>
         <target>Apple CarPlay、AirDrop、AirPlay、プリンターなどのローカルネットワーク上の機器にアクセスします。</target>
-      </trans-unit>
-      <trans-unit id="vpn.localNetworkAccess.vpnMustBeOff">
-        <source>VPN must be off to edit “Local network access”</source>
-        <target>“ローカルネットワークアクセス” を編集するには VPN をオフにする必要があります</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber">
         <source>Already a subscriber?</source>
@@ -1685,10 +1677,6 @@
         <source>Allow VPN connection</source>
         <target>VPN 接続を許可</target>
       </trans-unit>
-      <trans-unit id="vpn.onboarding.startSlideBody">
-        <source>Turn on to launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
-        <target>オンにすると、端末を起動するたびに VPN が起動します。最後に使用したのと同じサーバーの場所に自動的に再接続されます。</target>
-      </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideBody2">
         <source>Launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
       </trans-unit>
@@ -1941,10 +1929,6 @@
         <target>すべて消去</target>
         <source>Clear all</source>
       </trans-unit>
-      <trans-unit id="vpn.settings.appExclusionSettings">
-        <source>App exclusions</source>
-        <target>アプリの除外</target>
-      </trans-unit>
       <trans-unit id="vpn.settings.appExclusionTitle">
         <source>Excluded apps</source>
         <target>除外アプリ</target>
@@ -1953,10 +1937,6 @@
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
         <target>Mozilla VPN にクラッシュレポートの自動送信を許可して、予期しないクラッシュの修正に役立てる</target>
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
-      </trans-unit>
-      <trans-unit id="vpn.settings.dataCollectionDescription">
-        <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla</source>
-        <target>Mozilla VPN が技術データ、対話データ、キャンペーンおよび参照データを Mozilla に送信することを許可します</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings">
         <source>DNS settings</source>
@@ -2075,11 +2055,6 @@
       <trans-unit id="vpn.splittunnel.errorActivating">
         <source>Error activating App exclusions</source>
       </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoCardDescription">
-        <note annotates="source" from="developer">Displays inside the information card at the top of the app exclusions screen when the VPN is on</note>
-        <target>アプリの除外設定を編集するには VPN をオフにする必要があります</target>
-        <source>VPN must be off to edit App exclusions</source>
-      </trans-unit>
       <trans-unit id="vpn.splittunnel.infoCardDescription2">
         <note annotates="source" from="developer">Displays inside the information card at the top of the Excluded apps screen when the VPN is on</note>
         <target>アプリの除外設定を編集するには VPN をオフにする必要があります</target>
@@ -2088,11 +2063,6 @@
       <trans-unit id="vpn.splittunnel.infoLinkText">
         <source>Learn more</source>
         <target>詳細情報</target>
-      </trans-unit>
-      <trans-unit id="vpn.splittunnel.infoText2">
-        <note annotates="source" from="developer">This displays as informational text below split tunneling settings. The link directs to a sumo article which will help certain users who are having network issues using this feature.</note>
-        <target>アプリの除外設定に関する質問については、ウェブサイトでいくつかの役立つヒントを提供しています。</target>
-        <source>For any questions about setting app exclusions, we’ve provided some helpful tips on our website.</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppActionButton">
         <note annotates="source" from="developer">Displayed in a notification as "call to action" when apps are missing from the split-tunnel settings.</note>
@@ -2287,11 +2257,6 @@
         <note annotates="source" from="developer">Button label</note>
         <target>この端末で許可する</target>
         <source>Allow on this device</source>
-      </trans-unit>
-      <trans-unit id="vpn.telemetryPolicyView.dataCollectionAndUse">
-        <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
-        <target>データの収集と使用</target>
-        <source>Data collection and use</source>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.description">
         <source>We strive to provide you with choices and collect only the data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
