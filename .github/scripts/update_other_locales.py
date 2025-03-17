@@ -171,19 +171,6 @@ def main():
             for trans_node in reference_root_copy.xpath(
                 "//x:trans-unit", namespaces=NS
             ):
-                # Add xml:space="preserve" to all trans-units, to avoid conflict
-                # with Pontoon
-                """
-                attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
-                xml_space = trans_node.get(attrib_name)
-                if xml_space is None:
-                    trans_node.set(attrib_name, "preserve")
-
-                # Remove xml:space="preserve"
-                attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
-                trans_node.attrib.pop(attrib_name, None)
-                """
-
                 file_name = trans_node.getparent().getparent().get("original")
                 source_string = trans_node.xpath("./x:source", namespaces=NS)[0].text
                 original_id = trans_node.get("id")
@@ -207,11 +194,11 @@ def main():
                     updated = True
 
                 if translated and not updated:
-                    # Translation is available, but the refence XLIFF has no target.
+                    # Translation is available, but the reference XLIFF has no target.
                     # Create a target node and insert it after source.
                     child = etree.Element("target")
                     child.text = translations[string_id]
-                    trans_node.insert(1, child)
+                    trans_node.insert(2, child)
 
             # Update target-language where defined, replace underscores with
             # hyphens if necessary (e.g. en_GB => en-GB).
