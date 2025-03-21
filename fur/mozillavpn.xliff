@@ -1,0 +1,1826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="../../nebula/ui/components/MZSystemAlert.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.alert.authenticationError">
+        <source>Authentication error</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.backendServiceError">
+        <source>Background service error</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.deviceDisconnectedAndLogout">
+        <source>Signed out and device disconnected</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.getIPRestrictionError">
+        <source>Operation not allowed from current location</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.remoteServiceError">
+        <source>Remote service error</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.subscriptionFailureError">
+        <source>Subscription failed</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.tryAgain">
+        <source>Try again</source>
+      </trans-unit>
+      <trans-unit id="vpn.alert.unableToConnect">
+        <source>Unable to connect</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/extrastrings.h" datatype="c" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="macosinstaller.conclusion.message1_v2">
+        <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.message2">
+        <source>Trouble with this installation?</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.message31">
+        <source>Help</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.conclusion.title">
+        <source>Success!</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.previous_build.message">
+        <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.previous_build.title">
+        <source>Previous Installation Detected</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.title">
+        <source>Mozilla VPN for macOS</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.unsupported_version.message">
+        <source>Mozilla VPN requires Mac OS X 10.6 or later.</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.unsupported_version.title">
+        <source>Unable to install</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.welcome.message1">
+        <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
+      </trans-unit>
+      <trans-unit id="macosinstaller.welcome.message2">
+        <source>Click “Continue” to continue the setup.</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ipaddresslookup.cpp" datatype="cpp" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.connectionInfo.loading">
+        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
+        <source>Loading</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="menubar.file.close">
+        <source>Close</source>
+      </trans-unit>
+      <trans-unit id="menubar.file.title">
+        <source>File</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/ScreenBackendFailure.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.errors.somethingWentWrong">
+        <source>Something went wrong…</source>
+      </trans-unit>
+      <trans-unit id="vpn.errors.tryAgain">
+        <source>Try Again</source>
+      </trans-unit>
+      <trans-unit id="vpn.errors.unableToEstablishConnection">
+        <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/ScreenCrashReporting.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.crashreporter.description">
+        <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
+        <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.dontSendButton">
+        <note annotates="source" from="developer">User does not agree to send a crash report.</note>
+        <source>No thanks</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.mainHeading">
+        <note annotates="source" from="developer">Label over description text section.</note>
+        <source>Crash reporting</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.sendButtonLabel">
+        <note annotates="source" from="developer">User agrees to send a crash report.</note>
+        <source>Send report</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/devices/VPNDeviceListItem.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.devices.deviceAccessibleName">
+        <note annotates="source" from="developer">Example: "deviceName deviceDescription"</note>
+        <source>%1 %2</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/home/ViewHome.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="MozillaVPN">
+        <source>Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.servers.currentLocation">
+        <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
+        <source>current location - %1</source>
+      </trans-unit>
+      <trans-unit id="vpn.servers.selectLocation">
+        <note annotates="source" from="developer">Select the Location of the VPN server</note>
+        <source>Select location</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/home/controller/ConnectionStability.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.connectionStability.checkConnection">
+        <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
+        <source>Check Connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionStability.noSignal">
+        <source>No Signal</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionStability.unstable">
+        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <source>Unstable</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/home/controller/ControllerView.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.controller.activated">
+        <source>VPN is on</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.activating">
+        <source>Masking connection and location</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.activationSloagan">
+        <source>Turn on to protect your privacy</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.active">
+        <note annotates="source" from="developer">This refers to the user’s internet connection.</note>
+        <source>Secure and private</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.attemptingToConfirm">
+        <source>Attempting to confirm connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.connectingState">
+        <source>Connecting…</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.deactivated">
+        <source>VPN is off</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.deactivating">
+        <source>Unmasking connection and location</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.disconnecting">
+        <source>Disconnecting…</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.switching">
+        <source>Switching…</source>
+      </trans-unit>
+      <trans-unit id="vpn.controller.switchingDetail">
+        <note annotates="source" from="developer">Switches from location 1 to location 2</note>
+        <source>From %1 to %2</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/home/controller/VPNToggle.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.toggle.off">
+        <source>Turn VPN off</source>
+      </trans-unit>
+      <trans-unit id="vpn.toggle.on">
+        <source>Turn VPN on</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/home/servers/ServerCountry.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="cities">
+        <note annotates="source" from="developer">The title for the list of cities.</note>
+        <source>Cities</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/settings/ViewLanguage.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.settings.language">
+        <source>Language</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.languageAccessibleName">
+        <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
+        <source>%1 %2</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/settings/ViewNotifications.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.settings.guestWifiAlert">
+        <source>Guest Wi-Fi portal alert</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.guestWifiAlert.description">
+        <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.connectionChange.description">
+        <source>Get notified when the connection status changes</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.connectionChange2">
+        <source>Connection change notification</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.serverSwitch.description">
+        <source>Get notified when you successfully switched servers</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notification.serverSwitch2">
+        <source>Server switching notification</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.notifications">
+        <source>Notifications</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert">
+        <source>Unsecured network alert</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.unsecuredNetworkAlert.description">
+        <source>Get notified if you connect to an unsecured Wi-Fi network</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/screens/settings/appPermissions/ViewAppPermissions.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.protectSelectedApps.addApplication">
+        <note annotates="source" from="developer">Button label</note>
+        <source>Add application</source>
+      </trans-unit>
+      <trans-unit id="vpn.protectSelectedApps.searchApps">
+        <note annotates="source" from="developer">Search bar placeholder text</note>
+        <source>Search apps</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/sharedViews/ViewErrorFullScreen.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.errors.checkOutageUpdates">
+        <source>Check outage updates</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="../src/apps/vpn/ui/sharedViews/ViewUpdate.qml" datatype="plaintext" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.updates.notNow">
+        <source>Not now</source>
+      </trans-unit>
+      <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
+        <source>Your connection will not be secure while you update.</source>
+      </trans-unit>
+      <trans-unit id="vpn.updates.updateNow">
+        <source>Update now</source>
+      </trans-unit>
+      <trans-unit id="vpn.updates.updateRecomended">
+        <source>Update recommended</source>
+      </trans-unit>
+      <trans-unit id="vpn.updates.updateRecomended.description">
+        <source>Please update the app before you continue to use the VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.updates.updateRequire.reason">
+        <source>We detected and fixed a serious bug. You must update your app.</source>
+      </trans-unit>
+      <trans-unit id="vpn.updates.updateRequired">
+        <source>Update required</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="generated/l18nstrings_p.cpp" datatype="cpp" source-language="en" target-language="en-US">
+    <body>
+      <trans-unit id="vpn.AndroidNotifications.GeneralNotifications">
+        <note annotates="source" from="developer">A notification channel; so the user can subscribe to "General Notifications"</note>
+        <source>General Notifications</source>
+      </trans-unit>
+      <trans-unit id="vpn.aboutUs.copyVersionNumber">
+        <note annotates="source" from="developer">Accessible name for a button. %1 is the version number of the VPN client.</note>
+        <source>Copy %1</source>
+      </trans-unit>
+      <trans-unit id="vpn.aboutUs.licenses">
+        <source>Licenses</source>
+      </trans-unit>
+      <trans-unit id="vpn.aboutUs.privacyNotice">
+        <source>Privacy notice</source>
+      </trans-unit>
+      <trans-unit id="vpn.aboutUs.releaseVersion">
+        <note annotates="source" from="developer">Refers to the installed version. For example: 'Release Version: 1.23'</note>
+        <source>Release version</source>
+      </trans-unit>
+      <trans-unit id="vpn.aboutUs.termsOfService">
+        <source>Terms of service</source>
+      </trans-unit>
+      <trans-unit id="vpn.aboutUs.title">
+        <source>About us</source>
+      </trans-unit>
+      <trans-unit id="vpn.accessibility.currentIndexFocusedOfTotalItemsInGroup">
+        <note annotates="source" from="developer">Used by screen readers to explain to users which item they are currently focused on, and how many items there are total in a group. For example, given a list with 15 items. If a user selects the 3rd item, we want the screen reader to read out "3 of 15". The %1 represents the index of the currently focused item by the screen reader. The %2 represents the total number of items in the group.</note>
+        <source>%1 of %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.accessibility.selected">
+        <note annotates="source" from="developer">Used by screen reader to indicate that a user action selected an item.</note>
+        <source>Selected</source>
+      </trans-unit>
+      <trans-unit id="vpn.accessibility.selectedAndItemName">
+        <note annotates="source" from="developer">Used by screen readers to denote that a particular item is currently selected. For example, given a segmented control with 2 items, where the first item is currently selected. We want the screen reader to read out "Selected, &lt;item name&gt;". The %1 represents the name of the selected item.</note>
+        <source>Selected item: %1</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.actionPostActivation">
+        <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.actionPreActivation">
+        <source>You can turn on your VPN once you have gained internet access by logging in to the portal.</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation">
+        <source>Turn off VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.buttonTextPreActivation">
+        <source>Okay</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.header">
+        <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
+      </trans-unit>
+      <trans-unit id="vpn.captivePortalAlert.title">
+        <source>Captive portal detected!</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.connectionInformation">
+        <note annotates="source" from="developer">Accessible label for the button that shows the IP info panel when clicked.</note>
+        <source>Connection information</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.errorMessage">
+        <source>Looks like there was an unexpected error while trying to connect. Please try again or check your connection.</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.exitServerLabelIp">
+        <note annotates="source" from="developer">Exit server IP label for IPV4. IP is the abbreviation for Internet Procol. This is followed by the user’s IPv4 address.</note>
+        <source>Exit Server IP:</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.exitServerLabelIpv6">
+        <note annotates="source" from="developer">Exit server IP label for IPv6. IPv6 is the abbreviation for Internet Procol version 6. This is followed by the user’s IPv6 address.</note>
+        <source>Exit Server IPv6:</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.highBulletOne">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
+        <source>Streaming in 4K</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.highBulletThree">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
+        <source>Online gaming</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.highBulletTwo">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for high speedtest results</note>
+        <source>High-speed downloads</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.labelBitps">
+        <note annotates="source" from="developer">Bits per second</note>
+        <source>bit/s</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.labelGbitps">
+        <note annotates="source" from="developer">Gigabits per second</note>
+        <source>Gbit/s</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.labelKbitps">
+        <note annotates="source" from="developer">Kilobits per second</note>
+        <source>kbit/s</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.labelMbitps">
+        <note annotates="source" from="developer">Megabits per second</note>
+        <source>Mbit/s</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.labelPing">
+        <note annotates="source" from="developer">Latency of the connection</note>
+        <source>Ping</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.labelTbitps">
+        <note annotates="source" from="developer">Terabits per second</note>
+        <source>Tbit/s</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.labelUpload">
+        <note annotates="source" from="developer">Label for the upload benchmark shown in the speed test view.</note>
+        <source>Upload</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.listHeaderDefault">
+        <note annotates="source" from="developer">Headline for a list of things that the current connection is capable of.</note>
+        <source>At your current speed, here’s what your device is optimized for:</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.listHeaderSlow">
+        <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
+        <source>It looks like the connection to this server location is a bit slow, you can try:</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel">
+        <note annotates="source" from="developer">Shown to the user while waiting for the connection speed test results</note>
+        <source>Testing speed…</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.mediumBulletOne">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <source>Browsing the internet</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.mediumBulletThree">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <source>Video conferencing</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.mediumBulletTwo">
+        <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
+        <source>Streaming video</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.metricsTitle">
+        <note annotates="source" from="developer">Title for the connection metrics view.</note>
+        <source>Connection information</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.restartSpeedTest">
+        <note annotates="source" from="developer">Accessible label for the button to restart the speed test upon its completion.</note>
+        <source>Restart speed test</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.startSpeedTest">
+        <note annotates="source" from="developer">Accessible label for the button that opens the speed test view and initiates a speed test</note>
+        <source>Start speed test</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletOne">
+        <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
+        <source>Switching server locations</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletThree">
+        <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section for multi-hop connections</note>
+        <source>Switching back to a single-hop connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.troubleshootingBulletTwo">
+        <note annotates="source" from="developer">This is a bullet item in the connection troubleshooting section</note>
+        <source>Checking your internet connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.unitPing">
+        <source>ms</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.crashOptInDialogDescription">
+        <note annotates="source" from="developer">This is a description for a checkbox on the crash reporter dialog.</note>
+        <source>Don’t show this again. Autosend crash reports to Mozilla.</source>
+      </trans-unit>
+      <trans-unit id="vpn.crashreporter.mainTitle">
+        <note annotates="source" from="developer">Main window title</note>
+        <source>Mozilla Crash Report</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.authButtonLabel">
+        <source>Continue</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.buttonLabel">
+        <source>Delete account</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.headline2">
+        <source>Delete Mozilla account</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.optionDescriptionFour">
+        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <source>Any extensions and themes that you’ve published to addons.mozilla.org will be deleted</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.optionDescriptionOne">
+        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <source>Any paid subscriptions you have will be cancelled (Except Pocket)</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.optionDescriptionThree">
+        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <source>Reactivating with this email may not restore your saved information</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.optionDescriptionTwo">
+        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
+        <source>You may lose saved information and features within Mozilla products</source>
+      </trans-unit>
+      <trans-unit id="vpn.deleteAccount.subheadline2">
+        <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
+        <source>Your Mozilla account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.countLabel">
+        <note annotates="source" from="developer">Label at the top of the "Devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
+        <source>%1 out of %2 devices added</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.limitDescription2">
+        <note annotates="source" from="developer">Description of the "device limit" view describing why the device has not yet been added to the list of active devices (because we are at the device limit)</note>
+        <source>You’re using VPN on 5 devices. To add another device, please remove one.</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.limitTitle">
+        <note annotates="source" from="developer">Title of the "device limit" view stating that the device has not yet been added to the list of active devices (because we are at the device limit)</note>
+        <source>Device not added</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.listItemDescriptionAddedDaysAgo">
+        <note annotates="source" from="developer">Device list item description for a device added days ago. %1 is the number of days.</note>
+        <source>Added %1 days ago</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.listItemDescriptionAddedFewHoursAgo">
+        <note annotates="source" from="developer">Device list item description for a device added a few hours ago. %1 is the number of hours.</note>
+        <source>Added a few hours ago (%1)</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.listItemDescriptionAddedOneHourAgo">
+        <note annotates="source" from="developer">Device list item description for a device added less than 1 hour ago</note>
+        <source>Added less than an hour ago</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.listItemDescriptionCurrent">
+        <note annotates="source" from="developer">Device list item description for the current device</note>
+        <source>Current Device</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.listItemRemoveDeviceAccessibility">
+        <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
+        <source>Remove %1</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.removePopupDescription">
+        <note annotates="source" from="developer">Description for the Remove Device popup. %1 is the name of the device being removed. The name is displayed on purpose on a new line."</note>
+        <source>Please confirm you would like to remove %1.</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.removePopupPrimaryButtonLabel">
+        <note annotates="source" from="developer">Label for the primary button for the Remove Device poup</note>
+        <source>Remove</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.removePopupTitle">
+        <note annotates="source" from="developer">Title for the Remove Device popup</note>
+        <source>Remove device?</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.removingTitle">
+        <note annotates="source" from="developer">Title for "Removing device" screen</note>
+        <source>Removing device…</source>
+      </trans-unit>
+      <trans-unit id="vpn.devices.sectionTitle">
+        <note annotates="source" from="developer">Title for the menu bar when viewing the devices or device limit pages</note>
+        <source>Devices</source>
+      </trans-unit>
+      <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS">
+        <source>Using these privacy features will override your custom DNS.</source>
+      </trans-unit>
+      <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy">
+        <source>Using a custom DNS will override your preferences in the privacy features page.</source>
+      </trans-unit>
+      <trans-unit id="vpn.dnsOverwriteDialog.primaryButton">
+        <source>Confirm</source>
+      </trans-unit>
+      <trans-unit id="vpn.dnsOverwriteDialog.secondaryButton">
+        <source>Maybe later</source>
+      </trans-unit>
+      <trans-unit id="vpn.dnsOverwriteDialog.titleDNS">
+        <source>Override DNS settings?</source>
+      </trans-unit>
+      <trans-unit id="vpn.dnsOverwriteDialog.titlePrivacy">
+        <source>Override privacy features?</source>
+      </trans-unit>
+      <trans-unit id="vpn.freeTrials.freeTrialLabel">
+        <source>7-day free trial</source>
+      </trans-unit>
+      <trans-unit id="vpn.freeTrials.startYourFreeTrial">
+        <note annotates="source" from="developer">This string appears above the 'Sign up' button on mobile onboarding views</note>
+        <source>Sign up to start your 7-day free trial.</source>
+      </trans-unit>
+      <trans-unit id="vpn.genericError.unexpected">
+        <source>Unexpected error</source>
+      </trans-unit>
+      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton">
+        <source>Try Again</source>
+      </trans-unit>
+      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorHeader">
+        <source>Problem confirming subscription</source>
+      </trans-unit>
+      <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText">
+        <source>An unexpected error has occurred, please try again. Visit our help center below to learn how to troubleshoot this issue or contact support.</source>
+      </trans-unit>
+      <trans-unit id="vpn.getHelp.developerOptions">
+        <note annotates="source" from="developer">Button label</note>
+        <source>Developer options</source>
+      </trans-unit>
+      <trans-unit id="vpn.getHelp.helpCenter">
+        <source>Help Center</source>
+      </trans-unit>
+      <trans-unit id="vpn.getHelp.linkText">
+        <source>Help</source>
+      </trans-unit>
+      <trans-unit id="vpn.getHelp.viewLogs">
+        <note annotates="source" from="developer">Label for a clickable item in the Get-Help view</note>
+        <source>View Logs</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.clear">
+        <note annotates="source" from="developer">Accessible label for clear button</note>
+        <source>Clear</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.close">
+        <note annotates="source" from="developer">Accessible label for close button</note>
+        <source>Close</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.collapse">
+        <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
+        <source>Collapse</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.continue">
+        <note annotates="source" from="developer">Label for button used to proceed with an action</note>
+        <source>Continue</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.copied">
+        <note annotates="source" from="developer">Confirmation banner displayed after clicking a button to copy something.</note>
+        <source>Copied!</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.copy">
+        <note annotates="source" from="developer">Accessible button label</note>
+        <source>Copy</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.discoverNow">
+        <note annotates="source" from="developer">Label for button used in intro modals to discover new features.</note>
+        <source>Discover now</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.expand">
+        <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
+        <source>Expand</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.getStarted">
+        <note annotates="source" from="developer">Label for a button used to begin something / proceed</note>
+        <source>Get started</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.goBack">
+        <note annotates="source" from="developer">Label for button used in intro modals to return to the app.</note>
+        <source>Go back</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.help">
+        <note annotates="source" from="developer">Action taken that will help the user</note>
+        <source>Help</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.learnMore">
+        <note annotates="source" from="developer">Label for link to allow the user to learn more about a topic</note>
+        <source>Learn more</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.next">
+        <note annotates="source" from="developer">Label for button used to proceed</note>
+        <source>Next</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.noInternetConnection">
+        <note annotates="source" from="developer">Status alert text</note>
+        <source>No internet connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.noThanks">
+        <note annotates="source" from="developer">Label for button used to not proceed with an action</note>
+        <source>No thanks</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.paste">
+        <note annotates="source" from="developer">Label for button to paste value from clipboard into input</note>
+        <source>Paste</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.signOut">
+        <note annotates="source" from="developer">Link title</note>
+        <source>Sign out</source>
+      </trans-unit>
+      <trans-unit id="vpn.global.vpnUser">
+        <note annotates="source" from="developer">Fallback string for users who have not specified a Display Name.</note>
+        <source>VPN User</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.devicesBody1">
+        <note annotates="source" from="developer">Body label for the devices help sheet</note>
+        <source>Adding a new device to your subscription is easy: just download and log in to Mozilla VPN on that device.</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.devicesBody2">
+        <note annotates="source" from="developer">Body label for the devices help sheet</note>
+        <source>To remove one of your added devices, select “Edit” on this screen and use the trash icon to remove the device you no longer want to use Mozilla VPN on.</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.devicesHeader">
+        <note annotates="source" from="developer">Header label for the devices help sheet</note>
+        <source>Adding and removing devices</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.devicesTitle">
+        <note annotates="source" from="developer">Title label for the devices help sheet</note>
+        <source>Device management</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.dnsBody1">
+        <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
+        <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.dnsBody2">
+        <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
+        <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.dnsHeader">
+        <note annotates="source" from="developer">Header label for the custom dns help sheet</note>
+        <source>What is a custom DNS?</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.dnsTitle">
+        <note annotates="source" from="developer">Title label for the custom dns help sheet</note>
+        <source>Custom DNS settings</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.excludedAppsBody1">
+        <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <source>Excluded apps let you turn off VPN protection for specific apps, without turning off VPN protection for your entire device.</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.excludedAppsBody2">
+        <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <source>When you exclude an app, it will have access to your IP address and approximate location.</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.excludedAppsBody3">
+        <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
+        <source>You can use the settings under Settings &gt; Privacy features to block ads, block trackers, and block malware, even on excluded apps.</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.excludedAppsCTA">
+        <note annotates="source" from="developer">Label for button that opens the "Privacy features" view from the excluded apps help sheet</note>
+        <source>Open “Privacy features”</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.excludedAppsHeader">
+        <note annotates="source" from="developer">Header label for the excluded apps help sheet</note>
+        <source>What are excluded apps?</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.excludedAppsTitle">
+        <note annotates="source" from="developer">Title label for the excluded apps help sheet</note>
+        <source>Excluded apps</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.locationBody1">
+        <note annotates="source" from="developer">Body label for the location selection help sheet</note>
+        <source>If you want maximum speed and reliability, choose one of the recommended locations in the “Single-hop” toggle. We’ve sorted them based on expected performance.</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.locationBody2">
+        <note annotates="source" from="developer">Body label for the location selection help sheet</note>
+        <source>If you want to add more privacy, switch to “Multi-hop” and add an additional server location. Multi-hop VPN routes your traffic through two server locations instead of one for extra security and privacy. This may also slow down your connection a bit.</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.locationHeader">
+        <note annotates="source" from="developer">Header label for the location selection help sheet</note>
+        <source>Single-hop vs multi-hop</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.locationTitle">
+        <note annotates="source" from="developer">Title label for the location selection help sheet</note>
+        <source>Location selection</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.privacyBody1">
+        <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
+        <source>Privacy features give you greater control over the types of content you see, helping you stay safe online.</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.privacyBody2">
+        <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
+        <source>If you activate these features, they’ll overwrite any custom DNS you’re using. These protections are not a substitute for taking other security precautions — for example, while blocking malware you should still avoid downloading attachments in strange emails.</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.privacyHeader">
+        <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
+        <source>What can privacy features do for me?</source>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.privacyTitle">
+        <note annotates="source" from="developer">Title label for the privacy features help sheet</note>
+        <source>Privacy features</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.changeEmailLink">
+        <source>Change email</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.continueToSignIn">
+        <note annotates="source" from="developer">Button a user clicks after updating their Mozilla account settings so that they can re-attempt sign-in</note>
+        <source>Continue to sign in</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.createAccountButton">
+        <source>Create account</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.createPasswordLabel">
+        <note annotates="source" from="developer">This is a label displayed on the password creation screen.</note>
+        <source>Create password</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.emailInputPlaceholder">
+        <source>Enter email</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.emailTokenResentAlert">
+        <note annotates="source" from="developer">User has requested to send a new email containing the 6-digit pin to confirm their email address.</note>
+        <source>We’ve resent your code to your email.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.emailVerificationDescription">
+        <note annotates="source" from="developer">User has been sent a verification email containing a code.</note>
+        <source>Open your email and enter the verification code that was sent.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.enterEmailAddressDescription">
+        <source>Enter your email address to continue using Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.finishAccountCreationDescription2">
+        <note annotates="source" from="developer">User message prompting user to finish creating their account to use Mozilla VPN.</note>
+        <source>Finish creating your Mozilla account to continue to Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.forgotPasswordLink">
+        <source>Forgot your password?</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.hidePassword">
+        <note annotates="source" from="developer">Tooltip label for the eye icon in password input</note>
+        <source>Hide password</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.informationUsageDisclaimer">
+        <note annotates="source" from="developer">Non-op text that informs user about how Mozilla will not sell it to a third party.</note>
+        <source>We only use your email to create your account or sign in. We will never sell it to a third party.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.invalidCodeErrorMessage">
+        <note annotates="source" from="developer">User provided did not provide a correct security code.</note>
+        <source>Invalid code. Please try again</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.invalidEmailErrorMessage">
+        <note annotates="source" from="developer">Generic message for when user submits incorrect email.</note>
+        <source>Invalid email. Please try again</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.invalidEmailFormatErrorMessage">
+        <note annotates="source" from="developer">User is providing us an email that is not formatted correctly. Ex. jsmith&amp;gmail.com</note>
+        <source>Email format not supported. Please try again with a different email</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.invalidPasswordErrorMessage">
+        <note annotates="source" from="developer">User has submitted an invalid password.</note>
+        <source>Invalid password. Please try again</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.passwordHintCharacterLength">
+        <note annotates="source" from="developer">This is a hint for the user - they must provide a password with at least 8 characters</note>
+        <source>Must be at least 8 characters</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.passwordHintCommonPassword">
+        <note annotates="source" from="developer">This is a hint for the user - password they provide must not be a common password. Ex. password.</note>
+        <source>Must not be a common password</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.passwordHintEmailAddressAsPassword">
+        <note annotates="source" from="developer">This is a hint for the user - they must provide a password that does not match their email.</note>
+        <source>Must not be your email address</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.passwordInputLabel">
+        <source>Password</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.passwordInputPlaceholder">
+        <source>Enter password</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.pleaseWait">
+        <note annotates="source" from="developer">Headline on loading screen</note>
+        <source>Please wait…</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.problemEmailTypeNotSupported">
+        <note annotates="source" from="developer">App screen that informs the user there was an error signing them in - this is the message.</note>
+        <source>Primary account email required for sign-in</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.problemSendingEmailErrorMessage">
+        <note annotates="source" from="developer">App screen that informs the user there was an error sending them their verification code email - this is the message.</note>
+        <source>Sorry, we were unable to send you a verification code.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.problemSendingEmailTitle">
+        <note annotates="source" from="developer">App screen that informs the user there was an error sending them their verification code email - this is the title.</note>
+        <source>Problem sending email…</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.productUpdateOptInDescription">
+        <note annotates="source" from="developer">Checkbox label for users to opt in, when creating an account, to receive product update emails from Firefox.</note>
+        <source>I’d like to receive product update emails from Firefox.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.reauthSignInSubtitle2">
+        <source>To continue, please confirm with your Mozilla account password.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.resendCodeLink">
+        <note annotates="source" from="developer">This link allows the user to request for another 6-digit verification code to be sent to their email.</note>
+        <source>Resend code</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.securityCodeInputPlaceholder">
+        <note annotates="source" from="developer">Placeholder text for input element asking user for TOTP 6-digit verification code.</note>
+        <source>Enter 6-digit code</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.securityCodeLabel">
+        <note annotates="source" from="developer">Label for input asking user for their security code.</note>
+        <source>Security code</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.securityCodeSubtitle">
+        <note annotates="source" from="developer">User is asked for a security code from their authentication app for verification.</note>
+        <source>Open your authentication app and enter the security code it provides.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.securityCodeTitle">
+        <note annotates="source" from="developer">Title for app screen asking user for their security code.</note>
+        <source>Enter security code</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.sessionEmailCodeInputPlaceholder">
+        <note annotates="source" from="developer">Placeholder text for input element asking user for 6-digit verification code from their email.</note>
+        <source>Enter 6-digit code</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.showPassword">
+        <note annotates="source" from="developer">Tooltip label for the eye icon in password input</note>
+        <source>Show password</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.signInBlockedForOneMinute">
+        <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 1 minute until they can try again.</note>
+        <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 1 minute.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.signInButton">
+        <source>Sign in</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.signInFailedPopupDescription">
+        <note annotates="source" from="developer">User has been unable to sign in correctly, they have a cool down period of 15 minutes until they can try again.</note>
+        <source>You’ve made too many attempts to sign in. You won’t be able to try again with this account for 15 minutes.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.signInFailedPopupTitle">
+        <source>Sign-in failed</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.signInSubtitle2">
+        <source>Continue to Mozilla VPN by signing in with your Mozilla account</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.ssoInstructionHeader">
+        <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. This is the header on the error screen.</note>
+        <source>Create a password</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine1">
+        <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
+        <source>To finish setting up your Mozilla account, create a password in your account settings:</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine2a">
+        <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding. Do not remove or translate the markup '&lt;a href="open-account"&gt;'.</note>
+        <source>1. Go to &lt;a href="open-account"&gt;Create password&lt;/a&gt; in your Mozilla account settings.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine3">
+        <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
+        <source>2. Create a password.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.ssoInstructionLine4">
+        <note annotates="source" from="developer">User has tried to log in using an SSO-linked account that does not have a password. The user needs to log in to their Mozilla Account to set a password before proceeding.</note>
+        <source>When your password is created, return to this screen and continue to sign in to Mozilla VPN.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.stubAccountVerificationHeader">
+        <note annotates="source" from="developer">User has tried to log into a Mozilla account before setting their password, which happens after email verification. This is the header on the error screen.</note>
+        <source>Check your email</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.stubAccountVerificationInstruction">
+        <note annotates="source" from="developer">User has tried to log into a Mozilla account before setting their password, which happens after email verification. %1 is the email address associated with the account.</note>
+        <source>We’ve sent an email to %1 with the verification link. Please follow the directions to set up your password and finish setting up your account.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.termsOfServiceAndPrivacyDisclaimer">
+        <note annotates="source" from="developer">Do not remove or translate the markup '&lt;a href="terms-of-service"&gt;', '&lt;a href="privacy-notice"&gt;', '&lt;/a&gt;'.</note>
+        <source>By continuing, you agree to the &lt;a href="terms-of-service"&gt;Terms of Service&lt;/a&gt; and the &lt;a href="privacy-notice"&gt;Privacy Notice&lt;/a&gt;.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.unblockCodeInputPlaceholder">
+        <note annotates="source" from="developer">Placeholder text for input element asking user for 8-digit verification code from their email.</note>
+        <source>Enter 8-digit code</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.verificationCodeTitle">
+        <source>Enter verification code</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.verifySecurityCodeButton">
+        <source>Verify</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppAuth.waitingForSignIn">
+        <note annotates="source" from="developer">Headline on loading screen</note>
+        <source>Waiting for sign in and subscription confirmation…</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.criticalBadge">
+        <note annotates="source" from="developer">A badge shown in a message signifying that this is an important message</note>
+        <source>Critical</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.dateTimeYesterday">
+        <source>Yesterday</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.deleteMessage">
+        <note annotates="source" from="developer">An action to delete a message from the users inbox</note>
+        <source>Delete message</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.editButton">
+        <source>Edit</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.emptyStateDescription">
+        <source>You’re up to date!</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.emptyStateTitle">
+        <source>No messages</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.extensionBadge">
+        <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about a Firefox browser extension</note>
+        <source>Extension</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.menuTitle">
+        <source>Messages</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.newUpdateBadge">
+        <note annotates="source" from="developer">A badge shown in a message signifying an update to the app is available</note>
+        <source>New update</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.searchBarPlaceholderText">
+        <source>Search messages</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.subscriptionBadge">
+        <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about the user's subscription</note>
+        <source>Subscription</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.surveyBadge">
+        <note annotates="source" from="developer">A badge shown in a message signifying that this message contains a survey</note>
+        <source>Survey</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.warningBadge">
+        <note annotates="source" from="developer">A badge shown in a message signifying that this is a warning message</note>
+        <source>Warning</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppMessaging.whatsNewBadge">
+        <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about what is new in the product</note>
+        <source>What’s new</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem">
+        <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
+        <source>Account issues</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.disclaimerText">
+        <source>When you submit, Mozilla VPN will collect technical and interaction data with your email to help our support team understand your issue.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel">
+        <note annotates="source" from="developer">A user trying to submit feedback will use this dropdown to select the general topic related to the feedback.</note>
+        <source>Choose a category</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.featureRequestDropdownListItem">
+        <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to requesting new features.</note>
+        <source>Request features</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.issueFieldPlaceholder">
+        <source>Describe issue</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.otherDropdownListItem">
+        <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to issues not covered under the other categories.</note>
+        <source>Other</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.paymentDropdownListItem">
+        <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to payment and billing.</note>
+        <source>Payment and billing</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.privacyNoticeLinkText">
+        <source>Mozilla VPN Privacy Notice</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder">
+        <source>Subject (optional)</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportConfirmEmailPlaceholder">
+        <source>Confirm email address</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldLabel">
+        <source>Enter your email</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldPlaceholder">
+        <source>Email address</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorBrowserButton">
+        <source>Try opening in browser</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorButton">
+        <source>Try Again</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorHeader">
+        <source>Error submitting your support request</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText">
+        <source>An unexpected error has occurred, please try again.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportFieldHeader">
+        <source>How can we help you with Mozilla VPN?</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportNavLinkText">
+        <source>Contact support</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportPrimaryButtonText">
+        <source>Submit</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody">
+        <note annotates="source" from="developer">The %1 represents the email used to complete the form</note>
+        <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportResponseButton">
+        <source>Done</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportResponseHeader">
+        <source>Thank you!</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.supportSecondaryActionText">
+        <source>Cancel</source>
+      </trans-unit>
+      <trans-unit id="vpn.inAppSupportWorkflow.technicaDropdownListItem">
+        <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to technical issues.</note>
+        <source>Technical issues</source>
+      </trans-unit>
+      <trans-unit id="vpn.languageView.searchPlaceholder">
+        <note annotates="source" from="developer">Placeholder text for a search field that can be used to search through a list of languages</note>
+        <source>Search languages</source>
+      </trans-unit>
+      <trans-unit id="vpn.languageView.systemLanguageButtonDescription">
+        <note annotates="source" from="developer">the description for the system lagnague radio button</note>
+        <source>Mozilla VPN will use the default system language.</source>
+      </trans-unit>
+      <trans-unit id="vpn.languageView.systemLanguageButtonTitle">
+        <note annotates="source" from="developer">the title for the system language radio button</note>
+        <source>System language</source>
+      </trans-unit>
+      <trans-unit id="vpn.localNetworkAccess.disabledSubLabel">
+        <source>Access Apple CarPlay, AirDrop, AirPlay and local network devices like printers. The VPN must be off to edit this setting.</source>
+      </trans-unit>
+      <trans-unit id="vpn.localNetworkAccess.labelTitle">
+        <source>Exclude local network traffic</source>
+      </trans-unit>
+      <trans-unit id="vpn.localNetworkAccess.subLabel">
+        <source>Access Apple CarPlay, AirDrop, AirPlay and local network devices like printers.</source>
+      </trans-unit>
+      <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber">
+        <source>Already a subscriber?</source>
+      </trans-unit>
+      <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle">
+        <source>A safe, reliable and fast VPN. Built by the makers of Firefox.</source>
+      </trans-unit>
+      <trans-unit id="vpn.mobileOnboarding.panelOneTitle">
+        <source>Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.mobileOnboarding.signUpBtn">
+        <source>Sign up</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiFxaAccountError.fxaAccountErrorHeader">
+        <source>Problem confirming subscription</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiFxaAccountError.mozAccountErrorText">
+        <source>Your subscription is linked to another Mozilla account. You may need to sign in with a different email address.</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter">
+        <source>Visit our help center to learn more about managing your subscriptions.</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection">
+        <note annotates="source" from="developer">Accessible label that is used for recent multi-hop server connections. “%1” represents the entry server and “%2” the exit server.</note>
+        <source>%1 to %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.multiHopArrowAltText">
+        <note annotates="source" from="developer">This is alt text for an arrow showing the multi-hop route between servers. e.g. Atlanta TO Copenhagen</note>
+        <source>To</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.multiHopConnectionsHeader">
+        <source>Recent connections</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.multiHopEntryLocationHeader">
+        <source>Select entry location</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.multiHopExitLocationHeader">
+        <source>Select exit location</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.multiHopInfoText">
+        <source>Exit location represents your main VPN server.</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA">
+        <source>Multi-hop</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.serverSearchResultsError">
+        <source>No results. Try a different search</source>
+      </trans-unit>
+      <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA">
+        <source>Single-hop</source>
+      </trans-unit>
+      <trans-unit id="vpn.navBar.homeTab">
+        <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the home screen</note>
+        <source>Home</source>
+      </trans-unit>
+      <trans-unit id="vpn.navBar.messagesTab">
+        <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the messages inbox screen</note>
+        <source>Messages</source>
+      </trans-unit>
+      <trans-unit id="vpn.navBar.settingsTab">
+        <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the settings screen</note>
+        <source>Settings</source>
+      </trans-unit>
+      <trans-unit id="vpn.networkSettings.multihopTitle">
+        <source>Multi-hop tunnel</source>
+      </trans-unit>
+      <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText">
+        <source>To continue subscribing, please sign in to your Google Account</source>
+      </trans-unit>
+      <trans-unit id="vpn.notSignedInGoogle.googleModalHeader">
+        <source>Sign in to Google Account</source>
+      </trans-unit>
+      <trans-unit id="vpn.notSignedInGoogle.googleModalLinkText">
+        <source>Go to Play Store</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.VPNConnectedMessages">
+        <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
+        <source>Connected through %1</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.VPNConnectedTitle">
+        <source>VPN Connected</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.VPNDisconnectedMessage">
+        <note annotates="source" from="developer">%1 is the name of the city the VPN disconnected from.</note>
+        <source>Disconnected from %1</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.VPNDisconnectedTitle">
+        <source>VPN Disconnected</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages">
+        <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <source>Connected through %1 via %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage">
+        <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
+        <source>Disconnected from %1 and %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.VPNSwitchedServersMessage">
+        <note annotates="source" from="developer">%1 is the name of the initial server, %2 is the name of the destination server.</note>
+        <source>Switched from %1 to %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.VPNSwitchedServersTitle">
+        <source>VPN Switched Servers</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalBlockMessage2">
+        <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalBlockTitle">
+        <source>Guest Wi-Fi portal blocked</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalUnblockMessage2">
+        <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.captivePortalUnblockTitle">
+        <source>Guest Wi-Fi portal detected</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.connectionFailedMessage">
+        <source>Sorry, something went wrong with your VPN connection.</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.connectionFailedTitle">
+        <source>Connection failed</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.subscriptionNotFound">
+        <source>Your Mozilla VPN subscription cannot be found. Please open the app to resolve this subscription issue.</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.unsecuredNetworkMessage">
+        <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
+        <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
+      </trans-unit>
+      <trans-unit id="vpn.notifications.unsecuredNetworkTitle">
+        <source>Unsecured Wi-Fi network detected</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.dataSlideBody2">
+        <source>Help us improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data. We never collect data about your online activity while using the VPN.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.dataSlideHeader2">
+        <source>Data collection</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.dataSlideLearnMoreCaption2">
+        <source>Learn more about data collection</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.dataSlidePrivacyLinkLabel">
+        <source>Mozilla VPN Privacy Notice</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.dataSlideToggleLabel">
+        <source>Share technical data</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.devicesSlideBody2">
+        <source>To install the VPN on another tablet or mobile device, scan the QR code.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.devicesSlideBodyMobile">
+        <source>To install the VPN on another tablet or mobile device, scan the QR code. To install on a desktop computer, visit the Download page on the Mozilla VPN website.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeAndroid">
+        <source>Android</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeApple">
+        <source>Apple</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeLabel">
+        <source>Select device type:</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.devicesSlideHeader">
+        <source>Install Mozilla VPN on up to 5 devices</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid">
+        <source>QR Code that links to the Mozilla VPN product page on the Google Play Store</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple">
+        <source>QR Code that links to the Mozilla VPN product page on the iOS App Store</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.panelFourSubtitle">
+        <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.panelFourTitle">
+        <source>Add even more privacy</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.panelThreeSubtitle">
+        <source>Protecting yourself is simple: tap to connect to the VPN and you’re ready to browse safely. Mozilla VPN will start automatically for seamless protection.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.panelThreeTitle">
+        <source>One tap to safety</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.panelTwoSubtitle">
+        <source>With more than 500 servers in 60 cities around the world, Mozilla VPN protects your data, browsing activity, and your true location from network spies.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.panelTwoTitle">
+        <source>Protect your privacy</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.privacySlideBody">
+        <source>Use these features for more protection. They may cause issues on some sites, so you can turn them off anytime in settings.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.privacySlideHeader">
+        <source>Get more privacy</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete">
+        <note annotates="source" from="developer">Accessibility read out for completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
+        <source>Onboarding step “%1” (%2 of %3). Select to go back to this step.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent">
+        <note annotates="source" from="developer">Accessibility read out for the current step in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
+        <source>Onboarding step “%1” (%2 of %3). You are currently on this step.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.progressBarAccessibilityStepIncomplete2">
+        <note annotates="source" from="developer">Accessibility read out for incomplete future steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
+        <source>Onboarding step “%1” (%2 of %3)</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.progressBarAddDevices">
+        <note annotates="source" from="developer">Label for onboarding progress bar step where users find out how to install Mozilla VPN on other devices</note>
+        <source>Devices</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.progressBarConnect">
+        <note annotates="source" from="developer">Label for onboarding progress bar step where users can grant permission to create a VPN configuration with the system</note>
+        <source>Connect</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.progressBarDataUse">
+        <note annotates="source" from="developer">Label for onboarding progress bar step where users can select to enable data collection</note>
+        <source>Data</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.progressBarMorePrivacy">
+        <note annotates="source" from="developer">Label for onboarding progress bar step where users can select to enable various privacy settings</note>
+        <source>Privacy</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.progressBarStartup">
+        <note annotates="source" from="developer">Label for onboarding progress bar step where users can select to enable VPN startup on device boot</note>
+        <source>Startup</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.startSlideAllowButtonLabel">
+        <source>Allow VPN connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.startSlideBody2">
+        <source>Launch the VPN whenever you start your device. We’ll automatically reconnect you to the same server location you last used.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.startSlideHeader">
+        <source>Connect Mozilla VPN on startup</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.startSlideMobileBody">
+        <source>Your mobile device will now ask you to allow Mozilla VPN to create a connection. Please allow this so that the VPN works correctly on your device.</source>
+      </trans-unit>
+      <trans-unit id="vpn.onboarding.startSlideMobileHeader">
+        <source>Allow Mozilla VPN to create a VPN connection</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.amex">
+        <source>American Express</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.diners">
+        <source>Diners Club</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.discover">
+        <source>Discover</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.iapApple">
+        <source>Apple subscription</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.iapGoogle">
+        <source>Google subscription</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.jcb">
+        <source>JCB</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.mastercard">
+        <source>Mastercard</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.paypal">
+        <source>PayPal</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.unionpay">
+        <source>UnionPay</source>
+      </trans-unit>
+      <trans-unit id="vpn.paymentMethods.visa">
+        <source>Visa</source>
+      </trans-unit>
+      <trans-unit id="vpn.product.description">
+        <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
+      </trans-unit>
+      <trans-unit id="vpn.product.name">
+        <source>Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.purchase.percentSaved">
+        <note annotates="source" from="developer">Appears on the in-app purchase view beside a subscription plan. "%1" is replaced by the percentage amount saved when selecting that plan</note>
+        <source>Save %1%</source>
+      </trans-unit>
+      <trans-unit id="vpn.purchase.subscribeNow">
+        <note annotates="source" from="developer">Button label</note>
+        <source>Subscribe now</source>
+      </trans-unit>
+      <trans-unit id="vpn.purchase.subscriptionOption">
+        <note annotates="source" from="developer">%1 is replaced by the subscription duration in months. %2 is replaced by the total subscription cost.</note>
+        <source>%1-month plan: %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.purchaseWeb.inProgress2">
+        <source>Please continue subscribing in your browser…</source>
+      </trans-unit>
+      <trans-unit id="vpn.purchaseWeb.message">
+        <note annotates="source" from="developer">%1 is the user’s email address.</note>
+        <source>We couldn’t find a subscription for %1. Subscribe now to protect your connection.</source>
+      </trans-unit>
+      <trans-unit id="vpn.purchaseWeb.title">
+        <source>Subscribe to Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.body1">
+        <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
+        <source>This will reset all VPN settings, including:</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.body2">
+        <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
+        <source>Resetting the VPN will sign you out, but your account will not be deleted.</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.confirmResetModalBody">
+        <note annotates="source" from="developer">Body of the modal where users can confirm they want to restore back to factory settings</note>
+        <source>Reset Mozilla VPN settings? This can’t be undone.</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.confirmResetModalResetButtonLabel">
+        <note annotates="source" from="developer">Label for button that finalizes a restore to factory settings</note>
+        <source>Reset and quit</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.confirmResetModalTitle">
+        <note annotates="source" from="developer">Title of the modal where users can confirm they want to restore back to factory settings</note>
+        <source>Confirm reset</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.listItemPreferences">
+        <note annotates="source" from="developer">Item in a bulleted list denoting what will be deleted if the user opts to factory reset the client</note>
+        <source>Preferences</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.resetButtonLabel">
+        <note annotates="source" from="developer">Label for button that initiates a restore to factory settings</note>
+        <source>Reset VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.resetLabel">
+        <note annotates="source" from="developer">Label for button that takes the user to the factory reset flow</note>
+        <source>Reset VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.resetSettings.title">
+        <note annotates="source" from="developer">Title of the screen where users go to reset the VPN to factory settings</note>
+        <source>Reset Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.restorePurchase.restorePurchaseButton">
+        <source>Already a subscriber?</source>
+      </trans-unit>
+      <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText2">
+        <source>Sorry, we are unable to connect your Mozilla account to a current subscription. Please try again or contact our support team for further assistance.</source>
+      </trans-unit>
+      <trans-unit id="vpn.restorePurchaseGenericPurchaseError.restorePurchaseGenericPurchaseErrorText">
+        <source>Sorry, we were unable to confirm your subscription. Please try again or contact our support team for help.</source>
+      </trans-unit>
+      <trans-unit id="vpn.restorePurchaseInUseError.restorePurchaseInUseErrorText2">
+        <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableModal.bodyText">
+        <source>This server location is temporarily unavailable. Choose a new location.</source>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableModal.buttonLabel">
+        <source>Choose a new location</source>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableModal.headerText">
+        <source>Server unavailable</source>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
+        <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
+        <source>The server has been blocked. Check your firewall settings.</source>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel">
+        <source>Server unavailable notification</source>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel">
+        <source>Get notified when connecting to a server location failed</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.recommendedEmptyLabel">
+        <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
+        <source>To see recommended server locations, turn off the VPN.</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.recommendedRefreshLabel">
+        <note annotates="source" from="developer">Accessible label for the button that triggers a refresh of the recommended servers list.</note>
+        <source>Refresh list</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel">
+        <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated and instructions to re-enable the refresh button. Argument is the time or date/day</note>
+        <source>Last updated: %1. To update this list please disconnect from the VPN.</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabel">
+        <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated. Argument is the time or date/day</note>
+        <source>Last updated: %1.</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabelYesterday">
+        <source>yesterday</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel">
+        <note annotates="source" from="developer">Loading string while recommended servers are being calculated. Argument is the percentage of completion as an integer (i.e. 25)</note>
+        <source>Checking (%1%)…</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.searchNoResultsLabel">
+        <source>No results. Try a different search</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.searchPlaceholder">
+        <source>Search countries</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.serverCityWithGoodConnection">
+        <note annotates="source" from="developer">Button label that reads out a city name whose connection is good. Argument is the city name.</note>
+        <source>%1. Good connectivity</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.serverCityWithModerateConnection">
+        <note annotates="source" from="developer">Button label that reads out a city name whose connection is moderate. Argument is the city name.</note>
+        <source>%1. Moderate connectivity</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.serverCityWithNoConnection">
+        <note annotates="source" from="developer">Button label that reads out a city name whose connection is unavailable. Argument is the city name.</note>
+        <source>%1. No connectivity</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.serverCityWithPoorConnection">
+        <note annotates="source" from="developer">Button label that reads out a city name whose connection is poor. Argument is the city name.</note>
+        <source>%1. Poor connectivity</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.tabAllLabel">
+        <note annotates="source" from="developer">Label for the “all” servers tab</note>
+        <source>All</source>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.tabRecommendedLabel">
+        <note annotates="source" from="developer">Label for the “recommended” servers tab</note>
+        <source>Recommended</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.appExclusionClearAllApps">
+        <note annotates="source" from="developer">Button label to clear all apps from the exclusions list</note>
+        <source>Clear all</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.appExclusionTitle">
+        <source>Excluded apps</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.crashOptInDescription">
+        <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
+        <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettings">
+        <source>DNS settings</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody">
+        <source>Resolve websites using a custom DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSError">
+        <source>Invalid DNS, please try a new one</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle">
+        <source>Use custom DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning">
+        <source>Changing these settings will cause the VPN to disconnect and reconnect automatically.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder">
+        <source>Enter custom DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody">
+        <source>Resolve websites using Mozilla VPN’s standard DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle">
+        <source>Use standard DNS</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.dnsSettingsWarning">
+        <source>These options may cause some websites to break or not display content correctly.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.preferencesSettings">
+        <source>Preferences</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacyAdblockBody">
+        <source>Reduces the number of ads you see when you’re using VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacyAdblockTitle">
+        <source>Block ads</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacyCard">
+        <source>These options may cause some websites to break or not display content correctly.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacyMalwareBody2">
+        <source>Helps protect you from ransomware, phishing, spyware, and viruses</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacyMalwareTitle">
+        <source>Block malware</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacySettings">
+        <source>Privacy features</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacyTrackerBody">
+        <source>Fewer harmful domains will be able to track you</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.privacyTrackerTitle">
+        <source>Block trackers</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.reauthDescription">
+        <source>For your security, please sign in again to access your account information. You’ll complete this process on Mozilla’s website.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.reauthTitle">
+        <source>Sign In Again</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.shareTechnicalDataDescription">
+        <source>Help improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.startAtBootSubtitle">
+        <source>Mozilla VPN will launch and connect when you start up your device</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.startAtBootTitle">
+        <note annotates="source" from="developer">Startup refers to a device's startup, not the VPN client's.</note>
+        <source>Connect VPN on startup</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.restartRequired">
+        <source>VPN must be restarted to take effect</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.showOptionSubtitle">
+        <source>Show or hide the developer options menu</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.showOptionTitle">
+        <source>Show Developer Options</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.title">
+        <source>Developer Options</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.useStagingSubtitle">
+        <source>Staging services are used to test features before they go live to production</source>
+      </trans-unit>
+      <trans-unit id="vpn.settingsDev.useStagingTitle">
+        <source>Use Staging Servers</source>
+      </trans-unit>
+      <trans-unit id="vpn.splittunnel.errorActivating">
+        <source>Error activating App exclusions</source>
+      </trans-unit>
+      <trans-unit id="vpn.splittunnel.infoCardDescription2">
+        <note annotates="source" from="developer">Displays inside the information card at the top of the Excluded apps screen when the VPN is on</note>
+        <source>VPN must be off to edit Excluded apps</source>
+      </trans-unit>
+      <trans-unit id="vpn.splittunnel.infoLinkText">
+        <source>Learn more</source>
+      </trans-unit>
+      <trans-unit id="vpn.splittunnel.missingAppActionButton">
+        <note annotates="source" from="developer">Displayed in a notification as "call to action" when apps are missing from the split-tunnel settings.</note>
+        <source>Add apps manually</source>
+      </trans-unit>
+      <trans-unit id="vpn.splittunnel.missingAppAddedOne">
+        <note annotates="source" from="developer">Displayed in notification after the user added a missing app to the split-tunnel List; %1 is the name of the added application</note>
+        <source>Success! You added “%1” to this list.</source>
+      </trans-unit>
+      <trans-unit id="vpn.splittunnel.missingAppMultiple">
+        <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
+        <source>%1 apps missing from list.</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.activatedLabel">
+        <note annotates="source" from="developer">Label for the date on which the subscription was activated.</note>
+        <source>Active since</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.cardExpiresLabel">
+        <note annotates="source" from="developer">Label for the date on which the payment method expires.</note>
+        <source>Expires</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.cardLast4">
+        <note annotates="source" from="developer">The %1 represents the last four digits of a credit card.</note>
+        <source>Card ending in %1</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.expiresLabel">
+        <note annotates="source" from="developer">Label for the upcoming date on which the subscription will expire.</note>
+        <source>Expires</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.manageAccount">
+        <source>Manage account</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.manageSubscriptionButton">
+        <note annotates="source" from="developer">Label for a button that will take the user to a view where they can manage their subscription.</note>
+        <source>Manage subscription</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.nextLabel">
+        <note annotates="source" from="developer">Label for the upcoming date on which the user will be billed for their subscription.</note>
+        <source>Next billed</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.paymentHeadline">
+        <note annotates="source" from="developer">Headline for a list with information on the payment information the user provided for their subscription.</note>
+        <source>Payment Information</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planLabel">
+        <note annotates="source" from="developer">Label for the selected subscription plan the user currently is subscribed to.</note>
+        <source>Subscription plan</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planMonthly">
+        <note annotates="source" from="developer">Price for a monthly subscription. %1 represents the localized currency string</note>
+        <source>Monthly plan: %1</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planMonthlyPlusTax">
+        <note annotates="source" from="developer">Price for a monthly subscription plus tax. %1 represents the localized currency string</note>
+        <source>%1/month + tax</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planMonthlyWithoutTax">
+        <note annotates="source" from="developer">Price for a monthly subscription without tax. %1 represents the localized currency string</note>
+        <source>%1/month</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly">
+        <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <source>%1 Half-yearly</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearlyPlusTax">
+        <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <source>%1 Half-yearly + tax</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planValueMonthly">
+        <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <source>%1 Monthly</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax">
+        <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <source>%1 Monthly + tax</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planValueYearly">
+        <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
+        <source>%1 Yearly</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax">
+        <note annotates="source" from="developer">The %1 represents a localized currency string</note>
+        <source>%1 Yearly + tax</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.sectionTitle">
+        <note annotates="source" from="developer">Menu title for a view with details on the user's account.</note>
+        <source>Account</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.statusActive">
+        <note annotates="source" from="developer">Text for a label that indicates an active subscription.</note>
+        <source>Active</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.statusInactive">
+        <note annotates="source" from="developer">Text for a label that indicates an inactive subscription.</note>
+        <source>Inactive</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.statusLabel">
+        <note annotates="source" from="developer">Label for the current status of the subscription.</note>
+        <source>Status</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.subscriptionPlatformLabel">
+        <note annotates="source" from="developer">The %1 represents the subscription platform. Values for %1 could be “Apple” or “Google” for example.</note>
+        <source>%1 subscription</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.summaryHeadline">
+        <note annotates="source" from="developer">Headline for a list with information on the subscription plan of the user.</note>
+        <source>Subscription summary</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual">
+        <note annotates="source" from="developer">Block of text appearing beside a button to upgrade subscription.</note>
+        <source>Save 50% on an annual plan</source>
+      </trans-unit>
+      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton">
+        <note annotates="source" from="developer">Label for a button that will open the upgrade subscription flow.</note>
+        <source>Change plan</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.disconnect">
+        <source>Disconnect</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.help">
+        <source>Help</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.hide">
+        <source>Hide Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.location2">
+        <note annotates="source" from="developer">Location in the systray. %1 is the country, %2 is the city.</note>
+        <source>%1, %2</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.preferences">
+        <source>Preferences…</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.quit">
+        <source>Quit Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.show">
+        <source>Show Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnectTo">
+        <source>Connect to the last location:</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnectedTo">
+        <source>Connected to:</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusConnectingTo">
+        <source>Connecting to:</source>
+      </trans-unit>
+      <trans-unit id="vpn.systray.statusDisconnectingFrom">
+        <source>Disconnecting from:</source>
+      </trans-unit>
+      <trans-unit id="vpn.telemetryPolicyView.allow">
+        <note annotates="source" from="developer">Button label</note>
+        <source>Allow on this device</source>
+      </trans-unit>
+      <trans-unit id="vpn.telemetryPolicyView.description">
+        <source>We strive to provide you with choices and collect only the data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
+      </trans-unit>
+      <trans-unit id="vpn.telemetryPolicyView.doNotAllow">
+        <note annotates="source" from="developer">Button label</note>
+        <source>Don’t allow</source>
+      </trans-unit>
+      <trans-unit id="vpn.telemetryPolicyView.learnMore">
+        <source>Learn more about what data Mozilla collects and how it’s used.</source>
+      </trans-unit>
+      <trans-unit id="vpn.telemetryPolicyView.question">
+        <source>Allow Mozilla VPN to send technical, interaction, and campaign and referral data to Mozilla?</source>
+      </trans-unit>
+      <trans-unit id="vpn.telemetryPolicyView.shareTechnicalData">
+        <note annotates="source" from="developer">Headline of telemetry policy view and checkbox label</note>
+        <source>Share technical data</source>
+      </trans-unit>
+      <trans-unit id="vpn.updateButton.actionNoUpdate">
+        <source>Okay</source>
+      </trans-unit>
+      <trans-unit id="vpn.updateButton.actionOnUpdate">
+        <source>Update now</source>
+      </trans-unit>
+      <trans-unit id="vpn.updateButton.checkForUpdateButtonText">
+        <source>Check for Updates</source>
+      </trans-unit>
+      <trans-unit id="vpn.updateButton.descriptionNoUpdate2">
+        <source>You currently have the latest version of Mozilla VPN</source>
+      </trans-unit>
+      <trans-unit id="vpn.updateButton.descriptionOnUpdate">
+        <source>Click to update to the latest version of the application</source>
+      </trans-unit>
+      <trans-unit id="vpn.updateButton.titleNoUpdate">
+        <source>You are up to date</source>
+      </trans-unit>
+      <trans-unit id="vpn.updateButton.titleOnUpdate">
+        <source>Updates available</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
