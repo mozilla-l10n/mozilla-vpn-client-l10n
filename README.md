@@ -1,6 +1,6 @@
 # Mozilla VPN localization
 
-![Linter status](https://github.com/mozilla-l10n/mozilla-vpn-client-l10n/workflows/L10n%20Linter/badge.svg)
+![Linter status](https://github.com/mozilla-l10n/mozl10n-linter/actions/workflows/vpn.yaml/badge.svg)
 
 Localization for the [Mozilla VPN Client](https://github.com/mozilla-mobile/mozilla-vpn-client).
 
