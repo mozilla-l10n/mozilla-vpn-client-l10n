@@ -523,26 +523,32 @@
       <trans-unit id="vpn.connectionInfo.listHeaderDefault">
         <note annotates="source" from="developer">Headline for a list of things that the current connection is capable of.</note>
         <source>At your current speed, here’s what your device is optimized for:</source>
+        <target>При текущата ви скорост, вашето устройство е оптимизирано за:</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.listHeaderSlow">
         <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
         <source>It looks like the connection to this server location is a bit slow, you can try:</source>
+        <target>Изглежда, че връзката до това местоположение на сървъра е малко бавна, можете се свържете с:</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel">
         <note annotates="source" from="developer">Shown to the user while waiting for the connection speed test results</note>
         <source>Testing speed…</source>
+        <target>Тестване на скоростта…</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletOne">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
         <source>Browsing the internet</source>
+        <target>Сърфиране в интернет</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletThree">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
         <source>Video conferencing</source>
+        <target>Видео-разговори</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.mediumBulletTwo">
         <note annotates="source" from="developer">This is a bullet item in the connection section for medium speedtest results</note>
         <source>Streaming video</source>
+        <target>Стрийминг на видео</target>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.metricsTitle">
         <note annotates="source" from="developer">Title for the connection metrics view.</note>
@@ -623,42 +629,52 @@
       <trans-unit id="vpn.deleteAccount.subheadline2">
         <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
         <source>Your Mozilla account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
+        <target>Вашият профил в Mozilla (%1) е свързан с продуктите на Mozilla, които ви държат защитени и продуктивни в Мрежата. Моля, потвърдете, че като изтриете профила си:</target>
       </trans-unit>
       <trans-unit id="vpn.devices.countLabel">
         <note annotates="source" from="developer">Label at the top of the "Devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
         <source>%1 out of %2 devices added</source>
+        <target>Добавени са %1 от %2 устройства</target>
       </trans-unit>
       <trans-unit id="vpn.devices.limitDescription2">
         <note annotates="source" from="developer">Description of the "device limit" view describing why the device has not yet been added to the list of active devices (because we are at the device limit)</note>
         <source>You’re using VPN on 5 devices. To add another device, please remove one.</source>
+        <target>Използвате VPN на 5 устройства. За да добавите друго устройство, моля, премахнете едно.</target>
       </trans-unit>
       <trans-unit id="vpn.devices.limitTitle">
         <note annotates="source" from="developer">Title of the "device limit" view stating that the device has not yet been added to the list of active devices (because we are at the device limit)</note>
         <source>Device not added</source>
+        <target>Устройството не е добавено</target>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedDaysAgo">
         <note annotates="source" from="developer">Device list item description for a device added days ago. %1 is the number of days.</note>
         <source>Added %1 days ago</source>
+        <target>Добавено преди %1 дни</target>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedFewHoursAgo">
         <note annotates="source" from="developer">Device list item description for a device added a few hours ago. %1 is the number of hours.</note>
         <source>Added a few hours ago (%1)</source>
+        <target>Добавено преди няколко часа (%1)</target>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedOneHourAgo">
         <note annotates="source" from="developer">Device list item description for a device added less than 1 hour ago</note>
         <source>Added less than an hour ago</source>
+        <target>Добавено преди по-малко от час</target>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionCurrent">
         <note annotates="source" from="developer">Device list item description for the current device</note>
         <source>Current Device</source>
+        <target>Текущо устройство</target>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemRemoveDeviceAccessibility">
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
         <source>Remove %1</source>
+        <target>Премахване на %1</target>
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupDescription">
         <note annotates="source" from="developer">Description for the Remove Device popup. %1 is the name of the device being removed. The name is displayed on purpose on a new line."</note>
         <source>Please confirm you would like to remove %1.</source>
+        <target>Потвърдете намерението си да премахнете устройство „%1“.</target>
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupPrimaryButtonLabel">
         <note annotates="source" from="developer">Label for the primary button for the Remove Device poup</note>
@@ -750,6 +766,7 @@
       <trans-unit id="vpn.global.copy">
         <note annotates="source" from="developer">Accessible button label</note>
         <source>Copy</source>
+        <target>Копиране</target>
       </trans-unit>
       <trans-unit id="vpn.global.discoverNow">
         <note annotates="source" from="developer">Label for button used in intro modals to discover new features.</note>
@@ -758,70 +775,87 @@
       <trans-unit id="vpn.global.expand">
         <note annotates="source" from="developer">Action used in the context of an expandable/collapsible card component</note>
         <source>Expand</source>
+        <target>Разгъване</target>
       </trans-unit>
       <trans-unit id="vpn.global.getStarted">
         <note annotates="source" from="developer">Label for a button used to begin something / proceed</note>
         <source>Get started</source>
+        <target>Първи стъпки</target>
       </trans-unit>
       <trans-unit id="vpn.global.goBack">
         <note annotates="source" from="developer">Label for button used in intro modals to return to the app.</note>
         <source>Go back</source>
+        <target>Връщане назад</target>
       </trans-unit>
       <trans-unit id="vpn.global.help">
         <note annotates="source" from="developer">Action taken that will help the user</note>
         <source>Help</source>
+        <target>Помощ</target>
       </trans-unit>
       <trans-unit id="vpn.global.learnMore">
         <note annotates="source" from="developer">Label for link to allow the user to learn more about a topic</note>
         <source>Learn more</source>
+        <target>Научете повече</target>
       </trans-unit>
       <trans-unit id="vpn.global.next">
         <note annotates="source" from="developer">Label for button used to proceed</note>
         <source>Next</source>
+        <target>Напред</target>
       </trans-unit>
       <trans-unit id="vpn.global.noInternetConnection">
         <note annotates="source" from="developer">Status alert text</note>
         <source>No internet connection</source>
+        <target>Няма връзка с Интернет</target>
       </trans-unit>
       <trans-unit id="vpn.global.noThanks">
         <note annotates="source" from="developer">Label for button used to not proceed with an action</note>
         <source>No thanks</source>
+        <target>Не, благодаря</target>
       </trans-unit>
       <trans-unit id="vpn.global.paste">
         <note annotates="source" from="developer">Label for button to paste value from clipboard into input</note>
         <source>Paste</source>
+        <target>Поставяне</target>
       </trans-unit>
       <trans-unit id="vpn.global.signOut">
         <note annotates="source" from="developer">Link title</note>
         <source>Sign out</source>
+        <target>Изход</target>
       </trans-unit>
       <trans-unit id="vpn.global.vpnUser">
         <note annotates="source" from="developer">Fallback string for users who have not specified a Display Name.</note>
         <source>VPN User</source>
+        <target>VPN потребител</target>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesBody1">
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
         <source>Adding a new device to your subscription is easy: just download and log in to Mozilla VPN on that device.</source>
+        <target>Добавянето на ново устройство към вашия абонамент е лесно: просто изтеглете и влезете в Mozilla VPN от това устройство.</target>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesBody2">
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
         <source>To remove one of your added devices, select “Edit” on this screen and use the trash icon to remove the device you no longer want to use Mozilla VPN on.</source>
+        <target>За да премахнете някое от добавените от вас устройства, изберете „Редактиране“ на този екран и използвайте иконата за кошче, за да премахнете устройството, на което вече не искате да използвате Mozilla VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesHeader">
         <note annotates="source" from="developer">Header label for the devices help sheet</note>
         <source>Adding and removing devices</source>
+        <target>Добавяне и премахване на устройства</target>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesTitle">
         <note annotates="source" from="developer">Title label for the devices help sheet</note>
         <source>Device management</source>
+        <target>Управление на устройства</target>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody1">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
+        <target>Всеки път, когато се свържете с уеб сайт, DNS (система от имена на домейни) първо превръща името на домейна (напр. www.mozilla.org) в IP адрес, който позволява на вашия интернет трафик да достигне до тази дестинация.</target>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody2">
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
         <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
+        <target>Mozilla VPN ви позволява да изберете персонализиран DNS сървър, ако предпочитате. Ако използвате такъв, няма да можете да използвате други функции за поверителност в VPN, като блокиране на тракери.</target>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsHeader">
         <note annotates="source" from="developer">Header label for the custom dns help sheet</note>
