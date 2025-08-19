@@ -708,6 +708,7 @@
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy">
         <source>Using a custom DNS will override your preferences in the privacy features page.</source>
+        <target>Използването на персонализиран DNS ще отмени предпочитанията ви в страницата с възможности за поверителност.</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.primaryButton">
         <source>Confirm</source>
@@ -719,6 +720,7 @@
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titleDNS">
         <source>Override DNS settings?</source>
+        <target>Замяна на настройките на DNS?</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titlePrivacy">
         <source>Override privacy features?</source>
@@ -1050,6 +1052,7 @@
       <trans-unit id="vpn.inAppAuth.passwordHintCommonPassword">
         <note annotates="source" from="developer">This is a hint for the user - password they provide must not be a common password. Ex. password.</note>
         <source>Must not be a common password</source>
+        <target>Не трябва да е обикновена парола</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.passwordHintEmailAddressAsPassword">
         <note annotates="source" from="developer">This is a hint for the user - they must provide a password that does not match their email.</note>
@@ -1183,81 +1186,103 @@
       <trans-unit id="vpn.inAppAuth.stubAccountVerificationInstruction">
         <note annotates="source" from="developer">User has tried to log into a Mozilla account before setting their password, which happens after email verification. %1 is the email address associated with the account.</note>
         <source>We’ve sent an email to %1 with the verification link. Please follow the directions to set up your password and finish setting up your account.</source>
+        <target>Изпратихме имейл до %1 с връзката за потвърждаване. Моля, следвайте инструкциите, за да настроите паролата си и да завършите настройването на профила си.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.termsOfServiceAndPrivacyDisclaimer">
         <note annotates="source" from="developer">Do not remove or translate the markup '&lt;a href="terms-of-service"&gt;', '&lt;a href="privacy-notice"&gt;', '&lt;/a&gt;'.</note>
         <source>By continuing, you agree to the &lt;a href="terms-of-service"&gt;Terms of Service&lt;/a&gt; and the &lt;a href="privacy-notice"&gt;Privacy Notice&lt;/a&gt;.</source>
+        <target>Продължавайки, вие се съгласявате с &lt;a href="terms-of-service"&gt;условията на услугата&lt;/a&gt; и &lt;a href="privacy-notice"&gt;политиката за поверителност&lt;/a&gt;.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.unblockCodeInputPlaceholder">
         <note annotates="source" from="developer">Placeholder text for input element asking user for 8-digit verification code from their email.</note>
         <source>Enter 8-digit code</source>
+        <target>Въведете 8-цифреният код</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verificationCodeTitle">
         <source>Enter verification code</source>
+        <target>Въведете кода за проверка</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.verifySecurityCodeButton">
         <source>Verify</source>
+        <target>Подвърждаване</target>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.waitingForSignIn">
         <note annotates="source" from="developer">Headline on loading screen</note>
         <source>Waiting for sign in and subscription confirmation…</source>
+        <target>Изчакване за влизане и потвърждение на абонамента…</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.criticalBadge">
         <note annotates="source" from="developer">A badge shown in a message signifying that this is an important message</note>
         <source>Critical</source>
+        <target>Критичен</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.dateTimeYesterday">
         <source>Yesterday</source>
+        <target>Вчера</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.deleteMessage">
         <note annotates="source" from="developer">An action to delete a message from the users inbox</note>
         <source>Delete message</source>
+        <target>Изтриване на съобщението</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.editButton">
         <source>Edit</source>
+        <target>Редактиране</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.emptyStateDescription">
         <source>You’re up to date!</source>
+        <target>Всичко е актуално!</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.emptyStateTitle">
         <source>No messages</source>
+        <target>Няма съобщения</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.extensionBadge">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about a Firefox browser extension</note>
         <source>Extension</source>
+        <target>Разширение</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.menuTitle">
         <source>Messages</source>
+        <target>Съобщения</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.newUpdateBadge">
         <note annotates="source" from="developer">A badge shown in a message signifying an update to the app is available</note>
         <source>New update</source>
+        <target>Нова актуализация</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.searchBarPlaceholderText">
         <source>Search messages</source>
+        <target>Търсене на писма</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.subscriptionBadge">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about the user's subscription</note>
         <source>Subscription</source>
+        <target>Абонамент</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.surveyBadge">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains a survey</note>
         <source>Survey</source>
+        <target>Проучване</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.warningBadge">
         <note annotates="source" from="developer">A badge shown in a message signifying that this is a warning message</note>
         <source>Warning</source>
+        <target>Предупреждение</target>
       </trans-unit>
       <trans-unit id="vpn.inAppMessaging.whatsNewBadge">
         <note annotates="source" from="developer">A badge shown in a message signifying that this message contains information about what is new in the product</note>
         <source>What’s new</source>
+        <target>Новото в това издание</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem">
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
         <source>Account issues</source>
+        <target>Проблеми с профила</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.disclaimerText">
         <source>When you submit, Mozilla VPN will collect technical and interaction data with your email to help our support team understand your issue.</source>
+        <target>При изпращане Mozilla VPN ще събере технически данни и данни за взаимодействие с вашия имейл, за да помогне на нашия екип за поддръжка да разбере вашия проблем.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel">
         <note annotates="source" from="developer">A user trying to submit feedback will use this dropdown to select the general topic related to the feedback.</note>
