@@ -278,15 +278,15 @@
     <body>
       <trans-unit id="vpn.settings.guestWifiAlert">
         <source>Guest Wi-Fi portal alert</source>
-        <target>Предупреждение за Wi-Fi портал за гости</target>
+        <target>Известие за несигурен Wi-Fi портал</target>
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert.description">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
-        <target>Получавайте известие, ако Wi-Fi портал за гости е блокиран поради VPN връзка</target>
+        <target>Получаване на известие, ако несигурен Wi-Fi портал е блокиран поради VPN връзката</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange.description">
         <source>Get notified when the connection status changes</source>
-        <target>Получавайте известие, когато състоянието на връзката се промени</target>
+        <target>Получаване на известие, когато състоянието на връзката се промени</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange2">
         <source>Connection change notification</source>
@@ -294,7 +294,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch.description">
         <source>Get notified when you successfully switched servers</source>
-        <target>Получавайте известия, когато успешно смените сървърите</target>
+        <target>Получаване на известия, когато успешно смените сървърите за връзка</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch2">
         <source>Server switching notification</source>
@@ -306,11 +306,11 @@
       </trans-unit>
       <trans-unit id="vpn.settings.unsecuredNetworkAlert">
         <source>Unsecured network alert</source>
-        <target>Сигнал за незащитена мрежа</target>
+        <target>Известие за незащитена мрежа</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unsecuredNetworkAlert.description">
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
-        <target>Получавайте известие, ако се свържете към незащитена Wi-Fi мрежа</target>
+        <target>Получаване на известие, ако се свържете към незащитена Wi-Fi мрежа</target>
       </trans-unit>
     </body>
   </file>
@@ -451,7 +451,7 @@
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.header">
         <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
-        <target>Портал за прихващане е, когато Wi-Fi за гости, който използвате, изисква да влезете, за да получите достъп до интернет.</target>
+        <target>Портал за прихващане е, когато несигурен Wi-Fi, който използвате, изисква да влезете, за да получите достъп до интернет.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.title">
         <source>Captive portal detected!</source>
@@ -1541,11 +1541,11 @@
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage2">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
-        <target>Wi-Fi мрежата за гости, към която сте свързани, изисква действие. Щракнете за изключване на VPN, за да видите портала.</target>
+        <target>Несигурният Wi-Fi, към който сте свързани, изисква действие. Щракнете за изключване на VPN, за да видите портала.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockTitle">
         <source>Guest Wi-Fi portal blocked</source>
-        <target>Порталът за Wi-Fi за гости е блокиран</target>
+        <target>Несигурният Wi-Fi портал е блокиран</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockMessage2">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
@@ -1553,7 +1553,7 @@
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockTitle">
         <source>Guest Wi-Fi portal detected</source>
-        <target>Открит е Wi-Fi портал за гости</target>
+        <target>Открит е несигурен Wi-Fi портал</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.connectionFailedMessage">
         <source>Sorry, something went wrong with your VPN connection.</source>
@@ -1824,7 +1824,7 @@
       <trans-unit id="vpn.resetSettings.body2">
         <note annotates="source" from="developer">Body content of the screen where users go to reset the VPN to factory settings</note>
         <source>Resetting the VPN will sign you out, but your account will not be deleted.</source>
-        <target>Нулирането на VPN ще отпише, но профилът ви няма да бъде изтрит.</target>
+        <target>Нулирането на VPN ще ви отпише от текущото устройство, но профилът ви няма да бъде изтрит.</target>
       </trans-unit>
       <trans-unit id="vpn.resetSettings.confirmResetModalBody">
         <note annotates="source" from="developer">Body of the modal where users can confirm they want to restore back to factory settings</note>
@@ -1989,7 +1989,7 @@
       <trans-unit id="vpn.settings.appearanceAutomatic">
         <note annotates="source" from="developer">Automatic switching for dark mode/light mode, based on the system’s setting</note>
         <source>Automatic</source>
-        <target>Автоматична</target>
+        <target>Автоматично</target>
       </trans-unit>
       <trans-unit id="vpn.settings.appearanceAutomaticDescription">
         <source>Follow your system’s appearance</source>
@@ -1998,12 +1998,12 @@
       <trans-unit id="vpn.settings.appearanceDark">
         <note annotates="source" from="developer">Dark as in "dark mode theme"</note>
         <source>Dark</source>
-        <target>Тъмна</target>
+        <target>Тъмен</target>
       </trans-unit>
       <trans-unit id="vpn.settings.appearanceLight">
         <note annotates="source" from="developer">Light as in "light mode theme"</note>
         <source>Light</source>
-        <target>Светла</target>
+        <target>Светъл</target>
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription">
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
