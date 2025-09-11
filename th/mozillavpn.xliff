@@ -605,35 +605,6 @@
         <source>Delete account</source>
         <target>ลบบัญชี</target>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.headline2">
-        <source>Delete Mozilla account</source>
-        <target>ลบบัญชี Mozilla</target>
-      </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionFour">
-        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
-        <source>Any extensions and themes that you’ve published to addons.mozilla.org will be deleted</source>
-        <target>ส่วนขยายและชุดตกแต่งใดๆ ที่คุณเผยแพร่ไปยัง addons.mozilla.org จะถูกลบ</target>
-      </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionOne">
-        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
-        <source>Any paid subscriptions you have will be cancelled (Except Pocket)</source>
-        <target>การสมัครสมาชิกแบบเสียค่าใช้จ่ายใดๆ ที่คุณมีจะถูกยกเลิก (ยกเว้น Pocket)</target>
-      </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionThree">
-        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
-        <source>Reactivating with this email may not restore your saved information</source>
-        <target>การเปิดใช้งานอีเมลนี้ใหม่อาจไม่เรียกคืนข้อมูลที่บันทึกไว้ของคุณ</target>
-      </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionTwo">
-        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
-        <source>You may lose saved information and features within Mozilla products</source>
-        <target>คุณอาจสูญเสียข้อมูลและคุณลักษณะต่างๆ ที่บันทึกไว้ภายในผลิตภัณฑ์ของ Mozilla</target>
-      </trans-unit>
-      <trans-unit id="vpn.deleteAccount.subheadline2">
-        <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
-        <source>Your Mozilla account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
-        <target>บัญชี Mozilla ของคุณ (%1) เชื่อมต่ออยู่กับผลิตภัณฑ์ของ Mozilla ซึ่งปกป้องคุณให้ปลอดภัยและช่วยให้คุณทำงานได้อย่างลื่นไหลบนเว็บ โปรดทราบว่าเมื่อลบบัญชีของคุณ:</target>
-      </trans-unit>
       <trans-unit id="vpn.devices.countLabel">
         <note annotates="source" from="developer">Label at the top of the "Devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
         <source>%1 out of %2 devices added</source>
@@ -2147,6 +2118,10 @@
       <trans-unit id="vpn.settingsDev.useStagingTitle">
         <source>Use Staging Servers</source>
         <target>ใช้เซิร์ฟเวอร์สเตจจิ้ง</target>
+      </trans-unit>
+      <trans-unit id="vpn.splittunnel.btnShowSystemApp">
+        <note annotates="source" from="developer">Label for a checkbox that, if checked, will show the hidden "system/internal" apps. e.g. "Android Auto" is a system app on Android.</note>
+        <source>Show system apps</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.errorActivating">
         <source>Error activating App exclusions</source>
