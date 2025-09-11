@@ -608,35 +608,6 @@
         <source>Delete account</source>
         <target>계정 삭제</target>
       </trans-unit>
-      <trans-unit id="vpn.deleteAccount.headline2">
-        <source>Delete Mozilla account</source>
-        <target>Mozilla 계정 삭제</target>
-      </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionFour">
-        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
-        <source>Any extensions and themes that you’ve published to addons.mozilla.org will be deleted</source>
-        <target>addons.mozilla.org에 게시 한 모든 확장 기능 및 테마는 삭제됩니다.</target>
-      </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionOne">
-        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
-        <source>Any paid subscriptions you have will be cancelled (Except Pocket)</source>
-        <target>모든 유료 구독이 취소됩니다 (Pocket 제외)</target>
-      </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionThree">
-        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
-        <source>Reactivating with this email may not restore your saved information</source>
-        <target>이 이메일을 재활성화하면 저장된 정보를 복원하지 못할 수 있습니다.</target>
-      </trans-unit>
-      <trans-unit id="vpn.deleteAccount.optionDescriptionTwo">
-        <note annotates="source" from="developer">Text that belongs to a checkbox that the user has to check in order before they can delete their account.</note>
-        <source>You may lose saved information and features within Mozilla products</source>
-        <target>Mozilla 제품에 포함된 기능이나 저장한 정보를 잃을 수 있습니다.</target>
-      </trans-unit>
-      <trans-unit id="vpn.deleteAccount.subheadline2">
-        <note annotates="source" from="developer">%1 is the email address that is associated with the current account</note>
-        <source>Your Mozilla account (%1) is connected to Mozilla products that keep you secure and productive on the web. Please acknowledge that by deleting your account:</source>
-        <target>Mozilla 계정(%1)이 웹에서 안전하고 생산성을 유지할 수 있게 해주는 Mozilla 제품에 연결되어 있습니다. 계정을 삭제하기 전 다음 사항에 유의하세요:</target>
-      </trans-unit>
       <trans-unit id="vpn.devices.countLabel">
         <note annotates="source" from="developer">Label at the top of the "Devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
         <source>%1 out of %2 devices added</source>
@@ -2158,6 +2129,10 @@
       <trans-unit id="vpn.settingsDev.useStagingTitle">
         <source>Use Staging Servers</source>
         <target>스테이징 서버 사용</target>
+      </trans-unit>
+      <trans-unit id="vpn.splittunnel.btnShowSystemApp">
+        <note annotates="source" from="developer">Label for a checkbox that, if checked, will show the hidden "system/internal" apps. e.g. "Android Auto" is a system app on Android.</note>
+        <source>Show system apps</source>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.errorActivating">
         <source>Error activating App exclusions</source>
