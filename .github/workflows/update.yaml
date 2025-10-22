@@ -43,8 +43,10 @@ jobs:
           pip install -r translationFiles/.github/scripts/requirements.txt
       - name: Store ENV variables
         id: env-variables
+        env:
+          BRANCH: ${{ github.event.inputs.branch || 'main' }}
         run: |
-          vpn_branch=${{ github.event.inputs.branch || 'main' }}
+          vpn_branch="$BRANCH"
           echo "vpn_branch=${vpn_branch}" >> $GITHUB_OUTPUT
           if [ "${vpn_branch}" = "main" ]; then
             echo "automation_branch=l10n_automation" >> $GITHUB_OUTPUT
