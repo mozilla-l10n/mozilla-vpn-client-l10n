@@ -1688,46 +1688,6 @@
         <source>Allow Mozilla VPN to create a VPN connection</source>
         <target>Разрешить Mozilla VPN создавать VPN-соединения</target>
       </trans-unit>
-      <trans-unit id="vpn.paymentMethods.amex">
-        <source>American Express</source>
-        <target>American Express</target>
-      </trans-unit>
-      <trans-unit id="vpn.paymentMethods.diners">
-        <source>Diners Club</source>
-        <target>Diners Club</target>
-      </trans-unit>
-      <trans-unit id="vpn.paymentMethods.discover">
-        <source>Discover</source>
-        <target>Discover</target>
-      </trans-unit>
-      <trans-unit id="vpn.paymentMethods.iapApple">
-        <source>Apple subscription</source>
-        <target>Подписка Apple</target>
-      </trans-unit>
-      <trans-unit id="vpn.paymentMethods.iapGoogle">
-        <source>Google subscription</source>
-        <target>Подписка Google</target>
-      </trans-unit>
-      <trans-unit id="vpn.paymentMethods.jcb">
-        <source>JCB</source>
-        <target>JCB</target>
-      </trans-unit>
-      <trans-unit id="vpn.paymentMethods.mastercard">
-        <source>Mastercard</source>
-        <target>Mastercard</target>
-      </trans-unit>
-      <trans-unit id="vpn.paymentMethods.paypal">
-        <source>PayPal</source>
-        <target>PayPal</target>
-      </trans-unit>
-      <trans-unit id="vpn.paymentMethods.unionpay">
-        <source>UnionPay</source>
-        <target>UnionPay</target>
-      </trans-unit>
-      <trans-unit id="vpn.paymentMethods.visa">
-        <source>Visa</source>
-        <target>Visa</target>
-      </trans-unit>
       <trans-unit id="vpn.permissionMacos.body">
         <note annotates="source" from="developer">Paragraph requesting the user to allow the VPN to run in the background.</note>
         <source>To use Mozilla VPN, please allow it to run in the background.</source>
@@ -1748,11 +1708,6 @@
         <source>In order to do this, please click the button below to open the &lt;i&gt;Login Items &amp; Extensions&lt;/i&gt; of your &lt;i&gt;System Preferences&lt;/i&gt;, and enable &lt;i&gt;App Background Activity&lt;/i&gt; for Mozilla VPN.</source>
         <target>Для этого, пожалуйста, нажмите на кнопку ниже, чтобы открыть &lt;i&gt;Элементы входа и расширения&lt;/i&gt; в ваших &lt;i&gt;Системных настройках&lt;/i&gt;, и включите &lt;i&gt;Фоновую активность приложения&lt;/i&gt; для Mozilla VPN.</target>
       </trans-unit>
-      <trans-unit id="vpn.permissionMacos.instructionsTahoe">
-        <note annotates="source" from="developer">Paragraph explaining how to enable the VPN to run in the background.</note>
-        <source>In order to do this, please click the button below to open the &lt;i&gt;Login Items &amp; Extensions&lt;/i&gt; of your &lt;i&gt;System Preferences&lt;/i&gt;, and enable &lt;i&gt;App Background Activity&lt;/i&gt; for Mozilla VPN.</source>
-        <target>Для этого, пожалуйста, нажмите на кнопку ниже, чтобы открыть &lt;i&gt;Элементы входа и расширения&lt;/i&gt; в ваших &lt;i&gt;Системных настройках&lt;/i&gt;, и включите &lt;i&gt;Фоновую активность приложения&lt;/i&gt; для Mozilla VPN.</target>
-      </trans-unit>
       <trans-unit id="vpn.permissionMacos.openSettingsButtonLabel">
         <note annotates="source" from="developer">Label for the button that opens the login items settings page on macOS 14</note>
         <source>Open Login Items</source>
@@ -1760,11 +1715,6 @@
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.openSettingsButtonLabelMacOS15">
         <note annotates="source" from="developer">Label for the button that opens the login items settings page on macOS 15 and above</note>
-        <source>Open Login Items &amp; Extensions</source>
-        <target>Открыть «Элементы входа и расширения»</target>
-      </trans-unit>
-      <trans-unit id="vpn.permissionMacos.openSettingsButtonLabelTahoe">
-        <note annotates="source" from="developer">Label for the button that opens the login items settings page</note>
         <source>Open Login Items &amp; Extensions</source>
         <target>Открыть «Элементы входа и расширения»</target>
       </trans-unit>
@@ -2189,49 +2139,9 @@
         <source>%1 apps missing from list.</source>
         <target>%1 приложение отсутствует в списке.</target>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.activatedLabel">
-        <note annotates="source" from="developer">Label for the date on which the subscription was activated.</note>
-        <source>Active since</source>
-        <target>Активна с</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.cardExpiresLabel">
-        <note annotates="source" from="developer">Label for the date on which the payment method expires.</note>
-        <source>Expires</source>
-        <target>Срок действия</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.cardLast4">
-        <note annotates="source" from="developer">The %1 represents the last four digits of a credit card.</note>
-        <source>Card ending in %1</source>
-        <target>Карта заканчивается на %1</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.expiresLabel">
-        <note annotates="source" from="developer">Label for the upcoming date on which the subscription will expire.</note>
-        <source>Expires</source>
-        <target>Срок действия</target>
-      </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.manageAccount">
         <source>Manage account</source>
         <target>Управление аккаунтом</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.manageSubscriptionButton">
-        <note annotates="source" from="developer">Label for a button that will take the user to a view where they can manage their subscription.</note>
-        <source>Manage subscription</source>
-        <target>Управление подпиской</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.nextLabel">
-        <note annotates="source" from="developer">Label for the upcoming date on which the user will be billed for their subscription.</note>
-        <source>Next billed</source>
-        <target>Следующая оплата</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.paymentHeadline">
-        <note annotates="source" from="developer">Headline for a list with information on the payment information the user provided for their subscription.</note>
-        <source>Payment Information</source>
-        <target>Платёжная информация</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planLabel">
-        <note annotates="source" from="developer">Label for the selected subscription plan the user currently is subscribed to.</note>
-        <source>Subscription plan</source>
-        <target>План подписки</target>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planMonthly">
         <note annotates="source" from="developer">Price for a monthly subscription. %1 represents the localized currency string</note>
@@ -2248,75 +2158,10 @@
         <source>%1/month</source>
         <target>%1/месяц</target>
       </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearly">
-        <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
-        <source>%1 Half-yearly</source>
-        <target>%1 за полгода</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueHalfYearlyPlusTax">
-        <note annotates="source" from="developer">The %1 represents a localized currency string</note>
-        <source>%1 Half-yearly + tax</source>
-        <target>%1 за полгода + налог</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueMonthly">
-        <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
-        <source>%1 Monthly</source>
-        <target>%1 в месяц</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueMonthlyPlusTax">
-        <note annotates="source" from="developer">The %1 represents a localized currency string</note>
-        <source>%1 Monthly + tax</source>
-        <target>%1 в месяц + налог</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueYearly">
-        <note annotates="source" from="developer">The %1 represents a localized currency string.</note>
-        <source>%1 Yearly</source>
-        <target>%1 в год</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.planValueYearlyPlusTax">
-        <note annotates="source" from="developer">The %1 represents a localized currency string</note>
-        <source>%1 Yearly + tax</source>
-        <target>%1 в год + налог</target>
-      </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.sectionTitle">
         <note annotates="source" from="developer">Menu title for a view with details on the user's account.</note>
         <source>Account</source>
         <target>Аккаунт</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.statusActive">
-        <note annotates="source" from="developer">Text for a label that indicates an active subscription.</note>
-        <source>Active</source>
-        <target>Активна</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.statusInactive">
-        <note annotates="source" from="developer">Text for a label that indicates an inactive subscription.</note>
-        <source>Inactive</source>
-        <target>Неактивна</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.statusLabel">
-        <note annotates="source" from="developer">Label for the current status of the subscription.</note>
-        <source>Status</source>
-        <target>Статус</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.subscriptionPlatformLabel">
-        <note annotates="source" from="developer">The %1 represents the subscription platform. Values for %1 could be “Apple” or “Google” for example.</note>
-        <source>%1 subscription</source>
-        <target>Подписка %1</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.summaryHeadline">
-        <note annotates="source" from="developer">Headline for a list with information on the subscription plan of the user.</note>
-        <source>Subscription summary</source>
-        <target>Сводка по подписке</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnual">
-        <note annotates="source" from="developer">Block of text appearing beside a button to upgrade subscription.</note>
-        <source>Save 50% on an annual plan</source>
-        <target>Сэкономьте 50% на годовом плане</target>
-      </trans-unit>
-      <trans-unit id="vpn.subscriptionManagement.upgradeToAnnualButton">
-        <note annotates="source" from="developer">Label for a button that will open the upgrade subscription flow.</note>
-        <source>Change plan</source>
-        <target>Сменить план</target>
       </trans-unit>
       <trans-unit id="vpn.systray.disconnect">
         <source>Disconnect</source>
