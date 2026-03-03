@@ -20,8 +20,9 @@ jobs:
       QTVERSION: 6.2.4
     steps:
       - name: Clone l10n repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
+          persist-credentials: false
           path: translationFiles
       - name: Install Qt
         run: |
@@ -29,13 +30,14 @@ jobs:
           python3 -m aqt list-qt linux desktop
           python3 -m aqt install-qt -O /opt linux desktop $QTVERSION
       - name: Clone main code repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
+          persist-credentials: false
           repository: mozilla-mobile/mozilla-vpn-client
           fetch-depth: 0
           path: vpn
       - name: Set up Python 3
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
         with:
           python-version: "3.11"
       - name: Install Python dependencies
@@ -104,7 +106,7 @@ jobs:
 
           # Remove obsolete XLIFF files
           python translationFiles/.github/scripts/remove_obsolete_files.py --reference en --path translationFiles/
-      - uses: peter-evans/create-pull-request@v6
+      - uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
         with:
           path: translationFiles
           author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
