@@ -200,7 +200,9 @@ def main():
                     # Create a target node and insert it after source.
                     child = etree.Element("target")
                     child.text = translations[string_id]
-                    trans_node.insert(2, child)
+                    source_node = trans_node.xpath("./x:source", namespaces=NS)[0]
+                    source_index = list(trans_node).index(source_node)
+                    trans_node.insert(source_index + 1, child)
 
             # Update target-language where defined, replace underscores with
             # hyphens if necessary (e.g. en_GB => en-GB).
