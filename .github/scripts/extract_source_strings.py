@@ -116,6 +116,14 @@ def main():
     for f in root.xpath("//x:file", namespaces=NS):
         sort_children(f, "id")
 
+    # Ensure note elements appear after source in each trans-unit
+    # (sort_children sorts alphabetically, which puts "note" before "source")
+    for trans_unit in root.xpath("//x:trans-unit", namespaces=NS):
+        notes = trans_unit.findall("{urn:oasis:names:tc:xliff:document:1.2}note")
+        for note in notes:
+            trans_unit.remove(note)
+            trans_unit.append(note)
+
     # Replace the existing local file with the new XML content
     write_xliff(root, output_xliff_file)
 
