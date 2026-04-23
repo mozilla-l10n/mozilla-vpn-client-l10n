@@ -16,10 +16,17 @@ def get_node_key(node, attr=None):
     return f"{node.tag}"
 
 
+XLIFF_NS = "urn:oasis:names:tc:xliff:document:1.2"
+TRANS_UNIT_TAG = f"{{{XLIFF_NS}}}trans-unit"
+SOURCE_TAG = f"{{{XLIFF_NS}}}source"
+NOTE_TAG = f"{{{XLIFF_NS}}}note"
+
+
 def sort_children(node, attr=None):
     node[:] = sorted(node, key=lambda child: get_node_key(child, attr))
     for child in node:
-        sort_children(child, attr)
+        if child.tag != TRANS_UNIT_TAG:
+            sort_children(child, attr)
 
 
 def main():
@@ -48,6 +55,15 @@ def main():
     # Sort trans-unit elements by IDs within each file element
     for f in root.xpath("//x:file", namespaces=NS):
         sort_children(f, "id")
+
+    # Within each trans-unit, ensure source comes before note (Pontoon expects
+    # this order, and generate_shared_addon_xliff.py emits note before source)
+    for tu in root.xpath("//x:trans-unit", namespaces=NS):
+        children = list(tu)
+        source_nodes = [c for c in children if c.tag == SOURCE_TAG]
+        note_nodes = [c for c in children if c.tag == NOTE_TAG]
+        other_nodes = [c for c in children if c.tag not in (SOURCE_TAG, NOTE_TAG)]
+        tu[:] = other_nodes + source_nodes + note_nodes
 
     # Replace the existing local file with the new XML content
     write_xliff(root, xliff_file)
