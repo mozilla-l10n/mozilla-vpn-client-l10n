@@ -1363,7 +1363,16 @@ Switch %@ on
 Connect %@
 Connect to %@
 </source>
-        <target>啟用 %@ 開啟 %@ 開啟 %@ 切換 %@ 切換 %@ 連線 %@ 連線 %@ </target>
+        <target>開啟 %@
+打開 %@
+連線 %@
+連上 %@
+連接 %@
+連結 %@
+啟用 %@
+%@ 開啟
+%@ 連線
+%@ 連接</target>
         <note annotates="source" from="developer">Siri phrase variants for activating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1381,7 +1390,17 @@ Switch %@ off
 Disconnect %@
 Disconnect from %@
 </source>
-        <target>停用 %@ 關閉 %@ 關閉 %@ 關閉 %@ 關閉 %@ 取消連線 %@ 取消與 %@ 的連線 </target>
+        <target>關閉 %@
+關掉 %@
+中斷 %@
+斷開 %@
+結束 %@
+停止 %@
+取消 %@
+%@ 關閉
+%@ 停止
+%@ 結束
+%@ 斷開</target>
         <note annotates="source" from="developer">Siri phrase variants for deactivating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1397,7 +1416,7 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffConfirmation">
         <source>Mozilla VPN disconnected</source>
-        <target>Mozilla VPN 已取消連線</target>
+        <target>已中斷 Mozilla VPN 連線</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning off VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffDescription">
