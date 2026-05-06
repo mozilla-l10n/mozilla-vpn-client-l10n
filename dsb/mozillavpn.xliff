@@ -1400,6 +1400,22 @@ Wušaltuj %@
  - No line should be a duplicate of another.
 </note>
       </trans-unit>
+      <trans-unit id="vpn.iosAppIntentsMain.statusQueryDescription">
+        <source>Queries current Mozilla VPN connection status</source>
+        <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
+      </trans-unit>
+      <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
+        <source>Mozilla VPN is currently connected</source>
+        <note annotates="source" from="developer">Response given when the VPN is connected</note>
+      </trans-unit>
+      <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
+        <source>Mozilla VPN is currently disconnected</source>
+        <note annotates="source" from="developer">Response given when the VPN is disconnected</note>
+      </trans-unit>
+      <trans-unit id="vpn.iosAppIntentsMain.statusQueryTitle">
+        <source>Is the VPN currently connected?</source>
+        <note annotates="source" from="developer">Title used by system to offer to query VPN status</note>
+      </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffAction">
         <source>Turn Off Mozilla VPN</source>
         <target>Mozilla VPN znjemóžniś</target>
@@ -1454,6 +1470,26 @@ Wušaltuj %@
         <source>Error turning on Mozilla VPN</source>
         <target>Zmólka pśi zmóžnjanju Mozilla VPN</target>
         <note annotates="source" from="developer">Error given by Siri when unable to turn on VPN</note>
+      </trans-unit>
+      <trans-unit id="vpn.iosAppIntentsQueryStatus.phrases">
+        <source>Is %@ currently active?
+Is %@ currently activated?
+Is %@ currently turned on?
+Is %@ currently switched on?
+Is %@ currently connected?
+Is %@ active?
+Is %@ activated?
+Is %@ turned on?
+Is %@ switched on?
+Is %@ connected?
+</source>
+        <note annotates="source" from="developer">Siri phrase variants for querying whether the VPN is active via App Intents. Each line is a separate phrase Siri will recognize. Rules:
+ - Write natural, conversational phrases a user might say to Siri.
+ - Do NOT translate literally — write phrases natural in your language.
+ - Every line MUST contain %@, which will have "Mozilla VPN" substituted in.
+ - Add or remove lines freely; your language may need fewer or more variants.
+ - No line should be a duplicate of another.
+</note>
       </trans-unit>
       <trans-unit id="vpn.languageView.searchPlaceholder">
         <source>Search languages</source>
