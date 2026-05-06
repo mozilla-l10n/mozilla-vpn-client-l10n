@@ -1407,7 +1407,7 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
         <source>Mozilla VPN is currently connected</source>
-        <target>Mozilla VPN сейчас подключен</target>
+        <target>Mozilla VPN сейчас подключён</target>
         <note annotates="source" from="developer">Response given when the VPN is connected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
@@ -1487,7 +1487,15 @@ Is %@ turned on?
 Is %@ switched on?
 Is %@ connected?
 </source>
-        <target>%@ активен в данный момент? %@ активирован? %@ сейчас включено? %@ сейчас включено? Подключён ли %@? %@ активен? %@ активирован? %@ включён? %@ включено? %@ подключено? </target>
+        <target>%@ включён?
+%@ активен?
+%@ работает?
+%@ подключён?
+Сейчас %@ включён?
+Сейчас %@ активен?
+Сейчас %@ подключён?
+Проверь статус %@
+Какой статус у %@?</target>
         <note annotates="source" from="developer">Siri phrase variants for querying whether the VPN is active via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
