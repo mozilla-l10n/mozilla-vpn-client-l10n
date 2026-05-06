@@ -1396,18 +1396,22 @@ Disconnetti da %@ </target>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryDescription">
         <source>Queries current Mozilla VPN connection status</source>
+        <target>Richiede lo stato corrente della connessione a Mozilla VPN</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
         <source>Mozilla VPN is currently connected</source>
+        <target>Mozilla VPN è attualmente connessa</target>
         <note annotates="source" from="developer">Response given when the VPN is connected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
         <source>Mozilla VPN is currently disconnected</source>
+        <target>Mozilla VPN è attualmente disconnessa</target>
         <note annotates="source" from="developer">Response given when the VPN is disconnected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryTitle">
         <source>Is the VPN currently connected?</source>
+        <target>La VPN è attualmente connessa?</target>
         <note annotates="source" from="developer">Title used by system to offer to query VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffAction">
@@ -1477,6 +1481,7 @@ Is %@ turned on?
 Is %@ switched on?
 Is %@ connected?
 </source>
+        <target>%@ è attualmente attivo? %@ è attualmente attivato? %@ è attualmente attivo? %@ è attualmente attivo? %@ è attualmente connesso? %@ è attivo? %@ è attivato? %@ è attivo? %@ è attivo? %@ è connesso? </target>
         <note annotates="source" from="developer">Siri phrase variants for querying whether the VPN is active via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.

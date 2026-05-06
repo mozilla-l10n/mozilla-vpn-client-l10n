@@ -1392,18 +1392,22 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryDescription">
         <source>Queries current Mozilla VPN connection status</source>
+        <target>현재 Mozilla VPN 연결 상태를 쿼리</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
         <source>Mozilla VPN is currently connected</source>
+        <target>Mozilla VPN이 현재 연결되어 있습니다</target>
         <note annotates="source" from="developer">Response given when the VPN is connected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
         <source>Mozilla VPN is currently disconnected</source>
+        <target>Mozilla VPN이 현재 연결이 끊긴 상태입니다.</target>
         <note annotates="source" from="developer">Response given when the VPN is disconnected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryTitle">
         <source>Is the VPN currently connected?</source>
+        <target>VPN이 현재 연결되어 있습니까?</target>
         <note annotates="source" from="developer">Title used by system to offer to query VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffAction">
@@ -1473,6 +1477,7 @@ Is %@ turned on?
 Is %@ switched on?
 Is %@ connected?
 </source>
+        <target>%@가 현재 활성화되어 있나요? 현재 %@가 활성화되어 있습니까? 현재 %@가 켜져 있습니까? %@가 현재 켜져 있습니까? %@가 현재 연결되어 있습니까? %@가 활동 중인가요? %@가 활성화되어 있습니까? %@가 켜져 있습니까? %@가 켜져 있습니까? %@가 연결되었나요? </target>
         <note annotates="source" from="developer">Siri phrase variants for querying whether the VPN is active via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
