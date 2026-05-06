@@ -1363,6 +1363,15 @@ Switch %@ on
 Connect %@
 Connect to %@
 </source>
+        <target>Aktivuj %@
+Aktivovať %@
+Zapnúť %@
+Zapni %@
+Pripoj %@
+Pripojiť %@
+Pripojiť k %@
+Pripoj sa k %@
+Pripojiť sa k %@</target>
         <note annotates="source" from="developer">Siri phrase variants for activating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1380,6 +1389,15 @@ Switch %@ off
 Disconnect %@
 Disconnect from %@
 </source>
+        <target>Deaktivuj %@
+Deaktivovať %@
+Vypnúť %@
+Vypni %@
+Odpoj %@
+Odpojiť %@
+Odpojiť z %@
+Odpoj sa z %@
+Odpojiť sa z %@</target>
         <note annotates="source" from="developer">Siri phrase variants for deactivating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1390,10 +1408,12 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryDescription">
         <source>Queries current Mozilla VPN connection status</source>
+        <target>Opýta sa na aktuálny stav pripojenia Mozilla VPN</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
         <source>Mozilla VPN is currently connected</source>
+        <target>Mozilla VPN je momentálne pripojená</target>
         <note annotates="source" from="developer">Response given when the VPN is connected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
@@ -1406,10 +1426,12 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffAction">
         <source>Turn Off Mozilla VPN</source>
+        <target>Vypnúť Mozilla VPN</target>
         <note annotates="source" from="developer">Title used by system to offer turning off VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffConfirmation">
         <source>Mozilla VPN disconnected</source>
+        <target>Mozilla VPN je odpojená</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning off VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffDescription">
