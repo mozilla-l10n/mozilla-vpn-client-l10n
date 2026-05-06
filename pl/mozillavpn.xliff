@@ -1400,18 +1400,22 @@ Zamknij %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryDescription">
         <source>Queries current Mozilla VPN connection status</source>
+        <target>Odpytuje Mozilla VPN o aktualny stan połączenia</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
         <source>Mozilla VPN is currently connected</source>
+        <target>Mozilla VPN jest obecnie połączona</target>
         <note annotates="source" from="developer">Response given when the VPN is connected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
         <source>Mozilla VPN is currently disconnected</source>
+        <target>Mozilla VPN jest obecnie rozłączona</target>
         <note annotates="source" from="developer">Response given when the VPN is disconnected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryTitle">
         <source>Is the VPN currently connected?</source>
+        <target>Czy VPN jest obecnie połączony?</target>
         <note annotates="source" from="developer">Title used by system to offer to query VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffAction">
@@ -1481,6 +1485,13 @@ Is %@ turned on?
 Is %@ switched on?
 Is %@ connected?
 </source>
+        <target>Czy %@ jest aktualnie aktywna?
+Czy %@ jest aktualnie włączona?
+Czy %@ jest aktualnie połączona?
+Czy %@ jest aktywna?
+Czy %@ jest włączona?
+Czy %@ jest połączona?
+</target>
         <note annotates="source" from="developer">Siri phrase variants for querying whether the VPN is active via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
