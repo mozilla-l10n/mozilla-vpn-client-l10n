@@ -1363,6 +1363,11 @@ Switch %@ on
 Connect %@
 Connect to %@
 </source>
+        <target>Activar %@
+Encender %@
+Iniciar %@
+Conectar %@
+Conectar a %@</target>
         <note annotates="source" from="developer">Siri phrase variants for activating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1390,62 +1395,77 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryDescription">
         <source>Queries current Mozilla VPN connection status</source>
+        <target>Consulta el estado actual de la conexión VPN de Mozilla</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
         <source>Mozilla VPN is currently connected</source>
+        <target>Mozilla VPN está conectado actualmente</target>
         <note annotates="source" from="developer">Response given when the VPN is connected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
         <source>Mozilla VPN is currently disconnected</source>
+        <target>Mozilla VPN está actualmente desconectada</target>
         <note annotates="source" from="developer">Response given when the VPN is disconnected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryTitle">
         <source>Is the VPN currently connected?</source>
+        <target>¿Está la VPN conectada actualmente?</target>
         <note annotates="source" from="developer">Title used by system to offer to query VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffAction">
         <source>Turn Off Mozilla VPN</source>
+        <target>Desactivar la VPN de Mozilla</target>
         <note annotates="source" from="developer">Title used by system to offer turning off VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffConfirmation">
         <source>Mozilla VPN disconnected</source>
+        <target>VPN de Mozilla desconectada</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning off VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffDescription">
         <source>Deactivate the Mozilla VPN connection</source>
+        <target>Desactivar la conexión VPN de Mozilla</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffError">
         <source>No active VPN connection</source>
+        <target>No hay conexión VPN activa</target>
         <note annotates="source" from="developer">Error given by Siri when unable to turn off VPN due to a lack of existing connection</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnAction">
         <source>Turn On Mozilla VPN</source>
+        <target>Activar la VPN de Mozilla</target>
         <note annotates="source" from="developer">Title used by system to offer turning on VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnAlreadyConnectedError">
         <source>VPN is already connected</source>
+        <target>La VPN ya está conectada</target>
         <note annotates="source" from="developer">Error given by Siri when VPN already has an active connection</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmation">
         <source>Mozilla VPN connected</source>
+        <target>VPN de Mozilla conectada</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationMultiHop">
         <source>Mozilla VPN connected through %1$@ via %2$@</source>
+        <target>Mozilla VPN conectada a través de %1$@ vía %2$@</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN. `%1$@` will be replaced with the exit city, and `%2$@` will be replaced with the entry city.</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationSingleHop">
         <source>Mozilla VPN connected through %@</source>
+        <target>Mozilla VPN conectada a través de %@</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN. `%@` must be included, and it will be replaced with the name of the exit city.</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnDescription">
         <source>Activate the Mozilla VPN connection</source>
+        <target>Activa la conexión VPN de Mozilla</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnError">
         <source>Error turning on Mozilla VPN</source>
+        <target>Error al activar Mozilla VPN</target>
         <note annotates="source" from="developer">Error given by Siri when unable to turn on VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsQueryStatus.phrases">
