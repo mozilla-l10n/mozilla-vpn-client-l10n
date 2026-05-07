@@ -1403,7 +1403,7 @@ Lekapcsolódás a %@-ről
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryDescription">
         <source>Queries current Mozilla VPN connection status</source>
-        <target>Lekérdezi a Mozilla VPN kapcsolat aktuális állapotát</target>
+        <target>Lekérdezi a Mozilla VPN kapcsolatának jelenlegi állapotát</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
@@ -1413,7 +1413,7 @@ Lekapcsolódás a %@-ről
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
         <source>Mozilla VPN is currently disconnected</source>
-        <target>A Mozilla VPN jelenleg leválasztva</target>
+        <target>A Mozilla VPN jelenleg le van választva</target>
         <note annotates="source" from="developer">Response given when the VPN is disconnected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryTitle">
@@ -1433,7 +1433,7 @@ Lekapcsolódás a %@-ről
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleTitle">
         <source>Toggle Mozilla VPN</source>
-        <target>Mozilla VPN átváltása</target>
+        <target>Mozilla VPN be/ki</target>
         <note annotates="source" from="developer">Title used by system to offer to toggle VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffAction">
@@ -1503,7 +1503,21 @@ Is %@ turned on?
 Is %@ switched on?
 Is %@ connected?
 </source>
-        <target>A %@ jelenleg aktív? A %@ jelenleg aktiválva van? A %@ jelenleg be van kapcsolva? A %@ jelenleg be van kapcsolva? A %@ jelenleg csatlakozik? A %@ aktív? A %@ aktiválva van? A %@ be van kapcsolva? A %@ be van kapcsolva? A %@ csatlakozik? </target>
+        <target>A %@ jelenleg aktív?
+A %@ jelenleg aktiválva van?
+A %@ jelenleg be van kapcsolva?
+A %@ jelenleg kapcsolódik?
+A %@ jelenleg csatlakozik?
+A %@ aktív?
+A %@ aktiválva van?
+A %@ be van kapcsolva?
+A %@ kapcsolódik?
+A %@ csatlakozik?
+Jelenleg aktív a %@?
+Aktív a %@?
+Épp aktív a %@?
+Kapcsolódik a %@?
+Be van kapcsolva a %@?</target>
         <note annotates="source" from="developer">Siri phrase variants for querying whether the VPN is active via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
