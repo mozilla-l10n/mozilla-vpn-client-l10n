@@ -1384,6 +1384,10 @@ Switch %@ off
 Disconnect %@
 Disconnect from %@
 </source>
+        <target>Inaktivera %@
+Stäng av %@
+Koppla ifrån %@
+</target>
         <note annotates="source" from="developer">Siri phrase variants for deactivating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1414,14 +1418,17 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleDescription">
         <source>Changes Mozilla VPN status</source>
+        <target>Ändrar Mozilla VPN-status</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleError">
         <source>Error changing VPN status</source>
+        <target>Fel vid ändring av VPN-status</target>
         <note annotates="source" from="developer">Generic error message used when toggling VPN fails early</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleTitle">
         <source>Toggle Mozilla VPN</source>
+        <target>Växla Mozilla VPN</target>
         <note annotates="source" from="developer">Title used by system to offer to toggle VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffAction">
@@ -1491,6 +1498,9 @@ Is %@ turned on?
 Is %@ switched on?
 Is %@ connected?
 </source>
+        <target>Är %@ aktiverat?
+Är %@ anslutet?
+</target>
         <note annotates="source" from="developer">Siri phrase variants for querying whether the VPN is active via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
