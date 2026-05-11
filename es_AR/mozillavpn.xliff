@@ -1411,7 +1411,7 @@ Desconectar de %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
         <source>Mozilla VPN is currently disconnected</source>
-        <target>La Mozilla VPN está actualmente desconectada</target>
+        <target>Mozilla VPN está actualmente desconectada</target>
         <note annotates="source" from="developer">Response given when the VPN is disconnected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryTitle">
@@ -1431,12 +1431,12 @@ Desconectar de %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleTitle">
         <source>Toggle Mozilla VPN</source>
-        <target>Alternar Mozilla VPN</target>
+        <target>Cambiar estado de Mozilla VPN</target>
         <note annotates="source" from="developer">Title used by system to offer to toggle VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffAction">
         <source>Turn Off Mozilla VPN</source>
-        <target>Desactivar Mozilla VPN</target>
+        <target>Apagar Mozilla VPN</target>
         <note annotates="source" from="developer">Title used by system to offer turning off VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffConfirmation">
@@ -1456,7 +1456,7 @@ Desconectar de %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnAction">
         <source>Turn On Mozilla VPN</source>
-        <target>Activar Mozilla VPN</target>
+        <target>Encender Mozilla VPN</target>
         <note annotates="source" from="developer">Title used by system to offer turning on VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnAlreadyConnectedError">
@@ -1501,7 +1501,17 @@ Is %@ turned on?
 Is %@ switched on?
 Is %@ connected?
 </source>
-        <target>¿%@ está actualmente activo? ¿%@ está activado actualmente? ¿%@ está actualmente activado? ¿Está %@ activado actualmente? ¿%@ está conectado actualmente? ¿%@ está activo? ¿%@ está activado? ¿%@ está activado? ¿%@ está activado? ¿%@ está conectado? </target>
+        <target>¿%@ está actualmente activa?
+¿%@ está activada actualmente?
+¿%@ está actualmente activadactivadaa?
+¿Está %@ activada actualmente?
+¿%@ está conectada actualmente?
+¿%@ está activa?
+¿%@ está activada?
+¿%@ está encendida?
+¿%@ está prendida?
+¿%@ está conectada?
+</target>
         <note annotates="source" from="developer">Siri phrase variants for querying whether the VPN is active via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
