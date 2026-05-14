@@ -589,6 +589,7 @@
       <trans-unit id="vpn.connectionInfo.unitPing">
         <source>ms</source>
         <target>ms</target>
+        <note annotates="source" from="developer">milliseconds</note>
       </trans-unit>
       <trans-unit id="vpn.controller.regeneratingKey">
         <source>Preparing your connection</source>
@@ -2031,6 +2032,14 @@ Is %@ connected?
         <source>yesterday</source>
         <target>ieri</target>
       </trans-unit>
+      <trans-unit id="vpn.serversView.recommendedRefreshNoUpdateDisabledLabel">
+        <source>Disconnect from the VPN to update this list.</source>
+        <note annotates="source" from="developer">Label next to the refresh button shown when the recommended list has never been updated yet but the user is connected to the VPN, so cannot update yet.</note>
+      </trans-unit>
+      <trans-unit id="vpn.serversView.recommendedRefreshNoUpdateLabel">
+        <source>Tap to update</source>
+        <note annotates="source" from="developer">Label next to the refresh button shown when the recommended list has never been updated yet. The whole row is clickable and tapping triggers an update.</note>
+      </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel">
         <source>Checking (%1%)…</source>
         <target>Verifica in corso (%1%)…</target>
@@ -2106,6 +2115,14 @@ Is %@ connected?
         <source>Light</source>
         <target>Chiaro</target>
         <note annotates="source" from="developer">Light as in "light mode theme"</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.batteryOptimizationWarning">
+        <source>On some devices, Mozilla VPN may be disconnected in the background. If you’ve experienced this, allow it to run in the background.</source>
+        <note annotates="source" from="developer">Warning shown in the settings screen on Android when battery optimization is enabled for the app.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.batteryOptimizationWarningButton">
+        <source>Allow background permissions</source>
+        <note annotates="source" from="developer">Button label for the call to action to allow background permissions on Android.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription">
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
