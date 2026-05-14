@@ -1363,6 +1363,11 @@ Switch %@ on
 Connect %@
 Connect to %@
 </source>
+        <target>Ative %@
+Impie %@
+Conet %@
+Conet a %@
+</target>
         <note annotates="source" from="developer">Siri phrase variants for activating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1380,6 +1385,11 @@ Switch %@ off
 Disconnect %@
 Disconnect from %@
 </source>
+        <target>Disative %@
+Distude %@
+Disconet %@
+Disconet di %@
+</target>
         <note annotates="source" from="developer">Siri phrase variants for deactivating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1390,14 +1400,17 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryDescription">
         <source>Queries current Mozilla VPN connection status</source>
+        <target>Interoghe il stât atuâl de conession di Mozilla VPN</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
         <source>Mozilla VPN is currently connected</source>
+        <target>In chest moment la VPN di Mozilla e je conetude</target>
         <note annotates="source" from="developer">Response given when the VPN is connected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
         <source>Mozilla VPN is currently disconnected</source>
+        <target>In chest moment la VPN di Mozilla e je disconetude</target>
         <note annotates="source" from="developer">Response given when the VPN is disconnected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryTitle">
@@ -1418,14 +1431,17 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffAction">
         <source>Turn Off Mozilla VPN</source>
+        <target>Disative Mozilla VPN</target>
         <note annotates="source" from="developer">Title used by system to offer turning off VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffConfirmation">
         <source>Mozilla VPN disconnected</source>
+        <target>Mozilla VPN disconetude</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning off VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffDescription">
         <source>Deactivate the Mozilla VPN connection</source>
+        <target>Disative la conession a Mozilla VPN</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffError">
