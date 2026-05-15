@@ -418,16 +418,20 @@
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.labelTitle">
         <source>Bypass VPN for select traffic</source>
+        <target>Excluir tráfico seleccionado de la VPN</target>
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.learnMoreSentence">
         <source>Learn more.</source>
+        <target>Saber más.</target>
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.subLabel">
         <source>Allow RCS/MMS messaging, Apple features like CarPlay and AirDrop, and connections to local devices. May reduce network security.</source>
+        <target>Permitir mensajes RCS/MMS, funciones de Apple como CarPlay y AirDrop, y conexiones a dispositivos locales. Esto podría reducir la seguridad de la red.</target>
         <note annotates="source" from="developer">Make sure it's clear that this will allow major features (like messaging apps) to function, but potentially at the expense of some security.</note>
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.vpnMustBeOff">
         <source>VPN must be off to change this setting</source>
+        <target>La VPN debe estar desactivada para cambiar este ajuste</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPostActivation">
         <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
@@ -589,6 +593,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.regeneratingKey">
         <source>Preparing your connection</source>
+        <target>Preparando tu conexión</target>
         <note annotates="source" from="developer">Connection subtitle label for the main screen when the app is regenerating WireGuard keys</note>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.crashOptInDialogDescription">
@@ -1359,6 +1364,11 @@ Switch %@ on
 Connect %@
 Connect to %@
 </source>
+        <target>Activar %@
+Encender %@
+Iniciar %@
+Conectar %@
+Conectar a %@</target>
         <note annotates="source" from="developer">Siri phrase variants for activating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1376,6 +1386,11 @@ Switch %@ off
 Disconnect %@
 Disconnect from %@
 </source>
+        <target>Desactivar %@
+Apagar %@
+Salir de %@
+Desconectar %@
+Desconectar de %@</target>
         <note annotates="source" from="developer">Siri phrase variants for deactivating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
