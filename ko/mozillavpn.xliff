@@ -1364,6 +1364,14 @@ Switch %@ on
 Connect %@
 Connect to %@
 </source>
+        <target>%@ 활성화
+%@ 켜기
+%@ 켜
+%@ 켜줘
+%@ 켜주세요
+%@에 연결
+%@에 연결해줘
+</target>
         <note annotates="source" from="developer">Siri phrase variants for activating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1381,6 +1389,14 @@ Switch %@ off
 Disconnect %@
 Disconnect from %@
 </source>
+        <target>%@ 비활성화
+%@ 끄기
+%@ 꺼
+%@ 꺼줘
+%@ 꺼주세요
+%@ 연결 끊기
+%@ 연결 끊어줘
+</target>
         <note annotates="source" from="developer">Siri phrase variants for deactivating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1396,7 +1412,7 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
         <source>Mozilla VPN is currently connected</source>
-        <target>Mozilla VPN이 현재 연결되어 있습니다</target>
+        <target>Mozilla VPN이 현재 연결되어 있습니다.</target>
         <note annotates="source" from="developer">Response given when the VPN is connected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
@@ -1421,7 +1437,7 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleTitle">
         <source>Toggle Mozilla VPN</source>
-        <target>Toggle Mozilla VPN</target>
+        <target>Mozilla VPN 토글</target>
         <note annotates="source" from="developer">Title used by system to offer to toggle VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffAction">
@@ -1461,12 +1477,12 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationMultiHop">
         <source>Mozilla VPN connected through %1$@ via %2$@</source>
-        <target>%2$@를 통해 %1$@를 통해 연결된 Mozilla VPN</target>
+        <target>Mozilla VPN이 %2$@를 통해 %1$@에 연결됨</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN. `%1$@` will be replaced with the exit city, and `%2$@` will be replaced with the entry city.</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationSingleHop">
         <source>Mozilla VPN connected through %@</source>
-        <target>%@를 통해 연결된 Mozilla VPN</target>
+        <target>Mozilla VPN이 %@에 연결됨</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN. `%@` must be included, and it will be replaced with the name of the exit city.</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnDescription">
@@ -1491,6 +1507,17 @@ Is %@ turned on?
 Is %@ switched on?
 Is %@ connected?
 </source>
+        <target>%@이 현재 활성화되어 있어?
+%@이 현재 활성화되어 있나요?
+%@이 현재 켜져 있어?
+%@이 현재 켜져 있나요?
+%@이 현재 연결되어 있어?
+%@이 활성화되어 있어?
+%@이 활성화되어 있나요?
+%@이 켜져 있어?
+%@이 켜져 있나요?
+%@이 연결되어 있어?
+</target>
         <note annotates="source" from="developer">Siri phrase variants for querying whether the VPN is active via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -2105,7 +2132,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.batteryOptimizationWarning">
         <source>On some devices, Mozilla VPN may be disconnected in the background. If you’ve experienced this, allow it to run in the background.</source>
-        <target>어떤 기기에서는 Mozilla VPN이 백그라운드로 연결이 끊어질 수 있습니다. 이것을 경험했다면 백그라운드에서 실행되도록 허용하세요.</target>
+        <target>어떤 기기에서는 Mozilla VPN이 백그라운드에서 연결이 끊어질 수 있습니다. 그렇다면 백그라운드 실행을 허용하세요.</target>
         <note annotates="source" from="developer">Warning shown in the settings screen on Android when battery optimization is enabled for the app.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.batteryOptimizationWarningButton">
