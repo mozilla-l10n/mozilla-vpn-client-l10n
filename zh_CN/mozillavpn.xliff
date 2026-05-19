@@ -1504,6 +1504,19 @@ Is %@ turned on?
 Is %@ switched on?
 Is %@ connected?
 </source>
+        <target>%@ 是否已启用？
+%@ 是否已激活？
+%@ 是否已打开？
+%@ 是否已开启？
+%@ 是否已连接？
+%@ 启用了吗？
+%@ 激活了吗？
+%@ 打开了吗？
+%@ 连接了吗？
+%@ 连上了吗？
+%@ 开了吗？
+%@ 开着吗？
+%@ 连着吗？</target>
         <note annotates="source" from="developer">Siri phrase variants for querying whether the VPN is active via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -2118,7 +2131,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.batteryOptimizationWarning">
         <source>On some devices, Mozilla VPN may be disconnected in the background. If you’ve experienced this, allow it to run in the background.</source>
-        <target>在某些设备上Mozilla VPN 可能会在后台断开连接。如果您遇到这种情况请允许它在后台运行。</target>
+        <target>部分设备上，Mozilla VPN 在后台运行时可能会断开连接。如果遇到这种情况，请允许它在后台运行。</target>
         <note annotates="source" from="developer">Warning shown in the settings screen on Android when battery optimization is enabled for the app.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.batteryOptimizationWarningButton">
