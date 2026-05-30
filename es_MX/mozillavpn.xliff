@@ -1509,6 +1509,17 @@ Is %@ turned on?
 Is %@ switched on?
 Is %@ connected?
 </source>
+        <target>¿%@ tiene conexión en este momento?
+¿%@ se encuentra en uso?
+¿%@ está en funcionamiento?
+¿%@ cuenta con acceso a la red?
+¿%@ tiene conexión actualmente?
+¿%@ está disponible?
+¿%@ cuenta con activación?
+¿%@ está operando actualmente?
+¿%@ se encuentra en línea?
+¿%@ tiene conexión?
+</target>
         <note annotates="source" from="developer">Siri phrase variants for querying whether the VPN is active via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1696,6 +1707,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkGeneric">
         <source>Wi-Fi network is not secure. Click here to turn on VPN and secure your device.</source>
+        <target>La red Wi-Fi no ofrece seguridad. Haz clic aquí para activar la VPN y dar protección al dispositivo.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkMessage">
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
