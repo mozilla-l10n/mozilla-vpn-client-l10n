@@ -1864,10 +1864,12 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.body">
         <source>To use Mozilla VPN, please allow it to run in the background.</source>
+        <target>Para utilizar Mozilla VPN, se requiere otorgar el permiso de ejecución en segundo plano.</target>
         <note annotates="source" from="developer">Paragraph requesting the user to allow the VPN to run in the background.</note>
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.instructions">
         <source>In order to do this, please click the button below to open the &lt;i&gt;Login Items&lt;/i&gt; of your &lt;i&gt;System Preferences&lt;/i&gt;, and enable &lt;i&gt;Allow in the background&lt;/i&gt; for Mozilla VPN.</source>
+        <target>Para completar este paso, presiona el botón que aparece abajo para ingresar a &lt;i&gt;Elementos de inicio&lt;/i&gt; dentro de tus &lt;i&gt;Ajustes del Sistema&lt;/i&gt;, y valida la opción &lt;i&gt;Permitir en segundo plano&lt;/i&gt; para Mozilla VPN.</target>
         <note annotates="source" from="developer">Paragraph explaining how to enable the VPN to run in the background on macOS 14, see https://support.apple.com/guide/mac-help/mtusr003/mac for reference translations of these features on different versions of macOS.</note>
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.instructionsMacOS15">
@@ -1877,18 +1879,22 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.instructionsMacOS26">
         <source>In order to do this, please click the button below to open the &lt;i&gt;Login Items &amp; Extensions&lt;/i&gt; of your &lt;i&gt;System Preferences&lt;/i&gt;, and enable &lt;i&gt;App Background Activity&lt;/i&gt; for Mozilla VPN.</source>
+        <target>Para llevar a cabo esta acción, presiona el botón inferior con el fin de abrir &lt;i&gt;Elementos de inicio y extensiones&lt;/i&gt; en tus &lt;i&gt;Ajustes del Sistema&lt;/i&gt;, y otorga el permiso de &lt;i&gt;Actividad de aplicaciones en segundo plano&lt;/i&gt; para Mozilla VPN.</target>
         <note annotates="source" from="developer">Paragraph explaining how to enable the VPN to run in the background on macOS 26 and above, see https://support.apple.com/guide/mac-help/mtusr003/mac for reference translations of these features on different versions of macOS.</note>
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.openSettingsButtonLabel">
         <source>Open Login Items</source>
+        <target>Abrir elementos de inicio de sesión</target>
         <note annotates="source" from="developer">Label for the button that opens the login items settings page on macOS 14</note>
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.openSettingsButtonLabelMacOS15">
         <source>Open Login Items &amp; Extensions</source>
+        <target>Abrir elementos de inicio de sesión y extensiones</target>
         <note annotates="source" from="developer">Label for the button that opens the login items settings page on macOS 15 and above</note>
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.title">
         <source>Allow VPN to run in background</source>
+        <target>Permitir que la VPN se ejecute en segundo plano</target>
         <note annotates="source" from="developer">Title of the screen directing macOS users to allow the VPN to run in background</note>
       </trans-unit>
       <trans-unit id="vpn.product.description">
@@ -2042,10 +2048,12 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshNoUpdateDisabledLabel">
         <source>Disconnect from the VPN to update this list.</source>
+        <target>Desconectar la VPN para actualizar esta lista.</target>
         <note annotates="source" from="developer">Label next to the refresh button shown when the recommended list has never been updated yet but the user is connected to the VPN, so cannot update yet.</note>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshNoUpdateLabel">
         <source>Tap to update</source>
+        <target>Presiona para actualizar</target>
         <note annotates="source" from="developer">Label next to the refresh button shown when the recommended list has never been updated yet. The whole row is clickable and tapping triggers an update.</note>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel">
@@ -2112,6 +2120,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.appearanceAutomaticDescription">
         <source>Follow your system’s appearance</source>
+        <target>Usar el estilo del sistema</target>
       </trans-unit>
       <trans-unit id="vpn.settings.appearanceDark">
         <source>Dark</source>
@@ -2125,10 +2134,12 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.batteryOptimizationWarning">
         <source>On some devices, Mozilla VPN may be disconnected in the background. If you’ve experienced this, allow it to run in the background.</source>
+        <target>En ciertos dispositivos, es posible que Mozilla VPN pierda la conexión en segundo plano. Si presentas este inconveniente, otorga la autorización para su ejecución de esta manera.</target>
         <note annotates="source" from="developer">Warning shown in the settings screen on Android when battery optimization is enabled for the app.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.batteryOptimizationWarningButton">
         <source>Allow background permissions</source>
+        <target>Habilitar permisos en segundo plano</target>
         <note annotates="source" from="developer">Button label for the call to action to allow background permissions on Android.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription">
@@ -2138,6 +2149,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.decryptionErrorText">
         <source>We couldn’t access your saved VPN settings. Please sign in again.</source>
+        <target>Hubo un problema de acceso a los ajustes de la VPN. Por favor, inicia sesión de nuevo.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings">
         <source>DNS settings</source>
@@ -2177,12 +2189,15 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
         <source>Download Firefox</source>
+        <target>Descargar Firefox</target>
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
         <source>Turn off VPN for specific websites.</source>
+        <target>Desactivar VPN para sitios web específicos.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
         <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
+        <target>Olvídate de activar y desactivar la VPN cada vez que necesitas que un sitio web funcione. Además, la preferencia para esa página queda en memoria para evitar ajustes constantes.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionInfo">
         <source>Firefox extension</source>
@@ -2287,6 +2302,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.splittunnel.btnShowSystemApp">
         <source>Show system apps</source>
+        <target>Mostrar aplicaciones del sistema</target>
         <note annotates="source" from="developer">Label for a checkbox that, if checked, will show the hidden "system/internal" apps. e.g. "Android Auto" is a system app on Android.</note>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.errorActivating">
