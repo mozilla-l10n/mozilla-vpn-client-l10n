@@ -222,6 +222,14 @@
         <target>[Linux] การสนับสนุนสำหรับเครือข่ายที่ใช้เฉพาะ IPv6 ถูกเปิดตัวในรุ่นที่ออกล่าสุด แต่มันอาจมีปัญหาบางครั้งในการสลับเซิร์ฟเวอร์ขณะที่ใช้งานมัลติฮอปบนเครือข่ายที่ใช้เฉพาะ IPv6 ซึ่งปัญหานี้ได้รับการแก้ไขแล้ว</target>
         <note annotates="source" from="developer">Bullet point with a specific update. Should have tag that indicates it applies to Linux platform.</note>
       </trans-unit>
+      <trans-unit id="vpn.238updateMessage.bullet1">
+        <source xml:space="preserve">[all] When contacting support, including logs is now optional. While Mozilla VPN logs have never included personal data, we now only default to including logs when it would help diagnose your issue.</source>
+        <note annotates="source" from="developer">Bullet point with a specific update. Should have tag that indicates it applies to all platforms.</note>
+      </trans-unit>
+      <trans-unit id="vpn.238updateMessage.bullet2">
+        <source xml:space="preserve">[iOS] When on Airplane Mode, trying to start the VPN gives an error. However if starting via Siri or Shortcuts, the VPN would be turned on after Airplane Mode was deactivated. This no longer happens.</source>
+        <note annotates="source" from="developer">Bullet point with a specific update. Should have tag that indicates it applies to iOS platform.</note>
+      </trans-unit>
       <trans-unit id="vpn.commonStrings.downloadButton">
         <source xml:space="preserve">Download update</source>
         <target>ดาวน์โหลดการอัปเดต</target>
