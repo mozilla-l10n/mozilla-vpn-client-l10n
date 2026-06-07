@@ -1370,6 +1370,14 @@ Switch %@ off
 Disconnect %@
 Disconnect from %@
 </source>
+        <target>%@ ਡਿ-ਐਕਟੀਵੇਟ
+%@ ਬੰਦ ਕਰੋ
+%@ ਨੂੰ ਬੰਦ ਕਰੋ
+%@ ਬੰਦ ਕਰੋ
+%@ ਨੂੰ ਬੰਦ ਕਰੋ
+%@ ਡਿਸਕਨੈਕਟ
+%@ ਨੂੰ ਡਿਸਕਨੈਕਟ ਕਰੋ
+</target>
         <note annotates="source" from="developer">Siri phrase variants for deactivating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1384,10 +1392,12 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
         <source>Mozilla VPN is currently connected</source>
+        <target>Mozilla VPN ਇਸ ਵੇਲੇ ਕਨੈਕਟ ਹੈ</target>
         <note annotates="source" from="developer">Response given when the VPN is connected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
         <source>Mozilla VPN is currently disconnected</source>
+        <target>Mozilla VPN ਇਸ ਵੇਲੇ ਡਿਸ-ਕਨੈਕਟ ਕਰੋ</target>
         <note annotates="source" from="developer">Response given when the VPN is disconnected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryTitle">
@@ -1396,6 +1406,7 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleDescription">
         <source>Changes Mozilla VPN status</source>
+        <target>Mozilla VPN ਦੀ ਸਥਿਤੀ ਬਦਲੀ ਹੈ</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleError">
@@ -1404,26 +1415,32 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleTitle">
         <source>Toggle Mozilla VPN</source>
+        <target>Mozilla VPN ਨੂੰ ਬਦਲੋ</target>
         <note annotates="source" from="developer">Title used by system to offer to toggle VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffAction">
         <source>Turn Off Mozilla VPN</source>
+        <target>Mozilla VPN ਬੰਦ ਕਰੋ</target>
         <note annotates="source" from="developer">Title used by system to offer turning off VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffConfirmation">
         <source>Mozilla VPN disconnected</source>
+        <target>Mozilla VPN ਡਿਸ-ਕਨੈਕਟ ਹੈ</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning off VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffDescription">
         <source>Deactivate the Mozilla VPN connection</source>
+        <target>Mozilla VPN ਕਨੈਕਸ਼ਨ ਡਿ-ਐਕਟਵੇਟ ਕਰੋ</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffError">
         <source>No active VPN connection</source>
+        <target>ਕੋਈ ਵੀ ਸਰਗਰਮ VPN ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ</target>
         <note annotates="source" from="developer">Error given by Siri when unable to turn off VPN due to a lack of existing connection</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnAction">
         <source>Turn On Mozilla VPN</source>
+        <target>Mozilla VPN ਨੂੰ ਚਾਲੂ ਕਰੋ</target>
         <note annotates="source" from="developer">Title used by system to offer turning on VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnAlreadyConnectedError">
@@ -1432,6 +1449,7 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmation">
         <source>Mozilla VPN connected</source>
+        <target>Mozilla VPN ਕਨੈਕਟ ਹੈ</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationMultiHop">
@@ -1440,14 +1458,17 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationSingleHop">
         <source>Mozilla VPN connected through %@</source>
+        <target>Mozilla VPN %@ ਰਾਹੀਂ ਕਨੈਕਟ ਹੈ</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN. `%@` must be included, and it will be replaced with the name of the exit city.</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnDescription">
         <source>Activate the Mozilla VPN connection</source>
+        <target>Mozilla VPN ਕਨੈਕਸ਼ਨ ਸਰਗਰਮ ਕਰੋ</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnError">
         <source>Error turning on Mozilla VPN</source>
+        <target>Mozilla VPN ਚਾਲੂ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ</target>
         <note annotates="source" from="developer">Error given by Siri when unable to turn on VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsQueryStatus.phrases">
