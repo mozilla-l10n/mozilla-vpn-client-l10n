@@ -1402,6 +1402,7 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryTitle">
         <source>Is the VPN currently connected?</source>
+        <target>ਕੀ VPN ਇਸ ਵੇਲੇ ਕਨੈਕਟ ਹੈ?</target>
         <note annotates="source" from="developer">Title used by system to offer to query VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleDescription">
@@ -1411,6 +1412,7 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleError">
         <source>Error changing VPN status</source>
+        <target>VPN ਦੀ ਸਥਿਤੀ ਬਦਲਣ ਦੌਰਾਨ ਗਲਤੀ</target>
         <note annotates="source" from="developer">Generic error message used when toggling VPN fails early</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleTitle">
@@ -1445,6 +1447,7 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnAlreadyConnectedError">
         <source>VPN is already connected</source>
+        <target>VPN ਪਹਿਲਾਂ ਹੀ ਕਨੈਕਟ ਹੈ</target>
         <note annotates="source" from="developer">Error given by Siri when VPN already has an active connection</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmation">
@@ -1454,6 +1457,7 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationMultiHop">
         <source>Mozilla VPN connected through %1$@ via %2$@</source>
+        <target>Mozilla VPN %1$@ ਤੋਂ %2$@ ਰਾਹੀਂ ਕਨੈਕਟ ਹੈ</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN. `%1$@` will be replaced with the exit city, and `%2$@` will be replaced with the entry city.</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationSingleHop">
@@ -1995,10 +1999,12 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshNoUpdateDisabledLabel">
         <source>Disconnect from the VPN to update this list.</source>
+        <target>ਇਸ ਸੂਚੀ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਲਈ VPN ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਕਰੋ।</target>
         <note annotates="source" from="developer">Label next to the refresh button shown when the recommended list has never been updated yet but the user is connected to the VPN, so cannot update yet.</note>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshNoUpdateLabel">
         <source>Tap to update</source>
+        <target>ਅੱਪਡੇਟ ਕਰਨ ਲਈ ਛੂਹੋ</target>
         <note annotates="source" from="developer">Label next to the refresh button shown when the recommended list has never been updated yet. The whole row is clickable and tapping triggers an update.</note>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel">
@@ -2083,6 +2089,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.batteryOptimizationWarningButton">
         <source>Allow background permissions</source>
+        <target>ਬੈਕਗਰਾਊਂਡ ਇਜਾਜ਼ਤਾਂ ਦੀ ਮਨਜ਼ੂਰੀ ਦਿਓ</target>
         <note annotates="source" from="developer">Button label for the call to action to allow background permissions on Android.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription">
@@ -2092,6 +2099,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.decryptionErrorText">
         <source>We couldn’t access your saved VPN settings. Please sign in again.</source>
+        <target>ਅਸੀਂ ਤੁਹਾਡੀਆਂ VPN ਸੈਟਿੰਗਾਂ ਨੂੰ ਵਰਤ ਨਹੀਂ ਸਕੇ। ਮੁੜ ਕੇ ਸਾਈਨ ਇਨ ਕਰੋ।</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings">
         <source>DNS settings</source>
@@ -2194,6 +2202,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.reauthDescription">
         <source>For your security, please sign in again to access your account information. You’ll complete this process on Mozilla’s website.</source>
+        <target>ਤੁਹਾਡੀ ਸੁਰੱਖਿਆ ਵਾਸਤੇ ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਜਾਣਕਾਰੀ ਨੂੰ ਵਰਤਣ ਲਈ ਮੁੜ ਸਾਈਨ-ਇਨ ਕਰੋ। ਤੁਸੀਂ ਇਸ ਕਾਰਵਾਈ ਨੂੰ Mozilla ਦੀ ਵੈੱਬਸਾਈਟ ਉੱਤੇ ਪੂਰਾ ਸਕਦੇ ਹੋ।</target>
       </trans-unit>
       <trans-unit id="vpn.settings.reauthTitle">
         <source>Sign In Again</source>
@@ -2365,6 +2374,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.toggleWidget.description">
         <source>Turn Mozilla VPN on and off, and see the current location.</source>
+        <target>Mozilla VPN ਨੂੰ ਚਾਲੂ ਤੇ ਬੰਦ ਕਰੋ ਅਤੇ ਮੌਜੂਦਾ ਟਿਕਾਣੇ ਨੂੰ ਵੇਖੋ।</target>
         <note annotates="source" from="developer">More information about what the Mozilla VPN widget contains.</note>
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionNoUpdate">
