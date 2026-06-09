@@ -593,6 +593,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.regeneratingKey">
         <source>Preparing your connection</source>
+        <target>Forbereder din forbindelse</target>
         <note annotates="source" from="developer">Connection subtitle label for the main screen when the app is regenerating WireGuard keys</note>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.crashOptInDialogDescription">
@@ -1290,9 +1291,11 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.shareLogsCheckBoxSubtitle">
         <source>Support will use this data to better diagnose your issue.</source>
+        <target>Supporten vil bruge disse data til bedre at diagnosticere dit problem.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.shareLogsCheckBoxTitle">
         <source>Share logs with support</source>
+        <target>Del logfiler med supporten</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder">
         <source>Subject (optional)</source>
@@ -1369,6 +1372,12 @@ Switch %@ on
 Connect %@
 Connect to %@
 </source>
+        <target>Aktiver %@
+Slå %@ til
+Tænd %@
+Forbind %@
+Opret forbindelse til %@
+</target>
         <note annotates="source" from="developer">Siri phrase variants for activating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1386,6 +1395,12 @@ Switch %@ off
 Disconnect %@
 Disconnect from %@
 </source>
+        <target>Deaktiver %@
+Slå %@ fra
+Sluk %@
+Afbryd %@
+Afbryd forbindelse til %@
+</target>
         <note annotates="source" from="developer">Siri phrase variants for deactivating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1400,70 +1415,87 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
         <source>Mozilla VPN is currently connected</source>
+        <target>Mozilla VPN er i øjeblikket forbundet</target>
         <note annotates="source" from="developer">Response given when the VPN is connected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
         <source>Mozilla VPN is currently disconnected</source>
+        <target>Mozilla VPN er i øjeblikket afbrudt</target>
         <note annotates="source" from="developer">Response given when the VPN is disconnected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryTitle">
         <source>Is the VPN currently connected?</source>
+        <target>Er VPN'en forbundet i øjeblikket?</target>
         <note annotates="source" from="developer">Title used by system to offer to query VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleDescription">
         <source>Changes Mozilla VPN status</source>
+        <target>Ændrer Mozilla VPN-status</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleError">
         <source>Error changing VPN status</source>
+        <target>Fejl ved ændring af VPN-status</target>
         <note annotates="source" from="developer">Generic error message used when toggling VPN fails early</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleTitle">
         <source>Toggle Mozilla VPN</source>
+        <target>Aktiver/deaktiver Mozilla VPN</target>
         <note annotates="source" from="developer">Title used by system to offer to toggle VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffAction">
         <source>Turn Off Mozilla VPN</source>
+        <target>Slå Mozilla VPN fra</target>
         <note annotates="source" from="developer">Title used by system to offer turning off VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffConfirmation">
         <source>Mozilla VPN disconnected</source>
+        <target>Mozilla VPN er blevet afbrudt</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning off VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffDescription">
         <source>Deactivate the Mozilla VPN connection</source>
+        <target>Deaktiver Mozilla VPN-forbindelsen</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffError">
         <source>No active VPN connection</source>
+        <target>Ingen aktiv VPN-forbindelse</target>
         <note annotates="source" from="developer">Error given by Siri when unable to turn off VPN due to a lack of existing connection</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnAction">
         <source>Turn On Mozilla VPN</source>
+        <target>Slå Mozilla VPN til</target>
         <note annotates="source" from="developer">Title used by system to offer turning on VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnAlreadyConnectedError">
         <source>VPN is already connected</source>
+        <target>VPN er allerede forbundet</target>
         <note annotates="source" from="developer">Error given by Siri when VPN already has an active connection</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmation">
         <source>Mozilla VPN connected</source>
+        <target>Mozilla VPN forbundet</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationMultiHop">
         <source>Mozilla VPN connected through %1$@ via %2$@</source>
+        <target>Mozilla VPN forbundet gennem %1$@ via %2$@</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN. `%1$@` will be replaced with the exit city, and `%2$@` will be replaced with the entry city.</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationSingleHop">
         <source>Mozilla VPN connected through %@</source>
+        <target>Mozilla VPN forbundet gennem %@</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN. `%@` must be included, and it will be replaced with the name of the exit city.</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnDescription">
         <source>Activate the Mozilla VPN connection</source>
+        <target>Aktiver Mozilla VPN-forbindelsen</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnError">
         <source>Error turning on Mozilla VPN</source>
+        <target>Fejl ved aktivering af Mozilla VPN</target>
         <note annotates="source" from="developer">Error given by Siri when unable to turn on VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsQueryStatus.phrases">
@@ -1478,6 +1510,22 @@ Is %@ turned on?
 Is %@ switched on?
 Is %@ connected?
 </source>
+        <target>Er %@ i øjeblikket aktiv?
+Er %@ i øjeblikket aktiveret?
+Er %@ i øjeblikke slået til?
+Er %@ i øjeblikke tændt?
+Er %@ i øjeblikket forbundet?
+Er %@ aktiv i øjeblikket?
+Er %@ aktiveret i øjeblikket?
+Er %@ slået til i øjeblikket?
+Er %@ tændt i øjeblikket?
+Er %@ forbundet øjeblikket?
+Er %@ aktiv?
+Er %@ aktiveret?
+Er %@ slået til?
+Er %@ slået tændt?
+Er %@ forbundet?
+</target>
         <note annotates="source" from="developer">Siri phrase variants for querying whether the VPN is active via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -2006,10 +2054,12 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshNoUpdateDisabledLabel">
         <source>Disconnect from the VPN to update this list.</source>
+        <target>Afbryd forbindelsen til VPN'en for at opdatere denne liste.</target>
         <note annotates="source" from="developer">Label next to the refresh button shown when the recommended list has never been updated yet but the user is connected to the VPN, so cannot update yet.</note>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshNoUpdateLabel">
         <source>Tap to update</source>
+        <target>Tryk for at opdatere</target>
         <note annotates="source" from="developer">Label next to the refresh button shown when the recommended list has never been updated yet. The whole row is clickable and tapping triggers an update.</note>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel">
@@ -2090,10 +2140,12 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.batteryOptimizationWarning">
         <source>On some devices, Mozilla VPN may be disconnected in the background. If you’ve experienced this, allow it to run in the background.</source>
+        <target>På nogle enheder kan Mozilla VPN være afbrudt i baggrunden. Hvis du har oplevet dette, skal du tillade den at køre i baggrunden.</target>
         <note annotates="source" from="developer">Warning shown in the settings screen on Android when battery optimization is enabled for the app.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.batteryOptimizationWarningButton">
         <source>Allow background permissions</source>
+        <target>Tillad baggrundstilladelser</target>
         <note annotates="source" from="developer">Button label for the call to action to allow background permissions on Android.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription">
@@ -2103,6 +2155,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.decryptionErrorText">
         <source>We couldn’t access your saved VPN settings. Please sign in again.</source>
+        <target>Vi kunne ikke få adgang til dine gemte VPN-indstillinger. Log ind igen.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings">
         <source>DNS settings</source>
@@ -2384,6 +2437,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.toggleWidget.description">
         <source>Turn Mozilla VPN on and off, and see the current location.</source>
+        <target>Slå Mozilla VPN til og fra, og se den aktuelle placering.</target>
         <note annotates="source" from="developer">More information about what the Mozilla VPN widget contains.</note>
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionNoUpdate">
