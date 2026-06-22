@@ -457,6 +457,10 @@
         <source>Captive portal detected!</source>
         <target>Captive portal detected!</target>
       </trans-unit>
+      <trans-unit id="vpn.cityAccessoryWidget.description">
+        <source>See current Mozilla VPN status, along with the current server.</source>
+        <note annotates="source" from="developer">More information about what the city widget contains - which is current VPN status and the current city server.</note>
+      </trans-unit>
       <trans-unit id="vpn.connectionInfo.connectionInformation">
         <source>Connection information</source>
         <target>Connection information</target>
@@ -565,6 +569,10 @@
         <source>Restart speed test</source>
         <target>Restart speed test</target>
         <note annotates="source" from="developer">Accessible label for the button to restart the speed test upon its completion.</note>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.rotateIPAddress">
+        <source>Attempt to change IP address</source>
+        <note annotates="source" from="developer">Accessible label for the button to try to get a new server in the same location</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.startSpeedTest">
         <source>Start speed test</source>
@@ -1548,6 +1556,18 @@ Is %@ connected?
         <source>System language</source>
         <target>System language</target>
         <note annotates="source" from="developer">the title for the system language radio button</note>
+      </trans-unit>
+      <trans-unit id="vpn.logoAccessoryWidget.description">
+        <source>See current Mozilla VPN status.</source>
+        <note annotates="source" from="developer">More information about what the logo widget contains - which is simply current VPN status.</note>
+      </trans-unit>
+      <trans-unit id="vpn.logoAccessoryWidget.vpnOff">
+        <source>Mozilla VPN off</source>
+        <note annotates="source" from="developer">Shown as part of inline widget when VPN is inactive. If translation will be more than 16 characters, instead translate `VPN on` to keep this within available space.</note>
+      </trans-unit>
+      <trans-unit id="vpn.logoAccessoryWidget.vpnOn">
+        <source>Mozilla VPN on</source>
+        <note annotates="source" from="developer">Shown as part of inline widget when VPN is active. If translation will be more than 16 characters, instead translate `VPN on` to keep this within available space.</note>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber">
         <source>Already a subscriber?</source>
