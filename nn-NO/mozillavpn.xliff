@@ -211,6 +211,7 @@
     <body>
       <trans-unit id="cities">
         <source>Cities</source>
+        <target>Byar</target>
         <note annotates="source" from="developer">The title for the list of cities.</note>
       </trans-unit>
     </body>
@@ -219,9 +220,11 @@
     <body>
       <trans-unit id="vpn.settings.language">
         <source>Language</source>
+        <target>Språk</target>
       </trans-unit>
       <trans-unit id="vpn.settings.languageAccessibleName">
         <source>%1 %2</source>
+        <target>%1 %2</target>
         <note annotates="source" from="developer">This string is read by accessibility tools. %1 is the language name, %2 is the localized language name.</note>
       </trans-unit>
     </body>
@@ -248,6 +251,7 @@
       </trans-unit>
       <trans-unit id="vpn.settings.notifications">
         <source>Notifications</source>
+        <target>Varsel</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unsecuredNetworkAlert">
         <source>Unsecured network alert</source>
@@ -261,6 +265,7 @@
     <body>
       <trans-unit id="vpn.protectSelectedApps.addApplication">
         <source>Add application</source>
+        <target>Legg til app</target>
         <note annotates="source" from="developer">Button label</note>
       </trans-unit>
       <trans-unit id="vpn.protectSelectedApps.searchApps">
@@ -280,15 +285,18 @@
     <body>
       <trans-unit id="vpn.updates.notNow">
         <source>Not now</source>
+        <target>Ikkje no</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
         <source>Your connection will not be secure while you update.</source>
       </trans-unit>
       <trans-unit id="vpn.updates.updateNow">
         <source>Update now</source>
+        <target>Oppdater no</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRecomended">
         <source>Update recommended</source>
+        <target>Oppdatering tilrådd</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRecomended.description">
         <source>Please update the app before you continue to use the VPN</source>
@@ -309,13 +317,16 @@
       </trans-unit>
       <trans-unit id="vpn.aboutUs.copyVersionNumber">
         <source>Copy %1</source>
+        <target>Kopier %1</target>
         <note annotates="source" from="developer">Accessible name for a button. %1 is the version number of the VPN client.</note>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.licenses">
         <source>Licenses</source>
+        <target>Lisensar</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.privacyNotice">
         <source>Privacy notice</source>
+        <target>Personvernfråsegn</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion">
         <source>Release version</source>
@@ -323,16 +334,20 @@
       </trans-unit>
       <trans-unit id="vpn.aboutUs.termsOfService">
         <source>Terms of service</source>
+        <target>Tenestevilkår</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.title">
         <source>About us</source>
+        <target>Om oss</target>
       </trans-unit>
       <trans-unit id="vpn.accessibility.currentIndexFocusedOfTotalItemsInGroup">
         <source>%1 of %2</source>
+        <target>%1 av %2</target>
         <note annotates="source" from="developer">Used by screen readers to explain to users which item they are currently focused on, and how many items there are total in a group. For example, given a list with 15 items. If a user selects the 3rd item, we want the screen reader to read out "3 of 15". The %1 represents the index of the currently focused item by the screen reader. The %2 represents the total number of items in the group.</note>
       </trans-unit>
       <trans-unit id="vpn.accessibility.selected">
         <source>Selected</source>
+        <target>Markert</target>
         <note annotates="source" from="developer">Used by screen reader to indicate that a user action selected an item.</note>
       </trans-unit>
       <trans-unit id="vpn.accessibility.selectedAndItemName">
@@ -344,6 +359,7 @@
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.learnMoreSentence">
         <source>Learn more.</source>
+        <target>Les meir.</target>
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.subLabel">
         <source>Allow RCS/MMS messaging, Apple features like CarPlay and AirDrop, and connections to local devices. May reduce network security.</source>
@@ -360,9 +376,11 @@
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation">
         <source>Turn off VPN</source>
+        <target>Slå av VPN</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPreActivation">
         <source>Okay</source>
+        <target>OK</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.header">
         <source>A captive portal is when the guest Wi-Fi you are using requires you to log in to get internet access.</source>
@@ -505,6 +523,7 @@
       </trans-unit>
       <trans-unit id="vpn.devices.countLabel">
         <source>%1 out of %2 devices added</source>
+        <target>%1 av %2 einingar lagt til</target>
         <note annotates="source" from="developer">Label at the top of the "Devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
       </trans-unit>
       <trans-unit id="vpn.devices.limitDescription2">
@@ -513,26 +532,32 @@
       </trans-unit>
       <trans-unit id="vpn.devices.limitTitle">
         <source>Device not added</source>
+        <target>Eining ikkje lagt til</target>
         <note annotates="source" from="developer">Title of the "device limit" view stating that the device has not yet been added to the list of active devices (because we are at the device limit)</note>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedDaysAgo">
         <source>Added %1 days ago</source>
+        <target>Lagt til for %1 dag sidan</target>
         <note annotates="source" from="developer">Device list item description for a device added days ago. %1 is the number of days.</note>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedFewHoursAgo">
         <source>Added a few hours ago (%1)</source>
+        <target>Lagt til for nokre timar sidan (%1)</target>
         <note annotates="source" from="developer">Device list item description for a device added a few hours ago. %1 is the number of hours.</note>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionAddedOneHourAgo">
         <source>Added less than an hour ago</source>
+        <target>Lagt til for mindre enn ein time sidan</target>
         <note annotates="source" from="developer">Device list item description for a device added less than 1 hour ago</note>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemDescriptionCurrent">
         <source>Current Device</source>
+        <target>Gjeldande eining</target>
         <note annotates="source" from="developer">Device list item description for the current device</note>
       </trans-unit>
       <trans-unit id="vpn.devices.listItemRemoveDeviceAccessibility">
         <source>Remove %1</source>
+        <target>Fjern %1</target>
         <note annotates="source" from="developer">Label used for accessibility on the button to remove a device. %1 is the name of the device.</note>
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupDescription">
@@ -541,18 +566,22 @@
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupPrimaryButtonLabel">
         <source>Remove</source>
+        <target>Fjern</target>
         <note annotates="source" from="developer">Label for the primary button for the Remove Device poup</note>
       </trans-unit>
       <trans-unit id="vpn.devices.removePopupTitle">
         <source>Remove device?</source>
+        <target>Fjern eining?</target>
         <note annotates="source" from="developer">Title for the Remove Device popup</note>
       </trans-unit>
       <trans-unit id="vpn.devices.removingTitle">
         <source>Removing device…</source>
+        <target>Fjernar eining…</target>
         <note annotates="source" from="developer">Title for "Removing device" screen</note>
       </trans-unit>
       <trans-unit id="vpn.devices.sectionTitle">
         <source>Devices</source>
+        <target>Einingar</target>
         <note annotates="source" from="developer">Title for the menu bar when viewing the devices or device limit pages</note>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS">
@@ -563,12 +592,15 @@
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.primaryButton">
         <source>Confirm</source>
+        <target>Stadfest</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.secondaryButton">
         <source>Maybe later</source>
+        <target>Kanskje seinare</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titleDNS">
         <source>Override DNS settings?</source>
+        <target>Overstyre DNS-innstillingar?</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titlePrivacy">
         <source>Override privacy features?</source>
