@@ -56,9 +56,11 @@
       </trans-unit>
       <trans-unit id="macosinstaller.previous_build.message">
         <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
+        <target>En tidligere installasjon av Mozilla VPN finnes i /Applications/Mozilla VPN.app. Den eksisterende installasjonen blir fjernet før den nye installeres. Ta sikkerhetskopi av eventuelle data før du fortsetter.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.previous_build.title">
         <source>Previous Installation Detected</source>
+        <target>Tidligere installasjon oppdaget</target>
       </trans-unit>
       <trans-unit id="macosinstaller.title">
         <source>Mozilla VPN for macOS</source>
@@ -70,9 +72,11 @@
       </trans-unit>
       <trans-unit id="macosinstaller.unsupported_version.title">
         <source>Unable to install</source>
+        <target>Kan ikke installere</target>
       </trans-unit>
       <trans-unit id="macosinstaller.welcome.message1">
         <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
+        <target>Du vil nå bli veiledet gjennom installasjonstrinnene for Mozilla VPN. Takk for at du valgte VPN fra en pioner innen personvern på nettet som du kan stole på.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.welcome.message2">
         <source>Click “Continue” to continue the setup.</source>
@@ -113,6 +117,7 @@
       </trans-unit>
       <trans-unit id="vpn.errors.unableToEstablishConnection">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
+        <target>Kan ikke opprette en tilkobling akkurat nå. Vi jobber med å løse problemet. Prøv igjen om litt.</target>
       </trans-unit>
     </body>
   </file>
@@ -120,6 +125,7 @@
     <body>
       <trans-unit id="vpn.crashreporter.description">
         <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
+        <target>Mozilla VPN-appen ble uventet avsluttet. Vil du sende en krasjrapport for å hjelpe oss med å løse problemet?</target>
         <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.dontSendButton">
@@ -156,10 +162,12 @@
       </trans-unit>
       <trans-unit id="vpn.servers.currentLocation">
         <source>current location - %1</source>
+        <target>nåværende plassering – %1</target>
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
       </trans-unit>
       <trans-unit id="vpn.servers.selectLocation">
         <source>Select location</source>
+        <target>Velg plassering</target>
         <note annotates="source" from="developer">Select the Location of the VPN server</note>
       </trans-unit>
     </body>
@@ -168,6 +176,7 @@
     <body>
       <trans-unit id="vpn.connectionStability.checkConnection">
         <source>Check Connection</source>
+        <target>Sjekk tilkoblingen</target>
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.noSignal">
@@ -189,9 +198,11 @@
       </trans-unit>
       <trans-unit id="vpn.controller.activating">
         <source>Masking connection and location</source>
+        <target>Skjuler tilkobling og plassering</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activationSloagan">
         <source>Turn on to protect your privacy</source>
+        <target>Slå på for å beskytte personvernet ditt</target>
       </trans-unit>
       <trans-unit id="vpn.controller.active">
         <source>Secure and private</source>
@@ -212,6 +223,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.deactivating">
         <source>Unmasking connection and location</source>
+        <target>Slutter å skjule tilkobling og plassering</target>
       </trans-unit>
       <trans-unit id="vpn.controller.disconnecting">
         <source>Disconnecting…</source>
@@ -282,9 +294,11 @@
       </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch.description">
         <source>Get notified when you successfully switched servers</source>
+        <target>Få et varsel når du har byttet server</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch2">
         <source>Server switching notification</source>
+        <target>Varsel om serverbytte</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notifications">
         <source>Notifications</source>
