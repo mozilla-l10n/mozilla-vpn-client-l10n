@@ -1886,6 +1886,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideHeader">
         <source>Connect Mozilla VPN on startup</source>
+        <target>Koble til Mozilla VPN ved oppstart</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.startSlideMobileBody">
         <source>Your mobile device will now ask you to allow Mozilla VPN to create a connection. Please allow this so that the VPN works correctly on your device.</source>
@@ -2053,9 +2054,11 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesSubLabel">
         <source>Get notified when connecting to a server location failed</source>
+        <target>Få varsel når tilkobling til en serverplassering mislykkes</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedEmptyLabel">
         <source>To see recommended server locations, turn off the VPN.</source>
+        <target>For å se anbefalte serverplasseringer må du slå av VPN.</target>
         <note annotates="source" from="developer">Label for recommended server list when the list is empty</note>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLabel">
@@ -2065,6 +2068,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedDisabledLabel">
         <source>Last updated: %1. To update this list please disconnect from the VPN.</source>
+        <target>Sist oppdatert: %1. Koble fra VPN for å oppdatere denne listen.</target>
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated and instructions to re-enable the refresh button. Argument is the time or date/day</note>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabel">
@@ -2078,6 +2082,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshNoUpdateDisabledLabel">
         <source>Disconnect from the VPN to update this list.</source>
+        <target>Koble fra VPN for å oppdatere denne listen.</target>
         <note annotates="source" from="developer">Label next to the refresh button shown when the recommended list has never been updated yet but the user is connected to the VPN, so cannot update yet.</note>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshNoUpdateLabel">
@@ -2163,10 +2168,12 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.settings.batteryOptimizationWarning">
         <source>On some devices, Mozilla VPN may be disconnected in the background. If you’ve experienced this, allow it to run in the background.</source>
+        <target>På noen enheter kan Mozilla VPN bli koblet fra i bakgrunnen. Hvis du har opplevd dette, tillat at den kjører i bakgrunnen.</target>
         <note annotates="source" from="developer">Warning shown in the settings screen on Android when battery optimization is enabled for the app.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.batteryOptimizationWarningButton">
         <source>Allow background permissions</source>
+        <target>Tillat bakgrunnstillatelser</target>
         <note annotates="source" from="developer">Button label for the call to action to allow background permissions on Android.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription">
@@ -2176,6 +2183,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.settings.decryptionErrorText">
         <source>We couldn’t access your saved VPN settings. Please sign in again.</source>
+        <target>Vi fikk ikke tilgang til de lagrede VPN-innstillingene dine. Logg inn på nytt.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings">
         <source>DNS settings</source>
@@ -2183,6 +2191,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody">
         <source>Resolve websites using a custom DNS</source>
+        <target>Slå opp nettsteder med tilpasset DNS</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSError">
         <source>Invalid DNS, please try a new one</source>
@@ -2194,6 +2203,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning">
         <source>Changing these settings will cause the VPN to disconnect and reconnect automatically.</source>
+        <target>Endring av disse innstillingene vil føre til at VPN kobles fra og kobles til på nytt automatisk.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder">
         <source>Enter custom DNS</source>
@@ -2201,6 +2211,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody">
         <source>Resolve websites using Mozilla VPN’s standard DNS</source>
+        <target>Slå opp nettsteder med Mozilla VPN sin standard-DNS</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSTitle">
         <source>Use standard DNS</source>
@@ -2208,6 +2219,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
+        <target>Disse innstillingene kan føre til at enkelte nettsteder ikke fungerer eller ikke viser innhold riktig.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
         <source>Download Firefox</source>
@@ -2219,21 +2231,27 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
         <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
+        <target>Du trenger ikke lenger å slå VPN av og på når du trenger at et nettsted skal fungere. I tillegg lagres innstillingene dine for nettstedet, slik at du slipper å justere dem hver gang.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionInfo">
         <source>Firefox extension</source>
+        <target>Firefox-utvidelse</target>
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionIntro">
         <source>Get more precise control over how your VPN works when you’re browsing, with the Firefox extension.</source>
+        <target>Få mer presis kontroll over hvordan VPN fungerer mens du surfer, med Firefox-utvidelsen.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionMainButton">
         <source>Get the extension</source>
+        <target>Last ned utvidelsen</target>
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphHead">
         <source>Choose different locations for different websites.</source>
+        <target>Velg forskjellige plasseringer for forskjellige nettsteder.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphMain">
         <source>Browse one site as if you’re in New York and another as if you’re in Paris — all in the same Firefox session.</source>
+        <target>Surf på ett nettsted som om du er i New York og et annet som om du er i Paris — alt i samme Firefox-økt.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.preferencesSettings">
         <source>Preferences</source>
@@ -2241,16 +2259,19 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.settings.privacyAdblockBody">
         <source>Reduces the number of ads you see when you’re using VPN</source>
+        <target>Reduserer antallet annonser du ser når du bruker VPN</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyAdblockTitle">
         <source>Block ads</source>
-        <target>Blokker reklame</target>
+        <target>Blokker annonser</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyCard">
         <source>These options may cause some websites to break or not display content correctly.</source>
+        <target>Disse innstillingene kan føre til at enkelte nettsteder ikke fungerer eller ikke viser innhold riktig.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareBody2">
         <source>Helps protect you from ransomware, phishing, spyware, and viruses</source>
+        <target>Hjelper med å beskytte deg mot løsepengevirus, nettfisking, spionprogrammer og virus</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareTitle">
         <source>Block malware</source>
@@ -2262,6 +2283,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.settings.privacyTrackerBody">
         <source>Fewer harmful domains will be able to track you</source>
+        <target>Færre skadelige domener vil kunne spore deg</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyTrackerTitle">
         <source>Block trackers</source>
@@ -2269,6 +2291,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.settings.reauthDescription">
         <source>For your security, please sign in again to access your account information. You’ll complete this process on Mozilla’s website.</source>
+        <target>For sikkerhets skyld må du logge inn på nytt for å få tilgang til kontoinformasjonen din. Du fullfører denne prosessen på Mozillas nettsted.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.reauthTitle">
         <source>Sign In Again</source>
@@ -2276,19 +2299,24 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.settings.shareTechnicalDataDescription">
         <source>Help improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data.</source>
+        <target>Hjelp med å forbedre Mozilla VPN ved å dele krasjrapporter, diagnostikk og bruksdata.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.startAtBootSubtitle">
         <source>Mozilla VPN will launch and connect when you start up your device</source>
+        <target>Mozilla VPN starter og kobler til når du starter enheten</target>
       </trans-unit>
       <trans-unit id="vpn.settings.startAtBootTitle">
         <source>Connect VPN on startup</source>
+        <target>Koble til VPN ved oppstart</target>
         <note annotates="source" from="developer">Startup refers to a device's startup, not the VPN client's.</note>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.restartRequired">
         <source>VPN must be restarted to take effect</source>
+        <target>VPN må startes på nytt for at endringene skal tre i kraft</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.showOptionSubtitle">
         <source>Show or hide the developer options menu</source>
+        <target>Vis eller skjul menyen for utviklerinnstillinger</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.showOptionTitle">
         <source>Show Developer Options</source>
@@ -2300,9 +2328,11 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.settingsDev.useStagingSubtitle">
         <source>Staging services are used to test features before they go live to production</source>
+        <target>Staging-tjenester brukes til å teste funksjoner før de settes i produksjon</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.useStagingTitle">
         <source>Use Staging Servers</source>
+        <target>Bruk staging-servere</target>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.btnShowSystemApp">
         <source>Show system apps</source>
@@ -2315,6 +2345,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoCardDescription2">
         <source>VPN must be off to edit Excluded apps</source>
+        <target>VPN må være slått av for å redigere appunntak</target>
         <note annotates="source" from="developer">Displays inside the information card at the top of the Excluded apps screen when the VPN is on</note>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText">
@@ -2328,10 +2359,12 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppAddedOne">
         <source>Success! You added “%1” to this list.</source>
+        <target>Vellykket! Du la til «%1» i denne listen.</target>
         <note annotates="source" from="developer">Displayed in notification after the user added a missing app to the split-tunnel List; %1 is the name of the added application</note>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppMultiple">
         <source>%1 apps missing from list.</source>
+        <target>%1 apper mangler i listen.</target>
         <note annotates="source" from="developer">Apps listed in the split-tunnel settings. %1 is the number of missing apps If necessary, this can be translated as "Apps missing from list :%1"</note>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.manageAccount">
@@ -2389,6 +2422,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnectTo">
         <source>Connect to the last location:</source>
+        <target>Koble til siste plassering:</target>
       </trans-unit>
       <trans-unit id="vpn.systray.statusConnectedTo">
         <source>Connected to:</source>
@@ -2409,6 +2443,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.description">
         <source>We strive to provide you with choices and collect only the data we need to improve Mozilla VPN. Sharing this data with Mozilla is optional.</source>
+        <target>Vi ønsker å gi deg valgmuligheter og samler bare inn dataene vi trenger for å forbedre Mozilla VPN. Det er valgfritt å dele disse dataene med Mozilla.</target>
       </trans-unit>
       <trans-unit id="vpn.telemetryPolicyView.doNotAllow">
         <source>Don’t allow</source>
