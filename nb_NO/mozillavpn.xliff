@@ -1474,6 +1474,7 @@ Lukk %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationMultiHop">
         <source>Mozilla VPN connected through %1$@ via %2$@</source>
+        <target>Mozilla VPN er koblet til via %1$@ gjennom %2$@</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN. `%1$@` will be replaced with the exit city, and `%2$@` will be replaced with the entry city.</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationSingleHop">
@@ -1500,6 +1501,19 @@ Is %@ turned on?
 Is %@ switched on?
 Is %@ connected?
 </source>
+        <target>Er %@ for øyeblikket aktiv?
+Er %@ for øyeblikket på?
+Er %@ for øyeblikket slått på?
+Er %@ for øyeblikket tilkoblet?
+Er %@ for øyeblikket aktiv?
+Er %@ på?
+Er %@ slått på?
+Er %@ tilkoblet?
+Er %@ koblet til?
+Er %@ aktiv nå?
+Er %@ på nå?
+Kjører %@ nå?
+</target>
         <note annotates="source" from="developer">Siri phrase variants for querying whether the VPN is active via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1525,24 +1539,29 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.logoAccessoryWidget.description">
         <source>See current Mozilla VPN status.</source>
+        <target>Se gjeldende Mozilla VPN-status.</target>
         <note annotates="source" from="developer">More information about what the logo widget contains - which is simply current VPN status.</note>
       </trans-unit>
       <trans-unit id="vpn.logoAccessoryWidget.vpnOff">
         <source>Mozilla VPN off</source>
+        <target>Mozilla VPN av</target>
         <note annotates="source" from="developer">Shown as part of inline widget when VPN is inactive. If translation will be more than 16 characters, instead translate `VPN on` to keep this within available space.</note>
       </trans-unit>
       <trans-unit id="vpn.logoAccessoryWidget.vpnOn">
         <source>Mozilla VPN on</source>
+        <target>Mozilla VPN på</target>
         <note annotates="source" from="developer">Shown as part of inline widget when VPN is active. If translation will be more than 16 characters, instead translate `VPN on` to keep this within available space.</note>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.alreadyASubscriber">
         <source>Already a subscriber?</source>
+        <target>Allerede abonnent?</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle">
         <source>A safe, reliable and fast VPN. Built by the makers of Firefox.</source>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneTitle">
         <source>Mozilla VPN</source>
+        <target>Mozilla VPN</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.signUpBtn">
         <source>Sign up</source>
@@ -1590,14 +1609,17 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.navBar.homeTab">
         <source>Home</source>
+        <target>Hjem</target>
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the home screen</note>
       </trans-unit>
       <trans-unit id="vpn.navBar.messagesTab">
         <source>Messages</source>
+        <target>Meldinger</target>
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the messages inbox screen</note>
       </trans-unit>
       <trans-unit id="vpn.navBar.settingsTab">
         <source>Settings</source>
+        <target>Innstillinger</target>
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the settings screen</note>
       </trans-unit>
       <trans-unit id="vpn.networkSettings.multihopTitle">
@@ -1605,9 +1627,11 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalBodyText">
         <source>To continue subscribing, please sign in to your Google Account</source>
+        <target>For å fortsette å abonnere, logg inn på Google-kontoen din</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalHeader">
         <source>Sign in to Google Account</source>
+        <target>Logg inn på Google-kontoen</target>
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalLinkText">
         <source>Go to Play Store</source>
@@ -1860,22 +1884,27 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.resetSettings.listItemPreferences">
         <source>Preferences</source>
+        <target>Innstillinger</target>
         <note annotates="source" from="developer">Item in a bulleted list denoting what will be deleted if the user opts to factory reset the client</note>
       </trans-unit>
       <trans-unit id="vpn.resetSettings.resetButtonLabel">
         <source>Reset VPN</source>
+        <target>Nullstill VPN</target>
         <note annotates="source" from="developer">Label for button that initiates a restore to factory settings</note>
       </trans-unit>
       <trans-unit id="vpn.resetSettings.resetLabel">
         <source>Reset VPN</source>
+        <target>Nullstill VPN</target>
         <note annotates="source" from="developer">Label for button that takes the user to the factory reset flow</note>
       </trans-unit>
       <trans-unit id="vpn.resetSettings.title">
         <source>Reset Mozilla VPN</source>
+        <target>Nullstill Mozilla VPN</target>
         <note annotates="source" from="developer">Title of the screen where users go to reset the VPN to factory settings</note>
       </trans-unit>
       <trans-unit id="vpn.restorePurchase.restorePurchaseButton">
         <source>Already a subscriber?</source>
+        <target>Allerede abonnent?</target>
       </trans-unit>
       <trans-unit id="vpn.restorePurchaseExpiredError.restorePurchaseExpiredErrorText2">
         <source>Sorry, we are unable to connect your Mozilla account to a current subscription. Please try again or contact our support team for further assistance.</source>
@@ -1891,6 +1920,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.buttonLabel">
         <source>Choose a new location</source>
+        <target>Velg en ny plassering</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.headerText">
         <source>Server unavailable</source>
@@ -1921,10 +1951,12 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabel">
         <source>Last updated: %1.</source>
+        <target>Sist oppdatert: %1.</target>
         <note annotates="source" from="developer">The time (or in extremely rare circumstances, the date, day of the week, or "yesterday") which the recommended servers list was last updated. Argument is the time or date/day</note>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshLastUpdatedLabelYesterday">
         <source>yesterday</source>
+        <target>i går</target>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshNoUpdateDisabledLabel">
         <source>Disconnect from the VPN to update this list.</source>
@@ -1962,36 +1994,45 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.serversView.tabAllLabel">
         <source>All</source>
+        <target>Alle</target>
         <note annotates="source" from="developer">Label for the “all” servers tab</note>
       </trans-unit>
       <trans-unit id="vpn.serversView.tabRecommendedLabel">
         <source>Recommended</source>
+        <target>Anbefalt</target>
         <note annotates="source" from="developer">Label for the “recommended” servers tab</note>
       </trans-unit>
       <trans-unit id="vpn.settings.appExclusionClearAllApps">
         <source>Clear all</source>
+        <target>Fjern alle</target>
         <note annotates="source" from="developer">Button label to clear all apps from the exclusions list</note>
       </trans-unit>
       <trans-unit id="vpn.settings.appExclusionTitle">
         <source>Excluded apps</source>
+        <target>Utelatte apper</target>
       </trans-unit>
       <trans-unit id="vpn.settings.appearance">
         <source>Appearance</source>
+        <target>Utseende</target>
         <note annotates="source" from="developer">Appearance refers to the app theming (dark mode / light mode)</note>
       </trans-unit>
       <trans-unit id="vpn.settings.appearanceAutomatic">
         <source>Automatic</source>
+        <target>Automatisk</target>
         <note annotates="source" from="developer">Automatic switching for dark mode/light mode, based on the system’s setting</note>
       </trans-unit>
       <trans-unit id="vpn.settings.appearanceAutomaticDescription">
         <source>Follow your system’s appearance</source>
+        <target>Følg systemets utseende</target>
       </trans-unit>
       <trans-unit id="vpn.settings.appearanceDark">
         <source>Dark</source>
+        <target>Mørkt</target>
         <note annotates="source" from="developer">Dark as in "dark mode theme"</note>
       </trans-unit>
       <trans-unit id="vpn.settings.appearanceLight">
         <source>Light</source>
+        <target>Lyst</target>
         <note annotates="source" from="developer">Light as in "light mode theme"</note>
       </trans-unit>
       <trans-unit id="vpn.settings.batteryOptimizationWarning">
@@ -2004,6 +2045,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription">
         <source>Allow Mozilla VPN to automatically send crash reports to help fix unexpected crashes</source>
+        <target>Tillat Mozilla VPN å sende krasjrapporter automatisk for å fikse uventede krasj</target>
         <note annotates="source" from="developer">This is the description of a checkbox option to allow the app to send crash reports without a user prompt</note>
       </trans-unit>
       <trans-unit id="vpn.settings.decryptionErrorText">
@@ -2011,21 +2053,25 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings">
         <source>DNS settings</source>
+        <target>DNS-innstillinger</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSBody">
         <source>Resolve websites using a custom DNS</source>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSError">
         <source>Invalid DNS, please try a new one</source>
+        <target>Ugyldig DNS, prøv en ny</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsCustomDNSTitle">
         <source>Use custom DNS</source>
+        <target>Bruk tilpasset DNS</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsDisconnectWarning">
         <source>Changing these settings will cause the VPN to disconnect and reconnect automatically.</source>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsInputPlaceholder">
         <source>Enter custom DNS</source>
+        <target>Angi tilpasset DNS</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettingsStandardDNSBody">
         <source>Resolve websites using Mozilla VPN’s standard DNS</source>
@@ -2038,9 +2084,11 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
         <source>Download Firefox</source>
+        <target>Last ned Firefox</target>
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
         <source>Turn off VPN for specific websites.</source>
+        <target>Slå av VPN for bestemte nettsteder.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
         <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
@@ -2062,6 +2110,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.preferencesSettings">
         <source>Preferences</source>
+        <target>Innstillinger</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyAdblockBody">
         <source>Reduces the number of ads you see when you’re using VPN</source>
@@ -2077,9 +2126,11 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareTitle">
         <source>Block malware</source>
+        <target>Blokker skadelig programvare</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacySettings">
         <source>Privacy features</source>
+        <target>Personvernfunksjoner</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyTrackerBody">
         <source>Fewer harmful domains will be able to track you</source>
@@ -2092,6 +2143,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.reauthTitle">
         <source>Sign In Again</source>
+        <target>Logg inn igjen</target>
       </trans-unit>
       <trans-unit id="vpn.settings.shareTechnicalDataDescription">
         <source>Help improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data.</source>
@@ -2111,9 +2163,11 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settingsDev.showOptionTitle">
         <source>Show Developer Options</source>
+        <target>Vis utviklerinnstillinger</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.title">
         <source>Developer Options</source>
+        <target>Utviklerinnstillinger</target>
       </trans-unit>
       <trans-unit id="vpn.settingsDev.useStagingSubtitle">
         <source>Staging services are used to test features before they go live to production</source>
@@ -2123,6 +2177,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.splittunnel.btnShowSystemApp">
         <source>Show system apps</source>
+        <target>Vis systemapper</target>
         <note annotates="source" from="developer">Label for a checkbox that, if checked, will show the hidden "system/internal" apps. e.g. "Android Auto" is a system app on Android.</note>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.errorActivating">
@@ -2134,9 +2189,11 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.splittunnel.infoLinkText">
         <source>Learn more</source>
+        <target>Les mer</target>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppActionButton">
         <source>Add apps manually</source>
+        <target>Legg til apper manuelt</target>
         <note annotates="source" from="developer">Displayed in a notification as "call to action" when apps are missing from the split-tunnel settings.</note>
       </trans-unit>
       <trans-unit id="vpn.splittunnel.missingAppAddedOne">
@@ -2149,6 +2206,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.manageAccount">
         <source>Manage account</source>
+        <target>Behandle konto</target>
       </trans-unit>
       <trans-unit id="vpn.subscriptionManagement.planMonthly">
         <source>Monthly plan: %1</source>
