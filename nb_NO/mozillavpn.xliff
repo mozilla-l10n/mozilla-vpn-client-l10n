@@ -868,6 +868,7 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody1">
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
+        <target>Hver gang du kobler til et nettsted, oversetter DNS (Domain Name System, system for domenenavn) først domenenavnet (f.eks. www.mozilla.org) til en IP-adresse som gjør at internettrafikken din kan nå målet.</target>
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody2">
@@ -1336,6 +1337,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorText">
         <source>An unexpected error has occurred, please try again.</source>
+        <target>Det oppstod en uventet feil, prøv på nytt.</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportFieldHeader">
         <source>How can we help you with Mozilla VPN?</source>
@@ -1351,6 +1353,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseBody">
         <source>Our support team will contact you at %1 once we’ve been able to look at your issue.</source>
+        <target>Brukerstøtteteamet vårt vil kontakte deg på %1 når vi har fått sett nærmere på problemet ditt.</target>
         <note annotates="source" from="developer">The %1 represents the email used to complete the form</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseButton">
@@ -1423,6 +1426,7 @@ Lukk %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryDescription">
         <source>Queries current Mozilla VPN connection status</source>
+        <target>Henter gjeldende tilkoblingsstatus for Mozilla VPN</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
@@ -1437,6 +1441,7 @@ Lukk %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryTitle">
         <source>Is the VPN currently connected?</source>
+        <target>Er VPN-en tilkoblet nå?</target>
         <note annotates="source" from="developer">Title used by system to offer to query VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleDescription">
@@ -1466,6 +1471,7 @@ Lukk %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffDescription">
         <source>Deactivate the Mozilla VPN connection</source>
+        <target>Deaktiver Mozilla VPN-tilkoblingen</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffError">
@@ -1500,10 +1506,12 @@ Lukk %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnDescription">
         <source>Activate the Mozilla VPN connection</source>
+        <target>Aktiver Mozilla VPN-tilkoblingen</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnError">
         <source>Error turning on Mozilla VPN</source>
+        <target>Feil ved aktivering av Mozilla VPN</target>
         <note annotates="source" from="developer">Error given by Siri when unable to turn on VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsQueryStatus.phrases">
@@ -1575,6 +1583,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneSubtitle">
         <source>A safe, reliable and fast VPN. Built by the makers of Firefox.</source>
+        <target>En trygg, pålitelig og rask VPN. Bygget av skaperne av Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.mobileOnboarding.panelOneTitle">
         <source>Mozilla VPN</source>
@@ -1594,6 +1603,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.multiFxaAccountError.visitOurHelpCenter">
         <source>Visit our help center to learn more about managing your subscriptions.</source>
+        <target>Besøk hjelpesenteret vårt for å lære mer om behandling av abonnementene dine.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.accessibleNameRecentConnection">
         <source>%1 to %2</source>
@@ -1611,12 +1621,15 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopEntryLocationHeader">
         <source>Select entry location</source>
+        <target>Velg inngangsplassering</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopExitLocationHeader">
         <source>Select exit location</source>
+        <target>Velg utgangsplassering</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopInfoText">
         <source>Exit location represents your main VPN server.</source>
+        <target>Utgangsplasseringen representerer din primære VPN-server.</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.multiHopToggleCTA">
         <source>Multi-hop</source>
@@ -1624,6 +1637,7 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.serverSearchResultsError">
         <source>No results. Try a different search</source>
+        <target>Ingen resultater. Prøv et annet søk</target>
       </trans-unit>
       <trans-unit id="vpn.multiHopFeature.singleHopToggleCTA">
         <source>Single-hop</source>
@@ -1658,9 +1672,11 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.notSignedInGoogle.googleModalLinkText">
         <source>Go to Play Store</source>
+        <target>Gå til Play Butikk</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedMessages">
         <source>Connected through %1</source>
+        <target>Tilkoblet via %1</target>
         <note annotates="source" from="developer">%1 is the name of the city the VPN is connected to.</note>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNConnectedTitle">
@@ -1678,30 +1694,38 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopConnectedMessages">
         <source>Connected through %1 via %2</source>
+        <target>Tilkoblet via %1 gjennom %2</target>
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNMultihopDisconnectedMessage">
         <source>Disconnected from %1 and %2</source>
+        <target>Frakoblet fra %1 og %2</target>
         <note annotates="source" from="developer">%1 is the name of the exit server, %2 is the name of the entry server.</note>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersMessage">
         <source>Switched from %1 to %2</source>
+        <target>Byttet fra %1 til %2</target>
         <note annotates="source" from="developer">%1 is the name of the initial server, %2 is the name of the destination server.</note>
       </trans-unit>
       <trans-unit id="vpn.notifications.VPNSwitchedServersTitle">
         <source>VPN Switched Servers</source>
+        <target>VPN byttet server</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockMessage2">
         <source>The guest Wi-Fi network you’re connected to requires action. Click to turn off VPN to see the portal.</source>
+        <target>Gjestenettverket du er koblet til krever handling. Klikk for å slå av VPN for å se portalen.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalBlockTitle">
         <source>Guest Wi-Fi portal blocked</source>
+        <target>Portal for gjeste-Wi-Fi blokkert</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockMessage2">
         <source>The guest Wi-Fi network you’re connected to may not be secure. Click to turn on VPN to secure your device.</source>
+        <target>Gjeste-Wi-Fi-nettverket du er koblet til, er kanskje ikke sikkert. Klikk for å slå på VPN for å beskytte enheten din.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.captivePortalUnblockTitle">
         <source>Guest Wi-Fi portal detected</source>
+        <target>Portal for gjeste-Wi-Fi oppdaget</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.connectionFailedMessage">
         <source>Sorry, something went wrong with your VPN connection.</source>
@@ -1713,19 +1737,24 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.notifications.subscriptionNotFound">
         <source>Your Mozilla VPN subscription cannot be found. Please open the app to resolve this subscription issue.</source>
+        <target>Vi fant ikke abonnementet ditt på Mozilla VPN. Åpne appen for å løse dette abonnementsproblemet.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkGeneric">
         <source>Wi-Fi network is not secure. Click here to turn on VPN and secure your device.</source>
+        <target>Wi-Fi-nettverket er ikke sikkert. Klikk her for å slå på VPN for å beskytte enheten din.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkMessage">
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
+        <target>%1 er ikke sikkert. Klikk her for å slå på VPN for å beskytte enheten din.</target>
         <note annotates="source" from="developer">%1 is the Wi-Fi network name</note>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkTitle">
         <source>Unsecured Wi-Fi network detected</source>
+        <target>Usikret Wi-Fi-nettverk oppdaget</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideBody2">
         <source>Help us improve Mozilla VPN by sharing crash reports, diagnostics, and product usage data. We never collect data about your online activity while using the VPN.</source>
+        <target>Hjelp oss med å forbedre Mozilla VPN ved å dele krasjrapporter, diagnostikk og bruksdata. Vi samler aldri inn data om nettaktiviteten din mens du bruker VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.dataSlideHeader2">
         <source>Data collection</source>
@@ -1745,9 +1774,11 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideBody2">
         <source>To install the VPN on another tablet or mobile device, scan the QR code.</source>
+        <target>For å installere VPN på et annet nettbrett eller en annen mobilenhet, skann QR-koden.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideBodyMobile">
         <source>To install the VPN on another tablet or mobile device, scan the QR code. To install on a desktop computer, visit the Download page on the Mozilla VPN website.</source>
+        <target>For å installere VPN på et annet nettbrett eller en annen mobilenhet, skann QR-koden. For å installere på en stasjonær datamaskin, gå til nedlastingssiden på Mozilla VPN-nettstedet.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideDeviceTypeAndroid">
         <source>Android</source>
@@ -1763,30 +1794,39 @@ Kjører %@ nå?
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideHeader">
         <source>Install Mozilla VPN on up to 5 devices</source>
+        <target>Installer Mozilla VPN på opptil 5 enheter</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideQRCodeAndroid">
         <source>QR Code that links to the Mozilla VPN product page on the Google Play Store</source>
+        <target>QR-kode som lenker til produktsiden for Mozilla VPN i Google Play Butikk</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple">
         <source>QR Code that links to the Mozilla VPN product page on the iOS App Store</source>
+        <target>QR-kode som lenker til produktsiden for Mozilla VPN i iOS App Store</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourSubtitle">
         <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
+        <target>Du kan sette opp Mozilla VPN til å beskytte deg mot annonser, sporere og skadevare. I tillegg kan du tilpasse beskyttelsen for bestemte apper.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourTitle">
         <source>Add even more privacy</source>
+        <target>Få enda mer personvern</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelThreeSubtitle">
         <source>Protecting yourself is simple: tap to connect to the VPN and you’re ready to browse safely. Mozilla VPN will start automatically for seamless protection.</source>
+        <target>Det er enkelt å beskytte deg selv: Trykk for å koble til VPN, så er du klar til å surfe trygt. Mozilla VPN starter automatisk for sømløs beskyttelse.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelThreeTitle">
         <source>One tap to safety</source>
+        <target>Ett trykk for sikkerhet</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelTwoSubtitle">
         <source>With more than 500 servers in 60 cities around the world, Mozilla VPN protects your data, browsing activity, and your true location from network spies.</source>
+        <target>Med mer enn 500 servere i 60 byer verden over beskytter Mozilla VPN dataene dine, nettaktiviteten din og den faktiske plasseringen din mot nettverkssnokere.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelTwoTitle">
         <source>Protect your privacy</source>
+        <target>Beskytt ditt personvern</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.privacySlideBody">
         <source>Use these features for more protection. They may cause issues on some sites, so you can turn them off anytime in settings.</source>
