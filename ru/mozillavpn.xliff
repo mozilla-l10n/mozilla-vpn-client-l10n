@@ -1558,6 +1558,10 @@ Is %@ connected?
         <target>Смотрите текущий статус Mozilla VPN.</target>
         <note annotates="source" from="developer">More information about what the logo widget contains - which is simply current VPN status.</note>
       </trans-unit>
+      <trans-unit id="vpn.logoAccessoryWidget.unauthenticatedMessage">
+        <source>Turn on via app</source>
+        <note annotates="source" from="developer">Shown in small widgets when user is not signed in, or has removed the network extension. For the inline widget, this must be kept to 16 characters or less. If translation will be more than 16 characters, instead translate as `Open app` to keep this within available space.</note>
+      </trans-unit>
       <trans-unit id="vpn.logoAccessoryWidget.vpnOff">
         <source>Mozilla VPN off</source>
         <target>Mozilla VPN отключён</target>
@@ -2458,6 +2462,10 @@ Is %@ connected?
         <source>Turn Mozilla VPN on and off, and see the current location.</source>
         <target>Включайте и выключайте Mozilla VPN, а также смотрите текущее местоположение.</target>
         <note annotates="source" from="developer">More information about what the Mozilla VPN widget contains.</note>
+      </trans-unit>
+      <trans-unit id="vpn.toggleWidget.unauthenticatedMessage">
+        <source>Before using the widget, first turn on Mozilla VPN from app.</source>
+        <note annotates="source" from="developer">Text shown to users in the widget when they haven't signed in, or have removed the network extension.</note>
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionNoUpdate">
         <source>Okay</source>
