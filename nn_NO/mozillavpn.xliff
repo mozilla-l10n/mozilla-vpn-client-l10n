@@ -55,6 +55,7 @@
       </trans-unit>
       <trans-unit id="macosinstaller.previous_build.title">
         <source>Previous Installation Detected</source>
+        <target>Tidlegare installasjon oppdaga</target>
       </trans-unit>
       <trans-unit id="macosinstaller.title">
         <source>Mozilla VPN for macOS</source>
@@ -940,7 +941,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.continueToSignIn">
         <source>Continue to sign in</source>
-        <target>Fortset til innloggning</target>
+        <target>Hald fram til innloggning</target>
         <note annotates="source" from="developer">Button a user clicks after updating their Mozilla account settings so that they can re-attempt sign-in</note>
       </trans-unit>
       <trans-unit id="vpn.inAppAuth.createAccountButton">
@@ -1237,10 +1238,12 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.featureRequestDropdownListItem">
         <source>Request features</source>
+        <target>Føreslå funksjonar</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to requesting new features.</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.issueFieldPlaceholder">
         <source>Describe issue</source>
+        <target>Beskriv problemet</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.otherDropdownListItem">
         <source>Other</source>
@@ -1249,31 +1252,39 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.paymentDropdownListItem">
         <source>Payment and billing</source>
+        <target>Betaling og fakturering</target>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to payment and billing.</note>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.privacyNoticeLinkText">
         <source>Mozilla VPN Privacy Notice</source>
+        <target>Mozilla VPN personvernfråsegn</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.shareLogsCheckBoxSubtitle">
         <source>Support will use this data to better diagnose your issue.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.shareLogsCheckBoxTitle">
         <source>Share logs with support</source>
+        <target>Del loggar med brukarstøtte</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder">
         <source>Subject (optional)</source>
+        <target>Emne (valfritt)</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportConfirmEmailPlaceholder">
         <source>Confirm email address</source>
+        <target>Stadfest e-postadresse</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldLabel">
         <source>Enter your email</source>
+        <target>Skriv inn e-postadressa di</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportEmailFieldPlaceholder">
         <source>Email address</source>
+        <target>E-postadresse</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorBrowserButton">
         <source>Try opening in browser</source>
+        <target>Prøv å opne i nettlesaren</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportErrorButton">
         <source>Try Again</source>
@@ -1306,9 +1317,11 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportResponseHeader">
         <source>Thank you!</source>
+        <target>Tusen takk!</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.supportSecondaryActionText">
         <source>Cancel</source>
+        <target>Avbryt</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.technicaDropdownListItem">
         <source>Technical issues</source>
@@ -1324,6 +1337,16 @@ Switch %@ on
 Connect %@
 Connect to %@
 </source>
+        <target>Aktiver %@
+Slå på %@
+Kople til %@
+Start %@
+Skru på %@
+Opne %@
+Bruk %@
+Kople opp %@
+Start %@ no
+</target>
         <note annotates="source" from="developer">Siri phrase variants for activating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1341,6 +1364,13 @@ Switch %@ off
 Disconnect %@
 Disconnect from %@
 </source>
+        <target>Deaktiver %@
+Slå av %@
+Skru av %@
+Kople frå %@
+Stopp %@
+Lat att %@
+</target>
         <note annotates="source" from="developer">Siri phrase variants for deactivating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1809,6 +1839,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.inProgress2">
         <source>Please continue subscribing in your browser…</source>
+        <target>Hald fram med å abonnere i nettlesaren din…</target>
       </trans-unit>
       <trans-unit id="vpn.purchaseWeb.message">
         <source>We couldn’t find a subscription for %1. Subscribe now to protect your connection.</source>
