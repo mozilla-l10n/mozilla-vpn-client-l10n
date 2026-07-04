@@ -80,6 +80,7 @@
       </trans-unit>
       <trans-unit id="macosinstaller.welcome.message2">
         <source>Click “Continue” to continue the setup.</source>
+        <target>Klikk på «Hald fram» for å halde fram oppsettinga.</target>
       </trans-unit>
     </body>
   </file>
@@ -116,6 +117,7 @@
       </trans-unit>
       <trans-unit id="vpn.errors.unableToEstablishConnection">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
+        <target>Kan ikkje opprette ei tilkopling akkurat no. Vi jobbar med å løyse problemet. Prøv igjen om litt.</target>
       </trans-unit>
     </body>
   </file>
@@ -123,6 +125,7 @@
     <body>
       <trans-unit id="vpn.crashreporter.description">
         <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
+        <target>Mozilla VPN-appen vart uventa avslutta. Vil du sende ein krasjrapport for å hjelpe oss med å løyse problemet?</target>
         <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.dontSendButton">
@@ -865,10 +868,12 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody1">
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
+        <target>Kvar gong du koplar til ein nettstad, omset DNS (Domain Name System, system for domenenamn) først domenenamnet (t.d. www.mozilla.org) til ei IP-adresse som gjer at internettrafikken din kan nå målet.</target>
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody2">
         <source>Mozilla VPN allows you to choose a custom DNS server if you prefer. If you use one, you won’t be able to use other privacy features in the VPN like tracker blocking.</source>
+        <target>Mozilla VPN lèt deg velje ein tilpassa DNS-server om du ønskjer det. Om du brukar ein, kan du ikkje bruke andre personvernfunksjonar i VPN-en, som sporingsblokkering.</target>
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsHeader">
@@ -888,6 +893,7 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsBody2">
         <source>When you exclude an app, it will have access to your IP address and approximate location.</source>
+        <target>Når du utelèt ein app, får han tilgangen til IP-adressa di og den omtrentlege plasseringa di.</target>
         <note annotates="source" from="developer">Body label for the excluded apps help sheet</note>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.excludedAppsBody3">
@@ -1740,6 +1746,7 @@ Køyrer %@ no?
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkGeneric">
         <source>Wi-Fi network is not secure. Click here to turn on VPN and secure your device.</source>
+        <target>Wi-Fi-nettverket er ikkje sikkert. Klikk her for å slå på VPN for å verne eininga di.</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.unsecuredNetworkMessage">
         <source>%1 is not secure. Click here to turn on VPN and secure your device.</source>
@@ -1800,9 +1807,11 @@ Køyrer %@ no?
       </trans-unit>
       <trans-unit id="vpn.onboarding.devicesSlideQRCodeApple">
         <source>QR Code that links to the Mozilla VPN product page on the iOS App Store</source>
+        <target>QR-kode som lenker til produktsida for Mozilla VPN i iOS App Store</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourSubtitle">
         <source>You can set Mozilla VPN to protect you from ads, trackers, and malware. Plus, customize your protection for specific apps.</source>
+        <target>Du kan setje opp Mozilla VPN til å verne deg mot annonsar, sporarar og skadevare. I tillegg kan du tilpasse vernet for visse appar.</target>
       </trans-unit>
       <trans-unit id="vpn.onboarding.panelFourTitle">
         <source>Add even more privacy</source>
@@ -1834,6 +1843,7 @@ Køyrer %@ no?
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAccessibilityStepComplete">
         <source>Onboarding step “%1” (%2 of %3). Select to go back to this step.</source>
+        <target>Introduksjonstrinn «%1» (%2 av %3). Vel for å gå tilbake til dette trinnet.</target>
         <note annotates="source" from="developer">Accessibility read out for completed steps in the step progress bar. %1 is the name of the step. %2 is the index of the current step. %3 is the total number of steps.</note>
       </trans-unit>
       <trans-unit id="vpn.onboarding.progressBarAccessibilityStepCurrent">
