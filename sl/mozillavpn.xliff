@@ -1434,7 +1434,7 @@ prekini povezavo z %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
         <source>Mozilla VPN is currently disconnected</source>
-        <target>Povezava z Mozilla VPN je trenutno izklopljena</target>
+        <target>Mozilla VPN trenutno ni povezan</target>
         <note annotates="source" from="developer">Response given when the VPN is disconnected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryTitle">
@@ -1454,7 +1454,7 @@ prekini povezavo z %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleTitle">
         <source>Toggle Mozilla VPN</source>
-        <target>Preklopi Mozilla VPN</target>
+        <target>Vklopi/izklopi Mozilla VPN</target>
         <note annotates="source" from="developer">Title used by system to offer to toggle VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffAction">
@@ -1494,12 +1494,12 @@ prekini povezavo z %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationMultiHop">
         <source>Mozilla VPN connected through %1$@ via %2$@</source>
-        <target>Mozilla VPN je povezan preko %1$@ preko %2$@</target>
+        <target>Mozilla VPN je povezan skozi %1$@ prek %2$@</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN. `%1$@` will be replaced with the exit city, and `%2$@` will be replaced with the entry city.</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationSingleHop">
         <source>Mozilla VPN connected through %@</source>
-        <target>Mozillin VPN povezan preko %@</target>
+        <target>Mozilla VPN je povezan skozi %@</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN. `%@` must be included, and it will be replaced with the name of the exit city.</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnDescription">
@@ -1560,7 +1560,7 @@ Je %@ povezan? </target>
       </trans-unit>
       <trans-unit id="vpn.logoAccessoryWidget.unauthenticatedMessage">
         <source>Turn on via app</source>
-        <target>Vklopite preko aplikacije</target>
+        <target>Vklopi prek aplikacije</target>
         <note annotates="source" from="developer">Shown in small widgets when user is not signed in, or has removed the network extension. For the inline widget, this must be kept to 16 characters or less. If translation will be more than 16 characters, instead translate as `Open app` to keep this within available space.</note>
       </trans-unit>
       <trans-unit id="vpn.logoAccessoryWidget.vpnOff">
