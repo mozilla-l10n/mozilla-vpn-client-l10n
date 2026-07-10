@@ -102,10 +102,12 @@ jobs:
           (cd translationFiles && python .github/scripts/set_target_language_en.py en)
 
           # Update other locales
-          python translationFiles/.github/scripts/update_other_locales.py --reference en --path translationFiles/ --type "${{ github.event.inputs.type }}"
+          python translationFiles/.github/scripts/update_other_locales.py --reference en --path translationFiles/ --type "${GITHUB_EVENT_INPUTS_TYPE}"
 
           # Remove obsolete XLIFF files
           python translationFiles/.github/scripts/remove_obsolete_files.py --reference en --path translationFiles/
+        env:
+          GITHUB_EVENT_INPUTS_TYPE: ${{ github.event.inputs.type }}
       - uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           path: translationFiles
