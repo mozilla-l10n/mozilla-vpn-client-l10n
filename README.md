@@ -10,19 +10,12 @@ Automation is used to extract strings from the code repository, and expose them 
 
 1. Strings are extracted and saved in the `en` XLIFF files (the source locale).
 2. Pontoon reads `en` as the source locale and keeps every other locale structurally in sync with it, i.e. it adds and removes `trans-unit` elements and files as needed.
-3. The automation never changes the structure of localized files: it only removes existing translations that are no longer valid. A translation is kept if all these elements match:
-    * `id` attribute of `trans-unit`.
-    * `original` attribute of `file`.
-    * `source` text.
+3. The default (`standard`) update never changes the structure of localized files: it only removes a translation when the `source` text of that string changed in the reference, and leaves the structure to Pontoon. It does **not** touch a translation when the string is removed from the reference, or moved to a different file — those cases are left to Pontoon (removal) or to a manual run (relocation).
 
-As a consequence, the default update removes translations if:
-* The source text was changed.
-* The string is moved from one file to another.
+As a consequence, the default update removes translations only when the source text was changed. This is not ideal when the change in the source text is trivial. Moving a string between files does not remove its translation, but it also does not follow the string to its new location: a manual run is needed to relocate it.
 
-This is not ideal when the change in the source text is trivial, or the string move is caused by code refactoring.
-
-It’s possible to invoke [automation manually](https://github.com/mozilla-l10n/mozilla-vpn-client-l10n/actions/workflows/update.yaml), and use a different matching criterion:
-* `nofile` keeps translations if the ID and source text match, ignoring the file. This is useful to minimize the impact of code refactoring.
+It’s possible to invoke [automation manually](https://github.com/mozilla-l10n/mozilla-vpn-client-l10n/actions/workflows/update.yaml), and use a different matching criterion. Unlike `standard`, these modes rebuild each localized file from the `en` structure and re-inject the existing translations, so a translation follows its string to a new `file` instead of being lost when Pontoon later syncs the structure. Translations for strings removed upstream are carried over (their removal is left to Pontoon), not dropped.
+* `nofile` keeps translations if the ID and source text match, ignoring the file. This is useful to minimize the impact of code refactoring, e.g. when a string moves between files.
 * `matchid` ignores both file and source text, keeping translations if the ID matches (and realigning the source text to the reference). This is useful for source changes that don’t require invalidating existing translations.
 
 It’s also possible to provide a `branch` parameter, to use a non-default branch of `mozilla-vpn-client` as starting point. This is useful, for example, to check the impact of large code refactoring from a pull request. Note that the `releases` branch will be used in any case to extract strings.
