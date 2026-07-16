@@ -65,14 +65,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ipaddresslookup.cpp" datatype="cpp" source-language="en" target-language="en-US">
-    <body>
-      <trans-unit id="vpn.connectionInfo.loading">
-        <source>Loading</source>
-        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/apps/vpn/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="en-US">
     <body>
       <trans-unit id="menubar.file.close">
@@ -432,6 +424,10 @@
       <trans-unit id="vpn.connectionInfo.listHeaderSlow">
         <source>It looks like the connection to this server location is a bit slow, you can try:</source>
         <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.loading">
+        <source>Loading</source>
+        <note annotates="source" from="developer">Label when currently loading new information</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel">
         <source>Testing speed…</source>
@@ -1006,9 +1002,6 @@
       <trans-unit id="vpn.inAppSupportWorkflow.accountDropdownListItem">
         <source>Account issues</source>
         <note annotates="source" from="developer">A user selecting this will be submitting in-app feedback related to account issues.</note>
-      </trans-unit>
-      <trans-unit id="vpn.inAppSupportWorkflow.disclaimerText">
-        <source>When you submit, Mozilla VPN will collect technical and interaction data with your email to help our support team understand your issue.</source>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.dropdownLabel">
         <source>Choose a category</source>
