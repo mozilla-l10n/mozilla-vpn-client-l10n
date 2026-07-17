@@ -84,15 +84,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ipaddresslookup.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
-    <body>
-      <trans-unit id="vpn.connectionInfo.loading">
-        <source>Loading</source>
-        <target>載入中</target>
-        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/apps/vpn/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="zh-TW">
     <body>
       <trans-unit id="menubar.file.close">
@@ -540,6 +531,11 @@
         <source>It looks like the connection to this server location is a bit slow, you can try:</source>
         <target>看來您與此伺服器之間的連線速度有點慢，可以試著：</target>
         <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.loading">
+        <source>Loading</source>
+        <target>載入中</target>
+        <note annotates="source" from="developer">Label when currently loading new information</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel">
         <source>Testing speed…</source>
