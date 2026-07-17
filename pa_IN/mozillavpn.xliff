@@ -83,15 +83,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="../src/apps/vpn/ipaddresslookup.cpp" datatype="cpp" source-language="en" target-language="pa-IN">
-    <body>
-      <trans-unit id="vpn.connectionInfo.loading">
-        <source>Loading</source>
-        <target>ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</target>
-        <note annotates="source" from="developer">This refers to the current IP address, i.e. "IP: Loading".</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="../src/apps/vpn/platforms/macos/macosmenubar.cpp" datatype="cpp" source-language="en" target-language="pa-IN">
     <body>
       <trans-unit id="menubar.file.close">
@@ -536,6 +527,11 @@
         <source>It looks like the connection to this server location is a bit slow, you can try:</source>
         <target>ਜਾਪਦਾ ਹੈ ਕਿ ਇਸ ਸਰਵਰ ਟਿਕਾਣੇ ਨਾਲ ਕਨੈਕਸ਼ਨ ਥੋੜ੍ਹਾ ਹੌਲੀ ਹੈ, ਤੁਸੀਂ ਇਹ ਅਜ਼ਮਾ ਸਕਦੇ ਹੋ:</target>
         <note annotates="source" from="developer">Headline for a list of suggestions for troubleshooting the current connection.</note>
+      </trans-unit>
+      <trans-unit id="vpn.connectionInfo.loading">
+        <source>Loading</source>
+        <target>ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</target>
+        <note annotates="source" from="developer">Label when currently loading new information</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.loadingIndicatorLabel">
         <source>Testing speed…</source>
