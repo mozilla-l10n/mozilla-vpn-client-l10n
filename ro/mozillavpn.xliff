@@ -16,9 +16,11 @@
       </trans-unit>
       <trans-unit id="vpn.alert.getIPRestrictionError">
         <source>Operation not allowed from current location</source>
+        <target>Operație nepermisă din locația actuală</target>
       </trans-unit>
       <trans-unit id="vpn.alert.remoteServiceError">
         <source>Remote service error</source>
+        <target>Eroare de serviciu la distanță</target>
       </trans-unit>
       <trans-unit id="vpn.alert.subscriptionFailureError">
         <source>Subscription failed</source>
@@ -526,6 +528,7 @@
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.rotateIPAddress">
         <source>Attempt to change IP address</source>
+        <target>Încercare de schimbare a adresei IP</target>
         <note annotates="source" from="developer">Accessible label for the button to try to get a new server in the same location</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.startSpeedTest">
@@ -551,14 +554,17 @@
       </trans-unit>
       <trans-unit id="vpn.controller.regeneratingKey">
         <source>Preparing your connection</source>
+        <target>Se pregătește conexiunea</target>
         <note annotates="source" from="developer">Connection subtitle label for the main screen when the app is regenerating WireGuard keys</note>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.crashOptInDialogDescription">
         <source>Don’t show this again. Autosend crash reports to Mozilla.</source>
+        <target>Nu mai afișa. Trimite automat rapoarte de închidere neașteptată către Mozilla.</target>
         <note annotates="source" from="developer">This is a description for a checkbox on the crash reporter dialog.</note>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.mainTitle">
         <source>Mozilla Crash Report</source>
+        <target>Raport de închidere neașteptată către Mozilla</target>
         <note annotates="source" from="developer">Main window title</note>
       </trans-unit>
       <trans-unit id="vpn.deleteAccount.authButtonLabel">
@@ -571,10 +577,12 @@
       </trans-unit>
       <trans-unit id="vpn.devices.countLabel">
         <source>%1 out of %2 devices added</source>
+        <target>Au fost adăugate %1 din %2 (de) dispozitive</target>
         <note annotates="source" from="developer">Label at the top of the "Devices" setting screen indicating the number of devices registered to the users account (1st arg) vs the max limit of devices available for their account (2nd arg)</note>
       </trans-unit>
       <trans-unit id="vpn.devices.limitDescription2">
         <source>You’re using VPN on 5 devices. To add another device, please remove one.</source>
+        <target>Folosești VPN pe 5 dispozitive. Pentru adăugarea unui alt dispozitiv, te rugăm să elimini unul.</target>
         <note annotates="source" from="developer">Description of the "device limit" view describing why the device has not yet been added to the list of active devices (because we are at the device limit)</note>
       </trans-unit>
       <trans-unit id="vpn.devices.limitTitle">
@@ -634,9 +642,11 @@
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyDNS">
         <source>Using these privacy features will override your custom DNS.</source>
+        <target>Utilizarea acestor funcționalități de confidențialitate va suprascrie DNS-ul personalizat.</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.bodyPrivacy">
         <source>Using a custom DNS will override your preferences in the privacy features page.</source>
+        <target>Utilizarea unui DNS personalizat va suprascrie preferințele din pagina funcționalităților de confidențialitate.</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.primaryButton">
         <source>Confirm</source>
@@ -648,28 +658,36 @@
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titleDNS">
         <source>Override DNS settings?</source>
+        <target>Suprascrii setările DNS?</target>
       </trans-unit>
       <trans-unit id="vpn.dnsOverwriteDialog.titlePrivacy">
         <source>Override privacy features?</source>
+        <target>Suprascrii funcționalitățile de confidențialitate?</target>
       </trans-unit>
       <trans-unit id="vpn.freeTrials.freeTrialLabel">
         <source>7-day free trial</source>
+        <target>Perioadă de probă gratuită de 7 zile</target>
       </trans-unit>
       <trans-unit id="vpn.freeTrials.startYourFreeTrial">
         <source>Sign up to start your 7-day free trial.</source>
+        <target>Fă-ți cont pentru a începe perioada de probă gratuită de 7 zile.</target>
         <note annotates="source" from="developer">This string appears above the 'Sign up' button on mobile onboarding views</note>
       </trans-unit>
       <trans-unit id="vpn.genericError.unexpected">
         <source>Unexpected error</source>
+        <target>Eroare neașteptată</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorButton">
         <source>Try Again</source>
+        <target>Încearcă din nou</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorHeader">
         <source>Problem confirming subscription</source>
+        <target>Problemă la confirmarea abonamentului</target>
       </trans-unit>
       <trans-unit id="vpn.genericPurchaseError.genericPurchaseErrorText">
         <source>An unexpected error has occurred, please try again. Visit our help center below to learn how to troubleshoot this issue or contact support.</source>
+        <target>A apărut o eroare neașteptată, te rugăm să încerci din nou. Intră pe centrul nostru de ajutor de mai jos pentru a afla cum să depanezi problema sau contactează asistența.</target>
       </trans-unit>
       <trans-unit id="vpn.getHelp.developerOptions">
         <source>Developer options</source>
@@ -781,14 +799,17 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesBody1">
         <source>Adding a new device to your subscription is easy: just download and log in to Mozilla VPN on that device.</source>
+        <target>Adăugarea unui dispozitiv nou la abonament este ușoară: trebuie doar să descarci și să te autentifici în Mozilla VPN pe dispozitivul respectiv.</target>
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesBody2">
         <source>To remove one of your added devices, select “Edit” on this screen and use the trash icon to remove the device you no longer want to use Mozilla VPN on.</source>
+        <target>Pentru a elimina unul dintre dispozitivele adăugate, selectează „Editare” pe acest ecran și folosește pictograma de coș de gunoi pentru eliminarea dispozitivului pe care nu mai vrei să folosești Mozilla VPN.</target>
         <note annotates="source" from="developer">Body label for the devices help sheet</note>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesHeader">
         <source>Adding and removing devices</source>
+        <target>Adăugarea și eliminarea de dispozitive</target>
         <note annotates="source" from="developer">Header label for the devices help sheet</note>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.devicesTitle">
@@ -798,6 +819,7 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody1">
         <source>Whenever you connect to a website, a DNS (domain name system) first turns the domain name (e.g. www.mozilla.org) into an IP address that allows your internet traffic to reach that destination.</source>
+        <target>Ori de câte ori te conectezi la un site web, un DNS (sistem de nume de domeniu) transformă mai întâi numele domeniului (de ex. www.mozilla.org) într-o adresă IP care permite traficului tău de internet să ajungă la destinație.</target>
         <note annotates="source" from="developer">Body text for the custom dns help sheet</note>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.dnsBody2">
