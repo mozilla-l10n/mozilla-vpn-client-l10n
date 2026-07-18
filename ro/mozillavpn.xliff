@@ -40,9 +40,11 @@
     <body>
       <trans-unit id="macosinstaller.conclusion.message1_v2">
         <source>The Mozilla VPN is successfully installed. You’re ready to start taking control of your online privacy.</source>
+        <target>Mozilla VPN a fost instalat cu succes. Ești gata să preiei controlul asupra confidențialității tale online.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message2">
         <source>Trouble with this installation?</source>
+        <target>Probleme cu această instalare?</target>
       </trans-unit>
       <trans-unit id="macosinstaller.conclusion.message31">
         <source>Help</source>
@@ -54,9 +56,11 @@
       </trans-unit>
       <trans-unit id="macosinstaller.previous_build.message">
         <source>A previous installation of Mozilla VPN exists at /Applications/Mozilla VPN.app. This installer will remove the previous installation prior to installing. Please back up any data before proceeding.</source>
+        <target>Există o instalare anterioară Mozilla VPN în /Applications/Mozilla VPN.app. Acest program de instalare o va elimina pe cea anterioară înainte de instalare. Te rugăm să faci o copie de rezervă cu toate datele înainte de a continua.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.previous_build.title">
         <source>Previous Installation Detected</source>
+        <target>S-a depistat o instalare anterioară</target>
       </trans-unit>
       <trans-unit id="macosinstaller.title">
         <source>Mozilla VPN for macOS</source>
@@ -72,9 +76,11 @@
       </trans-unit>
       <trans-unit id="macosinstaller.welcome.message1">
         <source>You will now be guided through the installation steps for the Mozilla VPN. Thank you for choosing your VPN from the trusted pioneer of internet privacy.</source>
+        <target>Vei fi ghidat(ă) acum prin pașii de instalare pentru Mozilla VPN. Îți mulțumim că ai ales VPN-ul de la pionierul de încredere al confidențialității pe internet.</target>
       </trans-unit>
       <trans-unit id="macosinstaller.welcome.message2">
         <source>Click “Continue” to continue the setup.</source>
+        <target>Dă clic pe „Continuare” pentru a continua configurarea.</target>
       </trans-unit>
     </body>
   </file>
@@ -102,6 +108,7 @@
       </trans-unit>
       <trans-unit id="vpn.errors.unableToEstablishConnection">
         <source>Unable to establish a connection at this time. We’re working hard to resolve the issue. Please try again shortly.</source>
+        <target>Nu s-a putut stabili o conexiune momentan. Depunem toate eforturile pentru a rezolva problema. Te rugăm să încerci din nou în scurt timp.</target>
       </trans-unit>
     </body>
   </file>
@@ -109,6 +116,7 @@
     <body>
       <trans-unit id="vpn.crashreporter.description">
         <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
+        <target>Aplicația Mozilla VPN s-a închis pe neașteptate. Vrei să trimiți un raport de eroare pentru a ajuta la remedierea problemei?</target>
         <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.dontSendButton">
@@ -145,6 +153,7 @@
       </trans-unit>
       <trans-unit id="vpn.servers.currentLocation">
         <source>current location - %1</source>
+        <target>locație actuală - %1</target>
         <note annotates="source" from="developer">Accessibility description for current location of the VPN server</note>
       </trans-unit>
       <trans-unit id="vpn.servers.selectLocation">
@@ -158,6 +167,7 @@
     <body>
       <trans-unit id="vpn.connectionStability.checkConnection">
         <source>Check Connection</source>
+        <target>Verifică conexiunea</target>
         <note annotates="source" from="developer">Message displayed to the user when the connection is unstable or missing, asking them to check their connection.</note>
       </trans-unit>
       <trans-unit id="vpn.connectionStability.noSignal">
@@ -179,6 +189,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.activating">
         <source>Masking connection and location</source>
+        <target>Mascarea conexiunii și a locației</target>
       </trans-unit>
       <trans-unit id="vpn.controller.activationSloagan">
         <source>Turn on to protect your privacy</source>
@@ -203,6 +214,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.deactivating">
         <source>Unmasking connection and location</source>
+        <target>Dezactivarea mascării conexiunii și a locației</target>
       </trans-unit>
       <trans-unit id="vpn.controller.disconnecting">
         <source>Disconnecting…</source>
@@ -214,6 +226,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.switchingDetail">
         <source>From %1 to %2</source>
+        <target>De la %1 la %2</target>
         <note annotates="source" from="developer">Switches from location 1 to location 2</note>
       </trans-unit>
     </body>
@@ -260,18 +273,23 @@
       </trans-unit>
       <trans-unit id="vpn.settings.guestWifiAlert.description">
         <source>Get notified if a guest Wi-Fi portal is blocked due to VPN connection</source>
+        <target>Primești notificări dacă un portal Wi-Fi pentru oaspeți este blocat din cauza conexiunii VPN</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange.description">
         <source>Get notified when the connection status changes</source>
+        <target>Primești notificări când se schimbă starea conexiunii</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.connectionChange2">
         <source>Connection change notification</source>
+        <target>Notificare de modificare a conexiunii</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch.description">
         <source>Get notified when you successfully switched servers</source>
+        <target>Primești notificări când ai schimbat cu succes serverele</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notification.serverSwitch2">
         <source>Server switching notification</source>
+        <target>Notificare de schimbare a serverului</target>
       </trans-unit>
       <trans-unit id="vpn.settings.notifications">
         <source>Notifications</source>
@@ -279,9 +297,11 @@
       </trans-unit>
       <trans-unit id="vpn.settings.unsecuredNetworkAlert">
         <source>Unsecured network alert</source>
+        <target>Alertă de rețea nesecurizată</target>
       </trans-unit>
       <trans-unit id="vpn.settings.unsecuredNetworkAlert.description">
         <source>Get notified if you connect to an unsecured Wi-Fi network</source>
+        <target>Primești notificări dacă te conectezi la o rețea Wi-Fi nesecurizată</target>
       </trans-unit>
     </body>
   </file>
@@ -303,6 +323,7 @@
     <body>
       <trans-unit id="vpn.errors.checkOutageUpdates">
         <source>Check outage updates</source>
+        <target>Verifică pentru actualizări privind întreruperile</target>
       </trans-unit>
     </body>
   </file>
@@ -314,6 +335,7 @@
       </trans-unit>
       <trans-unit id="vpn.updates.updateConnectionInsecureWarning">
         <source>Your connection will not be secure while you update.</source>
+        <target>Conexiunea nu va fi securizată în timpul actualizării.</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateNow">
         <source>Update now</source>
@@ -325,9 +347,11 @@
       </trans-unit>
       <trans-unit id="vpn.updates.updateRecomended.description">
         <source>Please update the app before you continue to use the VPN</source>
+        <target>Te rugăm să actualizezi aplicația înainte de a continua să utilizezi VPN-ul</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRequire.reason">
         <source>We detected and fixed a serious bug. You must update your app.</source>
+        <target>Am detectat și am corectat o eroare gravă. Trebuie să actualizezi aplicația.</target>
       </trans-unit>
       <trans-unit id="vpn.updates.updateRequired">
         <source>Update required</source>
@@ -357,6 +381,7 @@
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion">
         <source>Release version</source>
+        <target>Versiune de lansare</target>
         <note annotates="source" from="developer">Refers to the installed version. For example: 'Release Version: 1.23'</note>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.termsOfService">
@@ -392,16 +417,20 @@
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.subLabel">
         <source>Allow RCS/MMS messaging, Apple features like CarPlay and AirDrop, and connections to local devices. May reduce network security.</source>
+        <target>Permite mesageria RCS/MMS, funcționalități Apple, precum CarPlay și AirDrop, și conexiuni la dispozitive locale. Poate reduce securitatea rețelei.</target>
         <note annotates="source" from="developer">Make sure it's clear that this will allow major features (like messaging apps) to function, but potentially at the expense of some security.</note>
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.vpnMustBeOff">
         <source>VPN must be off to change this setting</source>
+        <target>VPN-ul trebuie să fie dezactivat pentru a schimba această setare</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPostActivation">
         <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
+        <target>Trebuie să dezactivezi VPN-ul pentru a vedea portalul și să îl reactivezi după ce te-ai conectat.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPreActivation">
         <source>You can turn on your VPN once you have gained internet access by logging in to the portal.</source>
+        <target>Poți activa VPN-ul odată ce ai obținut acces la internet prin autentificarea pe portal.</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.buttonTextPostActivation">
         <source>Turn off VPN</source>
