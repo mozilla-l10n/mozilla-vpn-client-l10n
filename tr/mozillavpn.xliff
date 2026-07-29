@@ -599,6 +599,7 @@
       </trans-unit>
       <trans-unit id="vpn.controller.obfuscationOn">
         <source>Obfuscation is on</source>
+        <target>Gizleme açık</target>
         <note annotates="source" from="developer">Label for the main screen when Obfuscation features are enabled</note>
       </trans-unit>
       <trans-unit id="vpn.controller.regeneratingKey">
@@ -938,14 +939,17 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.obfuscationBody1">
         <source>These options should be used when a network is blocking connections to VPN servers. They will not help when a specific website or app blocks content because of the VPN.</source>
+        <target>Bir ağ VPN sunucularına bağlantıları engelliyorsa bu seçenekler kullanılmalıdır. Bir web sitesi veya uygulama VPN yüzünden içerikleri engellediğinde işe yaramazlar.</target>
         <note annotates="source" from="developer">Body label for the Obfuscation features help sheet</note>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.obfuscationBody2">
         <source>These features may slow down the connection, so turn them off when they are not needed.</source>
+        <target>Bu özellikler bağlantıyı yavaşlatabilir, o yüzden ihtiyacınız olmadığında kapatın.</target>
         <note annotates="source" from="developer">Body label for the Obfuscation features help sheet</note>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.obfuscationTitle">
         <source>Obfuscation</source>
+        <target>Gizleme</target>
         <note annotates="source" from="developer">Title label for the Obfuscation features help sheet</note>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyBody1">
@@ -2036,10 +2040,12 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
+        <target>Bu sunucu konumu geçici olarak kullanılamıyor. Yeni bir konum seçin veya farklı bir gizleme yöntemi deneyin.</target>
         <note annotates="source" from="developer">Server unavailable modal body shown when an obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextEnableObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try to enable obfuscation.</source>
+        <target>Bu sunucu konumu geçici olarak kullanılamıyor. Yeni bir konum seçin veya karmaşıklığı etkinleştirmeyi deneyin.</target>
         <note annotates="source" from="developer">Server unavailable modal body shown when no obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.buttonLabel">
@@ -2048,6 +2054,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.configureObfuscationButtonLabel">
         <source>Configure obfuscation</source>
+        <target>Gizlemeyi yapılandır</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.headerText">
         <source>Server unavailable</source>
@@ -2059,10 +2066,12 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
+        <target>Bu sunucu konumu geçici olarak kullanılamıyor. Yeni bir konum seçmek veya farklı bir gizleme yöntemini denemek için lütfen uygulamayı açın.</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when an obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextEnableObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
+        <target>Bu sunucu konumu geçici olarak kullanılamıyor. Yeni bir konum seçmek için lütfen uygulamayı açın veya karmaşıklığı etkinleştirmeyi deneyin.</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
@@ -2071,10 +2080,12 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
+        <target>Sunucu engellenmiştir. Güvenlik duvarı ayarlarınızı kontrol edin veya farklı bir gizleme yöntemi deneyin.</target>
         <note annotates="source" from="developer">Server unavailable notification or modal body, shown when an obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedEnableObfuscation">
         <source>The server has been blocked. Check your firewall settings or try to enable obfuscation.</source>
+        <target>Sunucu engellenmiştir. Güvenlik duvarı ayarlarınızı kontrol edin veya kod gizlemeyi etkinleştirmeyi deneyin.</target>
         <note annotates="source" from="developer">Server unavailable notification or modal body, shown when no obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel">
@@ -2284,60 +2295,77 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>
+        <target>En hızlı şaşırtma yöntemi. TelGuard trafiğini algılayan veya engelleyen ağlara fazladan yük eklemeden yardımcı olabilir.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoOverPort53Body">
         <source>Combines the benefits of LWO and port 53.</source>
+        <target>LWO ve port 53'ün avantajlarını bir araya getirir.</target>
         <note annotates="source" from="developer">LWO is an acronym, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoOverPort53Title">
         <source>LWO over port 53</source>
+        <target>port 53 üzerinden LWO</target>
         <note annotates="source" from="developer">LWO is an acronym, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoTitle">
         <source>LWO</source>
+        <target>LWO</target>
         <note annotates="source" from="developer">LWO is an acronym, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationMasqueBody">
         <source>Disguises VPN traffic as regular HTTPS traffic. May help on networks that block VPN protocols.</source>
+        <target>VPN trafiğini normal HTTPS trafiği olarak gizler. VPN protokollerini engelleyen ağlarda yardımcı olabilir.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationMasqueTitle">
         <source>MASQUE</source>
+        <target>MASKE</target>
         <note annotates="source" from="developer">MASQUE is an acronym, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationPort53Body">
         <source>Routes traffic through the port commonly used for DNS. May help on networks that block UDP traffic.</source>
+        <target>Trafiği yaygın olarak DNS için kullanılan bağlantı noktası üzerinden yönlendirir. UDP trafiğini engelleyen ağlarda yardımcı olabilir.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationPort53Title">
         <source>Always connect using port 53</source>
+        <target>Her zaman port 53'ü kullanarak bağlan</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettings">
         <source>Obfuscation</source>
+        <target>Gizleme</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettingsDescription">
         <source>May help bypass network restrictions and censorship.</source>
+        <target>Ağ kısıtlamalarını ve sansürü gidermeye yardımcı olabilir.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettingsEnable">
         <source>Enable Obfuscation</source>
+        <target>Gizlemeyi etkinleştir</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettingsWarning1">
         <source>These features will not help when a specific website or app blocks content because of the VPN.</source>
+        <target>Belirli bir web sitesi veya uygulama VPN nedeniyle içerikleri engellediğinde bu özellikler işe yaramaz.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettingsWarning2">
         <source>They may cause degraded network speed.</source>
+        <target>Ağ hızının düşmesine neden olabilirler.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationShadowsocksBody">
         <source>Wraps VPN traffic in an encrypted Shadowsocks connection to make it less identifiable. Could work when all other approaches do not.</source>
+        <target>Daha az tanımlanabilir hale getirmek için VPN trafiğini şifrelenmiş bir Shadowsocks bağlantısına sarar. Diğer yaklaşımlar çalışmadığında çalışabilir.</target>
         <note annotates="source" from="developer">Shadowsocks is a protocol name, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationShadowsocksTitle">
         <source>Shadowsocks</source>
+        <target>Shadowsocks</target>
         <note annotates="source" from="developer">Shadowsocks is a protocol name, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationUdpOverTcpBody">
         <source>Tunnels UDP traffic over TCP. May help on networks that block UDP traffic.</source>
+        <target>UDP trafiğini TCP üzerinden geçirir. UDP trafiğini engelleyen ağlarda yardımcı olabilir.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationUdpOverTcpTitle">
         <source>UDP over TCP</source>
+        <target>TCP üzerinden UDP</target>
       </trans-unit>
       <trans-unit id="vpn.settings.preferencesSettings">
         <source>Preferences</source>
