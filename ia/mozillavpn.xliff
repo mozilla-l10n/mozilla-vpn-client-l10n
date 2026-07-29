@@ -597,6 +597,10 @@
         <target>ms</target>
         <note annotates="source" from="developer">milliseconds</note>
       </trans-unit>
+      <trans-unit id="vpn.controller.obfuscationOn">
+        <source>Obfuscation is on</source>
+        <note annotates="source" from="developer">Label for the main screen when Obfuscation features are enabled</note>
+      </trans-unit>
       <trans-unit id="vpn.controller.regeneratingKey">
         <source>Preparing your connection</source>
         <target>Preparante tu connexion</target>
@@ -931,6 +935,18 @@
         <source>Location selection</source>
         <target>Election del position</target>
         <note annotates="source" from="developer">Title label for the location selection help sheet</note>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.obfuscationBody1">
+        <source>These options should be used when a network is blocking connections to VPN servers. They will not help when a specific website or app blocks content because of the VPN.</source>
+        <note annotates="source" from="developer">Body label for the Obfuscation features help sheet</note>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.obfuscationBody2">
+        <source>These features may slow down the connection, so turn them off when they are not needed.</source>
+        <note annotates="source" from="developer">Body label for the Obfuscation features help sheet</note>
+      </trans-unit>
+      <trans-unit id="vpn.helpSheets.obfuscationTitle">
+        <source>Obfuscation</source>
+        <note annotates="source" from="developer">Title label for the Obfuscation features help sheet</note>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyBody1">
         <source>Privacy features give you greater control over the types of content you see, helping you stay safe online.</source>
@@ -2017,9 +2033,20 @@ Es %@ connexe?</target>
         <source>This server location is temporarily unavailable. Choose a new location.</source>
         <target>Iste position del servitor non es temporarimente disponibile. Elige un nove position.</target>
       </trans-unit>
+      <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
+        <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
+        <note annotates="source" from="developer">Server unavailable modal body shown when an obfuscation policy is selected.</note>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableModal.bodyTextEnableObfuscation">
+        <source>This server location is temporarily unavailable. Choose a new location or try to enable obfuscation.</source>
+        <note annotates="source" from="developer">Server unavailable modal body shown when no obfuscation policy is selected.</note>
+      </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.buttonLabel">
         <source>Choose a new location</source>
         <target>Elige un nove position</target>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableModal.configureObfuscationButtonLabel">
+        <source>Configure obfuscation</source>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.headerText">
         <source>Server unavailable</source>
@@ -2029,9 +2056,25 @@ Es %@ connexe?</target>
         <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
         <target>Iste position de servitor es temporarimente indisponibile. Per favor aperi le app a elige un nove position.</target>
       </trans-unit>
+      <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
+        <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
+        <note annotates="source" from="developer">Server unavailable notification, shown when an obfuscation policy is selected.</note>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableNotification.bodyTextEnableObfuscation">
+        <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
+        <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
+      </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
         <source>The server has been blocked. Check your firewall settings.</source>
         <target>Le servitor ha essite blocate. Verifica le parametros de tu firewall.</target>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
+        <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
+        <note annotates="source" from="developer">Server unavailable notification or modal body, shown when an obfuscation policy is selected.</note>
+      </trans-unit>
+      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedEnableObfuscation">
+        <source>The server has been blocked. Check your firewall settings or try to enable obfuscation.</source>
+        <note annotates="source" from="developer">Server unavailable notification or modal body, shown when no obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel">
         <source>Server unavailable notification</source>
@@ -2237,6 +2280,63 @@ Es %@ connexe?</target>
       <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphMain">
         <source>Browse one site as if you’re in New York and another as if you’re in Paris — all in the same Firefox session.</source>
         <target>Naviga sur un sito como si tu es a New York, e sur un altere como si tu es a Paris, toto in le mesme session de Firefox.</target>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationLwoBody">
+        <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationLwoOverPort53Body">
+        <source>Combines the benefits of LWO and port 53.</source>
+        <note annotates="source" from="developer">LWO is an acronym, it should NOT be translated.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationLwoOverPort53Title">
+        <source>LWO over port 53</source>
+        <note annotates="source" from="developer">LWO is an acronym, it should NOT be translated.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationLwoTitle">
+        <source>LWO</source>
+        <note annotates="source" from="developer">LWO is an acronym, it should NOT be translated.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationMasqueBody">
+        <source>Disguises VPN traffic as regular HTTPS traffic. May help on networks that block VPN protocols.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationMasqueTitle">
+        <source>MASQUE</source>
+        <note annotates="source" from="developer">MASQUE is an acronym, it should NOT be translated.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationPort53Body">
+        <source>Routes traffic through the port commonly used for DNS. May help on networks that block UDP traffic.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationPort53Title">
+        <source>Always connect using port 53</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationSettings">
+        <source>Obfuscation</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationSettingsDescription">
+        <source>May help bypass network restrictions and censorship.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationSettingsEnable">
+        <source>Enable Obfuscation</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationSettingsWarning1">
+        <source>These features will not help when a specific website or app blocks content because of the VPN.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationSettingsWarning2">
+        <source>They may cause degraded network speed.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationShadowsocksBody">
+        <source>Wraps VPN traffic in an encrypted Shadowsocks connection to make it less identifiable. Could work when all other approaches do not.</source>
+        <note annotates="source" from="developer">Shadowsocks is a protocol name, it should NOT be translated.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationShadowsocksTitle">
+        <source>Shadowsocks</source>
+        <note annotates="source" from="developer">Shadowsocks is a protocol name, it should NOT be translated.</note>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationUdpOverTcpBody">
+        <source>Tunnels UDP traffic over TCP. May help on networks that block UDP traffic.</source>
+      </trans-unit>
+      <trans-unit id="vpn.settings.obfuscationUdpOverTcpTitle">
+        <source>UDP over TCP</source>
       </trans-unit>
       <trans-unit id="vpn.settings.preferencesSettings">
         <source>Preferences</source>
