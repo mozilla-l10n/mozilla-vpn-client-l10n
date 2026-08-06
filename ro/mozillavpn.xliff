@@ -1914,6 +1914,18 @@ Este %@ conectat?</target>
         <target>Pentru utilizarea Mozilla VPN, te rugăm să îi permiți să ruleze în fundal.</target>
         <note annotates="source" from="developer">Paragraph requesting the user to allow the VPN to run in the background.</note>
       </trans-unit>
+      <trans-unit id="vpn.permissionMacos.imageTitleBackground">
+        <source>Allow in the Background</source>
+        <note annotates="source" from="developer">Title in the permission required image, showing the Allow in the Background section of Login Items panel in the system preferences. See https://support.apple.com/guide/mac-help/mtusr003/15.0/mac/15.0 for reference translations of these features provided by macOS.</note>
+      </trans-unit>
+      <trans-unit id="vpn.permissionMacos.imageTitleBackgroundMacOS26">
+        <source>App Background Activity</source>
+        <note annotates="source" from="developer">Title in the permission required image, showing the App Background Acitivty section of the Login Items panel in the system preferences for macOS 26 and later. See https://support.apple.com/guide/mac-help/mtusr003/26/mac/26 for reference translations of these features provided by macOS.</note>
+      </trans-unit>
+      <trans-unit id="vpn.permissionMacos.imageTitleNetworkExtension">
+        <source>Network Extensions</source>
+        <note annotates="source" from="developer">Title in the permission required image for network extension installation, showing the Network Extensions categry popup of the Login Items and Extensions panel in the system preferences. See https://support.apple.com/guide/mac-help/mtusr003/mac for reference translations of these features provided by macOS.</note>
+      </trans-unit>
       <trans-unit id="vpn.permissionMacos.instructions">
         <source>In order to do this, please click the button below to open the &lt;i&gt;Login Items&lt;/i&gt; of your &lt;i&gt;System Preferences&lt;/i&gt;, and enable &lt;i&gt;Allow in the background&lt;/i&gt; for Mozilla VPN.</source>
         <target>Pentru aceasta, te rugăm să dai clic pe butonul de mai jos ca să deschizi &lt;i&gt;Elemente de autentificare&lt;/i&gt; din &lt;i&gt;Preferințe sistem&lt;/i&gt; și să activezi &lt;i&gt;Permite să ruleze în fundal&lt;/i&gt; pentru Mozilla VPN.</target>
@@ -1933,6 +1945,10 @@ Este %@ conectat?</target>
         <source>Open Login Items</source>
         <target>Deschide Elementele de autentificare</target>
         <note annotates="source" from="developer">Label for the button that opens the login items settings page on macOS 14</note>
+      </trans-unit>
+      <trans-unit id="vpn.permissionMacos.openSettingsButtonLabelGeneric">
+        <source>Open System Settings</source>
+        <note annotates="source" from="developer">Label for the button that opens the system settings page without specifying a specific section</note>
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.openSettingsButtonLabelMacOS15">
         <source>Open Login Items &amp; Extensions</source>
