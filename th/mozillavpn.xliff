@@ -2091,10 +2091,12 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
+        <target>เซิร์ฟเวอร์นี้ไม่พร้อมใช้งานชั่วคราว โปรดเปิดแอปเพื่อเลือกตำแหน่งใหม่หรือลองเปลี่ยนวิธีการอำพราง</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when an obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextEnableObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
+        <target>เซิร์ฟเวอร์นี้ไม่พร้อมใช้งานชั่วคราว ลองเลือกตำแหน่งใหม่หรือเปิดการอำพราง</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
@@ -2103,6 +2105,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
+        <target>เซิร์ฟเวอร์ถูกปิดกั้น โปรดตรวจสอบการตั้งค่าไฟร์วอลล์หรือลองเปลี่ยนวิธีการอำพราง</target>
         <note annotates="source" from="developer">Server unavailable notification or modal body, shown when an obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedEnableObfuscation">
@@ -2343,6 +2346,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationPort53Title">
         <source>Always connect using port 53</source>
+        <target>ใช้พอร์ต 53 ทุกครั้งที่เชื่อมต่อ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettings">
         <source>Obfuscation</source>
@@ -2363,6 +2367,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationShadowsocksBody">
         <source>Wraps VPN traffic in an encrypted Shadowsocks connection to make it less identifiable. Could work when all other approaches do not.</source>
+        <target>ครอบการรับส่งข้อมูล VPN ด้วยการเชื่อมต่อ Shadowsocks ที่เข้ารหัส ทำให้ตรวจจับได้ยากขึ้น เหมาะเมื่อวิธีอื่นไม่ได้ผล</target>
         <note annotates="source" from="developer">Shadowsocks is a protocol name, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationShadowsocksTitle">
