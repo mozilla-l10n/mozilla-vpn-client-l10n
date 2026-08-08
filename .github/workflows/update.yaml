@@ -5,9 +5,14 @@ on:
   workflow_dispatch:
     inputs:
       type:
-        description: Type of update (standard, nofile, matchid)
+        description: Type of update
         required: true
-        default: "standard"
+        default: standard
+        type: choice
+        options:
+          - standard
+          - nofile
+          - matchid
       branch:
         description: Branch of mozilla-vpn-client
         required: true
@@ -107,7 +112,7 @@ jobs:
           # Remove obsolete XLIFF files
           python translationFiles/.github/scripts/remove_obsolete_files.py --reference en --path translationFiles/
         env:
-          GITHUB_EVENT_INPUTS_TYPE: ${{ github.event.inputs.type }}
+          GITHUB_EVENT_INPUTS_TYPE: ${{ github.event.inputs.type || 'standard' }}
       - uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           token: ${{ secrets.L10N_VPN }}
