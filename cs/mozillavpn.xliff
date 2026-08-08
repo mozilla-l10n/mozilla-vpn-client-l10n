@@ -949,6 +949,7 @@
       </trans-unit>
       <trans-unit id="vpn.helpSheets.obfuscationTitle">
         <source>Obfuscation</source>
+        <target>Zamaskování</target>
         <note annotates="source" from="developer">Title label for the Obfuscation features help sheet</note>
       </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyBody1">
@@ -2063,10 +2064,12 @@ Je %@ zapnutá?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
+        <target>Tato lokalita serveru je dočasně nedostupná. Vyberte si novou lokalitu nebo zkuste jinou metodu maskování.</target>
         <note annotates="source" from="developer">Server unavailable modal body shown when an obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextEnableObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try to enable obfuscation.</source>
+        <target>Tato lokalita serveru je dočasně nedostupná. Vyberte si jinou lokalitu nebo zkuste zapnout maskování.</target>
         <note annotates="source" from="developer">Server unavailable modal body shown when no obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.buttonLabel">
@@ -2075,6 +2078,7 @@ Je %@ zapnutá?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.configureObfuscationButtonLabel">
         <source>Configure obfuscation</source>
+        <target>Konfigurace zamaskování</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.headerText">
         <source>Server unavailable</source>
@@ -2086,10 +2090,12 @@ Je %@ zapnutá?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
+        <target>Tato poloha serveru je dočasně nedostupná. Otevřete prosím aplikaci a vyberte si novou polohu nebo zkuste jinou metodu maskování.</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when an obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextEnableObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
+        <target>Tato poloha serveru je dočasně nedostupná. Otevřete prosím aplikaci a vyberte novou polohu, případně zkuste zapnout maskování.</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
@@ -2098,10 +2104,12 @@ Je %@ zapnutá?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
+        <target>Server byl zablokován. Zkontrolujte nastavení brány firewall nebo zkuste jinou metodu maskování.</target>
         <note annotates="source" from="developer">Server unavailable notification or modal body, shown when an obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedEnableObfuscation">
         <source>The server has been blocked. Check your firewall settings or try to enable obfuscation.</source>
+        <target>Server byl zablokován. Zkontrolujte nastavení brány firewall nebo zkuste povolit maskování.</target>
         <note annotates="source" from="developer">Server unavailable notification or modal body, shown when no obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel">
@@ -2311,60 +2319,77 @@ Je %@ zapnutá?
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>
+        <target>Nejrychlejší metoda maskování. Může být užitečná v sítích, které detekují nebo blokují provoz WireGuard, aniž by to znamenalo významnou zátěž.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoOverPort53Body">
         <source>Combines the benefits of LWO and port 53.</source>
+        <target>Kombinuje výhody LWO a portu 53.</target>
         <note annotates="source" from="developer">LWO is an acronym, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoOverPort53Title">
         <source>LWO over port 53</source>
+        <target>LWO skrze port 53</target>
         <note annotates="source" from="developer">LWO is an acronym, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoTitle">
         <source>LWO</source>
+        <target>LWO</target>
         <note annotates="source" from="developer">LWO is an acronym, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationMasqueBody">
         <source>Disguises VPN traffic as regular HTTPS traffic. May help on networks that block VPN protocols.</source>
+        <target>Maskuje VPN provoz jako běžný HTTPS provoz. Může být užitečné v sítích, které blokují VPN protokoly.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationMasqueTitle">
         <source>MASQUE</source>
+        <target>MASQUE</target>
         <note annotates="source" from="developer">MASQUE is an acronym, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationPort53Body">
         <source>Routes traffic through the port commonly used for DNS. May help on networks that block UDP traffic.</source>
+        <target>Směřuje provoz přes port, který se běžně používá pro DNS. Může to pomoci v sítích, které blokují provoz přes protokol UDP.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationPort53Title">
         <source>Always connect using port 53</source>
+        <target>Vždy se připojit přes port 53</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettings">
         <source>Obfuscation</source>
+        <target>Zamaskování</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettingsDescription">
         <source>May help bypass network restrictions and censorship.</source>
+        <target>Může pomoci obejít síťová omezení a cenzuru.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettingsEnable">
         <source>Enable Obfuscation</source>
+        <target>Povolit zamaskování</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettingsWarning1">
         <source>These features will not help when a specific website or app blocks content because of the VPN.</source>
+        <target>Tyto funkce nepomohou v případě, že konkrétní webová stránka nebo aplikace blokuje obsah kvůli VPN.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettingsWarning2">
         <source>They may cause degraded network speed.</source>
+        <target>Může způsobit snížení rychlosti sítě.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationShadowsocksBody">
         <source>Wraps VPN traffic in an encrypted Shadowsocks connection to make it less identifiable. Could work when all other approaches do not.</source>
+        <target>Zabalí VPN provoz do šifrovaného připojení Shadowsocks, aby byl hůře identifikovatelný. Může fungovat i tam, kde všechny ostatní přístupy selhávají.</target>
         <note annotates="source" from="developer">Shadowsocks is a protocol name, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationShadowsocksTitle">
         <source>Shadowsocks</source>
+        <target>Shadowsocks</target>
         <note annotates="source" from="developer">Shadowsocks is a protocol name, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationUdpOverTcpBody">
         <source>Tunnels UDP traffic over TCP. May help on networks that block UDP traffic.</source>
+        <target>Tuneluje UDP provoz přes TCP. Může být užitečné v sítích, které blokují UDP provoz.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationUdpOverTcpTitle">
         <source>UDP over TCP</source>
+        <target>UDP přes TCP</target>
       </trans-unit>
       <trans-unit id="vpn.settings.preferencesSettings">
         <source>Preferences</source>
