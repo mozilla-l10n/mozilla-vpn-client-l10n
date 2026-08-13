@@ -305,6 +305,18 @@
         <target>Avete messu à livellu Mozilla VPN in versione %1</target>
         <note annotates="source" from="developer">Title for What's New message. %1 is replaced by the version number, such as 2.25</note>
       </trans-unit>
+      <trans-unit id="vpn.mandatoryUpdate.body1">
+        <source xml:space="preserve">This version of Mozilla VPN will no longer be supported as of October 19, 2026.</source>
+        <note annotates="source" from="developer">Line explaining end-of-life for some Mozilla VPN versions. Include the deadline date.</note>
+      </trans-unit>
+      <trans-unit id="vpn.mandatoryUpdate.body2">
+        <source xml:space="preserve">Please update to the latest version to continue using Mozilla VPN.</source>
+        <note annotates="source" from="developer">Line asking users to update. This should be kind, yet firm. It should not include any language that implies this is optional.</note>
+      </trans-unit>
+      <trans-unit id="vpn.mandatoryUpdate.title">
+        <source xml:space="preserve">Action required: Update to the latest version</source>
+        <note annotates="source" from="developer">Title of a message. Should make it clear the user must take action.</note>
+      </trans-unit>
       <trans-unit id="vpn.tryFirefoxExtension.bullet1">
         <source xml:space="preserve">Turn off VPN for specific websites</source>
         <target>Disattivà a VPN per siti web specifichi</target>
