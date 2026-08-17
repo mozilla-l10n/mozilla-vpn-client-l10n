@@ -1954,6 +1954,7 @@ Onko %@ päällä?
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.openSettingsButtonLabelGeneric">
         <source>Open System Settings</source>
+        <target>Avaa järjestelmäasetukset</target>
         <note annotates="source" from="developer">Label for the button that opens the system settings page without specifying a specific section</note>
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.openSettingsButtonLabelMacOS15">
@@ -2069,6 +2070,7 @@ Onko %@ päällä?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
+        <target>Tämä palvelinsijainti on tilapäisesti pois käytöstä. Valitse uusi sijainti tai kokeile toista hämärtämismenetelmää.</target>
         <note annotates="source" from="developer">Server unavailable modal body shown when an obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextEnableObfuscation">
@@ -2094,10 +2096,12 @@ Onko %@ päällä?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
+        <target>Tämä palvelimen sijainti ei ole tilapäisesti käytettävissä. Avaa sovellus ja valitse uusi sijainti, tai kokeile toista hämärtämismenetelmää.</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when an obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextEnableObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
+        <target>Tämä palvelinsijainti ei ole tilapäisesti käytettävissä. Avaa sovellus valitaksesi uuden sijainnin tai yritä ottaa käyttöön hämärtäminen.</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
@@ -2106,10 +2110,12 @@ Onko %@ päällä?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
+        <target>Palvelin on estetty. Tarkista palomuurisi asetukset tai kokeile toista hämärtämismenetelmää.</target>
         <note annotates="source" from="developer">Server unavailable notification or modal body, shown when an obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedEnableObfuscation">
         <source>The server has been blocked. Check your firewall settings or try to enable obfuscation.</source>
+        <target>Palvelin on estetty. Tarkista palomuurisi asetukset tai yritä ottaa käyttöön hämärtäminen.</target>
         <note annotates="source" from="developer">Server unavailable notification or modal body, shown when no obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.preferencesLabel">
@@ -2319,6 +2325,7 @@ Onko %@ päällä?
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>
+        <target>Nopein hämärtämismenetelmä. Voi auttaa verkoissa, jotka havaitsevat tai estävät WireGuard-liikennettä, lisäämättä merkittävästi verkon kuormaa.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoOverPort53Body">
         <source>Combines the benefits of LWO and port 53.</source>
@@ -2334,6 +2341,7 @@ Onko %@ päällä?
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationMasqueBody">
         <source>Disguises VPN traffic as regular HTTPS traffic. May help on networks that block VPN protocols.</source>
+        <target>Naamioi VPN-liikenteen tavalliseksi HTTPS-liikenteeksi. Voi auttaa verkoissa, jotka estävät VPN-protokollia.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationMasqueTitle">
         <source>MASQUE</source>
@@ -2341,38 +2349,49 @@ Onko %@ päällä?
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationPort53Body">
         <source>Routes traffic through the port commonly used for DNS. May help on networks that block UDP traffic.</source>
+        <target>Reitittää liikenteen yleisesti DNS:ään käytetyn portin kautta. Voi auttaa verkoissa, jotka estävät UDP-liikenteen.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationPort53Title">
         <source>Always connect using port 53</source>
+        <target>Yhdistä aina portin 53 kautta</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettings">
         <source>Obfuscation</source>
+        <target>Hämärtäminen</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettingsDescription">
         <source>May help bypass network restrictions and censorship.</source>
+        <target>Saattaa auttaa ohittamaan verkkorajoituksia ja sensuuria.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettingsEnable">
         <source>Enable Obfuscation</source>
+        <target>Käytä hämärtämistä</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettingsWarning1">
         <source>These features will not help when a specific website or app blocks content because of the VPN.</source>
+        <target>Nämä ominaisuudet eivät auta, kun tietty verkkosivusto tai sovellus estää sisältöä VPN:n takia.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettingsWarning2">
         <source>They may cause degraded network speed.</source>
+        <target>Ne voivat hidastaa verkon nopeutta.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationShadowsocksBody">
         <source>Wraps VPN traffic in an encrypted Shadowsocks connection to make it less identifiable. Could work when all other approaches do not.</source>
+        <target>Käärii VPN-liikenteen salattuun Shadowsocks-yhteyteen, jotta se on vaikeammin tunnistettavissa. Voi toimia, kun mikään muu lähestymistapa ei toimi.</target>
         <note annotates="source" from="developer">Shadowsocks is a protocol name, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationShadowsocksTitle">
         <source>Shadowsocks</source>
+        <target>Shadowsocks</target>
         <note annotates="source" from="developer">Shadowsocks is a protocol name, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationUdpOverTcpBody">
         <source>Tunnels UDP traffic over TCP. May help on networks that block UDP traffic.</source>
+        <target>Tunneloi UDP-liikenteen TCP:n kautta. Voi auttaa verkoissa, jotka estävät UDP-liikennettä.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationUdpOverTcpTitle">
         <source>UDP over TCP</source>
+        <target>UDP TCP:n kautta</target>
       </trans-unit>
       <trans-unit id="vpn.settings.preferencesSettings">
         <source>Preferences</source>
@@ -2591,6 +2610,7 @@ Onko %@ päällä?
       </trans-unit>
       <trans-unit id="vpn.toggleWidget.unauthenticatedMessage">
         <source>Before using the widget, first turn on Mozilla VPN from app.</source>
+        <target>Ennen kuin otat widgetin käyttöön, ota Mozilla VPN käyttöön sovelluksesta.</target>
         <note annotates="source" from="developer">Text shown to users in the widget when they haven't signed in, or have removed the network extension.</note>
       </trans-unit>
       <trans-unit id="vpn.updateButton.actionNoUpdate">
