@@ -1382,6 +1382,12 @@ Switch %@ on
 Connect %@
 Connect to %@
 </source>
+        <target>Virkja %@
+Kveikja á %@
+Tengja %@
+Tengjast %@
+Tengjast við %@
+</target>
         <note annotates="source" from="developer">Siri phrase variants for activating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1399,6 +1405,12 @@ Switch %@ off
 Disconnect %@
 Disconnect from %@
 </source>
+        <target>Slökkva á %@
+Gera %@ óvirkt
+Aftengja %@
+Aftengjast %@
+Aftengjast frá %@
+</target>
         <note annotates="source" from="developer">Siri phrase variants for deactivating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1413,22 +1425,27 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
         <source>Mozilla VPN is currently connected</source>
+        <target>Mozilla VPN er tengt núna</target>
         <note annotates="source" from="developer">Response given when the VPN is connected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
         <source>Mozilla VPN is currently disconnected</source>
+        <target>Mozilla VPN er ekki tengt núna</target>
         <note annotates="source" from="developer">Response given when the VPN is disconnected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryTitle">
         <source>Is the VPN currently connected?</source>
+        <target>Er VPN tengt núna?</target>
         <note annotates="source" from="developer">Title used by system to offer to query VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleDescription">
         <source>Changes Mozilla VPN status</source>
+        <target>Breytir stöðu Mozilla VPN</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleError">
         <source>Error changing VPN status</source>
+        <target>Villa í að breyta stöðu VPN</target>
         <note annotates="source" from="developer">Generic error message used when toggling VPN fails early</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleTitle">
@@ -1443,14 +1460,17 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffConfirmation">
         <source>Mozilla VPN disconnected</source>
+        <target>Mozilla VPN aftengt</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning off VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffDescription">
         <source>Deactivate the Mozilla VPN connection</source>
+        <target>Gera Mozilla VPN-tenginguna óvirka</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffError">
         <source>No active VPN connection</source>
+        <target>Engin virk VPN-tenging</target>
         <note annotates="source" from="developer">Error given by Siri when unable to turn off VPN due to a lack of existing connection</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnAction">
@@ -1465,22 +1485,27 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmation">
         <source>Mozilla VPN connected</source>
+        <target>Mozilla VPN tengt</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationMultiHop">
         <source>Mozilla VPN connected through %1$@ via %2$@</source>
+        <target>Mozilla VPN er tengt í gegnum %1$@ með %2$@</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN. `%1$@` will be replaced with the exit city, and `%2$@` will be replaced with the entry city.</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationSingleHop">
         <source>Mozilla VPN connected through %@</source>
+        <target>Mozilla VPN er tengt í gegnum %@</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN. `%@` must be included, and it will be replaced with the name of the exit city.</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnDescription">
         <source>Activate the Mozilla VPN connection</source>
+        <target>Virkja Mozilla VPN-tenginguna</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnError">
         <source>Error turning on Mozilla VPN</source>
+        <target>Villa við að kveikja á Mozilla VPN</target>
         <note annotates="source" from="developer">Error given by Siri when unable to turn on VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsQueryStatus.phrases">
@@ -1495,6 +1520,16 @@ Is %@ turned on?
 Is %@ switched on?
 Is %@ connected?
 </source>
+        <target>Er %@ virkt núna?
+Er %@ virkjað núna?
+Er %@ kveikt núna?
+Er kveikt á %@ núna?
+Er %@ tengt núna?
+Er %@ virkt?
+Er %@ virkjað?
+Er búið að virkja %@?
+Er kveikt á %@?
+Er %@ tengt?</target>
         <note annotates="source" from="developer">Siri phrase variants for querying whether the VPN is active via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1868,6 +1903,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.imageTitleNetworkExtension">
         <source>Network Extensions</source>
+        <target>Netviðbætur</target>
         <note annotates="source" from="developer">Title in the permission required image for network extension installation, showing the Network Extensions categry popup of the Login Items and Extensions panel in the system preferences. See https://support.apple.com/guide/mac-help/mtusr003/mac for reference translations of these features provided by macOS.</note>
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.instructions">
@@ -1892,6 +1928,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.openSettingsButtonLabelGeneric">
         <source>Open System Settings</source>
+        <target>Opna kerfisstillingar</target>
         <note annotates="source" from="developer">Label for the button that opens the system settings page without specifying a specific section</note>
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.openSettingsButtonLabelMacOS15">
@@ -2086,6 +2123,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshNoUpdateLabel">
         <source>Tap to update</source>
+        <target>Ýttu til að uppfæra</target>
         <note annotates="source" from="developer">Label next to the refresh button shown when the recommended list has never been updated yet. The whole row is clickable and tapping triggers an update.</note>
       </trans-unit>
       <trans-unit id="vpn.serversView.recommendedRefreshlLoadingLabel">
@@ -2262,6 +2300,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoTitle">
         <source>LWO</source>
+        <target>LWO</target>
         <note annotates="source" from="developer">LWO is an acronym, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationMasqueBody">
@@ -2269,6 +2308,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationMasqueTitle">
         <source>MASQUE</source>
+        <target>MASQUE</target>
         <note annotates="source" from="developer">MASQUE is an acronym, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationPort53Body">
@@ -2298,6 +2338,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationShadowsocksTitle">
         <source>Shadowsocks</source>
+        <target>Shadowsocks</target>
         <note annotates="source" from="developer">Shadowsocks is a protocol name, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationUdpOverTcpBody">
@@ -2305,6 +2346,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationUdpOverTcpTitle">
         <source>UDP over TCP</source>
+        <target>UDP í gegnum TCP</target>
       </trans-unit>
       <trans-unit id="vpn.settings.preferencesSettings">
         <source>Preferences</source>
