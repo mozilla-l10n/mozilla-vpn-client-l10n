@@ -409,16 +409,20 @@
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.labelTitle">
         <source>Bypass VPN for select traffic</source>
+        <target>選択した通信を VPN の対象外にする</target>
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.learnMoreSentence">
         <source>Learn more.</source>
+        <target>詳細情報</target>
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.subLabel">
         <source>Allow RCS/MMS messaging, Apple features like CarPlay and AirDrop, and connections to local devices. May reduce network security.</source>
+        <target>RCS/MMS メッセージング、CarPlay や AirDrop などの Apple の機能、ローカルデバイスへの接続を許可します。ネットワークのセキュリティが低下する可能性があります。</target>
         <note annotates="source" from="developer">Make sure it's clear that this will allow major features (like messaging apps) to function, but potentially at the expense of some security.</note>
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.vpnMustBeOff">
         <source>VPN must be off to change this setting</source>
+        <target>この設定を変更するには VPN をオフにする必要があります</target>
       </trans-unit>
       <trans-unit id="vpn.captivePortalAlert.actionPostActivation">
         <source>You must turn off your VPN in order to see the portal, and turn it back on once you have logged in.</source>
@@ -446,6 +450,7 @@
       </trans-unit>
       <trans-unit id="vpn.cityAccessoryWidget.description">
         <source>See current Mozilla VPN status, along with the current server.</source>
+        <target>現在の Mozilla VPN の状態と、現在のサーバーを確認します。</target>
         <note annotates="source" from="developer">More information about what the city widget contains - which is current VPN status and the current city server.</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.connectionInformation">
@@ -564,6 +569,7 @@
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.rotateIPAddress">
         <source>Attempt to change IP address</source>
+        <target>IP アドレスの変更を試みる</target>
         <note annotates="source" from="developer">Accessible label for the button to try to get a new server in the same location</note>
       </trans-unit>
       <trans-unit id="vpn.connectionInfo.startSpeedTest">
@@ -593,10 +599,12 @@
       </trans-unit>
       <trans-unit id="vpn.controller.obfuscationOn">
         <source>Obfuscation is on</source>
+        <target>難読化が有効になっています</target>
         <note annotates="source" from="developer">Label for the main screen when Obfuscation features are enabled</note>
       </trans-unit>
       <trans-unit id="vpn.controller.regeneratingKey">
         <source>Preparing your connection</source>
+        <target>接続を準備しています</target>
         <note annotates="source" from="developer">Connection subtitle label for the main screen when the app is regenerating WireGuard keys</note>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.crashOptInDialogDescription">
@@ -1398,58 +1406,72 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryDescription">
         <source>Queries current Mozilla VPN connection status</source>
+        <target>現在の Mozilla VPN の接続状態を確認する</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
         <source>Mozilla VPN is currently connected</source>
+        <target>Mozilla VPN は現在接続されています</target>
         <note annotates="source" from="developer">Response given when the VPN is connected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseDisconnected">
         <source>Mozilla VPN is currently disconnected</source>
+        <target>Mozilla VPN は現在切断されています</target>
         <note annotates="source" from="developer">Response given when the VPN is disconnected</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryTitle">
         <source>Is the VPN currently connected?</source>
+        <target>VPN は現在接続されていますか？</target>
         <note annotates="source" from="developer">Title used by system to offer to query VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleDescription">
         <source>Changes Mozilla VPN status</source>
+        <target>Mozilla VPN の状態を変更する</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleError">
         <source>Error changing VPN status</source>
+        <target>VPN の状態を変更するときにエラーが発生しました</target>
         <note annotates="source" from="developer">Generic error message used when toggling VPN fails early</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.toggleTitle">
         <source>Toggle Mozilla VPN</source>
+        <target>Mozilla VPN を切り替える</target>
         <note annotates="source" from="developer">Title used by system to offer to toggle VPN status</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffAction">
         <source>Turn Off Mozilla VPN</source>
+        <target>Mozilla VPN をオフにする</target>
         <note annotates="source" from="developer">Title used by system to offer turning off VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffConfirmation">
         <source>Mozilla VPN disconnected</source>
+        <target>Mozilla VPN が切断されました</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning off VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffDescription">
         <source>Deactivate the Mozilla VPN connection</source>
+        <target>Mozilla VPN の接続を無効にする</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOffError">
         <source>No active VPN connection</source>
+        <target>アクティブな VPN 接続はありません</target>
         <note annotates="source" from="developer">Error given by Siri when unable to turn off VPN due to a lack of existing connection</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnAction">
         <source>Turn On Mozilla VPN</source>
+        <target>Mozilla VPN をオンにする</target>
         <note annotates="source" from="developer">Title used by system to offer turning on VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnAlreadyConnectedError">
         <source>VPN is already connected</source>
+        <target>VPN はすでに接続されています</target>
         <note annotates="source" from="developer">Error given by Siri when VPN already has an active connection</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmation">
         <source>Mozilla VPN connected</source>
+        <target>Mozilla VPN が接続されました</target>
         <note annotates="source" from="developer">Confirmation string used by Siri after turning on VPN</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.turnOnConfirmationMultiHop">
@@ -1671,9 +1693,11 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.notifications.connectionFailedMessage">
         <source>Sorry, something went wrong with your VPN connection.</source>
+        <target>申し訳ありません、VPN 接続で問題が発生しました。</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.connectionFailedTitle">
         <source>Connection failed</source>
+        <target>接続に失敗しました</target>
       </trans-unit>
       <trans-unit id="vpn.notifications.subscriptionNotFound">
         <source>Your Mozilla VPN subscription cannot be found. Please open the app to resolve this subscription issue.</source>
@@ -1840,6 +1864,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.imageTitleBackground">
         <source>Allow in the Background</source>
+        <target>バックグラウンドでの実行を許可</target>
         <note annotates="source" from="developer">Title in the permission required image, showing the Allow in the Background section of Login Items panel in the system preferences. See https://support.apple.com/guide/mac-help/mtusr003/15.0/mac/15.0 for reference translations of these features provided by macOS.</note>
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.imageTitleBackgroundMacOS26">
@@ -2131,14 +2156,17 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.appearanceLight">
         <source>Light</source>
+        <target>ライト</target>
         <note annotates="source" from="developer">Light as in "light mode theme"</note>
       </trans-unit>
       <trans-unit id="vpn.settings.batteryOptimizationWarning">
         <source>On some devices, Mozilla VPN may be disconnected in the background. If you’ve experienced this, allow it to run in the background.</source>
+        <target>一部のデバイスでは、Mozilla VPN がバックグラウンドで切断されることがあります。この問題が発生した場合は、バックグラウンドでの実行を許可してください。</target>
         <note annotates="source" from="developer">Warning shown in the settings screen on Android when battery optimization is enabled for the app.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.batteryOptimizationWarningButton">
         <source>Allow background permissions</source>
+        <target>バックグラウンド権限を許可</target>
         <note annotates="source" from="developer">Button label for the call to action to allow background permissions on Android.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.crashOptInDescription">
@@ -2148,6 +2176,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.decryptionErrorText">
         <source>We couldn’t access your saved VPN settings. Please sign in again.</source>
+        <target>保存した VPN 設定にアクセスできませんでした。もう一度ログインしてください。</target>
       </trans-unit>
       <trans-unit id="vpn.settings.dnsSettings">
         <source>DNS settings</source>
@@ -2187,9 +2216,11 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
         <source>Download Firefox</source>
+        <target>Firefox をダウンロード</target>
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
         <source>Turn off VPN for specific websites.</source>
+        <target>特定のウェブサイトで VPN をオフにする。</target>
       </trans-unit>
       <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
         <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
