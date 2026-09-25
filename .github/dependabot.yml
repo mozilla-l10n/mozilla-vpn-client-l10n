@@ -6,11 +6,11 @@ updates:
       interval: weekly
     groups:
       github-actions:
-        patterns: ["*"]
+        patterns: "*"
   - package-ecosystem: "pip"
     directory: "/.github/scripts"
     schedule:
       interval: weekly
     groups:
       pip:
-        patterns: ["*"]
+        patterns: "*"
