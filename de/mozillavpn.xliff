@@ -1670,10 +1670,12 @@ Bin ich über %@ verbunden?
       </trans-unit>
       <trans-unit id="vpn.networkManagerUnavailable.body">
         <source>Mozilla VPN uses NetworkManager to create your VPN connection. Please make sure NetworkManager is installed and running on your device, then restart Mozilla VPN.</source>
+        <target>Mozilla VPN nutzt NetworkManager, um Ihre VPN-Verbindung herzustellen. Stellen Sie sicher, dass NetworkManager auf Ihrem Gerät installiert ist und ausgeführt wird. Starten Sie anschließend Mozilla VPN neu.</target>
         <note annotates="source" from="developer">Paragraph explaining that the NetworkManager system service must be installed and running before the VPN can connect. "NetworkManager" is a Linux system service name and should be left untranslated.</note>
       </trans-unit>
       <trans-unit id="vpn.networkManagerUnavailable.title">
         <source>NetworkManager is required</source>
+        <target>NetworkManager ist erforderlich</target>
         <note annotates="source" from="developer">Title of the screen shown when the Flatpak version of the VPN cannot find NetworkManager. "NetworkManager" is a Linux system service name and should be left untranslated.</note>
       </trans-unit>
       <trans-unit id="vpn.networkSettings.multihopTitle">
