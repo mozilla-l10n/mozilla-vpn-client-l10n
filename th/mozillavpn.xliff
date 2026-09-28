@@ -1665,6 +1665,14 @@ Is %@ connected?
         <target>การตั้งค่า</target>
         <note annotates="source" from="developer">Label for the tab on the navigation bar that takes the user to the settings screen</note>
       </trans-unit>
+      <trans-unit id="vpn.networkManagerUnavailable.body">
+        <source>Mozilla VPN uses NetworkManager to create your VPN connection. Please make sure NetworkManager is installed and running on your device, then restart Mozilla VPN.</source>
+        <note annotates="source" from="developer">Paragraph explaining that the NetworkManager system service must be installed and running before the VPN can connect. "NetworkManager" is a Linux system service name and should be left untranslated.</note>
+      </trans-unit>
+      <trans-unit id="vpn.networkManagerUnavailable.title">
+        <source>NetworkManager is required</source>
+        <note annotates="source" from="developer">Title of the screen shown when the Flatpak version of the VPN cannot find NetworkManager. "NetworkManager" is a Linux system service name and should be left untranslated.</note>
+      </trans-unit>
       <trans-unit id="vpn.networkSettings.multihopTitle">
         <source>Multi-hop tunnel</source>
         <target>อุโมงค์แบบหลายจุด</target>
