@@ -116,6 +116,7 @@
     <body>
       <trans-unit id="vpn.crashreporter.description">
         <source>The Mozilla VPN app quit unexpectedly. Would you like to send a crash report to help fix the issue?</source>
+        <target>Mozilla VPN қолданбасы күтпеген жерден жабылды. Мәселені түзетуге көмектесу үшін құлау туралы есеп жібергіңіз келе ме?</target>
         <note annotates="source" from="developer">Main text telling the user that we are asking for permission to send a crash report.</note>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.dontSendButton">
@@ -125,6 +126,7 @@
       </trans-unit>
       <trans-unit id="vpn.crashreporter.mainHeading">
         <source>Crash reporting</source>
+        <target>Құлау туралы есеп беру</target>
         <note annotates="source" from="developer">Label over description text section.</note>
       </trans-unit>
       <trans-unit id="vpn.crashreporter.sendButtonLabel">
@@ -326,40 +328,51 @@
       </trans-unit>
       <trans-unit id="vpn.aboutUs.licenses">
         <source>Licenses</source>
+        <target>Лицензиялар</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.privacyNotice">
         <source>Privacy notice</source>
+        <target>Жекелік ескертуі</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.releaseVersion">
         <source>Release version</source>
+        <target>Шығарылым нұсқасы</target>
         <note annotates="source" from="developer">Refers to the installed version. For example: 'Release Version: 1.23'</note>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.termsOfService">
         <source>Terms of service</source>
+        <target>Қызмет көрсету шарттары</target>
       </trans-unit>
       <trans-unit id="vpn.aboutUs.title">
         <source>About us</source>
+        <target>Біз туралы</target>
       </trans-unit>
       <trans-unit id="vpn.accessibility.currentIndexFocusedOfTotalItemsInGroup">
         <source>%1 of %2</source>
+        <target>%1 / %2</target>
         <note annotates="source" from="developer">Used by screen readers to explain to users which item they are currently focused on, and how many items there are total in a group. For example, given a list with 15 items. If a user selects the 3rd item, we want the screen reader to read out "3 of 15". The %1 represents the index of the currently focused item by the screen reader. The %2 represents the total number of items in the group.</note>
       </trans-unit>
       <trans-unit id="vpn.accessibility.selected">
         <source>Selected</source>
+        <target>Таңдалған</target>
         <note annotates="source" from="developer">Used by screen reader to indicate that a user action selected an item.</note>
       </trans-unit>
       <trans-unit id="vpn.accessibility.selectedAndItemName">
         <source>Selected item: %1</source>
+        <target>Таңдалған элемент: %1</target>
         <note annotates="source" from="developer">Used by screen readers to denote that a particular item is currently selected. For example, given a segmented control with 2 items, where the first item is currently selected. We want the screen reader to read out "Selected, &lt;item name&gt;". The %1 represents the name of the selected item.</note>
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.labelTitle">
         <source>Bypass VPN for select traffic</source>
+        <target>Таңдалған трафик үшін VPN-ді айналып өту</target>
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.learnMoreSentence">
         <source>Learn more.</source>
+        <target>Көбірек білу.</target>
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.subLabel">
         <source>Allow RCS/MMS messaging, Apple features like CarPlay and AirDrop, and connections to local devices. May reduce network security.</source>
+        <target>RCS/MMS хабар алмасуға, CarPlay және AirDrop сияқты Apple мүмкіндіктеріне және жергілікті құрылғыларға қосылуға рұқсат ету. Желі қауіпсіздігін төмендетуі мүмкін.</target>
         <note annotates="source" from="developer">Make sure it's clear that this will allow major features (like messaging apps) to function, but potentially at the expense of some security.</note>
       </trans-unit>
       <trans-unit id="vpn.bypassVPN.vpnMustBeOff">
