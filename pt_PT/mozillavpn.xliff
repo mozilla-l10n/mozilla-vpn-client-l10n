@@ -1941,6 +1941,18 @@ A %@ está conectada atualmente?
         <target>Para poder fazer isto, por favor, clique no botão em baixo para abrir &lt;i&gt;Início de sessão&lt;/i&gt; das suas &lt;i&gt;Preferências do Sistema&lt;/i&gt; e ative &lt;i&gt;Permitir em segundo plano&lt;/i&gt; para a Mozilla VPN.</target>
         <note annotates="source" from="developer">Paragraph explaining how to enable the VPN to run in the background on macOS 14, see https://support.apple.com/guide/mac-help/mtusr003/mac for reference translations of these features on different versions of macOS.</note>
       </trans-unit>
+      <trans-unit id="vpn.permissionMacos.instructionsExtConfig">
+        <source>When prompted, click &lt;i&gt;Allow&lt;/i&gt; to add the VPN proxy configuration.</source>
+        <note annotates="source" from="developer">Followup paragraph explaining how to allow the VPN to add proxy configuration.</note>
+      </trans-unit>
+      <trans-unit id="vpn.permissionMacos.instructionsExtLegacy">
+        <source>Click &lt;i&gt;Open System Settings&lt;/i&gt; to open &lt;i&gt;Privacy &amp; Security&lt;/i&gt;. Find the message that &lt;i&gt;Mozilla VPN&lt;/i&gt; was blocked, then click &lt;i&gt;Allow&lt;/i&gt;.</source>
+        <note annotates="source" from="developer">Paragraph explaining how to enable the VPN network extension on macOS 14.</note>
+      </trans-unit>
+      <trans-unit id="vpn.permissionMacos.instructionsExtMacOS15">
+        <source>Click &lt;i&gt;Open System Settings&lt;/i&gt; to open &lt;i&gt;Login Items &amp; Extensions&lt;/i&gt;. Under &lt;i&gt;Network Extensions&lt;/i&gt;, turn on &lt;i&gt;Mozilla VPN&lt;/i&gt;.</source>
+        <note annotates="source" from="developer">Paragraph explaining how to enable the VPN network extension on macOS 15 and above, see https://support.apple.com/guide/mac-help/mtusr003/mac for reference translations of these features on different versions of macOS.</note>
+      </trans-unit>
       <trans-unit id="vpn.permissionMacos.instructionsMacOS15">
         <source>In order to do this, please click the button below to open the &lt;i&gt;Login Items &amp; Extensions&lt;/i&gt; of your &lt;i&gt;System Preferences&lt;/i&gt;, and enable &lt;i&gt;Allow in the background&lt;/i&gt; for Mozilla VPN.</source>
         <target>Para fazer isto, clique no botão abaixo para abrir os &lt;i&gt;Itens e extensões de autenticação&lt;/i&gt; nas suas &lt;i&gt;Preferências do sistema&lt;/i&gt; e ative &lt;i&gt;Permitir em segundo plano&lt;/i&gt; para a Mozilla VPN.</target>
@@ -1970,6 +1982,10 @@ A %@ está conectada atualmente?
         <source>Allow VPN to run in background</source>
         <target>Permitir que a VPN seja executada em segundo plano</target>
         <note annotates="source" from="developer">Title of the screen directing macOS users to allow the VPN to run in background</note>
+      </trans-unit>
+      <trans-unit id="vpn.permissionMacos.titleExtension">
+        <source>Enable the Mozilla VPN extension to continue</source>
+        <note annotates="source" from="developer">Title of the screen directing users to allow the VPN network extension on macOS 15 and above.</note>
       </trans-unit>
       <trans-unit id="vpn.product.description">
         <source>A fast, secure and easy to use VPN. Built by the makers of Firefox.</source>
