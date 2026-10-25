@@ -2062,7 +2062,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.configureObfuscationButtonLabel">
         <source>Configure obfuscation</source>
-        <target>ਅਸਪਸ਼ਟ ਸੰਰਚਨਾ</target>
+        <target>ਅਸਪਸ਼ਟ (ਓਬਫਸਕੇਸ਼ਨ) ਸੰਰਚਨਾ</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.headerText">
         <source>Server unavailable</source>
@@ -2079,6 +2079,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextEnableObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
+        <target>ਇਹ ਸਰਵਰ ਟਿਕਾਣਾ ਆਰਜ਼ੀ ਤੌਰ ਉੱਤੇ ਮੌਜੂਦ ਨਹੀਂ ਹੈ। ਐਪ ਨੂੰ ਖੋਲ੍ਹ ਕੇ ਨਵਾਂ ਟਿਕਾਣਾ ਚੁਣੋ ਜਾਂ ਅਸਪਸ਼ਟ (ਓਬਫਸਕੇਸ਼ਨ) ਢੰਗ ਨੂੰ ਸਮਰੱਥ ਕਰਕੇ ਵੇਖੋ।</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
@@ -2296,9 +2297,11 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>
+        <target>ਸਭ ਤੋਂ ਤੇਜ਼ ਅਸਪਸ਼ਟ (ਓਬਫਸਕੇਸ਼ਨ) ਢੰਗ ਹੈ। ਅਜਿਹੇ ਨੈੱਟਵਰਕ, ਜੋ ਕਿ ਵਾਇਰਗਾਰਡ (WireGuard) ਆਵਾਜਾਈ ਦੀ ਟੋਹ ਲੈਂਦੇ ਅਤੇ ਰੋਕ ਲਗਾਉਂਦੇ ਹਨ, ਉੱਤੇ ਬਿਨਾਂ ਜ਼ਿਆਦਾ ਬੋਝ ਪਾਏ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ।</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoOverPort53Body">
         <source>Combines the benefits of LWO and port 53.</source>
+        <target>LWO ਅਤੇ ਪੋਰਟ 53 ਦੇ ਫਾਇਦਿਆਂ ਨੂੰ ਜੋੜਦਾ ਹੈ।</target>
         <note annotates="source" from="developer">LWO is an acronym, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoOverPort53Title">
@@ -2324,6 +2327,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationPort53Title">
         <source>Always connect using port 53</source>
+        <target>ਹਮੇਸ਼ਾਂ ਪੋਰਟ 53 ਵਰਤ ਕੇ ਕਨੈਕਟ ਕਰੋ</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationSettings">
         <source>Obfuscation</source>
@@ -2347,14 +2351,17 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationShadowsocksBody">
         <source>Wraps VPN traffic in an encrypted Shadowsocks connection to make it less identifiable. Could work when all other approaches do not.</source>
+        <target>ਇੰਕ੍ਰਿਪਟ ਕੀਤੇ Shadowsocks ਕਨੈਕਸ਼ਨ ਵਿੱਚ VPN ਆਵਾਜਾਈ ਦੀ ਪਛਾਣ ਕਰਨ ਦੀ ਸੰਭਾਵਨਾ ਘੱਟ ਜਾਂਦੀ ਹੈ। ਜਦੋਂ ਹੋਰ ਸਾਰੇ ਵਸੀਲੇ ਕੰਮ ਨਾ ਕਰਨ ਤਾਂ ਇਹ ਕੰਮ ਕਰ ਸਕਦਾ ਹੈ।</target>
         <note annotates="source" from="developer">Shadowsocks is a protocol name, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationShadowsocksTitle">
         <source>Shadowsocks</source>
+        <target>Shadowsocks</target>
         <note annotates="source" from="developer">Shadowsocks is a protocol name, it should NOT be translated.</note>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationUdpOverTcpBody">
         <source>Tunnels UDP traffic over TCP. May help on networks that block UDP traffic.</source>
+        <target>UDP ਆਵਾਜਾਈ ਨੂੰ TPC ਉੱਤੇ ਟਨਲ ਕਰਦਾ ਹੈ। ਜਿਹੜੇ ਨੈੱਟਵਰਕ UDP ਆਵਜਾਈ ਉੱਤੇ ਪਾਬੰਦੀ ਲਾਉਂਦੇ ਹਨ, ਇੱਥੇ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ।</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationUdpOverTcpTitle">
         <source>UDP over TCP</source>
@@ -2374,6 +2381,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.settings.privacyCard">
         <source>These options may cause some websites to break or not display content correctly.</source>
+        <target>ਇਹ ਚੋਣਾਂ ਕਰਨ ਨਾਲ ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਕੁਝ ਵੈੱਬਸਾਈਟਾਂ ਨਾ ਕੰਮ ਕਰਨ ਜਾਂ ਠੀਕ ਤਰ੍ਹਾਂ ਕੰਮ ਸਮੱਗਰੀ ਨਾ ਦਿਖਾਉਣ।</target>
       </trans-unit>
       <trans-unit id="vpn.settings.privacyMalwareBody2">
         <source>Helps protect you from ransomware, phishing, spyware, and viruses</source>
