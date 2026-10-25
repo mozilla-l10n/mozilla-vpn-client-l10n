@@ -1300,6 +1300,7 @@
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.shareLogsCheckBoxTitle">
         <source>Share logs with support</source>
+        <target>ਸਹਾਇਤਾ ਟੀਮ ਨਾਲ ਲਾਗ ਸਾਂਝੇ ਕਰੋ</target>
       </trans-unit>
       <trans-unit id="vpn.inAppSupportWorkflow.subjectFieldPlaceholder">
         <source>Subject (optional)</source>
@@ -1372,6 +1373,14 @@ Switch %@ on
 Connect %@
 Connect to %@
 </source>
+        <target>%@ ਨੂੰ ਐਕਟੀਵੇਟ ਕਰੋ
+%@ ਚਾਲੂ ਕਰੋ
+%@ ਨੂੰ ਚਾਲੂ ਕਰੋ
+%@ ਚਲਾਓ
+%@ ਨੂੰ ਚਲਾਓ
+%@ ਕਨੈਕਟ ਕਰੋ
+%@ ਨਾਲ ਕਨੈਕਟ ਕਰੋ
+</target>
         <note annotates="source" from="developer">Siri phrase variants for activating the VPN via App Intents. Each line is a separate phrase Siri will recognize. Rules:
  - Write natural, conversational phrases a user might say to Siri.
  - Do NOT translate literally — write phrases natural in your language.
@@ -1407,6 +1416,7 @@ Disconnect from %@
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryDescription">
         <source>Queries current Mozilla VPN connection status</source>
+        <target>ਮੌਜੂਦਾ Mozilla VPN ਕਨੈਕਸ਼ਨ ਸਥਿਤੀ ਬਾਰੇ ਪੁੱਛਗਿੱਛ</target>
         <note annotates="source" from="developer">Description used to provide more context in Shortcuts and other places</note>
       </trans-unit>
       <trans-unit id="vpn.iosAppIntentsMain.statusQueryResponseConnected">
@@ -1636,6 +1646,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.networkManagerUnavailable.title">
         <source>NetworkManager is required</source>
+        <target>NetworkManager ਚਾਹੀਦਾ ਹੈ</target>
         <note annotates="source" from="developer">Title of the screen shown when the Flatpak version of the VPN cannot find NetworkManager. "NetworkManager" is a Linux system service name and should be left untranslated.</note>
       </trans-unit>
       <trans-unit id="vpn.networkSettings.multihopTitle">
@@ -1893,6 +1904,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.instructionsExtConfig">
         <source>When prompted, click &lt;i&gt;Allow&lt;/i&gt; to add the VPN proxy configuration.</source>
+        <target>ਜਦੋਂ ਪੁੱਛਿਆ ਜਾਵੇ ਤਾਂ VPN ਪਰਾਕਸੀ ਸੰਰਚਨਾ ਜੋੜਨ ਵਾਸਤੇ &lt;i&gt;ਮਨਜ਼ੂਰ&lt;/i&gt; ਨੂੰ ਕਲਿੱਕ ਕਰੋ।</target>
         <note annotates="source" from="developer">Followup paragraph explaining how to allow the VPN to add proxy configuration.</note>
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.instructionsExtLegacy">
@@ -1933,6 +1945,7 @@ Is %@ connected?
       </trans-unit>
       <trans-unit id="vpn.permissionMacos.titleExtension">
         <source>Enable the Mozilla VPN extension to continue</source>
+        <target>ਜਾਰੀ ਰੱਖਣ ਵਾਸਤੇ Mozilla VPN ਇਕਸਟੈਨਸ਼ਨ ਨੂੰ ਸਮਰੱਥ ਕਰੋ</target>
         <note annotates="source" from="developer">Title of the screen directing users to allow the VPN network extension on macOS 15 and above.</note>
       </trans-unit>
       <trans-unit id="vpn.product.description">
