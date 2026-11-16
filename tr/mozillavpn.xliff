@@ -962,11 +962,6 @@
         <target>Bu özellikleri etkinleştirirseniz, kullandığınız tüm özel DNS’lerin üzerine yazılırlar. Bu korumalar diğer güvenlik önlemlerini almanın yerine geçmez. Örneğin, kötü amaçlı yazılımları engellerken yine de garip e-postalardaki ekleri indirmekten kaçınmalısınız.</target>
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
-        <source>What can privacy features do for me?</source>
-        <target>Gizlilik özellikleri ne işe yarar?</target>
-        <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
-      </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle">
         <source>Privacy features</source>
         <target>Gizlilik özellikleri</target>
@@ -2080,10 +2075,6 @@ Is %@ connected?
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
         <target>Başka bir Mozilla hesabı, bu Apple ID’yi kullanarak daha önce abone olmuş. Lütfen çıkış yapıp yeniden deneyin veya yardım almak için destek ekibimizle iletişime geçin.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.bodyText">
-        <source>This server location is temporarily unavailable. Choose a new location.</source>
-        <target>Bu sunucu konumu geçici olarak hizmet veremiyor. Başka bir konum seçin.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
         <target>Bu sunucu konumu geçici olarak kullanılamıyor. Yeni bir konum seçin veya farklı bir gizleme yöntemi deneyin.</target>
@@ -2106,10 +2097,6 @@ Is %@ connected?
         <source>Server unavailable</source>
         <target>Sunucu kullanılamıyor</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
-        <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
-        <target>Bu sunucu konumu geçici olarak hizmet veremiyor. Yeni bir konum seçmek için lütfen uygulamayı açın.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
         <target>Bu sunucu konumu geçici olarak kullanılamıyor. Yeni bir konum seçmek veya farklı bir gizleme yöntemini denemek için lütfen uygulamayı açın.</target>
@@ -2119,10 +2106,6 @@ Is %@ connected?
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
         <target>Bu sunucu konumu geçici olarak kullanılamıyor. Yeni bir konum seçmek için lütfen uygulamayı açın veya gizlemeyi etkinleştirmeyi deneyin.</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
-        <source>The server has been blocked. Check your firewall settings.</source>
-        <target>Sunucu engellendi. Güvenlik duvarı ayarlarınızı kontrol edin.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
@@ -2316,38 +2299,6 @@ Is %@ connected?
       <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>Bu seçenekler bazı web sitelerinin bozulmasına veya içeriklerin düzgün görüntülenmemesine neden olabilir.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
-        <source>Download Firefox</source>
-        <target>Firefox’u indir</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
-        <source>Turn off VPN for specific websites.</source>
-        <target>Belirli web siteleri için VPN’i kapatabilirsiniz.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
-        <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
-        <target>Çalışmayan siteleri çalıştırmak için VPN’inizi açıp kapatmaya artık gerek yok. Ayrıca, web sitesi tercihiniz kaydedileceği için her seferinde değiştirmeniz de gerekmeyecek.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionInfo">
-        <source>Firefox extension</source>
-        <target>Firefox uzantısı</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionIntro">
-        <source>Get more precise control over how your VPN works when you’re browsing, with the Firefox extension.</source>
-        <target>İnternette gezinirken VPN’inizin çalışma şeklini Firefox uzantısıyla daha iyi yönetebilirsiniz.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionMainButton">
-        <source>Get the extension</source>
-        <target>Uzantıyı yükle</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphHead">
-        <source>Choose different locations for different websites.</source>
-        <target>Farklı web siteleri için farklı konumlar seçebilirsiniz.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphMain">
-        <source>Browse one site as if you’re in New York and another as if you’re in Paris — all in the same Firefox session.</source>
-        <target>Aynı Firefox oturumunda bir sitede New York’taymış gibi, başka bir sitede Paris’teymişsiniz gibi gezinebilirsiniz.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>

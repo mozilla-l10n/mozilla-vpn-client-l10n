@@ -962,11 +962,6 @@
         <target>Os byddwch chi'n defnyddio'r nodweddion hyn, byddan nhw'n trosysgrifo unrhyw DNS cyfaddas rydych chi'n ei ddefnyddio. Nid yw'r diogeleddau hyn yn cymryd lle rhagofalon diogelwch eraill - er enghraifft, wrth rwystro meddalwedd maleisus, dylech chi barhau i beidio â llwytho i lawr atodiadau mewn e-byst annisgwyl.</target>
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
-        <source>What can privacy features do for me?</source>
-        <target>Beth all nodweddion preifatrwydd eu gwneud drosta i?</target>
-        <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
-      </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle">
         <source>Privacy features</source>
         <target>Nodweddion preifatrwydd</target>
@@ -2088,10 +2083,6 @@ Ydy %@ wedi'i gysylltu?
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
         <target>Mae cyfrif Mozilla arall eisoes wedi tanysgrifio gan ddefnyddio'r ID Apple hwn. Allgofnodwch a rhowch gynnig arall arni neu cysylltwch â'n tîm cymorth am gymorth.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.bodyText">
-        <source>This server location is temporarily unavailable. Choose a new location.</source>
-        <target>Nid yw'r lleoliad gweinydd hwn ar gael dros dro. Dewiswch leoliad newydd.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
         <target>Dyw lleoliad y gweinydd hwn ddim ar gael dros dro. Dewiswch leoliad newydd neu rhowch gynnig ar ddull gwahanol o amwyso.</target>
@@ -2114,10 +2105,6 @@ Ydy %@ wedi'i gysylltu?
         <source>Server unavailable</source>
         <target>Nid yw'r gweinydd ar gael</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
-        <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
-        <target>Nid yw'r lleoliad gweinydd hwn ar gael dros dro. Agorwch yr ap i ddewis lleoliad newydd.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
         <target>Dyw lleoliad y gweinydd hwn ddim ar gael dros dro. Agorwch yr ap i ddewis lleoliad newydd neu roi cynnig ar ddull gwahanol o amwyso.</target>
@@ -2127,10 +2114,6 @@ Ydy %@ wedi'i gysylltu?
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
         <target>Dyw lleoliad y gweinydd hwn ddim ar gael dros dro. Agorwch yr ap i ddewis lleoliad newydd neu roi cynnig ar alluogi amwyso.</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
-        <source>The server has been blocked. Check your firewall settings.</source>
-        <target>Mae'r gweinydd wedi'i rwystro. Gwiriwch osodiadau eich mur cadarn.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
@@ -2324,38 +2307,6 @@ Ydy %@ wedi'i gysylltu?
       <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>Gall yr dewisiadau hyn achosi i rai gwefannau dorri neu beidio ag dangos cynnwys yn gywir.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
-        <source>Download Firefox</source>
-        <target>Llwytho Firefox i Lawr</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
-        <source>Turn off VPN for specific websites.</source>
-        <target>Diffodd VPN ar gyfer gwefannau penodol.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
-        <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
-        <target>Dim mwy to droi eich VPN ymlaen ac i ffwrdd pan fyddwch angen gwefan i weithio. Hefyd, mae eich dewis ar gyfer y wefan yn cael ei gadw fel nad oes rhaid i chi ei newid bob tro.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionInfo">
-        <source>Firefox extension</source>
-        <target>Estyniad Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionIntro">
-        <source>Get more precise control over how your VPN works when you’re browsing, with the Firefox extension.</source>
-        <target>Cael rheolaeth fwy manwl gywir ar sut mae'ch VPN yn gweithio pan fyddwch chi'n pori, gydag estyniad Firefox.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionMainButton">
-        <source>Get the extension</source>
-        <target>Cael yr estyniad</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphHead">
-        <source>Choose different locations for different websites.</source>
-        <target>Dewis lleoliadau gwahanol ar gyfer gwefannau gwahanol.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphMain">
-        <source>Browse one site as if you’re in New York and another as if you’re in Paris — all in the same Firefox session.</source>
-        <target>Porwch un wefan fel petaech yng Nghaerdydd ac un arall fel petaech ym Mharis - i gyd yn yr un sesiwn Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>

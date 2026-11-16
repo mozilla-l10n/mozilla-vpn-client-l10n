@@ -962,11 +962,6 @@
         <target>이 기능을 활성화하면 사용중인 사용자 지정 DNS를 덮어씁니다. 이러한 보호 기능이 다른 보안 예방 조치를 대신할 수는 없습니다. 예를 들어, 악성 코드를 차단하는 동안에는 이상한 이메일의 첨부 파일을 다운로드하지 않는 것이 좋습니다.</target>
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
-        <source>What can privacy features do for me?</source>
-        <target>사생활 보호 기능으로 무엇을 할 수 있나요?</target>
-        <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
-      </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle">
         <source>Privacy features</source>
         <target>사생활 보호 기능</target>
@@ -2088,10 +2083,6 @@ Is %@ connected?
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
         <target>다른 Mozilla 계정이 이미 이 Apple ID로 구독을 하고 있습니다. 로그 아웃 한 다음 다시 시도하거나 지원 팀에 도움을 요청하십시오.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.bodyText">
-        <source>This server location is temporarily unavailable. Choose a new location.</source>
-        <target>이 서버 위치는 일시적으로 사용할 수 없습니다. 새 위치을 선택하세요.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
         <target>이 서버 위치는 일시적으로 사용할 수 없습니다. 새 위치를 선택하거나 다른 난독화 방법을 시도하세요.</target>
@@ -2114,10 +2105,6 @@ Is %@ connected?
         <source>Server unavailable</source>
         <target>서버 사용 불가</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
-        <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
-        <target>이 서버 위치는 일시적으로 사용할 수 없습니다. 새로운 장소를 선택하려면 앱을 열어 주세요.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
         <target>이 서버 위치는 일시적으로 사용할 수 없습니다. 앱을 열어 새 위치를 선택하거나 다른 난독화 방법을 시도해 주세요.</target>
@@ -2127,10 +2114,6 @@ Is %@ connected?
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
         <target>이 서버 위치는 일시적으로 사용할 수 없습니다. 앱을 열어 새로운 위치를 선택하거나 난독화를 시도하세요.</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
-        <source>The server has been blocked. Check your firewall settings.</source>
-        <target>서버가 차단되었습니다. 방화벽 설정을 확인해 보세요.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
@@ -2324,38 +2307,6 @@ Is %@ connected?
       <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>이 옵션으로 인해 일부 웹 사이트가 깨지되거나 콘텐츠가 올바르게 표시되지 않을 수 있습니다.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
-        <source>Download Firefox</source>
-        <target>Firefox 다운로드</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
-        <source>Turn off VPN for specific websites.</source>
-        <target>특정 웹사이트에서 VPN 끄기</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
-        <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
-        <target>사이트가 작동되게 하려고 더 이상 VPN을 켰다 껐다 할 필요가 없습니다. 또한 사이트 설정이 저장되어서 매번 변경할 필요가 없습니다.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionInfo">
-        <source>Firefox extension</source>
-        <target>Firefox 확장 기능</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionIntro">
-        <source>Get more precise control over how your VPN works when you’re browsing, with the Firefox extension.</source>
-        <target>Firefox 확장 기능을 사용하여, 탐색할 때 VPN이 작동하는 방식을 더 정밀하게 제어하세요.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionMainButton">
-        <source>Get the extension</source>
-        <target>확장 기능 받기</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphHead">
-        <source>Choose different locations for different websites.</source>
-        <target>웹 사이트에 따라 위치를 다르게 선택합니다.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphMain">
-        <source>Browse one site as if you’re in New York and another as if you’re in Paris — all in the same Firefox session.</source>
-        <target>하나의 Firefox 세션에서 한 사이트에서는 마치 뉴욕에 있는 것처럼하고 다른 사이트는 파리에 있는 것처럼 탐색할 수 있습니다.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>

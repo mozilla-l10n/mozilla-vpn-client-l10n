@@ -962,11 +962,6 @@
         <target>Εάν ενεργοποιήσετε αυτές τις λειτουργίες, θα αντικαταστήσουν τυχόν ρυθμίσεις προσαρμοσμένου DNS. Αυτές οι προστασίες δεν υποκαθιστούν άλλα μέτρα προφύλαξης. Για παράδειγμα, ακόμα και με τη φραγή κακόβουλου λογισμικού, θα πρέπει να αποφεύγετε τη λήψη συνημμένων από περίεργα email.</target>
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
-        <source>What can privacy features do for me?</source>
-        <target>Σε τι μπορούν να με βοηθήσουν οι λειτουργίες απορρήτου;</target>
-        <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
-      </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle">
         <source>Privacy features</source>
         <target>Λειτουργίες απορρήτου</target>
@@ -2102,10 +2097,6 @@ Is %@ connected?
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
         <target>Κάποιος άλλος λογαριασμός Mozilla έχει ήδη εγγραφεί με αυτό το Apple ID. Αποσυνδεθείτε και δοκιμάστε ξανά ή επικοινωνήστε με την ομάδα υποστήριξης για βοήθεια.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.bodyText">
-        <source>This server location is temporarily unavailable. Choose a new location.</source>
-        <target>Αυτή η τοποθεσία διακομιστή δεν είναι προσωρινά διαθέσιμη. Επιλέξτε μια νέα τοποθεσία.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
         <target>Αυτή η τοποθεσία διακομιστή είναι προσωρινά μη διαθέσιμη. Επιλέξτε μια νέα τοποθεσία ή δοκιμάστε μια διαφορετική μέθοδο απόκρυψης κίνησης.</target>
@@ -2128,10 +2119,6 @@ Is %@ connected?
         <source>Server unavailable</source>
         <target>Μη διαθέσιμος διακομιστής</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
-        <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
-        <target>Αυτή η τοποθεσία διακομιστή είναι προσωρινά μη διαθέσιμη. Ανοίξτε την εφαρμογή για να επιλέξετε μια νέα τοποθεσία.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
         <target>Αυτή η τοποθεσία διακομιστή δεν είναι προσωρινά διαθέσιμη. Ανοίξτε την εφαρμογή για να επιλέξετε μια νέα τοποθεσία ή δοκιμάστε μια άλλη μέθοδο απόκρυψης.</target>
@@ -2141,10 +2128,6 @@ Is %@ connected?
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
         <target>Αυτή η τοποθεσία διακομιστή δεν είναι προσωρινά διαθέσιμη. Ανοίξτε την εφαρμογή για να επιλέξετε μια νέα τοποθεσία ή προσπαθήστε να ενεργοποιήσετε την απόκρυψη κίνησης.</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
-        <source>The server has been blocked. Check your firewall settings.</source>
-        <target>Ο διακομιστής έχει αποκλειστεί. Ελέγξτε τις ρυθμίσεις του τείχους προστασίας σας.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
@@ -2338,38 +2321,6 @@ Is %@ connected?
       <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>Αυτές οι επιλογές ενδέχεται να προκαλέσουν δυσλειτουργία σε ορισμένους ιστότοπους ή να εμποδίσουν την ορθή εμφάνιση περιεχομένου.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
-        <source>Download Firefox</source>
-        <target>Λήψη του Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
-        <source>Turn off VPN for specific websites.</source>
-        <target>Απενεργοποιήστε το VPN για συγκεκριμένους ιστοτόπους.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
-        <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
-        <target>Δεν χρειάζεται πλέον να αλλάζετε την κατάσταση του VPN για να λειτουργήσει ένας ιστότοπος. Επιπλέον, οι επιλογές σας για τον εκάστοτε ιστότοπο αποθηκεύονται και δεν χρειάζεται να τις προσαρμόζετε κάθε φορά.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionInfo">
-        <source>Firefox extension</source>
-        <target>Επέκταση Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionIntro">
-        <source>Get more precise control over how your VPN works when you’re browsing, with the Firefox extension.</source>
-        <target>Αποκτήστε πιο ακριβή έλεγχο του τρόπου λειτουργίας του VPN κατά την περιήγηση, με την επέκταση για το Firefox.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionMainButton">
-        <source>Get the extension</source>
-        <target>Λήψη επέκτασης</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphHead">
-        <source>Choose different locations for different websites.</source>
-        <target>Επιλέξτε διαφορετικές τοποθεσίες για διαφορετικούς ιστοτόπους.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphMain">
-        <source>Browse one site as if you’re in New York and another as if you’re in Paris — all in the same Firefox session.</source>
-        <target>Περιηγηθείτε σε έναν ιστότοπο σαν να βρίσκεστε στη Νέα Υόρκη και σε έναν άλλο σαν να βρίσκεστε στο Παρίσι, όλα αυτά στην ίδια συνεδρία του Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>

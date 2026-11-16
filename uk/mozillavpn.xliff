@@ -955,11 +955,6 @@
         <target>Якщо увімкнути ці функції, вони перевизначать будь-які користувацькі налаштування DNS. Ці функції захисту не замінюють інші заходи безпеки – наприклад, увімкнувши блокування зловмисних програм, все одно варто уникати завантаження вкладень із підозрілих електронних листів.</target>
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
-        <source>What can privacy features do for me?</source>
-        <target>Чим мені допоможуть функції приватності?</target>
-        <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
-      </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle">
         <source>Privacy features</source>
         <target>Функції приватності</target>
@@ -2016,10 +2011,6 @@ Is %@ connected?
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
         <target>Інший обліковий запис Mozilla уже передплатив послугу за допомогою цього Apple ID. Вийдіть із системи та повторіть спробу або зверніться по допомогу до нашої служби підтримки.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.bodyText">
-        <source>This server location is temporarily unavailable. Choose a new location.</source>
-        <target>Сервер у цьому розташуванні тимчасово недоступний. Оберіть інше розташування.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
         <note annotates="source" from="developer">Server unavailable modal body shown when an obfuscation policy is selected.</note>
@@ -2039,10 +2030,6 @@ Is %@ connected?
         <source>Server unavailable</source>
         <target>Сервер недоступний</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
-        <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
-        <target>Сервер у цьому розташуванні тимчасово недоступний. Відкрийте застосунок, щоб обрати інше розташування.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
         <note annotates="source" from="developer">Server unavailable notification, shown when an obfuscation policy is selected.</note>
@@ -2050,10 +2037,6 @@ Is %@ connected?
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextEnableObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
-        <source>The server has been blocked. Check your firewall settings.</source>
-        <target>Сервер заблоковано. Перевірте налаштування мережевого екрана.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
@@ -2238,38 +2221,6 @@ Is %@ connected?
       <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>Ці параметри можуть пошкодити роботу або належний показ вмісту деяких вебсайтів.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
-        <source>Download Firefox</source>
-        <target>Завантажити Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
-        <source>Turn off VPN for specific websites.</source>
-        <target>Вимкнути VPN для певних вебсайтів.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
-        <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
-        <target>Більше не потрібно вмикати й вимикати VPN для належної роботи сайту. Крім того, ваші налаштування для вебсайту зберігаються, тому не потрібно їх щоразу змінювати.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionInfo">
-        <source>Firefox extension</source>
-        <target>Розширення для Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionIntro">
-        <source>Get more precise control over how your VPN works when you’re browsing, with the Firefox extension.</source>
-        <target>Тонко налаштовуйте роботу VPN під час вебперегляду за допомогою розширення Firefox.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionMainButton">
-        <source>Get the extension</source>
-        <target>Отримати розширення</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphHead">
-        <source>Choose different locations for different websites.</source>
-        <target>Обирайте різні місця для різних вебсайтів.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphMain">
-        <source>Browse one site as if you’re in New York and another as if you’re in Paris — all in the same Firefox session.</source>
-        <target>Переглядайте один сайт так, ніби ви в Нью-Йорку, а інший — так, ніби ви в Парижі — і все в одному сеансі Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>

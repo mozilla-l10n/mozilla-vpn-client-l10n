@@ -956,11 +956,6 @@
         <target>ຖ້າທ່ານເປີດໃຊ້ຄຸນສົມບັດເຫຼົ່ານີ້, ພວກມັນຈະຂຽນທັບ DNS ແບບກຳນົດເອງທີ່ທ່ານກຳລັງໃຊ້ຢູ່. ການປົກປ້ອງເຫຼົ່ານີ້ບໍ່ແມ່ນການທົດແທນສໍາລັບການລະມັດລະວັງດ້ານຄວາມປອດໄພອື່ນໆ — ຕົວຢ່າງ, ໃນຂະນະທີ່ຂັດຂວາງ malware ທ່ານຍັງຄວນຫຼີກເວັ້ນການດາວໂຫລດໄຟລ໌ແນບໃນອີເມວທີ່ແປກປະຫຼາດ.</target>
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
-        <source>What can privacy features do for me?</source>
-        <target>ຄຸນສົມບັດຄວາມເປັນສ່ວນຕົວສາມາດເຮັດຫຍັງໄດ້ສຳລັບຂ້ອຍ?</target>
-        <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
-      </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle">
         <source>Privacy features</source>
         <target>ລັກສະນະຄວາມເປັນສ່ວນຕົວ</target>
@@ -2021,10 +2016,6 @@ Is %@ connected?
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
         <target>ບັນຊີ Mozilla ອື່ນໄດ້ສະໝັກໃຊ້ Apple ID ນີ້ແລ້ວ. ກະລຸນາອອກຈາກລະບົບ ແລະ ລອງໃໝ່ອີກ ຫຼື ຕິດຕໍ່ທີມງານຊ່ວຍເຫຼືອຂອງພວກເຮົາເພື່ອຂໍຄວາມຊ່ວຍເຫຼືອ.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.bodyText">
-        <source>This server location is temporarily unavailable. Choose a new location.</source>
-        <target>ສະຖານທີ່ເຊີບເວີນີ້ບໍ່ສາມາດໃຊ້ໄດ້ຊົ່ວຄາວ. ເລືອກສະຖານທີ່ໃໝ່.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
         <note annotates="source" from="developer">Server unavailable modal body shown when an obfuscation policy is selected.</note>
@@ -2044,10 +2035,6 @@ Is %@ connected?
         <source>Server unavailable</source>
         <target>ເຊີບເວີບໍ່ສາມາດໃຊ້ໄດ້</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
-        <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
-        <target>ສະຖານທີ່ເຊີບເວີນີ້ບໍ່ສາມາດໃຊ້ໄດ້ຊົ່ວຄາວ. ກະລຸນາເປີດແອັບເພື່ອເລືອກສະຖານທີ່ໃໝ່.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
         <note annotates="source" from="developer">Server unavailable notification, shown when an obfuscation policy is selected.</note>
@@ -2055,10 +2042,6 @@ Is %@ connected?
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextEnableObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
-        <source>The server has been blocked. Check your firewall settings.</source>
-        <target>ເຊີບເວີຖືກບລັອກ. ກວດເບິ່ງການຕັ້ງຄ່າ Firewall ຂອງທ່ານ.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
@@ -2244,38 +2227,6 @@ Is %@ connected?
       <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>ທາງເລືອກເຫຼົ່ານີ້ອາດຈະເຮັດໃຫ້ບາງເວັບໄຊທ໌ທໍາລາຍ ຫຼື ບໍ່ສະແດງເນື້ອຫາຢ່າງຖືກຕ້ອງ.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
-        <source>Download Firefox</source>
-        <target>ດາວໂຫລດ Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
-        <source>Turn off VPN for specific websites.</source>
-        <target>ປິດ VPN ສໍາລັບເວັບໄຊທ໌ສະເພາະ.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
-        <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
-        <target>ບໍ່ຕ້ອງປິດເປີດ VPN ຂອງທ່ານອີກຕໍ່ໄປ ເມື່ອທ່ານຕ້ອງການໃຫ້ເວັບໄຊເຮັດວຽກ. ນອກຈາກນັ້ນ, ຄວາມຕ້ອງການຂອງທ່ານສໍາລັບເວັບໄຊທ໌ໄດ້ຖືກບັນທຶກໄວ້ດັ່ງນັ້ນທ່ານບໍ່ຈໍາເປັນຕ້ອງປັບມັນໃນແຕ່ລະຄັ້ງ.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionInfo">
-        <source>Firefox extension</source>
-        <target>ສ່ວນຂະຫຍາຍ Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionIntro">
-        <source>Get more precise control over how your VPN works when you’re browsing, with the Firefox extension.</source>
-        <target>ໄດ້ຮັບການຄວບຄຸມທີ່ຊັດເຈນຫຼາຍຂຶ້ນກ່ຽວກັບວິທີທີ່ VPN ຂອງທ່ານເຮັດວຽກໃນເວລາທີ່ທ່ານຊອກຫາ, ດ້ວຍສ່ວນຂະຫຍາຍ Firefox.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionMainButton">
-        <source>Get the extension</source>
-        <target>ຮັບສ່ວນຂະຫຍາຍ</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphHead">
-        <source>Choose different locations for different websites.</source>
-        <target>ເລືອກສະຖານທີ່ທີ່ແຕກຕ່າງກັນສໍາລັບເວັບໄຊທ໌ທີ່ແຕກຕ່າງກັນ.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphMain">
-        <source>Browse one site as if you’re in New York and another as if you’re in Paris — all in the same Firefox session.</source>
-        <target>ຄົ້ນຫາເວັບໄຊທ໌ຫນຶ່ງຄືກັບວ່າທ່ານຢູ່ໃນນິວຢອກແລະອີກເວັບໄຊທ໌ຫນຶ່ງຄືກັບວ່າທ່ານຢູ່ໃນປາຣີ - ທັງຫມົດໃນກອງປະຊຸມ Firefox ດຽວກັນ.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>

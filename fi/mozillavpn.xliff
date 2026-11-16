@@ -962,11 +962,6 @@
         <target>Jos aktivoit nämä ominaisuudet, ne korvaavat kaikki käyttämäsi mukautetut DNS-osoitteet. Nämä suojaukset eivät korvaa muita turvatoimia — esimerkiksi haittaohjelmien estämisen aikana sinun tulee silti välttää epäilyttävien sähköpostiviestien liitteiden lataamista.</target>
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
-        <source>What can privacy features do for me?</source>
-        <target>Mitä yksityisyysominaisuudet voivat tehdä hyväkseni?</target>
-        <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
-      </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle">
         <source>Privacy features</source>
         <target>Yksityisyysominaisuudet</target>
@@ -2087,10 +2082,6 @@ Onko %@ päällä?
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
         <target>Toinen Mozilla-tili on jo tilannut tällä Apple ID:llä. Kirjaudu ulos ja yritä uudestaan, tai ota yhteyttä tukitiimiimme saadaksesi apua.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.bodyText">
-        <source>This server location is temporarily unavailable. Choose a new location.</source>
-        <target>Tämä palvelimen sijainti ei ole tilapäisesti käytettävissä. Valitse uusi sijainti.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
         <target>Tämä palvelinsijainti on tilapäisesti pois käytöstä. Valitse uusi sijainti tai kokeile toista hämärtämismenetelmää.</target>
@@ -2113,10 +2104,6 @@ Onko %@ päällä?
         <source>Server unavailable</source>
         <target>Palvelin ei ole käytettävissä</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
-        <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
-        <target>Tämä palvelimen sijainti ei ole tilapäisesti käytettävissä. Avaa sovellus ja valitse uusi sijainti.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
         <target>Tämä palvelimen sijainti ei ole tilapäisesti käytettävissä. Avaa sovellus ja valitse uusi sijainti, tai kokeile toista hämärtämismenetelmää.</target>
@@ -2126,10 +2113,6 @@ Onko %@ päällä?
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
         <target>Tämä palvelinsijainti ei ole tilapäisesti käytettävissä. Avaa sovellus valitaksesi uuden sijainnin tai yritä ottaa käyttöön hämärtäminen.</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
-        <source>The server has been blocked. Check your firewall settings.</source>
-        <target>Palvelin on estetty. Tarkista palomuurin asetukset.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
@@ -2321,38 +2304,6 @@ Onko %@ päällä?
       <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>Nämä valinnat voivat aiheuttaa sen, että jotkin verkkosivustot rikkoutuvat tai eivät näytä sisältöä oikein.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
-        <source>Download Firefox</source>
-        <target>Lataa Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
-        <source>Turn off VPN for specific websites.</source>
-        <target>Poista VPN käytöstä tietyillä verkkosivustoilla.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
-        <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
-        <target>Ei enää VPN:n kytkemistä päälle ja pois, kun tarvitset sivuston toimivan. Lisäksi verkkosivustoa koskeva valinta tallennetaan, joten sinun ei tarvitse muuttaa sitä joka kerta.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionInfo">
-        <source>Firefox extension</source>
-        <target>Firefox-laajennus</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionIntro">
-        <source>Get more precise control over how your VPN works when you’re browsing, with the Firefox extension.</source>
-        <target>Firefox-laajennuksen avulla voit hallita entistä monipuolisemmin VPN-verkkosi toimintaa selaamisen aikana.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionMainButton">
-        <source>Get the extension</source>
-        <target>Hanki laajennus</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphHead">
-        <source>Choose different locations for different websites.</source>
-        <target>Valitse eri sijainnit eri verkkosivustoille.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphMain">
-        <source>Browse one site as if you’re in New York and another as if you’re in Paris — all in the same Firefox session.</source>
-        <target>Selaa yhtä sivustoa kuin olisit New Yorkissa ja toista kuin olisit Pariisissa – kaikki samassa Firefox-istunnossa.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>

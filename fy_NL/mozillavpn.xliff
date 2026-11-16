@@ -962,11 +962,6 @@
         <target>As jo dizze funksjes aktivearje, sille se elke oanpaste DNS oerskriuwe dy’t jo brûke. Dizze befeiligingen binne gjin ferfanging foar it nimmen fan oare befeiligingsmaatregels – bygelyks, wylst jo malware blokkearje, moatte jo noch altyd foarkomme dat jo bylagen yn frjemde e-mailberjochten downloade.</target>
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
-        <source>What can privacy features do for me?</source>
-        <target>Wat kinne privacyfunksjes foar my dwaan?</target>
-        <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
-      </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle">
         <source>Privacy features</source>
         <target>Privacyfunksjes</target>
@@ -2092,10 +2087,6 @@ Is %@ ferbûn?
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
         <target>In oar Mozilla-account hat har al abonnearre mei dizze Apple ID. Meld jo ôf en probearje it opnij of nim kontakt op mei ús stipeteam foar help.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.bodyText">
-        <source>This server location is temporarily unavailable. Choose a new location.</source>
-        <target>Dizze serverlokaasje is tydlik net beskikber. Kies in nije lokaasje.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
         <target>Dizze serverlokaasje is tydlik net beskikber. Kies in nije lokaasje of probearje in oare fertsjusteringsmetoade.</target>
@@ -2118,10 +2109,6 @@ Is %@ ferbûn?
         <source>Server unavailable</source>
         <target>Server net beskikber</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
-        <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
-        <target>Dizze serverlokaasje is tydlik net beskikber. Iepenje de app om in nije lokaasje kiezen.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
         <target>Dizze serverlokaasje is tydlik net beskikber. Iepenje de app om in nije lokaasje te kiezen of probearje in oare fertsjusteringsmetoade.</target>
@@ -2131,10 +2118,6 @@ Is %@ ferbûn?
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
         <target>Dizze serverlokaasje is tydlik net beskikber. Iepenje de app om in nije lokaasje te kiezen of probearje fertsjustering yn te skeakeljen.</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
-        <source>The server has been blocked. Check your firewall settings.</source>
-        <target>De server is blokkearre. Kontrolearje jo firewallynstellingen.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
@@ -2328,38 +2311,6 @@ Is %@ ferbûn?
       <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>Dizze opsjes kinne feroarsaakje dat guon websiden net goed wurkje of ynhâld net goed werjaan.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
-        <source>Download Firefox</source>
-        <target>Firefox downloade</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
-        <source>Turn off VPN for specific websites.</source>
-        <target>VPN útskeakelje foar spesifike websites.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
-        <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
-        <target>Jo hoege jo VPN net mear yn en út te skeakeljen wannear’t jo in website nedich hawwe om te wurkjen. Boppedat wurdt jo foarkar foar de website bewarre, sadat jo dizze net hieltyd hoege oan te passen.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionInfo">
-        <source>Firefox extension</source>
-        <target>Firefox-útwreiding</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionIntro">
-        <source>Get more precise control over how your VPN works when you’re browsing, with the Firefox extension.</source>
-        <target>Krij mei de Firefox-útwreiding sekuerdere kontrôle oer hoe’t jo VPN wurket wylst it sneupjen.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionMainButton">
-        <source>Get the extension</source>
-        <target>De útwreiding downloade</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphHead">
-        <source>Choose different locations for different websites.</source>
-        <target>Kies ferskate lokaasjes foar ferskate websites.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphMain">
-        <source>Browse one site as if you’re in New York and another as if you’re in Paris — all in the same Firefox session.</source>
-        <target>Sneup op de iene website as oft jo yn New York binne en op in oare as oft jo yn Parys binne – allegearre yn deselde Firefox-sesje.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>

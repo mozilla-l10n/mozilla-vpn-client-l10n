@@ -962,11 +962,6 @@
         <target>ถ้าคุณเปิดใช้งานคุณลักษณะเหล่านี้ คุณลักษณะเหล่านี้จะแทนที่ค่า DNS กำหนดเองทั้งหมดที่คุณกำลังใช้อยู่ การป้องกันเหล่านี้ไม่สามารถทดแทนมาตรการความปลอดภัยอื่นๆ ได้ ตัวอย่างเช่น ขณะที่ปิดกั้นมัลแวร์ คุณก็ควรหลีกเลี่ยงการดาวน์โหลดไฟล์แนบที่มากับอีเมลซึ่งดูแปลก</target>
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
-        <source>What can privacy features do for me?</source>
-        <target>คุณลักษณะความเป็นส่วนตัวทำอะไรให้ฉันได้บ้าง?</target>
-        <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
-      </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle">
         <source>Privacy features</source>
         <target>คุณลักษณะความเป็นส่วนตัว</target>
@@ -2079,10 +2074,6 @@ Is %@ connected?
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
         <target>มีบัญชี Mozilla อื่นได้สมัครสมาชิกโดยใช้ Apple ID นี้แล้ว โปรดออกจากระบบแล้วลองใหม่อีกครั้งหรือติดต่อทีมสนับสนุนของเราเพื่อขอความช่วยเหลือ</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.bodyText">
-        <source>This server location is temporarily unavailable. Choose a new location.</source>
-        <target>ตำแหน่งเซิร์ฟเวอร์นี้ไม่สามารถใช้งานได้ชั่วคราว โปรดเลือกตำแหน่งใหม่</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
         <target>เซิร์ฟเวอร์นี้ไม่พร้อมใช้งานชั่วคราว ลองเลือกตำแหน่งใหม่หรือเปลี่ยนวิธีการอำพราง</target>
@@ -2105,10 +2096,6 @@ Is %@ connected?
         <source>Server unavailable</source>
         <target>เซิร์ฟเวอร์ใช้ไม่ได้</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
-        <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
-        <target>ตำแหน่งเซิร์ฟเวอร์นี้ไม่สามารถใช้งานได้ชั่วคราว โปรดเปิดแอปเพื่อเลือกตำแหน่งใหม่</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
         <target>เซิร์ฟเวอร์นี้ไม่พร้อมใช้งานชั่วคราว โปรดเปิดแอปเพื่อเลือกตำแหน่งใหม่หรือลองเปลี่ยนวิธีการอำพราง</target>
@@ -2118,10 +2105,6 @@ Is %@ connected?
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
         <target>เซิร์ฟเวอร์นี้ไม่พร้อมใช้งานชั่วคราว ลองเลือกตำแหน่งใหม่หรือเปิดการอำพราง</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
-        <source>The server has been blocked. Check your firewall settings.</source>
-        <target>เซิร์ฟเวอร์ถูกปิดกั้น โปรดตรวจสอบการตั้งค่าไฟร์วอลล์ของคุณ</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
@@ -2313,38 +2296,6 @@ Is %@ connected?
       <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>ตัวเลือกเหล่านี้อาจทำให้บางเว็บไซต์ใช้งานไม่ได้หรือแสดงผลเนื้อหาไม่ถูกต้อง</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
-        <source>Download Firefox</source>
-        <target>ดาวน์โหลด Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
-        <source>Turn off VPN for specific websites.</source>
-        <target>ปิด VPN สำหรับแต่ละเว็บไซต์</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
-        <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
-        <target>ไม่ต้องเสียเวลาเปิด/ปิด VPN ทุกครั้งที่ต้องการใช้งานไซต์อีกต่อไป นอกจากนี้ การตั้งค่า VPN ที่คุณกำหนดไว้จะถูกบันทึกไว้ คุณจึงไม่ต้องปรับเปลี่ยนทุกครั้ง</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionInfo">
-        <source>Firefox extension</source>
-        <target>ส่วนขยาย Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionIntro">
-        <source>Get more precise control over how your VPN works when you’re browsing, with the Firefox extension.</source>
-        <target>ควบคุมการทำงานของ VPN ได้อย่างแม่นยำยิ่งขึ้นขณะท่องเว็บ ด้วยส่วนขยาย Firefox นี้</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionMainButton">
-        <source>Get the extension</source>
-        <target>รับส่วนขยาย</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphHead">
-        <source>Choose different locations for different websites.</source>
-        <target>เลือกตำแหน่งที่แตกต่างกันสำหรับเว็บไซต์ต่าง ๆ</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphMain">
-        <source>Browse one site as if you’re in New York and another as if you’re in Paris — all in the same Firefox session.</source>
-        <target>ท่องไซต์หนึ่งราวกับว่าคุณอยู่ในนิวยอร์ก และท่องอีกไซต์หนึ่งราวกับว่าคุณอยู่ในปารีส ทั้งหมดนี้ในเซสชัน Firefox เดียวกัน</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>

@@ -962,11 +962,6 @@
         <target>Om du aktiverar dessa funktioner kommer de att skriva över alla anpassade DNS-funktioner du använder. Dessa skydd är inte ett substitut för att vidta andra säkerhetsåtgärder — till exempel när du blockerar skadlig programvara bör du ändå undvika att ladda ner bilagor i konstiga e-postmeddelanden.</target>
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
-        <source>What can privacy features do for me?</source>
-        <target>Vad kan sekretessfunktioner göra för mig?</target>
-        <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
-      </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle">
         <source>Privacy features</source>
         <target>Sekretessfunktioner</target>
@@ -2072,10 +2067,6 @@ Is %@ connected?
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
         <target>Ett annat Mozilla-konto har redan prenumererat med detta Apple-ID. Logga ut och försök igen eller kontakta vårt supportteam för hjälp.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.bodyText">
-        <source>This server location is temporarily unavailable. Choose a new location.</source>
-        <target>Denna serverplats är inte tillgänglig för tillfället. Välj en ny plats.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
         <target>Den här serverplatsen är tillfälligt otillgänglig. Välj en ny plats eller prova en annan obfuskeringsmetod.</target>
@@ -2098,10 +2089,6 @@ Is %@ connected?
         <source>Server unavailable</source>
         <target>Server otillgänglig</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
-        <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
-        <target>Denna serverplats är inte tillgänglig för tillfället. Öppna appen för att välja en ny plats.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
         <target>Den här serverplatsen är tillfälligt otillgänglig. Öppna appen för att välja en ny plats eller prova en annan obfuskeringsmetod.</target>
@@ -2111,10 +2098,6 @@ Is %@ connected?
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
         <target>Den här serverplatsen är tillfälligt otillgänglig. Öppna appen för att välja en ny plats eller försök att aktivera obfuskering.</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
-        <source>The server has been blocked. Check your firewall settings.</source>
-        <target>Servern har blockerats. Kontrollera dina brandväggsinställningar.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
@@ -2308,38 +2291,6 @@ Is %@ connected?
       <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>Dessa alternativ kan göra att vissa webbplatser ser konstiga ut eller inte visas korrekt.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
-        <source>Download Firefox</source>
-        <target>Hämta Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
-        <source>Turn off VPN for specific websites.</source>
-        <target>Stäng av VPN för specifika webbplatser.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
-        <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
-        <target>Inget mer att slå på och av ditt VPN när du vill att en webbplats ska fungera. Dessutom sparas dina inställningar för webbplatsen så att du inte behöver justera den varje gång.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionInfo">
-        <source>Firefox extension</source>
-        <target>Tillägget Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionIntro">
-        <source>Get more precise control over how your VPN works when you’re browsing, with the Firefox extension.</source>
-        <target>Få mer exakt kontroll över hur ditt VPN fungerar när du surfar, med tillägget Firefox.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionMainButton">
-        <source>Get the extension</source>
-        <target>Hämta tillägget</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphHead">
-        <source>Choose different locations for different websites.</source>
-        <target>Välj olika platser för olika webbplatser.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphMain">
-        <source>Browse one site as if you’re in New York and another as if you’re in Paris — all in the same Firefox session.</source>
-        <target>Surfa på en webbplats som om du vore i New York och en på annan som om du var i Paris — allt i samma Firefox-session.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>

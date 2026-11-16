@@ -958,11 +958,6 @@
         <target>Nëse i aktivizoni këto veçori, ato do të mbishkruajnë çfarëdo DNS vetjake që po përdorni. Këto mbrojtje s’përbëjnë zëvendësim të marrjes së masave të tjera parandaluese për mbrojtjen e sigurisë — për shembull, teksa bllokohet “malware”, prapë duhet të shmangni shkarkim bashkëngjitjes nga email-e të çuditshëm.</target>
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
-        <source>What can privacy features do for me?</source>
-        <target>Ç’mund të bëjnë për mua veçoritë e privatësisë?</target>
-        <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
-      </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle">
         <source>Privacy features</source>
         <target>Veçori privatësie</target>
@@ -2033,10 +2028,6 @@ Is %@ connected?
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
         <target>Është pajtuar tashmë një tjetër llogari Mozilla duke përdorur këtë Apple ID. Ju lutemi, bëni daljen prej saj dhe riprovoni, ose lidhuni me ekipin tonë të asistencës për ndihmë.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.bodyText">
-        <source>This server location is temporarily unavailable. Choose a new location.</source>
-        <target>Vendndodhja e këtij shërbyesi përkohësisht s’mund të kihet. Zgjidhni një vendndodhje të re.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
         <note annotates="source" from="developer">Server unavailable modal body shown when an obfuscation policy is selected.</note>
@@ -2056,10 +2047,6 @@ Is %@ connected?
         <source>Server unavailable</source>
         <target>Shërbyes i pakapshëm</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
-        <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
-        <target>Kjo vendndodhje shërbyesi është përkohësisht e pakapshme. Ju lutemi, hapni aplikacionin që të zgjidhni një vendndodhje të re.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
         <note annotates="source" from="developer">Server unavailable notification, shown when an obfuscation policy is selected.</note>
@@ -2067,10 +2054,6 @@ Is %@ connected?
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextEnableObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
-        <source>The server has been blocked. Check your firewall settings.</source>
-        <target>Shërbyesi është bllokuar. Kontrolloni rregullimet tuaja për firewall-in.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
@@ -2256,38 +2239,6 @@ Is %@ connected?
       <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>Këto mundësi mund të sjellin dëmtim të disa sajteve, ose mosshfaqje të tyre si duhet.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
-        <source>Download Firefox</source>
-        <target>Shkarkoni Firefox-in</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
-        <source>Turn off VPN for specific websites.</source>
-        <target>Çaktivizojeni VPN-në për sajte specifike.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
-        <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
-        <target>Mjaft me hapje dhe mbyllje VPN-je, kur ju duhet që të funksionojë një sajt. Plus, parapëlqimi juaj për sajtin ruhet, ndaj s’ju duhet ta ujdisni çdo herë.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionInfo">
-        <source>Firefox extension</source>
-        <target>Zgjerim Firefox-i</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionIntro">
-        <source>Get more precise control over how your VPN works when you’re browsing, with the Firefox extension.</source>
-        <target>Përfitoni kontroll më të saktë mbi se si funksionon VPN-ja juaj, kur shfletoni, me zgjerimin për Firefox.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionMainButton">
-        <source>Get the extension</source>
-        <target>Merreni zgjerimin</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphHead">
-        <source>Choose different locations for different websites.</source>
-        <target>Zgjidhni vendndodhje të ndryshme për sajte të ndryshëm.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphMain">
-        <source>Browse one site as if you’re in New York and another as if you’re in Paris — all in the same Firefox session.</source>
-        <target>Shfletoni një sajt si të gjendeshit në Nju Jork dhe një tjetër si të gjendeshit në Paris — krejt kjo nga i njëjti sesion Firefox-i.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>

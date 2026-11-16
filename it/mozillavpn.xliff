@@ -962,11 +962,6 @@
         <target>Se attivi queste funzioni, eventuali DNS personalizzati che stai utilizzando verranno sovrascritti. Queste protezioni non sostituiscono l’adozione di altre precauzioni di sicurezza: ad esempio, anche se attivi il blocco dei malware dovresti comunque evitare di scaricare allegati in strani messaggi di posta elettronica.</target>
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
-        <source>What can privacy features do for me?</source>
-        <target>Come possono aiutarmi le funzioni per la privacy?</target>
-        <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
-      </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle">
         <source>Privacy features</source>
         <target>Funzioni per la privacy</target>
@@ -2076,10 +2071,6 @@ Is %@ connected?
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
         <target>Un altro account Mozilla è già abbonato con questo ID Apple. Effettua la disconnessione e riprova o contatta il nostro team di supporto per assistenza.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.bodyText">
-        <source>This server location is temporarily unavailable. Choose a new location.</source>
-        <target>Il server per questa posizione è temporaneamente non disponibile. Scegli una nuova posizione.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
         <target>Il server per questa posizione è temporaneamente non disponibile. Scegli una nuova posizione o prova un metodo di offuscamento alternativo.</target>
@@ -2102,10 +2093,6 @@ Is %@ connected?
         <source>Server unavailable</source>
         <target>Server non disponibile</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
-        <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
-        <target>Il server per questa posizione è temporaneamente non disponibile. Apri l’app per scegliere una nuova posizione.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
         <target>Il server per questa posizione è temporaneamente non disponibile. Apri l’app per scegliere una nuova posizione o prova un metodo di offuscamento alternativo.</target>
@@ -2115,10 +2102,6 @@ Is %@ connected?
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
         <target>Il server per questa posizione è temporaneamente non disponibile. Apri l’app per scegliere una nuova posizione o prova ad attivare l’offuscamento.</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
-        <source>The server has been blocked. Check your firewall settings.</source>
-        <target>Il server è stato bloccato. Controlla le impostazioni del firewall.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
@@ -2312,38 +2295,6 @@ Is %@ connected?
       <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>Queste opzioni possono causare il malfunzionamento o la mancata visualizzazione di contenuti in alcuni siti web.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
-        <source>Download Firefox</source>
-        <target>Scarica Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
-        <source>Turn off VPN for specific websites.</source>
-        <target>Disattiva la VPN per siti web specifici.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
-        <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
-        <target>Non dovrai più attivare e disattivare la tua VPN quando hai bisogno di far funzionare un sito. Inoltre, la tua preferenza per il sito web viene salvata in modo da non doverla modificare ogni volta.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionInfo">
-        <source>Firefox extension</source>
-        <target>Estensione per Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionIntro">
-        <source>Get more precise control over how your VPN works when you’re browsing, with the Firefox extension.</source>
-        <target>Ottieni un controllo più preciso sul funzionamento della tua VPN durante la navigazione grazie all’estensione per Firefox.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionMainButton">
-        <source>Get the extension</source>
-        <target>Installa l’estensione</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphHead">
-        <source>Choose different locations for different websites.</source>
-        <target>Scegli posizioni diverse per i diversi siti web.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphMain">
-        <source>Browse one site as if you’re in New York and another as if you’re in Paris — all in the same Firefox session.</source>
-        <target>Naviga in un sito come se fossi a New York e in un altro come se fossi a Parigi, il tutto nella stessa sessione di Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>

@@ -962,11 +962,6 @@
         <target>Nếu bạn kích hoạt các tính năng này, chúng sẽ ghi đè bất kỳ DNS tùy chỉnh nào bạn đang sử dụng. Những biện pháp bảo vệ này không thay thế cho việc thực hiện các biện pháp phòng ngừa bảo mật khác — ví dụ, trong khi chặn phần mềm độc hại, bạn vẫn nên tránh tải xuống tập tin đính kèm trong email lạ.</target>
         <note annotates="source" from="developer">Body label for the privacy features help sheet</note>
       </trans-unit>
-      <trans-unit id="vpn.helpSheets.privacyHeader">
-        <source>What can privacy features do for me?</source>
-        <target>Tính năng quyền riêng tư có thể giúp gì cho tôi?</target>
-        <note annotates="source" from="developer">Header label for the privacy features help sheet</note>
-      </trans-unit>
       <trans-unit id="vpn.helpSheets.privacyTitle">
         <source>Privacy features</source>
         <target>Tính năng quyền riêng tư</target>
@@ -2081,10 +2076,6 @@ Is %@ connected?
         <source>Another Mozilla account has already subscribed using this Apple ID. Please sign out and try again or contact our support team for help.</source>
         <target>Một tài khoản Mozilla khác đã đăng ký bằng ID Apple này. Vui lòng đăng xuất và thử lại hoặc liên hệ với nhóm hỗ trợ của chúng tôi để được trợ giúp.</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableModal.bodyText">
-        <source>This server location is temporarily unavailable. Choose a new location.</source>
-        <target>Địa điểm máy chủ này tạm thời không khả dụng. Hãy chọn một địa điểm mới.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableModal.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Choose a new location or try a different obfuscation method.</source>
         <target>Địa điểm máy chủ này hiện không khả dụng. Vui lòng chọn địa điểm khác hoặc thử phương pháp che giấu VPN khác.</target>
@@ -2107,10 +2098,6 @@ Is %@ connected?
         <source>Server unavailable</source>
         <target>Máy chủ không khả dụng</target>
       </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyText">
-        <source>This server location is temporarily unavailable. Please open the app to choose a new location.</source>
-        <target>Địa điểm máy chủ này tạm thời không khả dụng. Vui lòng mở ứng dụng để chọn địa điểm mới.</target>
-      </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextChangeObfuscation">
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try a different obfuscation method.</source>
         <target>Địa điểm máy chủ này hiện không khả dụng. Vui lòng mở ứng dụng để chọn địa điểm mới hoặc thử phương pháp che giấu VPN khác.</target>
@@ -2120,10 +2107,6 @@ Is %@ connected?
         <source>This server location is temporarily unavailable. Please open the app to choose a new location or try to enable obfuscation.</source>
         <target>Địa điểm máy chủ này hiện không khả dụng. Vui lòng mở ứng dụng để chọn địa điểm mới hoặc thử bật tính năng che giấu.</target>
         <note annotates="source" from="developer">Server unavailable notification, shown when no obfuscation policy is selected.</note>
-      </trans-unit>
-      <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlocked">
-        <source>The server has been blocked. Check your firewall settings.</source>
-        <target>Máy chủ đã bị chặn. Hãy kiểm tra cài đặt tường lửa của bạn.</target>
       </trans-unit>
       <trans-unit id="vpn.serverUnavailableNotification.bodyTextFireWallBlockedChangeObfuscation">
         <source>The server has been blocked. Check your firewall settings or try a different obfuscation method.</source>
@@ -2317,38 +2300,6 @@ Is %@ connected?
       <trans-unit id="vpn.settings.dnsSettingsWarning">
         <source>These options may cause some websites to break or not display content correctly.</source>
         <target>Tùy chọn này có thể khiến một số trang web bị hỏng hoặc không hiển thị nội dung chính xác.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirefoxButton">
-        <source>Download Firefox</source>
-        <target>Tải xuống Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphHead">
-        <source>Turn off VPN for specific websites.</source>
-        <target>Tắt VPN cho trang web cụ thể.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionFirstParagraphMain">
-        <source>No more toggling your VPN on and off when you need a site to work. Plus, your preference for the website is saved so you don’t have to adjust it each time.</source>
-        <target>Không cần phải bật và tắt VPN liên tục khi bạn cần một trang web hoạt động. Thêm vào đó, cài đặt của bạn đối với trang web được lưu lại để bạn không phải điều chỉnh mỗi lần.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionInfo">
-        <source>Firefox extension</source>
-        <target>Tiện ích mở rộng cho Firefox</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionIntro">
-        <source>Get more precise control over how your VPN works when you’re browsing, with the Firefox extension.</source>
-        <target>Kiểm soát chính xác hơn cách VPN hoạt động khi bạn duyệt web bằng tiện ích mở rộng Firefox.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionMainButton">
-        <source>Get the extension</source>
-        <target>Tải tiện ích mở rộng</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphHead">
-        <source>Choose different locations for different websites.</source>
-        <target>Chọn các vị trí khác nhau cho các trang web khác nhau.</target>
-      </trans-unit>
-      <trans-unit id="vpn.settings.firefoxExtensionSecondParagraphMain">
-        <source>Browse one site as if you’re in New York and another as if you’re in Paris — all in the same Firefox session.</source>
-        <target>Duyệt một trang web như thể bạn đang ở New York và một trang web khác như thể bạn đang ở Paris — tất cả trong cùng một phiên duyệt web Firefox.</target>
       </trans-unit>
       <trans-unit id="vpn.settings.obfuscationLwoBody">
         <source>Fastest obfuscation method. May help on networks that detect or block WireGuard traffic without adding significant overhead.</source>
